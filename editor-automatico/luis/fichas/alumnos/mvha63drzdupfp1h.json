@@ -1,0 +1,21 @@
+{
+ "cliente": "Jorge Robledo @robledojorge8 · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "TikTok informal y rápido, cercano, de tú a tú",
+ "subtitulo": {
+  "fuente": "poppins"
+ },
+ "clave": {
+  "fuente": "komet",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF4D4D",
+  "bueno": "#FFD60A",
+  "acento": "#FFD60A"
+ },
+ "rotulo": {
+  "fuente": "poppins",
+  "fuente2": "komet"
+ },
+ "musica_src": "lib/musica/connor-price-haviah-mighty-koren-trendsetter-instr.mp3"
+}

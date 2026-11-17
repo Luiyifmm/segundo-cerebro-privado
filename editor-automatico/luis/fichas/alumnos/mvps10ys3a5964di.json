@@ -1,0 +1,21 @@
+{
+ "cliente": "Lorena Castaño @jlenlacedigital · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "marketing para abogados e inmigración: humano, sobrio y de confianza; sin efectos agresivos",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "playfair",
+  "mayusculas": false
+ },
+ "colores": {
+  "malo": "#C0392B",
+  "bueno": "#D4AF37",
+  "acento": "#D4AF37"
+ },
+ "rotulo": {
+  "fuente": "sfpro-bold",
+  "fuente2": "playfair"
+ },
+ "musica_src": "lib/musica/golden-hour-piano-version.mp3"
+}

@@ -1,0 +1,21 @@
+{
+ "cliente": "Miguel Ángel Romero Morillas @romeromorillas · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "padre que trabaja a turnos: emocional y honesto; dejar respirar las frases",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "nyght-italic",
+  "mayusculas": false
+ },
+ "colores": {
+  "malo": "#E5322D",
+  "bueno": "#F2A541",
+  "acento": "#F2A541"
+ },
+ "rotulo": {
+  "fuente": "sfpro-bold",
+  "fuente2": "nyght-italic"
+ },
+ "musica_src": "lib/musica/the-cinematic-orchestra-to-build-a-home-there-is-a.mp3"
+}

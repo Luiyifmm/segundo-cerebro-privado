@@ -1,0 +1,14 @@
+{
+ "cliente": "alumno de Trainer10x (entrenador personal) · ficha del Claude de Luis, 14-11-2026",
+ "nota": "Decisiones de Luis (14-11): mismo look que Amin (SF Pro + Nyght cursiva), música baja en los vídeos con voz, tarjetas de texto como insertos, y en los vídeos sin voz el texto en pantalla del guion como rótulo.",
+ "direccion": "natural, clara y cercana; es un entrenador hablando a su cliente. Recursos solo si ayudan a entender o retener",
+ "subtitulo": {"fuente": "sfpro-bold", "tam": 62, "color": "#FFFFFF", "y_px": 1130},
+ "clave": {"fuente": "nyght-italic", "tam": 140, "mayusculas": false},
+ "max_palabras": 4,
+ "colores": {"malo": "#E5322D", "bueno": "#F5C542"},
+ "encuadre": {"zoom_base": 1.3, "zoom_alterno": 1.42},
+ "musica": "baja, de fondo, siempre por debajo de la voz (la pone el código; no elijas otra salvo que el alumno nombre una canción)",
+ "musica_src": "lib/musica/ardie-son-infinite-circles-no-backing-vocals.mp3",
+ "sfx": "como mucho uno por cambio fuerte, bajo",
+ "insertos": "NO son fotos: son tarjetas de fondo blanco con 1-3 palabras en negro. En cada inserto pon \"palabra\" = la palabra exacta que se dice y, si ayuda, \"texto\" = 1-3 palabras que resumen la idea (p. ej. «0 RESULTADOS», «CARDIO»). Como mucho 2-3 por vídeo y solo en ideas fuertes; si no aportan, déjalo vacío."
+}

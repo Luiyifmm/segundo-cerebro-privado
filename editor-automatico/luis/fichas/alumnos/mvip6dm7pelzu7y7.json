@@ -1,0 +1,21 @@
+{
+ "cliente": "Camilo Arias @camiloariasfittmtb · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "ciclismo de montaña y fuerza: técnico, deportivo, limpio",
+ "subtitulo": {
+  "fuente": "sequel-bold"
+ },
+ "clave": {
+  "fuente": "sequel",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF5A36",
+  "bueno": "#C6FF00",
+  "acento": "#C6FF00"
+ },
+ "rotulo": {
+  "fuente": "sequel-bold",
+  "fuente2": "sequel"
+ },
+ "musica_src": "lib/musica/wilee-night-drive-b9vh-jz1744-140.mp3"
+}

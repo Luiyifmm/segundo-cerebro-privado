@@ -1,0 +1,12 @@
+{
+ "cliente": "Amin (@aminbusinesss) · ficha del Claude de Luis, 30-10-2026",
+ "nota": "Corrección de Luis (30-10): con Amin la letra es SF Pro, más una segunda que combine para dar dinamismo. Manda sobre sistema/fichas/amin.json (Instrument Serif + Anton).",
+ "direccion": "natural, elegante y clara; recursos solo si ayudan a entender o retener",
+ "subtitulo": {"fuente": "sfpro-bold", "tam": 62, "color": "#FFFFFF", "y_px": 1130},
+ "clave": {"fuente": "nyght-italic", "tam": 140, "mayusculas": false},
+ "max_palabras": 4,
+ "colores": {"malo": "#E5322D", "bueno": "#F5C542"},
+ "encuadre": {"zoom_base": 1.3, "zoom_alterno": 1.42},
+ "musica": "ninguna salvo que Amin la elija",
+ "sfx": "como mucho uno por gráfico, bajo (-18 dB aprox.)"
+}

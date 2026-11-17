@@ -1,0 +1,24 @@
+EDITING LUIYI PACK — tu ÚNICA carpeta de materiales de edición (actualizado 12-11-2026)
+Todo lo de los packs de Drive (PACKS y RECURSOS DE EDICIÓN) ya está copiado aquí; Drive queda solo como respaldo.
+
+Efectos de sonido/      Ordenados por función, como las librerías profesionales (carpetas planas y numeradas):
+   00 FAVORITOS                 Los 41 que más usas en tus proyectos (son COPIAS: también están en su categoría).
+   01 Whooshes y transiciones   02 Risers y subidas        03 Impactos y golpes      04 Bajos y drops
+   05 Glitch y digital          06 Interfaz y clics        07 Pops, brillos y acentos 08 Cámara y obturador
+   09 Dinero y caja             10 Teclado y escritura     11 Foley y objetos         12 Ambientes y drones
+   13 Explosiones               14 Meme, cartoon y voces   _Licencias
+B-roll/                 Vídeos de apoyo (memes, Pinterest, «Cinemático (pack)»).
+Música/                 Canciones para reels + «Música de fondo (pack)».
+Imágenes/               Fotos, PNG sin fondo, logos, iconos, «Objetos 3D».
+Fondos y texturas/      Fondos abstractos y texturas de papel.
+Overlays y CTA/         Botón seguir IG, perfil, X roja, interfaz TikTok, flechas estilo Iman Gadzhi.
+Overlays y transiciones/ Film burns, destellos anamórficos, transiciones glitch, marcos Super 8mm.
+Plantillas (MOGRT y After Effects)/  MOGRT y animaciones de texto; incluye copia de los MOGRT instalados en tu Premiere.
+Presets/                Premiere (subtítulos V2/V3/Minimal, tus presets de efectos, exportación max h264),
+                        After Effects, CapCut, DaVinci Resolve y LUTs.
+Plugins (instaladores)/ Deep Glow, Portal, Kease, Arrow, Cockpit, VoiceLab, KBar…
+Fuentes/                Tipografías para instalar.
+Guías/                  Zona segura para vertical.
+
+Mapas de lo que se movió: 9 OTROS/mapa-sfx-reorganizados-2026-11-12.json y 9 OTROS/integracion-packs-drive-2026-11-12.json
+Tus proyectos de Premiere ya apuntan a las rutas nuevas (respaldo de cada uno en 9 OTROS/respaldos proyectos/).

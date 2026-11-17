@@ -1,0 +1,21 @@
+{
+ "cliente": "Miguel Santos @9miguesantos · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "nutrición para futbolistas: deportivo, de vestuario, con ritmo",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "bebas",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF3B30",
+  "bueno": "#34C759",
+  "acento": "#34C759"
+ },
+ "rotulo": {
+  "fuente": "bebas",
+  "fuente2": "sfpro-black"
+ },
+ "musica_src": "lib/musica/life-in-rio-brazilian-phonk.mp3"
+}

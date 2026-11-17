@@ -1,0 +1,21 @@
+{
+ "cliente": "Paula Font @bypaulaafitt · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "chica joven que trabaja en un gimnasio: tendencia TikTok, divertida, de vergüenza a seguridad",
+ "subtitulo": {
+  "fuente": "poppins"
+ },
+ "clave": {
+  "fuente": "signpainter",
+  "mayusculas": false
+ },
+ "colores": {
+  "malo": "#FF4D6D",
+  "bueno": "#C77DFF",
+  "acento": "#C77DFF"
+ },
+ "rotulo": {
+  "fuente": "poppins",
+  "fuente2": "signpainter"
+ },
+ "musica_src": "lib/musica/luminary-joel-sunny-tiktok-version.mp3"
+}

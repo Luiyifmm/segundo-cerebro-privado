@@ -1,0 +1,246 @@
+{
+ "mantener": [
+  26,
+  30,
+  27,
+  28,
+  19,
+  29,
+  31,
+  33,
+  35,
+  36,
+  42,
+  43,
+  45,
+  49
+ ],
+ "quitadas": [
+  {
+   "i": 0,
+   "por_que": "suelto antes de grabar, no aporta"
+  },
+  {
+   "i": 1,
+   "por_que": "indicación a cámara sobre el silencio"
+  },
+  {
+   "i": 2,
+   "por_que": "indicación a cámara sobre el silencio"
+  },
+  {
+   "i": 3,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 4,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 5,
+   "por_que": "cuenta atrás"
+  },
+  {
+   "i": 6,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 7,
+   "por_que": "arranque a medias («tener novia.» suelto); la idea se dice entera en la 26"
+  },
+  {
+   "i": 8,
+   "por_que": "toma dudada («de pobre, mediocre no de pobre»): dos versiones en la misma frase"
+  },
+  {
+   "i": 9,
+   "por_que": "pregunta del entrevistador, fuera de plano"
+  },
+  {
+   "i": 10,
+   "por_que": "pregunta del entrevistador, fuera de plano"
+  },
+  {
+   "i": 11,
+   "por_que": "arranque en falso"
+  },
+  {
+   "i": 12,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 13,
+   "por_que": "suelta, sin contexto y a medias"
+  },
+  {
+   "i": 14,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 15,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 16,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 17,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 18,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 20,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 21,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 22,
+   "por_que": "toma repetida: vale la 26 (última completa)"
+  },
+  {
+   "i": 23,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 24,
+   "por_que": "toma repetida: vale la 26"
+  },
+  {
+   "i": 25,
+   "por_que": "toma repetida: vale la 26"
+  },
+  {
+   "i": 32,
+   "por_que": "frase a medias: vale la 33"
+  },
+  {
+   "i": 34,
+   "por_que": "toma repetida: vale la 35 (última)"
+  },
+  {
+   "i": 37,
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "i": 38,
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "i": 39,
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "i": 40,
+   "por_que": "toma repetida con «Espérate» delante y «¿no?» al final: vale la 42"
+  },
+  {
+   "i": 41,
+   "por_que": "toma repetida: vale la 42 (última)"
+  },
+  {
+   "i": 44,
+   "por_que": "pregunta a cámara"
+  },
+  {
+   "i": 46,
+   "por_que": "CTA descartado: Amin prefiere el del ganador (frase 50)"
+  },
+  {
+   "i": 47,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 48,
+   "por_que": "CTA descartado: Amin prefiere el del ganador"
+  },
+  {
+   "i": 50,
+   "por_que": "comentario de Amin eligiendo el CTA"
+  }
+ ],
+ "correcciones": {
+  "sólo": "solo"
+ },
+ "claves": {
+  "arruinado": "#E5322D",
+  "perdedor": "#E5322D",
+  "imperio": "#F5C542",
+  "valor": "#F5C542"
+ },
+ "zoom_fuerte": [
+  35,
+  42
+ ],
+ "titular": null,
+ "sfx": [
+  {
+   "frase": 28,
+   "palabra": "cartera",
+   "tipo": "pop",
+   "por_que": "entra el primer inserto"
+  },
+  {
+   "frase": 36,
+   "palabra": "olvídate",
+   "tipo": "whoosh",
+   "por_que": "giro: del problema a la orden"
+  },
+  {
+   "frase": 42,
+   "palabra": "imperio",
+   "tipo": "golpe",
+   "por_que": "la moraleja"
+  }
+ ],
+ "rotulos": [
+  {
+   "frase": 26,
+   "texto": "te quita tu / *tiempo* y tu foco",
+   "tono": "malo"
+  },
+  {
+   "frase": 42,
+   "texto": "primero / tu *imperio*",
+   "tono": "bueno"
+  }
+ ],
+ "insertos": [
+  {
+   "frase": 28,
+   "palabra": "cartera",
+   "busqueda": "empty leather wallet vintage photograph",
+   "por_que": "cartera vacía → un objeto, se entiende al instante"
+  },
+  {
+   "frase": 31,
+   "palabra": "restaurantes",
+   "busqueda": "oil painting lavish banquet renaissance",
+   "por_que": "restaurantes caros → banquete de lujo"
+  },
+  {
+   "frase": 45,
+   "palabra": "mujer",
+   "busqueda": "renaissance portrait noblewoman oil painting",
+   "por_que": "mujer de valor → retrato clásico y elegante"
+  }
+ ],
+ "dudas": [
+  "No hay guion. Coloqué la 19 («Y por eso casi todo el mundo está arruinado») justo después de «te vacía la cartera», que es donde mejor encaja. En el bruto contestaba a una pregunta. Si Luis la ve forzada, se puede quitar.",
+  "La 31 empieza por «y gastarte dinero…», que es la mitad de una frase. Detrás de la 29 queda un poco suelta, pero la 33 la necesita. Hay que revisarla al oírlo.",
+  "El planteamiento original («tener novia es de pobre / mediocre») no tiene ninguna toma limpia (7 y 8). El vídeo arranca directamente con el primer argumento."
+ ],
+ "notas": [
+  "El gancho es la última toma limpia de «Tener novia te quita tu tiempo y tu foco», con rótulo en rojo. Fuera todo el ruido de grabación.",
+  "Los argumentos van de tiempo a dinero, de ahí a la ruina y luego a mendigar. Así se escalan hasta «perdedor arrastrado», que lleva zoom fuerte.",
+  "«Olvídate…» lleva whoosh porque marca el giro hacia la solución.",
+  "La moraleja «Un ganador primero construye su imperio» lleva rótulo dorado, zoom fuerte y el único golpe del vídeo.",
+  "El CTA es «Sígueme para ser un ganador», el que Amin dijo preferir. Cierra el vídeo con la misma idea del ganador."
+ ]
+}

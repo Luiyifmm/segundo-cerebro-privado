@@ -1,0 +1,1589 @@
+{
+ "video": "Ejemplo profundidad (IMG_6123)",
+ "bruto": "IMG_6123.MOV",
+ "duracion_final_s": 49.42,
+ "cortes": [
+  {
+   "bruto_s": 17.43,
+   "bruto_e": 20.205,
+   "por_que": "frase 3: «5 tipos de mujeres con las que no puedes perder tu tiempo.»"
+  },
+  {
+   "bruto_s": 20.14,
+   "bruto_e": 22.33,
+   "por_que": "frase 4: «La quinta es la peor y con diferencia.»"
+  },
+  {
+   "bruto_s": 29.35,
+   "bruto_e": 32.58,
+   "por_que": "frase 5: «Primero, la que utiliza la intimidad como premio o castigo.»"
+  },
+  {
+   "bruto_s": 37.5,
+   "bruto_e": 39.55,
+   "por_que": "frase 6: «Es una manipuladora y no te ama.»"
+  },
+  {
+   "bruto_s": 54.96,
+   "bruto_e": 61.5,
+   "por_que": "frase 11: «2 la que nunca 2 la que nunca acepta que se equivoca y no pi»"
+  },
+  {
+   "bruto_s": 67.52,
+   "bruto_e": 68.76,
+   "por_que": "frase 12: «Ni te lo explico.»"
+  },
+  {
+   "bruto_s": 68.94,
+   "bruto_e": 70.94,
+   "por_que": "frase 13: «Pasa de ella y me lo agradecerás.»"
+  },
+  {
+   "bruto_s": 71.71,
+   "bruto_e": 72.44,
+   "por_que": "frase 14: «3»"
+  },
+  {
+   "bruto_s": 87.66,
+   "bruto_e": 90.62,
+   "por_que": "frase 16: «la que necesita mantener a su ganado de amiguitos hombres.»"
+  },
+  {
+   "bruto_s": 96.16,
+   "bruto_e": 98.23,
+   "por_que": "frase 17: «No tienes tiempo para esperar que maduren.»"
+  },
+  {
+   "bruto_s": 105.42,
+   "bruto_e": 106.22,
+   "por_que": "frase 19: «4»"
+  },
+  {
+   "bruto_s": 116.16,
+   "bruto_e": 119.05,
+   "por_que": "frase 23: «La que no te respeta, no te valora y no te apoya.»"
+  },
+  {
+   "bruto_s": 124.26,
+   "bruto_e": 126.475,
+   "por_que": "frase 24: «Red flag como una catedral.»"
+  },
+  {
+   "bruto_s": 126.46,
+   "bruto_e": 127.97,
+   "por_que": "frase 25: «Vete sin dar explicaciones.»"
+  },
+  {
+   "bruto_s": 133.06,
+   "bruto_e": 134.87,
+   "por_que": "frase 26: «Y por quinto, la peor, la que solo pide y gasta.»"
+  },
+  {
+   "bruto_s": 134.96,
+   "bruto_e": 136.25,
+   "por_que": "frase 26: «Y por quinto, la peor, la que solo pide y gasta.»"
+  },
+  {
+   "bruto_s": 141.59,
+   "bruto_e": 144.86,
+   "por_que": "frase 27: «Te ve como su cajero automático y no como su hombre.»"
+  },
+  {
+   "bruto_s": 198.66,
+   "bruto_e": 203.36,
+   "por_que": "frase 34: «Un ganador no pierde ni un segundo de energía aguantando a m»"
+  },
+  {
+   "bruto_s": 238.88,
+   "bruto_e": 243.46,
+   "por_que": "frase 40: «Invierte todo su tiempo en construir riqueza.»"
+  },
+  {
+   "bruto_s": 247.57,
+   "bruto_e": 249.46,
+   "por_que": "frase 42: «Sígueme para mejorar tu vida.»"
+  }
+ ],
+ "quitadas": [
+  {
+   "frase": 0,
+   "texto": "Dale caña.",
+   "por_que": "indicación a cámara antes de empezar"
+  },
+  {
+   "frase": 1,
+   "texto": "¡Durido eso, eh!",
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "frase": 2,
+   "texto": "5 tipos de mujeres con las que no puedes perder tu tiempo.",
+   "por_que": "toma repetida del gancho: las dos están limpias, vale la 3 (la última)"
+  },
+  {
+   "frase": 7,
+   "texto": "Siguiente.",
+   "por_que": "«siguiente»: indicación entre tomas"
+  },
+  {
+   "frase": 8,
+   "texto": "Dos.",
+   "por_que": "arranque en falso: el «2» ya está dentro de la 11"
+  },
+  {
+   "frase": 9,
+   "texto": "Espera, espera, espera.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 10,
+   "texto": "Repite, porfa.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 15,
+   "texto": "la que necesita mantener a su ganado de amiguitos.",
+   "por_que": "toma incompleta: la 16 añade «hombres» y es la última completa"
+  },
+  {
+   "frase": 18,
+   "texto": "Siguiente.",
+   "por_que": "«siguiente»: indicación entre tomas"
+  },
+  {
+   "frase": 20,
+   "texto": "Es la cuarta, ¿verdad?",
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "frase": 21,
+   "texto": "Sí, ¿no?",
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "frase": 22,
+   "texto": "Repíteme la frase, por favor.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 28,
+   "texto": "Espérate, jolo una second, espérate.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 29,
+   "texto": "¿Cómo era?",
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "frase": 30,
+   "texto": "Ganador, y recuerda esta frase, ganador no pierde ni un segundo de su energía.",
+   "por_que": "toma incompleta de la moraleja y con un inciso; vale la 34"
+  },
+  {
+   "frase": 31,
+   "texto": "con mujeres que le restan.",
+   "por_que": "final suelto de la toma 30"
+  },
+  {
+   "frase": 32,
+   "texto": "No, no, no, repíteme la frase de la mujer, que no se me ha olvidado.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 33,
+   "texto": "Gandoador no pierde tiempo, ¿gó qué?",
+   "por_que": "toma fallida y mal dicha"
+  },
+  {
+   "frase": 35,
+   "texto": "aguantando mujeres, esperate, esperate, aguantando mujeres que le restan",
+   "por_que": "toma rota con «espérate» en medio; vale la 34, que está completa"
+  },
+  {
+   "frase": 36,
+   "texto": "Vale, ahora te lo saco.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 37,
+   "texto": "Espera, espera un segundo.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 38,
+   "texto": "¿Invierte su tiempo en qué?",
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "frase": 39,
+   "texto": "Invierte todo su tiempo en construir riqueza.",
+   "por_que": "toma repetida: vale la 40"
+  },
+  {
+   "frase": 41,
+   "texto": "Sígueme para mejorar tu vida.",
+   "por_que": "toma repetida del cierre: vale la 42"
+  },
+  {
+   "frase": 43,
+   "texto": "vamos a hacer unos potis",
+   "por_que": "comentario después de grabar"
+  }
+ ],
+ "subtitulos": [
+  {
+   "s": 0.0,
+   "e": 0.36,
+   "linea": "5",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.36,
+   "e": 0.62,
+   "linea": "tipos",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.62,
+   "e": 0.76,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.76,
+   "e": 1.04,
+   "linea": "mujeres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.04,
+   "e": 1.24,
+   "linea": "con",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.24,
+   "e": 1.38,
+   "linea": "las",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.38,
+   "e": 1.5,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.5,
+   "e": 1.62,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.62,
+   "e": 1.9,
+   "linea": "puedes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.9,
+   "e": 2.16,
+   "linea": "perder",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.16,
+   "e": 2.34,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.34,
+   "e": 2.6,
+   "linea": "tiempo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.78,
+   "e": 3.16,
+   "linea": "La",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.16,
+   "e": 3.52,
+   "linea": "quinta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.52,
+   "e": 3.68,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.68,
+   "e": 3.78,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.78,
+   "e": 4.06,
+   "linea": "peor",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.06,
+   "e": 4.12,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.12,
+   "e": 4.26,
+   "linea": "con",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.26,
+   "e": 4.66,
+   "linea": "diferencia.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.12,
+   "e": 5.56,
+   "linea": "Primero,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.78,
+   "e": 5.96,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.96,
+   "e": 6.1,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.1,
+   "e": 6.5,
+   "linea": "utiliza",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.5,
+   "e": 6.72,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.72,
+   "e": 7.08,
+   "linea": "intimidad",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.08,
+   "e": 7.34,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.34,
+   "e": 7.7,
+   "linea": "premio",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.7,
+   "e": 7.82,
+   "linea": "o",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.82,
+   "e": 8.12,
+   "linea": "castigo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.3,
+   "e": 8.5,
+   "linea": "Es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.5,
+   "e": 8.62,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.62,
+   "e": 9.26,
+   "linea": "manipuladora",
+   "clave": "manipuladora",
+   "color": "#E5322D"
+  },
+  {
+   "s": 9.26,
+   "e": 9.6,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.6,
+   "e": 9.78,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.78,
+   "e": 9.92,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.92,
+   "e": 10.12,
+   "linea": "ama.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.06,
+   "e": 11.48,
+   "linea": "Dos,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.7,
+   "e": 11.86,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.86,
+   "e": 11.98,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.98,
+   "e": 12.16,
+   "linea": "nunca",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.16,
+   "e": 12.5,
+   "linea": "acepta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.5,
+   "e": 12.6,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.6,
+   "e": 12.72,
+   "linea": "se",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.72,
+   "e": 13.16,
+   "linea": "equivoca",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.16,
+   "e": 13.86,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.86,
+   "e": 14.08,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.08,
+   "e": 14.36,
+   "linea": "pide",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.36,
+   "e": 14.78,
+   "linea": "perdón.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.02,
+   "e": 15.38,
+   "linea": "Ni",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.38,
+   "e": 15.54,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.54,
+   "e": 15.64,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.64,
+   "e": 16.04,
+   "linea": "explico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.3,
+   "e": 16.58,
+   "linea": "Pasa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.58,
+   "e": 16.74,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.74,
+   "e": 16.94,
+   "linea": "ella",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.94,
+   "e": 17.2,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.2,
+   "e": 17.3,
+   "linea": "me",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.3,
+   "e": 17.38,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.38,
+   "e": 17.96,
+   "linea": "agradecerás.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.32,
+   "e": 18.66,
+   "linea": "Tres,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.0,
+   "e": 19.2,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.2,
+   "e": 19.32,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.32,
+   "e": 19.72,
+   "linea": "necesita",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.72,
+   "e": 20.08,
+   "linea": "mantener",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.08,
+   "e": 20.32,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.32,
+   "e": 20.42,
+   "linea": "su",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.42,
+   "e": 20.7,
+   "linea": "ganado",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.7,
+   "e": 20.84,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.84,
+   "e": 21.24,
+   "linea": "amiguitos",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.24,
+   "e": 21.56,
+   "linea": "hombres.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.96,
+   "e": 22.22,
+   "linea": "No",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.22,
+   "e": 22.44,
+   "linea": "tienes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.44,
+   "e": 22.74,
+   "linea": "tiempo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.74,
+   "e": 23.02,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.02,
+   "e": 23.28,
+   "linea": "esperar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.28,
+   "e": 23.46,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.46,
+   "e": 23.8,
+   "linea": "maduren.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.12,
+   "e": 24.5,
+   "linea": "Cuatro,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.84,
+   "e": 25.06,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.06,
+   "e": 25.18,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.18,
+   "e": 25.28,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.28,
+   "e": 25.4,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.4,
+   "e": 25.84,
+   "linea": "respeta,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.04,
+   "e": 26.16,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.16,
+   "e": 26.3,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.3,
+   "e": 26.64,
+   "linea": "valora",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.64,
+   "e": 26.92,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.92,
+   "e": 27.08,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.08,
+   "e": 27.24,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.24,
+   "e": 27.5,
+   "linea": "apoya.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.72,
+   "e": 28.06,
+   "linea": "Red",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.06,
+   "e": 28.4,
+   "linea": "flag",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.4,
+   "e": 29.08,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.08,
+   "e": 29.26,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.26,
+   "e": 29.72,
+   "linea": "catedral.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.0,
+   "e": 30.22,
+   "linea": "Vete",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.22,
+   "e": 30.4,
+   "linea": "sin",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.4,
+   "e": 30.56,
+   "linea": "dar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.56,
+   "e": 31.22,
+   "linea": "explicaciones.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.6,
+   "e": 31.66,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.66,
+   "e": 31.86,
+   "linea": "por",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.86,
+   "e": 32.2,
+   "linea": "quinto,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.44,
+   "e": 32.64,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.64,
+   "e": 32.96,
+   "linea": "peor.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.22,
+   "e": 33.4,
+   "linea": "La",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.4,
+   "e": 33.56,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.56,
+   "e": 33.7,
+   "linea": "solo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.7,
+   "e": 34.0,
+   "linea": "pide",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.0,
+   "e": 34.12,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.12,
+   "e": 34.34,
+   "linea": "gasta.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.62,
+   "e": 34.78,
+   "linea": "Te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.78,
+   "e": 34.88,
+   "linea": "ve",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.88,
+   "e": 35.06,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.06,
+   "e": 35.2,
+   "linea": "su",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.2,
+   "e": 35.48,
+   "linea": "cajero",
+   "clave": "cajero",
+   "color": "#E5322D"
+  },
+  {
+   "s": 35.48,
+   "e": 36.0,
+   "linea": "automático",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 36.0,
+   "e": 36.42,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 36.42,
+   "e": 36.7,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 36.7,
+   "e": 37.02,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.02,
+   "e": 37.22,
+   "linea": "su",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.22,
+   "e": 37.5,
+   "linea": "hombre.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.76,
+   "e": 38.0,
+   "linea": "Un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.0,
+   "e": 38.38,
+   "linea": "ganador",
+   "clave": "ganador",
+   "color": "#F5C542"
+  },
+  {
+   "s": 38.38,
+   "e": 38.92,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.92,
+   "e": 39.28,
+   "linea": "pierde",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 39.28,
+   "e": 39.42,
+   "linea": "ni",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 39.42,
+   "e": 39.6,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 39.6,
+   "e": 39.98,
+   "linea": "segundo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 39.98,
+   "e": 40.14,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 40.14,
+   "e": 40.5,
+   "linea": "energía",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 40.5,
+   "e": 41.42,
+   "linea": "aguantando",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 41.42,
+   "e": 41.5,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 41.5,
+   "e": 41.8,
+   "linea": "mujeres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 41.8,
+   "e": 42.02,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 42.02,
+   "e": 42.14,
+   "linea": "le",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 42.14,
+   "e": 42.42,
+   "linea": "restan.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 42.64,
+   "e": 43.02,
+   "linea": "Invierte",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 43.02,
+   "e": 43.22,
+   "linea": "todo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 43.22,
+   "e": 45.28,
+   "linea": "su",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 45.28,
+   "e": 45.56,
+   "linea": "tiempo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 45.56,
+   "e": 46.06,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 46.06,
+   "e": 46.46,
+   "linea": "construir",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 46.46,
+   "e": 46.94,
+   "linea": "riqueza.",
+   "clave": "riqueza.",
+   "color": "#F5C542"
+  },
+  {
+   "s": 47.26,
+   "e": 47.66,
+   "linea": "Sígueme",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 47.66,
+   "e": 48.16,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.16,
+   "e": 48.44,
+   "linea": "mejorar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.44,
+   "e": 48.64,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.64,
+   "e": 48.82,
+   "linea": "vida.",
+   "clave": "",
+   "color": ""
+  }
+ ],
+ "graficos": [
+  {
+   "t": 47.21,
+   "hasta": 49.42,
+   "que": "tarjeta de seguir",
+   "palabra_que_lo_dispara": "sígueme",
+   "por_que": "una sola llamada a la acción"
+  },
+  {
+   "t": 0,
+   "hasta": 2.9,
+   "que": "rótulo «no puedes / *perder* tu tiempo» detrás de la persona",
+   "palabra_que_lo_dispara": "no puedes ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 16.25,
+   "hasta": 18.26,
+   "que": "rótulo «pasa / de *ella*» detrás de la persona",
+   "palabra_que_lo_dispara": "pasa ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 37.71,
+   "hasta": 42.21,
+   "que": "rótulo «un ganador / no pierde *energía*» detrás de la persona",
+   "palabra_que_lo_dispara": "un ganador ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 20.37,
+   "hasta": 22.37,
+   "que": "inserto i0.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 29.21,
+   "hasta": 31.21,
+   "que": "inserto i1.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  }
+ ],
+ "zooms": [
+  {
+   "t": 0,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 0.3,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 2.77,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 3.07,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 4.96,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 5.26,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 8.2,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 8.5,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 10.34,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 10.64,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 14.87,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 15.17,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 16.11,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 16.41,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 18.11,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 18.84,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 19.14,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 21.8,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 22.1,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 23.86,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.66,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.96,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 27.55,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 27.85,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 29.77,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 30.07,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 31.28,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 31.58,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 34.38,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 34.68,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 37.65,
+   "escala": 1.66,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 37.95,
+   "escala": 1.718,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 42.35,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 42.65,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 46.93,
+   "escala": 1.54,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 47.23,
+   "escala": 1.594,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 20.39,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra el inserto del ganado"
+  },
+  {
+   "t": 29.06,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -20.0,
+   "por_que": "entra un inserto"
+  },
+  {
+   "t": 32.49,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "cambio a la quinta, la que el gancho anunció como la peor"
+  },
+  {
+   "t": 47.21,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la tarjeta de seguir"
+  }
+ ],
+ "musica": {
+  "archivo": "",
+  "nivel_db": null
+ },
+ "color": "HDR a SDR (tonemap hable) si el bruto era HLG; sin más corrección",
+ "audio": {
+  "lufs": -14.5,
+  "pico_dbtp": -1.9
+ },
+ "revision": {
+  "problemas": [
+   "A 35,45 s no se ve en pantalla ni el subtítulo ni la clave «cajero», aunque la palabra entra a 35,2 s. Puede ser el inserto o un hueco del render; hay que comprobarlo a mano porque no se puede arreglar sin tocar los tiempos.",
+   "En el rótulo de arriba del inicio, «perder» va en cursiva roja pequeña y se lee peor que «NO PUEDES / TU TIEMPO». No es grave."
+  ],
+  "nota": "Ningún texto tapa la cara, no hay cifras que choquen, nunca pasa de 3 claves en 30 s, los 4 efectos tienen motivo y el audio está en rango (−14,5 LUFS, −1,9 dBTP). Solo falta mirar a mano el fotograma de 35,5 s, donde no aparece el subtítulo de «cajero automático»."
+ },
+ "dudas": [
+  "Frase 11: dentro de la misma frase hay un arranque en falso («2 la que nunca 2 la que nunca…»). Hay que cortar a partir del segundo «2» (≈ 58 s); si el código no corta dentro de una frase, se oirá repetido.",
+  "Frase 26: la transcripción pone «Y por quinto»; seguramente es «y por último» o «y la quinta». Hay que escucharlo antes de corregir el subtítulo.",
+  "Frase 42: la frase hablada «Sígueme para mejorar tu vida» coincide con la tarjeta de seguir. Si se solapan, se puede quitar la frase y dejar solo la tarjeta."
+ ],
+ "notas": "El vídeo arranca directamente con el gancho (frase 3), sin «dale caña» ni comentarios previos. · La lista va numerada y cada tipo de mujer va seguido de su veredicto. Se quitan todas las pausas, los «siguiente» y las preguntas al equipo, y el vídeo queda en unos 44 s. · Para la moraleja se usa la toma 34, la única completa y limpia. Lleva el único zoom fuerte, el golpe y el rótulo dorado. · Los tres insertos (ganado, catedral, oro) caen donde la frase nombra algo que se puede ver, y no coinciden con los rótulos. · No hay titular, porque el gancho ya se entiende solo y el rótulo de la frase 3 lo refuerza.",
+ "editor": "claude-luis",
+ "coste_ia_usd": 0.187,
+ "limpieza": [
+  {
+   "montaje_s": 10.28,
+   "montaje_e": 12.2,
+   "texto": "Dos, la que nunca..."
+  }
+ ],
+ "estilo": "profundidad",
+ "insertos_creditos": [
+  {
+   "inserto": 0,
+   "busqueda": "oil painting herd of cattle pastoral",
+   "archivo": "File:Albert Klomp - Cattle herd and rider.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Albert_Klomp_-_Cattle_herd_and_rider.jpg",
+   "licencia": "Public domain",
+   "autor": "Albert Klomp"
+  },
+  {
+   "inserto": 1,
+   "busqueda": "gothic cathedral interior nave",
+   "archivo": "File:Wells Cathedral Nave.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wells_Cathedral_Nave.jpg",
+   "licencia": "CC0",
+   "autor": "Michael D Beckwith"
+  },
+  {
+   "inserto": 2,
+   "busqueda": "dutch golden age still life gold coins",
+   "archivo": "File:Print, satirical print (BM 1850,1109.15).jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Print,_satirical_print_(BM_1850,1109.15).jpg",
+   "licencia": "Public domain",
+   "autor": "\nPrint made by: Thomas Cross\n\nAfter: Hendrik Goltzius"
+  }
+ ]
+}

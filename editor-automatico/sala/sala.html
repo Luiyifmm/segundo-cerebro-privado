@@ -1,0 +1,475 @@
+<title>Sala de edición</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Panel interno en cristal: fondo con tres luces de marca, tarjetas de vidrio, un solo marino de acción. Un único tema claro, a propósito. */
+:root {
+  color-scheme: light;
+  --base: #eaeef5;
+  --tinta: #0c0c0d;
+  --texto: #3a3a3f;
+  --apagado: #5b6170;
+  --marino: #1b2f52;
+  --marino-2: #2c4d85;
+  --ambar: #b45309;
+  --ambar-fondo: rgba(180,83,9,.09);
+  --ok: #1f6b45;
+  --ok-fondo: rgba(31,107,69,.09);
+  --canto: rgba(255,255,255,.72);
+  --contorno: rgba(15,23,42,.07);
+  --cristal: linear-gradient(180deg, rgba(255,255,255,.78) 0%, rgba(255,255,255,.56) 100%);
+  --ligero: rgba(255,255,255,.82);
+  --solido: rgba(255,255,255,.95);
+  --sombra: 0 0 0 1px var(--contorno), 0 1px 2px rgba(15,23,42,.04), 0 24px 48px -28px rgba(15,23,42,.32), inset 0 1px 0 rgba(255,255,255,.95);
+  --sombra-suave: 0 0 0 1px var(--contorno), 0 10px 24px -18px rgba(15,23,42,.28), inset 0 1px 0 rgba(255,255,255,.9);
+  --blur: blur(20px) saturate(165%);
+  --f: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --grano: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .08 0 0 0 0 .1 0 0 0 0 .16 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+* { box-sizing: border-box; }
+html { background: var(--base); }
+body {
+  font-family: var(--f); color: var(--tinta); font-size: 15px; line-height: 1.5;
+  background:
+    var(--grano),
+    radial-gradient(1000px 700px at -8% -14%, rgba(27,47,82,.40), transparent 62%),
+    radial-gradient(900px 760px at 112% 4%, rgba(61,100,168,.32), transparent 60%),
+    radial-gradient(1100px 700px at 30% 120%, rgba(27,47,82,.28), transparent 64%),
+    radial-gradient(760px 520px at 55% 35%, rgba(255,255,255,.85), transparent 70%),
+    var(--base);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.envoltura { max-width: 1080px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 20px; }
+
+/* Cabecera */
+.cab { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.cab h1 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 650; letter-spacing: -.035em; text-wrap: balance; }
+.cab p { margin: 4px 0 0; color: var(--apagado); max-width: 60ch; }
+.yo { display: flex; align-items: center; gap: 10px; padding: 6px 14px 6px 6px; border-radius: 999px; background: var(--cristal); border: 1px solid var(--canto); box-shadow: var(--sombra-suave); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); font-size: .85rem; color: var(--texto); }
+.yo img { width: 28px; height: 28px; border-radius: 50%; }
+
+/* Resumen */
+.resumen { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.cifra { padding: 16px 18px; border-radius: 18px; background: var(--cristal); border: 1px solid var(--canto); box-shadow: var(--sombra-suave); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); }
+.cifra b { display: block; font-size: 2rem; font-weight: 400; letter-spacing: -.03em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.cifra span { font-size: .8rem; color: var(--apagado); }
+.cifra.atencion b { color: var(--ambar); }
+
+/* Pestañas */
+.pestanas { display: flex; gap: 4px; padding: 4px; border-radius: 14px; background: rgba(255,255,255,.5); border: 1px solid var(--canto); box-shadow: var(--sombra-suave); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); overflow-x: auto; }
+.pestanas button { flex: 1 0 auto; border: 0; background: transparent; font: 600 .9rem var(--f); color: var(--texto); padding: 10px 16px; border-radius: 10px; cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.pestanas button:hover { background: rgba(255,255,255,.55); }
+.pestanas button[aria-selected="true"] { background: rgba(255,255,255,.95); color: var(--marino); box-shadow: 0 0 0 1px var(--contorno), 0 8px 18px -12px rgba(27,47,82,.55), inset 0 1px 0 #fff; }
+.pestanas .n { font-size: .72rem; font-weight: 600; color: var(--apagado); background: rgba(15,23,42,.06); border-radius: 999px; padding: 1px 7px; font-variant-numeric: tabular-nums; }
+
+/* Vista: formulario + lista */
+.vista { display: grid; grid-template-columns: 360px minmax(0, 1fr); gap: 20px; align-items: start; }
+.tarjeta { background: var(--cristal); border: 1px solid var(--canto); border-radius: 22px; box-shadow: var(--sombra); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); padding: 20px; }
+.tarjeta h2 { margin: 0 0 4px; font-size: 1.05rem; font-weight: 650; letter-spacing: -.02em; }
+.tarjeta .ayuda { margin: 0 0 16px; color: var(--apagado); font-size: .85rem; }
+form { display: grid; gap: 14px; }
+label { display: grid; gap: 6px; font-size: .78rem; font-weight: 600; color: var(--texto); letter-spacing: .01em; }
+input, select, textarea { font: 400 .95rem var(--f); color: var(--tinta); background: rgba(255,255,255,.86); border: 1px solid rgba(15,23,42,.12); border-radius: 12px; padding: 10px 12px; width: 100%; min-height: 44px; }
+textarea { min-height: 92px; resize: vertical; }
+input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible { outline: none; background: #fff; border-color: var(--marino-2); box-shadow: 0 0 0 4px rgba(44,77,133,.16); }
+.fila { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips label { display: inline-flex; cursor: pointer; }
+.chips input { position: absolute; opacity: 0; width: 1px; height: 1px; min-height: 0; }
+.chips span { font-size: .8rem; font-weight: 500; padding: 6px 12px; border-radius: 999px; background: rgba(255,255,255,.66); border: 1px solid var(--canto); box-shadow: 0 0 0 1px var(--contorno); color: var(--texto); }
+.chips input:checked + span { background: var(--marino); color: #fff; box-shadow: none; border-color: var(--marino); }
+.chips input:focus-visible + span { box-shadow: 0 0 0 4px rgba(44,77,133,.2); }
+.btn { border: 0; cursor: pointer; font: 600 .92rem var(--f); color: #fff; background: linear-gradient(180deg, #2c4d85 0%, #1b2f52 100%); box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 8px 20px -10px rgba(27,47,82,.6); border-radius: 12px; padding: 12px 16px; min-height: 44px; }
+.btn:disabled { opacity: .55; cursor: default; }
+.btn-sec { border: 1px solid rgba(15,23,42,.1); background: rgba(255,255,255,.75); color: var(--texto); font: 500 .8rem var(--f); border-radius: 10px; padding: 6px 10px; cursor: pointer; min-height: 32px; }
+.btn-sec:hover { background: #fff; }
+.aviso { font-size: .82rem; color: var(--apagado); }
+.aviso.err { color: #9b1c1c; }
+
+/* Lista */
+.lista { display: grid; gap: 10px; }
+.item { background: var(--ligero); border-radius: 18px; padding: 14px 16px; box-shadow: var(--sombra-suave); display: grid; gap: 8px; min-width: 0; }
+.item-cab { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.item h3 { margin: 0; font-size: .98rem; font-weight: 600; letter-spacing: -.01em; overflow-wrap: anywhere; }
+.item p { margin: 0; color: var(--texto); white-space: pre-wrap; overflow-wrap: anywhere; }
+.item a { color: var(--marino-2); text-decoration: none; overflow-wrap: anywhere; font-weight: 500; }
+.item a:hover { text-decoration: underline; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: .78rem; color: var(--apagado); }
+.meta img { width: 18px; height: 18px; border-radius: 50%; }
+.estado { font-size: .72rem; font-weight: 600; letter-spacing: .02em; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.e-pend { background: var(--ambar-fondo); color: var(--ambar); }
+.e-hecho { background: var(--ok-fondo); color: var(--ok); }
+.e-neutro { background: rgba(15,23,42,.06); color: var(--texto); }
+.etq { font-size: .72rem; font-weight: 500; padding: 2px 8px; border-radius: 999px; background: rgba(27,47,82,.08); color: var(--marino); }
+.seg { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--marino); }
+.acciones { display: flex; gap: 6px; flex-wrap: wrap; }
+.adjunto img, .adjunto video { max-width: 100%; max-height: 260px; border-radius: 12px; display: block; }
+.vacio { text-align: center; padding: 36px 20px; color: var(--apagado); background: rgba(255,255,255,.45); border: 1px dashed rgba(15,23,42,.14); border-radius: 18px; }
+.vacio b { display: block; color: var(--tinta); font-weight: 600; margin-bottom: 4px; }
+.filtro { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.filtro button { border: 1px solid var(--canto); background: rgba(255,255,255,.55); font: 500 .8rem var(--f); color: var(--texto); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.filtro button[aria-pressed="true"] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+.solo-lectura { padding: 12px 14px; border-radius: 14px; background: var(--ambar-fondo); color: var(--ambar); font-size: .85rem; }
+
+@media (max-width: 860px) {
+  .vista { grid-template-columns: minmax(0, 1fr); }
+  .resumen { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .tarjeta, .cifra, .yo, .pestanas { background: #fff; } }
+@media (prefers-reduced-transparency: reduce) { .tarjeta, .cifra, .yo, .pestanas { background: #fff; -webkit-backdrop-filter: none; backdrop-filter: none; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="envoltura">
+  <header class="cab">
+    <div>
+      <h1>Sala de edición</h1>
+      <p>Referencias, correcciones y brutos para los vídeos de Amin. Claude lo lee todo antes de editar y marca lo que va aplicando.</p>
+    </div>
+    <div class="yo" id="yo" hidden></div>
+  </header>
+
+  <section class="resumen" aria-label="Resumen">
+    <div class="cifra atencion"><b id="c-corr">0</b><span>Correcciones pendientes</span></div>
+    <div class="cifra"><b id="c-brutos">0</b><span>Brutos en cola</span></div>
+    <div class="cifra"><b id="c-refs">0</b><span>Referencias guardadas</span></div>
+    <div class="cifra"><b id="c-ent">0</b><span>Vídeos entregados</span></div>
+  </section>
+
+  <nav class="pestanas" role="tablist" aria-label="Secciones">
+    <button role="tab" id="t-correcciones" aria-selected="true" data-v="correcciones">Correcciones <span class="n" id="n-correcciones">0</span></button>
+    <button role="tab" id="t-referencias" aria-selected="false" data-v="referencias">Referencias <span class="n" id="n-referencias">0</span></button>
+    <button role="tab" id="t-brutos" aria-selected="false" data-v="brutos">Brutos <span class="n" id="n-brutos">0</span></button>
+    <button role="tab" id="t-reglas" aria-selected="false" data-v="reglas">Manual de estilo <span class="n" id="n-reglas">0</span></button>
+    <button role="tab" id="t-entregas" aria-selected="false" data-v="entregas">Entregas <span class="n" id="n-entregas">0</span></button>
+  </nav>
+
+  <div id="aviso-lectura" class="solo-lectura" hidden>Puedes ver todo, pero para añadir cosas Amin tiene que darte acceso de Colaborador o Editor desde el botón Compartir.</div>
+
+  <!-- CORRECCIONES -->
+  <section class="vista" id="v-correcciones" role="tabpanel" aria-labelledby="t-correcciones">
+    <div class="tarjeta">
+      <h2>Nueva corrección</h2>
+      <p class="ayuda">Una cosa por corrección. Si dices el segundo exacto, es más fácil acertar.</p>
+      <form id="f-correcciones">
+        <label>Vídeo<select id="corr-video" name="video" required></select></label>
+        <div class="fila">
+          <label>Segundo<input id="corr-seg" name="segundo" placeholder="0:12" inputmode="numeric" maxlength="8"></label>
+          <label>Importancia<select id="corr-prio" name="prioridad"><option>Imprescindible</option><option>Mejor si se cambia</option></select></label>
+        </div>
+        <fieldset style="border:0;padding:0;margin:0;display:grid;gap:6px"><legend style="font-size:.78rem;font-weight:600;color:var(--texto);margin-bottom:6px">Qué toca</legend>
+          <div class="chips" id="corr-tipos"></div>
+        </fieldset>
+        <label>Qué cambiar<textarea id="corr-texto" name="texto" required placeholder="Ej.: el POBRE grande tapa la boca, súbelo un poco"></textarea></label>
+        <button class="btn" type="submit">Añadir corrección</button>
+        <span class="aviso" id="a-correcciones" role="status"></span>
+      </form>
+    </div>
+    <div>
+      <div class="filtro" id="fil-correcciones"></div>
+      <div class="lista" id="l-correcciones"><div class="vacio"><b>Cargando correcciones…</b></div></div>
+    </div>
+  </section>
+
+  <!-- REFERENCIAS -->
+  <section class="vista" id="v-referencias" role="tabpanel" aria-labelledby="t-referencias" hidden>
+    <div class="tarjeta">
+      <h2>Nueva referencia</h2>
+      <p class="ayuda">Un vídeo cuya edición os guste. Marca qué hay que copiar de él.</p>
+      <form id="f-referencias">
+        <label>Enlace<input id="ref-url" name="url" type="url" required placeholder="https://www.instagram.com/reel/…"></label>
+        <fieldset style="border:0;padding:0;margin:0"><legend style="font-size:.78rem;font-weight:600;color:var(--texto);margin-bottom:6px">Qué copiar</legend>
+          <div class="chips" id="ref-tipos"></div>
+        </fieldset>
+        <label>Por qué te gusta<textarea id="ref-nota" name="nota" placeholder="Ej.: los subtítulos salen palabra a palabra y la clave en amarillo"></textarea></label>
+        <label>Captura o clip (opcional)<input id="ref-archivo" name="archivo" type="file" accept="image/*,video/*"></label>
+        <button class="btn" type="submit">Guardar referencia</button>
+        <span class="aviso" id="a-referencias" role="status"></span>
+      </form>
+    </div>
+    <div>
+      <div class="filtro" id="fil-referencias"></div>
+      <div class="lista" id="l-referencias"><div class="vacio"><b>Cargando referencias…</b></div></div>
+    </div>
+  </section>
+
+  <!-- BRUTOS -->
+  <section class="vista" id="v-brutos" role="tabpanel" aria-labelledby="t-brutos" hidden>
+    <div class="tarjeta">
+      <h2>Nuevo bruto para editar</h2>
+      <p class="ayuda">Sube el vídeo a Drive y pega el enlace. Explica qué quieres en el resultado.</p>
+      <form id="f-brutos">
+        <label>Título<input id="bru-titulo" name="titulo" required placeholder="Ej.: 3 hábitos de los ricos"></label>
+        <label>Enlace al bruto<input id="bru-url" name="url" type="url" required placeholder="https://drive.google.com/…"></label>
+        <div class="fila">
+          <label>Formato<select id="bru-formato" name="formato"><option>Reel vertical</option><option>YouTube horizontal</option><option>Short</option><option>Historia</option></select></label>
+          <label>Para cuándo<input id="bru-fecha" name="fecha" type="date"></label>
+        </div>
+        <label>Instrucciones<textarea id="bru-instr" name="instrucciones" placeholder="Ej.: estilo pobre vs rico, música tranquila, CTA con la palabra VIRAL"></textarea></label>
+        <button class="btn" type="submit">Añadir a la cola</button>
+        <span class="aviso" id="a-brutos" role="status"></span>
+      </form>
+    </div>
+    <div>
+      <div class="filtro" id="fil-brutos"></div>
+      <div class="lista" id="l-brutos"><div class="vacio"><b>Cargando brutos…</b></div></div>
+    </div>
+  </section>
+
+  <!-- MANUAL -->
+  <section class="vista" id="v-reglas" role="tabpanel" aria-labelledby="t-reglas" hidden>
+    <div class="tarjeta">
+      <h2>Proponer una regla</h2>
+      <p class="ayuda">Algo que debe cumplirse en todos los vídeos. Amin la aprueba y desde entonces se aplica siempre.</p>
+      <form id="f-reglas">
+        <label>Área<select id="reg-area" name="area"></select></label>
+        <label>Regla<textarea id="reg-texto" name="texto" required placeholder="Ej.: nunca más de 3 palabras de subtítulo a la vez"></textarea></label>
+        <button class="btn" type="submit">Proponer regla</button>
+        <span class="aviso" id="a-reglas" role="status"></span>
+      </form>
+    </div>
+    <div>
+      <div class="filtro" id="fil-reglas"></div>
+      <div class="lista" id="l-reglas"><div class="vacio"><b>Cargando el manual…</b></div></div>
+    </div>
+  </section>
+
+  <!-- ENTREGAS -->
+  <section class="vista" id="v-entregas" role="tabpanel" aria-labelledby="t-entregas" hidden>
+    <div class="tarjeta">
+      <h2>Entregas</h2>
+      <p class="ayuda">Los vídeos que Claude termina aparecen aquí con su versión. Para corregir uno, ve a Correcciones y elígelo en la lista.</p>
+      <p class="aviso">Los archivos están en el Mac de Amin, en Escritorio › Edición › 05 Entregas.</p>
+    </div>
+    <div class="lista" id="l-entregas"><div class="vacio"><b>Cargando entregas…</b></div></div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const TIPOS_CORR = ['Subtítulos', 'Corte o ritmo', 'Imagen o b-roll', 'Zoom o encuadre', 'Efecto de sonido', 'Música', 'Color', 'Gancho', 'Otro'];
+  const TIPOS_REF = ['Subtítulos', 'Ritmo y cortes', 'Zooms', 'B-roll', 'Gráficos', 'Sonido', 'Música', 'Gancho', 'Color'];
+  const AREAS = ['Subtítulos', 'Ritmo y cortes', 'Encuadre y zooms', 'Imágenes y gráficos', 'Sonido y música', 'Gancho', 'Final y CTA', 'Color', 'General'];
+  const COLS = ['correcciones', 'referencias', 'brutos', 'reglas', 'entregas'];
+  const ESTADOS = {
+    correcciones: [['pendiente', 'Pendiente', 'e-pend'], ['hecha', 'Hecha', 'e-hecho']],
+    referencias: [['nueva', 'Sin aplicar', 'e-pend'], ['aplicada', 'Aplicada', 'e-hecho']],
+    brutos: [['en cola', 'En cola', 'e-pend'], ['editando', 'Editando', 'e-neutro'], ['entregado', 'Entregado', 'e-hecho']],
+    reglas: [['propuesta', 'Propuesta', 'e-pend'], ['aprobada', 'Aprobada', 'e-hecho']],
+  };
+  const FILTROS = {
+    correcciones: [['todas', 'Todas'], ['pendiente', 'Pendientes'], ['hecha', 'Hechas']],
+    referencias: [['todas', 'Todas'], ['nueva', 'Sin aplicar'], ['aplicada', 'Aplicadas']],
+    brutos: [['todas', 'Todos'], ['en cola', 'En cola'], ['editando', 'Editando'], ['entregado', 'Entregados']],
+    reglas: [['todas', 'Todas'], ['aprobada', 'Aprobadas'], ['propuesta', 'Propuestas']],
+  };
+  const datos = Object.fromEntries(COLS.map(c => [c, null]));
+  const filtro = { correcciones: 'pendiente', referencias: 'todas', brutos: 'todas', reglas: 'todas' };
+  let db = null, user = null, assets = null, miId = null, puedeEscribir = true, esAdmin = false;
+  const perfiles = {};
+  const $ = id => document.getElementById(id);
+  const el = (tag, attrs = {}, ...hijos) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === 'class') n.className = v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else if (v !== undefined && v !== null) n.setAttribute(k, v);
+    }
+    for (const h of hijos) if (h !== null && h !== undefined && h !== false) n.append(h.nodeType ? h : document.createTextNode(String(h)));
+    return n;
+  };
+  const fecha = iso => { try { return new Date(iso).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' }); } catch { return ''; } };
+  const urlSegura = u => { try { const x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; } catch { return null; } };
+
+  // Chips y selects fijos
+  const pintarChips = (cont, lista, nombre) => { $(cont).replaceChildren(...lista.map((t, i) => el('label', {}, el('input', { type: 'checkbox', name: nombre, value: t, id: `${nombre}-${i}` }), el('span', {}, t)))); };
+  pintarChips('corr-tipos', TIPOS_CORR, 'ctipo');
+  pintarChips('ref-tipos', TIPOS_REF, 'rtipo');
+  $('reg-area').replaceChildren(...AREAS.map(a => el('option', {}, a)));
+
+  // Pestañas
+  const abrir = v => {
+    for (const c of COLS) { $('v-' + c).hidden = c !== v; $('t-' + c).setAttribute('aria-selected', String(c === v)); }
+    try { localStorage.setItem('sala-pestana', v); } catch {}
+  };
+  document.querySelectorAll('.pestanas button').forEach(b => b.addEventListener('click', () => abrir(b.dataset.v)));
+  let inicial = 'correcciones';
+  try { inicial = (location.hash || '').slice(1) || localStorage.getItem('sala-pestana') || 'correcciones'; } catch {}
+  if (COLS.includes(inicial)) abrir(inicial);
+
+  // Filtros
+  for (const [c, opts] of Object.entries(FILTROS)) {
+    const cont = $('fil-' + c);
+    const pintar = () => cont.replaceChildren(...opts.map(([v, t]) => el('button', { type: 'button', 'aria-pressed': String(filtro[c] === v), onclick: () => { filtro[c] = v; pintar(); render(c); } }, t)));
+    pintar();
+  }
+
+  const autorNodo = id => {
+    const p = perfiles[id];
+    const nombre = (p && p.name) || (id && id === miId ? 'Tú' : 'Alguien');
+    return el('span', { style: 'display:inline-flex;align-items:center;gap:6px' }, p && p.avatarUrl ? el('img', { src: p.avatarUrl, alt: '' }) : null, nombre);
+  };
+  async function cargarPerfiles() {
+    if (!user || !user.profiles) return;
+    const ids = new Set();
+    for (const c of COLS) for (const d of (datos[c] || [])) if (d.autor) ids.add(d.autor);
+    const faltan = [...ids].filter(i => !(i in perfiles));
+    if (!faltan.length) return;
+    try { const ps = await user.profiles(faltan); Object.assign(perfiles, ps); COLS.forEach(render); } catch {}
+  }
+
+  const estadoChip = (c, v) => { const e = (ESTADOS[c] || []).find(x => x[0] === v) || [v, v, 'e-neutro']; return el('span', { class: 'estado ' + e[2] }, e[1]); };
+  async function cambiar(c, id, cambios) { if (!db) return; try { await db.collection(c).doc(id).update(cambios); } catch (e) { aviso(c, 'No se pudo guardar el cambio.', true); } }
+  async function borrar(c, id) { if (!db) return; try { await db.collection(c).doc(id).delete(); } catch (e) { aviso(c, 'No se pudo borrar.', true); } }
+  const puedeTocar = d => puedeEscribir && (esAdmin || (d.autor && d.autor === miId));
+
+  function accionesDe(c, d) {
+    const acc = el('div', { class: 'acciones' });
+    if (!puedeEscribir) return acc;
+    const est = ESTADOS[c];
+    if (est && (esAdmin || c !== 'reglas')) {
+      const i = est.findIndex(x => x[0] === d.estado);
+      const sig = est[(i + 1) % est.length];
+      acc.append(el('button', { class: 'btn-sec', type: 'button', onclick: () => cambiar(c, d.id, { estado: sig[0] }) }, 'Marcar: ' + sig[1].toLowerCase()));
+    }
+    if (puedeTocar(d)) {
+      let armado = false;
+      const b = el('button', { class: 'btn-sec', type: 'button' }, 'Borrar');
+      b.addEventListener('click', () => { if (armado) borrar(c, d.id); else { armado = true; b.textContent = '¿Seguro? Pulsa otra vez'; setTimeout(() => { armado = false; b.textContent = 'Borrar'; }, 3500); } });
+      acc.append(b);
+    }
+    return acc;
+  }
+
+  const vacio = (titulo, texto) => el('div', { class: 'vacio' }, el('b', {}, titulo), texto);
+
+  const PINTORES = {
+    correcciones: d => el('article', { class: 'item' },
+      el('div', { class: 'item-cab' }, el('h3', {}, d.video || 'Vídeo sin indicar', d.segundo ? el('span', { class: 'seg' }, '  ·  ' + d.segundo) : null), estadoChip('correcciones', d.estado)),
+      el('p', {}, d.texto || ''),
+      el('div', { class: 'meta' }, ...(d.tipos || []).map(t => el('span', { class: 'etq' }, t)), d.prioridad === 'Imprescindible' ? el('span', { class: 'etq', style: 'background:var(--ambar-fondo);color:var(--ambar)' }, 'Imprescindible') : null, autorNodo(d.autor), fecha(d.creado)),
+      accionesDe('correcciones', d)),
+    referencias: d => {
+      const u = urlSegura(d.url);
+      return el('article', { class: 'item' },
+        el('div', { class: 'item-cab' }, el('h3', {}, u ? el('a', { href: u, target: '_blank', rel: 'noopener' }, u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 70)) : (d.url || 'Sin enlace')), estadoChip('referencias', d.estado)),
+        d.nota ? el('p', {}, d.nota) : null,
+        d.archivoId ? el('div', { class: 'adjunto' }, (d.archivoTipo || '').startsWith('video') ? el('video', { src: '/_blob/' + d.archivoId, controls: '', muted: '', preload: 'metadata' }) : el('img', { src: '/_blob/' + d.archivoId, alt: 'Captura de la referencia', loading: 'lazy' })) : null,
+        el('div', { class: 'meta' }, ...(d.tipos || []).map(t => el('span', { class: 'etq' }, t)), autorNodo(d.autor), fecha(d.creado)),
+        accionesDe('referencias', d));
+    },
+    brutos: d => {
+      const u = urlSegura(d.url);
+      return el('article', { class: 'item' },
+        el('div', { class: 'item-cab' }, el('h3', {}, d.titulo || 'Sin título'), estadoChip('brutos', d.estado)),
+        u ? el('a', { href: u, target: '_blank', rel: 'noopener' }, 'Abrir el bruto') : null,
+        d.instrucciones ? el('p', {}, d.instrucciones) : null,
+        el('div', { class: 'meta' }, el('span', { class: 'etq' }, d.formato || 'Reel vertical'), d.fecha ? el('span', {}, 'Para el ' + fecha(d.fecha)) : null, autorNodo(d.autor), fecha(d.creado)),
+        accionesDe('brutos', d));
+    },
+    reglas: d => el('article', { class: 'item' },
+      el('div', { class: 'item-cab' }, el('h3', {}, d.area || 'General'), estadoChip('reglas', d.estado)),
+      el('p', {}, d.texto || ''),
+      el('div', { class: 'meta' }, d.origen ? el('span', {}, 'Origen: ' + d.origen) : autorNodo(d.autor), fecha(d.creado)),
+      accionesDe('reglas', d)),
+    entregas: d => el('article', { class: 'item' },
+      el('div', { class: 'item-cab' }, el('h3', {}, d.titulo || 'Vídeo', d.version ? el('span', { class: 'seg' }, '  ·  ' + d.version) : null), el('span', { class: 'estado ' + (d.estado === 'aprobado' ? 'e-hecho' : 'e-pend') }, d.estado === 'aprobado' ? 'Aprobado' : 'Esperando correcciones')),
+      d.nota ? el('p', {}, d.nota) : null,
+      el('div', { class: 'meta' }, d.duracion ? el('span', { class: 'etq' }, d.duracion) : null, d.archivo ? el('span', {}, d.archivo) : null, fecha(d.creado))),
+  };
+  const VACIOS = {
+    correcciones: ['No hay correcciones aquí', 'Elige el vídeo, di el segundo y qué cambiarías.'],
+    referencias: ['Aún no hay referencias', 'Pega el enlace de un vídeo cuya edición te guste.'],
+    brutos: ['La cola está vacía', 'Añade el enlace de Drive de un vídeo grabado y lo edito.'],
+    reglas: ['El manual está vacío', 'Propón la primera regla de estilo.'],
+    entregas: ['Todavía no hay entregas', 'Cuando Claude termine un vídeo, aparecerá aquí.'],
+  };
+
+  function render(c) {
+    const cont = $('l-' + c); const lista = datos[c];
+    if (lista === null) return;
+    let ver = lista;
+    if (filtro[c] && filtro[c] !== 'todas') ver = lista.filter(d => d.estado === filtro[c]);
+    if (c === 'reglas') ver = [...ver].sort((a, b) => (a.area || '').localeCompare(b.area || '') || (a.creado || '').localeCompare(b.creado || ''));
+    cont.replaceChildren(...(ver.length ? ver.map(PINTORES[c]) : [vacio(...VACIOS[c])]));
+    $('n-' + c).textContent = lista.length;
+    if (c === 'entregas') pintarSelectVideos();
+    resumen();
+  }
+  function resumen() {
+    const n = (c, f) => (datos[c] || []).filter(f).length;
+    $('c-corr').textContent = n('correcciones', d => d.estado === 'pendiente');
+    $('c-brutos').textContent = n('brutos', d => d.estado !== 'entregado');
+    $('c-refs').textContent = (datos.referencias || []).length;
+    $('c-ent').textContent = (datos.entregas || []).length;
+  }
+  function pintarSelectVideos() {
+    const s = $('corr-video'); const actual = s.value;
+    const nombres = (datos.entregas || []).map(d => (d.titulo || 'Vídeo') + (d.version ? ' · ' + d.version : ''));
+    s.replaceChildren(...[...nombres, 'Otro vídeo'].map(n => el('option', {}, n)));
+    if (actual && [...s.options].some(o => o.value === actual)) s.value = actual;
+  }
+  pintarSelectVideos();
+
+  function aviso(c, t, err) { const a = $('a-' + c); if (!a) return; a.textContent = t; a.className = 'aviso' + (err ? ' err' : ''); if (!err) setTimeout(() => { if (a.textContent === t) a.textContent = ''; }, 3000); }
+  const marcados = nombre => [...document.querySelectorAll(`input[name="${nombre}"]:checked`)].map(i => i.value);
+
+  async function crear(c, cuerpo, form) {
+    if (!db) { aviso(c, 'Esta vista no puede guardar. Ábrela desde claude.ai con tu cuenta.', true); return false; }
+    const btn = form.querySelector('button[type="submit"]'); btn.disabled = true;
+    try {
+      await db.collection(c).add({ ...cuerpo, autor: miId || null, creado: new Date().toISOString() });
+      form.reset(); aviso(c, 'Guardado'); return true;
+    } catch (e) {
+      if (e && e.code === 'invalid_argument') { puedeEscribir = false; aplicarPermisos(); aviso(c, 'No tienes permiso para añadir. Pide acceso de Colaborador a Amin.', true); }
+      else if (e && e.code === 'quota_exceeded') aviso(c, 'La sala está llena. Borra cosas antiguas para seguir.', true);
+      else aviso(c, 'No se pudo guardar. Inténtalo otra vez.', true);
+      return false;
+    } finally { btn.disabled = false; }
+  }
+
+  $('f-correcciones').addEventListener('submit', e => { e.preventDefault(); crear('correcciones', { video: $('corr-video').value, segundo: $('corr-seg').value.trim(), prioridad: $('corr-prio').value, tipos: marcados('ctipo'), texto: $('corr-texto').value.trim(), estado: 'pendiente' }, e.target); });
+  $('f-brutos').addEventListener('submit', e => { e.preventDefault(); crear('brutos', { titulo: $('bru-titulo').value.trim(), url: $('bru-url').value.trim(), formato: $('bru-formato').value, fecha: $('bru-fecha').value || null, instrucciones: $('bru-instr').value.trim(), estado: 'en cola' }, e.target); });
+  $('f-reglas').addEventListener('submit', e => { e.preventDefault(); crear('reglas', { area: $('reg-area').value, texto: $('reg-texto').value.trim(), estado: esAdmin ? 'aprobada' : 'propuesta' }, e.target); });
+  $('f-referencias').addEventListener('submit', async e => {
+    e.preventDefault(); const form = e.target;
+    const cuerpo = { url: $('ref-url').value.trim(), tipos: marcados('rtipo'), nota: $('ref-nota').value.trim(), estado: 'nueva' };
+    const f = $('ref-archivo').files[0];
+    if (f) {
+      if (!assets) { aviso('referencias', 'No se pueden subir archivos desde esta vista; guarda solo el enlace.', true); return; }
+      if (f.size > 20 * 1024 * 1024) { aviso('referencias', 'El archivo pasa de 20 MB. Recórtalo o pega solo el enlace.', true); return; }
+      aviso('referencias', 'Subiendo archivo…');
+      try { const r = await assets.upload(f); cuerpo.archivoId = r.id; cuerpo.archivoTipo = f.type; }
+      catch { aviso('referencias', 'No se pudo subir el archivo. Guarda solo el enlace.', true); return; }
+    }
+    crear('referencias', cuerpo, form);
+  });
+
+  function aplicarPermisos() {
+    $('aviso-lectura').hidden = puedeEscribir;
+    document.querySelectorAll('form').forEach(f => f.querySelectorAll('input,select,textarea,button').forEach(i => { i.disabled = !puedeEscribir; }));
+    COLS.forEach(render);
+  }
+
+  async function arrancar() {
+    if (!window.claude || !window.claude.use) { COLS.forEach(c => { datos[c] = []; render(c); }); $('aviso-lectura').hidden = false; $('aviso-lectura').textContent = 'Abre la sala desde claude.ai para ver y guardar los datos.'; return; }
+    const [d, u, a] = await Promise.all([claude.use('db'), claude.use('user'), claude.use('assets')]);
+    db = d; user = u; assets = a;
+    if (user) {
+      try { miId = await user.id(); } catch {}
+      try { esAdmin = !!(await user.canEdit()); } catch {}
+      try { const w = await user.can('data.write'); if (w === false) puedeEscribir = false; } catch {}
+      try { const me = await user.me(); if (me) { if (me.id) perfiles[me.id] = me; const yo = $('yo'); yo.replaceChildren(el('img', { src: me.avatarUrl, alt: '' }), el('span', {}, me.name || 'Tú')); yo.hidden = false; } } catch {}
+    }
+    if (!db) { puedeEscribir = false; COLS.forEach(c => { datos[c] = []; }); aplicarPermisos(); $('aviso-lectura').textContent = 'Inicia sesión en claude.ai para ver y añadir cosas a la sala.'; return; }
+    aplicarPermisos();
+    for (const c of COLS) {
+      db.collection(c).orderBy('creado', 'desc').onSnapshot(s => {
+        datos[c] = s.docs.map(x => ({ id: x.id, ...x.data() }));
+        render(c); cargarPerfiles();
+      }, () => { datos[c] = datos[c] || []; render(c); });
+    }
+  }
+  arrancar();
+})();
+</script>

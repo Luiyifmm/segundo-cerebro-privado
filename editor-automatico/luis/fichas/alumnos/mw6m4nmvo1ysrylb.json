@@ -1,0 +1,21 @@
+{
+ "cliente": "María Morales @mariadmorales · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "mamá fitness: elegante, cálida y empoderadora",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "playfair",
+  "mayusculas": false
+ },
+ "colores": {
+  "malo": "#D64545",
+  "bueno": "#F2A07B",
+  "acento": "#F2A07B"
+ },
+ "rotulo": {
+  "fuente": "sfpro-bold",
+  "fuente2": "playfair"
+ },
+ "musica_src": "lib/musica/ardie-son-infinite-circles-no-backing-vocals.mp3"
+}

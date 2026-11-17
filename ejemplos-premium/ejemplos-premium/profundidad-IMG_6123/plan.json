@@ -1,0 +1,205 @@
+{
+ "mantener": [
+  3,
+  4,
+  5,
+  6,
+  11,
+  12,
+  13,
+  14,
+  16,
+  17,
+  19,
+  23,
+  24,
+  25,
+  26,
+  27,
+  34,
+  40,
+  42
+ ],
+ "quitadas": [
+  {
+   "i": 0,
+   "por_que": "indicación a cámara antes de empezar"
+  },
+  {
+   "i": 1,
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "i": 2,
+   "por_que": "toma repetida del gancho: las dos están limpias, vale la 3 (la última)"
+  },
+  {
+   "i": 7,
+   "por_que": "«siguiente»: indicación entre tomas"
+  },
+  {
+   "i": 8,
+   "por_que": "arranque en falso: el «2» ya está dentro de la 11"
+  },
+  {
+   "i": 9,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 10,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 15,
+   "por_que": "toma incompleta: la 16 añade «hombres» y es la última completa"
+  },
+  {
+   "i": 18,
+   "por_que": "«siguiente»: indicación entre tomas"
+  },
+  {
+   "i": 20,
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "i": 21,
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "i": 22,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 28,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 29,
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "i": 30,
+   "por_que": "toma incompleta de la moraleja y con un inciso; vale la 34"
+  },
+  {
+   "i": 31,
+   "por_que": "final suelto de la toma 30"
+  },
+  {
+   "i": 32,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 33,
+   "por_que": "toma fallida y mal dicha"
+  },
+  {
+   "i": 35,
+   "por_que": "toma rota con «espérate» en medio; vale la 34, que está completa"
+  },
+  {
+   "i": 36,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 37,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 38,
+   "por_que": "pregunta al equipo"
+  },
+  {
+   "i": 39,
+   "por_que": "toma repetida: vale la 40"
+  },
+  {
+   "i": 41,
+   "por_que": "toma repetida del cierre: vale la 42"
+  },
+  {
+   "i": 43,
+   "por_que": "comentario después de grabar"
+  }
+ ],
+ "correcciones": {},
+ "claves": {
+  "manipuladora": "#E5322D",
+  "cajero": "#E5322D",
+  "ganador": "#F5C542",
+  "riqueza": "#F5C542"
+ },
+ "zoom_fuerte": [
+  34
+ ],
+ "titular": null,
+ "sfx": [
+  {
+   "frase": 16,
+   "palabra": "ganado",
+   "tipo": "pop",
+   "por_que": "entra el inserto del ganado"
+  },
+  {
+   "frase": 26,
+   "palabra": "peor",
+   "tipo": "whoosh",
+   "por_que": "cambio a la quinta, la que el gancho anunció como la peor"
+  },
+  {
+   "frase": 34,
+   "palabra": "ganador",
+   "tipo": "golpe",
+   "por_que": "la moraleja"
+  }
+ ],
+ "rotulos": [
+  {
+   "frase": 3,
+   "texto": "no puedes / *perder* tu tiempo",
+   "tono": "malo"
+  },
+  {
+   "frase": 13,
+   "texto": "pasa / de *ella*",
+   "tono": "neutro"
+  },
+  {
+   "frase": 34,
+   "texto": "un ganador / no pierde *energía*",
+   "tono": "bueno"
+  }
+ ],
+ "insertos": [
+  {
+   "frase": 16,
+   "palabra": "ganado",
+   "busqueda": "oil painting herd of cattle pastoral",
+   "por_que": "«ganado de amiguitos»: la imagen literal refuerza la ironía"
+  },
+  {
+   "frase": 24,
+   "palabra": "catedral",
+   "busqueda": "gothic cathedral interior nave",
+   "por_que": "«red flag como una catedral»: algo enorme que se ve"
+  },
+  {
+   "frase": 40,
+   "palabra": "riqueza",
+   "busqueda": "dutch golden age still life gold coins",
+   "por_que": "riqueza → oro en un cuadro clásico"
+  }
+ ],
+ "dudas": [
+  "Frase 11: dentro de la misma frase hay un arranque en falso («2 la que nunca 2 la que nunca…»). Hay que cortar a partir del segundo «2» (≈ 58 s); si el código no corta dentro de una frase, se oirá repetido.",
+  "Frase 26: la transcripción pone «Y por quinto»; seguramente es «y por último» o «y la quinta». Hay que escucharlo antes de corregir el subtítulo.",
+  "Frase 42: la frase hablada «Sígueme para mejorar tu vida» coincide con la tarjeta de seguir. Si se solapan, se puede quitar la frase y dejar solo la tarjeta."
+ ],
+ "notas": [
+  "El vídeo arranca directamente con el gancho (frase 3), sin «dale caña» ni comentarios previos.",
+  "La lista va numerada y cada tipo de mujer va seguido de su veredicto. Se quitan todas las pausas, los «siguiente» y las preguntas al equipo, y el vídeo queda en unos 44 s.",
+  "Para la moraleja se usa la toma 34, la única completa y limpia. Lleva el único zoom fuerte, el golpe y el rótulo dorado.",
+  "Los tres insertos (ganado, catedral, oro) caen donde la frase nombra algo que se puede ver, y no coinciden con los rótulos.",
+  "No hay titular, porque el gancho ya se entiende solo y el rótulo de la frase 3 lo refuerza."
+ ]
+}

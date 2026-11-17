@@ -1,0 +1,144 @@
+{
+ "mantener": [
+  2,
+  6,
+  7,
+  8,
+  9,
+  14,
+  17,
+  20
+ ],
+ "quitadas": [
+  {
+   "i": 0,
+   "por_que": "indicación a cámara («vamos con el siguiente»)"
+  },
+  {
+   "i": 1,
+   "por_que": "arranque en falso, solo «y»"
+  },
+  {
+   "i": 3,
+   "por_que": "indicación a cámara, frase a medias"
+  },
+  {
+   "i": 4,
+   "por_que": "conversación fuera de cámara"
+  },
+  {
+   "i": 5,
+   "por_que": "indicación a cámara («¿ok?»)"
+  },
+  {
+   "i": 10,
+   "por_que": "toma bien dicha pero sin mirar a cámara (lo dice él en la 11); vale la 14"
+  },
+  {
+   "i": 11,
+   "por_que": "indicación a cámara («espérate… no lo he hecho mirando a cámara»)"
+  },
+  {
+   "i": 12,
+   "por_que": "toma repetida y mal dicha («se ha visto el urro»); vale la 14"
+  },
+  {
+   "i": 13,
+   "por_que": "conversación fuera de cámara"
+  },
+  {
+   "i": 15,
+   "por_que": "indicación a cámara («¿qué más queda?»)"
+  },
+  {
+   "i": 16,
+   "por_que": "toma repetida: vale la 17, la última completa"
+  },
+  {
+   "i": 18,
+   "por_que": "arranque en falso del CTA"
+  },
+  {
+   "i": 19,
+   "por_que": "arranque en falso del CTA, mal transcrito"
+  },
+  {
+   "i": 21,
+   "por_que": "frase suelta sin sentido al final"
+  }
+ ],
+ "correcciones": {
+  "se viste": "se visten",
+  "Comenta rico": "Comenta RICO"
+ },
+ "claves": {
+  "mentalidad": "#F5C542",
+  "sistema": "#E5322D",
+  "habilidad": "#F5C542"
+ },
+ "zoom_fuerte": [
+  17
+ ],
+ "titular": {
+  "texto": "Pobre vs. rico",
+  "hasta": 2.4
+ },
+ "sfx": [
+  {
+   "frase": 7,
+   "palabra": "rico",
+   "tipo": "whoosh",
+   "por_que": "entra el inserto del palacio, contraste fuerte"
+  },
+  {
+   "frase": 14,
+   "palabra": "ricos",
+   "tipo": "whoosh",
+   "por_que": "entra el inserto del retrato aristócrata"
+  },
+  {
+   "frase": 17,
+   "palabra": "mentalidad",
+   "tipo": "golpe",
+   "por_que": "la moraleja"
+  }
+ ],
+ "rotulos": [
+  {
+   "frase": 2,
+   "texto": "el pobre / y el *rico*",
+   "tono": "bueno"
+  },
+  {
+   "frase": 17,
+   "texto": "el éxito es / *mentalidad*",
+   "tono": "bueno"
+  }
+ ],
+ "insertos": [
+  {
+   "frase": 7,
+   "palabra": "rico",
+   "busqueda": "baroque palace interior oil painting",
+   "por_que": "interior de la casa del rico, un salón de palacio"
+  },
+  {
+   "frase": 14,
+   "palabra": "ricos",
+   "busqueda": "18th century aristocrat portrait oil painting",
+   "por_que": "cómo visten los ricos, un retrato de aristócrata de época"
+  }
+ ],
+ "dudas": [
+  "Frase 14: la transcripción dice «se viste los pobres / se viste los ricos». Lo corrijo a «se visten» suponiendo que se ha transcrito mal; si en el audio de verdad dice «viste», la 10 está mejor dicha pero no mira a cámara.",
+  "Las frases 2 y 6–9 parecen señalar imágenes («esta es…», «este es…»). Si en el bruto no se ven, el contraste pobre/rico puede quedar abstracto. Habría que confirmar si hace falta enseñar algo que el código no pone.",
+  "CTA: pongo «RICO» en mayúsculas para que se lea como la palabra que hay que comentar. Revisar que la corrección solo afecta a la frase 20."
+ ],
+ "notas": [
+  "Gancho directo con la frase 2 (pobre vs. rico) y sin el «vamos con el siguiente» ni la conversación de antes.",
+  "Para la ropa uso la 14, la última toma completa mirando a cámara. La 10 suena mejor pero no mira a cámara, y la 12 está mal dicha.",
+  "La moraleja es la 17, la última toma de las dos iguales. Lleva zoom fuerte, golpe y rótulo con «mentalidad» en dorado.",
+  "Dos insertos de época, uno a los 7 s y otro a los 17 s, en las frases que nombran algo que se puede ver (casa y ropa del rico). El resto se queda en la cara.",
+  "El vídeo final dura unos 28 s, con 3 palabras clave y 3 sonidos: ante la duda, menos."
+ ]
+}

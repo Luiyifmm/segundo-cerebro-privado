@@ -1,0 +1,21 @@
+{
+ "cliente": "Álvaro Cabrera @alvarocabrerafitness · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "cercano y seguro; hábitos del día a día",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "sequel",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF5F57",
+  "bueno": "#3A86FF",
+  "acento": "#3A86FF"
+ },
+ "rotulo": {
+  "fuente": "sequel",
+  "fuente2": "sfpro-black"
+ },
+ "musica_src": "lib/musica/phoenix-1901-instrumental-hq.mp3"
+}

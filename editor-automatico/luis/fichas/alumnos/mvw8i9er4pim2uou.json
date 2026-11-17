@@ -1,0 +1,22 @@
+{
+ "cliente": "Kevin Palacios @liftswithkevin · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "humor y POV: rápido, gracioso, cercano",
+ "subtitulo": {
+  "fuente": "poppins"
+ },
+ "clave": {
+  "fuente": "archivo",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF3B5C",
+  "bueno": "#2F5BFF",
+  "acento": "#2F5BFF"
+ },
+ "rotulo": {
+  "fuente": "archivo",
+  "fuente2": "poppins"
+ },
+ "musica_src": "lib/musica/divkid-parisian-funk.mp3",
+ "nota": "Sus brutos ya vienen editados (texto blanco con caja azul): el azul es su marca."
+}

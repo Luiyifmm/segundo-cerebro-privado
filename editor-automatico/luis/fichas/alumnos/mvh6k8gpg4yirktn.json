@@ -1,0 +1,21 @@
+{
+ "cliente": "Jonatan Leonato (Leo Fitness) @leofitness85 · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "fuerza en gimnasio, directo y con energía",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "anton",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF3B30",
+  "bueno": "#00C2FF",
+  "acento": "#00C2FF"
+ },
+ "rotulo": {
+  "fuente": "anton",
+  "fuente2": "sfpro-black"
+ },
+ "musica_src": "lib/musica/the-racer.mp3"
+}

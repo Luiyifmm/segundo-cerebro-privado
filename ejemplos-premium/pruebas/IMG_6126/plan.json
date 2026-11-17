@@ -1,0 +1,170 @@
+{
+ "mantener": [
+  0,
+  5,
+  6,
+  9,
+  10,
+  19,
+  20,
+  21,
+  31,
+  32,
+  33,
+  35,
+  36,
+  38,
+  39,
+  40,
+  41
+ ],
+ "quitadas": [
+  {
+   "i": 1,
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "i": 2,
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "i": 3,
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "i": 4,
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "i": 7,
+   "por_que": "arranque en falso"
+  },
+  {
+   "i": 8,
+   "por_que": "indicación fuera de cámara"
+  },
+  {
+   "i": 11,
+   "por_que": "toma a medias"
+  },
+  {
+   "i": 12,
+   "por_que": "toma posterior, pero dice «admiración» donde debería decir «validación» y contradice el «deseo barato»; vale la 9"
+  },
+  {
+   "i": 13,
+   "por_que": "va con la toma 12, que se descarta; vale la 10"
+  },
+  {
+   "i": 14,
+   "por_que": "toma repetida y mal dicha; vale la 19"
+  },
+  {
+   "i": 15,
+   "por_que": "toma repetida y mal dicha; vale la 19"
+  },
+  {
+   "i": 16,
+   "por_que": "toma repetida; vale la 19"
+  },
+  {
+   "i": 17,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 18,
+   "por_que": "toma repetida; vale la 19, más completa («admiración pura»)"
+  },
+  {
+   "i": 22,
+   "por_que": "arranque en falso"
+  },
+  {
+   "i": 23,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 24,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 25,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 26,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 27,
+   "por_que": "error al hablar («menores»); vale la 31"
+  },
+  {
+   "i": 28,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 29,
+   "por_que": "toma repetida; vale la 31, que remata con «vulgar»"
+  },
+  {
+   "i": 30,
+   "por_que": "indicación a cámara"
+  },
+  {
+   "i": 34,
+   "por_que": "toma corta; vale la 35, que además conecta con «alto valor» del cierre"
+  },
+  {
+   "i": 37,
+   "por_que": "indicación a cámara"
+  }
+ ],
+ "correcciones": {
+  "Directar": "Proyectar",
+  "sólo": "solo"
+ },
+ "claves": {
+  "vulgaridad": "#E5322D",
+  "elegancia": "#F5C542",
+  "perdedores": "#E5322D",
+  "riqueza": "#F5C542"
+ },
+ "zoom_fuerte": [
+  36,
+  39
+ ],
+ "titular": null,
+ "sfx": [
+  {
+   "frase": 5,
+   "palabra": "elegancia",
+   "tipo": "whoosh",
+   "por_que": "entra el contraste del gancho"
+  },
+  {
+   "frase": 38,
+   "palabra": "regla",
+   "tipo": "pop",
+   "por_que": "entra la regla final"
+  },
+  {
+   "frase": 39,
+   "palabra": "perdedores",
+   "tipo": "golpe",
+   "por_que": "la moraleja"
+  }
+ ],
+ "dudas": [
+  "Frase 19: la transcripción dice «Proyectar clase, deseo y estatus», pero las tomas 15 y 16 apuntan a «clase, misterio y estatus». Con «deseo», la elegancia generaría deseo y eso contradice la tesis del vídeo. Escúchalo: si dice «misterio», corrige «deseo» → «misterio».",
+  "Frase 41: «Sígueme para ser un alzo» no se entiende (¿«alfa»?, ¿«10»?). Comprueba el audio y corrígelo. Si no está claro, quita la 41, porque la tarjeta de seguir ya cierra el vídeo.",
+  "Frase 40: «El de alto valor» puede ser «Lo de alto valor» (iría en paralelo con «Lo barato»). Compruébalo en el audio."
+ ],
+ "notas": [
+  "Abre con el contraste vulgaridad/elegancia (0+5), sin nada antes; el gancho se entiende solo, así que no lleva titular.",
+  "Cada idea se monta por parejas, primero lo vulgar y luego lo elegante (9-10 / 19, 20 / 21, 31-32 / 33-35), con la toma más limpia de cada una.",
+  "Se quitan todas las interrupciones con Javi y las tomas falsas: pasa de casi 4 min de bruto a unos 40 s.",
+  "Zoom fuerte solo en la idea de que eliges tu atención (36) y en la moraleja (39), que lleva el único golpe del vídeo.",
+  "Cuatro palabras clave, una por cada polo del contraste: rojo para vulgaridad y perdedores, dorado para elegancia y riqueza."
+ ]
+}

@@ -1,0 +1,1235 @@
+{
+ "video": "IMG_6124",
+ "bruto": "IMG_6124.MOV",
+ "duracion_final_s": 35.84,
+ "cortes": [
+  {
+   "bruto_s": 127.56,
+   "bruto_e": 129.8,
+   "por_que": "frase 26: «Tener novia te quita tu tiempo y tu foco.»"
+  },
+  {
+   "bruto_s": 156.84,
+   "bruto_e": 158.68,
+   "por_que": "frase 30: «No tienes horas para tus proyectos.»"
+  },
+  {
+   "bruto_s": 136.53,
+   "bruto_e": 138.24,
+   "por_que": "frase 27: «Tener novia te cuesta dinero.»"
+  },
+  {
+   "bruto_s": 144.26,
+   "bruto_e": 145.82,
+   "por_que": "frase 28: «Te vacía la cartera.»"
+  },
+  {
+   "bruto_s": 99.11,
+   "bruto_e": 101.26,
+   "por_que": "frase 19: «Y por eso casi todo el mundo está arruinado.»"
+  },
+  {
+   "bruto_s": 150.36,
+   "bruto_e": 152.49,
+   "por_que": "frase 29: «tener novia te da dolores de cabeza»"
+  },
+  {
+   "bruto_s": 165.68,
+   "bruto_e": 168.88,
+   "por_que": "frase 31: «y gastarte dinero que no tienes en restaurantes caros.»"
+  },
+  {
+   "bruto_s": 179.52,
+   "bruto_e": 182.51,
+   "por_que": "frase 33: «Para ver si tienes suerte y mendigar un poquito de intimidad»"
+  },
+  {
+   "bruto_s": 187.58,
+   "bruto_e": 190.36,
+   "por_que": "frase 35: «Y eso es de perdedor arrastrado.»"
+  },
+  {
+   "bruto_s": 195.1,
+   "bruto_e": 198.54,
+   "por_que": "frase 36: «Olvídate, olvídate de buscar mujeres ahora mismo.»"
+  },
+  {
+   "bruto_s": 224.84,
+   "bruto_e": 228.84,
+   "por_que": "frase 42: «Un ganador primero construye su imperio.»"
+  },
+  {
+   "bruto_s": 232.96,
+   "bruto_e": 235.23,
+   "por_que": "frase 43: «y sólo cuando está en la cima»"
+  },
+  {
+   "bruto_s": 247.74,
+   "bruto_e": 251.79,
+   "por_que": "frase 45: «Busca a una mujer de valor para compartirlo.»"
+  },
+  {
+   "bruto_s": 265.52,
+   "bruto_e": 267.79,
+   "por_que": "frase 49: «Sígueme para ser un ganador.»"
+  }
+ ],
+ "quitadas": [
+  {
+   "frase": 0,
+   "texto": "Gracias.",
+   "por_que": "suelto antes de grabar, no aporta"
+  },
+  {
+   "frase": 1,
+   "texto": "Bueno, ahora tienes que acuérdate ahora de lo del silencio, ¿vale?",
+   "por_que": "indicación a cámara sobre el silencio"
+  },
+  {
+   "frase": 2,
+   "texto": "no no no no no no no aguárdalo del silencio sabes yo hablo hablo me callo para q",
+   "por_que": "indicación a cámara sobre el silencio"
+  },
+  {
+   "frase": 3,
+   "texto": "Así Luis, él tiene para poder cortar y poder sacar bien las tomas o lo que sea.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 4,
+   "texto": "Vale, entonces a partir del segundo 3 me lo vas a decir.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 5,
+   "texto": "Dos y tres.",
+   "por_que": "cuenta atrás"
+  },
+  {
+   "frase": 6,
+   "texto": "Dímelo.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 7,
+   "texto": "tener novia.",
+   "por_que": "arranque a medias («tener novia.» suelto); la idea se dice entera en la 26"
+  },
+  {
+   "frase": 8,
+   "texto": "de pobre, mediocre no de pobre",
+   "por_que": "toma dudada («de pobre, mediocre no de pobre»): dos versiones en la misma frase"
+  },
+  {
+   "frase": 9,
+   "texto": "¿Pero por qué?",
+   "por_que": "pregunta del entrevistador, fuera de plano"
+  },
+  {
+   "frase": 10,
+   "texto": "Si todo el mundo quiere una.",
+   "por_que": "pregunta del entrevistador, fuera de plano"
+  },
+  {
+   "frase": 11,
+   "texto": "Cuando yo...",
+   "por_que": "arranque en falso"
+  },
+  {
+   "frase": 12,
+   "texto": "Pero me tienes que decir la respuesta a la pregunta y la respuesta siempre.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 13,
+   "texto": "Ustedes utilizan un poco la cabeza",
+   "por_que": "suelta, sin contexto y a medias"
+  },
+  {
+   "frase": 14,
+   "texto": "Bro, me tienes que...",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 15,
+   "texto": "Hermano, escúchame, me tienes que decir la pregunta y la respuesta.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 16,
+   "texto": "Y yo me quedo silencio y una vez que ya he dicho la respuesta ya me puedes decir",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 17,
+   "texto": "Pero no me puedes decir la pregunta y justo después la respuesta porque no puedo",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 18,
+   "texto": "Dime la respuesta, por favor.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 20,
+   "texto": "Atento.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 21,
+   "texto": "atento",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 22,
+   "texto": "Tener novia te quita tu tiempo y tu foco.",
+   "por_que": "toma repetida: vale la 26 (última completa)"
+  },
+  {
+   "frase": 23,
+   "texto": "El que has dicho, ¿puede repetirlo?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 24,
+   "texto": "Tener novia te quita tu tiempo y tu foco.",
+   "por_que": "toma repetida: vale la 26"
+  },
+  {
+   "frase": 25,
+   "texto": "Tener novia te quita tu tiempo y tu foco.",
+   "por_que": "toma repetida: vale la 26"
+  },
+  {
+   "frase": 32,
+   "texto": "Para ver si tienes suerte...",
+   "por_que": "frase a medias: vale la 33"
+  },
+  {
+   "frase": 34,
+   "texto": "Y eso es de perdedor arrastrado.",
+   "por_que": "toma repetida: vale la 35 (última)"
+  },
+  {
+   "frase": 37,
+   "texto": "Espera, espera, espera, brother, ¿qué te crees?",
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "frase": 38,
+   "texto": "Que soy aquí en una discográfica para acordarme de todo.",
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "frase": 39,
+   "texto": "Dime frase por frase, cabrón.",
+   "por_que": "comentario fuera de guion"
+  },
+  {
+   "frase": 40,
+   "texto": "Espérate, un ganador primero construye su imperio, ¿no?",
+   "por_que": "toma repetida con «Espérate» delante y «¿no?» al final: vale la 42"
+  },
+  {
+   "frase": 41,
+   "texto": "Un ganador primero construye su imperio.",
+   "por_que": "toma repetida: vale la 42 (última)"
+  },
+  {
+   "frase": 44,
+   "texto": "¿A una mujer qué?",
+   "por_que": "pregunta a cámara"
+  },
+  {
+   "frase": 46,
+   "texto": "Sígueme para mejorar tu vida.",
+   "por_que": "CTA descartado: Amin prefiere el del ganador (frase 50)"
+  },
+  {
+   "frase": 47,
+   "texto": "A ver, espérate.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 48,
+   "texto": "Sígueme para mejorar tu vida.",
+   "por_que": "CTA descartado: Amin prefiere el del ganador"
+  },
+  {
+   "frase": 50,
+   "texto": "ese GTA me gusta más, el del ganador",
+   "por_que": "comentario de Amin eligiendo el CTA"
+  }
+ ],
+ "subtitulos": [
+  {
+   "s": 0.0,
+   "e": 0.44,
+   "linea": "Tener",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.44,
+   "e": 0.78,
+   "linea": "novia",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.78,
+   "e": 1.12,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.12,
+   "e": 1.3,
+   "linea": "quita",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.3,
+   "e": 1.46,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.46,
+   "e": 1.68,
+   "linea": "tiempo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.68,
+   "e": 1.82,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.82,
+   "e": 1.94,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.94,
+   "e": 2.14,
+   "linea": "foco.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.38,
+   "e": 2.52,
+   "linea": "No",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.52,
+   "e": 2.78,
+   "linea": "tienes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.78,
+   "e": 2.98,
+   "linea": "horas",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.98,
+   "e": 3.2,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.2,
+   "e": 3.38,
+   "linea": "tus",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.38,
+   "e": 3.98,
+   "linea": "proyectos.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.16,
+   "e": 4.48,
+   "linea": "Tener",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.48,
+   "e": 4.72,
+   "linea": "novia",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.72,
+   "e": 4.9,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.9,
+   "e": 5.28,
+   "linea": "cuesta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.28,
+   "e": 5.64,
+   "linea": "dinero.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.94,
+   "e": 6.08,
+   "linea": "Te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.08,
+   "e": 6.5,
+   "linea": "vacía",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.5,
+   "e": 6.84,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.84,
+   "e": 7.22,
+   "linea": "cartera.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.58,
+   "e": 7.66,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.66,
+   "e": 7.78,
+   "linea": "por",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.78,
+   "e": 7.96,
+   "linea": "eso",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.96,
+   "e": 8.18,
+   "linea": "casi",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.18,
+   "e": 8.38,
+   "linea": "todo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.38,
+   "e": 8.48,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.48,
+   "e": 8.64,
+   "linea": "mundo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.64,
+   "e": 8.92,
+   "linea": "está",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.92,
+   "e": 9.38,
+   "linea": "arruinado.",
+   "clave": "arruinado.",
+   "color": "#E5322D"
+  },
+  {
+   "s": 9.68,
+   "e": 9.94,
+   "linea": "Tener",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.94,
+   "e": 10.24,
+   "linea": "novia",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.24,
+   "e": 10.48,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.48,
+   "e": 10.68,
+   "linea": "da",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.68,
+   "e": 11.08,
+   "linea": "dolores",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.08,
+   "e": 11.22,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.22,
+   "e": 11.54,
+   "linea": "cabeza.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.76,
+   "e": 11.94,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.94,
+   "e": 12.36,
+   "linea": "gastarte",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.36,
+   "e": 12.6,
+   "linea": "dinero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.6,
+   "e": 12.78,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.78,
+   "e": 12.88,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.88,
+   "e": 13.22,
+   "linea": "tienes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.22,
+   "e": 13.46,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.46,
+   "e": 14.2,
+   "linea": "restaurantes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.2,
+   "e": 14.74,
+   "linea": "caros.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.9,
+   "e": 15.18,
+   "linea": "Para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.18,
+   "e": 15.28,
+   "linea": "ver",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.28,
+   "e": 15.4,
+   "linea": "si",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.4,
+   "e": 15.6,
+   "linea": "tienes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.6,
+   "e": 15.98,
+   "linea": "suerte",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.98,
+   "e": 16.14,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.14,
+   "e": 16.56,
+   "linea": "mendigar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.56,
+   "e": 16.72,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.72,
+   "e": 17.08,
+   "linea": "poquito",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.08,
+   "e": 17.26,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.26,
+   "e": 17.7,
+   "linea": "intimidad.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.12,
+   "e": 18.36,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.36,
+   "e": 18.64,
+   "linea": "eso",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.64,
+   "e": 19.14,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.14,
+   "e": 19.28,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.28,
+   "e": 19.72,
+   "linea": "perdedor",
+   "clave": "perdedor",
+   "color": "#E5322D"
+  },
+  {
+   "s": 19.72,
+   "e": 20.6,
+   "linea": "arrastrado.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.82,
+   "e": 21.34,
+   "linea": "Olvídate,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.96,
+   "e": 22.5,
+   "linea": "olvídate",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.5,
+   "e": 22.86,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.86,
+   "e": 23.14,
+   "linea": "buscar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.14,
+   "e": 23.52,
+   "linea": "mujeres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.52,
+   "e": 23.8,
+   "linea": "ahora",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.8,
+   "e": 24.04,
+   "linea": "mismo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.64,
+   "e": 24.96,
+   "linea": "Un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.96,
+   "e": 25.36,
+   "linea": "ganador",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.36,
+   "e": 25.78,
+   "linea": "primero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.78,
+   "e": 26.14,
+   "linea": "construye",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.14,
+   "e": 26.28,
+   "linea": "su",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.28,
+   "e": 26.68,
+   "linea": "imperio.",
+   "clave": "imperio.",
+   "color": "#F5C542"
+  },
+  {
+   "s": 26.68,
+   "e": 27.06,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.06,
+   "e": 27.48,
+   "linea": "solo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.48,
+   "e": 27.98,
+   "linea": "cuando",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.98,
+   "e": 28.22,
+   "linea": "está",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.22,
+   "e": 28.36,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.36,
+   "e": 28.46,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.46,
+   "e": 28.8,
+   "linea": "cima,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.04,
+   "e": 29.6,
+   "linea": "busca",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.6,
+   "e": 30.1,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.1,
+   "e": 30.24,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.24,
+   "e": 30.56,
+   "linea": "mujer",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.56,
+   "e": 30.94,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.94,
+   "e": 31.28,
+   "linea": "valor",
+   "clave": "valor",
+   "color": "#F5C542"
+  },
+  {
+   "s": 31.28,
+   "e": 32.22,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.22,
+   "e": 33.04,
+   "linea": "compartirlo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.16,
+   "e": 33.64,
+   "linea": "Sígueme",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.64,
+   "e": 34.6,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.6,
+   "e": 34.78,
+   "linea": "ser",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.78,
+   "e": 34.9,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.9,
+   "e": 35.18,
+   "linea": "ganador.",
+   "clave": "",
+   "color": ""
+  }
+ ],
+ "graficos": [
+  {
+   "t": 33.11,
+   "hasta": 35.84,
+   "que": "tarjeta de seguir",
+   "palabra_que_lo_dispara": "sígueme",
+   "por_que": "una sola llamada a la acción"
+  },
+  {
+   "t": 0,
+   "hasta": 2.44,
+   "que": "rótulo «te quita tu / *tiempo* y tu foco»",
+   "palabra_que_lo_dispara": "te quita tu ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 24.59,
+   "hasta": 26.98,
+   "que": "rótulo «primero / tu *imperio*»",
+   "palabra_que_lo_dispara": "primero ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 6.79,
+   "hasta": 8.79,
+   "que": "inserto i0.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 13.41,
+   "hasta": 15.41,
+   "que": "inserto i1.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 30.19,
+   "hasta": 32.19,
+   "que": "inserto i2.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  }
+ ],
+ "zooms": [
+  {
+   "t": 0,
+   "escala": 1.46,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 0.3,
+   "escala": 1.511,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 2.24,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 2.54,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 4.08,
+   "escala": 1.46,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 4.38,
+   "escala": 1.511,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 5.79,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 6.09,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 7.35,
+   "escala": 1.46,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 7.65,
+   "escala": 1.511,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 9.5,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 9.8,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 11.63,
+   "escala": 1.46,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 11.93,
+   "escala": 1.511,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 14.83,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 15.13,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 17.82,
+   "escala": 1.58,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 18.12,
+   "escala": 1.635,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 20.6,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 20.9,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.13,
+   "escala": 1.58,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.43,
+   "escala": 1.635,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 26.65,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 26.95,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 28.92,
+   "escala": 1.46,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 29.22,
+   "escala": 1.511,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 32.97,
+   "escala": 1.6,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 33.27,
+   "escala": 1.656,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 6.81,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra el primer inserto"
+  },
+  {
+   "t": 13.26,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -20.0,
+   "por_que": "entra un inserto"
+  },
+  {
+   "t": 20.67,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "giro: del problema a la orden"
+  },
+  {
+   "t": 30.04,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -20.0,
+   "por_que": "entra un inserto"
+  },
+  {
+   "t": 33.11,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la tarjeta de seguir"
+  }
+ ],
+ "musica": {
+  "archivo": "",
+  "nivel_db": null
+ },
+ "color": "HDR a SDR (tonemap hable) si el bruto era HLG; sin más corrección",
+ "audio": {
+  "lufs": -14.0,
+  "pico_dbtp": -1.5
+ },
+ "revision": {
+  "problemas": [
+   "26.5 s: en la hoja el rótulo parece decir «PRIMERO TU imperio», pero la palabra 77 es «su» y «construye» no se ve. Con esta resolución no puedo confirmarlo y no pude ampliar el fotograma. Hay que mirar ese momento a tamaño completo: si pone «TU», es un error de texto, y si falta «construye», la frase queda coja.",
+   "0.4 s: «tiempo» sale en rojo como palabra clave, pero no está en `claves`. Seguramente es el estilo del arranque; confirmar que es a propósito."
+  ],
+  "nota": "Ningún texto tapa ojos ni bocas, las 4 claves en 35,8 s tienen sentido, los 5 efectos tienen motivo, el texto no tiene faltas y el audio está en rango (−14 LUFS, −1,5 dBTP); solo falta comprobar el rótulo de los 26,5 s («su/tu imperio»)."
+ },
+ "dudas": [
+  "No hay guion. Coloqué la 19 («Y por eso casi todo el mundo está arruinado») justo después de «te vacía la cartera», que es donde mejor encaja. En el bruto contestaba a una pregunta. Si Luis la ve forzada, se puede quitar.",
+  "La 31 empieza por «y gastarte dinero…», que es la mitad de una frase. Detrás de la 29 queda un poco suelta, pero la 33 la necesita. Hay que revisarla al oírlo.",
+  "El planteamiento original («tener novia es de pobre / mediocre») no tiene ninguna toma limpia (7 y 8). El vídeo arranca directamente con el primer argumento."
+ ],
+ "notas": "El gancho es la última toma limpia de «Tener novia te quita tu tiempo y tu foco», con rótulo en rojo. Fuera todo el ruido de grabación. · Los argumentos van de tiempo a dinero, de ahí a la ruina y luego a mendigar. Así se escalan hasta «perdedor arrastrado», que lleva zoom fuerte. · «Olvídate…» lleva whoosh porque marca el giro hacia la solución. · La moraleja «Un ganador primero construye su imperio» lleva rótulo dorado, zoom fuerte y el único golpe del vídeo. · El CTA es «Sígueme para ser un ganador», el que Amin dijo preferir. Cierra el vídeo con la misma idea del ganador.",
+ "editor": "claude-luis",
+ "coste_ia_usd": 0.666,
+ "limpieza": [
+  {
+   "montaje_s": 24.07,
+   "montaje_e": 25.46,
+   "texto": "Un ganador,"
+  }
+ ],
+ "estilo": "clave",
+ "insertos_creditos": [
+  {
+   "inserto": 0,
+   "busqueda": "empty leather",
+   "archivo": "File:Mostly empty Leather Sofa Company premises, Malpas, Newport - geograph.org.uk - 6476069.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mostly_empty_Leather_Sofa_Company_premises,_Malpas,_Newport_-_geograph.org.uk_-_6476069.jpg",
+   "licencia": "CC BY-SA 2.0",
+   "autor": "Jaggery "
+  },
+  {
+   "inserto": 1,
+   "busqueda": "oil painting lavish",
+   "archivo": "File:Charles Philipard - A Lavish Bouquet of Flowers with Peonies in a Vase with the Image of a Saint.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Charles_Philipard_-_A_Lavish_Bouquet_of_Flowers_with_Peonies_in_a_Vase_with_the_Image_of_a_Saint.jpg",
+   "licencia": "Public domain",
+   "autor": "\nCharles Philipard (France around 1860)"
+  },
+  {
+   "inserto": 2,
+   "busqueda": "renaissance portrait noblewoman oil painting",
+   "archivo": "File:Alessandro Allori (and workshop) Portrait of a noblewoman.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Alessandro_Allori_(and_workshop)_Portrait_of_a_noblewoman.jpg",
+   "licencia": "Public domain",
+   "autor": "Alessandro Allori / Workshop of Alessandro Allori"
+  }
+ ]
+}

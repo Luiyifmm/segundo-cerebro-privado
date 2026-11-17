@@ -1,0 +1,1591 @@
+{
+ "video": "Ejemplo clave (IMG_6122)",
+ "bruto": "IMG_6122.MOV",
+ "duracion_final_s": 52.94,
+ "cortes": [
+  {
+   "bruto_s": 271.695,
+   "bruto_e": 274.91,
+   "por_que": "frase 52: «Los pobres gastan dinero para aparentar.»"
+  },
+  {
+   "bruto_s": 81.42,
+   "bruto_e": 82.87,
+   "por_que": "frase 17: «Fardar del Lamborghini.»"
+  },
+  {
+   "bruto_s": 85.25,
+   "bruto_e": 86.24,
+   "por_que": "frase 18: «Nilo comento.»"
+  },
+  {
+   "bruto_s": 92.99,
+   "bruto_e": 94.27,
+   "por_que": "frase 20: «Tenere último iPhone.»"
+  },
+  {
+   "bruto_s": 96.21,
+   "bruto_e": 97.1,
+   "por_que": "frase 21: «de pobre»"
+  },
+  {
+   "bruto_s": 103.82,
+   "bruto_e": 104.88,
+   "por_que": "frase 22: «Cocinar para ti.»"
+  },
+  {
+   "bruto_s": 107.0,
+   "bruto_e": 108.7,
+   "por_que": "frase 23: «O eres pobre o eres muy rico.»"
+  },
+  {
+   "bruto_s": 114.92,
+   "bruto_e": 116.4,
+   "por_que": "frase 24: «Pagar a medias con tu novia.»"
+  },
+  {
+   "bruto_s": 121.48,
+   "bruto_e": 123.05,
+   "por_que": "frase 26: «Muy triste y de mediocre.»"
+  },
+  {
+   "bruto_s": 131.23,
+   "bruto_e": 132.3,
+   "por_que": "frase 27: «Comprarte un coche.»"
+  },
+  {
+   "bruto_s": 149.58,
+   "bruto_e": 151.07,
+   "por_que": "frase 31: «De pobre casi siempre, pero de rico si sabes comprarlo.»"
+  },
+  {
+   "bruto_s": 151.19,
+   "bruto_e": 153.21,
+   "por_que": "frase 31: «De pobre casi siempre, pero de rico si sabes comprarlo.»"
+  },
+  {
+   "bruto_s": 160.89,
+   "bruto_e": 162.58,
+   "por_que": "frase 32: «Comprarte una casa para vivir.»"
+  },
+  {
+   "bruto_s": 165.33,
+   "bruto_e": 166.42,
+   "por_que": "frase 33: «de pobre»"
+  },
+  {
+   "bruto_s": 171.67,
+   "bruto_e": 173.4,
+   "por_que": "frase 34: «Y si es para invertir en ella...»"
+  },
+  {
+   "bruto_s": 175.12,
+   "bruto_e": 176.88,
+   "por_que": "frase 35: «De rico, muy rico.»"
+  },
+  {
+   "bruto_s": 181.36,
+   "bruto_e": 183.3,
+   "por_que": "frase 36: «Llevar ropa con logos.»"
+  },
+  {
+   "bruto_s": 185.24,
+   "bruto_e": 187.16,
+   "por_que": "frase 37: «de pobre mediocre»"
+  },
+  {
+   "bruto_s": 191.56,
+   "bruto_e": 192.9,
+   "por_que": "frase 38: «¿Lleva ropa simple?»"
+  },
+  {
+   "bruto_s": 195.25,
+   "bruto_e": 196.16,
+   "por_que": "frase 39: «de rico»"
+  },
+  {
+   "bruto_s": 229.57,
+   "bruto_e": 231.22,
+   "por_que": "frase 44: «dejar el dinero en el banco»"
+  },
+  {
+   "bruto_s": 239.72,
+   "bruto_e": 241.39,
+   "por_que": "frase 45: «de pobre porque te arruina»"
+  },
+  {
+   "bruto_s": 247.1,
+   "bruto_e": 248.78,
+   "por_que": "frase 46: «quejarse continuamente.»"
+  },
+  {
+   "bruto_s": 255.15,
+   "bruto_e": 256.25,
+   "por_que": "frase 48: «de miserable»"
+  },
+  {
+   "bruto_s": 287.05,
+   "bruto_e": 295.95,
+   "por_que": "frase 54: «Los ricos invierten en conocimiento que les hará ganar mucho»"
+  },
+  {
+   "bruto_s": 339.0,
+   "bruto_e": 343.53,
+   "por_que": "frase 61: «Si quieres aprender una habilidad para ganar dinero online y»"
+  },
+  {
+   "bruto_s": 343.8,
+   "bruto_e": 346.01,
+   "por_que": "frase 61: «Si quieres aprender una habilidad para ganar dinero online y»"
+  }
+ ],
+ "quitadas": [
+  {
+   "frase": 0,
+   "texto": "vamos a hacerle como los top gs top gs, venga",
+   "por_que": "indicación antes de grabar («venga»)"
+  },
+  {
+   "frase": 1,
+   "texto": "¿Ver a gente bailando TikTok?",
+   "por_que": "pregunta de TikTok mal oída; Amin no la responde"
+  },
+  {
+   "frase": 2,
+   "texto": "¿Has dicho?",
+   "por_que": "indicación a cámara («¿has dicho?»)"
+  },
+  {
+   "frase": 3,
+   "texto": "Debe pasar que eso necesito a alguien que me lo diga, ¿no?",
+   "por_que": "conversación fuera del vídeo"
+  },
+  {
+   "frase": 4,
+   "texto": "Espérate, dímelo, lo voy a adaptar un poco a mi formato, no te preocupes.",
+   "por_que": "conversación fuera del vídeo"
+  },
+  {
+   "frase": 5,
+   "texto": "Dímelo y yo lo adapto",
+   "por_que": "conversación fuera del vídeo"
+  },
+  {
+   "frase": 6,
+   "texto": "Dímelo y luego a lo mejor tú me puedes en...",
+   "por_que": "conversación fuera del vídeo, frase a medias"
+  },
+  {
+   "frase": 7,
+   "texto": "Puedo grabar yo el audio o lo que sea, ¿sabes?",
+   "por_que": "conversación fuera del vídeo"
+  },
+  {
+   "frase": 8,
+   "texto": "Dilo, dilo.",
+   "por_que": "indicación a cámara («dilo, dilo»)"
+  },
+  {
+   "frase": 9,
+   "texto": "Ver a gente bailando TikTok.",
+   "por_que": "pregunta de TikTok sin respuesta hablada: el ejemplo se queda cojo"
+  },
+  {
+   "frase": 10,
+   "texto": "siguiente",
+   "por_que": "indicación («siguiente»)"
+  },
+  {
+   "frase": 11,
+   "texto": "Te voy a subir de un nuevo video.",
+   "por_que": "conversación fuera del vídeo"
+  },
+  {
+   "frase": 12,
+   "texto": "¿Habla?",
+   "por_que": "prueba de micro"
+  },
+  {
+   "frase": 13,
+   "texto": "¿Habla ahora?",
+   "por_que": "prueba de micro"
+  },
+  {
+   "frase": 14,
+   "texto": "Vale, pero acércate un poco el micro porque te tengo puesto a tope hermano y no ",
+   "por_que": "indicación técnica sobre el micro"
+  },
+  {
+   "frase": 15,
+   "texto": "Entonces intenta vocalizar y acércate el micro.",
+   "por_que": "indicación técnica sobre el micro"
+  },
+  {
+   "frase": 16,
+   "texto": "Sí, ahora mejor.",
+   "por_que": "indicación técnica sobre el micro"
+  },
+  {
+   "frase": 19,
+   "texto": "Next.",
+   "por_que": "indicación («next»)"
+  },
+  {
+   "frase": 25,
+   "texto": "Triste y de mediocre.",
+   "por_que": "toma repetida: vale la 26, más completa y más fuerte"
+  },
+  {
+   "frase": 28,
+   "texto": "De pobre casi siempre.",
+   "por_que": "toma incompleta: vale la 31, que añade el matiz «de rico si sabes comprarlo»"
+  },
+  {
+   "frase": 29,
+   "texto": "¿El que has dicho?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 30,
+   "texto": "¿Qué, perdón?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 40,
+   "texto": "¿Dejar dinero en el banco?",
+   "por_que": "toma repetida: Amin pide repetirla; valen la 44 y la 45"
+  },
+  {
+   "frase": 41,
+   "texto": "de pobre te arruina",
+   "por_que": "toma repetida: vale la 45"
+  },
+  {
+   "frase": 42,
+   "texto": "Por favor, cállate cuando deje yo el silencio porque lo estoy dejando para que L",
+   "por_que": "indicación técnica sobre los silencios"
+  },
+  {
+   "frase": 43,
+   "texto": "Entonces, vale, vuelve a decirme el último ejemplo de pobre que...",
+   "por_que": "indicación para repetir"
+  },
+  {
+   "frase": 47,
+   "texto": "Y cada vez más.",
+   "por_que": "coletilla que no aporta y corta el ritmo pregunta-respuesta"
+  },
+  {
+   "frase": 49,
+   "texto": "Gracias.",
+   "por_que": "muletilla suelta («gracias»)"
+  },
+  {
+   "frase": 50,
+   "texto": "¿Gas tanque?",
+   "por_que": "pregunta mal transcrita y sin sentido"
+  },
+  {
+   "frase": 51,
+   "texto": "Los pobres gastan dinero para...",
+   "por_que": "arranque en falso: vale la 52"
+  },
+  {
+   "frase": 53,
+   "texto": "¿Qué más?",
+   "por_que": "indicación («¿qué más?»)"
+  },
+  {
+   "frase": 55,
+   "texto": "No, ahora ya no hace falta que digas el silencio, Javi.",
+   "por_que": "indicación técnica"
+  },
+  {
+   "frase": 56,
+   "texto": "Lo que pasa es que si respondo a las preguntas...",
+   "por_que": "indicación técnica"
+  },
+  {
+   "frase": 57,
+   "texto": "Pues tengo que dejar el hueco, ahora ya no hace falta que deje silencio",
+   "por_que": "indicación técnica"
+  },
+  {
+   "frase": 58,
+   "texto": "Si quieres aprender...",
+   "por_que": "arranque en falso"
+  },
+  {
+   "frase": 59,
+   "texto": "Si quieres aprender una habilidad online para poder ganar dinero y vivir la vida",
+   "por_que": "toma del CTA repetida: Amin pide repetirla en la 60; vale la 61"
+  },
+  {
+   "frase": 60,
+   "texto": "repítemelo todo entonces de nuevo de la parte del CTA",
+   "por_que": "indicación para repetir el CTA"
+  }
+ ],
+ "subtitulos": [
+  {
+   "s": -0.005,
+   "e": 0.995,
+   "linea": "Los",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.995,
+   "e": 1.415,
+   "linea": "pobres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.415,
+   "e": 1.855,
+   "linea": "gastan",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.855,
+   "e": 2.055,
+   "linea": "dinero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.055,
+   "e": 2.275,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.275,
+   "e": 2.775,
+   "linea": "aparentar.",
+   "clave": "aparentar.",
+   "color": "#E5322D"
+  },
+  {
+   "s": 3.235,
+   "e": 3.835,
+   "linea": "Fardar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.835,
+   "e": 3.975,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.975,
+   "e": 4.535,
+   "linea": "Lamborghini.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.685,
+   "e": 5.065,
+   "linea": "Ni lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.065,
+   "e": 5.605,
+   "linea": "comento.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.675,
+   "e": 6.115,
+   "linea": "Tener el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.115,
+   "e": 6.375,
+   "linea": "último",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.375,
+   "e": 6.735,
+   "linea": "iPhone.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.955,
+   "e": 7.315,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.315,
+   "e": 7.595,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.845,
+   "e": 8.365,
+   "linea": "Cocinar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.365,
+   "e": 8.545,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.545,
+   "e": 8.705,
+   "linea": "ti.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.905,
+   "e": 9.165,
+   "linea": "O",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.165,
+   "e": 9.305,
+   "linea": "eres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.305,
+   "e": 9.585,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.585,
+   "e": 9.805,
+   "linea": "o",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.805,
+   "e": 9.965,
+   "linea": "eres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.965,
+   "e": 10.145,
+   "linea": "muy",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.145,
+   "e": 10.445,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.605,
+   "e": 11.005,
+   "linea": "Pagar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.005,
+   "e": 11.125,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.125,
+   "e": 11.345,
+   "linea": "medias",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.345,
+   "e": 11.505,
+   "linea": "con",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.505,
+   "e": 11.645,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.645,
+   "e": 11.905,
+   "linea": "novia.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.085,
+   "e": 12.445,
+   "linea": "Muy",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.445,
+   "e": 12.765,
+   "linea": "triste",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.765,
+   "e": 12.905,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.905,
+   "e": 12.985,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.985,
+   "e": 13.285,
+   "linea": "mediocre.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.655,
+   "e": 14.215,
+   "linea": "Comprarte",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.215,
+   "e": 14.295,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.295,
+   "e": 14.575,
+   "linea": "coche.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.725,
+   "e": 15.085,
+   "linea": "De",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.085,
+   "e": 15.345,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.345,
+   "e": 15.605,
+   "linea": "casi",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.605,
+   "e": 15.965,
+   "linea": "siempre,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.225,
+   "e": 16.705,
+   "linea": "pero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.705,
+   "e": 16.865,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.865,
+   "e": 17.145,
+   "linea": "rico",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.145,
+   "e": 17.425,
+   "linea": "si",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.425,
+   "e": 17.625,
+   "linea": "sabes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.625,
+   "e": 18.105,
+   "linea": "comprarlo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.235,
+   "e": 18.815,
+   "linea": "Comprarte",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.815,
+   "e": 18.915,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.915,
+   "e": 19.195,
+   "linea": "casa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.195,
+   "e": 19.375,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.375,
+   "e": 19.655,
+   "linea": "vivir.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.925,
+   "e": 20.325,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.325,
+   "e": 20.625,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.015,
+   "e": 21.255,
+   "linea": "Y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.255,
+   "e": 21.375,
+   "linea": "si",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.375,
+   "e": 21.515,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.515,
+   "e": 21.655,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.655,
+   "e": 22.055,
+   "linea": "invertir",
+   "clave": "invertir",
+   "color": "#F5C542"
+  },
+  {
+   "s": 22.055,
+   "e": 22.155,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.155,
+   "e": 22.495,
+   "linea": "ella...",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.745,
+   "e": 23.065,
+   "linea": "De",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.065,
+   "e": 23.365,
+   "linea": "rico,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.605,
+   "e": 24.085,
+   "linea": "muy",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.085,
+   "e": 24.385,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.805,
+   "e": 25.325,
+   "linea": "Llevar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.325,
+   "e": 25.545,
+   "linea": "ropa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.545,
+   "e": 25.705,
+   "linea": "con",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.705,
+   "e": 25.985,
+   "linea": "logos.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.445,
+   "e": 26.765,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.765,
+   "e": 27.105,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.105,
+   "e": 27.905,
+   "linea": "mediocre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.365,
+   "e": 28.805,
+   "linea": "Llevar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.805,
+   "e": 29.045,
+   "linea": "ropa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.045,
+   "e": 29.285,
+   "linea": "simple.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.705,
+   "e": 29.965,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.965,
+   "e": 30.265,
+   "linea": "rico",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.615,
+   "e": 30.995,
+   "linea": "dejar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.995,
+   "e": 31.195,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.195,
+   "e": 31.435,
+   "linea": "dinero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.435,
+   "e": 31.575,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.575,
+   "e": 31.695,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.695,
+   "e": 31.955,
+   "linea": "banco",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.265,
+   "e": 32.605,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.605,
+   "e": 32.905,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.905,
+   "e": 33.345,
+   "linea": "porque",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.345,
+   "e": 33.465,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.465,
+   "e": 33.765,
+   "linea": "arruina",
+   "clave": "arruina",
+   "color": "#E5322D"
+  },
+  {
+   "s": 33.935,
+   "e": 34.475,
+   "linea": "quejarse",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.475,
+   "e": 35.155,
+   "linea": "continuamente.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.615,
+   "e": 35.915,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.915,
+   "e": 36.255,
+   "linea": "miserable",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 36.755,
+   "e": 37.095,
+   "linea": "Los",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.095,
+   "e": 37.555,
+   "linea": "ricos",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.555,
+   "e": 38.315,
+   "linea": "invierten",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.315,
+   "e": 38.775,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.775,
+   "e": 43.695,
+   "linea": "conocimiento",
+   "clave": "conocimiento",
+   "color": "#F5C542"
+  },
+  {
+   "s": 43.695,
+   "e": 43.835,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 43.835,
+   "e": 43.935,
+   "linea": "les",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 43.935,
+   "e": 44.215,
+   "linea": "hará",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 44.215,
+   "e": 44.575,
+   "linea": "ganar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 44.575,
+   "e": 44.815,
+   "linea": "mucho",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 44.815,
+   "e": 45.095,
+   "linea": "más",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 45.095,
+   "e": 45.455,
+   "linea": "dinero.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 45.615,
+   "e": 45.835,
+   "linea": "Si",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 45.835,
+   "e": 46.055,
+   "linea": "quieres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 46.055,
+   "e": 46.515,
+   "linea": "aprender",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 46.515,
+   "e": 46.735,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 46.735,
+   "e": 47.095,
+   "linea": "habilidad",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 47.095,
+   "e": 47.315,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 47.315,
+   "e": 47.615,
+   "linea": "ganar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 47.615,
+   "e": 47.815,
+   "linea": "dinero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 47.815,
+   "e": 48.175,
+   "linea": "online",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.175,
+   "e": 48.435,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.435,
+   "e": 48.735,
+   "linea": "vivir",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.735,
+   "e": 48.915,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 48.915,
+   "e": 49.135,
+   "linea": "vida",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 49.135,
+   "e": 49.335,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 49.335,
+   "e": 49.755,
+   "linea": "quieres,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 50.145,
+   "e": 50.725,
+   "linea": "comenta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 50.725,
+   "e": 51.305,
+   "linea": "rico",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 51.305,
+   "e": 51.505,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 51.505,
+   "e": 51.605,
+   "linea": "los",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 51.605,
+   "e": 51.985,
+   "linea": "comentarios.",
+   "clave": "",
+   "color": ""
+  }
+ ],
+ "graficos": [
+  {
+   "t": 49.84,
+   "hasta": 52.94,
+   "que": "tarjeta de seguir",
+   "palabra_que_lo_dispara": "sígueme",
+   "por_que": "una sola llamada a la acción"
+  },
+  {
+   "t": 0,
+   "hasta": 3.07,
+   "que": "rótulo «los pobres gastan / para *aparentar*»",
+   "palabra_que_lo_dispara": "los pobres gastan ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 36.71,
+   "hasta": 41.21,
+   "que": "rótulo «los ricos invierten / en *conocimiento*»",
+   "palabra_que_lo_dispara": "los ricos invierten ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 3.93,
+   "hasta": 5.93,
+   "que": "inserto i0.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 18.86,
+   "hasta": 20.86,
+   "que": "inserto i1.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 31.64,
+   "hasta": 33.64,
+   "que": "inserto i2.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  }
+ ],
+ "zooms": [
+  {
+   "t": 0.0,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 0.3,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 3.21,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 3.51,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 4.67,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 5.66,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 5.96,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 6.93,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 7.83,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 8.13,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 8.88,
+   "escala": 1.55,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 9.18,
+   "escala": 1.604,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 10.59,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 10.89,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 12.06,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 12.36,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 13.63,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 13.93,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 14.71,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 15.01,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 18.21,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 18.51,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 19.91,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 20.21,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 21.0,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 21.3,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 22.73,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 23.03,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.48,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.78,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 26.43,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 26.73,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 28.34,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 28.64,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 29.68,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 30.59,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 30.89,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 32.24,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 32.54,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 33.91,
+   "escala": 1.57,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 34.21,
+   "escala": 1.625,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 35.59,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 35.89,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 36.7,
+   "escala": 1.69,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 37.0,
+   "escala": 1.749,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 45.59,
+   "escala": 1.43,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 45.89,
+   "escala": 1.48,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 3.95,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra el primer inserto, justo después del gancho"
+  },
+  {
+   "t": 18.71,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -20.0,
+   "por_que": "entra un inserto"
+  },
+  {
+   "t": 31.55,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "entra el inserto del banco y empieza el tramo final más serio"
+  },
+  {
+   "t": 38.74,
+   "archivo": "sub-bass-hit.mp3",
+   "nivel_db": -14.0,
+   "por_que": "la moraleja que cierra el contraste antes del CTA"
+  },
+  {
+   "t": 49.84,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la tarjeta de seguir"
+  }
+ ],
+ "musica": {
+  "archivo": "",
+  "nivel_db": null
+ },
+ "color": "HDR a SDR (tonemap hable) si el bruto era HLG; sin más corrección",
+ "audio": {
+  "lufs": -14.9,
+  "pico_dbtp": -1.9
+ },
+ "revision": {
+  "problemas": [
+   "Palabra 9 «Nilo» es «Ni lo» («Fardar del Lamborghini. Ni lo comento.»)",
+   "Palabra 11 «Tenere» es «Tener el» («Tener el último iPhone.»)",
+   "Palabra 77 «simple?» lleva una interrogación que no corresponde: es una afirmación como las demás («Llevar ropa simple.»)",
+   "En el gancho (0,4 s y 2,5 s) los subtítulos ponen «LOS POBRES GASTAN / PARA aparentar» y falta «dinero» (palabra 3), aunque está en la EDL. Hay que mirar en el render por qué no sale",
+   "Entre «conocimiento» (38,8 s) y «que» (43,7 s) pasan casi 5 s sin subtítulo. No toco tiempos, pero conviene comprobar que ahí haya algo en pantalla",
+   "Ningún texto tapa ojos ni boca. Hay 4 claves en 53 s y 5 efectos, todos con motivo. Audio dentro de rango (−14,9 LUFS, −1,9 dBTP)"
+  ],
+  "nota": "Corrijo tres errores de transcripción; falta revisar que «dinero» no sale en el gancho y el hueco de 5 s después de «conocimiento»."
+ },
+ "dudas": [
+  "Las preguntas las hace otra persona fuera de plano y el micro se oía mal al principio (frases 14-16). Hay que comprobar que las preguntas que se quedan (17, 20, 22, 24, 27, 32, 34, 36, 38, 44, 46) se entienden. Si no, Amin habló de grabarlas él (frase 7).",
+  "Tres correcciones convierten una palabra en dos («Nilo» → «Ni lo», «Tenere» → «Tener el»). Hay que confirmar que el subtitulado palabra a palabra lo acepta sin descuadrarse.",
+  "No sé quién dice la frase 47 («Y cada vez más»). La quité; si es Amin y se oye bien, se puede recuperar entre la 46 y la 48.",
+  "Del CTA elegí la 61 porque es la toma que Amin pidió repetir, pero «comenta rico en los comentarios» es redundante. La 59 termina más limpia en «comenta rico» por si se prefiere.",
+  "El ejemplo de TikTok (frases 1 y 9) se queda fuera porque no tiene una respuesta hablada."
+ ],
+ "notas": "El gancho es «Los pobres gastan dinero para aparentar»: plantea el tema en 3 s y deja la frase de los ricos (54) como cierre simétrico. · El cuerpo es un ping-pong rápido de pregunta y respuesta («de pobre» / «de rico») sin pausas, que es lo que retiene en este formato. · En cada ejemplo repetido va la toma más completa o más fuerte: «Muy triste y de mediocre» y «de rico si sabes comprarlo». · Solo dos rótulos (gancho y moraleja), en rojo y dorado, para dejar claro el contraste pobre/rico. · Hay tres insertos de objetos concretos (Lamborghini, casa, banco), separados unos 10 s, sin tapar los rótulos.",
+ "editor": "claude-luis",
+ "coste_ia_usd": 0.381,
+ "limpieza": [],
+ "estilo": "clave",
+ "insertos_creditos": [
+  {
+   "inserto": 0,
+   "busqueda": "lamborghini miura classic sports car",
+   "archivo": "File:Lamborghini Miura Classic & Sports Car Show 2016.jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_Classic_%26_Sports_Car_Show_2016.jpg",
+   "licencia": "CC BY 2.0",
+   "autor": "35mmMan"
+  },
+  {
+   "inserto": 1,
+   "busqueda": "suburban family house",
+   "archivo": "File:Lambert's suburban architecture (1894) (14595122937).jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lambert%27s_suburban_architecture_(1894)_(14595122937).jpg",
+   "licencia": "No restrictions",
+   "autor": "Wm A. Lambert"
+  },
+  {
+   "inserto": 2,
+   "busqueda": "bank vault door",
+   "archivo": "File:Ocean National Bank vault door.png",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ocean_National_Bank_vault_door.png",
+   "licencia": "Public domain",
+   "autor": ""
+  }
+ ]
+}

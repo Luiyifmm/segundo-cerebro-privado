@@ -1,0 +1,15 @@
+{
+ "cliente": "Amin (marca actual, 30-10-2026)",
+ "base_aprobada": "05 Entregas/Pobre vs rico - v1.mp4 (22-10: «está brutal»)",
+ "direccion": "natural, elegante y clara; recursos solo si ayudan a entender o retener",
+ "subtitulo": {"fuente": "Instrument Serif", "tam": 74, "color": "#FFFFFF", "sombra": "0 3px 14px rgba(0,0,0,.55)", "y_px": 1130},
+ "clave": {"fuente": "Anton", "tam": 150, "mayusculas": true},
+ "max_palabras": 4,
+ "colores": {"malo": "#E5322D", "bueno": "#F5C542"},
+ "claves": {"después": "#E5322D", "antes": "#F5C542", "favor": "#F5C542"},
+ "correcciones": {"mira los ojos": "mira a los ojos"},
+ "encuadre": {"zoom_base": 1.3, "zoom_alterno": 1.42, "ancla": [0.5, 0.42]},
+ "musica": "ninguna salvo que Amin la elija",
+ "sfx": "como mucho uno por gráfico, bajo (-18 dB aprox.)",
+ "no_usar": ["azul #1E8BFF (era ClienteA con Luis)", "naranja #FF5800 (ClienteE)", "rojo #D3261C (ClienteN)"]
+}

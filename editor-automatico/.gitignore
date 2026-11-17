@@ -1,0 +1,18 @@
+# Nunca: credenciales (viven fuera de esta carpeta), registros, temporales ni binarios compilados
+node_modules/
+__pycache__/
+*.log
+.sala-agente.lock
+sala-tmp/
+caras
+.env*
+env-*.json
+.DS_Store
+motor/out/
+*.mp4
+*.mov
+*.wav
+LUIS-EDITA
+LUIS-EDITA-SALA
+LUIS-EDITA-REELS
+LUIS-EDITA-CLIPS

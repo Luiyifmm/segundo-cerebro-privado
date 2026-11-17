@@ -1,0 +1,21 @@
+{
+ "cliente": "Marc Martínez @mmartinez.fitness · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "ejercicio en casa y dolor de espalda: claro, didáctico, tranquilizador",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "montserrat",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#FF453A",
+  "bueno": "#30D158",
+  "acento": "#30D158"
+ },
+ "rotulo": {
+  "fuente": "montserrat",
+  "fuente2": "sfpro-black"
+ },
+ "musica_src": "lib/musica/low-mileage-hold-you-ncs-release.mp3"
+}

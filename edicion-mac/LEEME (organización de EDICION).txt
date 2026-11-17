@@ -1,0 +1,83 @@
+EDICION — cómo está organizado (10-10-2026)
+
+1 CLIENTES/<AMIN | ERIC | NATALIA>/
+    BRUTOS/PENDIENTES   brutos de reels sin hacer (una carpeta por reel)
+    BRUTOS/HECHOS       brutos de reels ya editados
+    BRUTOS/_copias que estaban en Descargas   duplicados de lo de arriba; se pueden borrar
+    EXPORTADOS          el último exportado de cada vídeo
+    GUIONES
+2 MATERIALES DE EDICION/   efectos de sonido, música, imágenes, b-roll, overlays, plugins, fuentes, acceso a PACKS
+3 PROYECTOS/               After Effects y acceso a la carpeta real de Premiere (Documentos/Adobe/Premiere Pro/26.0)
+4 REFERENCIAS/
+5 TALLER DE CLAUDE         acceso a Videos-Remotion (herramientas, motion graphics, plantillas, referencias)
+9 OTROS/                   capturas, grabaciones de pantalla, documentos, y los registros de esta limpieza:
+    mapa de archivos movidos 2026-10-10.csv   dónde estaba cada archivo y dónde está ahora
+    limpieza-2026-10-10.json                  qué se mandó a la Papelera
+
+Los brutos son copias locales de Google Drive: en Drive no se ha tocado nada.
+Los proyectos de Premiere siguen en su carpeta de siempre. AMIN, ERICK y NATALIA EDICION ya apuntan a los archivos movidos.
+Los proyectos antiguos (Amin, Erick, erikk, NATALIA, los tres Branding) pedirán reenlazar medios: están en 2 MATERIALES DE EDICION.
+
+---------------------------------------------------------------
+ACTUALIZACIÓN 23-10-2026
+- Proyecto para editar: 3 PROYECTOS/Lotes de edición/ERIC y NATALIA - PARA EDITAR (octubre).prproj
+    00 SECUENCIAS  → "ERIC · 5 PARA EDITAR (octubre)" y "NATALIA · 5 PARA EDITAR (octubre)" (brutos enteros, 30 s entre vídeos, marcador por vídeo)
+    01 ERIC · PARA EDITAR  → 04 Ganar músculo · 06 Pierde grasa · 07 Calcula esto · 08 Si quieres, debes · 09 Mejores alimentos
+    02 NATALIA · PARA EDITAR → Ensalada · 5 hábitos · Buenas y malas proteínas · Ranking de cardio · Prozis
+    03 YA HECHOS (aparte) · 04 B-ROLL (Eric gimnasio, Natalia fuerza/comiendo, general) · 05 PACKS · 06 EFECTOS DE SONIDO · 07 MÚSICA
+- TERMINADO nuevos: ERIC 07 Un fin de semana no cuenta · 08 Mejores desayunos parte 2 · 09 KFC en casa ; NATALIA 07 Cómo bajaste 3 kilos de grasa
+- B-roll: 2 MATERIALES DE EDICION/B-roll/{ERIC · gimnasio, NATALIA · fuerza, Pinterest y descargas}
+- El proyecto "CONTENIDO OCTUBRE" queda como archivo de Eric 03 v2 y natalia 3 kilos.
+- Registro de todo lo movido: 9 OTROS/organizacion-2026-10-23.json
+- Media Encoder: preset "max h264" corregido (4K, hardware, nivel 5.2, 50-60 Mbps). Original en 9 OTROS/presets-respaldo.
+
+---------------------------------------------------------------
+ACTUALIZACIÓN 30-10-2026
+- Nueva carpeta 0 CLAUDE EDITOR: referencias, fichas de clientes, skills y memoria de Claude, entrenamiento (bandeja + registro de correcciones), taller y exportaciones del método. Ver "0 CLAUDE EDITOR/00 CÓMO FUNCIONA.md".
+- "4 REFERENCIAS" y ~/Videos-Remotion/referencias se movieron dentro de 0 CLAUDE EDITOR/1 REFERENCIAS; en su sitio quedan accesos directos (no se rompe nada).
+- "5 TALLER DE CLAUDE" ahora es 0 CLAUDE EDITOR/5 TALLER.
+- Limpieza: 57,8 GB a la Papelera (carpeta "Limpieza 2026-10-30"): autoguardados viejos de Premiere (quedan los 3 últimos por proyecto), cachés, versiones viejas de animaciones, copias de trabajo y exportaciones repetidas que ningún proyecto usa. Registro: 9 OTROS/limpieza-2026-10-30 (papelera).json
+
+---------------------------------------------------------------
+ACTUALIZACIÓN 09-11-2026
+- Pack SFX nuevo (zip de Drive del 08-11) clasificado en 2 MATERIALES DE EDICION/Efectos de sonido/:
+    UI Sounds/ (Clics y botones · Notificaciones y confirmaciones · Errores · sueltos de interfaz)
+      + accesos a "Motionix · UI" y "Motionix · Clicks" (los originales no se mueven: los usan proyectos)
+    Whoosh · Impactos · Risers y suspense · Glitch · Explosiones · Ambientes · Meme y cartoon
+    Acentos (campanas, chimes, pops, magia) · Foley/(Cámara, Dinero, Papel tiza y escritura, Reloj, Teclado, Clics e interruptores)
+    Por clasificar/ = lo que el nombre no deja claro
+  30 SFX idénticos (mismo contenido) a la Papelera: carpeta "Limpieza 2026-11-09". Motionix y Openverse sin tocar.
+- Capturas de pantalla: ~/Pictures/Capturas de pantalla/AAAA-MM (acceso en 9 OTROS).
+- Registro de todo lo movido: 9 OTROS/organizacion-2026-11-09.csv (origen, destino, motivo).
+- Se quedan donde estaban porque los usa un proyecto: varios archivos de Descargas (IMG_6887.MOV, Musica, Gemini, etc.),
+  la captura del 01-11 6.53 p.m. y las 3 grabaciones del 17-10 del Escritorio, y aminnn/aminnnn/adminn/levantarse tarde/Proyecto sin título.aep.
+
+REGLAS PARA MANTENERLO
+1. Descargas es una bandeja: una vez por semana, cada cosa a su sitio (o a la Papelera).
+2. Escritorio = solo lo de hoy.
+3. Material de un cliente → 1 CLIENTES/<cliente>. Recursos reutilizables → 2 MATERIALES DE EDICION. Proyectos .prproj/.aep → 3 PROYECTOS.
+4. SFX nuevos: primero a Efectos de sonido/<categoría>; si dudas, a Por clasificar. Sonidos de interfaz, siempre a UI Sounds.
+5. Antes de importar a Premiere/AE, mueve el archivo a su sitio definitivo (si no, el proyecto queda atado a Descargas).
+6. Capturas: ⌘⇧5 → Opciones → Otra ubicación → Imágenes/Capturas de pantalla.
+7. Nombres: "CLIENTE_fecha · título" para vídeos; carpetas en español y sin abreviaturas.
+- Etapa 2 (09-11): a la Papelera ("Limpieza 2026-11-09/etapa 2"): zip SFX, video-editor.zip, zip Deep Glow 1.0.2, Obsidian.dmg,
+  ToneLab (.exe de Windows), Traspaso-contexto.zip y 6 carpetas vacías. "1 (completo).mov" y "5 a;os.mov" NO se renombran: los usa Premiere.
+
+---------------------------------------------------------------
+ACTUALIZACIÓN 11-11-2026 · ERIC (reels) y NATALIA a la Papelera
+- Carpeta en la Papelera: "Limpieza 2026-11-11 (Eric y Natalia)" (36 GB, conserva la ruta original de cada cosa).
+  Registro: 9 OTROS/eric-natalia-papelera-2026-11-11.csv
+- Se van: 1 CLIENTES/ERIC y NATALIA, Remotion clientes/eric, natalia y lote1017, B-roll y overlays de los dos,
+  proyectos de Premiere de reels (lotes, Erick, Erick hooks, eric 3 cardios, nata, NATALIA EDICION…) y sus autoguardados.
+- Se quedan: AMIN y ERIC YOUTUBE (ericmentorfitness) + Remotion eric-yt; proyectos "Preguntando a millonarios eric",
+  "Erick mentor fitness" y "Erick mentor fittnes".
+  En 1 CLIENTES/ERIC/EXPORTADOS/Animaciones (3 archivos) y Remotion clientes/eric/ricos (música y subtítulos) queda
+  solo lo que usa "Preguntando a millonarios eric". "Andorra 113 v2 verde (video).mov" ya faltaba antes de esta limpieza.
+
+---------------------------------------------------------------
+ACTUALIZACIÓN 12-11-2026
+- Materiales de edición en UNA sola carpeta: EDICION/editing luiyi pack (ver su "00 LÉEME").
+  "2 MATERIALES DE EDICION" es un acceso directo a ella; los proyectos de Premiere siguen enlazados.
+- Fuera (a la Papelera): copias locales de los packs de Drive, acceso "Copia de PACKS", zips ya descomprimidos,
+  instaladores y plugins repetidos, Deep Glow versión vieja, PNG repetidos, carpetas __MACOSX y enlaces .url de publicidad.
+- Registro: 9 OTROS/organizacion-editing-luiyi-pack-2026-11-12.json

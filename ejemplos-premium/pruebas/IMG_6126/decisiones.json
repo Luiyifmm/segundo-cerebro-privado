@@ -1,0 +1,1069 @@
+{
+ "video": "La vulgaridad vs la elegancia",
+ "bruto": "IMG_6126.MOV",
+ "duracion_final_s": 41.33,
+ "cortes": [
+  {
+   "bruto_s": 6.29,
+   "bruto_e": 8.04,
+   "por_que": "frase 0: «La vulgaridad genera deseo.»"
+  },
+  {
+   "bruto_s": 22.84,
+   "bruto_e": 24.72,
+   "por_que": "frase 5: «La elegancia, admiración.»"
+  },
+  {
+   "bruto_s": 27.83,
+   "bruto_e": 29.28,
+   "por_que": "frase 6: «Atento a la diferencia.»"
+  },
+  {
+   "bruto_s": 44.78,
+   "bruto_e": 47.635,
+   "por_que": "frase 9: «Mostrando todo en redes para buscar validación.»"
+  },
+  {
+   "bruto_s": 47.445,
+   "bruto_e": 48.6,
+   "por_que": "frase 10: «Deseo barato.»"
+  },
+  {
+   "bruto_s": 85.97,
+   "bruto_e": 89.14,
+   "por_que": "frase 19: «Directar clase, deseo y estatus, admiración pura.»"
+  },
+  {
+   "bruto_s": 121.57,
+   "bruto_e": 123.67,
+   "por_que": "frase 21: «que te elijan para construir un imperio, admiración.»"
+  },
+  {
+   "bruto_s": 123.98,
+   "bruto_e": 124.79,
+   "por_que": "frase 21: «que te elijan para construir un imperio, admiración.»"
+  },
+  {
+   "bruto_s": 165.34,
+   "bruto_e": 167.875,
+   "por_que": "frase 31: «Llamar la atención de mediocres desesperados...»"
+  },
+  {
+   "bruto_s": 167.885,
+   "bruto_e": 168.98,
+   "por_que": "frase 32: «vulgar.»"
+  },
+  {
+   "bruto_s": 175.17,
+   "bruto_e": 178.04,
+   "por_que": "frase 33: «imponer respeto sólo por entrar a una sala»"
+  },
+  {
+   "bruto_s": 188.68,
+   "bruto_e": 190.44,
+   "por_que": "frase 35: «elegante y de alto valor»"
+  },
+  {
+   "bruto_s": 214.36,
+   "bruto_e": 216.42,
+   "por_que": "frase 38: «pero la regla es muy simple.»"
+  },
+  {
+   "bruto_s": 221.65,
+   "bruto_e": 224.4,
+   "por_que": "frase 39: «Lo barato siempre atrae a perdedores.»"
+  },
+  {
+   "bruto_s": 228.35,
+   "bruto_e": 232.51,
+   "por_que": "frase 40: «El de alto valor atrae a éxito y a riqueza.»"
+  },
+  {
+   "bruto_s": 236.64,
+   "bruto_e": 238.47,
+   "por_que": "frase 41: «Sígueme para ser un alzo.»"
+  }
+ ],
+ "quitadas": [
+  {
+   "frase": 1,
+   "texto": "Pasa usted, no se preocupe, solo esta de aquí.",
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "frase": 2,
+   "texto": "No worries.",
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "frase": 3,
+   "texto": "¿Hay quejade?",
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "frase": 4,
+   "texto": "La bolita",
+   "por_que": "conversación ajena al vídeo"
+  },
+  {
+   "frase": 7,
+   "texto": "deseo a...",
+   "por_que": "arranque en falso"
+  },
+  {
+   "frase": 8,
+   "texto": "Bro, dime rápido, hermano.",
+   "por_que": "indicación fuera de cámara"
+  },
+  {
+   "frase": 11,
+   "texto": "Buscando todo en redes.",
+   "por_que": "toma a medias"
+  },
+  {
+   "frase": 12,
+   "texto": "Mostrando todo en redes para buscar admiración.",
+   "por_que": "toma posterior, pero dice «admiración» donde debería decir «validación» y contradice el «deseo barato»; vale la 9"
+  },
+  {
+   "frase": 13,
+   "texto": "Deseo barato.",
+   "por_que": "va con la toma 12, que se descarta; vale la 10"
+  },
+  {
+   "frase": 14,
+   "texto": "Proyectar Clash Mister.",
+   "por_que": "toma repetida y mal dicha; vale la 19"
+  },
+  {
+   "frase": 15,
+   "texto": "Proyectar Class Misterio de Mira.",
+   "por_que": "toma repetida y mal dicha; vale la 19"
+  },
+  {
+   "frase": 16,
+   "texto": "¿Proyectar clase de serie y status?",
+   "por_que": "toma repetida; vale la 19"
+  },
+  {
+   "frase": 17,
+   "texto": "¿Has dicho?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 18,
+   "texto": "proyectar clase deseo y estatus admiración",
+   "por_que": "toma repetida; vale la 19, más completa («admiración pura»)"
+  },
+  {
+   "frase": 22,
+   "texto": "Llamar la atención que...",
+   "por_que": "arranque en falso"
+  },
+  {
+   "frase": 23,
+   "texto": "¿Llamar la atención?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 24,
+   "texto": "¿Qué qué?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 25,
+   "texto": "Javi, no te entiendo.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 26,
+   "texto": "Javi, no te entiendo.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 27,
+   "texto": "Llamar la atención de menores desesperados.",
+   "por_que": "error al hablar («menores»); vale la 31"
+  },
+  {
+   "frase": 28,
+   "texto": "Ah, vale, vale.",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 29,
+   "texto": "Llamar la atención de mediocres desesperados.",
+   "por_que": "toma repetida; vale la 31, que remata con «vulgar»"
+  },
+  {
+   "frase": 30,
+   "texto": "¿Qué sería eso?",
+   "por_que": "indicación a cámara"
+  },
+  {
+   "frase": 34,
+   "texto": "Elegante.",
+   "por_que": "toma corta; vale la 35, que además conecta con «alto valor» del cierre"
+  },
+  {
+   "frase": 37,
+   "texto": "¿El qué?",
+   "por_que": "indicación a cámara"
+  }
+ ],
+ "subtitulos": [
+  {
+   "s": 0.0,
+   "e": 0.3,
+   "linea": "La",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.3,
+   "e": 0.8,
+   "linea": "vulgaridad",
+   "clave": "vulgaridad",
+   "color": "#E5322D"
+  },
+  {
+   "s": 0.8,
+   "e": 1.2,
+   "linea": "genera",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.2,
+   "e": 1.62,
+   "linea": "deseo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.84,
+   "e": 2.06,
+   "linea": "La",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.06,
+   "e": 2.56,
+   "linea": "elegancia,",
+   "clave": "elegancia,",
+   "color": "#F5C542"
+  },
+  {
+   "s": 2.78,
+   "e": 3.36,
+   "linea": "admiración.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.74,
+   "e": 4.26,
+   "linea": "Atento",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.26,
+   "e": 4.36,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.36,
+   "e": 4.42,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.42,
+   "e": 4.86,
+   "linea": "diferencia.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.26,
+   "e": 5.86,
+   "linea": "Mostrando",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.86,
+   "e": 6.14,
+   "linea": "todo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.14,
+   "e": 6.3,
+   "linea": "en",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.3,
+   "e": 6.52,
+   "linea": "redes",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.52,
+   "e": 6.98,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.98,
+   "e": 7.26,
+   "linea": "buscar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.26,
+   "e": 7.74,
+   "linea": "validación.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.24,
+   "e": 8.64,
+   "linea": "Deseo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.64,
+   "e": 8.96,
+   "linea": "barato.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.3,
+   "e": 9.72,
+   "linea": "Proyectar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.72,
+   "e": 10.16,
+   "linea": "clase,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.32,
+   "e": 10.6,
+   "linea": "deseo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.6,
+   "e": 10.74,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.74,
+   "e": 11.08,
+   "linea": "estatus,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.16,
+   "e": 11.74,
+   "linea": "admiración",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.74,
+   "e": 12.14,
+   "linea": "pura.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.56,
+   "e": 13.16,
+   "linea": "Que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.16,
+   "e": 13.28,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.28,
+   "e": 13.56,
+   "linea": "busquen",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.56,
+   "e": 13.72,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.72,
+   "e": 13.98,
+   "linea": "pasar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.98,
+   "e": 14.14,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.14,
+   "e": 14.26,
+   "linea": "rato",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.26,
+   "e": 14.44,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.44,
+   "e": 14.78,
+   "linea": "viernes,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.3,
+   "e": 15.7,
+   "linea": "deseo.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.9,
+   "e": 16.14,
+   "linea": "Que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.14,
+   "e": 16.28,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.28,
+   "e": 16.52,
+   "linea": "elijan",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.52,
+   "e": 16.7,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.7,
+   "e": 17.06,
+   "linea": "construir",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.06,
+   "e": 17.28,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.28,
+   "e": 17.72,
+   "linea": "imperio,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.08,
+   "e": 18.58,
+   "linea": "admiración.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.92,
+   "e": 19.32,
+   "linea": "Llamar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.32,
+   "e": 19.42,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.42,
+   "e": 19.72,
+   "linea": "atención",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.72,
+   "e": 19.94,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.94,
+   "e": 20.36,
+   "linea": "mediocres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.36,
+   "e": 21.14,
+   "linea": "desesperados,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.76,
+   "e": 22.18,
+   "linea": "vulgar.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.5,
+   "e": 23.08,
+   "linea": "Imponer",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.08,
+   "e": 23.62,
+   "linea": "respeto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.62,
+   "e": 23.98,
+   "linea": "solo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.98,
+   "e": 24.18,
+   "linea": "por",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.18,
+   "e": 24.46,
+   "linea": "entrar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.46,
+   "e": 24.62,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.62,
+   "e": 24.76,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.76,
+   "e": 25.06,
+   "linea": "sala.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.42,
+   "e": 26.02,
+   "linea": "Elegante",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.02,
+   "e": 26.32,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.32,
+   "e": 26.46,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.46,
+   "e": 26.62,
+   "linea": "alto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.62,
+   "e": 26.8,
+   "linea": "valor.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.8,
+   "e": 27.44,
+   "linea": "Tú",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.44,
+   "e": 27.84,
+   "linea": "eliges",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.84,
+   "e": 28.3,
+   "linea": "exactamente",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.3,
+   "e": 28.62,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.62,
+   "e": 28.8,
+   "linea": "tipo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.8,
+   "e": 28.9,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.9,
+   "e": 29.18,
+   "linea": "atención",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.18,
+   "e": 29.36,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.36,
+   "e": 29.6,
+   "linea": "quieres",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.6,
+   "e": 30.02,
+   "linea": "generar.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.14,
+   "e": 30.38,
+   "linea": "Pero",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.38,
+   "e": 30.54,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.54,
+   "e": 30.9,
+   "linea": "regla",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 30.9,
+   "e": 31.5,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.5,
+   "e": 31.68,
+   "linea": "muy",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 31.68,
+   "e": 32.02,
+   "linea": "simple.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.3,
+   "e": 32.46,
+   "linea": "Lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.46,
+   "e": 32.9,
+   "linea": "barato",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 32.9,
+   "e": 33.58,
+   "linea": "siempre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 33.58,
+   "e": 34.0,
+   "linea": "atrae",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.0,
+   "e": 34.08,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 34.08,
+   "e": 34.72,
+   "linea": "perdedores.",
+   "clave": "perdedores.",
+   "color": "#E5322D"
+  },
+  {
+   "s": 34.96,
+   "e": 35.18,
+   "linea": "El",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.18,
+   "e": 35.28,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.28,
+   "e": 35.48,
+   "linea": "alto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.48,
+   "e": 35.82,
+   "linea": "valor",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 35.82,
+   "e": 36.66,
+   "linea": "atrae",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 36.66,
+   "e": 37.0,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.0,
+   "e": 37.62,
+   "linea": "éxito",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 37.62,
+   "e": 38.24,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.24,
+   "e": 38.38,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 38.38,
+   "e": 38.84,
+   "linea": "riqueza.",
+   "clave": "riqueza.",
+   "color": "#F5C542"
+  },
+  {
+   "s": 39.2,
+   "e": 39.64,
+   "linea": "Sígueme",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 39.64,
+   "e": 40.16,
+   "linea": "para",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 40.16,
+   "e": 40.38,
+   "linea": "ser",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 40.38,
+   "e": 40.52,
+   "linea": "un",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 40.52,
+   "e": 40.74,
+   "linea": "alfa.",
+   "clave": "",
+   "color": ""
+  }
+ ],
+ "graficos": [
+  {
+   "t": 39.15,
+   "hasta": 41.33,
+   "que": "tarjeta de seguir",
+   "palabra_que_lo_dispara": "sígueme",
+   "por_que": "una sola llamada a la acción"
+  }
+ ],
+ "zooms": [
+  {
+   "t": 0,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 1.75,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 3.63,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 5.08,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 7.93,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 9.09,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 15.8,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 18.71,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 21.25,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 22.34,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 25.21,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  },
+  {
+   "t": 29.93,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 31.99,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 34.74,
+   "escala": 1.42,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 38.9,
+   "escala": 1.3,
+   "por_que": "cambio de plano en el corte"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 1.91,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "entra el contraste del gancho"
+  },
+  {
+   "t": 30.51,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la regla final"
+  },
+  {
+   "t": 39.15,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la tarjeta de seguir"
+  }
+ ],
+ "musica": {
+  "archivo": "",
+  "nivel_db": null
+ },
+ "color": "HDR a SDR (tonemap hable) si el bruto era HLG; sin más corrección",
+ "audio": {
+  "lufs": -14.8,
+  "pico_dbtp": -1.8
+ },
+ "revision": {
+  "problemas": [],
+  "nota": "Montaje correcto. Ningún texto tapa la cara: subtítulos y claves quedan a la altura del pecho. Las 4 claves encajan con el contraste vulgar/elegante y no superan el límite de 3 por cada 30 s. No hay cifras en pantalla, «alfa» está bien escrita y el audio está dentro de rango (−14,8 LUFS, pico de −1,8 dBTP). No hace falta titular porque la primera frase ya hace de gancho. Solo un detalle: en 0,4 s la «v» de «vulgaridad» roza el borde izquierdo durante la animación de entrada y en 0,6 s ya está bien. Si molesta, se puede reducir la escala inicial de la entrada."
+ },
+ "dudas": [
+  "Frase 19: la transcripción dice «Proyectar clase, deseo y estatus», pero las tomas 15 y 16 apuntan a «clase, misterio y estatus». Con «deseo», la elegancia generaría deseo y eso contradice la tesis del vídeo. Escúchalo: si dice «misterio», corrige «deseo» → «misterio».",
+  "Frase 41: «Sígueme para ser un alzo» no se entiende (¿«alfa»?, ¿«10»?). Comprueba el audio y corrígelo. Si no está claro, quita la 41, porque la tarjeta de seguir ya cierra el vídeo.",
+  "Frase 40: «El de alto valor» puede ser «Lo de alto valor» (iría en paralelo con «Lo barato»). Compruébalo en el audio."
+ ],
+ "notas": "Abre con el contraste vulgaridad/elegancia (0+5), sin nada antes; el gancho se entiende solo, así que no lleva titular. · Cada idea se monta por parejas, primero lo vulgar y luego lo elegante (9-10 / 19, 20 / 21, 31-32 / 33-35), con la toma más limpia de cada una. · Se quitan todas las interrupciones con Javi y las tomas falsas: pasa de casi 4 min de bruto a unos 40 s. · Zoom fuerte solo en la idea de que eliges tu atención (36) y en la moraleja (39), que lleva el único golpe del vídeo. · Cuatro palabras clave, una por cada polo del contraste: rojo para vulgaridad y perdedores, dorado para elegancia y riqueza.",
+ "editor": "claude-luis",
+ "coste_ia_usd": 0.19,
+ "limpieza": [
+  {
+   "montaje_s": 12.3,
+   "montaje_e": 13.93,
+   "texto": "Que te busquen para pasar el rato,"
+  },
+  {
+   "montaje_s": 28.51,
+   "montaje_e": 29.86,
+   "texto": "tú eliges exactamente"
+  }
+ ]
+}

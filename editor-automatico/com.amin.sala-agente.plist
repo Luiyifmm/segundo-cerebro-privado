@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.amin.sala-agente</string>
+  <key>ProgramArguments</key><array>
+    <string>/Users/aminsproject/.local/bin/uv</string><string>run</string><string>--python</string><string>3.12</string>
+    <string>--with</string><string>mlx-whisper</string><string>--with</string><string>psycopg[binary]</string><string>python</string>
+    <string>/Users/aminsproject/.claude/herramientas/edicion/sala_agente.py</string>
+  </array>
+  <key>EnvironmentVariables</key><dict><key>PATH</key><string>/Users/aminsproject/.local/node/bin:/Users/aminsproject/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+  <key>StartInterval</key><integer>60</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardOutPath</key><string>/Users/aminsproject/.claude/herramientas/edicion/sala-agente.log</string>
+  <key>StandardErrorPath</key><string>/Users/aminsproject/.claude/herramientas/edicion/sala-agente.log</string>
+</dict></plist>

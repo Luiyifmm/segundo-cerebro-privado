@@ -1,0 +1,1196 @@
+{
+ "video": "Ejemplo cine (IMG_6121)",
+ "bruto": "IMG_6121.MOV",
+ "duracion_final_s": 30.79,
+ "cortes": [
+  {
+   "bruto_s": 12.08,
+   "bruto_e": 14.53,
+   "por_que": "frase 2: «Esta es la mujer del pobre y esta es la mujer del rico.»"
+  },
+  {
+   "bruto_s": 28.54,
+   "bruto_e": 32.75,
+   "por_que": "frase 6: «Este es el fin de semana del pobre y este es el fin de seman»"
+  },
+  {
+   "bruto_s": 39.4,
+   "bruto_e": 43.83,
+   "por_que": "frase 7: «Este es el interior de la casa del pobre y este es el interi»"
+  },
+  {
+   "bruto_s": 49.02,
+   "bruto_e": 52.15,
+   "por_que": "frase 8: «Esto es lo que bebe el pobre y esto es lo que bebe el rico.»"
+  },
+  {
+   "bruto_s": 57.78,
+   "bruto_e": 60.99,
+   "por_que": "frase 9: «Esto es lo que escucha el pobre y esto es lo que escucha el »"
+  },
+  {
+   "bruto_s": 102.41,
+   "bruto_e": 105.49,
+   "por_que": "frase 14: «Así es como se viste los pobres, así es como se viste los ri»"
+  },
+  {
+   "bruto_s": 120.4,
+   "bruto_e": 124.14,
+   "por_que": "frase 17: «El éxito no depende de lo que tengas, sino de tu mentalidad.»"
+  },
+  {
+   "bruto_s": 144.17,
+   "bruto_e": 150.11,
+   "por_que": "frase 20: «Comenta rico y te voy a enseñar una habilidad con la que esc»"
+  }
+ ],
+ "quitadas": [
+  {
+   "frase": 0,
+   "texto": "Vamos con el siguiente",
+   "por_que": "indicación a cámara («vamos con el siguiente»)"
+  },
+  {
+   "frase": 1,
+   "texto": "y",
+   "por_que": "arranque en falso, solo «y»"
+  },
+  {
+   "frase": 3,
+   "texto": "Espérate un momento, espérate Javi que va a pasar una...",
+   "por_que": "indicación a cámara, frase a medias"
+  },
+  {
+   "frase": 4,
+   "texto": "No me preocupes, está grabando, Pomi.",
+   "por_que": "conversación fuera de cámara"
+  },
+  {
+   "frase": 5,
+   "texto": "¿Ok?",
+   "por_que": "indicación a cámara («¿ok?»)"
+  },
+  {
+   "frase": 10,
+   "texto": "Así es como se visten los pobres y así es como se visten los ricos.",
+   "por_que": "toma bien dicha pero sin mirar a cámara (lo dice él en la 11); vale la 14"
+  },
+  {
+   "frase": 11,
+   "texto": "Esperate, esperate, esperate que no lo he hecho mirando a cámara.",
+   "por_que": "indicación a cámara («espérate… no lo he hecho mirando a cámara»)"
+  },
+  {
+   "frase": 12,
+   "texto": "Así es como se ha visto los pobres y así es como se ha visto el urro.",
+   "por_que": "toma repetida y mal dicha («se ha visto el urro»); vale la 14"
+  },
+  {
+   "frase": 13,
+   "texto": "No, pasa, pasa, no hay problema No, no problem, no problem No problem, paz, paz,",
+   "por_que": "conversación fuera de cámara"
+  },
+  {
+   "frase": 15,
+   "texto": "¿Qué más queda?",
+   "por_que": "indicación a cámara («¿qué más queda?»)"
+  },
+  {
+   "frase": 16,
+   "texto": "El éxito no depende de lo que tengas, sino de tu mentalidad.",
+   "por_que": "toma repetida: vale la 17, la última completa"
+  },
+  {
+   "frase": 18,
+   "texto": "Comenta Rico y qué?",
+   "por_que": "arranque en falso del CTA"
+  },
+  {
+   "frase": 19,
+   "texto": "comentabilidad y te voy a enseñar",
+   "por_que": "arranque en falso del CTA, mal transcrito"
+  },
+  {
+   "frase": 21,
+   "texto": "y tú ya que amas",
+   "por_que": "frase suelta sin sentido al final"
+  }
+ ],
+ "subtitulos": [
+  {
+   "s": 0.02,
+   "e": 0.24,
+   "linea": "Esta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.24,
+   "e": 0.34,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.34,
+   "e": 0.44,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.44,
+   "e": 0.64,
+   "linea": "mujer",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.64,
+   "e": 0.82,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 0.82,
+   "e": 1.1,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.1,
+   "e": 1.34,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.34,
+   "e": 1.56,
+   "linea": "esta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.56,
+   "e": 1.68,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.68,
+   "e": 1.72,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.72,
+   "e": 1.96,
+   "linea": "mujer",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 1.96,
+   "e": 2.14,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.14,
+   "e": 2.38,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.54,
+   "e": 2.9,
+   "linea": "Este",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 2.9,
+   "e": 3.02,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.02,
+   "e": 3.14,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.14,
+   "e": 3.22,
+   "linea": "fin",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.22,
+   "e": 3.32,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.32,
+   "e": 3.52,
+   "linea": "semana",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.52,
+   "e": 3.72,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 3.72,
+   "e": 4.02,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 4.02,
+   "e": 5.1,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.1,
+   "e": 5.22,
+   "linea": "este",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.22,
+   "e": 5.34,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.34,
+   "e": 5.44,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.44,
+   "e": 5.5,
+   "linea": "fin",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.5,
+   "e": 5.62,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.62,
+   "e": 5.82,
+   "linea": "semana",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 5.82,
+   "e": 6.02,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.02,
+   "e": 6.22,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 6.69,
+   "e": 7.03,
+   "linea": "Este",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.03,
+   "e": 7.15,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.15,
+   "e": 7.27,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.27,
+   "e": 7.57,
+   "linea": "interior",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.57,
+   "e": 7.73,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.73,
+   "e": 7.85,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 7.85,
+   "e": 8.05,
+   "linea": "casa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.05,
+   "e": 8.27,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.27,
+   "e": 8.59,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 8.59,
+   "e": 9.19,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.19,
+   "e": 9.33,
+   "linea": "este",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.33,
+   "e": 9.41,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.41,
+   "e": 9.53,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.53,
+   "e": 9.77,
+   "linea": "interior",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.77,
+   "e": 9.95,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 9.95,
+   "e": 10.05,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.05,
+   "e": 10.27,
+   "linea": "casa",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.27,
+   "e": 10.45,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 10.45,
+   "e": 10.65,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.11,
+   "e": 11.39,
+   "linea": "Esto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.39,
+   "e": 11.51,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.51,
+   "e": 11.63,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.63,
+   "e": 11.77,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 11.77,
+   "e": 12.01,
+   "linea": "bebe",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.01,
+   "e": 12.09,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.09,
+   "e": 12.39,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 12.39,
+   "e": 13.19,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.19,
+   "e": 13.31,
+   "linea": "esto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.31,
+   "e": 13.37,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.37,
+   "e": 13.45,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.45,
+   "e": 13.55,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.55,
+   "e": 13.73,
+   "linea": "bebe",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.73,
+   "e": 13.83,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 13.83,
+   "e": 14.05,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.24,
+   "e": 14.44,
+   "linea": "Esto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.44,
+   "e": 14.52,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.52,
+   "e": 14.62,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.62,
+   "e": 14.74,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 14.74,
+   "e": 15.06,
+   "linea": "escucha",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.06,
+   "e": 15.16,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.16,
+   "e": 15.4,
+   "linea": "pobre",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 15.4,
+   "e": 16.4,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.4,
+   "e": 16.54,
+   "linea": "esto",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.54,
+   "e": 16.62,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.62,
+   "e": 16.7,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.7,
+   "e": 16.78,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 16.78,
+   "e": 17.12,
+   "linea": "escucha",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.12,
+   "e": 17.2,
+   "linea": "el",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.2,
+   "e": 17.32,
+   "linea": "rico.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.45,
+   "e": 17.79,
+   "linea": "Así",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.79,
+   "e": 17.87,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 17.87,
+   "e": 18.03,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.03,
+   "e": 18.17,
+   "linea": "se",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.17,
+   "e": 18.35,
+   "linea": "visten",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.35,
+   "e": 18.51,
+   "linea": "los",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 18.51,
+   "e": 18.89,
+   "linea": "pobres,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.03,
+   "e": 19.43,
+   "linea": "así",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.43,
+   "e": 19.55,
+   "linea": "es",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.55,
+   "e": 19.67,
+   "linea": "como",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.67,
+   "e": 19.79,
+   "linea": "se",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.79,
+   "e": 19.97,
+   "linea": "visten",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 19.97,
+   "e": 20.09,
+   "linea": "los",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.09,
+   "e": 20.31,
+   "linea": "ricos.",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.53,
+   "e": 20.95,
+   "linea": "El",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 20.95,
+   "e": 21.37,
+   "linea": "éxito",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.37,
+   "e": 21.71,
+   "linea": "no",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 21.71,
+   "e": 22.13,
+   "linea": "depende",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.13,
+   "e": 22.31,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.31,
+   "e": 22.41,
+   "linea": "lo",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.41,
+   "e": 22.49,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 22.49,
+   "e": 23.01,
+   "linea": "tengas,",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.07,
+   "e": 23.33,
+   "linea": "sino",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.33,
+   "e": 23.49,
+   "linea": "de",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.49,
+   "e": 23.61,
+   "linea": "tu",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 23.61,
+   "e": 24.15,
+   "linea": "mentalidad.",
+   "clave": "mentalidad.",
+   "color": "#F5C542"
+  },
+  {
+   "s": 24.27,
+   "e": 24.79,
+   "linea": "Comenta",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 24.79,
+   "e": 25.05,
+   "linea": "RICO",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.05,
+   "e": 25.37,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.37,
+   "e": 25.49,
+   "linea": "te",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.49,
+   "e": 25.59,
+   "linea": "voy",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.59,
+   "e": 25.67,
+   "linea": "a",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.67,
+   "e": 25.99,
+   "linea": "enseñar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 25.99,
+   "e": 26.11,
+   "linea": "una",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.11,
+   "e": 26.53,
+   "linea": "habilidad",
+   "clave": "habilidad",
+   "color": "#F5C542"
+  },
+  {
+   "s": 26.53,
+   "e": 26.71,
+   "linea": "con",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.71,
+   "e": 26.85,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.85,
+   "e": 26.99,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 26.99,
+   "e": 27.47,
+   "linea": "escapar",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.47,
+   "e": 27.63,
+   "linea": "del",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 27.63,
+   "e": 28.05,
+   "linea": "sistema",
+   "clave": "sistema",
+   "color": "#E5322D"
+  },
+  {
+   "s": 28.05,
+   "e": 28.55,
+   "linea": "y",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.55,
+   "e": 28.81,
+   "linea": "vivir",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 28.81,
+   "e": 29.01,
+   "linea": "la",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.01,
+   "e": 29.19,
+   "linea": "vida",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.19,
+   "e": 29.33,
+   "linea": "que",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.33,
+   "e": 29.61,
+   "linea": "realmente",
+   "clave": "",
+   "color": ""
+  },
+  {
+   "s": 29.61,
+   "e": 29.97,
+   "linea": "quieres.",
+   "clave": "",
+   "color": ""
+  }
+ ],
+ "graficos": [
+  {
+   "t": 27.69,
+   "hasta": 30.79,
+   "que": "tarjeta de seguir",
+   "palabra_que_lo_dispara": "sígueme",
+   "por_que": "una sola llamada a la acción"
+  },
+  {
+   "t": 0,
+   "hasta": 2.68,
+   "que": "rótulo «el pobre / y el *rico*»",
+   "palabra_que_lo_dispara": "el pobre ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 20.48,
+   "hasta": 24.45,
+   "que": "rótulo «el éxito es / *mentalidad*»",
+   "palabra_que_lo_dispara": "el éxito es ",
+   "por_que": "titular de la idea"
+  },
+  {
+   "t": 10.4,
+   "hasta": 12.4,
+   "que": "inserto i0.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  },
+  {
+   "t": 18.38,
+   "hasta": 20.38,
+   "que": "inserto i1.jpg",
+   "palabra_que_lo_dispara": "",
+   "por_que": "ilustra lo que se nombra"
+  }
+ ],
+ "zooms": [
+  {
+   "t": 0.0,
+   "escala": 1.85,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 0.3,
+   "escala": 1.915,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 2.45,
+   "escala": 1.95,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 2.75,
+   "escala": 2.018,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 6.66,
+   "escala": 1.85,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 6.96,
+   "escala": 1.915,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 11.09,
+   "escala": 1.95,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 11.39,
+   "escala": 2.018,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 14.22,
+   "escala": 1.85,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 14.52,
+   "escala": 1.915,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 17.43,
+   "escala": 1.95,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 17.73,
+   "escala": 2.018,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 20.51,
+   "escala": 1.97,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 20.81,
+   "escala": 2.039,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.25,
+   "escala": 1.95,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  },
+  {
+   "t": 24.55,
+   "escala": 2.018,
+   "por_que": "cambio de plano en el corte + frase fuerte"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 10.3,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "entra el inserto del palacio, contraste fuerte"
+  },
+  {
+   "t": 18.23,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -20.0,
+   "por_que": "entra un inserto"
+  },
+  {
+   "t": 19.94,
+   "archivo": "swhoosh.mp3",
+   "nivel_db": -18.4,
+   "por_que": "entra el inserto del retrato aristócrata"
+  },
+  {
+   "t": 27.69,
+   "archivo": "pop-up-sfx.mp3",
+   "nivel_db": -17.1,
+   "por_que": "entra la tarjeta de seguir"
+  }
+ ],
+ "musica": {
+  "archivo": "",
+  "nivel_db": null
+ },
+ "color": "HDR a SDR (tonemap hable) si el bruto era HLG; sin más corrección",
+ "audio": {
+  "lufs": -14.0,
+  "pico_dbtp": -1.9
+ },
+ "revision": {
+  "problemas": [],
+  "nota": "Está bien: ningún texto tapa ojos ni boca (los subtítulos quedan en el pecho), no hay cifras ni faltas, hay 3 claves en 30,8 s, los 4 efectos tienen motivo (3 entradas de inserto y la tarjeta de seguir), el gancho funciona sin titular y el audio está en rango (−14 LUFS, −1,9 dBTP). Solo revisa a ojo que la clave roja «sistema» (27,9 s) se lea bien sobre la camisa negra y la mano."
+ },
+ "dudas": [
+  "Frase 14: la transcripción dice «se viste los pobres / se viste los ricos». Lo corrijo a «se visten» suponiendo que se ha transcrito mal; si en el audio de verdad dice «viste», la 10 está mejor dicha pero no mira a cámara.",
+  "Las frases 2 y 6–9 parecen señalar imágenes («esta es…», «este es…»). Si en el bruto no se ven, el contraste pobre/rico puede quedar abstracto. Habría que confirmar si hace falta enseñar algo que el código no pone.",
+  "CTA: pongo «RICO» en mayúsculas para que se lea como la palabra que hay que comentar. Revisar que la corrección solo afecta a la frase 20."
+ ],
+ "notas": "Gancho directo con la frase 2 (pobre vs. rico) y sin el «vamos con el siguiente» ni la conversación de antes. · Para la ropa uso la 14, la última toma completa mirando a cámara. La 10 suena mejor pero no mira a cámara, y la 12 está mal dicha. · La moraleja es la 17, la última toma de las dos iguales. Lleva zoom fuerte, golpe y rótulo con «mentalidad» en dorado. · Dos insertos de época, uno a los 7 s y otro a los 17 s, en las frases que nombran algo que se puede ver (casa y ropa del rico). El resto se queda en la cara. · El vídeo final dura unos 28 s, con 3 palabras clave y 3 sonidos: ante la duda, menos.",
+ "editor": "claude-luis",
+ "coste_ia_usd": 0.215,
+ "limpieza": [],
+ "estilo": "cine",
+ "insertos_creditos": [
+  {
+   "inserto": 0,
+   "busqueda": "baroque palace interior oil painting",
+   "archivo": "File:The Merry Company by Dirck Hals, California Palace of the Legion of Honor.JPG",
+   "pagina": "https://commons.wikimedia.org/wiki/File:The_Merry_Company_by_Dirck_Hals,_California_Palace_of_the_Legion_of_Honor.JPG",
+   "licencia": "Public domain",
+   "autor": "\nDirck Hals"
+  },
+  {
+   "inserto": 1,
+   "busqueda": "18th century aristocrat portrait oil painting",
+   "archivo": "File:John Jay (Gilbert Stuart portrait).jpg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:John_Jay_(Gilbert_Stuart_portrait).jpg",
+   "licencia": "Public domain",
+   "autor": "Gilbert Stuart"
+  }
+ ]
+}

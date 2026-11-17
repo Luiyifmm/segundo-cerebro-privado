@@ -1,0 +1,21 @@
+{
+ "cliente": "Eduardo Maluenga (Ingeniero Muscular) @ingeniero_muscular · marca propuesta por el Claude de Luis, 14-11-2026 (PROPUESTA, pendiente de revisar)",
+ "direccion": "experto y de confianza; salud y longevidad, nada estridente",
+ "subtitulo": {
+  "fuente": "sfpro-bold"
+ },
+ "clave": {
+  "fuente": "oswald",
+  "mayusculas": true
+ },
+ "colores": {
+  "malo": "#E5484D",
+  "bueno": "#2EC4B6",
+  "acento": "#2EC4B6"
+ },
+ "rotulo": {
+  "fuente": "oswald",
+  "fuente2": "nyght-italic"
+ },
+ "musica_src": "lib/musica/danny-shields-tethered-to-the-sky.mp3"
+}
