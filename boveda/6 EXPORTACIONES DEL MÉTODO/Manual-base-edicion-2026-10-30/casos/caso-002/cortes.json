@@ -1,0 +1,152 @@
+{
+ "bruto": "IMG_6131.MOV (90,6 s)",
+ "corte_s": 39.3,
+ "frases": [
+  {
+   "n": 1,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6131.MOV",
+   "texto": "Dios es mi Dios."
+  },
+  {
+   "n": 2,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6131.MOV",
+   "texto": "Que hermana."
+  },
+  {
+   "n": 3,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.9,
+   "clip": "IMG_6131.MOV",
+   "texto": "Esta de aquí es la mujer del pobre y esta de aquí es la mujer de rico."
+  },
+  {
+   "n": 4,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6131.MOV",
+   "texto": "Esto es lo que le gusta al pobre y esto es lo que el rico disfruta."
+  },
+  {
+   "n": 5,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.5,
+   "clip": "IMG_6131.MOV",
+   "texto": "Este de aquí es el fin de semana del pobre y este es el fin de semana de rico."
+  },
+  {
+   "n": 6,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.1,
+   "clip": "IMG_6131.MOV",
+   "texto": "Esto es lo que escucha el pobre y esto es lo que escucha el rico."
+  },
+  {
+   "n": 7,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.8,
+   "clip": "IMG_6131.MOV",
+   "texto": "Este es el interior de la casa del pobre y este es el interior de la casa del rico."
+  },
+  {
+   "n": 8,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.2,
+   "clip": "IMG_6131.MOV",
+   "texto": "Así se ha visto un pobre y así se ha visto un rico."
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.1,
+   "clip": "IMG_6131.MOV",
+   "texto": "La riqueza no se trata de lo que tiene, sino es como piensas."
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6131.MOV",
+   "texto": "Es la programación mental que inculcaron de ti desde pequeño."
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 10.5,
+   "clip": "IMG_6131.MOV",
+   "texto": "Si tu quieres ser una persona rica y exitosa, tienes que eliminar esa programación mental de poca abundancia y de pobre para convertirte en una persona de éxito y abundancia."
+  },
+  {
+   "n": 12,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6131.MOV",
+   "texto": "Si quieres empezar con eso puedes seguir aquí."
+  }
+ ],
+ "zooms_por_pieza": [
+  {
+   "desde_s": 0,
+   "escala_pct": 100
+  },
+  {
+   "desde_s": 3.87,
+   "escala_pct": 112
+  },
+  {
+   "desde_s": 6.63,
+   "escala_pct": 100
+  },
+  {
+   "desde_s": 10.13,
+   "escala_pct": 112
+  },
+  {
+   "desde_s": 13.2,
+   "escala_pct": 100
+  },
+  {
+   "desde_s": 17.03,
+   "escala_pct": 112
+  },
+  {
+   "desde_s": 19.47,
+   "escala_pct": 130
+  },
+  {
+   "desde_s": 22.7,
+   "escala_pct": 100
+  },
+  {
+   "desde_s": 26.13,
+   "escala_pct": 118
+  },
+  {
+   "desde_s": 28.7,
+   "escala_pct": 100
+  },
+  {
+   "desde_s": 32.87,
+   "escala_pct": 128
+  },
+  {
+   "desde_s": 36.93,
+   "escala_pct": 100
+  }
+ ]
+}

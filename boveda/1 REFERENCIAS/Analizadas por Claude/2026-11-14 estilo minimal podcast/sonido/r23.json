@@ -1,0 +1,7431 @@
+{
+ "file": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/src/r23.mp4",
+ "video": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/src/r23.mp4",
+ "start": 0.0,
+ "end": 40.855,
+ "duration": 40.855,
+ "file_duration": 40.855,
+ "context": [
+  0.0,
+  40.855
+ ],
+ "has_audio": true,
+ "lossy": true,
+ "loudness": {
+  "integrated_lufs": -14.6,
+  "true_peak_dbtp": -0.4,
+  "digital_silence": false,
+  "max_momentary": {
+   "t": 11.4,
+   "lufs": -7.3
+  },
+  "momentary": {
+   "t0": 0.2,
+   "dt": 0.1,
+   "lufs": [
+    -10.2,
+    -10.9,
+    -12.6,
+    -14.8,
+    -15.4,
+    -16.5,
+    -17.1,
+    -17.0,
+    -18.3,
+    -18.4,
+    -18.5,
+    -18.5,
+    -18.3,
+    -17.7,
+    -18.3,
+    -19.3,
+    -19.0,
+    -19.2,
+    -18.8,
+    -18.6,
+    -17.8,
+    -17.4,
+    -17.3,
+    -17.3,
+    -18.2,
+    -19.1,
+    -17.6,
+    -14.8,
+    -14.4,
+    -13.8,
+    -12.9,
+    -14.3,
+    -13.5,
+    -14.0,
+    -15.6,
+    -15.5,
+    -16.8,
+    -15.4,
+    -15.7,
+    -15.1,
+    -15.2,
+    -16.0,
+    -15.6,
+    -16.4,
+    -17.0,
+    -16.8,
+    -17.8,
+    -17.5,
+    -16.3,
+    -16.6,
+    -16.7,
+    -17.2,
+    -18.8,
+    -20.2,
+    -19.0,
+    -18.8,
+    -17.5,
+    -16.2,
+    -15.6,
+    -14.7,
+    -14.0,
+    -14.2,
+    -14.3,
+    -13.9,
+    -14.4,
+    -14.4,
+    -14.2,
+    -14.2,
+    -14.4,
+    -14.9,
+    -13.3,
+    -11.7,
+    -9.9,
+    -8.9,
+    -8.7,
+    -9.0,
+    -9.7,
+    -10.2,
+    -10.8,
+    -11.1,
+    -11.6,
+    -12.1,
+    -12.5,
+    -13.0,
+    -13.6,
+    -14.0,
+    -14.0,
+    -14.2,
+    -14.7,
+    -15.2,
+    -16.0,
+    -17.1,
+    -17.3,
+    -18.0,
+    -17.3,
+    -17.5,
+    -18.0,
+    -17.6,
+    -18.2,
+    -15.1,
+    -14.6,
+    -14.5,
+    -14.5,
+    -15.6,
+    -16.2,
+    -17.0,
+    -16.5,
+    -17.4,
+    -12.6,
+    -9.9,
+    -8.4,
+    -7.3,
+    -7.3,
+    -7.7,
+    -8.1,
+    -8.6,
+    -9.0,
+    -9.5,
+    -10.1,
+    -10.8,
+    -11.6,
+    -12.2,
+    -12.9,
+    -13.8,
+    -14.5,
+    -15.6,
+    -16.5,
+    -16.2,
+    -16.4,
+    -16.7,
+    -16.9,
+    -17.7,
+    -16.6,
+    -16.8,
+    -16.5,
+    -16.2,
+    -17.7,
+    -17.8,
+    -18.4,
+    -18.7,
+    -18.8,
+    -17.9,
+    -17.3,
+    -16.1,
+    -16.3,
+    -16.9,
+    -16.7,
+    -18.4,
+    -18.3,
+    -18.4,
+    -19.6,
+    -18.2,
+    -16.6,
+    -14.9,
+    -14.6,
+    -12.6,
+    -11.1,
+    -10.0,
+    -9.1,
+    -9.8,
+    -11.3,
+    -13.6,
+    -16.7,
+    -18.1,
+    -17.9,
+    -18.5,
+    -17.7,
+    -17.9,
+    -18.6,
+    -18.1,
+    -18.4,
+    -17.2,
+    -16.8,
+    -17.0,
+    -17.3,
+    -17.3,
+    -17.3,
+    -17.1,
+    -17.7,
+    -18.9,
+    -18.9,
+    -17.0,
+    -15.9,
+    -15.2,
+    -15.3,
+    -15.9,
+    -16.2,
+    -17.3,
+    -17.2,
+    -17.6,
+    -18.4,
+    -18.3,
+    -18.1,
+    -18.0,
+    -17.9,
+    -15.5,
+    -14.6,
+    -14.8,
+    -14.9,
+    -14.0,
+    -11.4,
+    -9.5,
+    -8.2,
+    -7.5,
+    -7.6,
+    -7.7,
+    -7.9,
+    -8.4,
+    -8.8,
+    -9.4,
+    -9.9,
+    -10.5,
+    -10.9,
+    -11.4,
+    -11.6,
+    -12.0,
+    -12.2,
+    -12.5,
+    -13.0,
+    -13.3,
+    -13.9,
+    -14.0,
+    -14.4,
+    -14.6,
+    -15.2,
+    -14.1,
+    -14.3,
+    -14.6,
+    -14.9,
+    -16.5,
+    -17.0,
+    -17.1,
+    -16.7,
+    -17.9,
+    -18.1,
+    -18.7,
+    -19.8,
+    -20.0,
+    -20.0,
+    -20.4,
+    -20.4,
+    -20.2,
+    -21.0,
+    -21.0,
+    -15.0,
+    -12.9,
+    -12.7,
+    -12.6,
+    -14.2,
+    -16.7,
+    -16.1,
+    -15.9,
+    -16.7,
+    -17.0,
+    -17.9,
+    -18.6,
+    -18.5,
+    -18.8,
+    -17.7,
+    -16.7,
+    -16.8,
+    -15.9,
+    -16.0,
+    -16.6,
+    -17.0,
+    -19.0,
+    -19.7,
+    -18.7,
+    -18.2,
+    -17.1,
+    -17.1,
+    -16.9,
+    -17.4,
+    -17.3,
+    -16.8,
+    -16.8,
+    -15.7,
+    -16.0,
+    -16.5,
+    -16.7,
+    -17.4,
+    -17.4,
+    -17.3,
+    -16.3,
+    -16.1,
+    -15.8,
+    -14.8,
+    -14.3,
+    -13.2,
+    -11.9,
+    -11.3,
+    -11.6,
+    -12.3,
+    -13.7,
+    -15.2,
+    -15.7,
+    -15.7,
+    -15.9,
+    -15.3,
+    -14.8,
+    -14.5,
+    -14.3,
+    -14.9,
+    -15.2,
+    -15.3,
+    -15.1,
+    -15.6,
+    -16.4,
+    -15.9,
+    -13.0,
+    -11.4,
+    -10.5,
+    -10.6,
+    -12.1,
+    -14.3,
+    -16.7,
+    -17.7,
+    -19.4,
+    -20.0,
+    -20.5,
+    -20.2,
+    -20.4,
+    -20.4,
+    -20.3,
+    -17.8,
+    -15.8,
+    -15.6,
+    -15.6,
+    -17.0,
+    -18.1,
+    -15.5,
+    -15.2,
+    -15.2,
+    -15.7,
+    -18.5,
+    -19.0,
+    -19.6,
+    -19.9,
+    -20.5,
+    -20.5,
+    -21.0,
+    -21.7,
+    -21.6,
+    -20.7,
+    -20.6,
+    -18.3,
+    -17.3,
+    -17.5,
+    -17.4,
+    -18.4,
+    -19.4,
+    -19.4,
+    -19.3,
+    -20.1,
+    -17.3,
+    -17.3,
+    -17.4,
+    -17.6,
+    -18.7,
+    -17.5,
+    -16.4,
+    -15.8,
+    -15.7,
+    -16.2,
+    -17.3,
+    -16.8,
+    -18.3,
+    -18.4,
+    -18.3,
+    -17.9,
+    -18.2,
+    -18.8,
+    -18.7,
+    -21.7,
+    -20.7,
+    -20.4,
+    -19.2,
+    -18.2,
+    -16.4,
+    -15.2,
+    -14.4,
+    -13.2,
+    -13.0,
+    -13.1,
+    -13.3,
+    -14.2,
+    -15.1,
+    -16.1,
+    -17.7,
+    -20.1,
+    -17.2,
+    -16.8,
+    -16.7,
+    -16.3,
+    -17.9,
+    -18.2,
+    -18.3,
+    -18.1,
+    -19.3,
+    -19.6,
+    -19.7,
+    -19.4,
+    -19.6,
+    -17.6,
+    -17.1
+   ]
+  },
+  "max_short_term": {
+   "start": 20.0,
+   "end": 23.0,
+   "lufs": -10.9
+  },
+  "short_term": {
+   "t0": 1.5,
+   "dt": 0.5,
+   "lufs": [
+    -15.6,
+    -16.7,
+    -16.5,
+    -16.1,
+    -15.9,
+    -15.9,
+    -15.9,
+    -16.1,
+    -15.8,
+    -14.9,
+    -13.1,
+    -12.5,
+    -12.2,
+    -12.3,
+    -12.6,
+    -13.1,
+    -14.8,
+    -13.2,
+    -12.0,
+    -11.5,
+    -11.4,
+    -11.6,
+    -11.6,
+    -13.3,
+    -15.5,
+    -17.1,
+    -15.6,
+    -14.6,
+    -14.8,
+    -14.7,
+    -14.8,
+    -14.7,
+    -15.8,
+    -17.4,
+    -16.8,
+    -14.8,
+    -12.4,
+    -11.5,
+    -11.1,
+    -10.9,
+    -10.9,
+    -11.6,
+    -13.5,
+    -15.2,
+    -15.7,
+    -16.2,
+    -16.9,
+    -16.7,
+    -16.7,
+    -16.3,
+    -17.0,
+    -17.2,
+    -16.7,
+    -15.4,
+    -15.1,
+    -14.8,
+    -14.7,
+    -13.7,
+    -13.8,
+    -15.0,
+    -15.0,
+    -15.2,
+    -15.7,
+    -17.9,
+    -18.0,
+    -18.0,
+    -18.3,
+    -18.4,
+    -18.1,
+    -17.9,
+    -18.1,
+    -16.8,
+    -16.3,
+    -16.4,
+    -16.5,
+    -16.5
+   ]
+  },
+  "lra_lu": 6.2,
+  "silences": [],
+  "clipping": {
+   "samples": 0,
+   "runs": 0,
+   "times": []
+  }
+ },
+ "music": {
+  "tempo": 146.5,
+  "tempo_alt": null,
+  "beats": [
+   0.02,
+   0.38,
+   0.74,
+   1.11,
+   1.53,
+   1.89,
+   2.3,
+   2.71,
+   3.14,
+   3.52,
+   3.97,
+   4.43,
+   4.84,
+   5.29,
+   5.74,
+   6.17,
+   6.55,
+   6.95,
+   7.36,
+   7.76,
+   8.15,
+   8.54,
+   8.95,
+   9.3,
+   9.68,
+   10.08,
+   10.46,
+   10.85,
+   11.28,
+   11.71,
+   12.14,
+   12.57,
+   12.99,
+   13.38,
+   13.8,
+   14.18,
+   14.57,
+   14.98,
+   15.39,
+   15.78,
+   16.14,
+   16.54,
+   16.94,
+   17.32,
+   17.74,
+   18.16,
+   18.57,
+   18.96,
+   19.35,
+   19.76,
+   20.18,
+   20.59,
+   21.03,
+   21.49,
+   21.96,
+   22.37,
+   22.81,
+   23.21,
+   23.63,
+   24.02,
+   24.4,
+   24.84,
+   25.29,
+   25.71,
+   26.09,
+   26.43,
+   26.84,
+   27.28,
+   27.73,
+   28.14,
+   28.62,
+   29.08,
+   29.47,
+   29.86,
+   30.3,
+   30.74,
+   31.22,
+   31.6,
+   31.99,
+   32.38,
+   32.74,
+   33.18,
+   33.66,
+   34.03,
+   34.43,
+   34.83,
+   35.28,
+   35.69,
+   36.1,
+   36.46,
+   36.83,
+   37.25,
+   37.68,
+   38.09,
+   38.46,
+   38.84,
+   39.29,
+   39.68,
+   40.04,
+   40.41,
+   40.8
+  ],
+  "downbeats": [
+   0.74,
+   2.3,
+   3.97,
+   5.74,
+   7.36,
+   8.95,
+   10.46,
+   12.14,
+   13.8,
+   15.39,
+   16.94,
+   18.57,
+   20.18,
+   21.96,
+   23.63,
+   25.29,
+   26.84,
+   28.62,
+   30.3,
+   31.99,
+   33.66,
+   35.28,
+   36.83,
+   38.46,
+   40.04
+  ],
+  "pulse_clarity": 0.056,
+  "beat_regularity": 0.076,
+  "confidence": "none",
+  "note": "beats at 10 ms resolution; downbeats are a guess (4/4 assumed); tempo may be half/double the felt tempo"
+ },
+ "events": [
+  {
+   "t": 0.027,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 0.0,
+   "length_ms": 2000,
+   "starts_file": true,
+   "prominence_db": 73.8,
+   "bed_db": -80.0,
+   "peak_dbfs": -0.9,
+   "local_lufs": -10.2,
+   "centroid_hz": 58,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.06
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 2.25
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 2.16
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 0.06,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 3.4,
+   "z": 68.1,
+   "length_ms": 246,
+   "prominence_db": 20.8,
+   "bed_db": -26.9,
+   "peak_dbfs": -0.9,
+   "local_lufs": -10.2,
+   "centroid_hz": 42
+  },
+  {
+   "t": 0.163,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 29.6,
+   "z": 32.2,
+   "length_ms": 405,
+   "prominence_db": 1.0,
+   "bed_db": -8.3,
+   "peak_dbfs": -0.9,
+   "local_lufs": -10.2,
+   "centroid_hz": 104,
+   "tags": [
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.12
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.87
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.76
+    }
+   ],
+   "kind": "HIT",
+   "label": "punchy impact hit",
+   "exposed": false
+  },
+  {
+   "t": 0.199,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.6,
+   "z": 9.8,
+   "length_ms": 484,
+   "prominence_db": 1.0,
+   "bed_db": -8.3,
+   "peak_dbfs": -0.9,
+   "local_lufs": -10.2,
+   "centroid_hz": 162
+  },
+  {
+   "t": 0.28,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 3.7,
+   "z": 4.2,
+   "length_ms": 26,
+   "prominence_db": 0.0,
+   "bed_db": -8.3,
+   "peak_dbfs": -1.0,
+   "local_lufs": -10.6,
+   "centroid_hz": 217
+  },
+  {
+   "t": 0.391,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.2,
+   "z": 8.7,
+   "length_ms": 136,
+   "prominence_db": 0.0,
+   "bed_db": -9.1,
+   "peak_dbfs": -3.7,
+   "local_lufs": -12.4,
+   "centroid_hz": 511
+  },
+  {
+   "t": 0.507,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.3,
+   "z": 3.3,
+   "length_ms": 20,
+   "prominence_db": 0.4,
+   "bed_db": -12.4,
+   "peak_dbfs": -4.8,
+   "local_lufs": -14.9,
+   "centroid_hz": 631
+  },
+  {
+   "t": 0.559,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.3,
+   "z": 12.6,
+   "length_ms": 39,
+   "prominence_db": 0.9,
+   "bed_db": -12.9,
+   "peak_dbfs": -9.3,
+   "local_lufs": -15.4,
+   "centroid_hz": 4589
+  },
+  {
+   "t": 0.634,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.5,
+   "z": 5.8,
+   "length_ms": 1,
+   "prominence_db": 1.5,
+   "bed_db": -13.8,
+   "peak_dbfs": -6.7,
+   "local_lufs": -15.8,
+   "centroid_hz": 558
+  },
+  {
+   "t": 0.755,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.4,
+   "z": 24.8,
+   "length_ms": 46,
+   "prominence_db": 4.5,
+   "bed_db": -16.3,
+   "peak_dbfs": -5.1,
+   "local_lufs": -17.3,
+   "centroid_hz": 723,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.51
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.98
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.35
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 0.868,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.2,
+   "z": 4.7,
+   "length_ms": 293,
+   "prominence_db": 1.2,
+   "bed_db": -18.3,
+   "peak_dbfs": -6.8,
+   "local_lufs": -17.1,
+   "centroid_hz": 2821
+  },
+  {
+   "t": 0.999,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.6,
+   "z": 5.0,
+   "length_ms": 160,
+   "prominence_db": 6.1,
+   "bed_db": -19.0,
+   "peak_dbfs": -6.8,
+   "local_lufs": -18.3,
+   "centroid_hz": 615
+  },
+  {
+   "t": 1.12,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 7.8,
+   "z": 4.7,
+   "length_ms": 3,
+   "prominence_db": 4.1,
+   "bed_db": -18.5,
+   "peak_dbfs": -6.8,
+   "local_lufs": -18.5,
+   "centroid_hz": 521,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.01
+    },
+    {
+     "tag": "a soft UI button tap",
+     "kind": "UI",
+     "z": 1.79
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.49
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 1.236,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.6,
+   "z": 5.5,
+   "length_ms": 46,
+   "prominence_db": 0.0,
+   "bed_db": -18.1,
+   "peak_dbfs": -14.9,
+   "local_lufs": -18.6,
+   "centroid_hz": 625
+  },
+  {
+   "t": 1.39,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.6,
+   "z": 4.0,
+   "length_ms": 89,
+   "prominence_db": 6.6,
+   "bed_db": -19.7,
+   "peak_dbfs": -8.9,
+   "local_lufs": -18.3,
+   "centroid_hz": 536,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.1
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.09
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.81
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 1.544,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.5,
+   "z": 4.6,
+   "length_ms": 202,
+   "prominence_db": 3.0,
+   "bed_db": -17.8,
+   "peak_dbfs": -9.8,
+   "local_lufs": -17.5,
+   "centroid_hz": 432,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.03
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.76
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.41
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 1.607,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.5,
+   "z": 7.0,
+   "length_ms": 118,
+   "prominence_db": 2.7,
+   "bed_db": -17.5,
+   "peak_dbfs": -9.8,
+   "local_lufs": -18.3,
+   "centroid_hz": 732
+  },
+  {
+   "t": 1.842,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.7,
+   "z": 4.9,
+   "length_ms": 114,
+   "prominence_db": 6.7,
+   "bed_db": -18.5,
+   "peak_dbfs": -6.6,
+   "local_lufs": -19.1,
+   "centroid_hz": 665
+  },
+  {
+   "t": 1.903,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 25.9,
+   "z": 8.7,
+   "length_ms": 2000,
+   "prominence_db": 7.0,
+   "bed_db": -18.8,
+   "peak_dbfs": -6.6,
+   "local_lufs": -19.2,
+   "centroid_hz": 478
+  },
+  {
+   "t": 2.037,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.7,
+   "z": 7.0,
+   "length_ms": 136,
+   "prominence_db": 8.1,
+   "bed_db": -21.6,
+   "peak_dbfs": -7.0,
+   "local_lufs": -18.7,
+   "centroid_hz": 2372,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.6
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.13
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.73
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 2.14,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 26.8,
+   "z": 5.6,
+   "length_ms": 33,
+   "prominence_db": 4.1,
+   "bed_db": -19.5,
+   "peak_dbfs": -9.8,
+   "local_lufs": -18.6,
+   "centroid_hz": 744
+  },
+  {
+   "t": 2.348,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.0,
+   "z": 3.9,
+   "length_ms": 2000,
+   "prominence_db": 8.1,
+   "bed_db": -19.2,
+   "peak_dbfs": -5.1,
+   "local_lufs": -17.3,
+   "centroid_hz": 434
+  },
+  {
+   "t": 2.587,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.4,
+   "z": 3.4,
+   "length_ms": 18,
+   "prominence_db": 3.1,
+   "bed_db": -17.1,
+   "peak_dbfs": -6.2,
+   "local_lufs": -18.1,
+   "centroid_hz": 476
+  },
+  {
+   "t": 2.674,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.6,
+   "z": 9.9,
+   "length_ms": 1442,
+   "prominence_db": 4.9,
+   "bed_db": -18.6,
+   "peak_dbfs": -7.4,
+   "local_lufs": -18.8,
+   "centroid_hz": 1029
+  },
+  {
+   "t": 2.711,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.3,
+   "z": 6.6,
+   "length_ms": 2000,
+   "prominence_db": 5.2,
+   "bed_db": -19.1,
+   "peak_dbfs": -5.8,
+   "local_lufs": -19.1,
+   "centroid_hz": 737
+  },
+  {
+   "t": 2.99,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 30.9,
+   "prominence_db": 30.9,
+   "bed_db": -52.4,
+   "z": 0.0,
+   "rise_ms": 1220,
+   "length_ms": 100,
+   "peak_dbfs": -3.8,
+   "local_lufs": -14.5,
+   "centroid_hz": 835,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.19
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.08
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.94
+    }
+   ],
+   "kind": "VOICE",
+   "label": "speech (AST 0.61)",
+   "exposed": true,
+   "ast": [
+    [
+     "Speech",
+     0.612
+    ],
+    [
+     "Music",
+     0.516
+    ]
+   ]
+  },
+  {
+   "t": 3.043,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 17.8,
+   "z": 4.8,
+   "length_ms": 2000,
+   "prominence_db": 9.2,
+   "bed_db": -17.6,
+   "peak_dbfs": -3.8,
+   "local_lufs": -14.2,
+   "centroid_hz": 338,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.32
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.79
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.74
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 3.239,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.7,
+   "z": 3.1,
+   "length_ms": 227,
+   "prominence_db": 4.5,
+   "bed_db": -13.7,
+   "peak_dbfs": -4.2,
+   "local_lufs": -13.3,
+   "centroid_hz": 583
+  },
+  {
+   "t": 3.528,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.2,
+   "z": 10.5,
+   "length_ms": 105,
+   "prominence_db": 5.7,
+   "bed_db": -15.0,
+   "peak_dbfs": -4.5,
+   "local_lufs": -14.5,
+   "centroid_hz": 1036
+  },
+  {
+   "t": 3.718,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.0,
+   "z": 5.7,
+   "length_ms": 38,
+   "prominence_db": 5.4,
+   "bed_db": -17.4,
+   "peak_dbfs": -6.2,
+   "local_lufs": -15.6,
+   "centroid_hz": 5581,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.58
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.46
+    },
+    {
+     "tag": "a swoosh passing by",
+     "kind": "WHOOSH",
+     "z": 2.27
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 4.174,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.9,
+   "z": 4.7,
+   "length_ms": 158,
+   "prominence_db": 2.7,
+   "bed_db": -15.6,
+   "peak_dbfs": -5.2,
+   "local_lufs": -15.2,
+   "centroid_hz": 840
+  },
+  {
+   "t": 4.37,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.3,
+   "z": 3.6,
+   "length_ms": 62,
+   "prominence_db": 2.2,
+   "bed_db": -14.9,
+   "peak_dbfs": -11.4,
+   "local_lufs": -15.6,
+   "centroid_hz": 1692
+  },
+  {
+   "t": 4.612,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.7,
+   "z": 6.8,
+   "length_ms": 58,
+   "prominence_db": 0.0,
+   "bed_db": -15.4,
+   "peak_dbfs": -9.4,
+   "local_lufs": -17.1,
+   "centroid_hz": 334
+  },
+  {
+   "t": 4.695,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.1,
+   "z": 9.8,
+   "length_ms": 100,
+   "prominence_db": 0.7,
+   "bed_db": -16.0,
+   "peak_dbfs": -9.6,
+   "local_lufs": -16.9,
+   "centroid_hz": 1648
+  },
+  {
+   "t": 4.738,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.7,
+   "z": 3.7,
+   "length_ms": 56,
+   "prominence_db": 0.0,
+   "bed_db": -16.0,
+   "peak_dbfs": -13.1,
+   "local_lufs": -17.1,
+   "centroid_hz": 1413
+  },
+  {
+   "t": 4.83,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 6.8,
+   "z": 6.3,
+   "length_ms": 4,
+   "prominence_db": 8.6,
+   "bed_db": -17.6,
+   "peak_dbfs": -4.9,
+   "local_lufs": -17.8,
+   "centroid_hz": 736,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.44
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.95
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.72
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.436
+    ],
+    [
+     "Speech",
+     0.403
+    ],
+    [
+     "Male speech, man speaking",
+     0.05
+    ]
+   ]
+  },
+  {
+   "t": 4.862,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.6,
+   "z": 12.3,
+   "length_ms": 440,
+   "prominence_db": 9.4,
+   "bed_db": -18.4,
+   "peak_dbfs": -4.9,
+   "local_lufs": -17.8,
+   "centroid_hz": 514,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.51
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.99
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.86
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false,
+   "ast": [
+    [
+     "Speech",
+     0.369
+    ],
+    [
+     "Music",
+     0.357
+    ]
+   ]
+  },
+  {
+   "t": 5.034,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.0,
+   "z": 4.1,
+   "length_ms": 1338,
+   "prominence_db": 7.9,
+   "bed_db": -20.5,
+   "peak_dbfs": -6.1,
+   "local_lufs": -15.9,
+   "centroid_hz": 566
+  },
+  {
+   "t": 5.12,
+   "shape": "swell",
+   "band": "full",
+   "contrast_db": 9.0,
+   "prominence_db": 9.0,
+   "bed_db": -26.1,
+   "z": 0.0,
+   "rise_ms": 330,
+   "length_ms": 450,
+   "peak_dbfs": -8.0,
+   "local_lufs": -16.7,
+   "centroid_hz": 961,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.16
+    },
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 1.65
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.59
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.473
+    ],
+    [
+     "Speech",
+     0.359
+    ]
+   ]
+  },
+  {
+   "t": 5.171,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.6,
+   "z": 6.4,
+   "length_ms": 123,
+   "prominence_db": 4.3,
+   "bed_db": -17.1,
+   "peak_dbfs": -8.5,
+   "local_lufs": -16.7,
+   "centroid_hz": 506
+  },
+  {
+   "t": 5.49,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 8.6,
+   "z": 3.7,
+   "length_ms": 74,
+   "prominence_db": 5.5,
+   "bed_db": -19.7,
+   "peak_dbfs": -5.3,
+   "local_lufs": -20.1,
+   "centroid_hz": 1128
+  },
+  {
+   "t": 5.63,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 19.9,
+   "prominence_db": 19.9,
+   "bed_db": -48.8,
+   "z": 0.0,
+   "rise_ms": 820,
+   "length_ms": 470,
+   "peak_dbfs": -5.9,
+   "local_lufs": -18.8,
+   "centroid_hz": 880,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.49
+    },
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 2.16
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.08
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": true
+  },
+  {
+   "t": 5.899,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.9,
+   "z": 5.6,
+   "length_ms": 159,
+   "prominence_db": 6.6,
+   "bed_db": -18.8,
+   "peak_dbfs": -1.9,
+   "local_lufs": -16.2,
+   "centroid_hz": 393
+  },
+  {
+   "t": 6.001,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 13.4,
+   "z": 3.6,
+   "length_ms": 795,
+   "prominence_db": 6.6,
+   "bed_db": -17.2,
+   "peak_dbfs": -1.1,
+   "local_lufs": -15.6,
+   "centroid_hz": 119,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.31
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.08
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.51
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 6.188,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.2,
+   "z": 11.6,
+   "length_ms": 184,
+   "prominence_db": 4.3,
+   "bed_db": -14.8,
+   "peak_dbfs": -0.9,
+   "local_lufs": -14.0,
+   "centroid_hz": 86,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.63
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.08
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.41
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 6.278,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.4,
+   "z": 5.9,
+   "length_ms": 95,
+   "prominence_db": 5.0,
+   "bed_db": -14.5,
+   "peak_dbfs": -0.9,
+   "local_lufs": -14.2,
+   "centroid_hz": 302
+  },
+  {
+   "t": 6.335,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.6,
+   "z": 3.2,
+   "length_ms": 24,
+   "prominence_db": 3.7,
+   "bed_db": -14.3,
+   "peak_dbfs": -0.9,
+   "local_lufs": -14.2,
+   "centroid_hz": 115
+  },
+  {
+   "t": 6.439,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.2,
+   "z": 4.9,
+   "length_ms": 31,
+   "prominence_db": 0.6,
+   "bed_db": -13.5,
+   "peak_dbfs": -4.8,
+   "local_lufs": -14.0,
+   "centroid_hz": 4501
+  },
+  {
+   "t": 6.576,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.8,
+   "z": 4.0,
+   "length_ms": 332,
+   "prominence_db": 3.4,
+   "bed_db": -14.3,
+   "peak_dbfs": -0.9,
+   "local_lufs": -14.3,
+   "centroid_hz": 791
+  },
+  {
+   "t": 6.788,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 6.9,
+   "z": 6.9,
+   "length_ms": 49,
+   "prominence_db": 0.2,
+   "bed_db": -13.0,
+   "peak_dbfs": -3.2,
+   "local_lufs": -14.3,
+   "centroid_hz": 860,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.22
+    },
+    {
+     "tag": "footsteps on grass",
+     "kind": "STEP",
+     "z": 1.9
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.8
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 6.869,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.0,
+   "z": 3.9,
+   "length_ms": 38,
+   "prominence_db": 0.0,
+   "bed_db": -13.0,
+   "peak_dbfs": -8.0,
+   "local_lufs": -14.1,
+   "centroid_hz": 201
+  },
+  {
+   "t": 6.967,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.8,
+   "z": 6.6,
+   "length_ms": 216,
+   "prominence_db": 5.7,
+   "bed_db": -14.9,
+   "peak_dbfs": -3.9,
+   "local_lufs": -14.4,
+   "centroid_hz": 888
+  },
+  {
+   "t": 7.267,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.5,
+   "z": 5.3,
+   "length_ms": 16,
+   "prominence_db": 9.9,
+   "bed_db": -14.7,
+   "peak_dbfs": -11.9,
+   "local_lufs": -12.4,
+   "centroid_hz": 5104
+  },
+  {
+   "t": 7.361,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.3,
+   "z": 9.4,
+   "length_ms": 2000,
+   "prominence_db": 10.8,
+   "bed_db": -16.5,
+   "peak_dbfs": -1.0,
+   "local_lufs": -10.5,
+   "centroid_hz": 144,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.07
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.33
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.01
+    }
+   ],
+   "kind": "VOICE",
+   "label": "speech (AST 0.51)",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.524
+    ],
+    [
+     "Speech",
+     0.507
+    ],
+    [
+     "Electronic music",
+     0.075
+    ],
+    [
+     "Sound effect",
+     0.066
+    ]
+   ]
+  },
+  {
+   "t": 7.468,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.1,
+   "z": 5.7,
+   "length_ms": 68,
+   "prominence_db": 11.6,
+   "bed_db": -16.3,
+   "peak_dbfs": -1.1,
+   "local_lufs": -9.2,
+   "centroid_hz": 63,
+   "tags": [
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.68
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.66
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.13
+    }
+   ],
+   "kind": "HIT",
+   "label": "punchy impact hit",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.468
+    ],
+    [
+     "Speech",
+     0.2
+    ],
+    [
+     "Sound effect",
+     0.052
+    ]
+   ]
+  },
+  {
+   "t": 7.656,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.2,
+   "z": 7.4,
+   "length_ms": 835,
+   "prominence_db": 1.2,
+   "bed_db": -8.4,
+   "peak_dbfs": -1.0,
+   "local_lufs": -8.8,
+   "centroid_hz": 140
+  },
+  {
+   "t": 7.7,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.6,
+   "z": 3.4,
+   "length_ms": 797,
+   "prominence_db": 0.3,
+   "bed_db": -8.0,
+   "peak_dbfs": -1.0,
+   "local_lufs": -9.0,
+   "centroid_hz": 175
+  },
+  {
+   "t": 7.868,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.6,
+   "z": 3.8,
+   "length_ms": 134,
+   "prominence_db": 0.7,
+   "bed_db": -8.8,
+   "peak_dbfs": -1.0,
+   "local_lufs": -9.9,
+   "centroid_hz": 282
+  },
+  {
+   "t": 7.998,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.7,
+   "z": 4.3,
+   "length_ms": 90,
+   "prominence_db": 0.3,
+   "bed_db": -9.2,
+   "peak_dbfs": -3.8,
+   "local_lufs": -10.8,
+   "centroid_hz": 105
+  },
+  {
+   "t": 8.154,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 4.4,
+   "z": 3.1,
+   "length_ms": 33,
+   "prominence_db": 0.2,
+   "bed_db": -10.1,
+   "peak_dbfs": -5.6,
+   "local_lufs": -11.4,
+   "centroid_hz": 103
+  },
+  {
+   "t": 8.255,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.9,
+   "z": 9.6,
+   "length_ms": 39,
+   "prominence_db": 2.0,
+   "bed_db": -11.1,
+   "peak_dbfs": -2.2,
+   "local_lufs": -11.9,
+   "centroid_hz": 300,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 1.96
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.75
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.57
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": false
+  },
+  {
+   "t": 8.394,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.3,
+   "z": 5.6,
+   "length_ms": 95,
+   "prominence_db": 0.2,
+   "bed_db": -11.4,
+   "peak_dbfs": -4.9,
+   "local_lufs": -12.4,
+   "centroid_hz": 258
+  },
+  {
+   "t": 8.426,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.5,
+   "z": 3.0,
+   "length_ms": 64,
+   "prominence_db": 0.8,
+   "bed_db": -11.5,
+   "peak_dbfs": -5.1,
+   "local_lufs": -12.6,
+   "centroid_hz": 261
+  },
+  {
+   "t": 8.544,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 6.7,
+   "z": 10.6,
+   "length_ms": 2,
+   "prominence_db": 0.9,
+   "bed_db": -12.0,
+   "peak_dbfs": -6.9,
+   "local_lufs": -13.3,
+   "centroid_hz": 63
+  },
+  {
+   "t": 8.65,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.6,
+   "z": 3.7,
+   "length_ms": 31,
+   "prominence_db": 3.5,
+   "bed_db": -12.8,
+   "peak_dbfs": -4.2,
+   "local_lufs": -13.7,
+   "centroid_hz": 175
+  },
+  {
+   "t": 8.772,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 3.5,
+   "z": 4.8,
+   "length_ms": 18,
+   "prominence_db": 1.6,
+   "bed_db": -13.2,
+   "peak_dbfs": -5.4,
+   "local_lufs": -14.1,
+   "centroid_hz": 82,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.86
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.68
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.64
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 8.815,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.9,
+   "z": 3.6,
+   "length_ms": 289,
+   "prominence_db": 1.7,
+   "bed_db": -13.3,
+   "peak_dbfs": -1.3,
+   "local_lufs": -13.9,
+   "centroid_hz": 214
+  },
+  {
+   "t": 8.998,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.2,
+   "z": 8.3,
+   "length_ms": 96,
+   "prominence_db": 4.2,
+   "bed_db": -13.9,
+   "peak_dbfs": -2.0,
+   "local_lufs": -14.7,
+   "centroid_hz": 362,
+   "tags": [
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.27
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.81
+    },
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 1.73
+    }
+   ],
+   "kind": "DRUM",
+   "label": "kick drum",
+   "exposed": false
+  },
+  {
+   "t": 9.089,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.7,
+   "z": 9.2,
+   "length_ms": 3,
+   "prominence_db": 0.0,
+   "bed_db": -13.7,
+   "peak_dbfs": -6.9,
+   "local_lufs": -15.2,
+   "centroid_hz": 48
+  },
+  {
+   "t": 9.472,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 6.7,
+   "z": 3.6,
+   "length_ms": 2,
+   "prominence_db": 2.0,
+   "bed_db": -16.4,
+   "peak_dbfs": -6.2,
+   "local_lufs": -17.9,
+   "centroid_hz": 68
+  },
+  {
+   "t": 9.537,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 4.4,
+   "z": 4.6,
+   "length_ms": 21,
+   "prominence_db": 0.7,
+   "bed_db": -16.6,
+   "peak_dbfs": -6.9,
+   "local_lufs": -17.7,
+   "centroid_hz": 121,
+   "tags": [
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.93
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.92
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.61
+    }
+   ],
+   "kind": "VOICE",
+   "label": "short vocal sound",
+   "exposed": false
+  },
+  {
+   "t": 9.677,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.5,
+   "z": 13.4,
+   "length_ms": 253,
+   "prominence_db": 4.9,
+   "bed_db": -17.5,
+   "peak_dbfs": -6.0,
+   "local_lufs": -17.4,
+   "centroid_hz": 656
+  },
+  {
+   "t": 9.854,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.8,
+   "z": 7.2,
+   "length_ms": 74,
+   "prominence_db": 0.0,
+   "bed_db": -16.8,
+   "peak_dbfs": -7.2,
+   "local_lufs": -18.1,
+   "centroid_hz": 100
+  },
+  {
+   "t": 9.884,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.7,
+   "z": 7.0,
+   "length_ms": 44,
+   "prominence_db": 0.0,
+   "bed_db": -16.9,
+   "peak_dbfs": -10.5,
+   "local_lufs": -17.8,
+   "centroid_hz": 226
+  },
+  {
+   "t": 10.085,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 22.0,
+   "z": 7.7,
+   "length_ms": 2000,
+   "prominence_db": 10.6,
+   "bed_db": -19.7,
+   "peak_dbfs": -1.2,
+   "local_lufs": -15.4,
+   "centroid_hz": 660,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.15
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.84
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.66
+    }
+   ],
+   "kind": "VOICE",
+   "label": "speech (AST 0.58)",
+   "exposed": true,
+   "ast": [
+    [
+     "Speech",
+     0.584
+    ],
+    [
+     "Music",
+     0.525
+    ],
+    [
+     "Zipper (clothing)",
+     0.081
+    ]
+   ]
+  },
+  {
+   "t": 10.215,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.4,
+   "z": 3.5,
+   "length_ms": 181,
+   "prominence_db": 13.5,
+   "bed_db": -19.9,
+   "peak_dbfs": -1.2,
+   "local_lufs": -14.6,
+   "centroid_hz": 514
+  },
+  {
+   "t": 10.36,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 18.4,
+   "prominence_db": 18.4,
+   "bed_db": -48.1,
+   "z": 0.0,
+   "rise_ms": 340,
+   "length_ms": 170,
+   "peak_dbfs": -5.9,
+   "local_lufs": -14.6,
+   "centroid_hz": 1432
+  },
+  {
+   "t": 10.461,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.9,
+   "z": 17.9,
+   "length_ms": 31,
+   "prominence_db": 3.6,
+   "bed_db": -15.3,
+   "peak_dbfs": -5.9,
+   "local_lufs": -15.0,
+   "centroid_hz": 888
+  },
+  {
+   "t": 10.769,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.5,
+   "z": 6.6,
+   "length_ms": 24,
+   "prominence_db": 2.6,
+   "bed_db": -16.6,
+   "peak_dbfs": -7.2,
+   "local_lufs": -16.9,
+   "centroid_hz": 913,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.45
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.77
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.66
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 10.852,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.2,
+   "z": 17.4,
+   "length_ms": 200,
+   "prominence_db": 0.5,
+   "bed_db": -17.4,
+   "peak_dbfs": -4.4,
+   "local_lufs": -17.7,
+   "centroid_hz": 528
+  },
+  {
+   "t": 11.118,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 22.5,
+   "z": 5.9,
+   "length_ms": 2000,
+   "prominence_db": 12.4,
+   "bed_db": -17.6,
+   "peak_dbfs": -1.0,
+   "local_lufs": -9.6,
+   "centroid_hz": 62,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.12
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.57
+    },
+    {
+     "tag": "a person talking",
+     "kind": "VOICE",
+     "z": 1.54
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.499
+    ],
+    [
+     "Speech",
+     0.422
+    ],
+    [
+     "Electronic music",
+     0.098
+    ]
+   ]
+  },
+  {
+   "t": 11.235,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 12.6,
+   "z": 4.4,
+   "length_ms": 1487,
+   "prominence_db": 7.0,
+   "bed_db": -12.2,
+   "peak_dbfs": -1.0,
+   "local_lufs": -8.0,
+   "centroid_hz": 137,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.54
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.64
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.23
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": false
+  },
+  {
+   "t": 11.288,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.2,
+   "z": 3.3,
+   "length_ms": 186,
+   "prominence_db": 3.2,
+   "bed_db": -8.2,
+   "peak_dbfs": -1.0,
+   "local_lufs": -7.5,
+   "centroid_hz": 145,
+   "tags": [
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.26
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.83
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.78
+    }
+   ],
+   "kind": "DRUM",
+   "label": "kick drum",
+   "exposed": false
+  },
+  {
+   "t": 11.399,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.8,
+   "z": 3.3,
+   "length_ms": 70,
+   "prominence_db": 1.1,
+   "bed_db": -6.5,
+   "peak_dbfs": -1.0,
+   "local_lufs": -7.3,
+   "centroid_hz": 55
+  },
+  {
+   "t": 11.455,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 5.8,
+   "z": 5.9,
+   "length_ms": 14,
+   "prominence_db": 1.1,
+   "bed_db": -6.5,
+   "peak_dbfs": -1.1,
+   "local_lufs": -7.5,
+   "centroid_hz": 89
+  },
+  {
+   "t": 11.683,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.1,
+   "z": 5.0,
+   "length_ms": 231,
+   "prominence_db": 0.7,
+   "bed_db": -7.1,
+   "peak_dbfs": -1.0,
+   "local_lufs": -8.5,
+   "centroid_hz": 82
+  },
+  {
+   "t": 11.769,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.6,
+   "z": 3.3,
+   "length_ms": 2,
+   "prominence_db": 0.2,
+   "bed_db": -7.5,
+   "peak_dbfs": -1.0,
+   "local_lufs": -8.9,
+   "centroid_hz": 64
+  },
+  {
+   "t": 11.827,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.4,
+   "z": 4.7,
+   "length_ms": 86,
+   "prominence_db": 0.4,
+   "bed_db": -7.8,
+   "peak_dbfs": -1.1,
+   "local_lufs": -9.1,
+   "centroid_hz": 59
+  },
+  {
+   "t": 11.98,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.0,
+   "z": 4.1,
+   "length_ms": 395,
+   "prominence_db": 0.5,
+   "bed_db": -8.3,
+   "peak_dbfs": -1.0,
+   "local_lufs": -10.0,
+   "centroid_hz": 79
+  },
+  {
+   "t": 12.25,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 11.8,
+   "prominence_db": 11.8,
+   "bed_db": -44.7,
+   "z": 0.0,
+   "rise_ms": 320,
+   "length_ms": 260,
+   "peak_dbfs": -1.2,
+   "local_lufs": -11.9,
+   "centroid_hz": 57,
+   "tags": [
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.7
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.52
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.49
+    }
+   ],
+   "kind": "HIT",
+   "label": "punchy impact hit",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.496
+    ],
+    [
+     "Speech",
+     0.354
+    ],
+    [
+     "Electronic music",
+     0.062
+    ],
+    [
+     "Sound effect",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 12.441,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.6,
+   "z": 6.8,
+   "length_ms": 32,
+   "prominence_db": 2.0,
+   "bed_db": -11.8,
+   "peak_dbfs": -2.3,
+   "local_lufs": -13.3,
+   "centroid_hz": 178
+  },
+  {
+   "t": 12.679,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 28.3,
+   "z": 22.4,
+   "length_ms": 203,
+   "prominence_db": 2.8,
+   "bed_db": -13.8,
+   "peak_dbfs": -3.9,
+   "local_lufs": -15.3,
+   "centroid_hz": 522
+  },
+  {
+   "t": 12.816,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.7,
+   "z": 9.9,
+   "length_ms": 66,
+   "prominence_db": 2.1,
+   "bed_db": -15.1,
+   "peak_dbfs": -5.5,
+   "local_lufs": -16.5,
+   "centroid_hz": 462
+  },
+  {
+   "t": 12.997,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 30.9,
+   "z": 18.4,
+   "length_ms": 256,
+   "prominence_db": 3.7,
+   "bed_db": -16.8,
+   "peak_dbfs": -3.0,
+   "local_lufs": -16.4,
+   "centroid_hz": 813,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.73
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.61
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.61
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 13.23,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.8,
+   "z": 7.2,
+   "length_ms": 19,
+   "prominence_db": 0.0,
+   "bed_db": -15.0,
+   "peak_dbfs": -10.1,
+   "local_lufs": -17.1,
+   "centroid_hz": 397
+  },
+  {
+   "t": 13.314,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.5,
+   "z": 9.1,
+   "length_ms": 35,
+   "prominence_db": 0.0,
+   "bed_db": -14.9,
+   "peak_dbfs": -9.4,
+   "local_lufs": -17.6,
+   "centroid_hz": 642
+  },
+  {
+   "t": 13.408,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.4,
+   "z": 3.7,
+   "length_ms": 345,
+   "prominence_db": 3.2,
+   "bed_db": -18.3,
+   "peak_dbfs": -3.8,
+   "local_lufs": -16.7,
+   "centroid_hz": 254
+  },
+  {
+   "t": 13.516,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 29.5,
+   "z": 10.2,
+   "length_ms": 322,
+   "prominence_db": 8.4,
+   "bed_db": -18.8,
+   "peak_dbfs": -3.8,
+   "local_lufs": -16.7,
+   "centroid_hz": 813,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.34
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.1
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.48
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 13.667,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.9,
+   "z": 5.0,
+   "length_ms": 55,
+   "prominence_db": 3.3,
+   "bed_db": -16.9,
+   "peak_dbfs": -6.0,
+   "local_lufs": -16.4,
+   "centroid_hz": 7047
+  },
+  {
+   "t": 13.718,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 10.1,
+   "z": 4.4,
+   "length_ms": 40,
+   "prominence_db": 3.3,
+   "bed_db": -16.9,
+   "peak_dbfs": -6.0,
+   "local_lufs": -16.4,
+   "centroid_hz": 445,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.12
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.94
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.69
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 13.825,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.3,
+   "z": 8.0,
+   "length_ms": 87,
+   "prominence_db": 7.5,
+   "bed_db": -17.8,
+   "peak_dbfs": -4.2,
+   "local_lufs": -17.8,
+   "centroid_hz": 871
+  },
+  {
+   "t": 13.883,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.1,
+   "z": 5.9,
+   "length_ms": 151,
+   "prominence_db": 8.2,
+   "bed_db": -18.6,
+   "peak_dbfs": -4.2,
+   "local_lufs": -17.8,
+   "centroid_hz": 560
+  },
+  {
+   "t": 14.226,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.4,
+   "z": 7.1,
+   "length_ms": 312,
+   "prominence_db": 3.5,
+   "bed_db": -19.5,
+   "peak_dbfs": -4.3,
+   "local_lufs": -18.8,
+   "centroid_hz": 412
+  },
+  {
+   "t": 14.304,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.6,
+   "z": 3.9,
+   "length_ms": 231,
+   "prominence_db": 4.3,
+   "bed_db": -19.2,
+   "peak_dbfs": -4.3,
+   "local_lufs": -17.9,
+   "centroid_hz": 552
+  },
+  {
+   "t": 14.498,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.5,
+   "z": 14.4,
+   "length_ms": 5,
+   "prominence_db": 6.3,
+   "bed_db": -17.3,
+   "peak_dbfs": -4.3,
+   "local_lufs": -16.2,
+   "centroid_hz": 430
+  },
+  {
+   "t": 14.53,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 4.6,
+   "z": 4.6,
+   "length_ms": 2,
+   "prominence_db": 5.8,
+   "bed_db": -17.0,
+   "peak_dbfs": -13.6,
+   "local_lufs": -16.2,
+   "centroid_hz": 374
+  },
+  {
+   "t": 14.581,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.6,
+   "z": 22.9,
+   "length_ms": 215,
+   "prominence_db": 6.6,
+   "bed_db": -17.8,
+   "peak_dbfs": -4.9,
+   "local_lufs": -16.3,
+   "centroid_hz": 1008
+  },
+  {
+   "t": 14.69,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 30.2,
+   "prominence_db": 30.2,
+   "bed_db": -60.8,
+   "z": 0.0,
+   "rise_ms": 560,
+   "length_ms": 70,
+   "peak_dbfs": -7.3,
+   "local_lufs": -16.7,
+   "centroid_hz": 726,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.95
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.32
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.3
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 14.799,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 3.7,
+   "z": 4.8,
+   "length_ms": 2,
+   "prominence_db": 0.0,
+   "bed_db": -17.0,
+   "peak_dbfs": -14.3,
+   "local_lufs": -16.7,
+   "centroid_hz": 295
+  },
+  {
+   "t": 14.873,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 11.0,
+   "z": 4.7,
+   "length_ms": 1493,
+   "prominence_db": 2.0,
+   "bed_db": -17.1,
+   "peak_dbfs": -5.0,
+   "local_lufs": -17.8,
+   "centroid_hz": 801,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.29
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.21
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.96
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 14.93,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.4,
+   "z": 4.7,
+   "length_ms": 105,
+   "prominence_db": 4.3,
+   "bed_db": -18.1,
+   "peak_dbfs": -5.0,
+   "local_lufs": -18.4,
+   "centroid_hz": 904
+  },
+  {
+   "t": 15.01,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.4,
+   "z": 6.2,
+   "length_ms": 24,
+   "prominence_db": 2.9,
+   "bed_db": -18.2,
+   "peak_dbfs": -10.3,
+   "local_lufs": -18.3,
+   "centroid_hz": 308
+  },
+  {
+   "t": 15.099,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.9,
+   "z": 19.2,
+   "length_ms": 18,
+   "prominence_db": 2.3,
+   "bed_db": -18.2,
+   "peak_dbfs": -12.2,
+   "local_lufs": -18.4,
+   "centroid_hz": 685
+  },
+  {
+   "t": 15.188,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.7,
+   "z": 5.2,
+   "length_ms": 85,
+   "prominence_db": 1.3,
+   "bed_db": -17.9,
+   "peak_dbfs": -13.4,
+   "local_lufs": -19.4,
+   "centroid_hz": 359
+  },
+  {
+   "t": 15.398,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 39.3,
+   "z": 24.4,
+   "length_ms": 306,
+   "prominence_db": 8.7,
+   "bed_db": -19.1,
+   "peak_dbfs": -4.9,
+   "local_lufs": -16.6,
+   "centroid_hz": 284,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.33
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.86
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 1.84
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.447
+    ],
+    [
+     "Speech",
+     0.32
+    ],
+    [
+     "Guitar",
+     0.102
+    ],
+    [
+     "Plucked string instrument",
+     0.078
+    ]
+   ]
+  },
+  {
+   "t": 15.627,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.7,
+   "z": 3.3,
+   "length_ms": 73,
+   "prominence_db": 5.2,
+   "bed_db": -14.9,
+   "peak_dbfs": -4.9,
+   "local_lufs": -14.0,
+   "centroid_hz": 692
+  },
+  {
+   "t": 15.81,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 23.4,
+   "z": 17.3,
+   "length_ms": 474,
+   "prominence_db": 6.7,
+   "bed_db": -13.2,
+   "peak_dbfs": -0.5,
+   "local_lufs": -10.9,
+   "centroid_hz": 199,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.97
+    },
+    {
+     "tag": "footsteps on grass",
+     "kind": "STEP",
+     "z": 1.65
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.59
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 15.909,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 9.3,
+   "z": 3.1,
+   "length_ms": 248,
+   "prominence_db": 6.7,
+   "bed_db": -12.4,
+   "peak_dbfs": -0.5,
+   "local_lufs": -9.9,
+   "centroid_hz": 370
+  },
+  {
+   "t": 16.012,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.5,
+   "z": 4.2,
+   "length_ms": 21,
+   "prominence_db": 4.7,
+   "bed_db": -9.5,
+   "peak_dbfs": -0.5,
+   "local_lufs": -9.2,
+   "centroid_hz": 305,
+   "tags": [
+    {
+     "tag": "footsteps on grass",
+     "kind": "STEP",
+     "z": 1.94
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.91
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.9
+    }
+   ],
+   "kind": "STEP",
+   "label": "footsteps on grass",
+   "exposed": false
+  },
+  {
+   "t": 16.179,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.5,
+   "z": 11.8,
+   "length_ms": 104,
+   "prominence_db": 0.0,
+   "bed_db": -8.2,
+   "peak_dbfs": -1.6,
+   "local_lufs": -11.0,
+   "centroid_hz": 854
+  },
+  {
+   "t": 16.419,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.3,
+   "z": 15.0,
+   "length_ms": 75,
+   "prominence_db": 1.0,
+   "bed_db": -13.7,
+   "peak_dbfs": -4.9,
+   "local_lufs": -16.9,
+   "centroid_hz": 700
+  },
+  {
+   "t": 16.55,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.9,
+   "z": 19.0,
+   "length_ms": 100,
+   "prominence_db": 4.1,
+   "bed_db": -17.5,
+   "peak_dbfs": -8.9,
+   "local_lufs": -18.2,
+   "centroid_hz": 379
+  },
+  {
+   "t": 16.715,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.6,
+   "z": 4.9,
+   "length_ms": 10,
+   "prominence_db": 2.9,
+   "bed_db": -18.0,
+   "peak_dbfs": -10.2,
+   "local_lufs": -18.4,
+   "centroid_hz": 442
+  },
+  {
+   "t": 16.871,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.7,
+   "z": 8.9,
+   "length_ms": 234,
+   "prominence_db": 4.6,
+   "bed_db": -17.4,
+   "peak_dbfs": -3.9,
+   "local_lufs": -17.9,
+   "centroid_hz": 480,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.62
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.1
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.85
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 16.968,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.6,
+   "z": 3.2,
+   "length_ms": 157,
+   "prominence_db": 4.3,
+   "bed_db": -17.8,
+   "peak_dbfs": -3.9,
+   "local_lufs": -18.3,
+   "centroid_hz": 445
+  },
+  {
+   "t": 17.065,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.5,
+   "z": 4.9,
+   "length_ms": 40,
+   "prominence_db": 0.9,
+   "bed_db": -17.7,
+   "peak_dbfs": -12.1,
+   "local_lufs": -18.6,
+   "centroid_hz": 325
+  },
+  {
+   "t": 17.148,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.5,
+   "z": 4.2,
+   "length_ms": 21,
+   "prominence_db": 1.8,
+   "bed_db": -18.6,
+   "peak_dbfs": -14.0,
+   "local_lufs": -18.0,
+   "centroid_hz": 2044
+  },
+  {
+   "t": 17.209,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.2,
+   "z": 8.6,
+   "length_ms": 658,
+   "prominence_db": 3.9,
+   "bed_db": -18.7,
+   "peak_dbfs": -5.1,
+   "local_lufs": -18.3,
+   "centroid_hz": 422,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.88
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.3
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 1.64
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 17.92,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.5,
+   "z": 4.7,
+   "length_ms": 173,
+   "prominence_db": 2.9,
+   "bed_db": -17.4,
+   "peak_dbfs": -8.6,
+   "local_lufs": -17.1,
+   "centroid_hz": 321,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.76
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.95
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.85
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 18.072,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 25.2,
+   "z": 3.5,
+   "length_ms": 21,
+   "prominence_db": 1.7,
+   "bed_db": -17.3,
+   "peak_dbfs": -9.4,
+   "local_lufs": -18.8,
+   "centroid_hz": 361
+  },
+  {
+   "t": 18.164,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.4,
+   "z": 17.7,
+   "length_ms": 47,
+   "prominence_db": 4.0,
+   "bed_db": -18.6,
+   "peak_dbfs": -10.1,
+   "local_lufs": -19.0,
+   "centroid_hz": 318
+  },
+  {
+   "t": 18.252,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.3,
+   "z": 16.3,
+   "length_ms": 833,
+   "prominence_db": 5.7,
+   "bed_db": -19.6,
+   "peak_dbfs": -3.8,
+   "local_lufs": -18.4,
+   "centroid_hz": 559,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.56
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.41
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.23
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 18.329,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.7,
+   "z": 3.1,
+   "length_ms": 424,
+   "prominence_db": 4.0,
+   "bed_db": -19.1,
+   "peak_dbfs": -3.8,
+   "local_lufs": -16.6,
+   "centroid_hz": 6666
+  },
+  {
+   "t": 18.455,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 12.5,
+   "z": 4.5,
+   "length_ms": 265,
+   "prominence_db": 7.7,
+   "bed_db": -18.3,
+   "peak_dbfs": -3.8,
+   "local_lufs": -15.3,
+   "centroid_hz": 539
+  },
+  {
+   "t": 18.57,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 21.9,
+   "prominence_db": 21.9,
+   "bed_db": -48.3,
+   "z": 0.0,
+   "rise_ms": 440,
+   "length_ms": 130,
+   "peak_dbfs": -6.8,
+   "local_lufs": -15.3,
+   "centroid_hz": 721
+  },
+  {
+   "t": 18.78,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 3.0,
+   "z": 4.4,
+   "length_ms": 2,
+   "prominence_db": 0.0,
+   "bed_db": -15.2,
+   "peak_dbfs": -11.2,
+   "local_lufs": -16.1,
+   "centroid_hz": 363,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.55
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.45
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.68
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 18.871,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.2,
+   "z": 3.9,
+   "length_ms": 48,
+   "prominence_db": 6.9,
+   "bed_db": -16.9,
+   "peak_dbfs": -5.4,
+   "local_lufs": -17.0,
+   "centroid_hz": 479,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.8
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.58
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.57
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 19.004,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.2,
+   "z": 13.4,
+   "length_ms": 48,
+   "prominence_db": 1.4,
+   "bed_db": -17.1,
+   "peak_dbfs": -10.0,
+   "local_lufs": -17.2,
+   "centroid_hz": 361
+  },
+  {
+   "t": 19.175,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.7,
+   "z": 5.7,
+   "length_ms": 2000,
+   "prominence_db": 5.8,
+   "bed_db": -17.9,
+   "peak_dbfs": -4.8,
+   "local_lufs": -18.2,
+   "centroid_hz": 351
+  },
+  {
+   "t": 19.27,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.2,
+   "z": 3.7,
+   "length_ms": 432,
+   "prominence_db": 3.2,
+   "bed_db": -17.8,
+   "peak_dbfs": -9.1,
+   "local_lufs": -18.5,
+   "centroid_hz": 432
+  },
+  {
+   "t": 19.352,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.2,
+   "z": 3.5,
+   "length_ms": 137,
+   "prominence_db": 0.0,
+   "bed_db": -17.0,
+   "peak_dbfs": -9.1,
+   "local_lufs": -17.9,
+   "centroid_hz": 2018
+  },
+  {
+   "t": 19.457,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.6,
+   "z": 3.9,
+   "length_ms": 26,
+   "prominence_db": 2.1,
+   "bed_db": -17.1,
+   "peak_dbfs": -9.1,
+   "local_lufs": -17.9,
+   "centroid_hz": 647
+  },
+  {
+   "t": 19.536,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 11.8,
+   "z": 3.3,
+   "length_ms": 182,
+   "prominence_db": 6.1,
+   "bed_db": -18.6,
+   "peak_dbfs": -6.7,
+   "local_lufs": -18.1,
+   "centroid_hz": 481,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.74
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.62
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.43
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 19.601,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.1,
+   "z": 4.9,
+   "length_ms": 100,
+   "prominence_db": 6.2,
+   "bed_db": -18.6,
+   "peak_dbfs": -6.7,
+   "local_lufs": -17.9,
+   "centroid_hz": 873,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.73
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.72
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.55
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 19.769,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 6.6,
+   "z": 15.2,
+   "length_ms": 7,
+   "prominence_db": 8.7,
+   "bed_db": -17.3,
+   "peak_dbfs": -10.9,
+   "local_lufs": -14.7,
+   "centroid_hz": 529
+  },
+  {
+   "t": 19.851,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 25.4,
+   "z": 7.4,
+   "length_ms": 180,
+   "prominence_db": 9.3,
+   "bed_db": -17.2,
+   "peak_dbfs": -3.7,
+   "local_lufs": -14.7,
+   "centroid_hz": 983
+  },
+  {
+   "t": 20.084,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.7,
+   "z": 5.7,
+   "length_ms": 78,
+   "prominence_db": 0.0,
+   "bed_db": -14.2,
+   "peak_dbfs": -11.4,
+   "local_lufs": -14.3,
+   "centroid_hz": 1936
+  },
+  {
+   "t": 20.209,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.9,
+   "z": 3.7,
+   "length_ms": 266,
+   "prominence_db": 14.1,
+   "bed_db": -18.4,
+   "peak_dbfs": -0.6,
+   "local_lufs": -11.2,
+   "centroid_hz": 423,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.69
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.96
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.54
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true,
+   "ast": [
+    [
+     "Speech",
+     0.45
+    ],
+    [
+     "Music",
+     0.386
+    ],
+    [
+     "Electronic music",
+     0.098
+    ],
+    [
+     "Sound effect",
+     0.086
+    ]
+   ]
+  },
+  {
+   "t": 20.267,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.4,
+   "z": 6.2,
+   "length_ms": 2000,
+   "prominence_db": 14.4,
+   "bed_db": -18.7,
+   "peak_dbfs": -0.6,
+   "local_lufs": -10.0,
+   "centroid_hz": 462,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.49
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.88
+    },
+    {
+     "tag": "a mouse click",
+     "kind": "UI",
+     "z": 1.64
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.573
+    ],
+    [
+     "Speech",
+     0.511
+    ],
+    [
+     "Oink",
+     0.202
+    ]
+   ]
+  },
+  {
+   "t": 20.394,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 13.0,
+   "z": 3.4,
+   "length_ms": 2000,
+   "prominence_db": 13.1,
+   "bed_db": -17.3,
+   "peak_dbfs": -0.9,
+   "local_lufs": -8.3,
+   "centroid_hz": 77,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.38
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.98
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.81
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 20.606,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.9,
+   "z": 13.3,
+   "length_ms": 34,
+   "prominence_db": 2.0,
+   "bed_db": -7.1,
+   "peak_dbfs": -1.4,
+   "local_lufs": -7.6,
+   "centroid_hz": 100
+  },
+  {
+   "t": 20.743,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.3,
+   "z": 5.4,
+   "length_ms": 628,
+   "prominence_db": 1.1,
+   "bed_db": -6.7,
+   "peak_dbfs": -1.1,
+   "local_lufs": -7.7,
+   "centroid_hz": 331,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.02
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.83
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.58
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 20.918,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.4,
+   "z": 12.9,
+   "length_ms": 146,
+   "prominence_db": 0.5,
+   "bed_db": -7.2,
+   "peak_dbfs": -1.1,
+   "local_lufs": -8.5,
+   "centroid_hz": 144
+  },
+  {
+   "t": 21.225,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 3.3,
+   "z": 3.2,
+   "length_ms": 26,
+   "prominence_db": 0.0,
+   "bed_db": -8.6,
+   "peak_dbfs": -2.9,
+   "local_lufs": -10.1,
+   "centroid_hz": 84,
+   "tags": [
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.6
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.45
+    }
+   ],
+   "kind": "DRUM",
+   "label": "kick drum",
+   "exposed": false
+  },
+  {
+   "t": 21.327,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.3,
+   "z": 7.6,
+   "length_ms": 9,
+   "prominence_db": 0.0,
+   "bed_db": -9.2,
+   "peak_dbfs": -4.5,
+   "local_lufs": -10.6,
+   "centroid_hz": 53,
+   "tags": [
+    {
+     "tag": "footsteps on wood",
+     "kind": "STEP",
+     "z": 1.78
+    },
+    {
+     "tag": "a soft UI button tap",
+     "kind": "UI",
+     "z": 1.73
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.41
+    }
+   ],
+   "kind": "STEP",
+   "label": "footsteps on wood",
+   "exposed": false
+  },
+  {
+   "t": 21.49,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.8,
+   "z": 15.3,
+   "length_ms": 8,
+   "prominence_db": 0.5,
+   "bed_db": -10.0,
+   "peak_dbfs": -2.6,
+   "local_lufs": -11.4,
+   "centroid_hz": 86
+  },
+  {
+   "t": 21.605,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.8,
+   "z": 4.5,
+   "length_ms": 291,
+   "prominence_db": 0.7,
+   "bed_db": -10.5,
+   "peak_dbfs": -2.1,
+   "local_lufs": -11.6,
+   "centroid_hz": 141
+  },
+  {
+   "t": 21.714,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.9,
+   "z": 5.5,
+   "length_ms": 174,
+   "prominence_db": 0.9,
+   "bed_db": -10.8,
+   "peak_dbfs": -2.1,
+   "local_lufs": -12.1,
+   "centroid_hz": 172
+  },
+  {
+   "t": 21.863,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.6,
+   "z": 9.6,
+   "length_ms": 25,
+   "prominence_db": 1.3,
+   "bed_db": -11.4,
+   "peak_dbfs": -4.1,
+   "local_lufs": -12.3,
+   "centroid_hz": 66,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.92
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.61
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.43
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 21.979,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.4,
+   "z": 8.5,
+   "length_ms": 261,
+   "prominence_db": 1.2,
+   "bed_db": -11.6,
+   "peak_dbfs": -2.0,
+   "local_lufs": -13.0,
+   "centroid_hz": 114
+  },
+  {
+   "t": 22.069,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.3,
+   "z": 12.6,
+   "length_ms": 169,
+   "prominence_db": 0.0,
+   "bed_db": -11.7,
+   "peak_dbfs": -2.0,
+   "local_lufs": -13.2,
+   "centroid_hz": 113
+  },
+  {
+   "t": 22.391,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 34.5,
+   "z": 15.1,
+   "length_ms": 45,
+   "prominence_db": 5.2,
+   "bed_db": -13.7,
+   "peak_dbfs": -1.1,
+   "local_lufs": -14.3,
+   "centroid_hz": 746,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.75
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.72
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 22.577,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.6,
+   "z": 3.2,
+   "length_ms": 87,
+   "prominence_db": 2.3,
+   "bed_db": -14.4,
+   "peak_dbfs": -4.6,
+   "local_lufs": -15.0,
+   "centroid_hz": 101
+  },
+  {
+   "t": 22.654,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.9,
+   "z": 11.3,
+   "length_ms": 9,
+   "prominence_db": 0.5,
+   "bed_db": -14.4,
+   "peak_dbfs": -5.4,
+   "local_lufs": -14.9,
+   "centroid_hz": 111
+  },
+  {
+   "t": 22.812,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 27.7,
+   "z": 18.0,
+   "length_ms": 354,
+   "prominence_db": 6.9,
+   "bed_db": -15.0,
+   "peak_dbfs": -2.3,
+   "local_lufs": -14.3,
+   "centroid_hz": 921
+  },
+  {
+   "t": 23.123,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.1,
+   "z": 5.5,
+   "length_ms": 44,
+   "prominence_db": 0.0,
+   "bed_db": -15.8,
+   "peak_dbfs": -10.5,
+   "local_lufs": -16.7,
+   "centroid_hz": 414
+  },
+  {
+   "t": 23.154,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.5,
+   "z": 12.1,
+   "length_ms": 12,
+   "prominence_db": 3.3,
+   "bed_db": -16.3,
+   "peak_dbfs": -8.9,
+   "local_lufs": -17.0,
+   "centroid_hz": 334
+  },
+  {
+   "t": 23.388,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.9,
+   "z": 4.2,
+   "length_ms": 18,
+   "prominence_db": 3.0,
+   "bed_db": -17.2,
+   "peak_dbfs": -6.3,
+   "local_lufs": -16.7,
+   "centroid_hz": 521
+  },
+  {
+   "t": 23.488,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.1,
+   "z": 5.3,
+   "length_ms": 454,
+   "prominence_db": 4.3,
+   "bed_db": -16.9,
+   "peak_dbfs": -7.1,
+   "local_lufs": -17.8,
+   "centroid_hz": 541,
+   "tags": [
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 2.48
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.11
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.77
+    }
+   ],
+   "kind": "NOTE",
+   "label": "orchestral stab",
+   "exposed": false
+  },
+  {
+   "t": 23.66,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.9,
+   "z": 6.2,
+   "length_ms": 218,
+   "prominence_db": 4.5,
+   "bed_db": -18.6,
+   "peak_dbfs": -9.9,
+   "local_lufs": -18.4,
+   "centroid_hz": 470,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.2
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.05
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 1.96
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 23.737,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.4,
+   "z": 4.3,
+   "length_ms": 163,
+   "prominence_db": 1.8,
+   "bed_db": -18.6,
+   "peak_dbfs": -12.1,
+   "local_lufs": -19.5,
+   "centroid_hz": 513
+  },
+  {
+   "t": 23.836,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.5,
+   "z": 9.3,
+   "length_ms": 41,
+   "prominence_db": 1.2,
+   "bed_db": -18.8,
+   "peak_dbfs": -12.2,
+   "local_lufs": -19.7,
+   "centroid_hz": 949
+  },
+  {
+   "t": 24.128,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.1,
+   "z": 6.3,
+   "length_ms": 95,
+   "prominence_db": 7.6,
+   "bed_db": -20.2,
+   "peak_dbfs": -6.1,
+   "local_lufs": -20.4,
+   "centroid_hz": 472,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.67
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.4
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.37
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false,
+   "ast": [
+    [
+     "Oink",
+     0.382
+    ],
+    [
+     "Music",
+     0.254
+    ],
+    [
+     "Speech",
+     0.244
+    ],
+    [
+     "Grunt",
+     0.061
+    ]
+   ]
+  },
+  {
+   "t": 24.221,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.0,
+   "z": 7.9,
+   "length_ms": 12,
+   "prominence_db": 0.6,
+   "bed_db": -19.9,
+   "peak_dbfs": -13.9,
+   "local_lufs": -20.2,
+   "centroid_hz": 814
+  },
+  {
+   "t": 24.406,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 26.0,
+   "z": 17.3,
+   "length_ms": 241,
+   "prominence_db": 7.1,
+   "bed_db": -20.9,
+   "peak_dbfs": -7.2,
+   "local_lufs": -21.0,
+   "centroid_hz": 466,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.03
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.77
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.46
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 24.52,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.2,
+   "z": 5.3,
+   "length_ms": 18,
+   "prominence_db": 3.8,
+   "bed_db": -21.5,
+   "peak_dbfs": -13.9,
+   "local_lufs": -19.8,
+   "centroid_hz": 716
+  },
+  {
+   "t": 24.58,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.5,
+   "z": 10.1,
+   "length_ms": 42,
+   "prominence_db": 2.7,
+   "bed_db": -20.4,
+   "peak_dbfs": -13.5,
+   "local_lufs": -16.2,
+   "centroid_hz": 5685
+  },
+  {
+   "t": 24.721,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 27.8,
+   "z": 5.2,
+   "length_ms": 1067,
+   "prominence_db": 13.1,
+   "bed_db": -20.4,
+   "peak_dbfs": -3.3,
+   "local_lufs": -12.8,
+   "centroid_hz": 704,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.29
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.64
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.5
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 25.332,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 4.6,
+   "z": 7.3,
+   "length_ms": 61,
+   "prominence_db": 6.2,
+   "bed_db": -18.0,
+   "peak_dbfs": -7.2,
+   "local_lufs": -15.7,
+   "centroid_hz": 401,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.27
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.94
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.6
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 25.433,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 22.8,
+   "z": 9.5,
+   "length_ms": 243,
+   "prominence_db": 3.6,
+   "bed_db": -16.4,
+   "peak_dbfs": -5.2,
+   "local_lufs": -17.0,
+   "centroid_hz": 2011
+  },
+  {
+   "t": 25.55,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 24.1,
+   "prominence_db": 24.1,
+   "bed_db": -51.7,
+   "z": 0.0,
+   "rise_ms": 270,
+   "length_ms": 100,
+   "peak_dbfs": -8.7,
+   "local_lufs": -17.2,
+   "centroid_hz": 999,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.84
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.83
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.69
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 25.778,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.5,
+   "z": 4.6,
+   "length_ms": 6,
+   "prominence_db": 2.2,
+   "bed_db": -16.9,
+   "peak_dbfs": -13.8,
+   "local_lufs": -18.4,
+   "centroid_hz": 379
+  },
+  {
+   "t": 25.852,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.0,
+   "z": 13.7,
+   "length_ms": 11,
+   "prominence_db": 6.5,
+   "bed_db": -18.4,
+   "peak_dbfs": -9.5,
+   "local_lufs": -18.7,
+   "centroid_hz": 736
+  },
+  {
+   "t": 25.935,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 29.0,
+   "z": 5.2,
+   "length_ms": 2000,
+   "prominence_db": 6.5,
+   "bed_db": -20.9,
+   "peak_dbfs": -4.8,
+   "local_lufs": -18.5,
+   "centroid_hz": 738
+  },
+  {
+   "t": 26.132,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 12.5,
+   "z": 3.8,
+   "length_ms": 186,
+   "prominence_db": 5.6,
+   "bed_db": -17.8,
+   "peak_dbfs": -8.0,
+   "local_lufs": -16.8,
+   "centroid_hz": 490,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.6
+    },
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 1.45
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.34
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 26.31,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.1,
+   "z": 4.4,
+   "length_ms": 73,
+   "prominence_db": 2.0,
+   "bed_db": -16.2,
+   "peak_dbfs": -8.9,
+   "local_lufs": -15.9,
+   "centroid_hz": 5409
+  },
+  {
+   "t": 26.435,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 16.6,
+   "z": 16.5,
+   "length_ms": 204,
+   "prominence_db": 4.4,
+   "bed_db": -15.6,
+   "peak_dbfs": -6.8,
+   "local_lufs": -16.2,
+   "centroid_hz": 390
+  },
+  {
+   "t": 26.598,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 22.0,
+   "z": 6.1,
+   "length_ms": 37,
+   "prominence_db": 2.0,
+   "bed_db": -15.9,
+   "peak_dbfs": -10.6,
+   "local_lufs": -17.0,
+   "centroid_hz": 916
+  },
+  {
+   "t": 26.692,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.2,
+   "z": 7.2,
+   "length_ms": 2,
+   "prominence_db": 0.0,
+   "bed_db": -16.0,
+   "peak_dbfs": -14.7,
+   "local_lufs": -18.7,
+   "centroid_hz": 518
+  },
+  {
+   "t": 26.785,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.0,
+   "z": 7.2,
+   "length_ms": 67,
+   "prominence_db": 4.3,
+   "bed_db": -17.9,
+   "peak_dbfs": -6.5,
+   "local_lufs": -19.5,
+   "centroid_hz": 407,
+   "tags": [
+    {
+     "tag": "footsteps on wood",
+     "kind": "STEP",
+     "z": 2.35
+    },
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 2.07
+    },
+    {
+     "tag": "a wooden block hit",
+     "kind": "FOLEY",
+     "z": 2.02
+    }
+   ],
+   "kind": "STEP",
+   "label": "footsteps on wood",
+   "exposed": false
+  },
+  {
+   "t": 27.171,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.5,
+   "z": 16.6,
+   "length_ms": 501,
+   "prominence_db": 3.2,
+   "bed_db": -16.8,
+   "peak_dbfs": -7.5,
+   "local_lufs": -17.1,
+   "centroid_hz": 314
+  },
+  {
+   "t": 27.286,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.8,
+   "z": 4.1,
+   "length_ms": 80,
+   "prominence_db": 1.4,
+   "bed_db": -16.4,
+   "peak_dbfs": -9.9,
+   "local_lufs": -16.9,
+   "centroid_hz": 508
+  },
+  {
+   "t": 27.418,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.5,
+   "z": 6.6,
+   "length_ms": 137,
+   "prominence_db": 3.1,
+   "bed_db": -16.6,
+   "peak_dbfs": -9.3,
+   "local_lufs": -17.3,
+   "centroid_hz": 411
+  },
+  {
+   "t": 27.498,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.5,
+   "z": 10.6,
+   "length_ms": 171,
+   "prominence_db": 0.0,
+   "bed_db": -16.1,
+   "peak_dbfs": -7.1,
+   "local_lufs": -17.3,
+   "centroid_hz": 758
+  },
+  {
+   "t": 27.637,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.6,
+   "z": 4.8,
+   "length_ms": 32,
+   "prominence_db": 6.2,
+   "bed_db": -18.0,
+   "peak_dbfs": -7.1,
+   "local_lufs": -16.6,
+   "centroid_hz": 1146,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.42
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.78
+    },
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 1.73
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 27.745,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 9.9,
+   "z": 6.9,
+   "length_ms": 539,
+   "prominence_db": 6.1,
+   "bed_db": -18.2,
+   "peak_dbfs": -4.6,
+   "local_lufs": -16.5,
+   "centroid_hz": 578,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.49
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.83
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.39
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 27.944,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.4,
+   "z": 16.4,
+   "length_ms": 92,
+   "prominence_db": 4.4,
+   "bed_db": -16.0,
+   "peak_dbfs": -4.6,
+   "local_lufs": -16.4,
+   "centroid_hz": 912
+  },
+  {
+   "t": 28.169,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 27.8,
+   "z": 27.1,
+   "length_ms": 155,
+   "prominence_db": 3.9,
+   "bed_db": -17.3,
+   "peak_dbfs": -5.3,
+   "local_lufs": -16.9,
+   "centroid_hz": 317
+  },
+  {
+   "t": 28.28,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.3,
+   "z": 16.4,
+   "length_ms": 43,
+   "prominence_db": 5.6,
+   "bed_db": -17.0,
+   "peak_dbfs": -5.3,
+   "local_lufs": -17.5,
+   "centroid_hz": 770
+  },
+  {
+   "t": 28.419,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.5,
+   "z": 7.5,
+   "length_ms": 4,
+   "prominence_db": 3.5,
+   "bed_db": -16.8,
+   "peak_dbfs": -6.8,
+   "local_lufs": -17.2,
+   "centroid_hz": 432
+  },
+  {
+   "t": 28.517,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.0,
+   "z": 4.8,
+   "length_ms": 13,
+   "prominence_db": 5.8,
+   "bed_db": -18.0,
+   "peak_dbfs": -6.4,
+   "local_lufs": -16.3,
+   "centroid_hz": 387,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.41
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 1.47
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.38
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 28.646,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 27.1,
+   "z": 7.8,
+   "length_ms": 93,
+   "prominence_db": 7.8,
+   "bed_db": -18.0,
+   "peak_dbfs": -5.0,
+   "local_lufs": -16.1,
+   "centroid_hz": 712
+  },
+  {
+   "t": 28.774,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.8,
+   "z": 14.1,
+   "length_ms": 152,
+   "prominence_db": 3.1,
+   "bed_db": -16.3,
+   "peak_dbfs": -1.1,
+   "local_lufs": -15.0,
+   "centroid_hz": 203
+  },
+  {
+   "t": 28.849,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 21.4,
+   "z": 3.8,
+   "length_ms": 102,
+   "prominence_db": 8.4,
+   "bed_db": -16.2,
+   "peak_dbfs": -1.1,
+   "local_lufs": -14.6,
+   "centroid_hz": 137
+  },
+  {
+   "t": 28.894,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.9,
+   "z": 3.2,
+   "length_ms": 58,
+   "prominence_db": 7.9,
+   "bed_db": -15.7,
+   "peak_dbfs": -1.1,
+   "local_lufs": -14.3,
+   "centroid_hz": 120
+  },
+  {
+   "t": 29.094,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.2,
+   "z": 5.9,
+   "length_ms": 398,
+   "prominence_db": 5.1,
+   "bed_db": -13.8,
+   "peak_dbfs": -0.9,
+   "local_lufs": -12.0,
+   "centroid_hz": 139,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.35
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.97
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.59
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 29.242,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 11.5,
+   "z": 6.5,
+   "length_ms": 93,
+   "prominence_db": 4.5,
+   "bed_db": -12.2,
+   "peak_dbfs": -0.9,
+   "local_lufs": -11.4,
+   "centroid_hz": 545,
+   "tags": [
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 1.85
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.5
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.43
+    }
+   ],
+   "kind": "HIT",
+   "label": "punchy impact hit",
+   "exposed": false
+  },
+  {
+   "t": 29.538,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.8,
+   "z": 11.6,
+   "length_ms": 3,
+   "prominence_db": 0.0,
+   "bed_db": -11.8,
+   "peak_dbfs": -4.7,
+   "local_lufs": -14.3,
+   "centroid_hz": 61
+  },
+  {
+   "t": 29.592,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.8,
+   "z": 12.3,
+   "length_ms": 176,
+   "prominence_db": 0.5,
+   "bed_db": -12.8,
+   "peak_dbfs": -3.9,
+   "local_lufs": -15.1,
+   "centroid_hz": 440
+  },
+  {
+   "t": 29.913,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 18.1,
+   "z": 3.3,
+   "length_ms": 151,
+   "prominence_db": 1.2,
+   "bed_db": -15.3,
+   "peak_dbfs": -6.0,
+   "local_lufs": -16.0,
+   "centroid_hz": 428
+  },
+  {
+   "t": 30.004,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.7,
+   "z": 4.0,
+   "length_ms": 57,
+   "prominence_db": 1.4,
+   "bed_db": -15.3,
+   "peak_dbfs": -7.6,
+   "local_lufs": -15.2,
+   "centroid_hz": 1647,
+   "tags": [
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 2.37
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.5
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.46
+    }
+   ],
+   "kind": "VOICE",
+   "label": "breath",
+   "exposed": false
+  },
+  {
+   "t": 30.171,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 17.6,
+   "z": 11.1,
+   "length_ms": 893,
+   "prominence_db": 7.2,
+   "bed_db": -15.7,
+   "peak_dbfs": -2.2,
+   "local_lufs": -14.5,
+   "centroid_hz": 185,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.04
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.88
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.73
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 30.309,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.4,
+   "z": 7.4,
+   "length_ms": 102,
+   "prominence_db": 3.2,
+   "bed_db": -14.6,
+   "peak_dbfs": -4.5,
+   "local_lufs": -14.3,
+   "centroid_hz": 1061
+  },
+  {
+   "t": 30.431,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 4.6,
+   "z": 3.3,
+   "length_ms": 85,
+   "prominence_db": 1.1,
+   "bed_db": -13.6,
+   "peak_dbfs": -4.6,
+   "local_lufs": -14.9,
+   "centroid_hz": 353
+  },
+  {
+   "t": 30.506,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 16.4,
+   "z": 3.7,
+   "length_ms": 482,
+   "prominence_db": 2.0,
+   "bed_db": -14.5,
+   "peak_dbfs": -4.6,
+   "local_lufs": -15.2,
+   "centroid_hz": 787
+  },
+  {
+   "t": 30.746,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.7,
+   "z": 4.6,
+   "length_ms": 174,
+   "prominence_db": 1.9,
+   "bed_db": -14.4,
+   "peak_dbfs": -4.9,
+   "local_lufs": -15.2,
+   "centroid_hz": 515
+  },
+  {
+   "t": 30.857,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.9,
+   "z": 4.0,
+   "length_ms": 63,
+   "prominence_db": 2.4,
+   "bed_db": -14.7,
+   "peak_dbfs": -5.8,
+   "local_lufs": -16.2,
+   "centroid_hz": 482,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 3.06
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 2.87
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.03
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 31.218,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 26.9,
+   "z": 23.1,
+   "length_ms": 784,
+   "prominence_db": 13.2,
+   "bed_db": -19.6,
+   "peak_dbfs": -1.0,
+   "local_lufs": -11.2,
+   "centroid_hz": 63,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.5
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.75
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.61
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.487
+    ],
+    [
+     "Speech",
+     0.367
+    ],
+    [
+     "Electronic music",
+     0.074
+    ],
+    [
+     "Sound effect",
+     0.067
+    ]
+   ]
+  },
+  {
+   "t": 31.435,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 3.1,
+   "z": 3.2,
+   "length_ms": 4,
+   "prominence_db": 0.0,
+   "bed_db": -8.8,
+   "peak_dbfs": -1.0,
+   "local_lufs": -11.1,
+   "centroid_hz": 91,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.58
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.22
+    },
+    {
+     "tag": "a swoosh passing by",
+     "kind": "WHOOSH",
+     "z": 1.58
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 31.632,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.8,
+   "z": 3.4,
+   "length_ms": 572,
+   "prominence_db": 0.0,
+   "bed_db": -11.6,
+   "peak_dbfs": -6.6,
+   "local_lufs": -15.1,
+   "centroid_hz": 373,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.86
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.82
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.45
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": false
+  },
+  {
+   "t": 31.716,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.4,
+   "z": 3.7,
+   "length_ms": 488,
+   "prominence_db": 0.0,
+   "bed_db": -13.8,
+   "peak_dbfs": -10.0,
+   "local_lufs": -16.9,
+   "centroid_hz": 2783
+  },
+  {
+   "t": 32.179,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.9,
+   "z": 17.4,
+   "length_ms": 24,
+   "prominence_db": 0.3,
+   "bed_db": -19.0,
+   "peak_dbfs": -12.5,
+   "local_lufs": -20.1,
+   "centroid_hz": 1819,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.23
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.11
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.99
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 32.344,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.6,
+   "z": 5.2,
+   "length_ms": 166,
+   "prominence_db": 6.8,
+   "bed_db": -20.7,
+   "peak_dbfs": -6.3,
+   "local_lufs": -20.5,
+   "centroid_hz": 967
+  },
+  {
+   "t": 32.413,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.9,
+   "z": 8.2,
+   "length_ms": 173,
+   "prominence_db": 2.6,
+   "bed_db": -20.8,
+   "peak_dbfs": -10.1,
+   "local_lufs": -20.4,
+   "centroid_hz": 1122
+  },
+  {
+   "t": 32.452,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.8,
+   "z": 7.1,
+   "length_ms": 134,
+   "prominence_db": 2.3,
+   "bed_db": -20.5,
+   "peak_dbfs": -10.6,
+   "local_lufs": -20.5,
+   "centroid_hz": 909
+  },
+  {
+   "t": 32.508,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.4,
+   "z": 8.1,
+   "length_ms": 78,
+   "prominence_db": 1.4,
+   "bed_db": -20.5,
+   "peak_dbfs": -12.4,
+   "local_lufs": -20.4,
+   "centroid_hz": 347
+  },
+  {
+   "t": 32.576,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 13.9,
+   "z": 3.7,
+   "length_ms": 93,
+   "prominence_db": 0.3,
+   "bed_db": -19.6,
+   "peak_dbfs": -14.9,
+   "local_lufs": -19.2,
+   "centroid_hz": 224,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.42
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 2.26
+    },
+    {
+     "tag": "a piano note",
+     "kind": "NOTE",
+     "z": 1.88
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 32.742,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 30.5,
+   "z": 26.8,
+   "length_ms": 256,
+   "prominence_db": 11.7,
+   "bed_db": -21.3,
+   "peak_dbfs": -4.7,
+   "local_lufs": -15.6,
+   "centroid_hz": 900,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.14
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.9
+    },
+    {
+     "tag": "a piano note",
+     "kind": "NOTE",
+     "z": 1.66
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 33.183,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 31.6,
+   "z": 3.8,
+   "length_ms": 432,
+   "prominence_db": 8.5,
+   "bed_db": -20.7,
+   "peak_dbfs": -4.0,
+   "local_lufs": -15.9,
+   "centroid_hz": 486
+  },
+  {
+   "t": 33.311,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.1,
+   "z": 8.5,
+   "length_ms": 74,
+   "prominence_db": 9.1,
+   "bed_db": -18.0,
+   "peak_dbfs": -4.0,
+   "local_lufs": -15.2,
+   "centroid_hz": 1097,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.42
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.37
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.9
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 33.568,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.9,
+   "z": 7.0,
+   "length_ms": 47,
+   "prominence_db": 5.3,
+   "bed_db": -17.3,
+   "peak_dbfs": -8.8,
+   "local_lufs": -17.4,
+   "centroid_hz": 921
+  },
+  {
+   "t": 33.612,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 6.5,
+   "z": 6.9,
+   "length_ms": 3,
+   "prominence_db": 5.2,
+   "bed_db": -18.4,
+   "peak_dbfs": -15.7,
+   "local_lufs": -18.6,
+   "centroid_hz": 510,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.81
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.66
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.64
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 33.668,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 25.7,
+   "z": 24.7,
+   "length_ms": 59,
+   "prominence_db": 6.9,
+   "bed_db": -20.0,
+   "peak_dbfs": -5.8,
+   "local_lufs": -19.0,
+   "centroid_hz": 1106
+  },
+  {
+   "t": 33.795,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 13.6,
+   "z": 11.5,
+   "length_ms": 33,
+   "prominence_db": 1.4,
+   "bed_db": -19.6,
+   "peak_dbfs": -13.6,
+   "local_lufs": -19.5,
+   "centroid_hz": 2894
+  },
+  {
+   "t": 33.923,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.4,
+   "z": 4.1,
+   "length_ms": 176,
+   "prominence_db": 3.9,
+   "bed_db": -20.5,
+   "peak_dbfs": -4.7,
+   "local_lufs": -20.3,
+   "centroid_hz": 4499
+  },
+  {
+   "t": 34.057,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.5,
+   "z": 6.0,
+   "length_ms": 16,
+   "prominence_db": 7.3,
+   "bed_db": -20.4,
+   "peak_dbfs": -4.7,
+   "local_lufs": -20.6,
+   "centroid_hz": 902,
+   "tags": [
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 2.31
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.26
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.83
+    }
+   ],
+   "kind": "NOTE",
+   "label": "orchestral stab",
+   "exposed": false
+  },
+  {
+   "t": 34.159,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.6,
+   "z": 3.3,
+   "length_ms": 113,
+   "prominence_db": 1.0,
+   "bed_db": -20.1,
+   "peak_dbfs": -13.8,
+   "local_lufs": -20.7,
+   "centroid_hz": 428
+  },
+  {
+   "t": 34.277,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.8,
+   "z": 3.1,
+   "length_ms": 259,
+   "prominence_db": 2.7,
+   "bed_db": -20.8,
+   "peak_dbfs": -11.8,
+   "local_lufs": -21.4,
+   "centroid_hz": 517
+  },
+  {
+   "t": 34.464,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 11.5,
+   "z": 3.9,
+   "length_ms": 1344,
+   "prominence_db": 3.6,
+   "bed_db": -21.4,
+   "peak_dbfs": -9.4,
+   "local_lufs": -20.9,
+   "centroid_hz": 370,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.44
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 1.82
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 1.72
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 34.64,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.4,
+   "z": 5.4,
+   "length_ms": 39,
+   "prominence_db": 7.0,
+   "bed_db": -20.8,
+   "peak_dbfs": -9.4,
+   "local_lufs": -20.7,
+   "centroid_hz": 574
+  },
+  {
+   "t": 34.728,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 31.0,
+   "z": 13.2,
+   "length_ms": 43,
+   "prominence_db": 4.0,
+   "bed_db": -20.5,
+   "peak_dbfs": -10.0,
+   "local_lufs": -17.8,
+   "centroid_hz": 5157
+  },
+  {
+   "t": 34.852,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 31.1,
+   "z": 12.4,
+   "length_ms": 213,
+   "prominence_db": 11.8,
+   "bed_db": -21.5,
+   "peak_dbfs": -6.2,
+   "local_lufs": -17.3,
+   "centroid_hz": 843,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.43
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.19
+    },
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 1.76
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 34.991,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.2,
+   "z": 4.1,
+   "length_ms": 37,
+   "prominence_db": 3.0,
+   "bed_db": -19.3,
+   "peak_dbfs": -10.6,
+   "local_lufs": -17.4,
+   "centroid_hz": 6589
+  },
+  {
+   "t": 35.168,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 9.0,
+   "z": 17.5,
+   "length_ms": 381,
+   "prominence_db": 4.5,
+   "bed_db": -18.7,
+   "peak_dbfs": -8.9,
+   "local_lufs": -19.3,
+   "centroid_hz": 500,
+   "tags": [
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 2.21
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.74
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 1.68
+    }
+   ],
+   "kind": "NOTE",
+   "label": "plucked string note",
+   "exposed": false
+  },
+  {
+   "t": 35.334,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.6,
+   "z": 4.1,
+   "length_ms": 90,
+   "prominence_db": 2.6,
+   "bed_db": -19.0,
+   "peak_dbfs": -10.6,
+   "local_lufs": -19.3,
+   "centroid_hz": 493
+  },
+  {
+   "t": 35.546,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 22.5,
+   "z": 6.7,
+   "length_ms": 85,
+   "prominence_db": 2.1,
+   "bed_db": -19.3,
+   "peak_dbfs": -12.6,
+   "local_lufs": -18.2,
+   "centroid_hz": 7147,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.08
+    },
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.04
+    },
+    {
+     "tag": "a celesta note",
+     "kind": "NOTE",
+     "z": 1.72
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 35.705,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 14.1,
+   "z": 12.7,
+   "length_ms": 159,
+   "prominence_db": 9.8,
+   "bed_db": -20.2,
+   "peak_dbfs": -3.4,
+   "local_lufs": -17.3,
+   "centroid_hz": 1157
+  },
+  {
+   "t": 35.845,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 7.0,
+   "z": 9.2,
+   "length_ms": 1,
+   "prominence_db": 0.4,
+   "bed_db": -18.6,
+   "peak_dbfs": -12.5,
+   "local_lufs": -17.4,
+   "centroid_hz": 482
+  },
+  {
+   "t": 35.925,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.0,
+   "z": 14.2,
+   "length_ms": 64,
+   "prominence_db": 2.6,
+   "bed_db": -19.0,
+   "peak_dbfs": -10.9,
+   "local_lufs": -17.7,
+   "centroid_hz": 1735
+  },
+  {
+   "t": 36.036,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 13.7,
+   "z": 3.2,
+   "length_ms": 2000,
+   "prominence_db": 8.5,
+   "bed_db": -19.7,
+   "peak_dbfs": -4.6,
+   "local_lufs": -18.7,
+   "centroid_hz": 871,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.8
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.13
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.85
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false,
+   "ast": [
+    [
+     "Music",
+     0.525
+    ],
+    [
+     "Speech",
+     0.513
+    ]
+   ]
+  },
+  {
+   "t": 36.103,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 26.8,
+   "z": 5.7,
+   "length_ms": 552,
+   "prominence_db": 9.9,
+   "bed_db": -21.1,
+   "peak_dbfs": -4.6,
+   "local_lufs": -17.4,
+   "centroid_hz": 454,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.56
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.41
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.94
+    }
+   ],
+   "kind": "VOICE",
+   "label": "speech (AST 0.51)",
+   "exposed": true,
+   "ast": [
+    [
+     "Speech",
+     0.514
+    ],
+    [
+     "Music",
+     0.227
+    ]
+   ]
+  },
+  {
+   "t": 36.143,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 29.5,
+   "z": 14.9,
+   "length_ms": 511,
+   "prominence_db": 9.6,
+   "bed_db": -21.2,
+   "peak_dbfs": -4.6,
+   "local_lufs": -16.6,
+   "centroid_hz": 5214
+  },
+  {
+   "t": 36.307,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 12.8,
+   "z": 6.0,
+   "length_ms": 383,
+   "prominence_db": 9.0,
+   "bed_db": -18.3,
+   "peak_dbfs": -4.6,
+   "local_lufs": -15.9,
+   "centroid_hz": 480
+  },
+  {
+   "t": 36.466,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.8,
+   "z": 3.8,
+   "length_ms": 50,
+   "prominence_db": 5.3,
+   "bed_db": -18.5,
+   "peak_dbfs": -8.9,
+   "local_lufs": -15.7,
+   "centroid_hz": 335
+  },
+  {
+   "t": 36.56,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.9,
+   "z": 3.2,
+   "length_ms": 1,
+   "prominence_db": 2.2,
+   "bed_db": -15.1,
+   "peak_dbfs": -8.1,
+   "local_lufs": -17.2,
+   "centroid_hz": 288
+  },
+  {
+   "t": 36.725,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 14.7,
+   "z": 4.5,
+   "length_ms": 216,
+   "prominence_db": 0.0,
+   "bed_db": -14.8,
+   "peak_dbfs": -3.9,
+   "local_lufs": -17.1,
+   "centroid_hz": 1127
+  },
+  {
+   "t": 36.833,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 23.5,
+   "z": 13.8,
+   "length_ms": 103,
+   "prominence_db": 9.2,
+   "bed_db": -19.9,
+   "peak_dbfs": -3.9,
+   "local_lufs": -18.6,
+   "centroid_hz": 497,
+   "tags": [
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 2.41
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.07
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.79
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "water drop",
+   "exposed": false
+  },
+  {
+   "t": 36.982,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 10.0,
+   "z": 7.3,
+   "length_ms": 75,
+   "prominence_db": 6.3,
+   "bed_db": -20.6,
+   "peak_dbfs": -10.2,
+   "local_lufs": -18.4,
+   "centroid_hz": 1457
+  },
+  {
+   "t": 37.155,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.7,
+   "z": 9.1,
+   "length_ms": 148,
+   "prominence_db": 3.7,
+   "bed_db": -19.9,
+   "peak_dbfs": -5.0,
+   "local_lufs": -18.1,
+   "centroid_hz": 2931
+  },
+  {
+   "t": 37.244,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 14.6,
+   "z": 6.0,
+   "length_ms": 58,
+   "prominence_db": 11.3,
+   "bed_db": -20.1,
+   "peak_dbfs": -5.0,
+   "local_lufs": -18.5,
+   "centroid_hz": 995,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.27
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.07
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.97
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 37.395,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.8,
+   "z": 6.0,
+   "length_ms": 5,
+   "prominence_db": 0.0,
+   "bed_db": -20.5,
+   "peak_dbfs": -14.1,
+   "local_lufs": -18.7,
+   "centroid_hz": 320
+  },
+  {
+   "t": 37.803,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.7,
+   "z": 8.5,
+   "length_ms": 373,
+   "prominence_db": 4.2,
+   "bed_db": -21.0,
+   "peak_dbfs": -3.5,
+   "local_lufs": -19.2,
+   "centroid_hz": 383,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.51
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.62
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.5
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 38.09,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 11.5,
+   "prominence_db": 11.5,
+   "bed_db": -45.7,
+   "z": 0.0,
+   "rise_ms": 490,
+   "length_ms": 110,
+   "peak_dbfs": -1.1,
+   "local_lufs": -15.3,
+   "centroid_hz": 313
+  },
+  {
+   "t": 38.466,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 24.4,
+   "z": 15.6,
+   "length_ms": 79,
+   "prominence_db": 6.5,
+   "bed_db": -13.4,
+   "peak_dbfs": -1.0,
+   "local_lufs": -13.0,
+   "centroid_hz": 267,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.16
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.83
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 1.26
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 38.674,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 17.4,
+   "z": 5.8,
+   "length_ms": 467,
+   "prominence_db": 2.1,
+   "bed_db": -13.0,
+   "peak_dbfs": -0.4,
+   "local_lufs": -13.8,
+   "centroid_hz": 459
+  },
+  {
+   "t": 38.883,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.3,
+   "z": 8.5,
+   "length_ms": 75,
+   "prominence_db": 3.4,
+   "bed_db": -14.2,
+   "peak_dbfs": -0.4,
+   "local_lufs": -15.9,
+   "centroid_hz": 6902
+  },
+  {
+   "t": 39.06,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 8.3,
+   "z": 8.1,
+   "length_ms": 44,
+   "prominence_db": 0.0,
+   "bed_db": -15.6,
+   "peak_dbfs": -8.1,
+   "local_lufs": -18.8,
+   "centroid_hz": 1899
+  },
+  {
+   "t": 39.325,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 22.0,
+   "z": 16.2,
+   "length_ms": 206,
+   "prominence_db": 11.9,
+   "bed_db": -20.8,
+   "peak_dbfs": -3.5,
+   "local_lufs": -16.8,
+   "centroid_hz": 1008,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.26
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.65
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.54
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 39.561,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 12.8,
+   "z": 3.2,
+   "length_ms": 195,
+   "prominence_db": 0.0,
+   "bed_db": -17.1,
+   "peak_dbfs": -5.8,
+   "local_lufs": -17.1,
+   "centroid_hz": 2882
+  },
+  {
+   "t": 39.711,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 12.2,
+   "z": 4.7,
+   "length_ms": 165,
+   "prominence_db": 8.1,
+   "bed_db": -19.3,
+   "peak_dbfs": -5.8,
+   "local_lufs": -18.2,
+   "centroid_hz": 503,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.07
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.73
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 39.985,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.0,
+   "z": 3.8,
+   "length_ms": 4,
+   "prominence_db": 4.6,
+   "bed_db": -19.0,
+   "peak_dbfs": -8.3,
+   "local_lufs": -19.3,
+   "centroid_hz": 623
+  },
+  {
+   "t": 40.062,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.7,
+   "z": 3.2,
+   "length_ms": 91,
+   "prominence_db": 5.3,
+   "bed_db": -20.5,
+   "peak_dbfs": -9.9,
+   "local_lufs": -19.5,
+   "centroid_hz": 513,
+   "tags": [
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.32
+    },
+    {
+     "tag": "a short vocal sound",
+     "kind": "VOICE",
+     "z": 1.69
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.41
+    }
+   ],
+   "kind": "VOICE",
+   "label": "spoken word",
+   "exposed": false
+  },
+  {
+   "t": 40.239,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.9,
+   "z": 3.3,
+   "length_ms": 59,
+   "prominence_db": 0.4,
+   "bed_db": -18.6,
+   "peak_dbfs": -13.2,
+   "local_lufs": -19.1,
+   "centroid_hz": 429,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.1
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.79
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 1.67
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 40.317,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 11.2,
+   "z": 4.1,
+   "length_ms": 416,
+   "prominence_db": 3.4,
+   "bed_db": -18.7,
+   "peak_dbfs": -5.4,
+   "local_lufs": -19.6,
+   "centroid_hz": 930
+  },
+  {
+   "t": 40.598,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 12.5,
+   "z": 3.9,
+   "length_ms": 134,
+   "prominence_db": 8.5,
+   "bed_db": -20.1,
+   "peak_dbfs": -3.6,
+   "local_lufs": -17.1,
+   "centroid_hz": 1744,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.05
+    },
+    {
+     "tag": "an orchestral stab",
+     "kind": "NOTE",
+     "z": 1.81
+    },
+    {
+     "tag": "a celesta note",
+     "kind": "NOTE",
+     "z": 1.55
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": false
+  },
+  {
+   "t": 40.68,
+   "shape": "swell",
+   "band": "high",
+   "contrast_db": 25.1,
+   "prominence_db": 25.1,
+   "bed_db": -48.7,
+   "z": 0.0,
+   "rise_ms": 1440,
+   "length_ms": 50,
+   "peak_dbfs": -9.2,
+   "local_lufs": -17.8,
+   "centroid_hz": 4144,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.92
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.92
+    },
+    {
+     "tag": "a spoken word",
+     "kind": "VOICE",
+     "z": 2.35
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 40.814,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 4.5,
+   "z": 24.2,
+   "length_ms": 3,
+   "prominence_db": 0.0,
+   "bed_db": -15.8,
+   "peak_dbfs": -18.6,
+   "local_lufs": -17.8,
+   "centroid_hz": 327,
+   "tags": [
+    {
+     "tag": "a spacebar press",
+     "kind": "KEY",
+     "z": 2.03
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.89
+    },
+    {
+     "tag": "a toggle switch click",
+     "kind": "UI",
+     "z": 1.75
+    }
+   ],
+   "kind": "KEY",
+   "label": "spacebar press",
+   "exposed": false
+  }
+ ],
+ "sections": [
+  {
+   "start": 0.0,
+   "end": 5.7,
+   "windows": 4,
+   "coherence": 0.93,
+   "music_genre": [
+    {
+     "tag": "glitch hop music",
+     "cat": "music_genre",
+     "z": 2.51,
+     "cos": 0.156
+    },
+    {
+     "tag": "inspirational corporate background music",
+     "cat": "music_genre",
+     "z": 2.29,
+     "cos": 0.136
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "confident and cool music",
+     "cat": "music_mood",
+     "z": 2.31,
+     "cos": 0.138
+    },
+    {
+     "tag": "aggressive music",
+     "cat": "music_mood",
+     "z": 2.25,
+     "cos": 0.133
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a vocal chop",
+     "cat": "instruments",
+     "z": 1.51,
+     "cos": 0.067
+    },
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 0.96,
+     "cos": 0.02
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "an office ambience",
+     "cat": "ambience",
+     "z": 0.6,
+     "cos": -0.012
+    },
+    {
+     "tag": "a busy cafe",
+     "cat": "ambience",
+     "z": 0.08,
+     "cos": -0.057
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": 1.66,
+     "cos": 0.081
+    },
+    {
+     "tag": "a woman speaking",
+     "cat": "voice",
+     "z": 1.28,
+     "cos": 0.047
+    }
+   ],
+   "lufs": -15.9,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.668,
+    "Speech": 0.724,
+    "Silence": 0.0
+   },
+   "ast_top": [
+    [
+     "Speech",
+     0.724
+    ],
+    [
+     "Music",
+     0.668
+    ],
+    [
+     "Bang",
+     0.076
+    ],
+    [
+     "Oink",
+     0.057
+    ]
+   ],
+   "label": "glitch hop music, vocal chop | voice: voice-over narration"
+  },
+  {
+   "start": 5.7,
+   "end": 12.5,
+   "windows": 3,
+   "coherence": 0.95,
+   "music_genre": [
+    {
+     "tag": "glitch hop music",
+     "cat": "music_genre",
+     "z": 2.76,
+     "cos": 0.218
+    },
+    {
+     "tag": "techno music",
+     "cat": "music_genre",
+     "z": 2.64,
+     "cos": 0.208
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "confident and cool music",
+     "cat": "music_mood",
+     "z": 2.93,
+     "cos": 0.232
+    },
+    {
+     "tag": "aggressive music",
+     "cat": "music_mood",
+     "z": 2.58,
+     "cos": 0.203
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a vocal chop",
+     "cat": "instruments",
+     "z": 1.59,
+     "cos": 0.121
+    },
+    {
+     "tag": "a deep sub bass",
+     "cat": "instruments",
+     "z": 1.4,
+     "cos": 0.106
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "an office ambience",
+     "cat": "ambience",
+     "z": 0.49,
+     "cos": 0.031
+    },
+    {
+     "tag": "a crackling fire",
+     "cat": "ambience",
+     "z": 0.29,
+     "cos": 0.013
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": 1.95,
+     "cos": 0.151
+    },
+    {
+     "tag": "a woman speaking",
+     "cat": "voice",
+     "z": 1.12,
+     "cos": 0.082
+    }
+   ],
+   "lufs": -12.1,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.627,
+    "Speech": 0.535,
+    "Silence": 0.001
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.627
+    ],
+    [
+     "Speech",
+     0.535
+    ],
+    [
+     "Single-lens reflex camera",
+     0.115
+    ],
+    [
+     "Electronic music",
+     0.064
+    ]
+   ],
+   "label": "glitch hop music, vocal chop, confident and cool | also: single-lens reflex camera (AST) | voice: voice-over narration"
+  },
+  {
+   "start": 12.5,
+   "end": 36.15,
+   "windows": 17,
+   "coherence": 0.923,
+   "music_genre": [
+    {
+     "tag": "techno music",
+     "cat": "music_genre",
+     "z": 2.8,
+     "cos": 0.193
+    },
+    {
+     "tag": "glitch hop music",
+     "cat": "music_genre",
+     "z": 2.4,
+     "cos": 0.159
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "confident and cool music",
+     "cat": "music_mood",
+     "z": 3.14,
+     "cos": 0.222
+    },
+    {
+     "tag": "aggressive music",
+     "cat": "music_mood",
+     "z": 2.58,
+     "cos": 0.175
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a vocal chop",
+     "cat": "instruments",
+     "z": 2.06,
+     "cos": 0.131
+    },
+    {
+     "tag": "pizzicato strings",
+     "cat": "instruments",
+     "z": 1.45,
+     "cos": 0.079
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "an office ambience",
+     "cat": "ambience",
+     "z": 0.26,
+     "cos": -0.021
+    },
+    {
+     "tag": "a busy cafe",
+     "cat": "ambience",
+     "z": 0.25,
+     "cos": -0.022
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": 1.68,
+     "cos": 0.099
+    },
+    {
+     "tag": "a woman speaking",
+     "cat": "voice",
+     "z": 1.2,
+     "cos": 0.058
+    }
+   ],
+   "lufs": -14.9,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.789,
+    "Speech": 0.707,
+    "Silence": 0.001
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.789
+    ],
+    [
+     "Speech",
+     0.707
+    ]
+   ],
+   "label": "techno music, vocal chop, confident and cool | voice: voice-over narration"
+  },
+  {
+   "start": 36.15,
+   "end": 40.85,
+   "windows": 2,
+   "coherence": 0.966,
+   "music_genre": [
+    {
+     "tag": "inspirational corporate background music",
+     "cat": "music_genre",
+     "z": 2.84,
+     "cos": 0.242
+    },
+    {
+     "tag": "techno music",
+     "cat": "music_genre",
+     "z": 2.57,
+     "cos": 0.219
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "confident and cool music",
+     "cat": "music_mood",
+     "z": 2.94,
+     "cos": 0.251
+    },
+    {
+     "tag": "aggressive music",
+     "cat": "music_mood",
+     "z": 2.33,
+     "cos": 0.199
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a deep sub bass",
+     "cat": "instruments",
+     "z": 1.39,
+     "cos": 0.12
+    },
+    {
+     "tag": "a bass guitar",
+     "cat": "instruments",
+     "z": 1.31,
+     "cos": 0.113
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "an office ambience",
+     "cat": "ambience",
+     "z": 0.38,
+     "cos": 0.035
+    },
+    {
+     "tag": "a crackling fire",
+     "cat": "ambience",
+     "z": 0.13,
+     "cos": 0.014
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": 1.44,
+     "cos": 0.124
+    },
+    {
+     "tag": "a woman speaking",
+     "cat": "voice",
+     "z": 1.2,
+     "cos": 0.104
+    }
+   ],
+   "lufs": -16.9,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.681,
+    "Speech": 0.488,
+    "Silence": 0.001
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.681
+    ],
+    [
+     "Speech",
+     0.488
+    ]
+   ],
+   "label": "inspirational corporate background music, confident and cool | voice: voice-over narration"
+  }
+ ],
+ "sync": {
+  "cuts": {
+   "items": [
+    {
+     "t": 2.933,
+     "offset_ms": 57.0,
+     "status": "near",
+     "event_t": 2.99,
+     "event_prominence_db": 30.9,
+     "event": "speech (AST 0.61)",
+     "accent_offset_ms": 57.0
+    },
+    {
+     "t": 3.767,
+     "offset_ms": -49.0,
+     "status": "near",
+     "event_t": 3.718,
+     "event_prominence_db": 5.4,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 3.933,
+     "offset_ms": 127.0,
+     "status": "peak",
+     "event_t": 4.06,
+     "event_prominence_db": 7.6,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 4.1,
+     "offset_ms": 74.0,
+     "status": "near",
+     "event_t": 4.174,
+     "event_prominence_db": 2.7,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 4.433,
+     "offset_ms": -63.0,
+     "status": "near",
+     "event_t": 4.37,
+     "event_prominence_db": 2.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 4.6,
+     "offset_ms": 12.0,
+     "status": "OK",
+     "event_t": 4.612,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 4.767,
+     "offset_ms": -29.0,
+     "status": "OK",
+     "event_t": 4.738,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": 63.0
+    },
+    {
+     "t": 5.2,
+     "offset_ms": -29.0,
+     "status": "OK",
+     "event_t": 5.171,
+     "event_prominence_db": 4.3,
+     "accent_offset_ms": -80.0
+    },
+    {
+     "t": 6.167,
+     "offset_ms": 21.0,
+     "status": "OK",
+     "event_t": 6.188,
+     "event_prominence_db": 4.3,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 6.6,
+     "offset_ms": -24.0,
+     "status": "OK",
+     "event_t": 6.576,
+     "event_prominence_db": 3.4,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 6.833,
+     "offset_ms": 36.0,
+     "status": "near",
+     "event_t": 6.869,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 7.433,
+     "offset_ms": 35.0,
+     "status": "near",
+     "event_t": 7.468,
+     "event_prominence_db": 11.6,
+     "event": "punchy impact hit",
+     "accent_offset_ms": 35.0
+    },
+    {
+     "t": 7.667,
+     "offset_ms": -11.0,
+     "status": "OK",
+     "event_t": 7.656,
+     "event_prominence_db": 1.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 7.833,
+     "offset_ms": 35.0,
+     "status": "near",
+     "event_t": 7.868,
+     "event_prominence_db": 0.7,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 8.2,
+     "offset_ms": -46.0,
+     "status": "near",
+     "event_t": 8.154,
+     "event_prominence_db": 0.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 10.033,
+     "offset_ms": 52.0,
+     "status": "near",
+     "event_t": 10.085,
+     "event_prominence_db": 10.6,
+     "event": "speech (AST 0.58)",
+     "accent_offset_ms": 52.0
+    },
+    {
+     "t": 11.0,
+     "offset_ms": -10.0,
+     "status": "peak",
+     "event_t": 10.99,
+     "event_prominence_db": 14.4,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 11.167,
+     "offset_ms": -49.0,
+     "status": "near",
+     "event_t": 11.118,
+     "event_prominence_db": 12.4,
+     "event": "sub bass drop",
+     "accent_offset_ms": -49.0
+    },
+    {
+     "t": 11.333,
+     "offset_ms": -45.0,
+     "status": "near",
+     "event_t": 11.288,
+     "event_prominence_db": 3.2,
+     "event": "kick drum",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 11.5,
+     "offset_ms": -45.0,
+     "status": "near",
+     "event_t": 11.455,
+     "event_prominence_db": 1.1,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 11.833,
+     "offset_ms": -6.0,
+     "status": "OK",
+     "event_t": 11.827,
+     "event_prominence_db": 0.4,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 12.0,
+     "offset_ms": -20.0,
+     "status": "OK",
+     "event_t": 11.98,
+     "event_prominence_db": 0.5,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 12.167,
+     "offset_ms": 83.0,
+     "status": "near",
+     "event_t": 12.25,
+     "event_prominence_db": 11.8,
+     "event": "punchy impact hit",
+     "accent_offset_ms": 83.0
+    },
+    {
+     "t": 12.333,
+     "offset_ms": -83.0,
+     "status": "near",
+     "event_t": 12.25,
+     "event_prominence_db": 11.8,
+     "event": "punchy impact hit",
+     "accent_offset_ms": -83.0
+    },
+    {
+     "t": 12.767,
+     "offset_ms": -88.0,
+     "status": "near",
+     "event_t": 12.679,
+     "event_prominence_db": 2.8,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 12.933,
+     "offset_ms": 64.0,
+     "status": "near",
+     "event_t": 12.997,
+     "event_prominence_db": 3.7,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 13.233,
+     "offset_ms": -3.0,
+     "status": "OK",
+     "event_t": 13.23,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 15.3,
+     "offset_ms": 98.0,
+     "status": "near",
+     "event_t": 15.398,
+     "event_prominence_db": 8.7,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": 98.0
+    },
+    {
+     "t": 17.833,
+     "offset_ms": 87.0,
+     "status": "near",
+     "event_t": 17.92,
+     "event_prominence_db": 2.9,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 18.8,
+     "offset_ms": -20.0,
+     "status": "OK",
+     "event_t": 18.78,
+     "event_prominence_db": 0.0,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 20.2,
+     "offset_ms": 9.0,
+     "status": "OK",
+     "event_t": 20.209,
+     "event_prominence_db": 14.1,
+     "event": "sub bass drop",
+     "accent_offset_ms": 9.0
+    },
+    {
+     "t": 20.367,
+     "offset_ms": 27.0,
+     "status": "OK",
+     "event_t": 20.394,
+     "event_prominence_db": 13.1,
+     "event": "sub bass drop",
+     "accent_offset_ms": 27.0
+    },
+    {
+     "t": 21.033,
+     "offset_ms": null,
+     "status": "no sound",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 21.967,
+     "offset_ms": 12.0,
+     "status": "OK",
+     "event_t": 21.979,
+     "event_prominence_db": 1.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 22.133,
+     "offset_ms": -64.0,
+     "status": "near",
+     "event_t": 22.069,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 22.3,
+     "offset_ms": 91.0,
+     "status": "near",
+     "event_t": 22.391,
+     "event_prominence_db": 5.2,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 22.533,
+     "offset_ms": 44.0,
+     "status": "near",
+     "event_t": 22.577,
+     "event_prominence_db": 2.3,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 22.7,
+     "offset_ms": -46.0,
+     "status": "near",
+     "event_t": 22.654,
+     "event_prominence_db": 0.5,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.033,
+     "offset_ms": 90.0,
+     "status": "near",
+     "event_t": 23.123,
+     "event_prominence_db": 0.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.2,
+     "offset_ms": -46.0,
+     "status": "near",
+     "event_t": 23.154,
+     "event_prominence_db": 3.3,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.367,
+     "offset_ms": 21.0,
+     "status": "OK",
+     "event_t": 23.388,
+     "event_prominence_db": 3.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.533,
+     "offset_ms": -45.0,
+     "status": "near",
+     "event_t": 23.488,
+     "event_prominence_db": 4.3,
+     "event": "orchestral stab",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.7,
+     "offset_ms": -40.0,
+     "status": "near",
+     "event_t": 23.66,
+     "event_prominence_db": 4.5,
+     "event": "chat message pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.867,
+     "offset_ms": -31.0,
+     "status": "OK",
+     "event_t": 23.836,
+     "event_prominence_db": 1.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 24.033,
+     "offset_ms": 95.0,
+     "status": "near",
+     "event_t": 24.128,
+     "event_prominence_db": 7.6,
+     "event": "bubble pop",
+     "accent_offset_ms": 95.0
+    },
+    {
+     "t": 24.2,
+     "offset_ms": 21.0,
+     "status": "OK",
+     "event_t": 24.221,
+     "event_prominence_db": 0.6,
+     "accent_offset_ms": -72.0
+    },
+    {
+     "t": 24.367,
+     "offset_ms": 39.0,
+     "status": "near",
+     "event_t": 24.406,
+     "event_prominence_db": 7.1,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 24.533,
+     "offset_ms": -13.0,
+     "status": "OK",
+     "event_t": 24.52,
+     "event_prominence_db": 3.8,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 24.9,
+     "offset_ms": -130.0,
+     "status": "peak",
+     "event_t": 24.77,
+     "event_prominence_db": 24.1,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 29.0,
+     "offset_ms": 94.0,
+     "status": "near",
+     "event_t": 29.094,
+     "event_prominence_db": 5.1,
+     "event": "spoken word",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 29.167,
+     "offset_ms": -73.0,
+     "status": "near",
+     "event_t": 29.094,
+     "event_prominence_db": 5.1,
+     "event": "spoken word",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 29.333,
+     "offset_ms": -91.0,
+     "status": "near",
+     "event_t": 29.242,
+     "event_prominence_db": 4.5,
+     "event": "punchy impact hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 30.1,
+     "offset_ms": 71.0,
+     "status": "near",
+     "event_t": 30.171,
+     "event_prominence_db": 7.2,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": 71.0
+    },
+    {
+     "t": 31.167,
+     "offset_ms": 51.0,
+     "status": "near",
+     "event_t": 31.218,
+     "event_prominence_db": 13.2,
+     "event": "sub bass drop",
+     "accent_offset_ms": 51.0
+    },
+    {
+     "t": 32.633,
+     "offset_ms": -57.0,
+     "status": "near",
+     "event_t": 32.576,
+     "event_prominence_db": 0.3,
+     "event": "spoken word",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 34.533,
+     "offset_ms": -69.0,
+     "status": "near",
+     "event_t": 34.464,
+     "event_prominence_db": 3.6,
+     "event": "chat message pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 36.033,
+     "offset_ms": 3.0,
+     "status": "OK",
+     "event_t": 36.036,
+     "event_prominence_db": 8.5,
+     "event": "spoken word",
+     "accent_offset_ms": 3.0
+    },
+    {
+     "t": 38.467,
+     "offset_ms": -1.0,
+     "status": "OK",
+     "event_t": 38.466,
+     "event_prominence_db": 6.5,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 39.167,
+     "offset_ms": 158.0,
+     "status": "off",
+     "event_t": 39.325,
+     "event_prominence_db": 11.9,
+     "event": "spoken word",
+     "accent_offset_ms": null
+    }
+   ],
+   "stats": {
+    "n": 59,
+    "hit_within_1_frame": 0.322,
+    "hit_within_100ms": 0.915,
+    "median_abs_offset_ms": 45.5,
+    "answered_by_swell": 0,
+    "answered_by_level_peak": 3,
+    "no_sound": [
+     21.033,
+     39.167
+    ],
+    "frame_ms": 33.3,
+    "chance_within_1_frame": 0.429,
+    "chance_within_100ms": 0.871,
+    "accent_min_db": 7.2,
+    "accent_within_1_frame": 0.051,
+    "accent_chance_within_1_frame": 0.089,
+    "accent_within_100ms": 0.271,
+    "accent_chance_within_100ms": 0.222
+   }
+  }
+ },
+ "cuts": [
+  2.933,
+  3.767,
+  3.933,
+  4.1,
+  4.433,
+  4.6,
+  4.767,
+  5.2,
+  6.167,
+  6.6,
+  6.833,
+  7.433,
+  7.667,
+  7.833,
+  8.2,
+  10.033,
+  11.0,
+  11.167,
+  11.333,
+  11.5,
+  11.833,
+  12.0,
+  12.167,
+  12.333,
+  12.767,
+  12.933,
+  13.233,
+  15.3,
+  17.833,
+  18.8,
+  20.2,
+  20.367,
+  21.033,
+  21.967,
+  22.133,
+  22.3,
+  22.533,
+  22.7,
+  23.033,
+  23.2,
+  23.367,
+  23.533,
+  23.7,
+  23.867,
+  24.033,
+  24.2,
+  24.367,
+  24.533,
+  24.9,
+  29.0,
+  29.167,
+  29.333,
+  30.1,
+  31.167,
+  32.633,
+  34.533,
+  36.033,
+  38.467,
+  39.167
+ ],
+ "cut_method": "frame difference (earshot.video.cuts)",
+ "fps": 30.0,
+ "model_calls": {
+  "clap_event_windows": 96,
+  "ast_event_windows": 16,
+  "clap_section_windows": 26,
+  "ast_section_windows": 5
+ },
+ "timing_s": {
+  "decode_s": 0.08,
+  "loudness_s": 0.36,
+  "events_s": 0.24,
+  "beats_s": 0.1,
+  "cuts_s": 0.31,
+  "tag_events_s": 9.56,
+  "sections_s": 2.69,
+  "total_s": 13.36
+ },
+ "detail": "high",
+ "summary": "r23.mp4: 0:00.00-0:40.85 (40.9 s). Loudness -14.6 LUFS integrated, true peak -0.4 dBTP, LRA 6.2 LU; loudest 0:20.00-0:23.00 (-10.9 LUFS short-term). True peak -0.4 dBTP on decoded lossy audio (codec overshoot included: fine for a delivered file; a master should be <= -1 dBTP before encoding). No steady beat grid (pulse clarity 0.06 < 0.15). 4 section(s): 0:00.00-0:05.70 glitch hop music, vocal chop | voice: voice-over narration; 0:05.70-0:12.50 glitch hop music, vocal chop, confident and cool | also: single-lens reflex camera (AST) | voice: voice-over narration; 0:12.50-0:36.15 techno music, vocal chop, confident and cool | voice: voice-over narration; 0:36.15-0:40.85 inspirational corporate background music, confident and cool | voice: voice-over narration. 277 events (6.8/s); 96 tagged (28 whoosh, 22 voice, 12 hit, 11 ui, 9 note, 6 foley, 4 drum, 3 step, 1 key; tags are hints). Strongest accents over a running bed: 0:02.99 +31 dB (speech (AST 0.61)), 0:40.68 +25 dB (sub bass drop), 0:25.55 +24 dB (whip pan whoosh transition). Sync to 59 cuts: 32% have an onset within 1 frame (chance 43%), 92% within 100 ms, median |offset| 46 ms; 5% land on a strong accent (>= 7 dB over the bed) within 1 frame (chance 9%); 3 only by a level peak (soft whoosh / swell?); 2 without a hit: 0:21.03, 0:39.17.",
+ "text": "r23.mp4: 0:00.00-0:40.85 (40.9 s). Loudness -14.6 LUFS integrated, true peak -0.4 dBTP, LRA 6.2 LU; loudest 0:20.00-0:23.00 (-10.9 LUFS short-term). True peak -0.4 dBTP on decoded lossy audio (codec overshoot included: fine for a delivered file; a master should be <= -1 dBTP before encoding). No steady beat grid (pulse clarity 0.06 < 0.15). 4 section(s): 0:00.00-0:05.70 glitch hop music, vocal chop | voice: voice-over narration; 0:05.70-0:12.50 glitch hop music, vocal chop, confident and cool | also: single-lens reflex camera (AST) | voice: voice-over narration; 0:12.50-0:36.15 techno music, vocal chop, confident and cool | voice: voice-over narration; 0:36.15-0:40.85 inspirational corporate background music, confident and cool | voice: voice-over narration. 277 events (6.8/s); 96 tagged (28 whoosh, 22 voice, 12 hit, 11 ui, 9 note, 6 foley, 4 drum, 3 step, 1 key; tags are hints). Strongest accents over a running bed: 0:02.99 +31 dB (speech (AST 0.61)), 0:40.68 +25 dB (sub bass drop), 0:25.55 +24 dB (whip pan whoosh transition). Sync to 59 cuts: 32% have an onset within 1 frame (chance 43%), 92% within 100 ms, median |offset| 46 ms; 5% land on a strong accent (>= 7 dB over the bed) within 1 frame (chance 9%); 3 only by a level peak (soft whoosh / swell?); 2 without a hit: 0:21.03, 0:39.17.\n\nSECTIONS\n  0:00.00-0:05.70  glitch hop music, vocal chop | voice: voice-over narration  -16 LUFS  [AST music 0.67, speech 0.72]\n  0:05.70-0:12.50  glitch hop music, vocal chop, confident and cool | also: single-lens reflex camera (AST) | voice: voice-over narration  -12 LUFS  [AST music 0.63, speech 0.54]\n  0:12.50-0:36.15  techno music, vocal chop, confident and cool | voice: voice-over narration  -15 LUFS  [AST music 0.79, speech 0.71]\n  0:36.15-0:40.85  inspirational corporate background music, confident and cool | voice: voice-over narration  -17 LUFS  [AST music 0.68, speech 0.49]\n\nTRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync\n== 0:00.00-0:05.70  glitch hop music, vocal chop | voice: voice-over narration  (+23 untagged onsets, 4.0/s)\n 0:00.03  HIT    sub bass drop / notification ding                -0.9 dBFS   silent  2000 ms    58 Hz\n 0:00.16  HIT?   punchy impact hit / kick drum                    -0.9 dBFS  +1.0 dB   405 ms   104 Hz\n 0:00.76  UI?    chat message pop / whip pan whoosh transition    -5.1 dBFS  +4.5 dB    46 ms   723 Hz\n 0:01.12  WHOOSH? whip pan whoosh transition / soft UI button ta   -6.8 dBFS  +4.1 dB     3 ms   521 Hz\n 0:01.39  UI?    chat message pop / whip pan whoosh transition    -8.9 dBFS  +6.6 dB    89 ms   536 Hz\n 0:01.54  VOICE? spoken word / chat message pop                   -9.8 dBFS  +3.0 dB   202 ms   432 Hz\n 0:02.04  WHOOSH? whip pan whoosh transition / chat message pop    -7.0 dBFS  +8.1 dB   136 ms  2.4 kHz\n 0:02.99  VOICE  speech (AST 0.61) / chat message pop             -3.8 dBFS +30.9 dB   100 ms   835 Hz  [AST Speech 0.61]  | cut +57 ms near; strong accent (summary)\n 0:03.04  VOICE? spoken word / whip pan whoosh transition         -3.8 dBFS  +9.2 dB  2000 ms   338 Hz\n 0:03.72  WHOOSH? whip pan whoosh transition                       -6.2 dBFS  +5.4 dB    38 ms  5.6 kHz  | cut -49 ms near\n 0:03.93  CUT     no onset; level peak +127 ms, rising 8 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:04.17  -      high onset                                       -5.2 dBFS  +2.7 dB   158 ms   840 Hz  | cut +74 ms near\n 0:04.37  -      low onset                                       -11.4 dBFS  +2.2 dB    62 ms  1.7 kHz  | cut -63 ms near\n 0:04.61  -      low onset                                        -9.4 dBFS  +0.0 dB    58 ms   334 Hz  | cut +12 ms OK\n 0:04.74  -      high onset                                      -13.1 dBFS  +0.0 dB    56 ms  1.4 kHz  | cut -29 ms OK\n 0:04.83  WHOOSH? whip pan whoosh transition / bubble pop          -4.9 dBFS  +8.6 dB     4 ms   736 Hz  [AST Speech 0.40]\n 0:04.86  WHOOSH? whip pan whoosh transition / uplifter sweep      -4.9 dBFS  +9.4 dB   440 ms   514 Hz  [AST Speech 0.37]\n 0:05.12  WHOOSH? whip pan whoosh transition / breath              -8.0 dBFS  +9.0 dB   450 ms   961 Hz  [AST Speech 0.36]\n 0:05.17  -      high onset                                       -8.5 dBFS  +4.3 dB   123 ms   506 Hz  | cut -29 ms OK\n 0:05.63  VOICE  spoken word / uplifter sweep                     -5.9 dBFS +19.9 dB   470 ms   880 Hz\n== 0:05.70-0:12.50  glitch hop music, vocal chop, confident and cool | also: single-lens reflex camera (AST) | voice: voice-over narration  (+26 untagged onsets, 3.8/s)\n 0:06.00  WHOOSH? whip pan whoosh transition                       -1.1 dBFS  +6.6 dB   795 ms   119 Hz\n 0:06.19  WHOOSH? whip pan whoosh transition / chat message pop    -0.9 dBFS  +4.3 dB   184 ms    86 Hz  | cut +21 ms OK\n 0:06.58  -      high onset                                       -0.9 dBFS  +3.4 dB   332 ms   791 Hz  | cut -24 ms OK\n 0:06.79  WHOOSH? whip pan whoosh transition / footsteps on gras   -3.2 dBFS  +0.2 dB    49 ms   860 Hz\n 0:06.87  -      high onset                                       -8.0 dBFS  +0.0 dB    38 ms   201 Hz  | cut +36 ms near\n 0:07.36  VOICE  speech (AST 0.51) / sub bass drop                -1.0 dBFS +10.8 dB  2000 ms   144 Hz  [AST Speech 0.51]\n 0:07.47  HIT?   punchy impact hit / chat message pop             -1.1 dBFS +11.6 dB    68 ms    63 Hz  [AST Speech 0.20]  | cut +35 ms near\n 0:07.66  -      high onset                                       -1.0 dBFS  +1.2 dB   835 ms   140 Hz  | cut -11 ms OK\n 0:07.87  -      high onset                                       -1.0 dBFS  +0.7 dB   134 ms   282 Hz  | cut +35 ms near\n 0:08.15  -      high onset                                       -5.6 dBFS  +0.2 dB    33 ms   103 Hz  | cut -46 ms near\n 0:08.26  DRUM?  snare drum hit / spoken word                     -2.2 dBFS  +2.0 dB    39 ms   300 Hz\n 0:08.77  UI?    chat message pop / punchy impact hit             -5.4 dBFS  +1.6 dB    18 ms    82 Hz\n 0:09.00  DRUM?  kick drum / sub bass drop                        -2.0 dBFS  +4.2 dB    96 ms   362 Hz\n 0:09.54  VOICE? short vocal sound / chat message pop             -6.9 dBFS  +0.7 dB    21 ms   121 Hz\n 0:10.09  VOICE  speech (AST 0.58) / sub bass drop                -1.2 dBFS +10.6 dB  2000 ms   660 Hz  [AST Speech 0.58]  | cut +52 ms near\n 0:10.77  UI?    chat message pop / spoken word                   -7.2 dBFS  +2.6 dB    24 ms   913 Hz\n 0:11.00  CUT     no onset; level peak -10 ms, rising 14 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:11.12  HIT    sub bass drop / kick drum                        -1.0 dBFS +12.4 dB  2000 ms    62 Hz  [AST Speech 0.42]  | cut -49 ms near\n 0:11.23  HIT?   sub bass drop / spoken word                      -1.0 dBFS  +7.0 dB  1487 ms   137 Hz\n 0:11.29  DRUM?  kick drum / sub bass drop                        -1.0 dBFS  +3.2 dB   186 ms   145 Hz  | cut -45 ms near\n 0:11.46  -      high onset                                       -1.1 dBFS  +1.1 dB    14 ms    89 Hz  | cut -45 ms near\n 0:11.83  -      high onset                                       -1.1 dBFS  +0.4 dB    86 ms    59 Hz  | cut -6 ms OK\n 0:11.98  -      high onset                                       -1.0 dBFS  +0.5 dB   395 ms    79 Hz  | cut -20 ms OK\n 0:12.25  HIT?   punchy impact hit / spoken word                  -1.2 dBFS +11.8 dB   260 ms    57 Hz  [AST Speech 0.35]  | cut +83 ms near; cut -83 ms near\n== 0:12.50-0:36.15  techno music, vocal chop, confident and cool | voice: voice-over narration  (+93 untagged onsets, 3.9/s)\n 0:12.68  -      high onset                                       -3.9 dBFS  +2.8 dB   203 ms   522 Hz  | cut -88 ms near\n 0:13.00  WHOOSH? whip pan whoosh transition / plucked string no   -3.0 dBFS  +3.7 dB   256 ms   813 Hz  | cut +64 ms near\n 0:13.23  -      high onset                                      -10.1 dBFS  +0.0 dB    19 ms   397 Hz  | cut -3 ms OK\n 0:13.52  UI?    chat message pop / spoken word                   -3.8 dBFS  +8.4 dB   322 ms   813 Hz\n 0:13.72  UI?    chat message pop / whip pan whoosh transition    -6.0 dBFS  +3.3 dB    40 ms   445 Hz\n 0:14.69  WHOOSH whip pan whoosh transition / chat message pop    -7.3 dBFS   silent    70 ms   726 Hz\n 0:14.87  VOICE? spoken word / chat message pop                   -5.0 dBFS  +2.0 dB  1493 ms   801 Hz\n 0:15.40  WHOOSH? whip pan whoosh transition / bubble pop          -4.9 dBFS  +8.7 dB   306 ms   284 Hz  [AST Speech 0.32]  | cut +98 ms near\n 0:15.81  VOICE? spoken word / footsteps on grass                 -0.5 dBFS  +6.7 dB   474 ms   199 Hz\n 0:16.01  STEP?  footsteps on grass / punchy impact hit           -0.5 dBFS  +4.7 dB    21 ms   305 Hz\n 0:16.87  WHOOSH? whip pan whoosh transition / spoken word         -3.9 dBFS  +4.6 dB   234 ms   480 Hz\n 0:17.21  VOICE? spoken word / chat message pop                   -5.1 dBFS  +3.9 dB   658 ms   422 Hz\n 0:17.92  WHOOSH? whip pan whoosh transition / plucked string no   -8.6 dBFS  +2.9 dB   173 ms   321 Hz  | cut +87 ms near\n 0:18.25  WHOOSH? whip pan whoosh transition / spoken word         -3.8 dBFS  +5.7 dB   833 ms   559 Hz\n 0:18.78  WHOOSH? whip pan whoosh transition / bubble pop         -11.2 dBFS  +0.0 dB     2 ms   363 Hz  | cut -20 ms OK\n 0:18.87  WHOOSH? whip pan whoosh transition / bubble pop          -5.4 dBFS  +6.9 dB    48 ms   479 Hz\n 0:19.54  VOICE? spoken word / whip pan whoosh transition         -6.7 dBFS  +6.1 dB   182 ms   481 Hz\n 0:19.60  UI?    chat message pop / short vocal sound             -6.7 dBFS  +6.2 dB   100 ms   873 Hz\n 0:20.21  HIT    sub bass drop / kick drum                        -0.6 dBFS +14.1 dB   266 ms   423 Hz  [AST Speech 0.45]  | cut +9 ms OK\n 0:20.27  VOICE  spoken word / chat message pop                   -0.6 dBFS +14.4 dB  2000 ms   462 Hz  [AST Speech 0.51]\n 0:20.39  HIT    sub bass drop / spoken word                      -0.9 dBFS +13.1 dB  2000 ms    77 Hz  | cut +27 ms OK\n 0:20.74  NOTE?  plucked string note / spoken word                -1.1 dBFS  +1.1 dB   628 ms   331 Hz\n 0:21.03  CUT     no onset or level peak within 250 ms  <- NO HIT\n 0:21.23  DRUM?  kick drum / chat message pop                     -2.9 dBFS  +0.0 dB    26 ms    84 Hz\n 0:21.33  STEP?  footsteps on wood / soft UI button tap           -4.5 dBFS  +0.0 dB     9 ms    53 Hz\n 0:21.86  VOICE? spoken word / kick drum                          -4.1 dBFS  +1.3 dB    25 ms    66 Hz\n 0:21.98  -      high onset                                       -2.0 dBFS  +1.2 dB   261 ms   114 Hz  | cut +12 ms OK\n 0:22.07  -      high onset                                       -2.0 dBFS  +0.0 dB   169 ms   113 Hz  | cut -64 ms near\n 0:22.39  WHOOSH? whip pan whoosh transition / spoken word         -1.1 dBFS  +5.2 dB    45 ms   746 Hz  | cut +91 ms near\n 0:22.58  -      high onset                                       -4.6 dBFS  +2.3 dB    87 ms   101 Hz  | cut +44 ms near\n 0:22.65  -      high onset                                       -5.4 dBFS  +0.5 dB     9 ms   111 Hz  | cut -46 ms near\n 0:23.12  -      high onset                                      -10.5 dBFS  +0.0 dB    44 ms   414 Hz  | cut +90 ms near\n 0:23.15  -      high onset                                       -8.9 dBFS  +3.3 dB    12 ms   334 Hz  | cut -46 ms near\n 0:23.39  -      high onset                                       -6.3 dBFS  +3.0 dB    18 ms   521 Hz  | cut +21 ms OK\n 0:23.49  NOTE?  orchestral stab / whip pan whoosh transition     -7.1 dBFS  +4.3 dB   454 ms   541 Hz  | cut -45 ms near\n 0:23.66  UI?    chat message pop / whip pan whoosh transition    -9.9 dBFS  +4.5 dB   218 ms   470 Hz  | cut -40 ms near\n 0:23.84  -      high onset                                      -12.2 dBFS  +1.2 dB    41 ms   949 Hz  | cut -31 ms OK\n 0:24.13  FOLEY? bubble pop / whip pan whoosh transition          -6.1 dBFS  +7.6 dB    95 ms   472 Hz  [AST Oink 0.38]  | cut +95 ms near\n 0:24.22  -      high onset                                      -13.9 dBFS  +0.6 dB    12 ms   814 Hz  | cut +21 ms OK\n 0:24.41  FOLEY? bubble pop / whip pan whoosh transition          -7.2 dBFS  +7.1 dB   241 ms   466 Hz  | cut +39 ms near\n 0:24.52  -      high onset                                      -13.9 dBFS  +3.8 dB    18 ms   716 Hz  | cut -13 ms OK\n 0:24.72  WHOOSH whip pan whoosh transition / chat message pop    -3.3 dBFS +13.1 dB  1067 ms   704 Hz\n 0:24.90  CUT     no onset; level peak -130 ms, rising 24 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:25.33  WHOOSH? whip pan whoosh transition / uplifter sweep      -7.2 dBFS  +6.2 dB    61 ms   401 Hz\n 0:25.55  WHOOSH whip pan whoosh transition / bubble pop          -8.7 dBFS +24.1 dB   100 ms   999 Hz  | strong accent (summary)\n 0:26.13  FOLEY? bubble pop / snare drum hit                      -8.0 dBFS  +5.6 dB   186 ms   490 Hz\n 0:26.79  STEP?  footsteps on wood / breath                       -6.5 dBFS  +4.3 dB    67 ms   407 Hz\n 0:27.64  NOTE?  plucked string note / chat message pop           -7.1 dBFS  +6.2 dB    32 ms  1.1 kHz\n 0:27.75  NOTE?  plucked string note / chat message pop           -4.6 dBFS  +6.1 dB   539 ms   578 Hz\n 0:28.52  WHOOSH? whip pan whoosh transition / orchestral stab     -6.4 dBFS  +5.8 dB    13 ms   387 Hz\n 0:29.09  VOICE? spoken word / chat message pop                   -0.9 dBFS  +5.1 dB   398 ms   139 Hz  | cut +94 ms near; cut -73 ms near\n 0:29.24  HIT?   punchy impact hit / chat message pop             -0.9 dBFS  +4.5 dB    93 ms   545 Hz  | cut -91 ms near\n 0:30.00  VOICE? breath / hi-hat                                  -7.6 dBFS  +1.4 dB    57 ms  1.6 kHz\n 0:30.17  WHOOSH? whip pan whoosh transition / sub bass drop       -2.2 dBFS  +7.2 dB   893 ms   185 Hz  | cut +71 ms near\n 0:30.86  NOTE?  plucked string note / sub bass drop              -5.8 dBFS  +2.4 dB    63 ms   482 Hz\n 0:31.22  HIT    sub bass drop / kick drum                        -1.0 dBFS +13.2 dB   784 ms    63 Hz  [AST Speech 0.37]  | cut +51 ms near\n 0:31.43  WHOOSH? whip pan whoosh transition                       -1.0 dBFS  +0.0 dB     4 ms    91 Hz\n 0:31.63  HIT?   sub bass drop / whip pan whoosh transition       -6.6 dBFS  +0.0 dB   572 ms   373 Hz\n 0:32.18  NOTE?  plucked string note / whip pan whoosh transiti  -12.5 dBFS  +0.3 dB    24 ms  1.8 kHz\n 0:32.58  VOICE? spoken word / piano note                        -14.9 dBFS  +0.3 dB    93 ms   224 Hz  | cut -57 ms near\n 0:32.74  NOTE?  plucked string note / short vocal sound          -4.7 dBFS +11.7 dB   256 ms   900 Hz\n 0:33.31  WHOOSH? whip pan whoosh transition / bubble pop          -4.0 dBFS  +9.1 dB    74 ms  1.1 kHz\n 0:33.61  FOLEY? bubble pop / chat message pop                   -15.7 dBFS  +5.2 dB     3 ms   510 Hz\n 0:34.06  NOTE?  orchestral stab / cork pop                       -4.7 dBFS  +7.3 dB    16 ms   902 Hz\n 0:34.46  UI?    chat message pop / spoken word                   -9.4 dBFS  +3.6 dB  1344 ms   370 Hz  | cut -69 ms near\n 0:34.85  WHOOSH? whip pan whoosh transition / chat message pop    -6.2 dBFS +11.8 dB   213 ms   843 Hz\n 0:35.17  NOTE?  plucked string note / short vocal sound          -8.9 dBFS  +4.5 dB   381 ms   500 Hz\n 0:35.55  FOLEY? bubble pop / snare drum hit                     -12.6 dBFS  +2.1 dB    85 ms  7.1 kHz\n 0:36.04  VOICE? spoken word / chat message pop                   -4.6 dBFS  +8.5 dB  2000 ms   871 Hz  [AST Speech 0.51]  | cut +3 ms OK\n 0:36.10  VOICE  speech (AST 0.51) / whip pan whoosh transition   -4.6 dBFS  +9.9 dB   552 ms   454 Hz  [AST Speech 0.51]\n== 0:36.15-0:40.85  inspirational corporate background music, confident and cool | voice: voice-over narration  (+14 untagged onsets, 3.0/s)\n 0:36.83  FOLEY? water drop / spoken word                         -3.9 dBFS  +9.2 dB   103 ms   497 Hz\n 0:37.24  UI?    chat message pop / spoken word                   -5.0 dBFS +11.3 dB    58 ms   995 Hz\n 0:37.80  VOICE? spoken word / whip pan whoosh transition         -3.5 dBFS  +4.2 dB   373 ms   383 Hz\n 0:38.47  WHOOSH? whip pan whoosh transition / plucked string no   -1.0 dBFS  +6.5 dB    79 ms   267 Hz  | cut -1 ms OK\n 0:39.17  CUT     no onset within 100 ms (strong sound at +158 ms)  <- NO HIT\n 0:39.33  VOICE? spoken word / whip pan whoosh transition         -3.5 dBFS +11.9 dB   206 ms  1.0 kHz\n 0:39.71  VOICE? spoken word / whip pan whoosh transition         -5.8 dBFS  +8.1 dB   165 ms   503 Hz\n 0:40.06  VOICE? spoken word / whip pan whoosh transition         -9.9 dBFS  +5.3 dB    91 ms   513 Hz\n 0:40.24  WHOOSH? whip pan whoosh transition / chat message pop   -13.2 dBFS  +0.4 dB    59 ms   429 Hz\n 0:40.60  UI?    chat message pop / orchestral stab               -3.6 dBFS  +8.5 dB   134 ms  1.7 kHz\n 0:40.68  HIT    sub bass drop / chat message pop                 -9.2 dBFS +25.1 dB    50 ms  4.1 kHz  | strong accent (summary)\n 0:40.81  KEY?   spacebar press / chat message pop               -18.6 dBFS  +0.0 dB     3 ms   327 Hz\n\nNOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.",
+ "cached": false
+}

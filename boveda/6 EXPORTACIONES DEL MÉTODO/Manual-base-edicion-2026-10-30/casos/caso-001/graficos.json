@@ -1,0 +1,60 @@
+{
+ "nota": "Imágenes de comparativa: lo 'malo' (vulgar) arriba a la derecha y lo 'bueno' (elegante) arriba a la izquierda. Las palabras que las disparan se ven en el vídeo (p. ej. 'vulgaridad' 0,0 s, 'elegancia' 1,5 s).",
+ "elementos": [
+  {
+   "inicio_s": 0,
+   "fin_s": 21.867,
+   "archivo": "Degradado a negro subtítulos.png"
+  },
+  {
+   "inicio_s": 0,
+   "fin_s": 2.967,
+   "archivo": "arrow_001207_211026.png"
+  },
+  {
+   "inicio_s": 1.467,
+   "fin_s": 2.967,
+   "archivo": "arrow_230014_181026.png"
+  },
+  {
+   "inicio_s": 4.033,
+   "fin_s": 10,
+   "archivo": "arrow_230204_181026.png"
+  },
+  {
+   "inicio_s": 4.033,
+   "fin_s": 10,
+   "archivo": "Historia IG overlay.mov"
+  },
+  {
+   "inicio_s": 7.133,
+   "fin_s": 10,
+   "archivo": "arrow_230257_181026.png"
+  },
+  {
+   "inicio_s": 10,
+   "fin_s": 15.833,
+   "archivo": "arrow_230345_181026.png"
+  },
+  {
+   "inicio_s": 12.733,
+   "fin_s": 15.833,
+   "archivo": "arrow_230436_181026.png"
+  },
+  {
+   "inicio_s": 15.833,
+   "fin_s": 21.867,
+   "archivo": "arrow_230629_181026.png"
+  },
+  {
+   "inicio_s": 19.233,
+   "fin_s": 21.867,
+   "archivo": "arrow_230708_181026.png"
+  },
+  {
+   "inicio_s": 31.8,
+   "fin_s": 34.233,
+   "archivo": "CTA seguir aminbusinesss.mov"
+  }
+ ]
+}

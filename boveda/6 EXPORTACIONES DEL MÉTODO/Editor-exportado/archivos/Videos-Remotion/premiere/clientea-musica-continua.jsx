@@ -1,0 +1,12 @@
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { hecho: [], errores: [], est: [] }, i, t, T = 254016000000, S = "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/";
+  if (app.project.name !== "CLIENTE-A EDICION.prproj" || seq.name.indexOf("SONIDO v2") < 0) return "proyecto o secuencia inesperados";
+  function seg(s) { var x = new Time(); x.seconds = s; return x; }
+  var m1 = null, m2 = null; for (t = 0; t < seq.audioTracks.numTracks; t++) { var ta = seq.audioTracks[t]; for (i = 0; i < ta.clips.numItems; i++) { var c = ta.clips[i]; if (!/^musica CLIENTE-A_1010_01 larga/.test(c.name)) continue; if (Math.abs(c.start.seconds - 65.9) < 0.05) m1 = c; else if (c.start.seconds > 68 && c.start.seconds < 70) m2 = c; } }
+  if (!m1 || !m2) return "no encuentro los dos trozos de musica";
+  var d1 = m1.end.seconds - m1.start.seconds, in2 = m2.inPoint.seconds, e1 = m1.end.seconds;
+  if (Math.abs(m1.outPoint.seconds - in2) > 0.02) { m1.outPoint = seg(in2); m1.inPoint = seg(in2 - d1); if (Math.abs(m1.end.seconds - e1) > 0.01) m1.end = seg(e1); r.hecho.push("trozo 1 continuo con el 2"); }
+  function fundido(c, lista) { var V = c.components[0].properties[1], x; if (V.isTimeVarying()) V.setTimeVarying(false); var v = V.getValue(); V.setTimeVarying(true); for (x = 0; x < lista.length; x++) { var tt = seg(c.inPoint.seconds + lista[x][0]); V.addKey(tt); V.setValueAtKey(tt, v * lista[x][1], true); } return v; }
+  try { fundido(m1, [[0, 0.0], [0.5, 1]]); var d2 = m2.end.seconds - m2.start.seconds; fundido(m2, [[0, 1], [d2 - 2.5, 1], [d2, 0.0]]); r.hecho.push("fundidos puestos"); } catch (e) { r.errores.push("fundidos: " + e); }
+  var L = [m1, m2]; for (i = 0; i < 2; i++) { var V2 = L[i].components[0].properties[1], ks = V2.isTimeVarying() ? V2.getKeys() : [], q = []; for (t = 0; t < ks.length; t++) q.push([+(ks[t].seconds - L[i].inPoint.seconds).toFixed(2), V2.getValueAtKey(ks[t])]); r.est.push([+L[i].start.seconds.toFixed(3), +L[i].end.seconds.toFixed(3), +L[i].inPoint.seconds.toFixed(3), +L[i].outPoint.seconds.toFixed(3), q]); }
+  var q2 = qe.project.getActiveSequence(), ts = [67.5, 69.3, 72.0, 75.2, 77.6, 80.5, 84.5, 88.0, 91.0, 92.3, 95.0, 96.5]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q2.exportFramePNG(q2.CTI.timecode, S + "ac-" + (i < 10 ? "0" : "") + i); }
+  return JSON.stringify(r); })();

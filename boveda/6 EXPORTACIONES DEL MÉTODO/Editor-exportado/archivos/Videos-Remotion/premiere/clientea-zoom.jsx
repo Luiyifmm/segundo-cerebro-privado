@@ -1,0 +1,3 @@
+(function () { var seq = app.project.activeSequence, v1 = seq.videoTracks[0], r = [], i, k, Z = [100, 112, 100, 112, 100, 118, 100, 112, 100, 112, 100, 125, 112, 100, 118, 100], FX = 0.475, FY = 0.435, n = 0;
+  for (i = 0; i < v1.clips.numItems; i++) { var c = v1.clips[i]; if (c.start.seconds < 65.9) continue; for (k = 0; k < c.components.numItems; k++) if (c.components[k].matchName === "AE.ADBE Motion") { var pm = c.components[k].properties, antes = pm[1].getValue(), s = Z[n] / 100; pm[1].setValue(Z[n], true); pm[0].setValue([FX + (0.5 - FX) * s, FY + (0.5 - FY) * s], true); r.push(c.start.seconds.toFixed(1) + ":" + antes + ">" + pm[1].getValue()); } n++; }
+  app.project.save(); return JSON.stringify(r); })();

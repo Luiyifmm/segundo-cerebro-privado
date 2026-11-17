@@ -1,0 +1,8 @@
+2026-11-08 00:37:58 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/Videos-Remotion/voz/salida-whisperx/ssstik.io_1793410908702.palabras.json", "palabras": 114, "sin_tiempo": 0, "texto": "los estudiantes. que la escuela nunca te ha traído. Tiene que sellarte, tener que cerrar, tener que caminar a un lugar y crear dinero de cierta. Esa es la habilidad para todos los que llegan a la riqueza. El estudiante no tenía los grados, así que se fue obligado a aprender. Se aprendió a juzgar, a dar reacciones, a persuadir, mientras el estudiante se aprendió a memorizar y a obedecer. Uno tiene un diploma, el otro tiene una compañía. You want diploma or you want the company. Learn to close. That's the shortcut they never put on the curriculum. And if you want to learn to select the Wolf of Wall Street, follow me.", "s_carga": 0.9, "s_transcripcion": 12.3, "s_alineado": 2.7, "s_total": 15.9}
+ssstik.io_1793410908702.palabras.json contra ssstik.io_1793410908702.mp4: 114 palabras
+  voz principal ≈ -24 dB (umbral -42 dB) · ruido ≈ -47 dB
+  principal 104 · voz baja 0 · sin voz 10 · sin tiempo 0 · FIABLES 13 (11 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/Videos-Remotion/voz/salida-whisperx/ssstik.io_1793410908702.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

@@ -1,0 +1,401 @@
+{
+ "nota": "Igual formato que caso-002.",
+ "bloques": [
+  {
+   "a": 0.22,
+   "b": 1.1,
+   "linea": "sacar sobresaliente en",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 1.06
+  },
+  {
+   "a": 1.06,
+   "b": 1.88,
+   "linea": "la escuela es",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 1.84
+  },
+  {
+   "a": 1.84,
+   "b": 3.02,
+   "linea": "de muy de",
+   "clave": "mediocre",
+   "gris": false,
+   "retraso": 28,
+   "fin": 3.14
+  },
+  {
+   "a": 3.14,
+   "b": 3.94,
+   "linea": "pero que te cueste",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 3.9
+  },
+  {
+   "a": 3.9,
+   "b": 4.82,
+   "linea": "prestar atención en",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 4.78
+  },
+  {
+   "a": 4.78,
+   "b": 5.12,
+   "linea": "clase",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 5.18
+  },
+  {
+   "a": 5.18,
+   "b": 6.08,
+   "linea": "puede ser señal",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 6.04
+  },
+  {
+   "a": 6.04,
+   "b": 7.36,
+   "linea": "de un futuro",
+   "clave": "exitoso",
+   "gris": false,
+   "retraso": 19,
+   "fin": 7.42
+  },
+  {
+   "a": 7.42,
+   "b": 9.28,
+   "linea": "obedecer sin",
+   "clave": "rechistar",
+   "gris": false,
+   "retraso": 32,
+   "fin": 9.32
+  },
+  {
+   "a": 9.32,
+   "b": 10.42,
+   "linea": "cumplir todas las",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 10.54
+  },
+  {
+   "a": 10.54,
+   "b": 12.24,
+   "linea": "normas sin",
+   "clave": "rechistar",
+   "gris": false,
+   "retraso": 28,
+   "fin": 12.5
+  },
+  {
+   "a": 12.5,
+   "b": 13.6,
+   "linea": "muy de",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 14,
+   "fin": 13.56
+  },
+  {
+   "a": 13.56,
+   "b": 14.28,
+   "linea": "no parece",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 14.63
+  },
+  {
+   "a": 14.64,
+   "b": 15.6,
+   "linea": "incluso diría que",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 15.56
+  },
+  {
+   "a": 15.56,
+   "b": 16.32,
+   "linea": "es de",
+   "clave": "mediocre",
+   "gris": false,
+   "retraso": 14,
+   "fin": 16.38
+  },
+  {
+   "a": 16.38,
+   "b": 17.92,
+   "linea": "cuestionar las reglas",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 17.88
+  },
+  {
+   "a": 17.88,
+   "b": 19.34,
+   "linea": "es de",
+   "clave": "ganador",
+   "gris": false,
+   "retraso": 11,
+   "fin": 19.69
+  },
+  {
+   "a": 19.84,
+   "b": 20.64,
+   "linea": "para siempre",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 20.68
+  },
+  {
+   "a": 20.68,
+   "b": 21.52,
+   "linea": "poner a los",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 21.48
+  },
+  {
+   "a": 21.48,
+   "b": 23.12,
+   "linea": "demás siempre por",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 23.08
+  },
+  {
+   "a": 23.08,
+   "b": 24.62,
+   "linea": "delante es de",
+   "clave": "mediocre",
+   "gris": false,
+   "retraso": 32,
+   "fin": 24.92
+  },
+  {
+   "a": 24.92,
+   "b": 25.82,
+   "linea": "hacer de ti",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 25.78
+  },
+  {
+   "a": 25.78,
+   "b": 27.08,
+   "linea": "absoluta",
+   "clave": "prioridad",
+   "gris": false,
+   "retraso": 13,
+   "fin": 27.04
+  },
+  {
+   "a": 27.04,
+   "b": 27.56,
+   "linea": "es de",
+   "clave": "éxito",
+   "gris": false,
+   "retraso": 10,
+   "fin": 27.91
+  },
+  {
+   "a": 27.94,
+   "b": 28.6,
+   "linea": "aspirar a un",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 28.56
+  },
+  {
+   "a": 28.56,
+   "b": 30.32,
+   "linea": "sueldito de funcionario",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 30.28
+  },
+  {
+   "a": 30.28,
+   "b": 31.26,
+   "linea": "es de",
+   "clave": "mediocre",
+   "gris": false,
+   "retraso": 13,
+   "fin": 31.38
+  },
+  {
+   "a": 31.38,
+   "b": 33.14,
+   "linea": "aspirar a ser",
+   "clave": "libre",
+   "gris": false,
+   "retraso": 26,
+   "fin": 33.1
+  },
+  {
+   "a": 33.1,
+   "b": 33.72,
+   "linea": "es de",
+   "clave": "éxito",
+   "gris": false,
+   "retraso": 14,
+   "fin": 34.02
+  },
+  {
+   "a": 34.02,
+   "b": 34.96,
+   "linea": "la escuela no",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 34.92
+  },
+  {
+   "a": 34.92,
+   "b": 35.7,
+   "linea": "te educa para",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 35.66
+  },
+  {
+   "a": 35.66,
+   "b": 36.16,
+   "linea": "ser",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 8,
+   "fin": 36.26
+  },
+  {
+   "a": 36.26,
+   "b": 37.46,
+   "linea": "la escuela te",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 37.42
+  },
+  {
+   "a": 37.42,
+   "b": 38.16,
+   "linea": "programa para ser",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 38.12
+  },
+  {
+   "a": 38.12,
+   "b": 39.52,
+   "linea": "un empleado",
+   "clave": "obediente",
+   "gris": false,
+   "retraso": 31,
+   "fin": 39.76
+  },
+  {
+   "a": 39.76,
+   "b": 40.8,
+   "linea": "si en algún",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 40.76
+  },
+  {
+   "a": 40.76,
+   "b": 41.48,
+   "linea": "momento de tu",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 41.44
+  },
+  {
+   "a": 41.44,
+   "b": 42.64,
+   "linea": "vida quieres ser",
+   "clave": "libre",
+   "gris": false,
+   "retraso": 28,
+   "fin": 42.6
+  },
+  {
+   "a": 42.6,
+   "b": 43.3,
+   "linea": "de verdad",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 43.28
+  },
+  {
+   "a": 43.28,
+   "b": 44.32,
+   "linea": "tienes que romper",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 44.28
+  },
+  {
+   "a": 44.28,
+   "b": 45.88,
+   "linea": "con la programación",
+   "clave": "mental",
+   "gris": false,
+   "retraso": 40,
+   "fin": 45.84
+  },
+  {
+   "a": 45.84,
+   "b": 46.92,
+   "linea": "que ya tienes",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 47.14
+  },
+  {
+   "a": 47.14,
+   "b": 48.6,
+   "linea": "sígueme para que",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 48.56
+  },
+  {
+   "a": 48.56,
+   "b": 49.44,
+   "linea": "la rompamos",
+   "clave": "juntos",
+   "gris": false,
+   "retraso": 23,
+   "fin": 49.79
+  }
+ ]
+}

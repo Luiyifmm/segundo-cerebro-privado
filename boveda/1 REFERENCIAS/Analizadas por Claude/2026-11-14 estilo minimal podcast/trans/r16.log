@@ -1,0 +1,5 @@
+2026-11-14 21:57:27 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r16.palabras.json", "palabras": 58, "sin_tiempo": 0, "texto": "Nine out of ten times the truth about perfectionism is that it's just procrastination in disguise. And the reason why I say nine out of ten times is because there is that small percentage of people who utilize perfectionism specifically in content as a high standard to work after. Meaning that they're still moving and doing necessary steps.", "s_carga": 0.5, "s_transcripcion": 8.4, "s_alineado": 1.4, "s_total": 10.3}
+ERROR: casi no hay voz en el audio
+VERIFICADA: /Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r16.verificada.json (código 2: 0 = coherente, 1 = NO corresponde a este audio)

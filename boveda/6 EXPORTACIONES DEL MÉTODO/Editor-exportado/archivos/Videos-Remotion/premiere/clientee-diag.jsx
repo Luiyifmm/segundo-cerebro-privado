@@ -1,0 +1,7 @@
+(function () { var r = {}, seq = app.project.activeSequence, i, t, T = 254016000000, at = 57.4;
+  r.capas = []; for (t = 0; t < seq.videoTracks.numTracks; t++) for (i = 0; i < seq.videoTracks[t].clips.numItems; i++) { var c = seq.videoTracks[t].clips[i]; if (c.start.seconds <= at && c.end.seconds > at) { var op = "", bl = ""; for (var k = 0; k < c.components.numItems; k++) if (c.components[k].matchName === "AE.ADBE Opacity") { op = c.components[k].properties[0].getValue(); } r.capas.push("V" + (t + 1) + " " + c.name.substr(0, 34) + " " + c.start.seconds.toFixed(2) + "-" + c.end.seconds.toFixed(2) + " op" + op + (c.disabled ? " DESACT" : "")); } }
+  var mg = null; for (i = 0; i < seq.videoTracks[2].clips.numItems; i++) if (seq.videoTracks[2].clips[i].name.indexOf("MG emojis") === 0) mg = seq.videoTracks[2].clips[i];
+  app.enableQE(); var q = qe.project.getActiveSequence();
+  mg.disabled = true; seq.setPlayerPosition(String(Math.round(at * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/dg-sin");
+  mg.disabled = false; try { r.alfa = mg.projectItem.getFootageInterpretation().alphaUsage + " inv " + mg.projectItem.getFootageInterpretation().invertAlpha + " ign " + mg.projectItem.getFootageInterpretation().ignoreAlpha; } catch (e) { r.alfaErr = String(e); }
+  seq.setPlayerPosition("0"); return JSON.stringify(r); })();

@@ -1,0 +1,5 @@
+2026-11-14 22:02:35 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r34.palabras.json", "palabras": 99, "sin_tiempo": 0, "texto": "This is what And this is what 20% body fat looks like on a woman. This is what 15% body fat looks like on a man. This is what 15% body fat looks like on a woman. This is what 12% looks like on a man. This is what 12% looks like on a woman. This is what 10% looks like on a man. This is what 10% looks like on a woman. This is what 8% body fat looks like. And this is what 5% body fat looks like. What body fat percentage do you think you are?", "s_carga": 0.5, "s_transcripcion": 9.5, "s_alineado": 2.3, "s_total": 12.3}
+ERROR: casi no hay voz en el audio
+VERIFICADA: /Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r34.verificada.json (código 2: 0 = coherente, 1 = NO corresponde a este audio)

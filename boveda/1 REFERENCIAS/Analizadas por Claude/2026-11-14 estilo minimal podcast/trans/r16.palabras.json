@@ -1,0 +1,350 @@
+[
+{
+"texto": "Nine",
+"inicio": 0.13,
+"fin": 0.23,
+"score": 0.493
+},
+{
+"texto": "out",
+"inicio": 0.25,
+"fin": 0.31,
+"score": 0.191
+},
+{
+"texto": "of",
+"inicio": 0.33,
+"fin": 0.37,
+"score": 0.0
+},
+{
+"texto": "ten",
+"inicio": 0.39,
+"fin": 0.53,
+"score": 0.796
+},
+{
+"texto": "times",
+"inicio": 0.591,
+"fin": 0.871,
+"score": 0.779
+},
+{
+"texto": "the",
+"inicio": 1.051,
+"fin": 1.151,
+"score": 0.936
+},
+{
+"texto": "truth",
+"inicio": 1.231,
+"fin": 1.552,
+"score": 0.87
+},
+{
+"texto": "about",
+"inicio": 1.712,
+"fin": 1.932,
+"score": 0.922
+},
+{
+"texto": "perfectionism",
+"inicio": 1.952,
+"fin": 2.833,
+"score": 0.71
+},
+{
+"texto": "is",
+"inicio": 3.074,
+"fin": 3.154,
+"score": 0.86
+},
+{
+"texto": "that",
+"inicio": 3.174,
+"fin": 3.294,
+"score": 0.55
+},
+{
+"texto": "it's",
+"inicio": 3.314,
+"fin": 3.394,
+"score": 0.052
+},
+{
+"texto": "just",
+"inicio": 3.434,
+"fin": 3.594,
+"score": 0.287
+},
+{
+"texto": "procrastination",
+"inicio": 3.755,
+"fin": 4.515,
+"score": 0.776
+},
+{
+"texto": "in",
+"inicio": 4.576,
+"fin": 4.676,
+"score": 0.518
+},
+{
+"texto": "disguise.",
+"inicio": 4.716,
+"fin": 5.136,
+"score": 0.867
+},
+{
+"texto": "And",
+"inicio": 5.236,
+"fin": 5.316,
+"score": 0.805
+},
+{
+"texto": "the",
+"inicio": 5.336,
+"fin": 5.397,
+"score": 0.997
+},
+{
+"texto": "reason",
+"inicio": 5.417,
+"fin": 5.617,
+"score": 0.683
+},
+{
+"texto": "why",
+"inicio": 5.637,
+"fin": 5.797,
+"score": 0.809
+},
+{
+"texto": "I",
+"inicio": 5.817,
+"fin": 5.837,
+"score": 0.019
+},
+{
+"texto": "say",
+"inicio": 5.937,
+"fin": 6.278,
+"score": 0.694
+},
+{
+"texto": "nine",
+"inicio": 6.438,
+"fin": 6.598,
+"score": 0.778
+},
+{
+"texto": "out",
+"inicio": 6.638,
+"fin": 6.698,
+"score": 0.224
+},
+{
+"texto": "of",
+"inicio": 6.718,
+"fin": 6.758,
+"score": 0.024
+},
+{
+"texto": "ten",
+"inicio": 6.778,
+"fin": 6.938,
+"score": 0.847
+},
+{
+"texto": "times",
+"inicio": 6.979,
+"fin": 7.179,
+"score": 0.863
+},
+{
+"texto": "is",
+"inicio": 7.199,
+"fin": 7.239,
+"score": 0.008
+},
+{
+"texto": "because",
+"inicio": 7.279,
+"fin": 7.479,
+"score": 0.982
+},
+{
+"texto": "there",
+"inicio": 7.499,
+"fin": 7.659,
+"score": 0.787
+},
+{
+"texto": "is",
+"inicio": 7.739,
+"fin": 7.84,
+"score": 0.778
+},
+{
+"texto": "that",
+"inicio": 7.86,
+"fin": 7.98,
+"score": 0.494
+},
+{
+"texto": "small",
+"inicio": 8.04,
+"fin": 8.24,
+"score": 0.909
+},
+{
+"texto": "percentage",
+"inicio": 8.26,
+"fin": 8.701,
+"score": 0.882
+},
+{
+"texto": "of",
+"inicio": 8.941,
+"fin": 9.061,
+"score": 0.804
+},
+{
+"texto": "people",
+"inicio": 9.141,
+"fin": 9.462,
+"score": 0.753
+},
+{
+"texto": "who",
+"inicio": 9.522,
+"fin": 9.702,
+"score": 0.971
+},
+{
+"texto": "utilize",
+"inicio": 9.962,
+"fin": 10.483,
+"score": 0.86
+},
+{
+"texto": "perfectionism",
+"inicio": 10.703,
+"fin": 11.344,
+"score": 0.754
+},
+{
+"texto": "specifically",
+"inicio": 11.404,
+"fin": 11.965,
+"score": 0.801
+},
+{
+"texto": "in",
+"inicio": 12.005,
+"fin": 12.065,
+"score": 0.734
+},
+{
+"texto": "content",
+"inicio": 12.145,
+"fin": 12.646,
+"score": 0.822
+},
+{
+"texto": "as",
+"inicio": 12.846,
+"fin": 12.986,
+"score": 0.683
+},
+{
+"texto": "a",
+"inicio": 13.046,
+"fin": 13.086,
+"score": 0.545
+},
+{
+"texto": "high",
+"inicio": 13.146,
+"fin": 13.326,
+"score": 0.858
+},
+{
+"texto": "standard",
+"inicio": 13.387,
+"fin": 13.807,
+"score": 0.853
+},
+{
+"texto": "to",
+"inicio": 13.887,
+"fin": 14.027,
+"score": 0.779
+},
+{
+"texto": "work",
+"inicio": 14.087,
+"fin": 14.308,
+"score": 0.856
+},
+{
+"texto": "after.",
+"inicio": 14.508,
+"fin": 14.788,
+"score": 0.762
+},
+{
+"texto": "Meaning",
+"inicio": 14.989,
+"fin": 15.209,
+"score": 0.952
+},
+{
+"texto": "that",
+"inicio": 15.249,
+"fin": 15.349,
+"score": 0.995
+},
+{
+"texto": "they're",
+"inicio": 15.369,
+"fin": 15.569,
+"score": 0.647
+},
+{
+"texto": "still",
+"inicio": 15.589,
+"fin": 15.93,
+"score": 0.719
+},
+{
+"texto": "moving",
+"inicio": 16.21,
+"fin": 16.571,
+"score": 0.841
+},
+{
+"texto": "and",
+"inicio": 16.611,
+"fin": 16.671,
+"score": 0.996
+},
+{
+"texto": "doing",
+"inicio": 16.711,
+"fin": 16.951,
+"score": 0.876
+},
+{
+"texto": "necessary",
+"inicio": 16.991,
+"fin": 17.412,
+"score": 0.902
+},
+{
+"texto": "steps.",
+"inicio": 17.452,
+"fin": 17.772,
+"score": 0.81
+}
+]

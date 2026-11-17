@@ -1,0 +1,1112 @@
+[
+{
+"texto": "Most",
+"inicio": 0.034,
+"fin": 0.134,
+"score": 0.354
+},
+{
+"texto": "people",
+"inicio": 0.154,
+"fin": 0.374,
+"score": 0.897
+},
+{
+"texto": "think",
+"inicio": 0.394,
+"fin": 0.554,
+"score": 0.967
+},
+{
+"texto": "a",
+"inicio": 0.594,
+"fin": 0.654,
+"score": 0.028
+},
+{
+"texto": "45",
+"inicio": 1.034,
+"fin": 1.214,
+"score": 0.604
+},
+{
+"texto": "degree",
+"inicio": 1.254,
+"fin": 1.514,
+"score": 0.861
+},
+{
+"texto": "incline",
+"inicio": 1.574,
+"fin": 2.034,
+"score": 0.783
+},
+{
+"texto": "is",
+"inicio": 2.114,
+"fin": 2.194,
+"score": 0.682
+},
+{
+"texto": "the",
+"inicio": 2.214,
+"fin": 2.294,
+"score": 0.866
+},
+{
+"texto": "best",
+"inicio": 2.334,
+"fin": 2.555,
+"score": 0.927
+},
+{
+"texto": "angle",
+"inicio": 2.655,
+"fin": 2.875,
+"score": 0.949
+},
+{
+"texto": "for",
+"inicio": 2.915,
+"fin": 3.015,
+"score": 0.937
+},
+{
+"texto": "the",
+"inicio": 3.055,
+"fin": 3.135,
+"score": 0.831
+},
+{
+"texto": "upper",
+"inicio": 3.215,
+"fin": 3.395,
+"score": 0.906
+},
+{
+"texto": "chest,",
+"inicio": 3.435,
+"fin": 3.755,
+"score": 0.83
+},
+{
+"texto": "but",
+"inicio": 3.855,
+"fin": 4.035,
+"score": 0.863
+},
+{
+"texto": "I",
+"inicio": 4.135,
+"fin": 4.195,
+"score": 0.704
+},
+{
+"texto": "wanted",
+"inicio": 4.235,
+"fin": 4.435,
+"score": 0.612
+},
+{
+"texto": "to",
+"inicio": 4.475,
+"fin": 4.555,
+"score": 0.746
+},
+{
+"texto": "test",
+"inicio": 4.595,
+"fin": 4.775,
+"score": 0.958
+},
+{
+"texto": "this",
+"inicio": 4.795,
+"fin": 4.935,
+"score": 0.841
+},
+{
+"texto": "out",
+"inicio": 5.015,
+"fin": 5.115,
+"score": 0.882
+},
+{
+"texto": "for",
+"inicio": 5.155,
+"fin": 5.255,
+"score": 0.846
+},
+{
+"texto": "myself,",
+"inicio": 5.295,
+"fin": 5.655,
+"score": 0.92
+},
+{
+"texto": "so",
+"inicio": 5.775,
+"fin": 5.915,
+"score": 0.986
+},
+{
+"texto": "I",
+"inicio": 5.975,
+"fin": 6.035,
+"score": 0.668
+},
+{
+"texto": "measured",
+"inicio": 6.055,
+"fin": 6.295,
+"score": 0.829
+},
+{
+"texto": "my",
+"inicio": 6.315,
+"fin": 6.415,
+"score": 0.83
+},
+{
+"texto": "upper",
+"inicio": 6.495,
+"fin": 6.675,
+"score": 0.817
+},
+{
+"texto": "pec",
+"inicio": 6.715,
+"fin": 6.915,
+"score": 0.612
+},
+{
+"texto": "activation",
+"inicio": 6.995,
+"fin": 7.495,
+"score": 0.888
+},
+{
+"texto": "at",
+"inicio": 7.696,
+"fin": 7.756,
+"score": 0.985
+},
+{
+"texto": "every",
+"inicio": 7.916,
+"fin": 8.116,
+"score": 0.779
+},
+{
+"texto": "incline",
+"inicio": 8.176,
+"fin": 8.656,
+"score": 0.752
+},
+{
+"texto": "from",
+"inicio": 8.716,
+"fin": 8.856,
+"score": 0.745
+},
+{
+"texto": "flat",
+"inicio": 8.976,
+"fin": 9.276,
+"score": 0.917
+},
+{
+"texto": "to",
+"inicio": 9.476,
+"fin": 9.556,
+"score": 0.879
+},
+{
+"texto": "vertical.",
+"inicio": 9.576,
+"fin": 9.936,
+"score": 0.817
+},
+{
+"texto": "At",
+"inicio": 9.996,
+"fin": 10.056,
+"score": 0.859
+},
+{
+"texto": "0",
+"inicio": 10.216,
+"fin": 10.276,
+"score": 0.65
+},
+{
+"texto": "degrees,",
+"inicio": 10.296,
+"fin": 10.656,
+"score": 0.803
+},
+{
+"texto": "I",
+"inicio": 10.756,
+"fin": 10.796,
+"score": 0.999
+},
+{
+"texto": "expected",
+"inicio": 10.856,
+"fin": 11.416,
+"score": 0.823
+},
+{
+"texto": "a",
+"inicio": 11.456,
+"fin": 11.496,
+"score": 0.58
+},
+{
+"texto": "fairly",
+"inicio": 11.576,
+"fin": 11.896,
+"score": 0.837
+},
+{
+"texto": "low",
+"inicio": 11.956,
+"fin": 12.136,
+"score": 0.876
+},
+{
+"texto": "reading,",
+"inicio": 12.176,
+"fin": 12.496,
+"score": 0.853
+},
+{
+"texto": "but",
+"inicio": 12.617,
+"fin": 12.797,
+"score": 0.832
+},
+{
+"texto": "actually",
+"inicio": 12.937,
+"fin": 13.177,
+"score": 0.929
+},
+{
+"texto": "got",
+"inicio": 13.197,
+"fin": 13.377,
+"score": 0.785
+},
+{
+"texto": "59%",
+"inicio": 13.917,
+"fin": 14.517,
+"score": 0.58
+},
+{
+"texto": "upper",
+"inicio": 14.637,
+"fin": 14.817,
+"score": 0.859
+},
+{
+"texto": "chest",
+"inicio": 14.837,
+"fin": 15.077,
+"score": 0.797
+},
+{
+"texto": "activation.",
+"inicio": 15.137,
+"fin": 15.657,
+"score": 0.886
+},
+{
+"texto": "Next",
+"inicio": 15.817,
+"fin": 16.037,
+"score": 0.722
+},
+{
+"texto": "was",
+"inicio": 16.077,
+"fin": 16.197,
+"score": 0.843
+},
+{
+"texto": "15",
+"inicio": 16.517,
+"fin": 16.677,
+"score": 0.69
+},
+{
+"texto": "degrees,",
+"inicio": 16.717,
+"fin": 17.097,
+"score": 0.778
+},
+{
+"texto": "which",
+"inicio": 17.377,
+"fin": 17.538,
+"score": 0.881
+},
+{
+"texto": "I",
+"inicio": 17.738,
+"fin": 17.778,
+"score": 0.987
+},
+{
+"texto": "expected",
+"inicio": 17.838,
+"fin": 18.418,
+"score": 0.928
+},
+{
+"texto": "to",
+"inicio": 18.458,
+"fin": 18.498,
+"score": 0.998
+},
+{
+"texto": "be",
+"inicio": 18.538,
+"fin": 18.638,
+"score": 0.45
+},
+{
+"texto": "higher,",
+"inicio": 18.678,
+"fin": 19.018,
+"score": 0.775
+},
+{
+"texto": "and",
+"inicio": 19.198,
+"fin": 19.338,
+"score": 0.743
+},
+{
+"texto": "yeah,",
+"inicio": 19.498,
+"fin": 20.138,
+"score": 0.727
+},
+{
+"texto": "64%.",
+"inicio": 20.218,
+"fin": 20.458,
+"score": 0.686
+},
+{
+"texto": "At",
+"inicio": 20.758,
+"fin": 21.158,
+"score": 0.46
+},
+{
+"texto": "25",
+"inicio": 21.338,
+"fin": 21.438,
+"score": 0.656
+},
+{
+"texto": "degrees,",
+"inicio": 21.478,
+"fin": 21.838,
+"score": 0.815
+},
+{
+"texto": "I",
+"inicio": 21.978,
+"fin": 22.058,
+"score": 0.76
+},
+{
+"texto": "got,",
+"inicio": 22.078,
+"fin": 22.358,
+"score": 0.823
+},
+{
+"texto": "ready",
+"inicio": 22.559,
+"fin": 22.739,
+"score": 0.84
+},
+{
+"texto": "for",
+"inicio": 22.759,
+"fin": 22.839,
+"score": 0.999
+},
+{
+"texto": "this,",
+"inicio": 22.879,
+"fin": 23.839,
+"score": 0.802
+},
+{
+"texto": "66%.",
+"inicio": 23.939,
+"fin": 24.339,
+"score": 0.654
+},
+{
+"texto": "So,",
+"inicio": 24.699,
+"fin": 24.919,
+"score": 0.867
+},
+{
+"texto": "activation",
+"inicio": 25.179,
+"fin": 25.679,
+"score": 0.887
+},
+{
+"texto": "is",
+"inicio": 25.959,
+"fin": 26.099,
+"score": 0.728
+},
+{
+"texto": "going",
+"inicio": 26.159,
+"fin": 26.399,
+"score": 0.897
+},
+{
+"texto": "up",
+"inicio": 26.539,
+"fin": 26.619,
+"score": 0.74
+},
+{
+"texto": "as",
+"inicio": 26.739,
+"fin": 26.819,
+"score": 0.838
+},
+{
+"texto": "the",
+"inicio": 26.859,
+"fin": 26.939,
+"score": 0.839
+},
+{
+"texto": "incline",
+"inicio": 26.999,
+"fin": 27.359,
+"score": 0.899
+},
+{
+"texto": "goes",
+"inicio": 27.399,
+"fin": 27.58,
+"score": 0.746
+},
+{
+"texto": "up,",
+"inicio": 27.7,
+"fin": 27.8,
+"score": 0.911
+},
+{
+"texto": "but",
+"inicio": 27.92,
+"fin": 28.1,
+"score": 0.848
+},
+{
+"texto": "not",
+"inicio": 28.26,
+"fin": 28.4,
+"score": 0.836
+},
+{
+"texto": "by",
+"inicio": 28.44,
+"fin": 28.58,
+"score": 0.758
+},
+{
+"texto": "much.",
+"inicio": 28.64,
+"fin": 28.9,
+"score": 0.931
+},
+{
+"texto": "Now",
+"inicio": 29.12,
+"fin": 29.24,
+"score": 0.881
+},
+{
+"texto": "let's",
+"inicio": 29.28,
+"fin": 29.46,
+"score": 0.837
+},
+{
+"texto": "test",
+"inicio": 29.5,
+"fin": 29.72,
+"score": 0.879
+},
+{
+"texto": "the",
+"inicio": 29.74,
+"fin": 29.8,
+"score": 0.005
+},
+{
+"texto": "golden",
+"inicio": 30.0,
+"fin": 30.3,
+"score": 0.793
+},
+{
+"texto": "angle,",
+"inicio": 30.36,
+"fin": 30.94,
+"score": 0.693
+},
+{
+"texto": "45",
+"inicio": 31.08,
+"fin": 31.18,
+"score": 0.696
+},
+{
+"texto": "degrees.",
+"inicio": 31.2,
+"fin": 31.601,
+"score": 0.705
+},
+{
+"texto": "That",
+"inicio": 31.841,
+"fin": 31.981,
+"score": 0.956
+},
+{
+"texto": "incline",
+"inicio": 32.021,
+"fin": 32.501,
+"score": 0.703
+},
+{
+"texto": "gave",
+"inicio": 32.661,
+"fin": 32.821,
+"score": 0.889
+},
+{
+"texto": "me",
+"inicio": 32.861,
+"fin": 32.941,
+"score": 0.756
+},
+{
+"texto": "a",
+"inicio": 32.961,
+"fin": 33.001,
+"score": 0.495
+},
+{
+"texto": "reading",
+"inicio": 33.041,
+"fin": 33.301,
+"score": 0.913
+},
+{
+"texto": "of",
+"inicio": 33.421,
+"fin": 33.501,
+"score": 0.838
+},
+{
+"texto": "67%.",
+"inicio": 33.521,
+"fin": 34.482,
+"score": 0.558
+},
+{
+"texto": "Let's",
+"inicio": 34.682,
+"fin": 35.262,
+"score": 0.558
+},
+{
+"texto": "see",
+"inicio": 35.282,
+"fin": 35.362,
+"score": 1.0
+},
+{
+"texto": "if",
+"inicio": 35.402,
+"fin": 35.462,
+"score": 0.752
+},
+{
+"texto": "it",
+"inicio": 35.502,
+"fin": 35.542,
+"score": 0.994
+},
+{
+"texto": "keeps",
+"inicio": 35.562,
+"fin": 35.762,
+"score": 0.826
+},
+{
+"texto": "going",
+"inicio": 35.782,
+"fin": 36.002,
+"score": 0.857
+},
+{
+"texto": "up",
+"inicio": 36.082,
+"fin": 36.182,
+"score": 0.82
+},
+{
+"texto": "at",
+"inicio": 36.282,
+"fin": 36.823,
+"score": 0.616
+},
+{
+"texto": "65",
+"inicio": 37.003,
+"fin": 37.103,
+"score": 0.667
+},
+{
+"texto": "degrees.",
+"inicio": 37.143,
+"fin": 37.503,
+"score": 0.881
+},
+{
+"texto": "No,",
+"inicio": 37.683,
+"fin": 37.803,
+"score": 0.456
+},
+{
+"texto": "back",
+"inicio": 38.063,
+"fin": 38.243,
+"score": 0.988
+},
+{
+"texto": "down",
+"inicio": 38.263,
+"fin": 38.443,
+"score": 0.88
+},
+{
+"texto": "to",
+"inicio": 38.483,
+"fin": 38.543,
+"score": 0.854
+},
+{
+"texto": "60%,",
+"inicio": 38.563,
+"fin": 38.923,
+"score": 0.64
+},
+{
+"texto": "and",
+"inicio": 39.023,
+"fin": 39.304,
+"score": 0.517
+},
+{
+"texto": "then",
+"inicio": 39.324,
+"fin": 39.724,
+"score": 0.258
+},
+{
+"texto": "90",
+"inicio": 39.744,
+"fin": 40.064,
+"score": 0.438
+},
+{
+"texto": "degrees",
+"inicio": 40.104,
+"fin": 40.504,
+"score": 0.675
+},
+{
+"texto": "dropped",
+"inicio": 40.664,
+"fin": 40.924,
+"score": 0.563
+},
+{
+"texto": "way",
+"inicio": 41.024,
+"fin": 41.164,
+"score": 0.853
+},
+{
+"texto": "back",
+"inicio": 41.204,
+"fin": 41.384,
+"score": 0.961
+},
+{
+"texto": "to",
+"inicio": 41.564,
+"fin": 41.804,
+"score": 0.376
+},
+{
+"texto": "35%.",
+"inicio": 41.845,
+"fin": 42.445,
+"score": 0.691
+},
+{
+"texto": "So",
+"inicio": 42.545,
+"fin": 43.105,
+"score": 0.612
+},
+{
+"texto": "45",
+"inicio": 43.245,
+"fin": 43.345,
+"score": 0.676
+},
+{
+"texto": "degrees",
+"inicio": 43.365,
+"fin": 43.625,
+"score": 0.823
+},
+{
+"texto": "won,",
+"inicio": 43.645,
+"fin": 43.925,
+"score": 0.834
+},
+{
+"texto": "but",
+"inicio": 44.105,
+"fin": 44.285,
+"score": 0.564
+},
+{
+"texto": "it",
+"inicio": 44.305,
+"fin": 44.345,
+"score": 0.988
+},
+{
+"texto": "was",
+"inicio": 44.385,
+"fin": 44.465,
+"score": 0.844
+},
+{
+"texto": "basically",
+"inicio": 44.526,
+"fin": 44.906,
+"score": 0.92
+},
+{
+"texto": "the",
+"inicio": 44.946,
+"fin": 45.026,
+"score": 0.839
+},
+{
+"texto": "same",
+"inicio": 45.046,
+"fin": 45.246,
+"score": 0.748
+},
+{
+"texto": "from",
+"inicio": 45.306,
+"fin": 45.446,
+"score": 0.793
+},
+{
+"texto": "15",
+"inicio": 45.546,
+"fin": 45.826,
+"score": 0.476
+},
+{
+"texto": "to",
+"inicio": 45.846,
+"fin": 45.886,
+"score": 0.971
+},
+{
+"texto": "45.",
+"inicio": 45.986,
+"fin": 46.466,
+"score": 0.517
+},
+{
+"texto": "And",
+"inicio": 46.486,
+"fin": 46.686,
+"score": 0.746
+},
+{
+"texto": "if",
+"inicio": 46.726,
+"fin": 46.766,
+"score": 0.998
+},
+{
+"texto": "you",
+"inicio": 46.786,
+"fin": 46.886,
+"score": 0.674
+},
+{
+"texto": "have",
+"inicio": 46.906,
+"fin": 47.006,
+"score": 0.874
+},
+{
+"texto": "less",
+"inicio": 47.046,
+"fin": 47.207,
+"score": 0.882
+},
+{
+"texto": "arch",
+"inicio": 47.267,
+"fin": 47.467,
+"score": 0.88
+},
+{
+"texto": "than",
+"inicio": 47.487,
+"fin": 47.587,
+"score": 0.994
+},
+{
+"texto": "me,",
+"inicio": 47.627,
+"fin": 47.827,
+"score": 0.977
+},
+{
+"texto": "a",
+"inicio": 48.047,
+"fin": 48.087,
+"score": 0.631
+},
+{
+"texto": "slightly",
+"inicio": 48.107,
+"fin": 48.407,
+"score": 0.747
+},
+{
+"texto": "lower",
+"inicio": 48.507,
+"fin": 48.787,
+"score": 0.702
+},
+{
+"texto": "incline",
+"inicio": 48.867,
+"fin": 49.307,
+"score": 0.901
+},
+{
+"texto": "might",
+"inicio": 49.327,
+"fin": 49.667,
+"score": 0.748
+},
+{
+"texto": "actually",
+"inicio": 49.727,
+"fin": 49.988,
+"score": 0.883
+},
+{
+"texto": "work",
+"inicio": 50.028,
+"fin": 50.188,
+"score": 0.818
+},
+{
+"texto": "better.",
+"inicio": 50.208,
+"fin": 50.428,
+"score": 0.93
+},
+{
+"texto": "I'm",
+"inicio": 50.468,
+"fin": 50.568,
+"score": 0.217
+},
+{
+"texto": "just",
+"inicio": 50.588,
+"fin": 50.668,
+"score": 0.196
+},
+{
+"texto": "one",
+"inicio": 50.728,
+"fin": 50.848,
+"score": 0.798
+},
+{
+"texto": "subject",
+"inicio": 50.888,
+"fin": 51.348,
+"score": 0.92
+},
+{
+"texto": "and",
+"inicio": 51.428,
+"fin": 51.528,
+"score": 0.69
+},
+{
+"texto": "activation",
+"inicio": 51.688,
+"fin": 52.168,
+"score": 0.914
+},
+{
+"texto": "may",
+"inicio": 52.208,
+"fin": 52.348,
+"score": 0.843
+},
+{
+"texto": "not",
+"inicio": 52.409,
+"fin": 52.529,
+"score": 0.909
+},
+{
+"texto": "predict",
+"inicio": 52.569,
+"fin": 52.809,
+"score": 0.912
+},
+{
+"texto": "growth.",
+"inicio": 52.849,
+"fin": 53.129,
+"score": 0.969
+},
+{
+"texto": "The",
+"inicio": 53.169,
+"fin": 53.249,
+"score": 0.995
+},
+{
+"texto": "real",
+"inicio": 53.289,
+"fin": 53.469,
+"score": 0.89
+},
+{
+"texto": "takeaway,",
+"inicio": 53.509,
+"fin": 53.949,
+"score": 0.903
+},
+{
+"texto": "pick",
+"inicio": 54.029,
+"fin": 54.209,
+"score": 0.903
+},
+{
+"texto": "an",
+"inicio": 54.229,
+"fin": 54.309,
+"score": 0.706
+},
+{
+"texto": "angle",
+"inicio": 54.349,
+"fin": 54.569,
+"score": 0.638
+},
+{
+"texto": "that",
+"inicio": 54.589,
+"fin": 54.689,
+"score": 0.94
+},
+{
+"texto": "you",
+"inicio": 54.709,
+"fin": 54.849,
+"score": 0.924
+},
+{
+"texto": "feel",
+"inicio": 54.869,
+"fin": 55.05,
+"score": 0.782
+},
+{
+"texto": "working",
+"inicio": 55.07,
+"fin": 55.41,
+"score": 0.759
+},
+{
+"texto": "and",
+"inicio": 55.55,
+"fin": 55.63,
+"score": 0.849
+},
+{
+"texto": "get",
+"inicio": 55.65,
+"fin": 55.77,
+"score": 0.822
+},
+{
+"texto": "strong",
+"inicio": 55.79,
+"fin": 56.05,
+"score": 0.62
+},
+{
+"texto": "at",
+"inicio": 56.11,
+"fin": 56.19,
+"score": 0.88
+},
+{
+"texto": "it.",
+"inicio": 56.21,
+"fin": 56.27,
+"score": 0.984
+}
+]

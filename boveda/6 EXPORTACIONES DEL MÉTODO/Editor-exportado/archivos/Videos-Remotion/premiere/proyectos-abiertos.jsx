@@ -1,0 +1,1 @@
+(function () { var r = [], i; for (i = 0; i < app.projects.numProjects; i++) { var p = app.projects[i]; r.push([p.name, p.path, p === app.project ? "ACTIVO" : ""]); } var enc = ""; try { enc = app.encoder ? "encoder" : ""; } catch (e) {} return JSON.stringify(r); })();

@@ -1,0 +1,133 @@
+Report created: 
+	10/28/2026	9:36:10 AM
+
+Project name: Reel 3 Oct - Hook - Marco Said Hook ultimo.aep
+
+Source files collected to: 
+	C:\Users\vicen\Downloads\Invisible - Marco Said
+
+Source files collected: All
+
+Collected comps:  
+	Hoks
+	Reel 3 Oct - Hook - Marco Said Linked Comp 01
+	Invisible 2
+	Final
+	comentar
+	main
+	Hook 3
+	Video Cliente 8
+	Video Cliente 9
+	Video Cliente 10
+	Video Cliente 11
+	Video Cliente 12
+	Video Cliente 13
+	Video Cliente 14
+	Video Cliente 15
+	Video Cliente 16
+	Hook Correr
+	Video Cliente 17
+	Carrusel
+	Video Hook
+	Video Hook 2
+	Video Hook 3
+	Video Hook 4
+	Video Hook 5
+	Video Hook 6
+	Video Hook 7
+	Video Hook 8
+	Video Hook 9
+	Video Hook 10
+	
+Number of collected files:  27
+
+Size of collected files:  1,8 GB
+
+Collected source files: 
+	C:\Users\vicen\Documents\SaveObjects_Assets\Marco Ig Estilo\Invisible\(Footage)\Root\FONDO.png
+	C:\Users\vicen\Documents\SaveObjects_Assets\Marco Ig Estilo\Invisible\(Footage)\Video\ÚLTIMO HOOK.mov
+	C:\Users\vicen\Documents\SaveObjects_Assets\Victor Editing Style IG\Comentario\(Footage)\PNG Files\Captura de pantalla 2025-11-08 183443.png
+	C:\Users\vicen\Documents\Trabajo\Edicion de video\Clients\Clients 2025\Wallsframe\Marco Said\Octubre 2025\Hook Piscina - Marco\Exportado\Partes Ae\cc 2.84 % HOOK V2.mp4
+	C:\Users\vicen\Documents\Trabajo\Edicion de video\Clients\Clients 2025\Wallsframe\Marco Said\Octubre 2026\Reels\Reel 3 Oct - Hook - Marco Said\Material\Videos en Bruto\bcam4498.MP4
+	C:\Users\vicen\Documents\Trabajo\Edicion de video\Clients\Clients 2025\Wallsframe\Marco Said\Octubre 2026\Reels\Reel 3 Oct - Hook - Marco Said\Material\Videos en Bruto\IMG_3091.MOV
+	C:\Users\vicen\Documents\Trabajo\Edicion de video\Clients\Clients 2025\Wallsframe\Marco Said\Octubre 2026\Reels\Reel 3 Oct - Hook - Marco Said\Material\Videos en Bruto\IMG_3094.MOV
+	C:\Users\vicen\Documents\Trabajo\Edicion de video\Clients\Clients 2025\Wallsframe\Victor Heras\Reel - Si tu te grabas\Exportado\Completo\Victor Heras - Si grabas de una vez - Correccion Nuveas V3.mp4
+	C:\Users\vicen\Downloads\Cada idea que tienes ya existe.mp4
+	C:\Users\vicen\Downloads\Cualquiera puede ser artista.mp4
+	C:\Users\vicen\Downloads\Deja de competir y empieza a redefinir.mp4
+	C:\Users\vicen\Downloads\El grdo es grdo porque quiere.mp4
+	C:\Users\vicen\Downloads\hf_20261027_192855_826e3e68-869a-4bac-9e5e-385bb3819b2c.mp4
+	C:\Users\vicen\Downloads\Hook - Viejito V3.mp4
+	C:\Users\vicen\Downloads\Invisible 2.mp4
+	C:\Users\vicen\Downloads\Los relojes son para mujeres.mp4
+	C:\Users\vicen\Downloads\Vive una vida que vale la pena vivir.mp4
+	C:\Users\vicen\Downloads\WhatsApp Image 2026-10-28 at 8.55.43 AM.jpeg
+	C:\Users\vicen\Downloads\Ya va a pasar.mp4
+	C:\Users\vicen\Downloads\¿Cuando fue la última vez que te sentiste invisible.mp4
+	C:\Users\vicen\Downloads\¿Que harías si te accidents.mp4
+	C:\Users\vicen\Downloads\¿Te da miedo la murte.mp4
+	E:\Users\vicen\Documents\Trabajo\Edición de Videos\Clients\Clients 2025\Agencia Wallsframes LLC\Julianealborna\Hooks\Hook - Ladron\Exportado\Partes Ae\Hook- Invisible Sin texto y sin movimiento 1.0.mp4
+	E:\Users\vicen\Documents\Trabajo\Edición de Videos\Clients\Clients 2025\Agencia Wallsframes LLC\Julianealborna\Hooks\Hook - Una  +\Hook - Una + - Corrección de color.mp4
+	E:\Users\vicen\Documents\Trabajo\Edición de Videos\Resources\Overlays\Glitch\Screen Glitch.mp4
+	E:\Users\vicen\Downloads\FINAL Efecto Con subs v2.mp4
+	E:\Users\vicen\Downloads\Prueba HOOK Efectoo.mp4
+	
+Rendering plug-ins:
+	Advanced 3D
+	Cinema 4D
+	Classic 3D
+	
+Effects used:  23
+
+Effect:  
+	
+Effect:  BCC Directional Blur
+	
+Effect:  Bulge
+	
+Effect:  Camera Lens Blur
+	
+Effect:  CC Force Motion Blur
+	
+Effect:  CC Glass
+	
+Effect:  CC RepeTile
+	
+Effect:  CC Vignette
+	
+Effect:  Deep Glow
+	
+Effect:  Displacement Map
+	
+Effect:  Drop Shadow
+	
+Effect:  Fast Box Blur
+	
+Effect:  Lumetri Color
+	
+Effect:  Mosaic
+	
+Effect:  Roto Brush & Refine Edge
+	
+Effect:  Roughen Edges
+	
+Effect:  S_BlurMoCurves
+	
+Effect:  S_DissolveShake
+	
+Effect:  S_WarpChroma
+	
+Effect:  Transform
+	
+Effect:  Turbulent Displace
+	
+Effect:  Unknown Effect
+	
+Effect:  Venetian Blinds
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Poppins”, Font style: “Light”
+		Font family: “Urbanist”, Font style: “Bold”
+

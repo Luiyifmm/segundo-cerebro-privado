@@ -1,0 +1,4 @@
+// Vuelca los clips de audio de 65 s en adelante (ruta, puntos y volumen) para comprobar la mezcla fuera de Premiere.
+(function () { var seq = app.project.activeSequence, r = [], i, k, t;
+  for (t = 0; t < seq.audioTracks.numTracks; t++) { var ta = seq.audioTracks[t]; for (i = 0; i < ta.clips.numItems; i++) { var ca = ta.clips[i]; if (ca.end.seconds < 65.5 || ca.disabled || ta.isMuted()) continue; var ea = { pista: ta.name, s: ca.start.seconds, e: ca.end.seconds, inp: ca.inPoint.seconds, n: ca.name, vol: 1 }; try { ea.p = ca.projectItem.getMediaPath(); } catch (x) {} for (k = 0; k < ca.components.numItems; k++) if (ca.components[k].displayName === "Volumen") ea.vol = ca.components[k].properties[1].getValue(); r.push(ea); } }
+  var f2 = new File("/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/rev/audio.json"); f2.encoding = "UTF-8"; f2.open("w"); f2.write(JSON.stringify(r)); f2.close(); return "ok " + r.length; })();

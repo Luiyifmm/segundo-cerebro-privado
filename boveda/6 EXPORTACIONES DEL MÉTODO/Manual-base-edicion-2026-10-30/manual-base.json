@@ -1,0 +1,1325 @@
+{
+ "version": 1,
+ "fecha": "2026-10-30",
+ "autor": "Claude de Luis",
+ "reglas": [
+  {
+   "id": "ritmo-001",
+   "area": "ritmo",
+   "regla": "Edita natural y elegante: pocos efectos, pocos sonidos y un gráfico solo donde aclare una idea",
+   "valores": {
+    "graficos_por_idea_max": 1,
+    "sonidos": "uno por cambio visual, no por palabra"
+   },
+   "por_que": "Decisión hablada con Amin: nada de sobrecarga dopamínica; referencias Víctor Heras (@herasmedia) y Jordan Belfort.",
+   "origen": "correccion",
+   "evidencia": "2026-10-10: el usuario transmite lo hablado con Amin para sus vídeos y lo extiende a los demás clientes.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Cuenta los elementos añadidos por cada 10 s del final; si hay más de un gráfico por idea o un sonido sin cambio visual debajo, sobra.",
+   "excepciones": "Trials o vídeos de prueba que pidan explícitamente un estilo más cargado.",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-001",
+   "area": "graficos",
+   "regla": "Nunca tapes la cara",
+   "valores": {},
+   "por_que": "Fue la primera queja del usuario.",
+   "origen": "correccion",
+   "evidencia": "2026-10-08: imágenes que tapaban a la persona.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Fotograma en cada entrada de gráfico o imagen: la caja del gráfico no corta la cara.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: posición fija fuera de la caja de la cara; comprobar con fotogramas.",
+   "estado": "igual"
+  },
+  {
+   "id": "gancho-001",
+   "area": "gancho",
+   "regla": "Abre con la frase más fuerte en los primeros 3 s y nunca con el logo",
+   "valores": {
+    "gancho_max_s": 3,
+    "gancho_youtube_largo_s": [
+     10,
+     20
+    ]
+   },
+   "por_que": "El espectador decide en los primeros segundos.",
+   "origen": "referencia",
+   "evidencia": "Referencias analizadas; caso-001 de Amin abre con 'La vulgaridad genera deseo' en el s 0.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Fotograma del s 0,5: debe verse la persona hablando o el título del gancho; el primer sonido antes de 0,6 s.",
+   "excepciones": "Si el guion ya trae el gancho delante (lo escribió el cliente), no reordenar.",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-001",
+   "area": "cortes",
+   "regla": "Quita toda pausa de 0,4 s o más y deja aire de 0,08 s antes y 0,15 s después de cada pieza",
+   "valores": {
+    "pausa_min_s": 0.4,
+    "aire_antes_s": 0.08,
+    "aire_despues_s": 0.15,
+    "aire_si_corta_silabas_s": 0.12,
+    "tramo_min_s": 0.15
+   },
+   "por_que": "Así el ritmo es continuo sin comerse sílabas.",
+   "origen": "medicion",
+   "evidencia": "Primer corte automático frente al montaje manual del usuario: 11 frases y 13 cortes coinciden con ±0,2 s.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Retranscribe el audio del corte: no debe faltar ninguna palabra ni salir cortada; ninguna pausa interna ≥ 0,4 s (silencedetect).",
+   "excepciones": "Pausas dramáticas que el guion pide.",
+   "equivalente_sin_premiere": "ffmpeg `silencedetect` + `atrim`/`concat`; umbral relativo (siguiente regla).",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-004",
+   "area": "cortes",
+   "regla": "Quédate con la última toma completa de cada frase repetida",
+   "valores": {
+    "toma": "ultima_completa"
+   },
+   "por_que": "Normalmente la última es la buena; las anteriores son ensayo.",
+   "origen": "correccion",
+   "evidencia": "Decisión del usuario en los primeros lotes (octubre); caso-003: 4 tomas repetidas fuera.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Para cada frase del guion, solo aparece una vez en el final y es la de tiempo de origen más tardío.",
+   "excepciones": "Si la última toma tiene un fallo y otra está limpia, usar la limpia y decirlo.",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "subtitulos-001",
+   "area": "subtitulos",
+   "regla": "Escribe bloques de 1–3 palabras con la palabra clave al final; nunca una clave sola ni un bloque que acabe en artículo, preposición o conjunción",
+   "valores": {
+    "palabras_amin": [
+     1,
+     3
+    ],
+    "palabras_max_otros": 4,
+    "bloque_min_s": 0.45
+   },
+   "por_que": "Se lee de un vistazo y la clave remata la idea.",
+   "origen": "correccion",
+   "evidencia": "2026-10-22: propuesta rechazada por claves solas y textos cortados; caso-001: 53 bloques de 0,3–1,9 s.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Recorre el JSON de subtítulos: ningún bloque > 3 palabras (Amin), ninguno termina en 'de/la/que/y', ninguno es solo la clave; ninguno < 0,45 s.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: un componente por bloque leyendo `palabras.json`.",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-004",
+   "area": "graficos",
+   "regla": "Muestra la cifra en pantalla igual que la dice la voz",
+   "valores": {},
+   "por_que": "Si no coinciden, el espectador desconfía.",
+   "origen": "correccion",
+   "evidencia": "2026-10-29, corrección de un cliente.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Retranscribe el tramo y compara cifra dicha con cifra mostrada.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-003",
+   "area": "graficos",
+   "regla": "Usa imágenes conceptuales o satíricas que retengan, no stock neutro",
+   "valores": {
+    "fuente": "Pinterest ideas / ilustración",
+    "evitar": "stock genérico"
+   },
+   "por_que": "La imagen tiene que provocar, no decorar.",
+   "origen": "correccion",
+   "evidencia": "2026-10-10: 'sácalas de Pinterest… que generen controversia'.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Revisión humana de la hoja de candidatas antes de colocar.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-graficos-001",
+   "area": "graficos",
+   "regla": "En comparativas, pon lo malo arriba a la derecha y lo bueno arriba a la izquierda, en tarjetas pequeñas que no tapan la cara",
+   "valores": {
+    "malo": "arriba_derecha",
+    "bueno": "arriba_izquierda",
+    "ancho_tarjeta_pct": [
+     30,
+     40
+    ]
+   },
+   "por_que": "Es como lo marca y edita el usuario en los vídeos de Amin.",
+   "origen": "medicion",
+   "evidencia": "Marcadores de AMIN_1009_01 (2026-10-09) y edición a mano del usuario AMIN_1018_03 (fotogramas 0,0–21,3 s, revisado 2026-10-30).",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "Fotograma de cada pareja: la imagen 'mala' a la derecha, la 'buena' a la izquierda, ambas por encima de la cabeza.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: dos `Img` absolutos en las esquinas superiores.",
+   "estado": "igual"
+  },
+  {
+   "id": "sfx-001",
+   "area": "sfx",
+   "regla": "Pon sonido en los cambios, no en las palabras: un sonido por cambio visual",
+   "valores": {
+    "pop": "icono/imagen",
+    "whoosh": "movimiento o entrada de tarjeta",
+    "clic": "interfaz o botón",
+    "obturador": "foto que entra",
+    "riser_impacto": "revelación"
+   },
+   "por_que": "Un sonido sin cambio debajo es ruido.",
+   "origen": "correccion",
+   "evidencia": "2026-10-09: prueba de sonido aprobada ('ha mejorado el sonido').",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Para cada sonido del JSON, hay un cambio visual a ±1 fotograma.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "musica-001",
+   "area": "musica",
+   "regla": "Deja la voz 10–18 dB por encima de la música y súbela solo 2–3 dB en los silencios",
+   "valores": {
+    "voz_sobre_musica_db": [
+     10,
+     18
+    ],
+    "subida_en_silencios_db": [
+     2,
+     3
+    ]
+   },
+   "por_que": "La voz manda siempre.",
+   "origen": "correccion",
+   "evidencia": "2026-10-10: un cliente pidió la voz 'niquelada' muy por encima (~18 dB).",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Separa voz y música (stems) y mide la diferencia de LUFS por tramo.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `sidechaincompress` o volumen por tramos.",
+   "estado": "igual"
+  },
+  {
+   "id": "audio-001",
+   "area": "audio",
+   "regla": "Mide los dos canales de cada bruto al recibirlo; si la voz va en uno, cópiala al otro",
+   "valores": {
+    "canal_muerto_db": -91
+   },
+   "por_que": "Un vídeo se exportó 'sin voz' en el móvil.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: voz solo en el canal derecho en cámaras de un cliente.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "ffmpeg `pan=mono|c0=c0,volumedetect` y `c0=c1`: ambos canales con nivel similar.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `pan=stereo|c0=c1|c1=c1`.",
+   "estado": "igual"
+  },
+  {
+   "id": "audio-003",
+   "area": "audio",
+   "regla": "Termina la mezcla cerca de −14 LUFS con el pico verdadero en −1 dBTP o menos",
+   "valores": {
+    "lufs": -14,
+    "aviso_lufs": [
+     -18,
+     -11
+    ],
+    "true_peak_max_dbtp": -1.0
+   },
+   "por_que": "Por encima de −1 dBTP el AAC satura en los golpes.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: dos exportaciones finales medidas con earshot por encima de 0 dBTP (+0,1 y +0,3 con 517 muestras saturadas).",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "earshot measure del archivo final: true peak ≤ −1,0 y LUFS entre −16 y −12.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `loudnorm=I=-14:TP=-1.5:LRA=11` (dos pasadas) o `alimiter`.",
+   "estado": "cambia"
+  },
+  {
+   "id": "qc-001",
+   "area": "qc",
+   "regla": "Revisa 6–16 fotogramas del final antes de darlo por bueno: gancho, cada gráfico, cada cambio de sección, CTA y último fotograma",
+   "valores": {
+    "fotogramas": [
+     6,
+     16
+    ],
+    "buscar": [
+     "texto sobre la cara",
+     "gráfico que pisa subtítulo",
+     "cifra ≠ voz",
+     "faltas",
+     "huecos negros"
+    ]
+   },
+   "por_que": "Casi todos los fallos que vio el usuario se ven en un fotograma.",
+   "origen": "correccion",
+   "evidencia": "Lecciones de octubre.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Hoja de contacto guardada junto a la entrega.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `select` + `tile`.",
+   "estado": "igual"
+  },
+  {
+   "id": "qc-002",
+   "area": "qc",
+   "regla": "Al corregir, aplica solo lo pedido y vuelve a leer el montaje antes de cada cambio",
+   "valores": {},
+   "por_que": "'No agrandes los cuadros' significa solo eso; el usuario edita a la vez.",
+   "origen": "correccion",
+   "evidencia": "2026-10-29 y 2026-10-30.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Diff del JSON de montaje antes/después: solo cambian los campos pedidos.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "ritmo-002",
+   "area": "ritmo",
+   "regla": "Pon un cambio visual cada 0,5–2 s en marca personal y deja 2–5 s por idea en educativo",
+   "valores": {
+    "cambio_visual_s": [
+     0.5,
+     2.0
+    ],
+    "por_idea_educativo_s": [
+     2,
+     5
+    ]
+   },
+   "por_que": "Las referencias analizadas mantienen la atención con cambios frecuentes pero sin saturar.",
+   "origen": "referencia",
+   "evidencia": "Referencias del usuario analizadas en octubre (hojas de contacto de 72 de 156 vídeos).",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Lista los cortes, cambios de zoom, imágenes y gráficos del final; ningún tramo sin cambio > 4 s salvo plano intencionado.",
+   "excepciones": "Momentos emocionales o de silencio buscado.",
+   "equivalente_sin_premiere": "Remotion: zooms y entradas por `Sequence`; ffmpeg: cortes con `trim`/`concat`.",
+   "estado": "igual"
+  },
+  {
+   "id": "ritmo-003",
+   "area": "ritmo",
+   "regla": "Varía el patrón: rápido, rápido, pausa; corta en la primera sílaba",
+   "valores": {
+    "patron": "rapido-rapido-pausa"
+   },
+   "por_que": "Un ritmo uniforme se vuelve monótono.",
+   "origen": "a_ojo",
+   "evidencia": "Práctica propia desde 2026-10-09; rango, no número.",
+   "ambito": "general",
+   "confianza": "baja",
+   "como_verificar": "Mira la lista de duraciones de piezas: no deben ser todas iguales (desviación > 0,4 s).",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "gancho-002",
+   "area": "gancho",
+   "regla": "Marca el arranque con un sonido en los primeros 2 s",
+   "valores": {
+    "primer_sonido_max_s": 2.0
+   },
+   "por_que": "Los reels de referencia suenan desde el principio; el silencio inicial pierde a quien llega por autoplay.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: earshot critique sobre un reel terminado; referencia: primer sonido a 0,13 s de mediana. Caso-001 de Amin: riser de 0 a 1,57 s.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "earshot measure/timeline: primer evento antes de 2 s.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `adelay` del sonido al instante 0.",
+   "estado": "nuevo"
+  },
+  {
+   "id": "cortes-002",
+   "area": "cortes",
+   "regla": "Calcula el umbral de silencio relativo a la sonoridad del clip: LUFS integrados menos 10 dB",
+   "valores": {
+    "umbral_relativo_db": -10,
+    "umbral_fijo_alternativo_db": -35,
+    "silencio_min_s": 0.45
+   },
+   "por_que": "Un umbral fijo falla entre clips grabados a distinto volumen.",
+   "origen": "medicion",
+   "evidencia": "Probado en los primeros cortes de octubre.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Comprueba que ningún tramo con palabras (transcripción) queda fuera.",
+   "excepciones": "Brutos con puerta de ruido y apuntador: ver amin-cortes-001.",
+   "equivalente_sin_premiere": "ffmpeg `ebur128` para el LUFS + `silencedetect=noise=<LUFS-10>dB:d=0.45`.",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-003",
+   "area": "cortes",
+   "regla": "Coloca cada punto de corte en el mínimo de energía entre dos palabras, no en el tiempo de Whisper",
+   "valores": {
+    "ventana_rms_ms": 10,
+    "media_movil": 3,
+    "error_whisper_max_s": 0.5
+   },
+   "por_que": "Whisper se equivoca hasta 0,5 s en los tiempos e inventa palabras.",
+   "origen": "medicion",
+   "evidencia": "Recortes finos de octubre; validados retranscribiendo cada montaje de prueba.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Monta el audio de prueba con concat y retranscribe: si una palabra sale cortada, el corte está mal.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Perfil RMS en Python/numpy sobre el WAV a 16 kHz; con mlx-whisper solo para localizar la zona.",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-005",
+   "area": "cortes",
+   "regla": "Quita indicaciones fuera de guion, frases sin terminar y palabras inventadas por la transcripción",
+   "valores": {
+    "ejemplos": [
+     "otra vez",
+     "¿así?",
+     "listo"
+    ]
+   },
+   "por_que": "No forman parte del mensaje.",
+   "origen": "correccion",
+   "evidencia": "Caso-002: 'Dios es mi Dios' y 'Que hermana' quitadas a mano (2026-10-09).",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Lee la transcripción del final: no queda ninguna de esas frases.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-006",
+   "area": "cortes",
+   "regla": "Si cambias una cifra o una alternativa dicha, corta el audio; no cambies solo el gráfico",
+   "valores": {
+    "corte_en": "silencio previo a la alternativa"
+   },
+   "por_que": "El texto en pantalla tiene que coincidir con lo que se oye.",
+   "origen": "correccion",
+   "evidencia": "2026-10-29, corrección de un cliente (fitness): quitar del audio las cifras alternativas.",
+   "ambito": "cliente",
+   "confianza": "alta",
+   "como_verificar": "Retranscribe el tramo: la cifra dicha = la del gráfico.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `atrim` en el mínimo de energía antes de la 'o'.",
+   "estado": "igual"
+  },
+  {
+   "id": "cortes-007",
+   "area": "cortes",
+   "regla": "Solapa como máximo 3–4 cortes por vídeo, adelantando unos fotogramas la frase siguiente",
+   "valores": {
+    "solapes_max": 4
+   },
+   "por_que": "Da continuidad, pero abusar se nota.",
+   "origen": "correccion",
+   "evidencia": "Truco que el usuario usa en sus ediciones de un cliente (2026-10-09).",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Cuenta los solapes en la línea de tiempo o en el JSON de cortes.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg: dos pistas de audio con `adelay` y `amix`.",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-cortes-001",
+   "area": "cortes",
+   "regla": "En brutos con puerta de ruido y apuntador, detecta silencio a −58 dB y guarda solo tramos con palabras y pico ≥ −50 dB",
+   "valores": {
+    "silencio_db": -58,
+    "pico_voz_min_db": -50,
+    "voz_principal_db": -35,
+    "apuntador_db": -60
+   },
+   "por_que": "Los brutos de Amin traen una voz baja que dicta cada frase; Whisper la transcribe.",
+   "origen": "medicion",
+   "evidencia": "2026-10-11, brutos de Amin medidos.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "En el final no se oye el apuntador: earshot timeline sin eventos de voz entre frases.",
+   "excepciones": "Brutos sin apuntador.",
+   "equivalente_sin_premiere": "ffmpeg `silencedetect=noise=-58dB` + `astats` por tramo.",
+   "estado": "igual"
+  },
+  {
+   "id": "subtitulos-002",
+   "area": "subtitulos",
+   "regla": "Marca como clave solo la palabra que lleva el significado y solo si es la última del bloque",
+   "valores": {
+    "claves_por_bloque_max": 1
+   },
+   "por_que": "Una clave en un conector no aporta.",
+   "origen": "correccion",
+   "evidencia": "2026-10-22.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Ninguna clave es artículo, preposición, conjunción o verbo auxiliar.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "subtitulos-003",
+   "area": "subtitulos",
+   "regla": "Coloca los subtítulos sobre el pecho, nunca sobre ojos ni boca, dentro de la zona segura",
+   "valores": {
+    "altura_pct": [
+     60,
+     70
+    ],
+    "seguro_arriba_px": 220,
+    "seguro_abajo_px": 420,
+    "seguro_derecha_px": 140,
+    "lienzo": "1080x1920"
+   },
+   "por_que": "Legible y fuera de la interfaz de Instagram.",
+   "origen": "referencia",
+   "evidencia": "Zonas medidas en referencias; caso-001: subtítulos a la altura del pecho.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Fotograma de cada plano: el texto no toca la cara ni entra en las franjas seguras.",
+   "excepciones": "Cuando hay títulos en la intro, subir los subtítulos de esos segundos (y≈0,32).",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "subtitulos-004",
+   "area": "subtitulos",
+   "regla": "Revisa la ortografía y completa la palabra que la transcripción corta",
+   "valores": {},
+   "por_que": "Una falta en pantalla resta credibilidad.",
+   "origen": "correccion",
+   "evidencia": "Correcciones repetidas del usuario en octubre.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Pasa el texto de todos los bloques por un corrector y compáralo con el guion.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "subtitulos-005",
+   "area": "subtitulos",
+   "regla": "Si un gráfico muestra la operación o la cifra, quítala del subtítulo",
+   "valores": {},
+   "por_que": "Dos veces el mismo dato en pantalla estorba.",
+   "origen": "correccion",
+   "evidencia": "Octubre, ediciones de un cliente de fitness.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "En los segundos de cada gráfico con cifra, el subtítulo no repite esa cifra.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-subtitulos-001",
+   "area": "subtitulos",
+   "regla": "Usa Instrument Serif en el subtítulo y Anton en la palabra clave",
+   "valores": {
+    "letra_linea": "Instrument Serif",
+    "letra_clave": "Anton"
+   },
+   "por_que": "Marca actual de Amin.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: mensaje de Amin con su marca nueva. Sustituye a SF Pro y al azul #1E8BFF.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "Fotograma con subtítulo: la línea es serif y la clave es Anton.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: `@remotion/google-fonts/InstrumentSerif` y `/Anton`.",
+   "estado": "cambia"
+  },
+  {
+   "id": "amin-subtitulos-002",
+   "area": "subtitulos",
+   "regla": "Deja la línea pegada encima de la clave como un bloque compacto alineado a la izquierda, con la clave unas 2,4 veces más grande",
+   "valores": {
+    "ratio_clave_linea": 2.4,
+    "alineacion": "izquierda",
+    "sombra_op_dif_dist": [
+     100,
+     38,
+     16
+    ]
+   },
+   "por_que": "Es el aspecto del vídeo de ejemplo del usuario para Amin.",
+   "origen": "medicion",
+   "evidencia": "2026-10-09: medido en los primeros 4 s de su ejemplo (AMIN_1009_01). Medido con SF Pro: con Instrument Serif + Anton hay que revalidar el ratio.",
+   "ambito": "amin",
+   "confianza": "media",
+   "como_verificar": "Fotograma: altura de la clave / altura de la línea ≈ 2,4; sin hueco visible entre ambas.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: `flexDirection: column`, `alignItems: flex-start`, `textShadow`.",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-subtitulos-003",
+   "area": "subtitulos",
+   "regla": "Anima las entradas de forma mínima: la línea con fundido de 3 fotogramas y la clave subiendo unos píxeles en 6, sin desenfoque",
+   "valores": {
+    "entrada_linea_f": 3,
+    "entrada_clave_f": 6,
+    "desenfoque": 0
+   },
+   "por_que": "El usuario pidió subtítulos sencillos y una animación minimalista.",
+   "origen": "correccion",
+   "evidencia": "2026-10-09, dos correcciones seguidas.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "Fotogramas del primer y sexto fotograma de un bloque: sin desenfoque ni rebote.",
+   "excepciones": "Trials: animación libre.",
+   "equivalente_sin_premiere": "Remotion: `interpolate(frame,[0,3],[0,1])` para la opacidad.",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-subtitulos-004",
+   "area": "subtitulos",
+   "regla": "Resalta solo con el color de marca; nunca en gris la palabra 'mala'",
+   "valores": {
+    "malo": "#E5322D",
+    "bueno": "#F5C542"
+   },
+   "por_que": "Corrección del usuario: el gris para lo malo no gustó. Hoy los colores son rojo/dorado de la marca nueva.",
+   "origen": "correccion",
+   "evidencia": "2026-10-09: 'pobre' en gris corregido. 2026-10-30: colores nuevos de Amin.",
+   "ambito": "amin",
+   "confianza": "media",
+   "como_verificar": "Ninguna clave en gris; en comparativas, malo en #E5322D y bueno en #F5C542.",
+   "excepciones": "Si la clave no es de una comparativa, ver duda para Amin sobre el color por defecto.",
+   "equivalente_sin_premiere": "",
+   "estado": "cambia"
+  },
+  {
+   "id": "graficos-002",
+   "area": "graficos",
+   "regla": "Haz que cada imagen o gráfico aparezca justo cuando se nombra lo que muestra",
+   "valores": {
+    "tolerancia_f": 1
+   },
+   "por_que": "Si llega antes o después, se pierde la relación.",
+   "origen": "correccion",
+   "evidencia": "2026-10-08 y casos 001–002 de Amin.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Para cada gráfico, la palabra que lo dispara (palabras.json) cae a ±1 fotograma de su entrada.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: `from = Math.round(inicioPalabra*fps)`.",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-005",
+   "area": "graficos",
+   "regla": "Muestra los textos de contexto (píldoras) entre 1 y 2 s como máximo",
+   "valores": {
+    "pildora_max_s": 2
+   },
+   "por_que": "Más tiempo estorba.",
+   "origen": "correccion",
+   "evidencia": "2026-10-29, corrección de un cliente.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Duración de cada píldora en el JSON de gráficos ≤ 2 s.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-006",
+   "area": "graficos",
+   "regla": "En gráficos de cálculo, enseña una operación cada vez y deja fijo solo el resultado",
+   "valores": {
+    "inicio": "???",
+    "fijos": "solo resultados"
+   },
+   "por_que": "Con mucho texto a la vez no se entiende.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30, audio de un cliente de fitness sobre una pizarra.",
+   "ambito": "cliente",
+   "confianza": "alta",
+   "como_verificar": "Fotogramas del gráfico: nunca hay dos operaciones abiertas a la vez.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: estado por tiempo; cada operación es una `Sequence`.",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-007",
+   "area": "graficos",
+   "regla": "Mide la franja real de los subtítulos y haz que los gráficos terminen por encima",
+   "valores": {
+    "margen_px": 15
+   },
+   "por_que": "Un gráfico que pisa el subtítulo obliga a rehacerlo.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: 'que no dé con los subtítulos'.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Fotograma real del montaje final con subtítulos y gráfico a la vez: sin solape.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "En Remotion, subtítulos y gráficos en el mismo render: comprobar con `npx remotion still`.",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-008",
+   "area": "graficos",
+   "regla": "Entra con opacidad o desplazamiento corto; no muevas ni agrandes lo que el usuario dejó fijo",
+   "valores": {
+    "spring": {
+     "damping": 14,
+     "stiffness": 195,
+     "mass": 0.7
+    },
+    "curva": "bezier(0.16,1,0.3,1)",
+    "salida_s": [
+     0.2,
+     0.35
+    ],
+    "escalonado_ms": [
+     40,
+     80
+    ]
+   },
+   "por_que": "Las entradas que 'salen hacia fuera' no gustaron; movimiento suave y sin rebote.",
+   "origen": "correccion",
+   "evidencia": "2026-10-29: 'no agrandes los cuadros', 'no los muevas'. Valores de spring a ojo.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Fotogramas de entrada: sin rebote visible; la salida dura menos que la entrada.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion `spring()` / `Easing.bezier`.",
+   "estado": "igual"
+  },
+  {
+   "id": "graficos-009",
+   "area": "graficos",
+   "regla": "Limita las familias de letra a 2 y el contraste del texto a ≥ 4,5:1",
+   "valores": {
+    "familias_max": 2,
+    "contraste_min": 4.5,
+    "titular_min_px": 120
+   },
+   "por_que": "Legibilidad en móvil.",
+   "origen": "referencia",
+   "evidencia": "Referencias analizadas.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Mide el contraste texto/fondo en un fotograma.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-graficos-002",
+   "area": "graficos",
+   "regla": "Para motion graphics a pantalla completa usa collage editorial: papel con cuadrícula, recortes en blanco y negro con borde blanco, un círculo liso de color y movimiento a saltos",
+   "valores": {
+    "saltos_por_s": 12
+   },
+   "por_que": "Es la referencia que el usuario mandó para Amin.",
+   "origen": "referencia",
+   "evidencia": "2026-10-10: dos pines de Pinterest tras ver la versión con emojis.",
+   "ambito": "amin",
+   "confianza": "media",
+   "como_verificar": "Fotograma del motion graphic: fondo papel o negro, recortes en B/N, un solo color de acento.",
+   "excepciones": "Los motion graphics con emojis también se aceptan.",
+   "equivalente_sin_premiere": "Remotion (componentes Papel, Recorte, Circulo).",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-graficos-003",
+   "area": "graficos",
+   "regla": "Pon un degradado oscuro detrás de los subtítulos cuando la pared clara les quite contraste",
+   "valores": {},
+   "por_que": "Lo hizo el usuario en su edición a mano.",
+   "origen": "medicion",
+   "evidencia": "AMIN_1018_03: 'Degradado a negro subtítulos.png' de 0 a 21,9 s.",
+   "ambito": "amin",
+   "confianza": "media",
+   "como_verificar": "Fotograma: contraste del subtítulo ≥ 4,5:1.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `overlay` de un PNG con alfa; Remotion `linear-gradient`.",
+   "estado": "nuevo"
+  },
+  {
+   "id": "encuadre-001",
+   "area": "encuadre",
+   "regla": "Simula cambios de plano alternando la escala entre piezas consecutivas",
+   "valores": {
+    "escalas": [
+     100,
+     112,
+     118,
+     128,
+     130
+    ],
+    "zoom_enfasis_pct": [
+     105,
+     120
+    ]
+   },
+   "por_que": "Un salto de corte parece un cambio de cámara.",
+   "origen": "medicion",
+   "evidencia": "Caso-002 (AMIN_1009_01): 100/112/100/112/100/112/130/100/118/100/128/100; caso-001: plano abierto/cerrado alternos.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Lista de escalas por pieza: dos piezas seguidas nunca con la misma escala.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `scale`+`crop` por pieza; Remotion `transform: scale()`.",
+   "estado": "igual"
+  },
+  {
+   "id": "encuadre-002",
+   "area": "encuadre",
+   "regla": "Usa empuje lento en pausas o antes de un gráfico",
+   "valores": {
+    "pct_por_s": [
+     0.5,
+     2.0
+    ],
+    "ejemplo": "100→107 % en ~4 s"
+   },
+   "por_que": "Da vida a un plano largo.",
+   "origen": "medicion",
+   "evidencia": "Caso-003 (AMIN_1010_01): zoom lento ×1,07 antes del segundo motion graphic.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Mide la escala al inicio y al final del tramo.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `zoompan`; Remotion `interpolate`.",
+   "estado": "igual"
+  },
+  {
+   "id": "audio-002",
+   "area": "audio",
+   "regla": "Mide el nivel de los silencios antes y después de procesar la voz; si el ruido sube, deja la voz sin procesar",
+   "valores": {
+    "subida_ruido_max_db": 2
+   },
+   "por_que": "Una cadena de mejora subió 5 dB el ruido de un gimnasio y el usuario lo notó.",
+   "origen": "correccion",
+   "evidencia": "Octubre, cliente de fitness.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "earshot measure: noise floor antes/después.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "audio-004",
+   "area": "audio",
+   "regla": "Normaliza la voz cruda de Amin (≈ −33 LUFS) antes de mezclar",
+   "valores": {
+    "voz_cruda_lufs": -33,
+    "loudnorm": "I=-15:TP=-1.5"
+   },
+   "por_que": "Su bruto viene muy bajo.",
+   "origen": "medicion",
+   "evidencia": "Octubre, brutos de Amin.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "earshot measure de la voz normalizada: −15 ±1 LUFS.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `loudnorm=I=-15:TP=-1.5`.",
+   "estado": "igual"
+  },
+  {
+   "id": "amin-musica-001",
+   "area": "musica",
+   "regla": "Pon música solo si Amin la elige",
+   "valores": {},
+   "por_que": "Decisión de Amin.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: mensaje de Amin.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "El proyecto no lleva pista de música sin una indicación de Amin.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "cambia"
+  },
+  {
+   "id": "sfx-002",
+   "area": "sfx",
+   "regla": "Usa un solo pop por objeto que aparece",
+   "valores": {
+    "archivo_tipo": "un único golpe",
+    "evitar": "archivos con varios pops"
+   },
+   "por_que": "Un archivo con varios pops parece que salen varios objetos.",
+   "origen": "correccion",
+   "evidencia": "2026-10-22.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "earshot describe/onsets del archivo: un solo ataque.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "sfx-003",
+   "area": "sfx",
+   "regla": "Coloca el ataque del sonido en el fotograma exacto del movimiento; el clic, 0,02 s antes",
+   "valores": {
+    "tolerancia_f": 1,
+    "adelanto_clic_s": 0.02,
+    "adelanto_obturador_s": 0.03
+   },
+   "por_que": "Un sonido que llega tarde se nota en el acto.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: 24 de 24 sonidos en su fotograma (verify.py) en un reel de fitness; caso-002: obturador 0,03 s antes de cada imagen.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "earshot timeline con los tiempos de los gráficos como cues: offset ≤ 42 ms.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `adelay=<ms>` por sonido + `amix`.",
+   "estado": "igual"
+  },
+  {
+   "id": "sfx-004",
+   "area": "sfx",
+   "regla": "Antes de añadir efectos a un montaje, escucha con earshot si ya lleva los suyos y solo sonoriza los cambios que estén en silencio",
+   "valores": {
+    "herramienta": "earshot timeline",
+    "ventana_s": 0.15
+   },
+   "por_que": "Encima de los efectos del editor se duplican y saturan.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: un reel ya traía ~10 efectos propios; se añadieron 26 solo en rótulos sin sonido.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Ningún efecto nuevo a menos de 150 ms de un evento que ya estaba en el audio original.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "nuevo"
+  },
+  {
+   "id": "sfx-005",
+   "area": "sfx",
+   "regla": "Usa solo grabaciones reales; nunca camas ni efectos sintetizados por código",
+   "valores": {
+    "fuentes": [
+     "biblioteca propia",
+     "Openverse CC0"
+    ],
+    "comprobacion": "earshot realness p_real ≥ 0,77"
+   },
+   "por_que": "El usuario pidió sonidos reales; lo sintetizado suena barato.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: petición del usuario. Sustituye a las camas sintetizadas de AMIN_1010_01 (2026-10-10).",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "earshot realness de la mezcla: p_real ≥ 0,77 en todas las ventanas.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "cambia"
+  },
+  {
+   "id": "sfx-006",
+   "area": "sfx",
+   "regla": "Separa dos sonidos largos del mismo tipo al menos 0,4 s; si no caben, deja uno",
+   "valores": {
+    "separacion_min_s": 0.4
+   },
+   "por_que": "Dos colas de 1 s encima suenan a barro.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: dos 'Data Collect' de 1 s a 0,38 s; se dejó uno por par.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "En el JSON de sonidos, ninguna pareja del mismo tipo a < 0,4 s.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "nuevo"
+  },
+  {
+   "id": "sfx-007",
+   "area": "sfx",
+   "regla": "Bajo voz, atenúa los efectos solo 4–6 dB; con una atenuación de 13 dB desaparecen",
+   "valores": {
+    "atenuacion_db": [
+     4,
+     6
+    ],
+    "atenuacion_que_los_borra_db": 13
+   },
+   "por_que": "Si la voz suena todo el vídeo, una atenuación fuerte deja los efectos inaudibles.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: real-sfx 'normal' quitó 13 dB y 5 sonidos quedaron 30 dB bajo el resto; con 'light' (5,7 dB) la voz siguió limpia (eje speech 10/10).",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "critique.py de real-sfx: ejes audibility ≥ 8 y speech ≥ 8.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `sidechaincompress=threshold=0.05:ratio=2`.",
+   "estado": "nuevo"
+  },
+  {
+   "id": "sfx-008",
+   "area": "sfx",
+   "regla": "Quita los graves de los golpes que suenan encima de música con bajo",
+   "valores": {
+    "paso_alto_hz": 150
+   },
+   "por_que": "Se amontonan con el bajo y embarran.",
+   "origen": "medicion",
+   "evidencia": "2026-10-30: eje low_end de 5,5 a 10 tras paso alto de 150 Hz en 3 golpes.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "critique.py: low_end ≥ 8.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `highpass=f=150`.",
+   "estado": "nuevo"
+  },
+  {
+   "id": "sfx-009",
+   "area": "sfx",
+   "regla": "Mantén una familia de sonidos por tipo de elemento en todo el vídeo (mismo pop en la lista, mismo whoosh en tarjetas)",
+   "valores": {},
+   "por_que": "Es el lenguaje de interfaz del vídeo; las métricas de variedad lo marcan como fallo y no lo es.",
+   "origen": "a_ojo",
+   "evidencia": "2026-10-30: real-sfx puntuó variedad 1/10 por repetir el pop de lista; se mantuvo a propósito.",
+   "ambito": "general",
+   "confianza": "media",
+   "como_verificar": "Un archivo por tipo de elemento; como mucho dos variantes alternas.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "nuevo"
+  },
+  {
+   "id": "amin-sfx-001",
+   "area": "sfx",
+   "regla": "Pon un obturador de cámara cada vez que entra una imagen; riser al empezar, golpe en el primer cambio de plano y pop + clic en la tarjeta de seguir",
+   "valores": {
+    "obturador": "entrada de cada imagen",
+    "riser_s": [
+     0,
+     1.57
+    ],
+    "golpe_s": 2.97,
+    "cta": [
+     "Smooth Pop al entrar",
+     "Mouse Click 01 al pulsar"
+    ]
+   },
+   "por_que": "Es como lo hizo el usuario a mano.",
+   "origen": "medicion",
+   "evidencia": "AMIN_1018_03 leído del proyecto de Premiere el 2026-10-30: 8 obturadores, Sharp Riser 0–1,57 s, BOOM IMPACT en 2,97 s, Smooth Pop 31,8 s, Mouse Click 33,33 s.",
+   "ambito": "amin",
+   "confianza": "alta",
+   "como_verificar": "earshot timeline del final: un evento a ±1 f de cada imagen y del CTA.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "nuevo"
+  },
+  {
+   "id": "sfx-010",
+   "area": "sfx",
+   "regla": "No digas cómo suena algo sin una medida: cita el número de earshot",
+   "valores": {
+    "ejemplos": [
+     "−14,2 LUFS",
+     "match strong z +3,9",
+     "p_real 0,92"
+    ]
+   },
+   "por_que": "La IA no oye; sin medida es una invención.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30: regla adoptada al instalar earshot.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Cada afirmación sobre sonido en un informe lleva un número.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "nuevo"
+  },
+  {
+   "id": "color-001",
+   "area": "color",
+   "regla": "Trata el HDR de iPhone (HLG) antes de nada: tono a SDR o se ve quemado",
+   "valores": {
+    "detectar": "color_transfer=arib-std-b67",
+    "tonemap": "zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv"
+   },
+   "por_que": "Sin tratarlo se ve lavado o brillante en el móvil.",
+   "origen": "medicion",
+   "evidencia": "Octubre, brutos de iPhone.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "ffprobe del final: color_transfer=bt709; fotograma sin zonas quemadas.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg con el filtro de 'valores'.",
+   "estado": "igual"
+  },
+  {
+   "id": "color-002",
+   "area": "color",
+   "regla": "Aplica la corrección base aceptada por el usuario a todas las tomas",
+   "valores": {
+    "exposicion": -0.45,
+    "contraste": 14,
+    "resaltados": -45,
+    "sombras": 4,
+    "blancos": -28,
+    "negros": -8,
+    "nitidez": 12
+   },
+   "por_que": "Fue la corrección aceptada para material de iPhone.",
+   "origen": "correccion",
+   "evidencia": "Octubre, aceptada por el usuario.",
+   "ambito": "premiere",
+   "confianza": "media",
+   "como_verificar": "Todas las piezas llevan la corrección (las añadidas después llegan sin ella).",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg aproximado: `eq=contrast=1.14:brightness=-0.03` + `curves` para resaltados; validar a ojo frente a un fotograma de Premiere.",
+   "estado": "igual"
+  },
+  {
+   "id": "cta-001",
+   "area": "cta",
+   "regla": "Cierra con una sola llamada a la acción, dicha y escrita, visible al menos 2 s",
+   "valores": {
+    "visible_min_s": 2,
+    "empieza_antes_de_sigueme_s": 2.2
+   },
+   "por_que": "Más de una CTA divide la acción.",
+   "origen": "referencia",
+   "evidencia": "Referencias + caso-001 (tarjeta de seguir 31,8–34,2 s).",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "Fotogramas del cierre: tarjeta visible ≥ 2 s; el botón cambia a 'Siguiendo' cuando se dice 'sígueme'.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Remotion: componente de tarjeta con `Sequence from`.",
+   "estado": "igual"
+  },
+  {
+   "id": "qc-003",
+   "area": "qc",
+   "regla": "Al informar, separa lo que hiciste de lo que ya estaba",
+   "valores": {},
+   "por_que": "Un informe confuso hizo creer al usuario que se habían tocado cosas.",
+   "origen": "correccion",
+   "evidencia": "2026-10-30.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "El informe tiene dos listas: 'hecho por mí' y 'visto, ya estaba'.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "",
+   "estado": "igual"
+  },
+  {
+   "id": "entrega-001",
+   "area": "entrega",
+   "regla": "Exporta previsualizaciones a 1080×1920, 30 fps, H.264 CRF 17 y AAC 256 kb/s",
+   "valores": {
+    "resolucion": "1080x1920",
+    "fps": 30,
+    "crf": 17,
+    "audio": "AAC 48 kHz 256 kb/s"
+   },
+   "por_que": "Buena calidad y peso razonable.",
+   "origen": "medicion",
+   "evidencia": "Octubre.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "ffprobe del archivo.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg `-c:v libx264 -crf 17 -pix_fmt yuv420p -c:a aac -b:a 256k`.",
+   "estado": "igual"
+  },
+  {
+   "id": "entrega-002",
+   "area": "entrega",
+   "regla": "Saca portadas del fotograma 4K más nítido (varianza del laplaciano), mirando manos y cara al 100 %",
+   "valores": {
+    "resolucion": "2160x3840"
+   },
+   "por_que": "Ampliar desde 1080 se nota.",
+   "origen": "correccion",
+   "evidencia": "Octubre, portadas.",
+   "ambito": "general",
+   "confianza": "alta",
+   "como_verificar": "La portada mide 2160×3840 y no tiene desenfoque de movimiento en manos.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "ffmpeg + OpenCV `Laplacian().var()`.",
+   "estado": "igual"
+  },
+  {
+   "id": "premiere-001",
+   "area": "entrega",
+   "regla": "Entrega todo editable: clips cortados, zooms como escala, subtítulos como plantilla con texto y gráficos en su pista",
+   "valores": {},
+   "por_que": "El usuario revisa y pule cada vídeo.",
+   "origen": "correccion",
+   "evidencia": "2026-10-08.",
+   "ambito": "premiere",
+   "confianza": "alta",
+   "como_verificar": "Abrir el proyecto: ningún texto ni zoom quemado en un render.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "Sin Premiere: guardar el montaje como JSON (cortes, subtítulos, gráficos, sonidos) para poder re-renderizar con cambios.",
+   "estado": "igual"
+  },
+  {
+   "id": "premiere-002",
+   "area": "subtitulos",
+   "regla": "Coloca las plantillas en una pista vacía y recórtalas con clip.end y después clip.outPoint",
+   "valores": {},
+   "por_que": "importMGT mete 30 s y pisa lo de detrás; con un solo recorte el clip no se estira.",
+   "origen": "correccion",
+   "evidencia": "2026-10-19: se borraron 32 subtítulos.",
+   "ambito": "premiere",
+   "confianza": "alta",
+   "como_verificar": "Cuenta los clips colocados frente a los esperados.",
+   "excepciones": "",
+   "equivalente_sin_premiere": "No aplica (Remotion).",
+   "estado": "igual"
+  }
+ ],
+ "prohibido": [
+  {
+   "id": "no-001",
+   "que": "Tapar la cara con texto, imagen o gráfico.",
+   "por_que": "Primera queja del usuario.",
+   "evidencia": "2026-10-08."
+  },
+  {
+   "id": "no-002",
+   "que": "Usar stock neutro como imagen de apoyo.",
+   "por_que": "No retiene.",
+   "evidencia": "2026-10-10."
+  },
+  {
+   "id": "no-003",
+   "que": "Dejar una palabra clave sola en pantalla o acabar un bloque en artículo/preposición.",
+   "por_que": "Se lee mal.",
+   "evidencia": "2026-10-22: propuesta rechazada."
+  },
+  {
+   "id": "no-004",
+   "que": "Usar archivos con varios pops seguidos ('Normal Pop.wav').",
+   "por_que": "Parecen varios objetos.",
+   "evidencia": "2026-10-22."
+  },
+  {
+   "id": "no-005",
+   "que": "Meter voz y efectos en el mismo clip acelerado.",
+   "por_que": "Suena a ardilla o con eco y los efectos desaparecen.",
+   "evidencia": "2026-10-12. Arreglo: acelerar imagen y voz por separado, efectos a velocidad normal."
+  },
+  {
+   "id": "no-006",
+   "que": "Separar el estéreo de la voz en dos pistas.",
+   "por_que": "El usuario oía un solo lado.",
+   "evidencia": "2026-10-12. Arreglo: un clip estéreo y rellenar el canal vacío."
+  },
+  {
+   "id": "no-007",
+   "que": "Mostrar una cifra distinta de la que dice la voz.",
+   "por_que": "Rompe la confianza.",
+   "evidencia": "2026-10-29."
+  },
+  {
+   "id": "no-008",
+   "que": "Añadir efectos encima de los que el montaje ya trae.",
+   "por_que": "Se duplican.",
+   "evidencia": "2026-10-30: comprobado con earshot timeline antes de sonorizar."
+  },
+  {
+   "id": "no-009",
+   "que": "Usar sonidos o camas sintetizados por código.",
+   "por_que": "Suenan baratos; el usuario pidió sonidos reales.",
+   "evidencia": "2026-10-30. Error previo: camas sintetizadas en AMIN_1010_01 (2026-10-10)."
+  },
+  {
+   "id": "no-010",
+   "que": "Subir audio o vídeo de clientes a servicios externos (Gemini u otros) para revisarlo.",
+   "por_que": "Es material del cliente; earshot corre en local.",
+   "evidencia": "2026-10-30: regla de la skill de edición."
+  },
+  {
+   "id": "no-011",
+   "que": "Exportar con el pico verdadero por encima de −1 dBTP.",
+   "por_que": "Satura al codificar.",
+   "evidencia": "2026-10-30: dos exportaciones medidas a +0,1 y +0,3 dBTP."
+  },
+  {
+   "id": "no-012",
+   "que": "Usar gris para la palabra 'mala' en los subtítulos de Amin.",
+   "por_que": "Corrección del usuario.",
+   "evidencia": "2026-10-09 (AMIN_1009_01: 'pobre' en gris)."
+  },
+  {
+   "id": "no-013",
+   "que": "Confiar en los tiempos de Whisper para cortar.",
+   "por_que": "Error de hasta 0,5 s y palabras inventadas.",
+   "evidencia": "Octubre, medido."
+  },
+  {
+   "id": "no-014",
+   "que": "Tocar vídeo, audio o subtítulos cuando el usuario dice 'no lo toques, solo X'.",
+   "por_que": "Solo se cambia la capa pedida.",
+   "evidencia": "2026-10-30."
+  },
+  {
+   "id": "no-015",
+   "que": "Calcular fotogramas de Remotion con un fps distinto al de la composición.",
+   "por_que": "Se desplazan los gráficos.",
+   "evidencia": "Octubre: 24 en vez de 30. Arreglo: frame = s × fps real."
+  }
+ ],
+ "casos": [
+  {
+   "id": "caso-001",
+   "video": "AMIN_1018_03 · La vulgaridad vs la elegancia",
+   "carpeta": "casos/caso-001",
+   "resumen": "Edición a mano del usuario: 14 cortes en 34 s, 53 subtítulos de 1–3 palabras, imágenes malo derecha / bueno izquierda con obturador, riser + golpe al inicio y tarjeta de seguir. Mezcla −13,1 LUFS con pico +0,3 dBTP (a corregir)."
+  },
+  {
+   "id": "caso-002",
+   "video": "AMIN_1009_01 · Rico vs pobre",
+   "carpeta": "casos/caso-002",
+   "resumen": "Primera edición completa de Amin: 10 de 12 frases, zoom alterno por pieza, imágenes pobre derecha / rico izquierda, 4 motion graphics y sonido en capas aprobado. Aquí se corrigió la clave en gris."
+  },
+  {
+   "id": "caso-003",
+   "video": "AMIN_1010_01 · La escuela te programa",
+   "carpeta": "casos/caso-003",
+   "resumen": "Corte de 222 s a 54 s (luego 42 s a mano), tomas repetidas fuera, motion graphics que pasaron a collage editorial por referencia del usuario, imágenes de Pinterest y camas sintetizadas que hoy están prohibidas."
+  }
+ ],
+ "dudas_para_amin": [
+  "Tamaños y posición exactos de Instrument Serif (línea) y Anton (clave) en 1080×1920: no tengo valores medidos con la marca nueva.",
+  "¿La clave va en dorado #F5C542 por defecto, o solo en comparativas (malo rojo / bueno dorado) y si no en blanco?",
+  "¿Siguen las imágenes en comparativa con lo malo a la derecha y lo bueno a la izquierda (como en AMIN_1018_03)?",
+  "Ahora que editas vídeos completos: ¿se quitan todas las pausas ≥ 0,4 s, o mantienes algunas pausas para un ritmo más pausado?",
+  "La tarjeta de 'Seguir' del cierre usaba el azul antiguo: ¿la rehacemos con tus colores nuevos?",
+  "Sin música, ¿quieres igualmente efectos (obturador, riser, golpe) como en AMIN_1018_03, o más sobrios?",
+  "¿Qué objetivo de sonoridad prefieres: −14 LUFS (estándar) o −13 como tu edición del 18-10?"
+ ]
+}

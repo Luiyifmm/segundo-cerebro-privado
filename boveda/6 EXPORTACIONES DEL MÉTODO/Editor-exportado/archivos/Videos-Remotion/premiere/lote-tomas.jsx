@@ -1,0 +1,12 @@
+// Reel sin guion hablado (tomas de acción): secuencia con todas las tomas en orden, un marcador por toma y proxies enlazados.
+(function () { app.enableQE(); var CFG = __CFG__, r = { hecho: [], errores: [] }, i, T = 254016000000; if (app.project.name !== CFG.proyecto) return JSON.stringify({ error: "activa " + CFG.proyecto });
+  var root = app.project.rootItem, bin = null; for (i = 0; i < root.children.numItems; i++) if (root.children[i].type === 2 && root.children[i].name === CFG.bin) bin = root.children[i]; if (!bin) return JSON.stringify({ error: "sin bandeja" });
+  for (i = 0; i < app.project.sequences.numSequences; i++) if (app.project.sequences[i].name.indexOf(CFG.id + " · ") === 0) return JSON.stringify({ error: "ya existe" });
+  var items = [], porRuta = {}; for (i = 0; i < bin.children.numItems; i++) { var c = bin.children[i], mp = ""; try { mp = c.getMediaPath(); } catch (e) {} if (mp) porRuta[mp] = c; }
+  for (i = 0; i < CFG.fuentes.length; i++) if (porRuta[CFG.fuentes[i]]) items.push(porRuta[CFG.fuentes[i]]); if (!items.length) return JSON.stringify({ error: "sin clips" });
+  var np = 0; for (i = 0; i < items.length; i++) { var px = CFG.proxies[items[i].getMediaPath()]; if (!px) continue; try { if (!items[i].hasProxy() && items[i].canProxy()) { items[i].attachProxy(px, 0); np++; } } catch (e) { r.errores.push("proxy: " + e); } }
+  var s = app.project.createNewSequenceFromClips(CFG.id + " · " + CFG.titulo + " (todas las tomas)", items, bin); if (!s) return JSON.stringify({ error: "no se creó la secuencia" });
+  r.hecho.push("secuencia " + s.frameSizeHorizontal + "x" + s.frameSizeVertical + ", " + (s.end / T).toFixed(1) + " s, " + s.videoTracks[0].clips.numItems + " tomas");
+  var tr = s.videoTracks[0], nm = 0; for (i = 0; i < tr.clips.numItems; i++) { try { var mk = s.markers.createMarker(tr.clips[i].start.seconds); mk.name = "TOMA " + (i + 1) + ": " + tr.clips[i].name; mk.comments = (tr.clips[i].end.seconds - tr.clips[i].start.seconds).toFixed(1) + " s"; try { mk.setColorByIndex(4); } catch (e2) {} nm++; } catch (e) { r.errores.push("marcador: " + e); } }
+  r.hecho.push("marcadores: " + nm); r.hecho.push("proxies: " + np);
+  try { app.project.save(); r.hecho.push("guardado"); } catch (e) {} return JSON.stringify(r); })();

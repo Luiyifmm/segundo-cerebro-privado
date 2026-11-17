@@ -1,0 +1,6 @@
+2026-11-14 21:56:17 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+2026-11-14 21:56:18 - whisperx.vads.silero - WARNING - No active speech found in audio
+{"salida": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r10.palabras.json", "palabras": 0, "sin_tiempo": 0, "texto": "", "s_carga": 0.5, "s_transcripcion": 4.1, "s_alineado": 0.5, "s_total": 5.0}
+ERROR: casi no hay voz en el audio
+VERIFICADA: /Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r10.verificada.json (código 2: 0 = coherente, 1 = NO corresponde a este audio)

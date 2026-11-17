@@ -1,0 +1,10 @@
+// CLIENTE-A_1010_01: color del glow de los rótulos y alternativa sin emojis de la escuela encima de la de emojis.
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { errores: [], glow: 0 }, i, k, t2, T = 254016000000, vRot = -1;
+  function buscar(b, nombre) { for (var x = 0; x < b.children.numItems; x++) { var c = b.children[x]; if (c.type === 2) { var h = buscar(c, nombre); if (h) return h; } else if (c.name === nombre) return c; } return null; }
+  for (t2 = 0; t2 < seq.videoTracks.numTracks; t2++) { var tr = seq.videoTracks[t2]; for (i = 0; i < tr.clips.numItems; i++) { var c = tr.clips[i], g = c.getMGTComponent(); if (!g || c.start.seconds < 65.9) continue; var txt = ""; for (k = 0; k < g.properties.numItems; k++) if (g.properties[k].displayName === "Palabra clave") { try { txt = JSON.parse(g.properties[k].getValue()).textEditValue; } catch (e) {} }
+    if (txt !== "EXITOSO" && txt !== "MEDIOCRE") continue; if (vRot < 0) vRot = t2; var col = txt === "EXITOSO" ? [30, 139, 255] : [229, 38, 31];
+    for (k = 0; k < c.components.numItems; k++) if (c.components[k].displayName === "Resplandor alfa") { var ge = c.components[k]; ge.properties[0].setValue(60, true); ge.properties[1].setValue(210, true); ge.properties[2].setColorValue(255, col[0], col[1], col[2], true); ge.properties[3].setColorValue(255, col[0], col[1], col[2], true); r.glow++; } } }
+  var itE = buscar(app.project.rootItem, "MG escuela a empleado (sin emojis).mp4"), trV = seq.videoTracks[vRot], ok = true; for (k = 0; k < trV.clips.numItems; k++) if (trV.clips[k].start.seconds < 105.5 && trV.clips[k].end.seconds > 102.25) ok = false;
+  if (itE && ok) { trV.overwriteClip(itE, 102.2); r.alt = vRot + ":" + trV.name; } else r.errores.push("alternativa " + vRot + " " + ok);
+  var q = qe.project.getActiveSequence(), ts = [67.5, 69.6, 78, 85.2, 91, 96.2, 100.2, 103.0, 105.2, 110.2, 111.8]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/v3-" + i); }
+  return JSON.stringify(r); })();

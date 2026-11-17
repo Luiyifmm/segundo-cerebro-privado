@@ -1,0 +1,1 @@
+(function () { var l = []; for (var i = 0; i < app.project.sequences.numSequences; i++) l.push(app.project.sequences[i].name + " (" + (app.project.sequences[i].end / 254016000000).toFixed(2) + " s)"); return l.join(" | "); })();

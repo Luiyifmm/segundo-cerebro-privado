@@ -1,0 +1,90 @@
+{
+ "nota": "Marcadores con duración tal como se pusieron; los de IMAGEN llevan el lado (malo derecha, bueno izquierda).",
+ "marcadores": [
+  {
+   "inicio_s": 0.34,
+   "fin_s": 2.26,
+   "texto": "IMAGEN derecha: mujer del pobre"
+  },
+  {
+   "inicio_s": 2.26,
+   "fin_s": 4.15,
+   "texto": "IMAGEN izquierda: mujer del rico"
+  },
+  {
+   "inicio_s": 4.15,
+   "fin_s": 5.39,
+   "texto": "IMAGEN derecha: lo que le gusta al pobre"
+  },
+  {
+   "inicio_s": 5.39,
+   "fin_s": 6.8,
+   "texto": "IMAGEN izquierda: lo que disfruta el rico"
+  },
+  {
+   "inicio_s": 6.8,
+   "fin_s": 8.84,
+   "texto": "IMAGEN derecha: fin de semana del pobre"
+  },
+  {
+   "inicio_s": 8.84,
+   "fin_s": 10.38,
+   "texto": "IMAGEN izquierda: fin de semana del rico"
+  },
+  {
+   "inicio_s": 10.44,
+   "fin_s": 11.78,
+   "texto": "IMAGEN derecha: lo que escucha el pobre"
+  },
+  {
+   "inicio_s": 11.78,
+   "fin_s": 13.37,
+   "texto": "IMAGEN izquierda: lo que escucha el rico"
+  },
+  {
+   "inicio_s": 13.37,
+   "fin_s": 15.13,
+   "texto": "IMAGEN derecha: interior de la casa del pobre"
+  },
+  {
+   "inicio_s": 15.13,
+   "fin_s": 17.22,
+   "texto": "IMAGEN izquierda: interior de la casa del rico"
+  },
+  {
+   "inicio_s": 17.22,
+   "fin_s": 18.16,
+   "texto": "IMAGEN derecha: como se viste un pobre"
+  },
+  {
+   "inicio_s": 18.16,
+   "fin_s": 19.48,
+   "texto": "IMAGEN izquierda: como se viste un rico"
+  },
+  {
+   "inicio_s": 19.48,
+   "fin_s": 22.74,
+   "texto": "MOTION GRAPHIC: no es lo que tienes, es como piensas"
+  },
+  {
+   "inicio_s": 22.74,
+   "fin_s": 26.18,
+   "texto": "MOTION GRAPHIC: programacion mental desde pequeno"
+  },
+  {
+   "inicio_s": 28.85,
+   "fin_s": 32.91,
+   "texto": "MOTION GRAPHIC: eliminar la programacion de pobre"
+  },
+  {
+   "inicio_s": 32.91,
+   "fin_s": 37.05,
+   "texto": "MOTION GRAPHIC: exito y abundancia"
+  },
+  {
+   "inicio_s": 37.05,
+   "fin_s": 39.3,
+   "texto": "CIERRE: boton seguir @aminbusinesss"
+  }
+ ]
+}

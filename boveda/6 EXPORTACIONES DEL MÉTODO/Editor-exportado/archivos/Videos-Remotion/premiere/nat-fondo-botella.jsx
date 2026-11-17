@@ -1,0 +1,16 @@
+// CLIENTE-N_1010_01 (Reaccion a los pasos): el fondo negro de la botella se cambia por la misma pared y mesa del vídeo, con la misma corrección de color.
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { errores: [], hecho: [] }, i, k, T = 254016000000, RUTA = "~/Videos-Remotion/clientes/clienten/CLIENTE-N_1010_01/fondo botella (pared y mesa).png";
+  if (app.project.name !== "CLIENTE-N EDICION.prproj" || seq.name !== "CLIENTE-N_1010_01 - Reaccion a los pasos") return "proyecto o secuencia inesperados: " + app.project.name + " / " + seq.name;
+  function seg(s) { var x = new Time(); x.seconds = s; return x; }
+  function buscar(b, nombre) { for (var x = 0; x < b.children.numItems; x++) { var c = b.children[x]; if (c.type === 2) { var h = buscar(c, nombre); if (h) return h; } else if (c.name === nombre) return c; } return null; }
+  var vF = -1, viejo = null; for (var t = 0; t < seq.videoTracks.numTracks; t++) for (i = 0; i < seq.videoTracks[t].clips.numItems; i++) if (/^arrow_120821/.test(seq.videoTracks[t].clips[i].name)) { vF = t; viejo = seq.videoTracks[t].clips[i]; }
+  if (vF < 0) return "no encuentro el fondo negro actual";
+  var a = viejo.start.seconds, b = viejo.end.seconds, n = RUTA.substr(RUTA.lastIndexOf("/") + 1), it = buscar(app.project.rootItem, n); if (!it) { app.project.importFiles([RUTA], true, app.project.getInsertionBin(), false); it = buscar(app.project.rootItem, n); } if (!it) return "no se importa el fondo";
+  var tr = seq.videoTracks[vF]; tr.overwriteClip(it, a); var nuevo = null; for (i = 0; i < tr.clips.numItems; i++) if (tr.clips[i].name === n) nuevo = tr.clips[i]; if (!nuevo) return "no quedo el fondo en la pista";
+  nuevo.end = seg(b); nuevo.outPoint = seg(nuevo.inPoint.seconds + (b - a)); for (i = tr.clips.numItems - 1; i >= 0; i--) if (/^arrow_120821/.test(tr.clips[i].name)) tr.clips[i].remove(false, false);
+  for (k = 0; k < nuevo.components.numItems; k++) if (nuevo.components[k].matchName === "AE.ADBE Motion") { nuevo.components[k].properties[0].setValue([0.5, 0.5], true); nuevo.components[k].properties[1].setValue(100, true); r.escala = nuevo.components[k].properties[1].getValue(); }
+  var fx = qe.project.getVideoEffectByName("Color de Lumetri"), qt = qe.project.getActiveSequence().getVideoTrackAt(vF); for (k = 0; k < qt.numItems; k++) { var qi = qt.getItemAt(k); if (qi && qi.type === "Clip") qi.addVideoEffect(fx); }
+  var vals = { 14: 5, 16: 112, 19: 0.18, 20: 22, 21: -16, 22: 8, 23: 8, 24: -12, 42: 14 }; for (k = 0; k < nuevo.components.numItems; k++) if (nuevo.components[k].displayName === "Color de Lumetri") { for (var ix in vals) { try { nuevo.components[k].properties[+ix].setValue(vals[ix], true); } catch (x) {} } r.hecho.push("lumetri"); }
+  r.hecho.push("fondo en " + tr.name + " " + a.toFixed(2) + "-" + nuevo.end.seconds.toFixed(2)); r.fin = (app.project.activeSequence.end / T).toFixed(2);
+  var q = qe.project.getActiveSequence(), ts = [0.3, 5.0, 10.0, 14.5]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/natl-" + i); }
+  return JSON.stringify(r); })();

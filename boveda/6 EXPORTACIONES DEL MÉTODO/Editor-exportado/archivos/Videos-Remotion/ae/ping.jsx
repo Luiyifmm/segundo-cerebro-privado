@@ -1,0 +1,1 @@
+(function(){var f=new File("~/Videos-Remotion/ae/resultado.txt");f.open("w");f.write("vivo items="+app.project.numItems+" archivo="+(app.project.file?app.project.file.fsName:"sin guardar"));f.close();})();

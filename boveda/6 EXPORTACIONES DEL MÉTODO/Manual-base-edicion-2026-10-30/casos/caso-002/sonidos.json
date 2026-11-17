@@ -1,0 +1,233 @@
+{
+ "nota": "Reconstruido de los scripts de colocación (sfx-poner.jsx); nivel = dB aplicados al clip en Premiere. Los tiempos de imagen son los de los marcadores.",
+ "sonidos": [
+  {
+   "t_s": 0.31,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 1.54,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 2.23,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 3.22,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 4.12,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 4.97,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 5.36,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 5.71,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 6.77,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 7.84,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 8.81,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 9.54,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 10.41,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 10.76,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 11.75,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 12.82,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 13.34,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 14.33,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 15.1,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 16.11,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 17.19,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 17.54,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 18.13,
+   "archivo": "Camera Shutter Click 01.wav",
+   "nivel_db": 2,
+   "motivo": "entra imagen"
+  },
+  {
+   "t_s": 18.52,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «rico»"
+  },
+  {
+   "t_s": 19.48,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «riqueza»"
+  },
+  {
+   "t_s": 21.4,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «piensas»"
+  },
+  {
+   "t_s": 22.74,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «mental»"
+  },
+  {
+   "t_s": 27.56,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «exitosa»"
+  },
+  {
+   "t_s": 28.8,
+   "archivo": "Woosh Effect 8.wav",
+   "nivel_db": -6,
+   "motivo": "entra MG eliminar (0,05 s antes)"
+  },
+  {
+   "t_s": 28.85,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «eliminar»"
+  },
+  {
+   "t_s": 29.59,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «mental»"
+  },
+  {
+   "t_s": 30.81,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «abundancia»"
+  },
+  {
+   "t_s": 31.26,
+   "archivo": "riseer 1.MP3",
+   "nivel_db": -3,
+   "motivo": "riser que termina en el destello"
+  },
+  {
+   "t_s": 31.91,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «pobre»"
+  },
+  {
+   "t_s": 33.05,
+   "archivo": "Sub Bass Hit.wav",
+   "nivel_db": -12,
+   "motivo": "golpe en el destello"
+  },
+  {
+   "t_s": 33.71,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «éxito»"
+  },
+  {
+   "t_s": 35.95,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «abundancia»"
+  },
+  {
+   "t_s": 38.85,
+   "archivo": "Mouse Click 02.wav",
+   "nivel_db": 4,
+   "motivo": "clave «aquí»"
+  }
+ ]
+}

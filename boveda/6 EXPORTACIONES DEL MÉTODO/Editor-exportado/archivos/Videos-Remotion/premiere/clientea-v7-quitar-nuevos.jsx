@@ -1,0 +1,2 @@
+// Quita los subtítulos de prueba creados en la pista de arriba (solo plantillas MOGRT de 65,9 s en adelante en "Vídeo 10").
+(function () { var seq = app.project.activeSequence, n = 0; for (var t = 0; t < seq.videoTracks.numTracks; t++) { var tr = seq.videoTracks[t]; if (tr.name !== "Vídeo 10") continue; for (var i = tr.clips.numItems - 1; i >= 0; i--) if (tr.clips[i].getMGTComponent() && tr.clips[i].start.seconds >= 65.9) { tr.clips[i].remove(false, false); n++; } } return "quitados " + n; })();

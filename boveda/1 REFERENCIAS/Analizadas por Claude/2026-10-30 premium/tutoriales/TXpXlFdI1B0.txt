@@ -1,0 +1,253 @@
+[00:00] I'm going to be giving you an in-depth look on how I edit my premium client reels.
+[00:04] Yesterday, my friend Megan needed a visual hook on her video, something that grabs attention.
+[00:08] So I said, of course. I decided to hit screen record while I edit this in real time.
+[00:13] So first, I'm going to show you step by step on how I created this five-second visual hook.
+[00:17] And then I'm going to show you how to make some additional clean animations that pair with whatever video you're making.
+[00:23] Now, really quick, my number one comment is what setup do I have?
+[00:26] This laptop here is a MacBook Pro M3 Max with 96 gigs of RAM.
+[00:31] And then for my monitor here, I have the Inikin 40-inch ultrawide monitor and it's 5K resolution.
+[00:36] So right off the bat, we have the raw footage right here.
+[00:39] And before we drag this into DaVinci Resolve, I'll show you something that's been saving me a lot of time.
+[00:43] So this will cut up my footage and very rarely make a mistake.
+[00:46] So this is in video editor, which is like a video editing software with AI agents that you can assign editing work to.
+[00:52] And it is completely free to use.
+[00:54] I put the link down below in the description.
+[00:56] So if we select on the timeline editor here, we can create a blank timeline.
+[01:00] We can create a project and then I can select create agent.
+[01:04] I'm just going to write in here, you are responsible for taking any raw footage and cutting out all the empty spaces and mistakes.
+[01:09] So now I can just drag in my raw footage right here.
+[01:12] We can come to the chat and I'm going to write take and then the at symbol.
+[01:15] And then I'm going to select my raw footage and then followed by and remove all of the mistakes and spaces.
+[01:20] And now it's going to dissect our entire video.
+[01:22] And then once it's done, it's going to drop it into this timeline.
+[01:25] And here is some free game for you guys who sell editing services.
+[01:28] You can actually train one of these agents to optimize your footage, because in this case it's an actual AI agent.
+[01:33] So you can ask it to optimize your video for retention and ask it to get rid of parts that could cause poor performance in a video.
+[01:39] And then after that, it'll tell you what it got rid of, which is a huge selling point if you ever sell editing services.
+[01:44] I'm going to do an in-depth video and break down how I use this in my editing agency.
+[01:47] But essentially, I'll get it to review and remove footage, restructure videos once they are filmed, adjust pacing.
+[01:53] and then sometimes I'll get it to do things like color grading and fixing my audio. And so here it
+[01:57] just dropped everything into the timeline editor. We can just make sure there's no mistakes and once
+[02:02] we do that we can hit export and then we're going to select export as an edible project and select
+[02:06] DaVinci Resolve. And then I can either open up DaVinci straight from this button or I can just
+[02:10] download it and then save it to my folder. And then also because I want it to be in a 9 by 16
+[02:14] timeline I'm just going to select file, new timeline, uncheck this, format, and then select
+[02:19] use vertical resolution and select create because this is the first clip we're working on i'm just
+[02:23] going to drag it over here out of the way so we're going to start with the instagram hook intro i'm
+[02:28] just going to make a cut in the first second i'm going to select file and then export and current
+[02:33] frame as a still and so now it saved this photo into our downloads and i'm going to open it in
+[02:39] photoshop if you don't have a subscription to photoshop you can just use the google version
+[02:43] which is called the photo p i think but i'm just gonna select this tool here and draw around her
+[02:50] and then i'm just going to select remove so now we get something that looks like this and now we
+[02:53] can just export this so now we can drag that new photo into here and cut it to our first cut so i'm
+[03:00] going to cut it right here and then i'm going to drag this one up and this one underneath it now
+[03:04] hovering over this one we can go to the fusion tab and hit shift space and search magic mask
+[03:10] and add that in and then we can just click on certain parts until she's all selected and then
+[03:16] i'm going to select better and it's going to create a more accurate mask and then you can just select
+[03:20] the minus tool and come in and fix some of the areas so now we can select this button which will
+[03:26] track everything forward obviously she's separated here and we have the background here so when we
+[03:30] place it on top it looks perfectly normal so i'm going to come back into the fusion page and i'm
+[03:35] I'm going to hit shift space and add in a transform. Come to the first frame and I'm going to drag the
+[03:41] Y position up like this. Keyframe it. Come to the last frame like this and then set it back to 0.5.
+[03:48] Now if we look she starts here and comes down. So I'm going to come to the spline now. Select the
+[03:52] boxes. Select a box over these and press S. And I'm going to bring this one up like this. So if we come
+[03:58] halfway through the clip you can see that she's not blurred. So with the transform selected we can
+[04:02] select settings and select on motion blur. Now she has motion blur just like that. So now if we
+[04:09] watch that back it still doesn't look very realistic and so now we basically just have to add some more
+[04:13] movement with adjustment clips. So I'm going to come to effects and add on adjustment clip like this
+[04:18] and so for the length we're just going to make it as long as we want that movement to be. So now we
+[04:23] can come into the fusion tab and add in a transform and by the way I'm just doing this in the fusion
+[04:28] tab because I like the motion blur and the controls better. The transform selected on the
+[04:31] first frame, I'm going to drag this up like this, keyframe it, and then come to where she kind of
+[04:37] lands like this, and then drag it back down to 0.5. Again, select the spline, smooth this out,
+[04:45] and drag this side up. Settings, and turn on motion blur. And so now, as you can see, it starts like
+[04:50] this and follows her down until here. Now, I want another movement that starts zoomed in and zooms
+[04:56] out. So we're going to come back to the Fusion page, and on the first frame, we can size our
+[05:01] zoom in like this, keyframe it, and then we can come to kind of the last frame here and size this
+[05:06] back out to one. Select the spline. I'm going to uncheck this one. So it's just the size now.
+[05:11] Smooth this out and drag this side down. So now if we watch that back, it's looking a little bit
+[05:18] better now, but it still doesn't have that super high quality look to it. So that's where we need
+[05:22] to add some camera shake. So to do that, we're going to add in a camera shake node and we're
+[05:27] to turn the speed down and the overall strength. The camera's shaking the entire time and I only
+[05:32] want it to shake when she lands. So we're going to come to the frame. So right here is where she lands
+[05:37] and that's where I'm going to keyframe the overall strength. And then I'm going to come over a few
+[05:43] frames so the shake lasts a little bit like that. And then I'm going to turn the overall strength
+[05:47] down to zero. And I'm going to come to the first frame and also turn the overall strength down to
+[05:52] zero. So it starts out with zero shake and then when she lands it's in full effect and then it
+[05:57] slowly goes away. So we're going to come to the spline and as you can see it's smoothed out here
+[06:01] which means the shake is actually going to start here and so to avoid that I'm actually going to
+[06:06] drag this side down like this and so now on this frame the shake starts aggressively and then it
+[06:12] will smooth out and so now if we press play she lands and it shakes but as you can see when she
+[06:17] when it shakes a little bit we're getting some corner cut off and that's where we can just add
+[06:21] in another transform and size it up just a little bit and that way the entire frame stays
+[06:27] intact the whole time. And so this is the first part of the hook that kind of grabs the viewer.
+[06:31] And then from there we have to feed them again with more dopamine. So we're going to bring up
+[06:34] another graphic. And we're going to give it kind of a nice Apple style. So for that I'm going to
+[06:39] add in a Fusion composition clip. And for now we can just place it over here. And we're going to go
+[06:44] into the Fusion tab and drag in a background. And we're going to turn the alpha all the way down.
+[06:49] And now when we layer this clip over top of the footage you'll be able to see her because it's
+[06:52] transparent. And so in the video, she's talking about clavicular. So I just downloaded this image
+[06:57] of him right here. And we're going to connect that in right here. And then we're adding a transform
+[07:01] and size that up like this and drag it down like that. And so what I did is I also removed the
+[07:07] background. You can do this in Photoshop or Canva. And so I'm just going to duplicate this,
+[07:11] paste it here, delete this one, and bring in the same photo without the background and connect it
+[07:18] like this. And now when we add a rectangle to the background, we can increase the width and then
+[07:23] adjust the x and y position for how much of the background we want in it. So I'm just going to
+[07:28] bring it down something like this. And so actually because we're going to have it slide up, we're
+[07:31] going to make it all on the same merge node so that we can control it all at once. So I'm just
+[07:36] going to add in a merge here, connect this one to the merge. And then when we add in a transform,
+[07:42] this transform will control everything. And so in between that, I'm just going to add in another
+[07:46] merge so we can add some more elements to this piece and so for the first one we're going to add
+[07:51] is kind of like a white widget that pops up on top of his head so we can drag in a background and
+[07:56] connect it here change it to white and then select the rectangle mask and go like this corner radius
+[08:05] like this and then we can add in a transform and place it like this now we can just drag this out
+[08:11] like this because we're going to add another shape to give it kind of a point and so the the easiest
+[08:16] way I thought of doing it was just to go like this, add a merge, copy all of this, paste it,
+[08:22] and then connect it to this merge. And so now we've basically just duplicated this shape.
+[08:26] And so I'm going to come to my rectangle, drag down the width, and I'm going to make the corner
+[08:30] radius a little bit more sharp. And I'm just going to select the transform and rotate the angle
+[08:34] and bring it down like this. Now we have something that looks like that. So I'm just going to add two
+[08:39] more gray little lines here to divide this into three. So I'm going to add in another merge,
+[08:43] drag in a background and we're gonna make this kind of a light gray click the rectangle mask
+[08:47] and bring the width down really small and the height down small as well and we can just drag
+[08:52] this right here you can copy this and paste it and hold down shift bring it into our timeline
+[08:56] and this one we can just drag over here now i'm going to select all this and drag it back and we're
+[09:01] going to add some text and by the way i'm adding it all on this merge node because that way we can
+[09:06] add in a transform at the end and that transform will control the entire widget so that we can
+[09:11] have it pop in or something. I'm going to search letter zoom in. I like this text animation. It's
+[09:15] pretty simple. It's in the description if you want to get it. If not, you can just use this text right
+[09:20] here. I'm going to add in another merge node here. Connect this text and I'm going to write copy. I'm
+[09:26] going to change it to San Fran Pro Display and make it kind of a gray color. Add in a transform
+[09:31] right here. And so if we watch that back now, it looks like that. Now we can just copy this and
+[09:39] paste it select the transform and bring it to this side and I'm going to write
+[09:44] share dot dot dot and we can copy this one more time and paste it here and I'm
+[09:49] going to write in the middle and like I said we can add in a transform now and
+[09:54] this transform is going to control everything so we can come over a few
+[09:57] frames to give it time to slide up and then probably about frame 8 I'm going to
+[10:02] keyframe the size and bring it all the way down and go over 10 frames 1 2 3 4 5
+[10:06] six, seven, eight, nine, ten. Drag it up to kind of past where we want it. And then nine frames,
+[10:10] drag it down a little bit. Then eight frames, one, two, three, four, five, six, seven, eight,
+[10:14] and up a little bit. Settings, motion blur. And now when we play that back, we have something
+[10:20] that looks like that. And so now I'm going to add in another merge, just like this. And now we can
+[10:26] build out one more text animation that says clav. So we can search super bouncy down and connect this
+[10:33] one here. Again, all the text animations are in the description. I'm going to write clav. I'm going to
+[10:38] make this one bold italic, add in a transform, and kind of place it right here. So now if we play that
+[10:44] back, it looks like that. We can add a drop shadow to this one. One more thing I'm going to add is
+[10:51] another merge. I'm going to drag on an arrow like this and connect it here. And then add in a transform
+[10:58] and rotate this like this and size it down. Again, adding a drop shadow to that as well.
+[11:06] And one more thing I'm going to do is come to the cutout clav like this, and I'm going to hit shift
+[11:11] space and add in a quick bevel. This is in the same pack as the text animations in the description,
+[11:16] so I'm going to add that in. And I'm just going to bring the spread down and the light power a little
+[11:20] bit. And as you can see, it kind of highlights him like that and then adds a shadow on this side.
+[11:25] and it kind of makes him look like a 3D sticker.
+[11:28] And so because we added everything on this merge node,
+[11:31] we can just select this transform now,
+[11:33] come to the first frame, drag him down like this,
+[11:36] keyframe it, and come over maybe 30 frames.
+[11:40] And we can just drag this up.
+[11:41] Come to the spline and press S.
+[11:44] And then we're going to bring this side up like this.
+[11:47] Select settings and turn on motion blur.
+[11:48] And so if we play that back now, it looks like that.
+[11:52] And now we can find the part on our clip
+[11:53] where we want him to pop up.
+[11:56] Maybe when the camera kind of zooms out,
+[11:58] so right here,
+[11:59] we're going to bring that underneath it like this.
+[12:02] So once we bring it underneath that adjustment clip
+[12:04] and we press play,
+[12:06] it looks like that,
+[12:07] which is a pretty, pretty nice looking intro.
+[12:10] Now to keep the same fast vibe,
+[12:12] we also want to add in another zoom in
+[12:14] once this pops up to zoom into her face.
+[12:18] And at the same time, we're going to blur this.
+[12:21] So first we just need to come to the place
+[12:22] where we want the camera to start zooming in, select effects, and add in another adjustment clip.
+[12:29] And now we can come into the Fusion tab, add in a transform, and I'm just going to keyframe the
+[12:36] center x and y and the zoom. We'll come over to like frame 58, so it's quite a long zoom,
+[12:41] and we're just going to zoom the size in and the y and x positions, and then we can come to the
+[12:48] spline, select these, select a box over everything, and press S. So that's nice and smooth. So now if
+[12:54] we play that back, it zooms in like that. So the zoom starts on this adjustment clip, and so now
+[13:01] we're going to go to there on the fusion clip, so we can just drag these out of the way, and as soon
+[13:05] as we go into the fusion tab, we know exactly where to start the blur. So I'm going to hit shift space
+[13:09] and add in a blur, and I'm going to keyframe that blur size and drag it out to about the same length
+[13:16] as the zoom. So like something like frame 70. And then we can just increase the blur size.
+[13:21] And then we can go to the spline and make sure we smooth that out. Drag this over top of each
+[13:27] other like this. The one thing that made Clavicular look better is the one thing that made him. So now
+[13:32] that you guys know how to make a really engaging intro, I'm just going to show you how to make some
+[13:36] quick animations. The key here is that they're super quick and easy to make, but they look very
+[13:40] premium, which is perfect for when you're editing client reels, because you really only need to
+[13:44] spend a lot of time on the intro to hook them. And then from there, you just have to keep up that
+[13:47] quality. And so I always start in Pinterest, and I'll just click on something like this. And
+[13:52] instantly, we're just getting really aesthetic, well thought out graphics. Once you find a few
+[13:55] of these things that you like, you can just save them in different tabs. And then we use our own
+[13:59] assets to basically model something off it. So here I have a fusion composition clip, I'm just
+[14:04] going to come to the fusion tab. And again, add in a background, this one, I'm just going to make it
+[14:08] white, something like that. I'm going to search VI and add a vignette in, bring this one down,
+[14:14] increase the size and the softness a little bit. Now I'm going to drag in this image. So obviously
+[14:19] this would just be your asset. And we can add in a transform and size it to how we want it,
+[14:25] something like. Now I'm going to add in a super bouncy text animation, bring this here and type
+[14:30] in a number like 130. And I'm going to change the font to something very premium like this one. And
+[14:37] I'm going to add in a transform, size it up, and we're just going to bring this something like that.
+[14:43] Now basically we have a dark blue and a light blue gradient, so I'm just going to reverse it onto this
+[14:48] text so that it stands out a little bit. So we're going to select the text, come to shading,
+[14:54] gradient, and this one I'm going to select something really light because the bottom is on
+[14:59] dark, so I'll select a color like this, and then for the top I'm going to select a darker color
+[15:04] because the top is on something light.
+[15:06] So I'll set something like that.
+[15:08] And now it creates a nice contrast.
+[15:11] Now we can duplicate this.
+[15:12] Command copy, paste, holding down shift,
+[15:15] and we can bring it down to this side.
+[15:17] And now you can write in whatever you want.
+[15:19] I'm just going to go like SSS, something like that.
+[15:21] Now I can search letter zoom in text animation,
+[15:25] something like this, and connect it in here.
+[15:27] And I'm going to write BC and change the text to black.
+[15:32] Add in a transform, size it down,
+[15:34] and we can just bring this right here, copy this and paste it down here, select the transform
+[15:39] and bring it down here. I'm just going to write a bunch of random stuff like that. Now I'm going to
+[15:45] select this font called Droid O'Bash D-Pot. I think it's actually a Star Wars font but it just
+[15:51] looks kind of cool so we're going to put it down here. Now I downloaded this thing of a blue butterfly
+[15:57] it's also in the asset pack and I'm just going to connect this here. So I'm just going to come to the
+[16:01] first frame and I'm going to select the media in I'm going to drag the trim until I see the butterfly
+[16:07] so right here and then it's going to fly like that and then we can duplicate this and I'm going to
+[16:13] flip that so now the butterfly is coming the other way and I'm just going to drag it up this way so
+[16:18] now if we watch that back it looks like that so now we can add some lines flowing through this
+[16:23] so I'm going to add one line connecting this and it's going to flow down to here and I'm going to
+[16:28] do one line in the background. So dragging a background, I'm going to make it white, and then
+[16:34] hit shift space and add in a polygon. Right click, remove polygon line one, and I'm just going to click
+[16:39] here, here, and here, and then I'm going to round out this one and increase the border width so we
+[16:47] can see the line. And I'm going to basically drag this out like this, and then I'm going to select
+[16:52] this one and drag it out like this. And now I can select that, come to the first frame, drag the
+[16:57] length all the way down, keyframe the length, come to like frame 70 maybe, and
+[17:01] drag the length all the way up. Come to the spline, drag this side up a little bit,
+[17:05] and then come to settings and turn on motion blur. Now I'm just going to do the
+[17:09] same thing really quick, but I'm going to come to the back here so that it's
+[17:12] behind everything, drag it a background, and I'm going to make this color kind of a
+[17:16] blue, dark blue like this. Add in a polygon again, remove polygon line 2, and
+[17:22] and just start clicking like this.
+[17:26] Select the corners and round them out like this.
+[17:29] Increase the border width just a little bit.
+[17:31] And then again, come to the first frame,
+[17:33] length all the way down,
+[17:34] keyframe it, come to the last frame,
+[17:36] and drag it all the way up.
+[17:38] Last step is to add in a transform.
+[17:41] Come to the first frame, keyframe the size,
+[17:43] come to the last frame, and zoom in.
+[17:46] Now I'm going to come to effects,
+[17:48] add an adjustment clip over top,
+[17:50] come to the color page,
+[17:51] I'm going to increase the saturation a little bit.
+[17:53] And I'm also going to search for a prism blur and drag that on.
+[17:57] Blur strength all the way down, but we don't want it to be that strong.
+[18:00] So I'm going to drag down the distance and then play around with the strength a little bit.
+[18:04] And now if you just zoom in, it just looks a little bit more premium.
+[18:07] So now you should have something that looks like this.
+[18:09] This took me like 10 minutes and so did this one.
+[18:11] And so it's just a super quick and easy way to make something that looks pretty aesthetic.
+[18:15] So hopefully you learned something there.
+[18:17] And let me know in the comments what you want to learn next.
+[18:21] Thank you.

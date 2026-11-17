@@ -1,0 +1,76 @@
+[00:00] You're watching a video and thinking, why can't I get my color grades to look as professional and cinematic as these?
+[00:05] You've watched 100 tutorials, bought better gear, only to find yourself still unsatisfied with your final grade.
+[00:10] Trust me, I've been there.
+[00:12] In this video, I'm going to be showing you 5 color grading secrets that the pros are doing to separate themselves from the beginners,
+[00:18] and the same tricks that I've used that have caught the attention of multi-million dollar brands.
+[00:21] Once you start doing these, I promise your color grading will instantly improve, especially with tip number 5.
+[00:26] So let's get into it.
+[00:27] Alright, so the first thing I'm going to show you is how you should be using saturation. So
+[00:31] if you were to go here and add saturation this way, it can actually damage your luminance values as
+[00:37] well as your hues. And obviously that's not what we want when we're color grading. So as you can see
+[00:43] here in the waveform, if I'm adjusting the saturation, it's also messing with the highlights
+[00:51] and the mid-tones and it's kind of getting real messy and everything's kind of falling apart. So
+[00:57] going to right click go to color space and set that to HSV and then we're going to right click again
+[01:02] go to channels and turn off channel one as well as channel three and what this is doing is channel one
+[01:10] is hue channel two is saturation and channel three is the value so right now we are only working with
+[01:16] the saturation so once you do that you can come over and use the gain slider and that's going to add
+[01:22] saturation a lot smoother and as you can see on the waveform I'm cranking it and it's not adjusting
+[01:28] the entire image as much it's only adding saturation to the richest parts of the image so as you can see
+[01:37] without the saturation with the saturation so it's really smooth on the skin tones and everything's
+[01:41] looking really nice and balanced it's a lot more controlled and it's not ruining the luminance value
+[01:47] or the hue so another thing I like to use in DaVinci is called edible spline so we'll go to our
+[01:51] curves come to these three dots and make sure we have edible splines turned on and basically this
+[01:57] just allows you to get a super nice and smooth s-curve and in order to get those creamy and milky
+[02:05] soft shadows i'm actually gonna lift my shadows and bring down my highlights and this kind of just
+[02:12] compresses the image and you can still add a nice punch of contrast but it's gonna be a lot
+[02:21] softer and so you can see right here some of this detail is crushed or just super dark you can't even
+[02:27] really tell what's going on but with edible splines you can see you get some of that information back
+[02:32] and all the shadows just look really soft and milky while still getting a nice bit of contrast
+[02:36] in your image so something that has been a real game changer that da vinci added is the color slice
+[02:41] tab and basically what this does is it automatically keys out all these different colors that they have
+[02:46] listed here so if i wanted to make adjustments just to my jacket which is obviously yellow
+[02:51] I'd come to the yellow tab and I can move this slider to any different color and I mean look
+[02:57] how perfectly that's keying it out. That is with no masking, no effects, just one simple click and drag
+[03:05] and I can change this jacket to whatever color I want. If I wanted to have some nice color contrast
+[03:10] I could set it to red and then I can use these sliders here to adjust the saturation
+[03:14] and also the brightness. And just like that, super easy. We've successfully changed the jacket from
+[03:21] yellow to red. One of my favorite tools I like to use in DaVinci is layered nodes. So what I'm going
+[03:26] to do is add a new node, option S if you're using Mac, and then add another one, option L, and that's
+[03:33] going to add a layered node for us. So basically what this means is it's similar to like Photoshop
+[03:38] where you have your layers and whatever's on the bottom is going to be what's on top. And then the
+[03:42] nodes that you add above it are going to be the layers behind it. So if I wanted to key out his
+[03:49] skin tone here, and let's say I just raise the highlights, add some contrast. I'm just pushing
+[03:58] it so you guys can see better. And so let's say I made these adjustments to his skin tone, and then
+[04:03] I wanted to make more adjustments to the shot, but I don't want it to affect what I just did to the
+[04:07] skin tone. So like I said, this would technically be the layer behind it. So as I drag this, it is
+[04:14] only affecting the background and it's almost as if we have a mask around the skin tones. And so
+[04:20] this is affecting everything, but what we keyed out in this note. And so you can see if I were to do
+[04:27] that without the layered nodes and come here, key out his skin tone again, make those same adjustments.
+[04:37] and then if I were to try to change anything after that it would affect what I just did to the skin
+[04:43] tones and as you can see it's affecting the entire image and not what I keyed out in the layer behind
+[04:49] with this note. Before I show you the last tip I wanted to take a second and talk about my love
+[04:53] pack I created that I've used on all my jobs including campaigns for Prada, San Pellegrino,
+[04:58] and the Virgin Voyages. It's also how I went from this to this. If you're a beginner I can guarantee
+[05:04] these will instantly improve your color grading skills or if you're more experienced there's still
+[05:08] a great starting point and you can add your own touch on top of them i've gotten a ton of positive
+[05:13] feedback and they've already helped over 200 people improve their color grading skills and you can
+[05:17] purchase them with the link in my description with that being said let's get back to the video for
+[05:21] the fifth and final tip so the last thing i'm going to show you and a mistake that i think a lot of
+[05:24] people make is when you go to add your node a lot of people will start and they'll go ahead and
+[05:29] throw the lut on there and then let's say you're adjusting the white balance
+[05:36] you're gonna make that adjustment and then maybe you're gonna add some contrast
+[05:40] and basically by adding the lut on the first node now whatever adjustments i make after it it is using
+[05:46] the information from the color space of this node so instead you should always add your lut on the
+[05:52] last node of your tree and so this allows me to make adjustments to the original s-log3 and use
+[05:58] all that dynamic range that comes with it and so i can adjust my white balance here
+[06:05] and then do those same exact adjustments add some contrast and as you can see it even changes the
+[06:12] way the colors affect the image depending on where the lot is in your node tree so a better way to
+[06:16] understand this is we can go to the color warper and we can see already on the first node the colors
+[06:22] are being almost fully choked out and pushed to basically the max that they can go with this
+[06:27] information but if i go to my note tree with the lut at the end you can see the first node i still
+[06:33] have all this information to work with and you can see i add the contrast i still have all this room
+[06:38] and then at the end when you add your lut that's when you push the colors to the max and get the
+[06:43] most you can out of the image so those are five different things you can incorporate into your
+[06:46] color grading process to get your desired look if you enjoyed this video make sure to subscribe so
+[06:51] you don't miss the next one and drop a like if you learn something new if there's something specific
+[06:55] you want me to go over drop it in the comments and i look forward to seeing you in the next one

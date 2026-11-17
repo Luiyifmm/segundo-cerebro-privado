@@ -1,0 +1,21 @@
+{
+ "premiere-pro": {
+  "type": "stdio",
+  "command": "~/.local/node/bin/node",
+  "args": [
+   "~/.local/node/lib/node_modules/adobe-premiere-pro-mcp/dist/index.js"
+  ],
+  "env": {
+   "PREMIERE_TEMP_DIR": "<VALOR>",
+   "PREMIERE_MCP_TELEMETRY": "<VALOR>"
+  }
+ },
+ "after-effects": {
+  "type": "stdio",
+  "command": "~/.local/node/bin/node",
+  "args": [
+   "~/after-effects-mcp/dist/index.js"
+  ],
+  "env": {}
+ }
+}

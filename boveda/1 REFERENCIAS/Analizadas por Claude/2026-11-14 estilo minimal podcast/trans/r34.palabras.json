@@ -1,0 +1,596 @@
+[
+{
+"texto": "This",
+"inicio": 0.086,
+"fin": 0.286,
+"score": 0.78
+},
+{
+"texto": "is",
+"inicio": 0.366,
+"fin": 0.426,
+"score": 0.806
+},
+{
+"texto": "what",
+"inicio": 0.466,
+"fin": 0.546,
+"score": 0.975
+},
+{
+"texto": "And",
+"inicio": 16.834,
+"fin": 16.914,
+"score": 0.657
+},
+{
+"texto": "this",
+"inicio": 16.934,
+"fin": 17.114,
+"score": 0.783
+},
+{
+"texto": "is",
+"inicio": 17.194,
+"fin": 17.234,
+"score": 0.998
+},
+{
+"texto": "what",
+"inicio": 17.274,
+"fin": 17.655,
+"score": 0.648
+},
+{
+"texto": "20%",
+"inicio": 17.735,
+"fin": 17.935,
+"score": 0.554
+},
+{
+"texto": "body",
+"inicio": 17.975,
+"fin": 18.175,
+"score": 0.91
+},
+{
+"texto": "fat",
+"inicio": 18.195,
+"fin": 18.375,
+"score": 0.751
+},
+{
+"texto": "looks",
+"inicio": 18.395,
+"fin": 18.576,
+"score": 0.767
+},
+{
+"texto": "like",
+"inicio": 18.596,
+"fin": 18.736,
+"score": 0.887
+},
+{
+"texto": "on",
+"inicio": 18.856,
+"fin": 18.936,
+"score": 0.768
+},
+{
+"texto": "a",
+"inicio": 18.956,
+"fin": 18.976,
+"score": 0.287
+},
+{
+"texto": "woman.",
+"inicio": 19.016,
+"fin": 19.296,
+"score": 0.86
+},
+{
+"texto": "This",
+"inicio": 19.436,
+"fin": 19.596,
+"score": 0.832
+},
+{
+"texto": "is",
+"inicio": 19.657,
+"fin": 19.717,
+"score": 0.75
+},
+{
+"texto": "what",
+"inicio": 19.777,
+"fin": 19.917,
+"score": 0.508
+},
+{
+"texto": "15%",
+"inicio": 20.037,
+"fin": 20.357,
+"score": 0.669
+},
+{
+"texto": "body",
+"inicio": 20.717,
+"fin": 20.898,
+"score": 0.887
+},
+{
+"texto": "fat",
+"inicio": 20.918,
+"fin": 21.038,
+"score": 0.935
+},
+{
+"texto": "looks",
+"inicio": 21.058,
+"fin": 21.218,
+"score": 0.871
+},
+{
+"texto": "like",
+"inicio": 21.238,
+"fin": 21.338,
+"score": 0.994
+},
+{
+"texto": "on",
+"inicio": 21.398,
+"fin": 21.478,
+"score": 0.728
+},
+{
+"texto": "a",
+"inicio": 21.498,
+"fin": 21.518,
+"score": 0.972
+},
+{
+"texto": "man.",
+"inicio": 21.558,
+"fin": 21.798,
+"score": 0.91
+},
+{
+"texto": "This",
+"inicio": 22.139,
+"fin": 22.259,
+"score": 0.926
+},
+{
+"texto": "is",
+"inicio": 22.319,
+"fin": 22.359,
+"score": 0.996
+},
+{
+"texto": "what",
+"inicio": 22.399,
+"fin": 22.879,
+"score": 0.687
+},
+{
+"texto": "15%",
+"inicio": 22.919,
+"fin": 23.16,
+"score": 0.533
+},
+{
+"texto": "body",
+"inicio": 23.2,
+"fin": 23.38,
+"score": 0.965
+},
+{
+"texto": "fat",
+"inicio": 23.4,
+"fin": 23.58,
+"score": 0.773
+},
+{
+"texto": "looks",
+"inicio": 23.6,
+"fin": 23.78,
+"score": 0.842
+},
+{
+"texto": "like",
+"inicio": 23.8,
+"fin": 23.92,
+"score": 0.88
+},
+{
+"texto": "on",
+"inicio": 23.98,
+"fin": 24.04,
+"score": 0.754
+},
+{
+"texto": "a",
+"inicio": 24.06,
+"fin": 24.08,
+"score": 0.944
+},
+{
+"texto": "woman.",
+"inicio": 24.141,
+"fin": 24.381,
+"score": 0.937
+},
+{
+"texto": "This",
+"inicio": 24.561,
+"fin": 24.701,
+"score": 0.977
+},
+{
+"texto": "is",
+"inicio": 24.761,
+"fin": 24.821,
+"score": 0.758
+},
+{
+"texto": "what",
+"inicio": 24.841,
+"fin": 25.322,
+"score": 0.545
+},
+{
+"texto": "12%",
+"inicio": 25.482,
+"fin": 25.682,
+"score": 0.771
+},
+{
+"texto": "looks",
+"inicio": 25.702,
+"fin": 25.862,
+"score": 0.931
+},
+{
+"texto": "like",
+"inicio": 25.882,
+"fin": 26.002,
+"score": 0.896
+},
+{
+"texto": "on",
+"inicio": 26.062,
+"fin": 26.122,
+"score": 0.784
+},
+{
+"texto": "a",
+"inicio": 26.142,
+"fin": 26.162,
+"score": 0.956
+},
+{
+"texto": "man.",
+"inicio": 26.202,
+"fin": 26.463,
+"score": 0.855
+},
+{
+"texto": "This",
+"inicio": 26.723,
+"fin": 26.943,
+"score": 0.463
+},
+{
+"texto": "is",
+"inicio": 26.983,
+"fin": 27.043,
+"score": 0.764
+},
+{
+"texto": "what",
+"inicio": 27.063,
+"fin": 27.383,
+"score": 0.66
+},
+{
+"texto": "12%",
+"inicio": 27.524,
+"fin": 27.664,
+"score": 0.89
+},
+{
+"texto": "looks",
+"inicio": 27.684,
+"fin": 27.864,
+"score": 0.803
+},
+{
+"texto": "like",
+"inicio": 27.884,
+"fin": 28.004,
+"score": 0.846
+},
+{
+"texto": "on",
+"inicio": 28.064,
+"fin": 28.144,
+"score": 0.69
+},
+{
+"texto": "a",
+"inicio": 28.164,
+"fin": 28.184,
+"score": 0.971
+},
+{
+"texto": "woman.",
+"inicio": 28.244,
+"fin": 28.484,
+"score": 0.767
+},
+{
+"texto": "This",
+"inicio": 28.645,
+"fin": 28.745,
+"score": 0.917
+},
+{
+"texto": "is",
+"inicio": 28.805,
+"fin": 28.845,
+"score": 0.992
+},
+{
+"texto": "what",
+"inicio": 28.885,
+"fin": 29.325,
+"score": 0.79
+},
+{
+"texto": "10%",
+"inicio": 29.365,
+"fin": 29.686,
+"score": 0.462
+},
+{
+"texto": "looks",
+"inicio": 29.706,
+"fin": 29.886,
+"score": 0.853
+},
+{
+"texto": "like",
+"inicio": 29.906,
+"fin": 30.026,
+"score": 0.856
+},
+{
+"texto": "on",
+"inicio": 30.086,
+"fin": 30.166,
+"score": 0.524
+},
+{
+"texto": "a",
+"inicio": 30.186,
+"fin": 30.226,
+"score": 0.482
+},
+{
+"texto": "man.",
+"inicio": 30.266,
+"fin": 30.506,
+"score": 0.9
+},
+{
+"texto": "This",
+"inicio": 30.807,
+"fin": 30.887,
+"score": 0.258
+},
+{
+"texto": "is",
+"inicio": 30.907,
+"fin": 30.947,
+"score": 0.183
+},
+{
+"texto": "what",
+"inicio": 30.967,
+"fin": 31.287,
+"score": 0.573
+},
+{
+"texto": "10%",
+"inicio": 31.447,
+"fin": 31.607,
+"score": 0.794
+},
+{
+"texto": "looks",
+"inicio": 31.627,
+"fin": 31.807,
+"score": 0.904
+},
+{
+"texto": "like",
+"inicio": 31.827,
+"fin": 32.008,
+"score": 0.662
+},
+{
+"texto": "on",
+"inicio": 32.188,
+"fin": 32.268,
+"score": 0.762
+},
+{
+"texto": "a",
+"inicio": 32.288,
+"fin": 32.328,
+"score": 0.482
+},
+{
+"texto": "woman.",
+"inicio": 32.368,
+"fin": 32.648,
+"score": 0.773
+},
+{
+"texto": "This",
+"inicio": 32.828,
+"fin": 33.029,
+"score": 0.76
+},
+{
+"texto": "is",
+"inicio": 33.229,
+"fin": 33.289,
+"score": 0.749
+},
+{
+"texto": "what",
+"inicio": 33.329,
+"fin": 33.769,
+"score": 0.791
+},
+{
+"texto": "8%",
+"inicio": 33.949,
+"fin": 34.089,
+"score": 0.698
+},
+{
+"texto": "body",
+"inicio": 34.109,
+"fin": 34.33,
+"score": 0.865
+},
+{
+"texto": "fat",
+"inicio": 34.35,
+"fin": 34.49,
+"score": 0.821
+},
+{
+"texto": "looks",
+"inicio": 34.51,
+"fin": 34.69,
+"score": 0.852
+},
+{
+"texto": "like.",
+"inicio": 34.73,
+"fin": 34.93,
+"score": 0.863
+},
+{
+"texto": "And",
+"inicio": 35.11,
+"fin": 35.19,
+"score": 0.927
+},
+{
+"texto": "this",
+"inicio": 35.21,
+"fin": 35.471,
+"score": 0.737
+},
+{
+"texto": "is",
+"inicio": 35.791,
+"fin": 35.851,
+"score": 0.752
+},
+{
+"texto": "what",
+"inicio": 35.891,
+"fin": 36.011,
+"score": 0.768
+},
+{
+"texto": "5%",
+"inicio": 36.031,
+"fin": 36.291,
+"score": 0.535
+},
+{
+"texto": "body",
+"inicio": 36.632,
+"fin": 36.832,
+"score": 0.899
+},
+{
+"texto": "fat",
+"inicio": 36.852,
+"fin": 36.992,
+"score": 0.857
+},
+{
+"texto": "looks",
+"inicio": 37.012,
+"fin": 37.212,
+"score": 0.754
+},
+{
+"texto": "like.",
+"inicio": 37.232,
+"fin": 37.392,
+"score": 0.842
+},
+{
+"texto": "What",
+"inicio": 37.673,
+"fin": 37.793,
+"score": 0.34
+},
+{
+"texto": "body",
+"inicio": 37.813,
+"fin": 37.993,
+"score": 0.65
+},
+{
+"texto": "fat",
+"inicio": 38.013,
+"fin": 38.133,
+"score": 0.873
+},
+{
+"texto": "percentage",
+"inicio": 38.153,
+"fin": 38.473,
+"score": 0.873
+},
+{
+"texto": "do",
+"inicio": 38.493,
+"fin": 38.533,
+"score": 0.11
+},
+{
+"texto": "you",
+"inicio": 38.553,
+"fin": 38.614,
+"score": 0.179
+},
+{
+"texto": "think",
+"inicio": 38.634,
+"fin": 38.754,
+"score": 0.997
+},
+{
+"texto": "you",
+"inicio": 38.794,
+"fin": 38.854,
+"score": 0.996
+},
+{
+"texto": "are?",
+"inicio": 38.914,
+"fin": 39.014,
+"score": 0.979
+}
+]

@@ -1,0 +1,3 @@
+(function () { var seq = app.project.activeSequence, r = [], t, i, k;
+  for (t = 0; t < seq.videoTracks.numTracks; t++) { var tr = seq.videoTracks[t]; for (i = 0; i < tr.clips.numItems; i++) { var c = tr.clips[i]; if (c.end.seconds < 92 || c.start.seconds > 108.3) continue; var m = c.getMGTComponent(); if (!m) continue; var tx = []; for (k = 0; k < m.properties.numItems; k++) { try { var v = m.properties[k].getValue(); if (typeof v === "string" && v.indexOf("textEditValue") >= 0) tx.push(JSON.parse(v).textEditValue); } catch (e) {} } r.push([t, +c.start.seconds.toFixed(2), +c.end.seconds.toFixed(2), c.name.substr(0, 18), tx.join(" | ")]); } }
+  return JSON.stringify(r); })();

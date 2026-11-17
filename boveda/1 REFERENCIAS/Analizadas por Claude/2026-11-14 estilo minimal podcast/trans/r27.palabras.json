@@ -1,0 +1,2750 @@
+[
+{
+"texto": "Unida",
+"inicio": 2.038,
+"fin": 2.198,
+"score": 0.502
+},
+{
+"texto": "4,",
+"inicio": 2.218,
+"fin": 2.499,
+"score": 0.287
+},
+{
+"texto": "tenemos",
+"inicio": 2.539,
+"fin": 2.779,
+"score": 0.827
+},
+{
+"texto": "un",
+"inicio": 2.799,
+"fin": 2.839,
+"score": 0.004
+},
+{
+"texto": "ratero",
+"inicio": 2.979,
+"fin": 3.24,
+"score": 0.893
+},
+{
+"texto": "en",
+"inicio": 3.28,
+"fin": 3.34,
+"score": 0.754
+},
+{
+"texto": "la",
+"inicio": 3.38,
+"fin": 3.42,
+"score": 0.992
+},
+{
+"texto": "sala",
+"inicio": 3.48,
+"fin": 3.64,
+"score": 0.817
+},
+{
+"texto": "principal.",
+"inicio": 3.7,
+"fin": 4.081,
+"score": 0.774
+},
+{
+"texto": "Olvíelo,",
+"inicio": 7.325,
+"fin": 7.846,
+"score": 0.613
+},
+{
+"texto": "falsa",
+"inicio": 8.427,
+"fin": 8.647,
+"score": 0.854
+},
+{
+"texto": "alarma.",
+"inicio": 8.667,
+"fin": 8.987,
+"score": 0.89
+},
+{
+"texto": "Ese",
+"inicio": 9.989,
+"fin": 10.109,
+"score": 0.699
+},
+{
+"texto": "cuadro",
+"inicio": 10.169,
+"fin": 10.369,
+"score": 0.747
+},
+{
+"texto": "no",
+"inicio": 10.389,
+"fin": 10.489,
+"score": 0.813
+},
+{
+"texto": "vale",
+"inicio": 10.509,
+"fin": 10.67,
+"score": 0.534
+},
+{
+"texto": "nada.",
+"inicio": 10.71,
+"fin": 10.95,
+"score": 0.825
+},
+{
+"texto": "Lleve",
+"inicio": 11.511,
+"fin": 11.731,
+"score": 0.826
+},
+{
+"texto": "eso",
+"inicio": 11.751,
+"fin": 11.871,
+"score": 0.441
+},
+{
+"texto": "no",
+"inicio": 11.911,
+"fin": 11.971,
+"score": 0.841
+},
+{
+"texto": "si",
+"inicio": 12.011,
+"fin": 12.051,
+"score": 0.992
+},
+{
+"texto": "quiere.",
+"inicio": 12.111,
+"fin": 12.352,
+"score": 0.793
+},
+{
+"texto": "Entonces,",
+"inicio": 12.652,
+"fin": 12.832,
+"score": 0.288
+},
+{
+"texto": "¿para",
+"inicio": 12.852,
+"fin": 12.953,
+"score": 0.579
+},
+{
+"texto": "qué",
+"inicio": 12.973,
+"fin": 13.033,
+"score": 0.24
+},
+{
+"texto": "no",
+"inicio": 13.073,
+"fin": 13.133,
+"score": 0.264
+},
+{
+"texto": "tienen",
+"inicio": 13.153,
+"fin": 13.313,
+"score": 0.755
+},
+{
+"texto": "un",
+"inicio": 13.373,
+"fin": 13.453,
+"score": 0.438
+},
+{
+"texto": "museo?",
+"inicio": 13.473,
+"fin": 13.834,
+"score": 0.596
+},
+{
+"texto": "Se",
+"inicio": 14.082,
+"fin": 14.242,
+"score": 0.617
+},
+{
+"texto": "ve",
+"inicio": 15.002,
+"fin": 15.142,
+"score": 0.428
+},
+{
+"texto": "que",
+"inicio": 15.162,
+"fin": 15.262,
+"score": 0.651
+},
+{
+"texto": "no",
+"inicio": 15.302,
+"fin": 15.362,
+"score": 0.87
+},
+{
+"texto": "conoce",
+"inicio": 15.442,
+"fin": 15.762,
+"score": 0.923
+},
+{
+"texto": "a",
+"inicio": 15.822,
+"fin": 15.842,
+"score": 0.932
+},
+{
+"texto": "Wolfgang",
+"inicio": 15.922,
+"fin": 16.322,
+"score": 0.649
+},
+{
+"texto": "Beltracki.",
+"inicio": 16.362,
+"fin": 16.883,
+"score": 0.696
+},
+{
+"texto": "Un",
+"inicio": 17.103,
+"fin": 17.203,
+"score": 0.907
+},
+{
+"texto": "alemán",
+"inicio": 17.243,
+"fin": 17.583,
+"score": 0.718
+},
+{
+"texto": "que",
+"inicio": 17.643,
+"fin": 17.723,
+"score": 0.819
+},
+{
+"texto": "a",
+"inicio": 17.743,
+"fin": 17.763,
+"score": 0.055
+},
+{
+"texto": "los",
+"inicio": 17.803,
+"fin": 17.903,
+"score": 0.773
+},
+{
+"texto": "catorce",
+"inicio": 17.963,
+"fin": 18.343,
+"score": 0.829
+},
+{
+"texto": "años",
+"inicio": 18.423,
+"fin": 18.603,
+"score": 0.65
+},
+{
+"texto": "pintó",
+"inicio": 18.623,
+"fin": 18.983,
+"score": 0.647
+},
+{
+"texto": "una",
+"inicio": 19.043,
+"fin": 19.143,
+"score": 0.839
+},
+{
+"texto": "réplica",
+"inicio": 19.243,
+"fin": 19.643,
+"score": 0.919
+},
+{
+"texto": "de",
+"inicio": 19.703,
+"fin": 19.763,
+"score": 0.804
+},
+{
+"texto": "Picasso",
+"inicio": 19.843,
+"fin": 20.263,
+"score": 0.654
+},
+{
+"texto": "tan",
+"inicio": 20.383,
+"fin": 20.523,
+"score": 0.932
+},
+{
+"texto": "exactamente",
+"inicio": 20.603,
+"fin": 21.283,
+"score": 0.958
+},
+{
+"texto": "igual",
+"inicio": 21.343,
+"fin": 21.604,
+"score": 0.658
+},
+{
+"texto": "que",
+"inicio": 21.704,
+"fin": 21.804,
+"score": 0.665
+},
+{
+"texto": "engañó",
+"inicio": 21.844,
+"fin": 22.164,
+"score": 0.888
+},
+{
+"texto": "a",
+"inicio": 22.184,
+"fin": 22.204,
+"score": 0.051
+},
+{
+"texto": "restauradores",
+"inicio": 22.264,
+"fin": 22.964,
+"score": 0.872
+},
+{
+"texto": "de",
+"inicio": 23.044,
+"fin": 23.124,
+"score": 0.84
+},
+{
+"texto": "arte",
+"inicio": 23.224,
+"fin": 23.444,
+"score": 0.818
+},
+{
+"texto": "de",
+"inicio": 23.484,
+"fin": 23.564,
+"score": 0.721
+},
+{
+"texto": "su",
+"inicio": 23.624,
+"fin": 23.704,
+"score": 0.875
+},
+{
+"texto": "propia",
+"inicio": 23.744,
+"fin": 24.004,
+"score": 0.94
+},
+{
+"texto": "ciudad.",
+"inicio": 24.084,
+"fin": 24.344,
+"score": 0.808
+},
+{
+"texto": "Este",
+"inicio": 24.544,
+"fin": 24.784,
+"score": 0.912
+},
+{
+"texto": "loco",
+"inicio": 24.884,
+"fin": 25.124,
+"score": 0.678
+},
+{
+"texto": "logró",
+"inicio": 25.164,
+"fin": 25.444,
+"score": 0.666
+},
+{
+"texto": "meterse",
+"inicio": 25.484,
+"fin": 25.884,
+"score": 0.863
+},
+{
+"texto": "en",
+"inicio": 25.924,
+"fin": 25.984,
+"score": 0.75
+},
+{
+"texto": "la",
+"inicio": 26.024,
+"fin": 26.084,
+"score": 0.751
+},
+{
+"texto": "cabeza",
+"inicio": 26.164,
+"fin": 26.504,
+"score": 0.934
+},
+{
+"texto": "del",
+"inicio": 26.564,
+"fin": 26.685,
+"score": 0.689
+},
+{
+"texto": "surrealista",
+"inicio": 26.745,
+"fin": 27.445,
+"score": 0.928
+},
+{
+"texto": "Max",
+"inicio": 27.645,
+"fin": 27.945,
+"score": 0.909
+},
+{
+"texto": "Hertz",
+"inicio": 28.165,
+"fin": 28.545,
+"score": 0.566
+},
+{
+"texto": "y",
+"inicio": 28.585,
+"fin": 28.665,
+"score": 0.757
+},
+{
+"texto": "pintó",
+"inicio": 28.705,
+"fin": 29.065,
+"score": 0.877
+},
+{
+"texto": "la",
+"inicio": 29.125,
+"fin": 29.205,
+"score": 0.862
+},
+{
+"texto": "foré",
+"inicio": 29.285,
+"fin": 29.645,
+"score": 0.726
+},
+{
+"texto": "2,",
+"inicio": 29.685,
+"fin": 29.785,
+"score": 0.8
+},
+{
+"texto": "una",
+"inicio": 30.245,
+"fin": 30.365,
+"score": 0.987
+},
+{
+"texto": "obra",
+"inicio": 30.465,
+"fin": 30.665,
+"score": 0.973
+},
+{
+"texto": "tan",
+"inicio": 30.805,
+"fin": 30.945,
+"score": 0.883
+},
+{
+"texto": "absurdamente",
+"inicio": 31.005,
+"fin": 31.746,
+"score": 0.793
+},
+{
+"texto": "perfecta",
+"inicio": 31.906,
+"fin": 32.506,
+"score": 0.897
+},
+{
+"texto": "que",
+"inicio": 32.566,
+"fin": 32.666,
+"score": 0.735
+},
+{
+"texto": "hizo",
+"inicio": 32.726,
+"fin": 32.906,
+"score": 0.848
+},
+{
+"texto": "llorar",
+"inicio": 32.966,
+"fin": 33.266,
+"score": 0.812
+},
+{
+"texto": "al",
+"inicio": 33.306,
+"fin": 33.386,
+"score": 0.753
+},
+{
+"texto": "mejor",
+"inicio": 33.446,
+"fin": 33.666,
+"score": 0.921
+},
+{
+"texto": "amigo",
+"inicio": 33.706,
+"fin": 33.946,
+"score": 0.907
+},
+{
+"texto": "del",
+"inicio": 33.986,
+"fin": 34.126,
+"score": 0.698
+},
+{
+"texto": "artista",
+"inicio": 34.166,
+"fin": 34.566,
+"score": 0.873
+},
+{
+"texto": "original",
+"inicio": 34.586,
+"fin": 35.046,
+"score": 0.778
+},
+{
+"texto": "y",
+"inicio": 35.126,
+"fin": 35.166,
+"score": 0.969
+},
+{
+"texto": "se",
+"inicio": 35.246,
+"fin": 35.346,
+"score": 0.838
+},
+{
+"texto": "vendió",
+"inicio": 35.406,
+"fin": 35.686,
+"score": 0.946
+},
+{
+"texto": "por",
+"inicio": 35.786,
+"fin": 35.906,
+"score": 0.938
+},
+{
+"texto": "siete",
+"inicio": 36.086,
+"fin": 36.426,
+"score": 0.848
+},
+{
+"texto": "millones",
+"inicio": 36.506,
+"fin": 36.887,
+"score": 0.866
+},
+{
+"texto": "de",
+"inicio": 36.947,
+"fin": 37.007,
+"score": 0.881
+},
+{
+"texto": "dólares.",
+"inicio": 37.087,
+"fin": 37.467,
+"score": 0.957
+},
+{
+"texto": "Pintó",
+"inicio": 37.827,
+"fin": 38.107,
+"score": 0.76
+},
+{
+"texto": "también",
+"inicio": 38.167,
+"fin": 38.467,
+"score": 0.802
+},
+{
+"texto": "en",
+"inicio": 38.487,
+"fin": 38.527,
+"score": 0.001
+},
+{
+"texto": "borde",
+"inicio": 38.547,
+"fin": 38.947,
+"score": 0.594
+},
+{
+"texto": "la",
+"inicio": 38.987,
+"fin": 39.067,
+"score": 0.863
+},
+{
+"texto": "cena",
+"inicio": 39.167,
+"fin": 39.407,
+"score": 0.703
+},
+{
+"texto": "Archandoil,",
+"inicio": 39.467,
+"fin": 40.107,
+"score": 0.771
+},
+{
+"texto": "un",
+"inicio": 40.487,
+"fin": 40.587,
+"score": 0.788
+},
+{
+"texto": "supuesto",
+"inicio": 40.647,
+"fin": 41.107,
+"score": 0.912
+},
+{
+"texto": "cuadro",
+"inicio": 41.227,
+"fin": 41.527,
+"score": 0.776
+},
+{
+"texto": "perdido",
+"inicio": 41.668,
+"fin": 42.088,
+"score": 0.954
+},
+{
+"texto": "de",
+"inicio": 42.148,
+"fin": 42.228,
+"score": 0.947
+},
+{
+"texto": "André",
+"inicio": 42.288,
+"fin": 42.548,
+"score": 0.712
+},
+{
+"texto": "Terain",
+"inicio": 42.648,
+"fin": 43.008,
+"score": 0.681
+},
+{
+"texto": "por",
+"inicio": 43.128,
+"fin": 43.248,
+"score": 0.883
+},
+{
+"texto": "el",
+"inicio": 43.288,
+"fin": 43.368,
+"score": 0.713
+},
+{
+"texto": "que",
+"inicio": 43.408,
+"fin": 43.468,
+"score": 0.669
+},
+{
+"texto": "los",
+"inicio": 43.488,
+"fin": 43.548,
+"score": 0.024
+},
+{
+"texto": "coleccionó",
+"inicio": 43.568,
+"fin": 43.968,
+"score": 0.281
+},
+{
+"texto": "se",
+"inicio": 44.508,
+"fin": 44.588,
+"score": 0.78
+},
+{
+"texto": "mataron",
+"inicio": 44.628,
+"fin": 44.988,
+"score": 0.973
+},
+{
+"texto": "a",
+"inicio": 45.008,
+"fin": 45.028,
+"score": 0.017
+},
+{
+"texto": "billetasos",
+"inicio": 45.108,
+"fin": 45.709,
+"score": 0.781
+},
+{
+"texto": "creyendo",
+"inicio": 45.849,
+"fin": 46.309,
+"score": 0.923
+},
+{
+"texto": "haber",
+"inicio": 46.329,
+"fin": 46.569,
+"score": 0.635
+},
+{
+"texto": "descubierto",
+"inicio": 46.609,
+"fin": 47.329,
+"score": 0.797
+},
+{
+"texto": "un",
+"inicio": 47.409,
+"fin": 47.469,
+"score": 0.818
+},
+{
+"texto": "tesoro",
+"inicio": 47.529,
+"fin": 47.849,
+"score": 0.898
+},
+{
+"texto": "histórico.",
+"inicio": 47.889,
+"fin": 48.41,
+"score": 0.946
+},
+{
+"texto": "El",
+"inicio": 48.51,
+"fin": 48.59,
+"score": 0.479
+},
+{
+"texto": "traje",
+"inicio": 48.63,
+"fin": 48.91,
+"score": 0.695
+},
+{
+"texto": "podría",
+"inicio": 48.95,
+"fin": 49.21,
+"score": 0.792
+},
+{
+"texto": "haber",
+"inicio": 49.23,
+"fin": 49.37,
+"score": 0.767
+},
+{
+"texto": "sido",
+"inicio": 49.43,
+"fin": 49.55,
+"score": 0.488
+},
+{
+"texto": "uno",
+"inicio": 49.59,
+"fin": 49.73,
+"score": 0.653
+},
+{
+"texto": "de",
+"inicio": 49.75,
+"fin": 49.79,
+"score": 0.134
+},
+{
+"texto": "los",
+"inicio": 49.85,
+"fin": 49.95,
+"score": 0.957
+},
+{
+"texto": "grandes.",
+"inicio": 50.03,
+"fin": 50.43,
+"score": 0.939
+},
+{
+"texto": "Lo",
+"inicio": 50.951,
+"fin": 51.011,
+"score": 0.902
+},
+{
+"texto": "peor",
+"inicio": 51.111,
+"fin": 51.331,
+"score": 0.854
+},
+{
+"texto": "que",
+"inicio": 51.391,
+"fin": 51.471,
+"score": 0.899
+},
+{
+"texto": "le",
+"inicio": 51.511,
+"fin": 51.591,
+"score": 0.812
+},
+{
+"texto": "pudo",
+"inicio": 51.651,
+"fin": 51.791,
+"score": 0.578
+},
+{
+"texto": "haber",
+"inicio": 51.831,
+"fin": 51.991,
+"score": 0.846
+},
+{
+"texto": "pasado",
+"inicio": 52.051,
+"fin": 52.411,
+"score": 0.758
+},
+{
+"texto": "fue",
+"inicio": 52.471,
+"fin": 52.611,
+"score": 0.662
+},
+{
+"texto": "descubrir",
+"inicio": 52.631,
+"fin": 53.091,
+"score": 0.798
+},
+{
+"texto": "que",
+"inicio": 53.111,
+"fin": 53.171,
+"score": 0.003
+},
+{
+"texto": "le",
+"inicio": 53.311,
+"fin": 53.391,
+"score": 0.728
+},
+{
+"texto": "pagaban",
+"inicio": 53.452,
+"fin": 53.812,
+"score": 0.894
+},
+{
+"texto": "bien",
+"inicio": 53.872,
+"fin": 54.072,
+"score": 0.911
+},
+{
+"texto": "por",
+"inicio": 54.172,
+"fin": 54.332,
+"score": 0.885
+},
+{
+"texto": "copiar.",
+"inicio": 55.392,
+"fin": 55.852,
+"score": 0.918
+},
+{
+"texto": "Bueno,",
+"inicio": 56.293,
+"fin": 56.513,
+"score": 0.446
+},
+{
+"texto": "pero",
+"inicio": 56.553,
+"fin": 56.673,
+"score": 0.795
+},
+{
+"texto": "sí",
+"inicio": 56.733,
+"fin": 56.793,
+"score": 0.746
+},
+{
+"texto": "le",
+"inicio": 56.853,
+"fin": 56.913,
+"score": 0.835
+},
+{
+"texto": "va",
+"inicio": 56.973,
+"fin": 57.073,
+"score": 0.49
+},
+{
+"texto": "bien",
+"inicio": 57.093,
+"fin": 57.233,
+"score": 0.566
+},
+{
+"texto": "copiando.",
+"inicio": 57.273,
+"fin": 57.753,
+"score": 0.882
+},
+{
+"texto": "¿Qué",
+"inicio": 57.773,
+"fin": 58.453,
+"score": 0.871
+},
+{
+"texto": "tiene?",
+"inicio": 58.553,
+"fin": 58.894,
+"score": 0.887
+},
+{
+"texto": "La",
+"inicio": 59.734,
+"fin": 59.794,
+"score": 0.798
+},
+{
+"texto": "gente",
+"inicio": 59.834,
+"fin": 60.034,
+"score": 0.783
+},
+{
+"texto": "me",
+"inicio": 60.074,
+"fin": 60.154,
+"score": 0.855
+},
+{
+"texto": "mira",
+"inicio": 60.194,
+"fin": 60.354,
+"score": 0.564
+},
+{
+"texto": "feo",
+"inicio": 60.414,
+"fin": 60.574,
+"score": 0.827
+},
+{
+"texto": "por",
+"inicio": 60.634,
+"fin": 60.714,
+"score": 0.929
+},
+{
+"texto": "cómo",
+"inicio": 60.754,
+"fin": 60.914,
+"score": 0.869
+},
+{
+"texto": "me",
+"inicio": 60.954,
+"fin": 61.014,
+"score": 0.801
+},
+{
+"texto": "gano",
+"inicio": 61.074,
+"fin": 61.274,
+"score": 0.832
+},
+{
+"texto": "la",
+"inicio": 61.314,
+"fin": 61.394,
+"score": 0.58
+},
+{
+"texto": "vida,",
+"inicio": 61.434,
+"fin": 61.635,
+"score": 0.98
+},
+{
+"texto": "pero",
+"inicio": 61.735,
+"fin": 61.935,
+"score": 0.939
+},
+{
+"texto": "hago",
+"inicio": 62.795,
+"fin": 62.915,
+"score": 0.69
+},
+{
+"texto": "un",
+"inicio": 62.935,
+"fin": 63.015,
+"score": 0.492
+},
+{
+"texto": "buen",
+"inicio": 63.055,
+"fin": 63.175,
+"score": 0.985
+},
+{
+"texto": "dinero.",
+"inicio": 63.215,
+"fin": 63.555,
+"score": 0.907
+},
+{
+"texto": "Sí,",
+"inicio": 63.675,
+"fin": 63.895,
+"score": 0.625
+},
+{
+"texto": "él",
+"inicio": 63.955,
+"fin": 64.015,
+"score": 0.409
+},
+{
+"texto": "también",
+"inicio": 64.055,
+"fin": 64.256,
+"score": 0.846
+},
+{
+"texto": "se",
+"inicio": 64.296,
+"fin": 64.356,
+"score": 0.898
+},
+{
+"texto": "metió",
+"inicio": 64.396,
+"fin": 64.596,
+"score": 0.75
+},
+{
+"texto": "un",
+"inicio": 64.636,
+"fin": 64.696,
+"score": 0.657
+},
+{
+"texto": "buen",
+"inicio": 64.716,
+"fin": 64.836,
+"score": 0.987
+},
+{
+"texto": "dinero.",
+"inicio": 64.876,
+"fin": 65.256,
+"score": 0.952
+},
+{
+"texto": "Pero",
+"inicio": 65.716,
+"fin": 65.836,
+"score": 0.744
+},
+{
+"texto": "cuando",
+"inicio": 65.876,
+"fin": 66.036,
+"score": 0.864
+},
+{
+"texto": "estaba",
+"inicio": 66.056,
+"fin": 66.296,
+"score": 0.673
+},
+{
+"texto": "solo",
+"inicio": 66.336,
+"fin": 66.496,
+"score": 0.845
+},
+{
+"texto": "en",
+"inicio": 66.536,
+"fin": 66.596,
+"score": 0.787
+},
+{
+"texto": "su",
+"inicio": 66.636,
+"fin": 66.696,
+"score": 0.996
+},
+{
+"texto": "casa,",
+"inicio": 66.776,
+"fin": 67.077,
+"score": 0.872
+},
+{
+"texto": "con",
+"inicio": 67.457,
+"fin": 67.577,
+"score": 0.814
+},
+{
+"texto": "la",
+"inicio": 67.597,
+"fin": 67.657,
+"score": 0.17
+},
+{
+"texto": "luz",
+"inicio": 67.697,
+"fin": 67.777,
+"score": 0.504
+},
+{
+"texto": "se",
+"inicio": 67.797,
+"fin": 67.857,
+"score": 0.806
+},
+{
+"texto": "apagás,",
+"inicio": 67.997,
+"fin": 68.637,
+"score": 0.859
+},
+{
+"texto": "podían",
+"inicio": 69.437,
+"fin": 69.698,
+"score": 0.816
+},
+{
+"texto": "guiñarlos",
+"inicio": 69.738,
+"fin": 70.118,
+"score": 0.773
+},
+{
+"texto": "a",
+"inicio": 70.158,
+"fin": 70.198,
+"score": 0.581
+},
+{
+"texto": "todos.",
+"inicio": 70.278,
+"fin": 70.618,
+"score": 0.785
+},
+{
+"texto": "menos",
+"inicio": 71.738,
+"fin": 71.998,
+"score": 0.123
+},
+{
+"texto": "el",
+"inicio": 72.018,
+"fin": 72.138,
+"score": 0.064
+},
+{
+"texto": "mismo.",
+"inicio": 72.158,
+"fin": 72.839,
+"score": 0.346
+},
+{
+"texto": "La",
+"inicio": 72.859,
+"fin": 72.899,
+"score": 0.606
+},
+{
+"texto": "gente",
+"inicio": 72.979,
+"fin": 73.179,
+"score": 0.868
+},
+{
+"texto": "se",
+"inicio": 73.239,
+"fin": 73.299,
+"score": 0.939
+},
+{
+"texto": "paraba",
+"inicio": 73.379,
+"fin": 73.659,
+"score": 0.872
+},
+{
+"texto": "frente",
+"inicio": 73.739,
+"fin": 73.979,
+"score": 0.856
+},
+{
+"texto": "a",
+"inicio": 73.999,
+"fin": 74.019,
+"score": 0.865
+},
+{
+"texto": "sus",
+"inicio": 74.079,
+"fin": 74.179,
+"score": 0.907
+},
+{
+"texto": "cuadros,",
+"inicio": 74.28,
+"fin": 74.7,
+"score": 0.808
+},
+{
+"texto": "se",
+"inicio": 75.0,
+"fin": 75.06,
+"score": 0.921
+},
+{
+"texto": "emocionaba.",
+"inicio": 75.12,
+"fin": 75.84,
+"score": 0.864
+},
+{
+"texto": "Decían,",
+"inicio": 75.981,
+"fin": 76.361,
+"score": 0.86
+},
+{
+"texto": "mira,",
+"inicio": 76.481,
+"fin": 76.721,
+"score": 0.885
+},
+{
+"texto": "¿qué",
+"inicio": 76.741,
+"fin": 76.901,
+"score": 0.595
+},
+{
+"texto": "genio",
+"inicio": 77.001,
+"fin": 77.201,
+"score": 0.612
+},
+{
+"texto": "era",
+"inicio": 77.261,
+"fin": 77.381,
+"score": 0.901
+},
+{
+"texto": "Max",
+"inicio": 77.441,
+"fin": 77.682,
+"score": 0.876
+},
+{
+"texto": "Ernst?",
+"inicio": 77.762,
+"fin": 78.102,
+"score": 0.407
+},
+{
+"texto": "Mira",
+"inicio": 78.142,
+"fin": 78.382,
+"score": 0.668
+},
+{
+"texto": "la",
+"inicio": 78.442,
+"fin": 78.502,
+"score": 0.964
+},
+{
+"texto": "fuerza",
+"inicio": 78.642,
+"fin": 78.982,
+"score": 0.908
+},
+{
+"texto": "de",
+"inicio": 79.002,
+"fin": 79.102,
+"score": 0.357
+},
+{
+"texto": "este",
+"inicio": 79.142,
+"fin": 79.362,
+"score": 0.833
+},
+{
+"texto": "leger,",
+"inicio": 79.423,
+"fin": 79.763,
+"score": 0.72
+},
+{
+"texto": "cada",
+"inicio": 79.863,
+"fin": 80.043,
+"score": 0.887
+},
+{
+"texto": "plazo,",
+"inicio": 80.183,
+"fin": 80.703,
+"score": 0.8
+},
+{
+"texto": "cada",
+"inicio": 80.803,
+"fin": 80.983,
+"score": 0.864
+},
+{
+"texto": "persona",
+"inicio": 81.103,
+"fin": 81.444,
+"score": 0.843
+},
+{
+"texto": "que",
+"inicio": 81.484,
+"fin": 81.564,
+"score": 0.868
+},
+{
+"texto": "decía,",
+"inicio": 81.644,
+"fin": 81.904,
+"score": 0.938
+},
+{
+"texto": "¡uf,",
+"inicio": 81.924,
+"fin": 82.364,
+"score": 0.788
+},
+{
+"texto": "qué",
+"inicio": 82.464,
+"fin": 82.564,
+"score": 0.768
+},
+{
+"texto": "obra",
+"inicio": 82.624,
+"fin": 82.784,
+"score": 0.962
+},
+{
+"texto": "maestra!",
+"inicio": 82.844,
+"fin": 83.385,
+"score": 0.884
+},
+{
+"texto": "Nunca",
+"inicio": 83.705,
+"fin": 84.045,
+"score": 0.92
+},
+{
+"texto": "era",
+"inicio": 84.786,
+"fin": 84.906,
+"score": 0.873
+},
+{
+"texto": "para",
+"inicio": 84.986,
+"fin": 85.146,
+"score": 0.911
+},
+{
+"texto": "él.",
+"inicio": 85.206,
+"fin": 85.406,
+"score": 0.656
+},
+{
+"texto": "Pero",
+"inicio": 85.586,
+"fin": 85.726,
+"score": 0.546
+},
+{
+"texto": "sabes",
+"inicio": 85.746,
+"fin": 85.966,
+"score": 0.623
+},
+{
+"texto": "que",
+"inicio": 85.986,
+"fin": 86.066,
+"score": 0.837
+},
+{
+"texto": "es",
+"inicio": 86.086,
+"fin": 86.166,
+"score": 0.27
+},
+{
+"texto": "en",
+"inicio": 86.186,
+"fin": 86.246,
+"score": 0.87
+},
+{
+"texto": "realidad",
+"inicio": 86.266,
+"fin": 86.527,
+"score": 0.708
+},
+{
+"texto": "lo",
+"inicio": 86.547,
+"fin": 86.647,
+"score": 0.766
+},
+{
+"texto": "más",
+"inicio": 86.707,
+"fin": 86.827,
+"score": 0.951
+},
+{
+"texto": "triste,",
+"inicio": 86.887,
+"fin": 87.267,
+"score": 0.868
+},
+{
+"texto": "que",
+"inicio": 88.108,
+"fin": 88.188,
+"score": 0.966
+},
+{
+"texto": "nunca",
+"inicio": 88.248,
+"fin": 88.428,
+"score": 0.886
+},
+{
+"texto": "vamos",
+"inicio": 88.488,
+"fin": 88.708,
+"score": 0.853
+},
+{
+"texto": "a",
+"inicio": 88.748,
+"fin": 88.768,
+"score": 0.987
+},
+{
+"texto": "saber",
+"inicio": 88.848,
+"fin": 89.288,
+"score": 0.968
+},
+{
+"texto": "lo",
+"inicio": 89.688,
+"fin": 89.728,
+"score": 0.997
+},
+{
+"texto": "que",
+"inicio": 89.768,
+"fin": 89.829,
+"score": 0.999
+},
+{
+"texto": "hubiera",
+"inicio": 89.869,
+"fin": 90.089,
+"score": 0.85
+},
+{
+"texto": "pintado",
+"inicio": 90.149,
+"fin": 90.649,
+"score": 0.882
+},
+{
+"texto": "ese",
+"inicio": 91.269,
+"fin": 91.449,
+"score": 0.694
+},
+{
+"texto": "loco.",
+"inicio": 91.469,
+"fin": 91.79,
+"score": 0.851
+},
+{
+"texto": "Pero",
+"inicio": 92.17,
+"fin": 92.29,
+"score": 0.726
+},
+{
+"texto": "es",
+"inicio": 92.31,
+"fin": 92.37,
+"score": 0.59
+},
+{
+"texto": "que",
+"inicio": 92.39,
+"fin": 92.47,
+"score": 0.773
+},
+{
+"texto": "hoy",
+"inicio": 92.51,
+"fin": 92.63,
+"score": 0.662
+},
+{
+"texto": "en",
+"inicio": 92.67,
+"fin": 92.75,
+"score": 0.874
+},
+{
+"texto": "día",
+"inicio": 92.81,
+"fin": 93.07,
+"score": 0.982
+},
+{
+"texto": "es",
+"inicio": 93.711,
+"fin": 93.811,
+"score": 0.897
+},
+{
+"texto": "imposible",
+"inicio": 93.891,
+"fin": 94.471,
+"score": 0.957
+},
+{
+"texto": "crear",
+"inicio": 94.571,
+"fin": 94.791,
+"score": 0.852
+},
+{
+"texto": "algo",
+"inicio": 94.851,
+"fin": 95.012,
+"score": 0.761
+},
+{
+"texto": "nuevo.",
+"inicio": 95.072,
+"fin": 95.412,
+"score": 0.686
+},
+{
+"texto": "Nadie,",
+"inicio": 96.272,
+"fin": 96.612,
+"score": 0.822
+},
+{
+"texto": "nunca",
+"inicio": 97.253,
+"fin": 97.573,
+"score": 0.931
+},
+{
+"texto": "en",
+"inicio": 97.913,
+"fin": 97.973,
+"score": 0.728
+},
+{
+"texto": "la",
+"inicio": 97.993,
+"fin": 98.033,
+"score": 0.784
+},
+{
+"texto": "historia",
+"inicio": 98.053,
+"fin": 98.293,
+"score": 0.943
+},
+{
+"texto": "de",
+"inicio": 98.313,
+"fin": 98.353,
+"score": 0.052
+},
+{
+"texto": "la",
+"inicio": 98.373,
+"fin": 98.413,
+"score": 0.516
+},
+{
+"texto": "humanidad,",
+"inicio": 98.454,
+"fin": 98.834,
+"score": 0.854
+},
+{
+"texto": "ha",
+"inicio": 99.57,
+"fin": 99.65,
+"score": 0.819
+},
+{
+"texto": "creado",
+"inicio": 99.69,
+"fin": 99.93,
+"score": 0.694
+},
+{
+"texto": "algo",
+"inicio": 99.95,
+"fin": 100.171,
+"score": 0.398
+},
+{
+"texto": "100%",
+"inicio": 100.211,
+"fin": 100.851,
+"score": 0.628
+},
+{
+"texto": "nuevo.",
+"inicio": 100.871,
+"fin": 101.152,
+"score": 0.705
+},
+{
+"texto": "Mira",
+"inicio": 101.532,
+"fin": 101.752,
+"score": 0.862
+},
+{
+"texto": "Picasso,",
+"inicio": 101.792,
+"fin": 102.233,
+"score": 0.867
+},
+{
+"texto": "el",
+"inicio": 102.733,
+"fin": 102.833,
+"score": 0.669
+},
+{
+"texto": "gran",
+"inicio": 102.893,
+"fin": 103.074,
+"score": 0.984
+},
+{
+"texto": "maestro",
+"inicio": 103.134,
+"fin": 103.554,
+"score": 0.832
+},
+{
+"texto": "del",
+"inicio": 103.594,
+"fin": 103.734,
+"score": 0.71
+},
+{
+"texto": "arte",
+"inicio": 103.794,
+"fin": 104.034,
+"score": 0.914
+},
+{
+"texto": "moderno.",
+"inicio": 104.095,
+"fin": 104.475,
+"score": 0.936
+},
+{
+"texto": "Se",
+"inicio": 104.895,
+"fin": 104.975,
+"score": 0.982
+},
+{
+"texto": "robó",
+"inicio": 105.055,
+"fin": 105.296,
+"score": 0.975
+},
+{
+"texto": "descaradamente",
+"inicio": 105.336,
+"fin": 106.237,
+"score": 0.716
+},
+{
+"texto": "las",
+"inicio": 106.317,
+"fin": 106.397,
+"score": 0.833
+},
+{
+"texto": "proporciones",
+"inicio": 106.477,
+"fin": 107.057,
+"score": 0.883
+},
+{
+"texto": "y",
+"inicio": 107.117,
+"fin": 107.178,
+"score": 0.331
+},
+{
+"texto": "las",
+"inicio": 107.238,
+"fin": 107.318,
+"score": 0.85
+},
+{
+"texto": "formas",
+"inicio": 107.398,
+"fin": 107.658,
+"score": 0.922
+},
+{
+"texto": "de",
+"inicio": 107.718,
+"fin": 107.778,
+"score": 0.83
+},
+{
+"texto": "las",
+"inicio": 107.838,
+"fin": 107.938,
+"score": 0.842
+},
+{
+"texto": "máscaras",
+"inicio": 108.038,
+"fin": 108.439,
+"score": 0.848
+},
+{
+"texto": "africanas",
+"inicio": 108.499,
+"fin": 109.019,
+"score": 0.778
+},
+{
+"texto": "para",
+"inicio": 109.24,
+"fin": 109.38,
+"score": 0.863
+},
+{
+"texto": "inventar",
+"inicio": 109.44,
+"fin": 109.78,
+"score": 0.972
+},
+{
+"texto": "el",
+"inicio": 109.84,
+"fin": 109.88,
+"score": 0.42
+},
+{
+"texto": "cubismo.",
+"inicio": 109.96,
+"fin": 110.301,
+"score": 0.644
+},
+{
+"texto": "Andy",
+"inicio": 110.741,
+"fin": 111.001,
+"score": 0.873
+},
+{
+"texto": "Warhol",
+"inicio": 111.041,
+"fin": 111.462,
+"score": 0.805
+},
+{
+"texto": "agarró",
+"inicio": 111.482,
+"fin": 111.802,
+"score": 0.718
+},
+{
+"texto": "descaradamente",
+"inicio": 111.842,
+"fin": 112.643,
+"score": 0.802
+},
+{
+"texto": "el",
+"inicio": 112.683,
+"fin": 112.743,
+"score": 0.744
+},
+{
+"texto": "diseño",
+"inicio": 112.803,
+"fin": 113.123,
+"score": 0.923
+},
+{
+"texto": "de",
+"inicio": 113.163,
+"fin": 113.223,
+"score": 0.9
+},
+{
+"texto": "una",
+"inicio": 113.264,
+"fin": 113.364,
+"score": 0.834
+},
+{
+"texto": "lata",
+"inicio": 113.444,
+"fin": 113.644,
+"score": 0.939
+},
+{
+"texto": "de",
+"inicio": 113.704,
+"fin": 113.764,
+"score": 0.857
+},
+{
+"texto": "sopa",
+"inicio": 113.844,
+"fin": 114.084,
+"score": 0.831
+},
+{
+"texto": "del",
+"inicio": 114.124,
+"fin": 114.244,
+"score": 0.762
+},
+{
+"texto": "súper",
+"inicio": 114.285,
+"fin": 114.565,
+"score": 0.869
+},
+{
+"texto": "de",
+"inicio": 114.585,
+"fin": 114.665,
+"score": 0.81
+},
+{
+"texto": "la",
+"inicio": 114.705,
+"fin": 114.745,
+"score": 0.51
+},
+{
+"texto": "esquina",
+"inicio": 114.765,
+"fin": 115.105,
+"score": 0.671
+},
+{
+"texto": "y",
+"inicio": 115.225,
+"fin": 115.265,
+"score": 0.941
+},
+{
+"texto": "lo",
+"inicio": 115.306,
+"fin": 115.366,
+"score": 0.962
+},
+{
+"texto": "vendió",
+"inicio": 115.426,
+"fin": 115.686,
+"score": 0.769
+},
+{
+"texto": "como",
+"inicio": 115.766,
+"fin": 115.926,
+"score": 0.803
+},
+{
+"texto": "artecarisimo.",
+"inicio": 116.006,
+"fin": 117.207,
+"score": 0.644
+},
+{
+"texto": "Van",
+"inicio": 117.267,
+"fin": 117.448,
+"score": 0.806
+},
+{
+"texto": "Gogh",
+"inicio": 117.488,
+"fin": 117.668,
+"score": 0.434
+},
+{
+"texto": "se",
+"inicio": 118.048,
+"fin": 118.128,
+"score": 0.894
+},
+{
+"texto": "la",
+"inicio": 118.208,
+"fin": 118.268,
+"score": 0.896
+},
+{
+"texto": "pasaba",
+"inicio": 118.349,
+"fin": 118.589,
+"score": 0.968
+},
+{
+"texto": "en",
+"inicio": 118.629,
+"fin": 118.689,
+"score": 0.924
+},
+{
+"texto": "su",
+"inicio": 118.729,
+"fin": 118.809,
+"score": 0.984
+},
+{
+"texto": "cuarto",
+"inicio": 118.909,
+"fin": 119.189,
+"score": 0.845
+},
+{
+"texto": "calcando",
+"inicio": 119.269,
+"fin": 119.77,
+"score": 0.686
+},
+{
+"texto": "grabados",
+"inicio": 119.83,
+"fin": 120.23,
+"score": 0.741
+},
+{
+"texto": "japoneses,",
+"inicio": 120.27,
+"fin": 120.791,
+"score": 0.714
+},
+{
+"texto": "copió",
+"inicio": 121.151,
+"fin": 121.492,
+"score": 0.833
+},
+{
+"texto": "a",
+"inicio": 121.552,
+"fin": 121.612,
+"score": 0.516
+},
+{
+"texto": "girochí",
+"inicio": 121.672,
+"fin": 122.052,
+"score": 0.738
+},
+{
+"texto": "y",
+"inicio": 122.092,
+"fin": 122.152,
+"score": 0.264
+},
+{
+"texto": "al",
+"inicio": 122.192,
+"fin": 122.252,
+"score": 0.394
+},
+{
+"texto": "óleo",
+"inicio": 122.312,
+"fin": 122.513,
+"score": 0.528
+},
+{
+"texto": "y",
+"inicio": 122.533,
+"fin": 122.553,
+"score": 0.053
+},
+{
+"texto": "se",
+"inicio": 122.693,
+"fin": 122.773,
+"score": 0.716
+},
+{
+"texto": "obsesionó",
+"inicio": 122.793,
+"fin": 123.153,
+"score": 0.567
+},
+{
+"texto": "tanto.",
+"inicio": 123.293,
+"fin": 123.534,
+"score": 0.593
+},
+{
+"texto": "que",
+"inicio": 124.166,
+"fin": 124.286,
+"score": 0.103
+},
+{
+"texto": "terminó",
+"inicio": 124.306,
+"fin": 124.586,
+"score": 0.131
+},
+{
+"texto": "robándole",
+"inicio": 124.626,
+"fin": 125.066,
+"score": 0.822
+},
+{
+"texto": "los",
+"inicio": 125.086,
+"fin": 125.146,
+"score": 0.002
+},
+{
+"texto": "contornos",
+"inicio": 125.346,
+"fin": 125.806,
+"score": 0.873
+},
+{
+"texto": "marcados,",
+"inicio": 125.887,
+"fin": 126.367,
+"score": 0.906
+},
+{
+"texto": "los",
+"inicio": 126.687,
+"fin": 126.787,
+"score": 0.855
+},
+{
+"texto": "colores",
+"inicio": 126.867,
+"fin": 127.207,
+"score": 0.868
+},
+{
+"texto": "planos",
+"inicio": 127.307,
+"fin": 127.567,
+"score": 0.586
+},
+{
+"texto": "y",
+"inicio": 127.967,
+"fin": 128.047,
+"score": 0.791
+},
+{
+"texto": "esas",
+"inicio": 128.127,
+"fin": 128.347,
+"score": 0.804
+},
+{
+"texto": "composiciones",
+"inicio": 128.487,
+"fin": 129.147,
+"score": 0.944
+},
+{
+"texto": "recortadas",
+"inicio": 129.247,
+"fin": 129.868,
+"score": 0.901
+},
+{
+"texto": "tan",
+"inicio": 130.068,
+"fin": 130.248,
+"score": 0.887
+},
+{
+"texto": "peculiares.",
+"inicio": 130.308,
+"fin": 131.388,
+"score": 0.704
+},
+{
+"texto": "Al",
+"inicio": 131.428,
+"fin": 131.488,
+"score": 0.922
+},
+{
+"texto": "final",
+"inicio": 131.508,
+"fin": 131.708,
+"score": 0.822
+},
+{
+"texto": "todo",
+"inicio": 131.748,
+"fin": 131.928,
+"score": 0.718
+},
+{
+"texto": "viene",
+"inicio": 131.988,
+"fin": 132.168,
+"score": 0.849
+},
+{
+"texto": "de",
+"inicio": 132.208,
+"fin": 132.288,
+"score": 0.56
+},
+{
+"texto": "algo",
+"inicio": 132.328,
+"fin": 132.528,
+"score": 0.846
+},
+{
+"texto": "más,",
+"inicio": 132.568,
+"fin": 132.808,
+"score": 0.971
+},
+{
+"texto": "pero",
+"inicio": 133.409,
+"fin": 133.529,
+"score": 0.859
+},
+{
+"texto": "pareciera",
+"inicio": 133.609,
+"fin": 133.989,
+"score": 0.771
+},
+{
+"texto": "ser",
+"inicio": 134.069,
+"fin": 134.169,
+"score": 0.696
+},
+{
+"texto": "que",
+"inicio": 134.229,
+"fin": 134.309,
+"score": 0.827
+},
+{
+"texto": "la",
+"inicio": 134.369,
+"fin": 134.409,
+"score": 0.973
+},
+{
+"texto": "enorme",
+"inicio": 134.449,
+"fin": 134.749,
+"score": 0.797
+},
+{
+"texto": "diferencia",
+"inicio": 134.829,
+"fin": 135.329,
+"score": 0.94
+},
+{
+"texto": "entre",
+"inicio": 135.409,
+"fin": 135.589,
+"score": 0.831
+},
+{
+"texto": "un",
+"inicio": 135.629,
+"fin": 135.689,
+"score": 0.954
+},
+{
+"texto": "ratero",
+"inicio": 135.729,
+"fin": 136.109,
+"score": 0.734
+},
+{
+"texto": "y",
+"inicio": 136.129,
+"fin": 136.149,
+"score": 0.005
+},
+{
+"texto": "un",
+"inicio": 136.65,
+"fin": 136.73,
+"score": 0.653
+},
+{
+"texto": "gran",
+"inicio": 136.77,
+"fin": 136.93,
+"score": 0.828
+},
+{
+"texto": "artista",
+"inicio": 136.99,
+"fin": 137.43,
+"score": 0.862
+},
+{
+"texto": "es",
+"inicio": 137.45,
+"fin": 137.49,
+"score": 0.002
+},
+{
+"texto": "saber",
+"inicio": 138.43,
+"fin": 138.75,
+"score": 0.877
+},
+{
+"texto": "robar",
+"inicio": 138.93,
+"fin": 139.27,
+"score": 0.907
+},
+{
+"texto": "las",
+"inicio": 139.89,
+"fin": 139.991,
+"score": 0.93
+},
+{
+"texto": "ideas",
+"inicio": 140.051,
+"fin": 140.291,
+"score": 0.826
+},
+{
+"texto": "correctas,",
+"inicio": 140.391,
+"fin": 140.891,
+"score": 0.888
+},
+{
+"texto": "agarrar",
+"inicio": 141.471,
+"fin": 141.771,
+"score": 0.777
+},
+{
+"texto": "esas",
+"inicio": 141.831,
+"fin": 142.031,
+"score": 0.912
+},
+{
+"texto": "ideas",
+"inicio": 142.131,
+"fin": 142.531,
+"score": 0.835
+},
+{
+"texto": "que",
+"inicio": 142.631,
+"fin": 142.731,
+"score": 0.71
+},
+{
+"texto": "te",
+"inicio": 142.771,
+"fin": 142.851,
+"score": 0.897
+},
+{
+"texto": "inspiran,",
+"inicio": 142.891,
+"fin": 143.411,
+"score": 0.81
+},
+{
+"texto": "esos",
+"inicio": 143.832,
+"fin": 144.012,
+"score": 0.866
+},
+{
+"texto": "artistas",
+"inicio": 144.072,
+"fin": 144.472,
+"score": 0.879
+},
+{
+"texto": "que",
+"inicio": 144.532,
+"fin": 144.632,
+"score": 0.709
+},
+{
+"texto": "te",
+"inicio": 144.692,
+"fin": 144.772,
+"score": 0.952
+},
+{
+"texto": "mueven,",
+"inicio": 144.832,
+"fin": 145.172,
+"score": 0.734
+},
+{
+"texto": "esa",
+"inicio": 145.792,
+"fin": 145.952,
+"score": 0.913
+},
+{
+"texto": "obra",
+"inicio": 146.092,
+"fin": 146.292,
+"score": 0.942
+},
+{
+"texto": "que",
+"inicio": 146.312,
+"fin": 146.372,
+"score": 0.003
+},
+{
+"texto": "te",
+"inicio": 146.532,
+"fin": 146.612,
+"score": 0.849
+},
+{
+"texto": "pone",
+"inicio": 146.652,
+"fin": 146.852,
+"score": 0.375
+},
+{
+"texto": "los",
+"inicio": 146.892,
+"fin": 146.973,
+"score": 0.939
+},
+{
+"texto": "pelos",
+"inicio": 147.053,
+"fin": 147.253,
+"score": 0.885
+},
+{
+"texto": "de",
+"inicio": 147.293,
+"fin": 147.373,
+"score": 0.792
+},
+{
+"texto": "punta",
+"inicio": 147.473,
+"fin": 147.833,
+"score": 0.846
+},
+{
+"texto": "y",
+"inicio": 147.853,
+"fin": 147.873,
+"score": 0.027
+},
+{
+"texto": "darle",
+"inicio": 148.293,
+"fin": 148.793,
+"score": 0.76
+},
+{
+"texto": "tu",
+"inicio": 149.693,
+"fin": 149.793,
+"score": 0.865
+},
+{
+"texto": "propia",
+"inicio": 149.833,
+"fin": 150.113,
+"score": 0.792
+},
+{
+"texto": "vida.",
+"inicio": 150.213,
+"fin": 150.473,
+"score": 0.902
+},
+{
+"texto": "Y",
+"inicio": 151.174,
+"fin": 151.254,
+"score": 0.632
+},
+{
+"texto": "esas",
+"inicio": 151.314,
+"fin": 151.534,
+"score": 0.888
+},
+{
+"texto": "ideas",
+"inicio": 151.634,
+"fin": 151.974,
+"score": 0.909
+},
+{
+"texto": "¿Dónde",
+"inicio": 153.362,
+"fin": 153.542,
+"score": 0.636
+},
+{
+"texto": "se",
+"inicio": 153.562,
+"fin": 153.622,
+"score": 0.702
+},
+{
+"texto": "encuentra?",
+"inicio": 153.662,
+"fin": 154.103,
+"score": 0.856
+},
+{
+"texto": "Yo",
+"inicio": 154.823,
+"fin": 154.903,
+"score": 0.706
+},
+{
+"texto": "no",
+"inicio": 154.943,
+"fin": 155.003,
+"score": 0.746
+},
+{
+"texto": "puedo",
+"inicio": 155.063,
+"fin": 155.243,
+"score": 0.737
+},
+{
+"texto": "darte",
+"inicio": 155.323,
+"fin": 155.584,
+"score": 0.883
+},
+{
+"texto": "las",
+"inicio": 155.644,
+"fin": 155.744,
+"score": 0.868
+},
+{
+"texto": "ideas,",
+"inicio": 155.804,
+"fin": 156.164,
+"score": 0.797
+},
+{
+"texto": "pero",
+"inicio": 156.704,
+"fin": 156.864,
+"score": 0.547
+},
+{
+"texto": "si",
+"inicio": 156.884,
+"fin": 157.005,
+"score": 0.322
+},
+{
+"texto": "vas",
+"inicio": 157.025,
+"fin": 157.125,
+"score": 0.527
+},
+{
+"texto": "al",
+"inicio": 157.165,
+"fin": 157.225,
+"score": 0.585
+},
+{
+"texto": "ente",
+"inicio": 157.285,
+"fin": 157.485,
+"score": 0.734
+},
+{
+"texto": "mi",
+"inicio": 157.525,
+"fin": 157.605,
+"score": 0.724
+},
+{
+"texto": "perfil,",
+"inicio": 157.645,
+"fin": 158.065,
+"score": 0.894
+},
+{
+"texto": "puedo",
+"inicio": 158.345,
+"fin": 158.526,
+"score": 0.502
+},
+{
+"texto": "contarte",
+"inicio": 158.566,
+"fin": 158.966,
+"score": 0.803
+},
+{
+"texto": "cómo",
+"inicio": 158.986,
+"fin": 159.126,
+"score": 0.883
+},
+{
+"texto": "aprendí",
+"inicio": 159.146,
+"fin": 159.566,
+"score": 0.802
+},
+{
+"texto": "a",
+"inicio": 159.586,
+"fin": 159.606,
+"score": 0.035
+},
+{
+"texto": "dejar",
+"inicio": 159.666,
+"fin": 159.846,
+"score": 0.924
+},
+{
+"texto": "de",
+"inicio": 159.866,
+"fin": 159.926,
+"score": 0.904
+},
+{
+"texto": "robarlas",
+"inicio": 160.007,
+"fin": 160.407,
+"score": 0.856
+},
+{
+"texto": "como",
+"inicio": 160.487,
+"fin": 160.607,
+"score": 0.688
+},
+{
+"texto": "una",
+"inicio": 160.667,
+"fin": 160.767,
+"score": 0.876
+},
+{
+"texto": "rata",
+"inicio": 160.927,
+"fin": 161.207,
+"score": 0.927
+},
+{
+"texto": "y",
+"inicio": 161.968,
+"fin": 162.008,
+"score": 0.503
+},
+{
+"texto": "comenzar",
+"inicio": 162.048,
+"fin": 162.348,
+"score": 0.766
+},
+{
+"texto": "a",
+"inicio": 162.388,
+"fin": 162.448,
+"score": 0.449
+},
+{
+"texto": "robarlas",
+"inicio": 162.488,
+"fin": 162.868,
+"score": 0.774
+},
+{
+"texto": "como",
+"inicio": 162.929,
+"fin": 163.089,
+"score": 0.767
+},
+{
+"texto": "lo",
+"inicio": 163.129,
+"fin": 163.209,
+"score": 0.646
+},
+{
+"texto": "hace",
+"inicio": 163.229,
+"fin": 163.489,
+"score": 0.45
+},
+{
+"texto": "un",
+"inicio": 163.569,
+"fin": 164.51,
+"score": 0.819
+},
+{
+"texto": "artista.",
+"inicio": 164.55,
+"fin": 164.93,
+"score": 0.868
+}
+]

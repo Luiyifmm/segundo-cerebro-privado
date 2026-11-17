@@ -1,0 +1,1640 @@
+[
+{
+"texto": "We",
+"inicio": 0.066,
+"fin": 0.186,
+"score": 0.962
+},
+{
+"texto": "are",
+"inicio": 0.246,
+"fin": 0.406,
+"score": 0.701
+},
+{
+"texto": "about",
+"inicio": 0.486,
+"fin": 0.826,
+"score": 0.846
+},
+{
+"texto": "to",
+"inicio": 0.886,
+"fin": 0.946,
+"score": 0.932
+},
+{
+"texto": "enter",
+"inicio": 1.146,
+"fin": 1.426,
+"score": 0.708
+},
+{
+"texto": "the",
+"inicio": 1.626,
+"fin": 1.766,
+"score": 0.84
+},
+{
+"texto": "eight",
+"inicio": 2.007,
+"fin": 2.187,
+"score": 0.792
+},
+{
+"texto": "most",
+"inicio": 2.347,
+"fin": 2.547,
+"score": 0.755
+},
+{
+"texto": "dangerous",
+"inicio": 2.667,
+"fin": 3.327,
+"score": 0.667
+},
+{
+"texto": "weeks",
+"inicio": 3.427,
+"fin": 3.767,
+"score": 0.892
+},
+{
+"texto": "in",
+"inicio": 3.967,
+"fin": 4.027,
+"score": 0.961
+},
+{
+"texto": "our",
+"inicio": 4.107,
+"fin": 4.187,
+"score": 0.852
+},
+{
+"texto": "lives",
+"inicio": 4.227,
+"fin": 4.567,
+"score": 0.791
+},
+{
+"texto": "because",
+"inicio": 4.787,
+"fin": 5.147,
+"score": 0.691
+},
+{
+"texto": "the",
+"inicio": 5.307,
+"fin": 5.447,
+"score": 0.824
+},
+{
+"texto": "U.S.",
+"inicio": 5.608,
+"fin": 5.928,
+"score": 0.824
+},
+{
+"texto": "midterms",
+"inicio": 6.028,
+"fin": 6.648,
+"score": 0.841
+},
+{
+"texto": "will",
+"inicio": 6.688,
+"fin": 6.928,
+"score": 0.885
+},
+{
+"texto": "determine",
+"inicio": 7.008,
+"fin": 7.668,
+"score": 0.783
+},
+{
+"texto": "the",
+"inicio": 7.808,
+"fin": 7.928,
+"score": 0.837
+},
+{
+"texto": "fate",
+"inicio": 8.108,
+"fin": 8.488,
+"score": 0.863
+},
+{
+"texto": "of",
+"inicio": 8.668,
+"fin": 8.748,
+"score": 0.794
+},
+{
+"texto": "President",
+"inicio": 8.848,
+"fin": 9.309,
+"score": 0.752
+},
+{
+"texto": "Trump's",
+"inicio": 9.409,
+"fin": 9.729,
+"score": 0.741
+},
+{
+"texto": "administration",
+"inicio": 9.809,
+"fin": 10.629,
+"score": 0.745
+},
+{
+"texto": "and",
+"inicio": 10.809,
+"fin": 10.929,
+"score": 0.697
+},
+{
+"texto": "the",
+"inicio": 10.949,
+"fin": 11.149,
+"score": 0.457
+},
+{
+"texto": "most",
+"inicio": 11.209,
+"fin": 11.349,
+"score": 0.952
+},
+{
+"texto": "dangerous",
+"inicio": 11.409,
+"fin": 11.909,
+"score": 0.698
+},
+{
+"texto": "time",
+"inicio": 11.989,
+"fin": 12.449,
+"score": 0.844
+},
+{
+"texto": "is",
+"inicio": 12.77,
+"fin": 12.91,
+"score": 0.782
+},
+{
+"texto": "the",
+"inicio": 12.93,
+"fin": 12.99,
+"score": 0.0
+},
+{
+"texto": "transition",
+"inicio": 13.21,
+"fin": 13.77,
+"score": 0.855
+},
+{
+"texto": "of",
+"inicio": 13.81,
+"fin": 13.87,
+"score": 0.75
+},
+{
+"texto": "power.",
+"inicio": 13.93,
+"fin": 14.29,
+"score": 0.922
+},
+{
+"texto": "And",
+"inicio": 14.43,
+"fin": 14.51,
+"score": 0.899
+},
+{
+"texto": "we",
+"inicio": 14.55,
+"fin": 14.69,
+"score": 0.822
+},
+{
+"texto": "saw",
+"inicio": 14.79,
+"fin": 15.13,
+"score": 0.989
+},
+{
+"texto": "this",
+"inicio": 15.17,
+"fin": 15.41,
+"score": 0.714
+},
+{
+"texto": "with",
+"inicio": 15.51,
+"fin": 15.67,
+"score": 0.796
+},
+{
+"texto": "January",
+"inicio": 15.77,
+"fin": 16.27,
+"score": 0.859
+},
+{
+"texto": "6th.",
+"inicio": 16.35,
+"fin": 16.691,
+"score": 0.592
+},
+{
+"texto": "And",
+"inicio": 16.931,
+"fin": 17.031,
+"score": 0.738
+},
+{
+"texto": "so",
+"inicio": 17.091,
+"fin": 17.291,
+"score": 0.791
+},
+{
+"texto": "what",
+"inicio": 17.351,
+"fin": 17.511,
+"score": 0.752
+},
+{
+"texto": "happens",
+"inicio": 17.631,
+"fin": 18.131,
+"score": 0.891
+},
+{
+"texto": "in",
+"inicio": 18.231,
+"fin": 18.291,
+"score": 0.997
+},
+{
+"texto": "this",
+"inicio": 18.331,
+"fin": 18.491,
+"score": 0.784
+},
+{
+"texto": "transition",
+"inicio": 18.551,
+"fin": 19.231,
+"score": 0.932
+},
+{
+"texto": "period",
+"inicio": 19.331,
+"fin": 19.771,
+"score": 0.834
+},
+{
+"texto": "could",
+"inicio": 19.891,
+"fin": 20.072,
+"score": 0.929
+},
+{
+"texto": "also",
+"inicio": 20.332,
+"fin": 20.792,
+"score": 0.832
+},
+{
+"texto": "easily",
+"inicio": 21.112,
+"fin": 21.612,
+"score": 0.836
+},
+{
+"texto": "dovetail",
+"inicio": 21.692,
+"fin": 22.292,
+"score": 0.852
+},
+{
+"texto": "in",
+"inicio": 22.412,
+"fin": 22.472,
+"score": 0.954
+},
+{
+"texto": "the",
+"inicio": 22.512,
+"fin": 22.592,
+"score": 0.913
+},
+{
+"texto": "Iran",
+"inicio": 22.652,
+"fin": 22.952,
+"score": 0.676
+},
+{
+"texto": "War",
+"inicio": 22.972,
+"fin": 23.152,
+"score": 0.646
+},
+{
+"texto": "because",
+"inicio": 23.172,
+"fin": 23.432,
+"score": 0.859
+},
+{
+"texto": "President",
+"inicio": 23.452,
+"fin": 23.853,
+"score": 0.748
+},
+{
+"texto": "Trump",
+"inicio": 23.893,
+"fin": 24.133,
+"score": 0.971
+},
+{
+"texto": "has",
+"inicio": 24.193,
+"fin": 24.373,
+"score": 0.721
+},
+{
+"texto": "promised",
+"inicio": 24.573,
+"fin": 25.173,
+"score": 0.857
+},
+{
+"texto": "over",
+"inicio": 25.553,
+"fin": 25.793,
+"score": 0.651
+},
+{
+"texto": "and",
+"inicio": 25.873,
+"fin": 25.953,
+"score": 0.832
+},
+{
+"texto": "over",
+"inicio": 26.093,
+"fin": 26.273,
+"score": 0.9
+},
+{
+"texto": "again",
+"inicio": 26.353,
+"fin": 26.553,
+"score": 0.836
+},
+{
+"texto": "that",
+"inicio": 26.633,
+"fin": 26.793,
+"score": 0.823
+},
+{
+"texto": "he",
+"inicio": 26.853,
+"fin": 26.973,
+"score": 0.767
+},
+{
+"texto": "will",
+"inicio": 27.013,
+"fin": 27.213,
+"score": 0.861
+},
+{
+"texto": "escalate",
+"inicio": 27.414,
+"fin": 28.054,
+"score": 0.91
+},
+{
+"texto": "after",
+"inicio": 28.454,
+"fin": 28.794,
+"score": 0.913
+},
+{
+"texto": "the",
+"inicio": 29.202,
+"fin": 29.443,
+"score": 0.779
+},
+{
+"texto": "elections,",
+"inicio": 29.703,
+"fin": 30.144,
+"score": 0.941
+},
+{
+"texto": "well",
+"inicio": 30.164,
+"fin": 30.304,
+"score": 0.761
+},
+{
+"texto": "now",
+"inicio": 30.344,
+"fin": 30.445,
+"score": 0.99
+},
+{
+"texto": "we're",
+"inicio": 30.485,
+"fin": 30.645,
+"score": 0.542
+},
+{
+"texto": "after",
+"inicio": 30.685,
+"fin": 30.885,
+"score": 0.914
+},
+{
+"texto": "the",
+"inicio": 30.905,
+"fin": 30.966,
+"score": 0.994
+},
+{
+"texto": "elections.",
+"inicio": 31.026,
+"fin": 31.426,
+"score": 0.762
+},
+{
+"texto": "So",
+"inicio": 31.527,
+"fin": 31.707,
+"score": 0.994
+},
+{
+"texto": "let",
+"inicio": 31.787,
+"fin": 31.907,
+"score": 0.866
+},
+{
+"texto": "me",
+"inicio": 31.947,
+"fin": 32.028,
+"score": 0.811
+},
+{
+"texto": "show",
+"inicio": 32.088,
+"fin": 32.268,
+"score": 0.868
+},
+{
+"texto": "you",
+"inicio": 32.308,
+"fin": 32.408,
+"score": 0.884
+},
+{
+"texto": "what's",
+"inicio": 32.428,
+"fin": 32.609,
+"score": 0.831
+},
+{
+"texto": "really",
+"inicio": 32.669,
+"fin": 32.909,
+"score": 0.814
+},
+{
+"texto": "gonna",
+"inicio": 32.949,
+"fin": 33.11,
+"score": 0.418
+},
+{
+"texto": "happen.",
+"inicio": 33.13,
+"fin": 33.43,
+"score": 0.931
+},
+{
+"texto": "But",
+"inicio": 33.611,
+"fin": 33.731,
+"score": 0.979
+},
+{
+"texto": "first,",
+"inicio": 33.791,
+"fin": 34.031,
+"score": 0.931
+},
+{
+"texto": "I've",
+"inicio": 34.112,
+"fin": 34.272,
+"score": 0.845
+},
+{
+"texto": "studied",
+"inicio": 34.352,
+"fin": 34.753,
+"score": 0.876
+},
+{
+"texto": "political",
+"inicio": 34.813,
+"fin": 35.214,
+"score": 0.903
+},
+{
+"texto": "violence",
+"inicio": 35.254,
+"fin": 35.634,
+"score": 0.884
+},
+{
+"texto": "around",
+"inicio": 35.715,
+"fin": 35.975,
+"score": 0.777
+},
+{
+"texto": "the",
+"inicio": 36.015,
+"fin": 36.115,
+"score": 0.735
+},
+{
+"texto": "world",
+"inicio": 36.135,
+"fin": 36.396,
+"score": 0.754
+},
+{
+"texto": "for",
+"inicio": 36.476,
+"fin": 36.616,
+"score": 0.887
+},
+{
+"texto": "30",
+"inicio": 36.777,
+"fin": 36.997,
+"score": 0.72
+},
+{
+"texto": "years",
+"inicio": 37.037,
+"fin": 37.338,
+"score": 0.683
+},
+{
+"texto": "and",
+"inicio": 37.538,
+"fin": 37.638,
+"score": 0.818
+},
+{
+"texto": "I've",
+"inicio": 37.698,
+"fin": 37.839,
+"score": 0.842
+},
+{
+"texto": "advised",
+"inicio": 37.879,
+"fin": 38.239,
+"score": 0.923
+},
+{
+"texto": "every",
+"inicio": 38.32,
+"fin": 38.52,
+"score": 0.766
+},
+{
+"texto": "White",
+"inicio": 38.56,
+"fin": 38.8,
+"score": 0.847
+},
+{
+"texto": "House",
+"inicio": 38.841,
+"fin": 39.081,
+"score": 0.916
+},
+{
+"texto": "since",
+"inicio": 39.121,
+"fin": 39.341,
+"score": 0.987
+},
+{
+"texto": "9-11.",
+"inicio": 39.422,
+"fin": 40.103,
+"score": 0.759
+},
+{
+"texto": "What",
+"inicio": 40.183,
+"fin": 40.343,
+"score": 0.876
+},
+{
+"texto": "do",
+"inicio": 40.504,
+"fin": 40.544,
+"score": 0.016
+},
+{
+"texto": "you",
+"inicio": 40.564,
+"fin": 40.644,
+"score": 0.839
+},
+{
+"texto": "think's",
+"inicio": 40.684,
+"fin": 40.864,
+"score": 0.783
+},
+{
+"texto": "gonna",
+"inicio": 40.904,
+"fin": 41.065,
+"score": 0.375
+},
+{
+"texto": "happen",
+"inicio": 41.085,
+"fin": 41.385,
+"score": 0.969
+},
+{
+"texto": "then?",
+"inicio": 41.405,
+"fin": 41.586,
+"score": 0.83
+},
+{
+"texto": "over",
+"inicio": 41.906,
+"fin": 42.046,
+"score": 0.839
+},
+{
+"texto": "these",
+"inicio": 42.086,
+"fin": 42.226,
+"score": 0.865
+},
+{
+"texto": "eight",
+"inicio": 42.286,
+"fin": 42.406,
+"score": 0.9
+},
+{
+"texto": "weeks.",
+"inicio": 42.446,
+"fin": 42.686,
+"score": 0.863
+},
+{
+"texto": "So",
+"inicio": 42.846,
+"fin": 43.006,
+"score": 0.885
+},
+{
+"texto": "let's",
+"inicio": 43.086,
+"fin": 43.326,
+"score": 0.731
+},
+{
+"texto": "start",
+"inicio": 43.366,
+"fin": 43.726,
+"score": 0.772
+},
+{
+"texto": "with",
+"inicio": 43.806,
+"fin": 43.966,
+"score": 0.862
+},
+{
+"texto": "the",
+"inicio": 44.066,
+"fin": 44.146,
+"score": 0.914
+},
+{
+"texto": "beginning.",
+"inicio": 44.186,
+"fin": 44.647,
+"score": 0.942
+},
+{
+"texto": "Will",
+"inicio": 44.767,
+"fin": 45.167,
+"score": 0.819
+},
+{
+"texto": "President",
+"inicio": 45.347,
+"fin": 45.907,
+"score": 0.888
+},
+{
+"texto": "Trump",
+"inicio": 46.007,
+"fin": 46.347,
+"score": 0.823
+},
+{
+"texto": "accept",
+"inicio": 46.567,
+"fin": 47.167,
+"score": 0.903
+},
+{
+"texto": "the",
+"inicio": 47.447,
+"fin": 47.567,
+"score": 0.864
+},
+{
+"texto": "election",
+"inicio": 47.667,
+"fin": 48.167,
+"score": 0.854
+},
+{
+"texto": "results?",
+"inicio": 48.227,
+"fin": 48.687,
+"score": 0.9
+},
+{
+"texto": "But",
+"inicio": 48.887,
+"fin": 49.007,
+"score": 0.996
+},
+{
+"texto": "also,",
+"inicio": 49.087,
+"fin": 49.468,
+"score": 0.947
+},
+{
+"texto": "the",
+"inicio": 49.648,
+"fin": 49.768,
+"score": 0.546
+},
+{
+"texto": "plan",
+"inicio": 49.828,
+"fin": 50.128,
+"score": 0.83
+},
+{
+"texto": "that's",
+"inicio": 50.148,
+"fin": 50.348,
+"score": 0.82
+},
+{
+"texto": "on",
+"inicio": 50.468,
+"fin": 50.568,
+"score": 0.942
+},
+{
+"texto": "his",
+"inicio": 50.648,
+"fin": 50.828,
+"score": 0.797
+},
+{
+"texto": "desk",
+"inicio": 50.908,
+"fin": 51.248,
+"score": 0.941
+},
+{
+"texto": "is",
+"inicio": 51.468,
+"fin": 51.568,
+"score": 0.743
+},
+{
+"texto": "a",
+"inicio": 51.608,
+"fin": 51.648,
+"score": 0.505
+},
+{
+"texto": "plan",
+"inicio": 51.688,
+"fin": 52.048,
+"score": 0.81
+},
+{
+"texto": "to",
+"inicio": 52.128,
+"fin": 52.288,
+"score": 0.847
+},
+{
+"texto": "hit",
+"inicio": 52.348,
+"fin": 52.608,
+"score": 0.9
+},
+{
+"texto": "targets",
+"inicio": 52.768,
+"fin": 53.268,
+"score": 0.843
+},
+{
+"texto": "in",
+"inicio": 53.388,
+"fin": 53.488,
+"score": 0.837
+},
+{
+"texto": "Iran",
+"inicio": 53.528,
+"fin": 53.988,
+"score": 0.724
+},
+{
+"texto": "over",
+"inicio": 54.168,
+"fin": 54.369,
+"score": 0.943
+},
+{
+"texto": "a",
+"inicio": 54.389,
+"fin": 54.409,
+"score": 0.012
+},
+{
+"texto": "three-day",
+"inicio": 54.489,
+"fin": 54.969,
+"score": 0.817
+},
+{
+"texto": "period.",
+"inicio": 54.989,
+"fin": 55.289,
+"score": 0.483
+},
+{
+"texto": "And",
+"inicio": 55.469,
+"fin": 55.549,
+"score": 0.838
+},
+{
+"texto": "as",
+"inicio": 55.709,
+"fin": 55.849,
+"score": 0.724
+},
+{
+"texto": "the",
+"inicio": 55.909,
+"fin": 56.009,
+"score": 0.734
+},
+{
+"texto": "Iran",
+"inicio": 56.109,
+"fin": 56.549,
+"score": 0.782
+},
+{
+"texto": "war",
+"inicio": 56.609,
+"fin": 57.049,
+"score": 0.7
+},
+{
+"texto": "is",
+"inicio": 57.289,
+"fin": 57.409,
+"score": 0.526
+},
+{
+"texto": "escalating,",
+"inicio": 57.569,
+"fin": 58.269,
+"score": 0.888
+},
+{
+"texto": "now",
+"inicio": 58.489,
+"fin": 58.989,
+"score": 0.881
+},
+{
+"texto": "we",
+"inicio": 59.189,
+"fin": 59.33,
+"score": 0.886
+},
+{
+"texto": "have",
+"inicio": 59.35,
+"fin": 59.57,
+"score": 0.839
+},
+{
+"texto": "the",
+"inicio": 59.71,
+"fin": 59.85,
+"score": 0.756
+},
+{
+"texto": "issue",
+"inicio": 59.93,
+"fin": 60.25,
+"score": 0.797
+},
+{
+"texto": "of",
+"inicio": 60.41,
+"fin": 60.49,
+"score": 0.837
+},
+{
+"texto": "this",
+"inicio": 60.65,
+"fin": 60.83,
+"score": 0.886
+},
+{
+"texto": "is",
+"inicio": 60.91,
+"fin": 61.01,
+"score": 0.737
+},
+{
+"texto": "a",
+"inicio": 61.07,
+"fin": 61.09,
+"score": 0.998
+},
+{
+"texto": "likely",
+"inicio": 61.21,
+"fin": 61.67,
+"score": 0.882
+},
+{
+"texto": "possible",
+"inicio": 61.79,
+"fin": 62.29,
+"score": 0.819
+},
+{
+"texto": "time",
+"inicio": 62.37,
+"fin": 62.75,
+"score": 0.726
+},
+{
+"texto": "when",
+"inicio": 62.93,
+"fin": 63.31,
+"score": 0.563
+},
+{
+"texto": "Putin",
+"inicio": 63.59,
+"fin": 64.01,
+"score": 0.602
+},
+{
+"texto": "is",
+"inicio": 64.19,
+"fin": 64.27,
+"score": 0.752
+},
+{
+"texto": "going",
+"inicio": 64.29,
+"fin": 64.451,
+"score": 0.853
+},
+{
+"texto": "to",
+"inicio": 64.471,
+"fin": 64.511,
+"score": 1.0
+},
+{
+"texto": "start",
+"inicio": 64.551,
+"fin": 64.851,
+"score": 0.717
+},
+{
+"texto": "to",
+"inicio": 64.911,
+"fin": 65.151,
+"score": 0.762
+},
+{
+"texto": "realize",
+"inicio": 65.291,
+"fin": 65.811,
+"score": 0.74
+},
+{
+"texto": "he",
+"inicio": 65.851,
+"fin": 65.951,
+"score": 0.73
+},
+{
+"texto": "can't",
+"inicio": 66.011,
+"fin": 66.271,
+"score": 0.751
+},
+{
+"texto": "get",
+"inicio": 66.311,
+"fin": 66.471,
+"score": 0.782
+},
+{
+"texto": "Ukrainian",
+"inicio": 66.731,
+"fin": 67.131,
+"score": 0.515
+},
+{
+"texto": "territory",
+"inicio": 67.171,
+"fin": 67.631,
+"score": 0.716
+},
+{
+"texto": "from",
+"inicio": 67.691,
+"fin": 67.831,
+"score": 0.538
+},
+{
+"texto": "Trump.",
+"inicio": 67.871,
+"fin": 68.151,
+"score": 0.899
+},
+{
+"texto": "So",
+"inicio": 68.211,
+"fin": 68.451,
+"score": 0.932
+},
+{
+"texto": "he",
+"inicio": 68.731,
+"fin": 68.851,
+"score": 0.844
+},
+{
+"texto": "moves",
+"inicio": 68.931,
+"fin": 69.171,
+"score": 0.903
+},
+{
+"texto": "to",
+"inicio": 69.231,
+"fin": 69.372,
+"score": 0.86
+},
+{
+"texto": "his",
+"inicio": 69.412,
+"fin": 69.552,
+"score": 0.67
+},
+{
+"texto": "next",
+"inicio": 69.612,
+"fin": 69.832,
+"score": 0.904
+},
+{
+"texto": "plan,",
+"inicio": 69.892,
+"fin": 70.352,
+"score": 0.88
+},
+{
+"texto": "and",
+"inicio": 70.452,
+"fin": 70.532,
+"score": 0.839
+},
+{
+"texto": "I'll",
+"inicio": 70.572,
+"fin": 70.752,
+"score": 0.845
+},
+{
+"texto": "show",
+"inicio": 70.792,
+"fin": 70.992,
+"score": 0.855
+},
+{
+"texto": "you",
+"inicio": 71.052,
+"fin": 71.152,
+"score": 0.934
+},
+{
+"texto": "what",
+"inicio": 71.212,
+"fin": 71.392,
+"score": 0.879
+},
+{
+"texto": "that",
+"inicio": 71.552,
+"fin": 71.712,
+"score": 0.982
+},
+{
+"texto": "might",
+"inicio": 71.812,
+"fin": 71.992,
+"score": 0.268
+},
+{
+"texto": "look",
+"inicio": 72.052,
+"fin": 72.232,
+"score": 0.734
+},
+{
+"texto": "like.",
+"inicio": 72.252,
+"fin": 72.432,
+"score": 0.407
+},
+{
+"texto": "What",
+"inicio": 72.552,
+"fin": 72.692,
+"score": 0.935
+},
+{
+"texto": "happens",
+"inicio": 72.712,
+"fin": 73.013,
+"score": 0.87
+},
+{
+"texto": "next?",
+"inicio": 73.073,
+"fin": 73.313,
+"score": 0.937
+},
+{
+"texto": "There's",
+"inicio": 73.493,
+"fin": 73.693,
+"score": 0.768
+},
+{
+"texto": "going",
+"inicio": 73.713,
+"fin": 73.813,
+"score": 0.386
+},
+{
+"texto": "to",
+"inicio": 73.833,
+"fin": 73.893,
+"score": 0.24
+},
+{
+"texto": "be",
+"inicio": 73.933,
+"fin": 74.053,
+"score": 0.855
+},
+{
+"texto": "enormous",
+"inicio": 74.133,
+"fin": 74.733,
+"score": 0.758
+},
+{
+"texto": "pressure",
+"inicio": 74.833,
+"fin": 75.334,
+"score": 0.93
+},
+{
+"texto": "on",
+"inicio": 75.614,
+"fin": 75.714,
+"score": 0.74
+},
+{
+"texto": "Europe",
+"inicio": 75.894,
+"fin": 76.214,
+"score": 0.747
+},
+{
+"texto": "to",
+"inicio": 76.254,
+"fin": 76.354,
+"score": 0.832
+},
+{
+"texto": "retaliate.",
+"inicio": 76.414,
+"fin": 77.074,
+"score": 0.851
+},
+{
+"texto": "And",
+"inicio": 77.154,
+"fin": 77.234,
+"score": 0.974
+},
+{
+"texto": "when",
+"inicio": 77.274,
+"fin": 77.394,
+"score": 0.866
+},
+{
+"texto": "Europe",
+"inicio": 77.474,
+"fin": 77.695,
+"score": 0.842
+},
+{
+"texto": "does",
+"inicio": 77.735,
+"fin": 77.975,
+"score": 0.763
+},
+{
+"texto": "that,",
+"inicio": 78.035,
+"fin": 78.215,
+"score": 0.917
+},
+{
+"texto": "that's",
+"inicio": 78.375,
+"fin": 78.795,
+"score": 0.83
+},
+{
+"texto": "what",
+"inicio": 78.975,
+"fin": 79.135,
+"score": 0.9
+},
+{
+"texto": "World",
+"inicio": 79.155,
+"fin": 79.375,
+"score": 0.563
+},
+{
+"texto": "War",
+"inicio": 79.395,
+"fin": 79.635,
+"score": 0.436
+},
+{
+"texto": "III",
+"inicio": 79.675,
+"fin": 79.795,
+"score": 0.248
+},
+{
+"texto": "looks",
+"inicio": 79.815,
+"fin": 80.016,
+"score": 0.717
+},
+{
+"texto": "like.",
+"inicio": 80.076,
+"fin": 80.176,
+"score": 0.024
+},
+{
+"texto": "President",
+"inicio": 80.216,
+"fin": 80.676,
+"score": 0.823
+},
+{
+"texto": "Trump",
+"inicio": 80.716,
+"fin": 81.076,
+"score": 0.888
+},
+{
+"texto": "will",
+"inicio": 81.196,
+"fin": 81.376,
+"score": 0.765
+},
+{
+"texto": "be",
+"inicio": 81.416,
+"fin": 81.476,
+"score": 0.75
+},
+{
+"texto": "able",
+"inicio": 81.556,
+"fin": 81.756,
+"score": 0.57
+},
+{
+"texto": "to",
+"inicio": 81.816,
+"fin": 81.916,
+"score": 0.889
+},
+{
+"texto": "start",
+"inicio": 81.976,
+"fin": 82.236,
+"score": 0.819
+},
+{
+"texto": "declaring",
+"inicio": 82.277,
+"fin": 82.817,
+"score": 0.88
+},
+{
+"texto": "more",
+"inicio": 82.937,
+"fin": 83.137,
+"score": 0.71
+},
+{
+"texto": "and",
+"inicio": 83.197,
+"fin": 83.257,
+"score": 1.0
+},
+{
+"texto": "more",
+"inicio": 83.297,
+"fin": 83.477,
+"score": 0.545
+},
+{
+"texto": "emergency",
+"inicio": 83.537,
+"fin": 84.217,
+"score": 0.871
+},
+{
+"texto": "power.",
+"inicio": 84.277,
+"fin": 84.718,
+"score": 0.879
+},
+{
+"texto": "And",
+"inicio": 84.858,
+"fin": 84.958,
+"score": 0.795
+},
+{
+"texto": "this",
+"inicio": 84.998,
+"fin": 85.158,
+"score": 0.718
+},
+{
+"texto": "will",
+"inicio": 85.218,
+"fin": 85.438,
+"score": 0.832
+},
+{
+"texto": "lead",
+"inicio": 85.498,
+"fin": 85.918,
+"score": 0.814
+},
+{
+"texto": "into",
+"inicio": 86.158,
+"fin": 86.638,
+"score": 0.774
+},
+{
+"texto": "a",
+"inicio": 86.658,
+"fin": 86.678,
+"score": 0.0
+},
+{
+"texto": "devastating",
+"inicio": 87.139,
+"fin": 88.019,
+"score": 0.644
+},
+{
+"texto": "2027.",
+"inicio": 88.219,
+"fin": 88.799,
+"score": 0.789
+},
+{
+"texto": "What",
+"inicio": 89.34,
+"fin": 89.46,
+"score": 0.927
+},
+{
+"texto": "can",
+"inicio": 89.5,
+"fin": 89.62,
+"score": 0.939
+},
+{
+"texto": "we",
+"inicio": 89.64,
+"fin": 89.74,
+"score": 0.819
+},
+{
+"texto": "do?",
+"inicio": 89.76,
+"fin": 89.96,
+"score": 0.865
+},
+{
+"texto": "And",
+"inicio": 90.08,
+"fin": 90.16,
+"score": 0.886
+},
+{
+"texto": "what",
+"inicio": 90.18,
+"fin": 90.34,
+"score": 0.435
+},
+{
+"texto": "about",
+"inicio": 90.38,
+"fin": 90.58,
+"score": 0.887
+},
+{
+"texto": "the",
+"inicio": 90.6,
+"fin": 90.82,
+"score": 0.593
+},
+{
+"texto": "general",
+"inicio": 90.9,
+"fin": 91.2,
+"score": 0.754
+},
+{
+"texto": "public?",
+"inicio": 91.24,
+"fin": 91.601,
+"score": 0.442
+},
+{
+"texto": "And",
+"inicio": 91.621,
+"fin": 91.681,
+"score": 0.413
+},
+{
+"texto": "do",
+"inicio": 91.701,
+"fin": 91.741,
+"score": 0.01
+},
+{
+"texto": "you",
+"inicio": 91.761,
+"fin": 91.821,
+"score": 0.993
+},
+{
+"texto": "think",
+"inicio": 91.841,
+"fin": 91.961,
+"score": 0.803
+},
+{
+"texto": "we",
+"inicio": 92.001,
+"fin": 92.041,
+"score": 0.994
+},
+{
+"texto": "should",
+"inicio": 92.061,
+"fin": 92.201,
+"score": 0.907
+},
+{
+"texto": "be",
+"inicio": 92.241,
+"fin": 92.301,
+"score": 0.922
+},
+{
+"texto": "stockpiling?",
+"inicio": 92.341,
+"fin": 92.961,
+"score": 0.828
+},
+{
+"texto": "Number",
+"inicio": 93.341,
+"fin": 93.801,
+"score": 0.84
+},
+{
+"texto": "one,",
+"inicio": 94.042,
+"fin": 94.182,
+"score": 0.836
+},
+{
+"texto": "incredibly",
+"inicio": 94.442,
+"fin": 95.262,
+"score": 0.793
+},
+{
+"texto": "important,",
+"inicio": 95.342,
+"fin": 95.842,
+"score": 0.981
+},
+{
+"texto": "which",
+"inicio": 96.443,
+"fin": 96.643,
+"score": 0.696
+},
+{
+"texto": "is",
+"inicio": 96.823,
+"fin": 96.883,
+"score": 0.882
+}
+]

@@ -1,0 +1,289 @@
+{
+ "bruto": "IMG_6130.MOV (222,6 s)",
+ "corte_s": 54.1,
+ "nota": "piezas: src = segundo del bruto, dur = duración, ini = segundo en el corte. El final exportado (42,1 s) se recortó después a mano; esos recortes no están reconstruidos.",
+ "piezas": [
+  {
+   "src": 7.066666666666666,
+   "dur": 2.9667,
+   "ini": 0
+  },
+  {
+   "src": 34.3,
+   "dur": 2.1,
+   "ini": 2.9667
+  },
+  {
+   "src": 52.3,
+   "dur": 2.2667,
+   "ini": 5.0667
+  },
+  {
+   "src": 56.36666666666667,
+   "dur": 1.9,
+   "ini": 7.3333
+  },
+  {
+   "src": 66.16666666666667,
+   "dur": 2.9667,
+   "ini": 9.2333
+  },
+  {
+   "src": 75.9,
+   "dur": 4.0333,
+   "ini": 12.2
+  },
+  {
+   "src": 91.23333333333333,
+   "dur": 4.1,
+   "ini": 16.2333
+  },
+  {
+   "src": 106.76666666666667,
+   "dur": 4.3667,
+   "ini": 20.3333
+  },
+  {
+   "src": 122.66666666666667,
+   "dur": 3.1,
+   "ini": 24.7
+  },
+  {
+   "src": 137.26666666666668,
+   "dur": 3.5,
+   "ini": 27.8
+  },
+  {
+   "src": 158.8,
+   "dur": 2.5,
+   "ini": 31.3
+  },
+  {
+   "src": 178.9,
+   "dur": 2.3,
+   "ini": 33.8
+  },
+  {
+   "src": 186.36666666666667,
+   "dur": 3.4667,
+   "ini": 36.1
+  },
+  {
+   "src": 198.8,
+   "dur": 3.6,
+   "ini": 39.5667
+  },
+  {
+   "src": 206.86666666666667,
+   "dur": 3.7,
+   "ini": 43.1667
+  },
+  {
+   "src": 215.26666666666668,
+   "dur": 2.8,
+   "ini": 46.8667
+  }
+ ],
+ "frases": [
+  {
+   "n": 1,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3,
+   "clip": "IMG_6130.MOV",
+   "texto": "sacar sobre saliente en la escuela es de muy de mediocre"
+  },
+  {
+   "n": 2,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.1,
+   "clip": "IMG_6130.MOV",
+   "texto": "Pero ¿qué cuesta apresar atención en class?"
+  },
+  {
+   "n": 3,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "No se me ha hecho estar."
+  },
+  {
+   "n": 4,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "¿Puede ser señal de un futuro exitoso?"
+  },
+  {
+   "n": 5,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "¿Obedecer sin rechistar?"
+  },
+  {
+   "n": 6,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3,
+   "clip": "IMG_6130.MOV",
+   "texto": "cumplir todas las normas sin rechistar?"
+  },
+  {
+   "n": 7,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "Muy de rico no parece, incluso diría que es de mediocre."
+  },
+  {
+   "n": 8,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.2,
+   "clip": "IMG_6130.MOV",
+   "texto": "las reglas es de ganador para siempre."
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "Cuestionar las reglas es de ganador para siempre."
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.5,
+   "clip": "IMG_6130.MOV",
+   "texto": "Poner a los demás siempre por delante es un bien y medio creme."
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4,
+   "clip": "IMG_6130.MOV",
+   "texto": "los demás siempre por delante es de mediocre."
+  },
+  {
+   "n": 12,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "Hacer de ti absoluta prioridad es de éxito?"
+  },
+  {
+   "n": 13,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.6,
+   "clip": "IMG_6130.MOV",
+   "texto": "Aspirar a un sueldo."
+  },
+  {
+   "n": 14,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6130.MOV",
+   "texto": "Aspirar a un"
+  },
+  {
+   "n": 15,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "libre es de exit."
+  },
+  {
+   "n": 16,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1,
+   "clip": "IMG_6130.MOV",
+   "texto": "la escuela nunca para"
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te programa para ser."
+  },
+  {
+   "n": 18,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.2,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te educa para ser un empleado."
+  },
+  {
+   "n": 19,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te educa para ser rico."
+  },
+  {
+   "n": 20,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela te programa para ser un empleado obediente."
+  },
+  {
+   "n": 21,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.4,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela te programa para ser un empleado obediente."
+  },
+  {
+   "n": 22,
+   "dentro": true,
+   "motivo": null,
+   "seg": 5.7,
+   "clip": "IMG_6130.MOV",
+   "texto": "Si quieres ser libre de verdad, sin algún momento de tu vida quieres ser libre de verdad,"
+  },
+  {
+   "n": 23,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "tienes que romper con la programación mental que ya tienes."
+  },
+  {
+   "n": 24,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.7,
+   "clip": "IMG_6130.MOV",
+   "texto": "Tienes que romper con la programación mental que ya tienes."
+  },
+  {
+   "n": 25,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "Sígueme para que la rompamos juntos."
+  }
+ ]
+}

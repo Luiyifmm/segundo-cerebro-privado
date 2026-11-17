@@ -1,0 +1,491 @@
+{
+ "nota": "a/b = inicio/fin del bloque en el corte; 'retraso' = fotogramas de retraso de la clave; 'gris' = clave en gris (luego CORREGIDO: solo color de marca).",
+ "bloques": [
+  {
+   "a": 0.34,
+   "b": 0.86,
+   "linea": "esta de aquí",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 0.82
+  },
+  {
+   "a": 0.82,
+   "b": 1.58,
+   "linea": "es la mujer",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 1.54
+  },
+  {
+   "a": 1.54,
+   "b": 2.3,
+   "linea": "del",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 8,
+   "fin": 2.26
+  },
+  {
+   "a": 2.26,
+   "b": 2.78,
+   "linea": "y esta de",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 2.74
+  },
+  {
+   "a": 2.74,
+   "b": 3.26,
+   "linea": "aquí es la",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 3.22
+  },
+  {
+   "a": 3.22,
+   "b": 3.87,
+   "linea": "mujer de",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 12,
+   "fin": 4.15
+  },
+  {
+   "a": 4.15,
+   "b": 4.47,
+   "linea": "esto es lo",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 4.43
+  },
+  {
+   "a": 4.43,
+   "b": 5.01,
+   "linea": "que le gusta",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 4.97
+  },
+  {
+   "a": 4.97,
+   "b": 5.43,
+   "linea": "al",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 6,
+   "fin": 5.39
+  },
+  {
+   "a": 5.39,
+   "b": 5.76,
+   "linea": "y esto es",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 5.71
+  },
+  {
+   "a": 5.71,
+   "b": 6.41,
+   "linea": "lo que el",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 11,
+   "fin": 6.37
+  },
+  {
+   "a": 6.37,
+   "b": 6.63,
+   "linea": "disfruta",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 6.8
+  },
+  {
+   "a": 6.8,
+   "b": 7.56,
+   "linea": "este de aquí",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 7.52
+  },
+  {
+   "a": 7.52,
+   "b": 7.88,
+   "linea": "es el fin",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 7.84
+  },
+  {
+   "a": 7.84,
+   "b": 8.88,
+   "linea": "de semana del",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 17,
+   "fin": 8.84
+  },
+  {
+   "a": 8.84,
+   "b": 9.16,
+   "linea": "y este es",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 9.12
+  },
+  {
+   "a": 9.12,
+   "b": 9.58,
+   "linea": "el fin de",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 9.54
+  },
+  {
+   "a": 9.54,
+   "b": 10.03,
+   "linea": "semana de",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 12,
+   "fin": 10.38
+  },
+  {
+   "a": 10.44,
+   "b": 10.8,
+   "linea": "esto es lo",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 10.76
+  },
+  {
+   "a": 10.76,
+   "b": 11.82,
+   "linea": "que escucha el",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 20,
+   "fin": 11.78
+  },
+  {
+   "a": 11.78,
+   "b": 12.22,
+   "linea": "y esto es",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 12.18
+  },
+  {
+   "a": 12.18,
+   "b": 12.86,
+   "linea": "lo que escucha",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 12.82
+  },
+  {
+   "a": 12.82,
+   "b": 13.2,
+   "linea": "el",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 5,
+   "fin": 13.37
+  },
+  {
+   "a": 13.37,
+   "b": 13.93,
+   "linea": "este es el",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 13.89
+  },
+  {
+   "a": 13.89,
+   "b": 14.37,
+   "linea": "interior de la",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 14.33
+  },
+  {
+   "a": 14.33,
+   "b": 15.17,
+   "linea": "casa del",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 13,
+   "fin": 15.13
+  },
+  {
+   "a": 15.13,
+   "b": 15.59,
+   "linea": "y este es",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 15.55
+  },
+  {
+   "a": 15.55,
+   "b": 16.15,
+   "linea": "el interior de",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 16.11
+  },
+  {
+   "a": 16.11,
+   "b": 16.92,
+   "linea": "la casa del",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 22,
+   "fin": 17.22
+  },
+  {
+   "a": 17.22,
+   "b": 17.58,
+   "linea": "así se ",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 17.54
+  },
+  {
+   "a": 17.54,
+   "b": 18.2,
+   "linea": "viste un",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 11,
+   "fin": 18.16
+  },
+  {
+   "a": 18.16,
+   "b": 18.56,
+   "linea": "y así se",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 18.52
+  },
+  {
+   "a": 18.52,
+   "b": 19.44,
+   "linea": " viste un",
+   "clave": "rico",
+   "gris": false,
+   "retraso": 14,
+   "fin": 19.48
+  },
+  {
+   "a": 19.48,
+   "b": 20.22,
+   "linea": "la",
+   "clave": "riqueza",
+   "gris": false,
+   "retraso": 4,
+   "fin": 20.18
+  },
+  {
+   "a": 20.18,
+   "b": 20.76,
+   "linea": "no se trata",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 20.72
+  },
+  {
+   "a": 20.72,
+   "b": 21.16,
+   "linea": "de lo que",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 21.12
+  },
+  {
+   "a": 21.12,
+   "b": 21.26,
+   "linea": "tienes",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 21.4
+  },
+  {
+   "a": 21.4,
+   "b": 22.62,
+   "linea": "sino es como",
+   "clave": "piensas",
+   "gris": false,
+   "retraso": 20,
+   "fin": 22.74
+  },
+  {
+   "a": 22.74,
+   "b": 24.16,
+   "linea": "es la programación",
+   "clave": "mental",
+   "gris": false,
+   "retraso": 35,
+   "fin": 24.12
+  },
+  {
+   "a": 24.12,
+   "b": 25.02,
+   "linea": "que inculcaron de",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 24.98
+  },
+  {
+   "a": 24.98,
+   "b": 26.14,
+   "linea": "ti desde pequeño",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 26.18
+  },
+  {
+   "a": 26.18,
+   "b": 26.58,
+   "linea": "si tú quieres",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 26.72
+  },
+  {
+   "a": 26.72,
+   "b": 27.6,
+   "linea": "ser una persona",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 27.56
+  },
+  {
+   "a": 27.56,
+   "b": 28.7,
+   "linea": "rica y",
+   "clave": "exitosa",
+   "gris": false,
+   "retraso": 17,
+   "fin": 28.85
+  },
+  {
+   "a": 28.85,
+   "b": 29.63,
+   "linea": "tienes que",
+   "clave": "eliminar",
+   "gris": false,
+   "retraso": 11,
+   "fin": 29.59
+  },
+  {
+   "a": 29.59,
+   "b": 30.85,
+   "linea": "esa programación",
+   "clave": "mental",
+   "gris": false,
+   "retraso": 28,
+   "fin": 30.81
+  },
+  {
+   "a": 30.81,
+   "b": 31.95,
+   "linea": "de poca",
+   "clave": "abundancia",
+   "gris": false,
+   "retraso": 22,
+   "fin": 31.91
+  },
+  {
+   "a": 31.91,
+   "b": 32.93,
+   "linea": "y de",
+   "clave": "pobre",
+   "gris": true,
+   "retraso": 11,
+   "fin": 32.91
+  },
+  {
+   "a": 32.91,
+   "b": 33.75,
+   "linea": "para convertirte en",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 33.71
+  },
+  {
+   "a": 33.71,
+   "b": 35.71,
+   "linea": "una persona de",
+   "clave": "éxito",
+   "gris": false,
+   "retraso": 41,
+   "fin": 35.95
+  },
+  {
+   "a": 35.95,
+   "b": 36.93,
+   "linea": "y",
+   "clave": "abundancia",
+   "gris": false,
+   "retraso": 16,
+   "fin": 37.05
+  },
+  {
+   "a": 37.05,
+   "b": 37.87,
+   "linea": "si quieres empezar",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 37.83
+  },
+  {
+   "a": 37.83,
+   "b": 38.89,
+   "linea": "con eso puedes",
+   "clave": "",
+   "gris": false,
+   "retraso": 0,
+   "fin": 38.85
+  },
+  {
+   "a": 38.85,
+   "b": 39.17,
+   "linea": "seguir",
+   "clave": "aquí",
+   "gris": false,
+   "retraso": 6,
+   "fin": 39.52
+  }
+ ]
+}

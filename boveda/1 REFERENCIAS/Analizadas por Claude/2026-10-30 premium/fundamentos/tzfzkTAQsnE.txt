@@ -1,0 +1,103 @@
+[00:00] Doom scrolling on mute has made us forget how powerful sound really is.
+[00:05] Pretty visuals grab your attention, but it's sound that keeps you hooked.
+[00:16] I'm going to share the three sound design techniques that took me 16 years to master,
+[00:21] but it'll only take you a few minutes to learn.
+[00:22] Using these three alone will instantly upgrade your work, but for each technique,
+[00:26] I'm going to share a secret cheat code that made the biggest difference in my work,
+[00:29] so you won't want to miss any of these.
+[00:33] My sound effects used to sound really flat and boring.
+[00:35] It wasn't necessarily the sounds that I used, but it was how I used it.
+[00:39] Now the best example I can give is a whoosh.
+[00:41] A single whoosh can be okay for matching visuals of a small movement.
+[00:47] But when there's a big dramatic one, a single whoosh isn't quite enough.
+[00:51] Finding a deeper whoosh will help, but still lacks weight.
+[00:56] Thinking about sounds in different frequencies is what solved the problem.
+[01:04] So imagine layering a cake, where each layer adds a unique flavor,
+[01:08] except on an audio spectrum it looks more like this.
+[01:11] Now by layering sounds with different frequencies, you can achieve a much more full dynamic sound.
+[01:17] Instead of scrolling endlessly for the right sound effects, thinking in layers puts you miles ahead.
+[01:22] Now, the cheat code for using this technique is applying it outside of sound effects, like
+[01:27] with your dialogue and your music.
+[01:28] I used to throw my dialogue track right onto my timeline and then lower the gain of my background
+[01:32] music and just call it a day.
+[01:34] But ever since I saw a tutorial from my buddy Dave, I've been using this technique he shared
+[01:38] in every video I've ever edited since I've learned it.
+[01:41] Instead of using the de-esser effect for its intended purpose, you can use it to carve out
+[01:45] a pocket in the mid frequencies of your music track.
+[01:51] Your dialogue naturally sits in that pocket, and you can always EQ it to cut off the low
+[01:56] and high ends for a better fit.
+[01:58] But this technique gives each element its own space, resulting in a fuller mix.
+[02:03] A lot of you have asked me where I get my sound effects from, and my go-to answer has
+[02:06] always been Artlist.
+[02:07] But a secret weapon I've been using for years is sound packs from Happy Editing.
+[02:12] I'm really excited about sponsoring this video, and I want to show you how I use their
+[02:15] packs to make my videos stand out.
+[02:17] First, let's have a listen of this promo cut using sound effects that's scattered across different sources and genres.
+[02:36] So it sounds pretty good, but it does feel a little bit safe because I'm using the same set of sounds that I would for any video I work on.
+[02:43] Having a broad library of sound effects is amazing when you're working on a lot of different genres
+[02:47] of videos. But if you're working on an athletic commercial and you're using the same sound effects
+[02:52] that you would for a wedding video or a corporate video, you're not going to get the best results.
+[02:56] Now let's replace the sounds with ones from Happy Editing's Transition Sound Effects Pack. This
+[03:00] pack covers all the category of sounds that I frequently use when I'm editing, like risers,
+[03:04] hits, and whooshes. Especially whooshes. Let's take a listen.
+[03:13] Hear the difference?
+[03:22] The sound matches the visual aesthetic and feels way more coherent.
+[03:26] And that's the main tip that I want to share.
+[03:28] Commit to a style instead of mixing random sounds.
+[03:30] Gritty bass hits aren't going to work for your corporate videos the same way clean bell
+[03:35] dings won't work for your streetwear promo.
+[03:37] Sound packs have been the easiest way for me to keep my style consistent or to keep a specific
+[03:41] video feeling consistent.
+[03:43] Most of the glitchy sound effects that you hear in my work have been from Happy Editing,
+[03:46] so if you like the sounds that you heard, check out this transition sound effects pack with
+[03:49] the link below.
+[03:50] Huge thank you to Happy Editing for sponsoring this video.
+[03:53] Keeping this tip in mind, the cheat code I'll sometimes use to make my videos stand out is
+[03:58] using sounds that do not match the visuals.
+[04:01] This was inspired by the show Euphoria, where the director uses something they call emotional
+[04:05] realism.
+[04:06] The cinematography on the show portrays how the characters feel in their environment, rather
+[04:09] than what's literally happening.
+[04:11] I took that same principle and applied it to sound design.
+[04:13] So in a video I made called The Vessel and the Filter, it's just shots of me making coffee.
+[04:18] But the message is how making coffee is similar to our creative process as filmmakers.
+[04:23] To add more weight to the visuals, I replaced the literal sounds with only nature sounds.
+[04:28] Coffee grounds breaking became the crackling of icebergs, and the swish of coffee transformed into an ocean crash.
+[04:35] By limiting myself to only nature sounds and intentionally mismatching the visuals,
+[04:40] you can create a deeper experience for your audience.
+[04:44] Okay, so let's say you're editing a 30-second promo video
+[04:47] and you want to use a song that's three minutes.
+[04:49] How do you cut the music to fit in that video length?
+[04:52] I had a lot of trouble trimming down music when I first started
+[04:54] because ending a song early felt like just driving
+[04:57] and then suddenly slamming my brakes.
+[04:59] The remix feature and premiere does a pretty good job,
+[05:02] but most of the time, I need more control to fit the visuals
+[05:05] or to emphasize key moments.
+[05:06] So after watching endless amounts of movie trailers and promo videos,
+[05:10] I'm going to share my favorite way to transition in and out of a song.
+[05:13] If the song you're using doesn't have a natural lead in,
+[05:17] you can use the beginning beat of the song,
+[05:21] reverse it, and use it as a riser to naturally ease into the song.
+[05:27] If the beginning beat doesn't work, you can always try reversing the tail end of the song
+[05:31] to use as a riser as well.
+[05:36] This method is a great way to introduce a new song in the same video,
+[05:39] or to get back into a song after a bridge or a quiet moment of the song.
+[05:46] Now, the way that I like to get out of a song is adding a reverb on the final beat.
+[05:51] All I do is cut before the next beat hits, cut the beginning of the beat, nest it,
+[05:55] extend the nested sequence by placing something else further down the timeline.
+[05:59] In this case, I just duplicate that section, disable it, and move it down further so we don't hear it a second time.
+[06:05] And then I go back to the main timeline and add a studio reverb on it.
+[06:09] You can play with different presets to find the best fit, but usually I like to start out with the Great Hall preset.
+[06:14] This is without the reverb.
+[06:18] And this is with the reverb.
+[06:23] Sometimes I'll do a little fade at the end of the original track, and then play the reverb version underneath, like this.
+[06:33] Using these two methods already gets you great and natural-sounding results,
+[06:36] but the cheat code that I used to make it feel absolutely seamless is layering sound effects
+[06:41] on top of these methods. So to ease into a track, I look for sounds like risers, swells, or suckbacks
+[06:47] to layer underneath, like this. They're also great for getting out of a song to emphasize moments in
+[06:54] your videos, like this. I don't know if you noticed, but you got a crack in your windshield.
+[06:59] If you want the ending of your song to hit harder, don't be afraid to add these sounds as well,
+[07:03] and even impacts, slams, or hits to wrap it all up with a bang.
+[07:09] The quality of my sound design improved drastically after applying these three techniques,
+[07:13] so let me know in the comments if they helped you as well.

@@ -1,0 +1,31 @@
+# Estudio de edición del usuario (Videos-Remotion)
+
+Editor profesional (Premiere 2026 + After Effects) con tres clientes: ClienteA, ClienteE y ClienteN. Responder en español, directo, con secciones "Comunicado / Qué necesito de ti / Pendiente".
+
+## Skills (cargar solo la que toque)
+| Tarea | Skill |
+|---|---|
+| Tocar Premiere por script | `premiere-puente` |
+| Marca, plantillas y entrega por cliente | `clientes` |
+| Editar / proponer / pensar como director, viralidad | `direccion-viral` |
+| Vídeo brillante al exportar, color, HDR iPhone | `color-hdr` |
+| Portadas | `portadas` |
+| Motion graphics con Remotion/AE, analizar referencias | `edicion-video` (criterio en `criterio.md`), `after-effects-editor` |
+| Llega material, primer corte, entrega, panel | `primer-corte` |
+| Subtítulos de reels en Premiere (ClienteE/ClienteN), estética del usuario | `subtitulos-reels` |
+| Subtítulos/transcripción sueltos, silencios, fondo | `subtitulos`, `cortar-silencios`, `cambiar-fondo` |
+
+## Mapa
+- `premiere/` puente (`pr.sh`), constructores (`propuesta-hablado.jsx`, `propuesta-yt.jsx`), `recetas/`.
+- `ae/` generadores de MOGRT (`run.sh <jsx>`); plantillas en `clientes/_plantillas/`.
+- `motion/` Remotion (portadas, vtrials, MG). `voz/` Whisper (`transcribir.js` → `salida/`).
+- `herramientas/` recorte (`recorte-objetos/`), emoji, fotogramas nítidos, entorno Python (`separar-env`).
+- `referencias/` vídeos analizados; `clientes/<cliente>/` material por vídeo.
+- Material del usuario: `~/EDICION/` (1 CLIENTES, 2 MATERIALES, 3 PROYECTOS…). Drive y PACKS: solo lectura.
+
+## Reglas que no se negocian
+- No destruir trabajo del usuario: secuencia nueva o pista nueva, desactivar en vez de borrar, borrar solo con permiso y a la papelera.
+- Releer la línea de tiempo antes de cada cambio (el usuario edita a la vez).
+- Mirar fotogramas antes de decir "hecho". Decir lo que falló.
+- Puente caído → pedir "Ventana > Extensiones > MCP Bridge" y parar.
+- No meter voz/música del usuario sin preguntar; cookies temporales se borran y nunca se imprimen.

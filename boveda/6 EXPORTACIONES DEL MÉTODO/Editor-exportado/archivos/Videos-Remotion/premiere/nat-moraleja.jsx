@@ -1,0 +1,4 @@
+// CLIENTE-N_1010_01 (pantalla partida): el texto final baja para no tapar la cara.
+(function () { app.enableQE(); var seq = app.project.activeSequence, n = 0, T = 254016000000; if (seq.name !== "CLIENTE-N_1010_01 - Reaccion a los pasos") return "secuencia inesperada";
+  for (var t = 0; t < seq.videoTracks.numTracks; t++) if (seq.videoTracks[t].name === "MORALEJA") for (var i = 0; i < seq.videoTracks[t].clips.numItems; i++) { var c = seq.videoTracks[t].clips[i]; for (var k = 0; k < c.components.numItems; k++) if (c.components[k].matchName === "AE.ADBE Motion") { c.components[k].properties[0].setValue([0.5, 0.715], true); n++; } }
+  var q = qe.project.getActiveSequence(), ts = [16.0, 17.3]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/natf-" + i); } return "movidos " + n; })();

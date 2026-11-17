@@ -1,0 +1,356 @@
+[
+ {
+  "idea": "estructura",
+  "recurso": "Fichas numeradas sobre la cabeza",
+  "como": "Tres círculos negros (1 · 2 · 3) con anillo punteado amarillo que brilla, en fila justo encima de la cabeza; el plano no cambia",
+  "porque": "Anuncia cuántos puntos vienen sin quitar a la persona; la cabeza queda como base del gráfico",
+  "cuando_no": "No hay sitio libre sobre la cabeza o son más de 4",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "color": "Negro + acento amarillo que brilla",
+  "textura": "Borde punteado con resplandor",
+  "letras": "Número grueso en cursiva"
+ },
+ {
+  "idea": "objeto",
+  "recurso": "Icono en ficha luminosa sobre la cabeza",
+  "como": "Ficha cuadrada pequeña con borde punteado luminoso y el icono dentro (globo, caja, pesa), flotando sobre la cabeza; varias fichas se solapan en abanico",
+  "porque": "Nombra el objeto sin tapar la cara ni cambiar de plano; cuesta poco y se lee en un golpe",
+  "cuando_no": "El objeto necesita verse de verdad (entonces b-roll)",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "color": "Acento amarillo",
+  "textura": "Resplandor alrededor del borde"
+ },
+ {
+  "idea": "objeto",
+  "recurso": "Objeto 3D detrás de la cabeza",
+  "como": "El objeto (móvil, globo terráqueo, $$$) grande y en 3D, colocado DETRÁS de la persona recortada, asomando por arriba o por un lado",
+  "porque": "Da profundidad: la persona queda delante y el objeto parece estar en la sala",
+  "cuando_no": "No se puede recortar bien a la persona (pelo suelto, fondo movido)",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "textura": "Objeto con luz y sombra propias; la persona va recortada encima"
+ },
+ {
+  "idea": "cifra",
+  "recurso": "Número gigante rayado detrás de la persona",
+  "como": "«4s», «60s» o «$» a todo el ancho, en blanco con rayas horizontales finas, detrás de la persona recortada; el subtítulo normal sigue en el pecho",
+  "porque": "La cifra es el fondo: se ve aunque no leas el subtítulo",
+  "cuando_no": "Hay más de una cifra en la frase",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "color": "Blanco",
+  "textura": "Rayas horizontales tipo persiana",
+  "letras": "Palo seco muy grueso"
+ },
+ {
+  "idea": "cifra",
+  "recurso": "Medidor en anillo junto a la mano",
+  "como": "Anillo que se llena, con la cifra y la etiqueta dentro («Total $1.5M · 100 %»), colocado donde gesticula la mano",
+  "porque": "Enseña una parte de un total y parece que la persona lo sostiene",
+  "cuando_no": "La cifra no es parte de un total",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "color": "Acento amarillo sobre gris oscuro"
+ },
+ {
+  "idea": "quien",
+  "recurso": "Píldora de perfil con botón Seguir",
+  "como": "Bajo el nombre dicho, una píldora blanca tipo red social: foto redonda, usuario y botón «Follow»",
+  "porque": "Convierte un nombre en alguien que se puede buscar; es interfaz que todos reconocen",
+  "cuando_no": "La persona nombrada no tiene perfil o no importa quién es",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Belfort)",
+  "textura": "Píldora blanca opaca con sombra"
+ },
+ {
+  "idea": "palabra",
+  "recurso": "Interruptor de iOS entre dos palabras",
+  "como": "La frase clave en dos líneas («SECRET / SETTING») con un interruptor de iPhone en medio que se enciende al decirla; versión pequeña: fila «Secret Settings» con el interruptor a la derecha",
+  "porque": "Un ajuste «que se activa» se entiende con un gesto que el espectador hace cada día",
+  "cuando_no": "La idea no es activar, encender o cambiar algo",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA y HOOK",
+  "color": "Blanco y gris; azul o verde al encender",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas",
+  "letras": "Palo seco ancho y grueso, mayúsculas"
+ },
+ {
+  "idea": "abstracta",
+  "recurso": "Ventana flotante tipo visionOS",
+  "como": "Ventana de esquinas muy redondeadas y borde blanco fino, con la foto o el vídeo dentro y un piquito hacia quien habla; flota a un lado, algo girada; el fondo detrás se desenfoca u oscurece",
+  "porque": "Enseña la cosa de la que se habla como si la persona la abriera en el aire; mantiene a la persona en pantalla",
+  "cuando_no": "Lo de dentro necesita pantalla completa para leerse",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA («20 % body fat») y BROLL (panel flotante)",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas; fondo desenfocado"
+ },
+ {
+  "idea": "enumeracion",
+  "recurso": "Lista de filas de cristal detrás de la cabeza",
+  "como": "Columna de filas translúcidas con un título arriba («ACCOUNT STATUS») o numeradas en círculo (5 · 6 · 7); la fila activa nítida y las demás desenfocadas; la persona recortada delante",
+  "porque": "Se ve que hay una lista y por cuál va, sin leerla entera",
+  "cuando_no": "Son solo dos elementos",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA y HOOK",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas"
+ },
+ {
+  "idea": "prueba",
+  "recurso": "Miniatura con contador y flecha manuscrita",
+  "como": "Arriba, tarjeta con el vídeo del que se habla y su contador (ojo + 5.6M); una flecha y una nota a mano («It got 125X more views») la unen con quien habla abajo",
+  "porque": "La prueba (el vídeo y sus vistas) está a la vista mientras se cuenta",
+  "cuando_no": "No hay captura real del dato",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA",
+  "letras": "Nota en letra manuscrita blanca"
+ },
+ {
+  "idea": "prueba",
+  "recurso": "Comentarios reales apilados",
+  "como": "Tres comentarios de la red (usuario, fecha, texto) en cajas oscuras apiladas sobre el cuerpo, bajo el subtítulo",
+  "porque": "Lo dice la gente, no el creador: prueba social",
+  "cuando_no": "Comentarios inventados",
+  "nicho": "fitness",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (fitness)"
+ },
+ {
+  "idea": "estructura",
+  "recurso": "Pestañas rectangulares de cristal arriba",
+  "como": "Tres pestañas en fila arriba (WEEK 1 · WEEK 2 · WEEK 3): la activa blanca con texto oscuro, las otras translúcidas con texto gris; debajo, una píldora de cristal con el tema del momento («Light stretching»)",
+  "porque": "Es el elemento fijo de progreso de c012 con su acabado: se parece a una interfaz de Apple y no a un rótulo",
+  "cuando_no": "El vídeo no tiene partes que avanzan",
+  "nicho": "fitness",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Nippard)",
+  "color": "Blanco / translúcido; sin color de acento",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas",
+  "letras": "Palo seco mediano, mayúsculas pequeñas"
+ },
+ {
+  "idea": "quien",
+  "recurso": "Marco de selección con asas sobre la cara",
+  "como": "Rectángulo fino con asas rojas en las esquinas alrededor de la cabeza, como al seleccionar en un programa de diseño; al lado, un signo «!»",
+  "porque": "Señala «este» con un gesto de editor; va bien para destacar a una persona o un error",
+  "cuando_no": "Más de una vez por vídeo",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · ANIMACIONES EN PANTALLA (Pishwa Media)"
+ },
+ {
+  "idea": "gancho",
+  "recurso": "Pregunta en dos tarjetas: lo que se quiere arriba, quien responde abajo",
+  "como": "Pantalla en dos tarjetas redondeadas: arriba el b-roll del deseo con la pregunta grande («HOW DO I GET TONED?»); abajo quien habla, con su nombre y cargo",
+  "porque": "El primer fotograma ya enseña el resultado y a quien lo va a explicar",
+  "cuando_no": "No hay b-roll del resultado",
+  "nicho": "fitness",
+  "fuente": "Miro «SOPS EDICION» · HOOK",
+  "color": "Degradado del acento (verde azulado) en la base de cada tarjeta"
+ },
+ {
+  "idea": "gancho",
+  "recurso": "Persona recortada delante de un panel con forma de móvil",
+  "como": "Fondo de un color; panel vertical de cristal con forma de móvil y luz propia; la persona recortada sentada delante; título dentro del panel e iconos de app flotando alrededor",
+  "porque": "Entrada «de anuncio»: limpia, y sitúa el tema (redes, precio) sin b-roll",
+  "cuando_no": "No se puede recortar a la persona de cuerpo entero",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · HOOK («You are growing», «price.»)",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas; foco de luz desde arriba"
+ },
+ {
+  "idea": "gancho",
+  "recurso": "Comparación de dos miniaturas con contador",
+  "como": "Arriba, dos copias del mismo vídeo con sus vistas (44.5K frente a 5.6M); en medio, el titular en dos colores («SAME VIDEO BUT / 125X VIEWS»); abajo quien habla",
+  "porque": "El contraste de cifras es el gancho y se ve antes de oírlo",
+  "cuando_no": "No hay dos cifras reales",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · HOOK",
+  "color": "Blanco + rojo en la cifra"
+ },
+ {
+  "idea": "gancho",
+  "recurso": "Titular de neón con el logo pegado",
+  "como": "Titular grande a la altura del pecho, con resplandor de neón, y el logo 3D de la red o el número enorme al lado («7 HOOK», «NEVER POST ON INSTAGRAM»)",
+  "porque": "El tema se reconoce por el logo en medio segundo",
+  "cuando_no": "El tema no tiene un logo o un número claro",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · HOOK",
+  "textura": "Resplandor de neón",
+  "letras": "Palo seco muy grueso, mayúsculas"
+ },
+ {
+  "idea": "gancho",
+  "recurso": "Nombre y cargo desde el primer fotograma",
+  "como": "Frase del gancho en dos tamaños sobre el pecho y, debajo, nombre + cargo en pequeño (a veces en caja)",
+  "porque": "En clips de entrevista, saber quién habla da autoridad al gancho",
+  "cuando_no": "Quien habla es el propio creador de la cuenta",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · HOOK (9 de 21 piezas)"
+ },
+ {
+  "idea": "cta",
+  "recurso": "Caja de comentario con la palabra clave",
+  "como": "Entre las manos de quien habla, una barra de comentario de cristal: foto redonda, la palabra a escribir («Trial») y la flecha de enviar encendida",
+  "porque": "Enseña exactamente qué hacer y dónde, con la interfaz real",
+  "cuando_no": "El CTA no es comentar",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · CTA",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas",
+  "color": "Flecha de enviar en azul violeta"
+ },
+ {
+  "idea": "cta",
+  "recurso": "Cierre con logo e iconos de plataformas",
+  "como": "«Watch Now» pequeño, el logo del programa en caja y, debajo, los iconos de las plataformas; la persona sigue en plano, oscurecida abajo",
+  "porque": "Para clips de un programa largo: dice dónde está el resto",
+  "cuando_no": "El vídeo no remite a otro contenido",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · CTA"
+ },
+ {
+  "idea": "abstracta",
+  "recurso": "Icono de app con resplandor y flecha",
+  "como": "Fondo negro; un icono de app grande (cuadrado redondeado) con borde que brilla en rojo y una flecha hacia abajo dentro; la frase en pequeño debajo",
+  "porque": "Una caída o un fallo se entiende como una app «en rojo»",
+  "cuando_no": "La idea no es subir o bajar",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "color": "Negro + rojo",
+  "textura": "Resplandor y estela roja desenfocada"
+ },
+ {
+  "idea": "proceso",
+  "recurso": "Pantalla real de la aplicación",
+  "como": "La pantalla de la app tal cual (Instagram «New reel», lista de categorías) a pantalla completa en oscuro, con un punto de luz donde hay que pulsar",
+  "porque": "Para enseñar un paso de una app nada es más claro que la app",
+  "cuando_no": "La pantalla tiene datos privados",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "textura": "Punto amarillo desenfocado como cursor"
+ },
+ {
+  "idea": "comparacion",
+  "recurso": "Barras 3D con logos",
+  "como": "Barras verticales en 3D, cada una del color de su marca y con el logo arriba, sobre negro",
+  "porque": "Compara tamaños entre marcas que se reconocen sin leer",
+  "cuando_no": "Las diferencias son pequeñas",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS"
+ },
+ {
+  "idea": "enumeracion",
+  "recurso": "Pósits bajo una pantalla",
+  "como": "Plano de un escritorio; tres pósits pegados bajo el monitor, cada uno con una palabra escrita a mano",
+  "porque": "Tres conceptos como recordatorios físicos: cálido y distinto del gráfico limpio",
+  "cuando_no": "Más de 3 palabras o palabras largas",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "letras": "Manuscrita"
+ },
+ {
+  "idea": "enumeracion",
+  "recurso": "Carpetas apiladas con pestaña",
+  "como": "Carpetas de colores pastel apiladas, cada una con su pestaña y su palabra; se abren una a una",
+  "porque": "Cada idea es un «expediente»: sirve para capas o etapas",
+  "cuando_no": "Las ideas no se acumulan",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "color": "Pasteles sobre crema"
+ },
+ {
+  "idea": "quien",
+  "recurso": "Tarjeta holográfica en la mano",
+  "como": "Plano en blanco y negro de una mano abierta; sobre ella flota una tarjeta de cristal con un perfil (foto, seguidores resaltados en amarillo, descripción)",
+  "porque": "Presenta a alguien como un objeto valioso que se sostiene",
+  "cuando_no": "No hay datos reales del perfil",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "textura": "Vidrio translúcido con borde claro de 1 px y sombra suave; esquinas muy redondeadas; fondo en blanco y negro desenfocado"
+ },
+ {
+  "idea": "quien",
+  "recurso": "Retratos partidos unidos por una línea",
+  "como": "Fondo crema; caras en blanco y negro recortadas a la mitad, unidas por una línea roja con puntos y su nombre en pequeño",
+  "porque": "Enseña relaciones entre personas con aspecto de cartel",
+  "cuando_no": "Son personas que el público no reconoce",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS"
+ },
+ {
+  "idea": "proceso",
+  "recurso": "Varios logos que confluyen en uno",
+  "como": "Fila de logos arriba; líneas finas bajan y se juntan en un solo icono",
+  "porque": "Muchas herramientas se sustituyen por una: se ve en un trazo",
+  "cuando_no": "No hay «muchos a uno»",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "color": "Fondo gris claro, líneas finas oscuras"
+ },
+ {
+  "idea": "cifra",
+  "recurso": "Línea minimal con año y pestañas",
+  "como": "Fondo blanco; línea fina con dos puntos, el año grande debajo con su variación, y una fila de pestañas-píldora (la activa en negro)",
+  "porque": "Una evolución en el tiempo con aspecto de panel de datos de Apple",
+  "cuando_no": "El dato es inventado",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "letras": "Palo seco fino; palabra clave con subrayado naranja"
+ },
+ {
+  "idea": "abstracta",
+  "recurso": "Escritorio de Mac como collage",
+  "como": "Ventana de Mac con una foto cenital, carpetas azules, fotos sueltas y una notificación («REMINDER…») alrededor, sobre fondo desenfocado",
+  "porque": "Una idea sobre trabajo o redes se cuenta con objetos de ordenador que todos conocen",
+  "cuando_no": "El tema no tiene que ver con pantallas",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · MOTION GRAPHICS",
+  "textura": "Sombras largas; elementos girados"
+ },
+ {
+  "idea": "tecnica",
+  "recurso": "B-roll teñido con etiquetas-píldora",
+  "como": "B-roll del ejercicio con degradado del color de marca en el tercio de abajo; línea «WE'RE TALKING ABOUT» con un icono redondo y, debajo, una o dos píldoras blancas con el tema («GAINING MUSCLE · LOSING FAT»)",
+  "porque": "El b-roll deja de ser relleno: dice de qué se habla y lleva el color de la marca",
+  "cuando_no": "El b-roll no enseña lo que se nombra",
+  "nicho": "fitness",
+  "fuente": "Miro «SOPS EDICION» · BROLL (fitness)",
+  "color": "Degradado verde azulado; píldoras blancas con texto del acento"
+ },
+ {
+  "idea": "objeto",
+  "recurso": "Recuadro de selección sobre el objeto",
+  "como": "Sobre el b-roll, un cuadrado fino alrededor del objeto (el vaso, la rueda) y una línea curva hasta su nombre",
+  "porque": "Dirige el ojo a una parte del plano sin recortar el plano",
+  "cuando_no": "El objeto se mueve mucho",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · BROLL",
+  "color": "Blanco, o amarillo lima sobre verde"
+ },
+ {
+  "idea": "palabra",
+  "recurso": "Ventana de aviso de ordenador antiguo",
+  "como": "Sobre el b-roll, un cuadro de diálogo de Windows antiguo con la frase y un botón «Done»",
+  "porque": "Marca un recuerdo o una época con humor",
+  "cuando_no": "El tono del vídeo es serio",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · BROLL"
+ },
+ {
+  "idea": "prueba",
+  "recurso": "La escena dentro de una pantalla física",
+  "como": "El metraje de prueba se ve dentro de una tele antigua, una pantalla de cine o un panel flotante, con el subtítulo debajo",
+  "porque": "Separa «lo que pasó» de «lo que digo» y le da época o importancia",
+  "cuando_no": "El metraje ya es de baja calidad y no se entendería más pequeño",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · BROLL"
+ },
+ {
+  "idea": "quien",
+  "recurso": "Nombre partido a los lados de la cara",
+  "como": "Retrato oscuro de perfil; nombre a la izquierda y apellido a la derecha, en rojo con resplandor, a la altura de los ojos",
+  "porque": "Presenta a alguien famoso con peso, en un solo plano",
+  "cuando_no": "La persona no es conocida",
+  "nicho": "cualquiera",
+  "fuente": "Miro «SOPS EDICION» · BROLL",
+  "color": "Rojo con resplandor sobre negro"
+ }
+]

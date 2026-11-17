@@ -1,0 +1,1088 @@
+[
+{
+"texto": "That's",
+"inicio": 0.45,
+"fin": 0.57,
+"score": 0.013
+},
+{
+"texto": "the",
+"inicio": 0.59,
+"fin": 0.67,
+"score": 0.647
+},
+{
+"texto": "biggest",
+"inicio": 0.73,
+"fin": 1.01,
+"score": 0.914
+},
+{
+"texto": "myth",
+"inicio": 1.111,
+"fin": 1.311,
+"score": 0.869
+},
+{
+"texto": "about",
+"inicio": 1.391,
+"fin": 1.591,
+"score": 0.659
+},
+{
+"texto": "Gary",
+"inicio": 1.611,
+"fin": 1.831,
+"score": 0.737
+},
+{
+"texto": "Vee.",
+"inicio": 1.871,
+"fin": 2.051,
+"score": 0.632
+},
+{
+"texto": "I",
+"inicio": 2.211,
+"fin": 2.271,
+"score": 0.988
+},
+{
+"texto": "think",
+"inicio": 2.312,
+"fin": 2.452,
+"score": 0.976
+},
+{
+"texto": "people",
+"inicio": 2.492,
+"fin": 2.712,
+"score": 0.814
+},
+{
+"texto": "think",
+"inicio": 2.832,
+"fin": 2.992,
+"score": 0.895
+},
+{
+"texto": "I'm",
+"inicio": 3.012,
+"fin": 3.172,
+"score": 0.585
+},
+{
+"texto": "stressed",
+"inicio": 3.192,
+"fin": 3.513,
+"score": 0.779
+},
+{
+"texto": "and",
+"inicio": 3.573,
+"fin": 3.633,
+"score": 0.653
+},
+{
+"texto": "I'm",
+"inicio": 3.653,
+"fin": 3.713,
+"score": 0.118
+},
+{
+"texto": "hustle",
+"inicio": 3.773,
+"fin": 4.113,
+"score": 0.845
+},
+{
+"texto": "and",
+"inicio": 4.153,
+"fin": 4.233,
+"score": 0.793
+},
+{
+"texto": "I'm",
+"inicio": 4.253,
+"fin": 4.313,
+"score": 0.047
+},
+{
+"texto": "hardcore.",
+"inicio": 4.473,
+"fin": 5.034,
+"score": 0.866
+},
+{
+"texto": "To",
+"inicio": 5.134,
+"fin": 5.254,
+"score": 0.866
+},
+{
+"texto": "be",
+"inicio": 5.274,
+"fin": 5.374,
+"score": 0.928
+},
+{
+"texto": "shocked",
+"inicio": 5.474,
+"fin": 5.794,
+"score": 0.915
+},
+{
+"texto": "to",
+"inicio": 5.834,
+"fin": 5.894,
+"score": 0.996
+},
+{
+"texto": "realize",
+"inicio": 5.934,
+"fin": 6.215,
+"score": 0.843
+},
+{
+"texto": "how",
+"inicio": 6.235,
+"fin": 6.335,
+"score": 0.93
+},
+{
+"texto": "detached",
+"inicio": 6.375,
+"fin": 6.795,
+"score": 0.926
+},
+{
+"texto": "I",
+"inicio": 6.855,
+"fin": 6.895,
+"score": 0.999
+},
+{
+"texto": "am",
+"inicio": 6.975,
+"fin": 7.055,
+"score": 0.833
+},
+{
+"texto": "from",
+"inicio": 7.115,
+"fin": 7.236,
+"score": 0.699
+},
+{
+"texto": "my",
+"inicio": 7.256,
+"fin": 7.356,
+"score": 0.843
+},
+{
+"texto": "professional",
+"inicio": 7.376,
+"fin": 7.776,
+"score": 0.948
+},
+{
+"texto": "success,",
+"inicio": 7.816,
+"fin": 8.236,
+"score": 0.86
+},
+{
+"texto": "I",
+"inicio": 8.517,
+"fin": 8.557,
+"score": 0.999
+},
+{
+"texto": "could",
+"inicio": 8.577,
+"fin": 8.717,
+"score": 0.832
+},
+{
+"texto": "give",
+"inicio": 8.737,
+"fin": 8.857,
+"score": 0.808
+},
+{
+"texto": "a",
+"inicio": 8.897,
+"fin": 8.917,
+"score": 0.987
+},
+{
+"texto": "fuck.",
+"inicio": 8.957,
+"fin": 9.217,
+"score": 0.933
+},
+{
+"texto": "Give?",
+"inicio": 9.758,
+"fin": 10.038,
+"score": 0.679
+},
+{
+"texto": "Gary",
+"inicio": 11.238,
+"fin": 11.558,
+"score": 0.921
+},
+{
+"texto": "Vaynerchuk",
+"inicio": 11.578,
+"fin": 12.098,
+"score": 0.737
+},
+{
+"texto": "is",
+"inicio": 12.218,
+"fin": 12.318,
+"score": 0.856
+},
+{
+"texto": "the",
+"inicio": 12.358,
+"fin": 12.458,
+"score": 0.733
+},
+{
+"texto": "man",
+"inicio": 12.518,
+"fin": 12.798,
+"score": 0.873
+},
+{
+"texto": "behind",
+"inicio": 12.858,
+"fin": 13.179,
+"score": 0.818
+},
+{
+"texto": "Vayner",
+"inicio": 13.319,
+"fin": 13.679,
+"score": 0.738
+},
+{
+"texto": "X,",
+"inicio": 13.899,
+"fin": 14.059,
+"score": 0.911
+},
+{
+"texto": "a",
+"inicio": 14.679,
+"fin": 14.779,
+"score": 0.219
+},
+{
+"texto": "$400",
+"inicio": 14.819,
+"fin": 15.039,
+"score": 0.807
+},
+{
+"texto": "million",
+"inicio": 15.059,
+"fin": 15.319,
+"score": 0.874
+},
+{
+"texto": "media",
+"inicio": 15.579,
+"fin": 15.799,
+"score": 0.87
+},
+{
+"texto": "company,",
+"inicio": 15.839,
+"fin": 16.159,
+"score": 0.984
+},
+{
+"texto": "and",
+"inicio": 16.359,
+"fin": 16.439,
+"score": 0.613
+},
+{
+"texto": "one",
+"inicio": 16.459,
+"fin": 16.519,
+"score": 0.94
+},
+{
+"texto": "of",
+"inicio": 16.539,
+"fin": 16.579,
+"score": 0.756
+},
+{
+"texto": "the",
+"inicio": 16.599,
+"fin": 16.659,
+"score": 0.967
+},
+{
+"texto": "most",
+"inicio": 16.699,
+"fin": 16.879,
+"score": 0.686
+},
+{
+"texto": "misunderstood",
+"inicio": 16.999,
+"fin": 17.759,
+"score": 0.828
+},
+{
+"texto": "personalities",
+"inicio": 17.899,
+"fin": 18.42,
+"score": 0.871
+},
+{
+"texto": "on",
+"inicio": 18.46,
+"fin": 18.54,
+"score": 0.854
+},
+{
+"texto": "the",
+"inicio": 18.56,
+"fin": 18.64,
+"score": 0.886
+},
+{
+"texto": "internet",
+"inicio": 18.68,
+"fin": 19.0,
+"score": 0.746
+},
+{
+"texto": "today.",
+"inicio": 19.04,
+"fin": 19.36,
+"score": 0.908
+},
+{
+"texto": "I",
+"inicio": 19.54,
+"fin": 19.62,
+"score": 0.973
+},
+{
+"texto": "compete",
+"inicio": 19.64,
+"fin": 19.94,
+"score": 0.652
+},
+{
+"texto": "with",
+"inicio": 19.96,
+"fin": 20.08,
+"score": 0.825
+},
+{
+"texto": "every",
+"inicio": 20.18,
+"fin": 20.36,
+"score": 0.828
+},
+{
+"texto": "creator",
+"inicio": 20.4,
+"fin": 20.7,
+"score": 0.684
+},
+{
+"texto": "on",
+"inicio": 20.76,
+"fin": 20.84,
+"score": 0.668
+},
+{
+"texto": "Earth",
+"inicio": 20.96,
+"fin": 21.12,
+"score": 0.712
+},
+{
+"texto": "every",
+"inicio": 21.16,
+"fin": 21.36,
+"score": 0.842
+},
+{
+"texto": "day.",
+"inicio": 21.42,
+"fin": 21.66,
+"score": 0.969
+},
+{
+"texto": "I'm",
+"inicio": 21.84,
+"fin": 21.96,
+"score": 0.883
+},
+{
+"texto": "trying",
+"inicio": 21.98,
+"fin": 22.12,
+"score": 0.39
+},
+{
+"texto": "to",
+"inicio": 22.14,
+"fin": 22.18,
+"score": 0.87
+},
+{
+"texto": "put",
+"inicio": 22.22,
+"fin": 22.32,
+"score": 0.8
+},
+{
+"texto": "out",
+"inicio": 22.34,
+"fin": 22.42,
+"score": 0.811
+},
+{
+"texto": "a",
+"inicio": 22.44,
+"fin": 22.48,
+"score": 0.372
+},
+{
+"texto": "thousand",
+"inicio": 22.52,
+"fin": 22.78,
+"score": 0.872
+},
+{
+"texto": "pieces",
+"inicio": 22.8,
+"fin": 22.94,
+"score": 0.758
+},
+{
+"texto": "of",
+"inicio": 22.96,
+"fin": 23.021,
+"score": 0.746
+},
+{
+"texto": "content",
+"inicio": 23.041,
+"fin": 23.301,
+"score": 0.476
+},
+{
+"texto": "a",
+"inicio": 23.321,
+"fin": 23.341,
+"score": 0.121
+},
+{
+"texto": "day.",
+"inicio": 23.361,
+"fin": 23.581,
+"score": 0.965
+},
+{
+"texto": "Across",
+"inicio": 23.741,
+"fin": 24.001,
+"score": 0.778
+},
+{
+"texto": "10",
+"inicio": 24.041,
+"fin": 24.221,
+"score": 0.826
+},
+{
+"texto": "platforms,",
+"inicio": 24.281,
+"fin": 24.721,
+"score": 0.915
+},
+{
+"texto": "across",
+"inicio": 24.821,
+"fin": 25.121,
+"score": 0.793
+},
+{
+"texto": "100",
+"inicio": 25.161,
+"fin": 25.401,
+"score": 0.63
+},
+{
+"texto": "handles,",
+"inicio": 25.441,
+"fin": 25.781,
+"score": 0.891
+},
+{
+"texto": "I'm",
+"inicio": 25.981,
+"fin": 26.101,
+"score": 0.764
+},
+{
+"texto": "gonna",
+"inicio": 26.121,
+"fin": 26.241,
+"score": 0.225
+},
+{
+"texto": "build",
+"inicio": 26.301,
+"fin": 26.501,
+"score": 0.348
+},
+{
+"texto": "such",
+"inicio": 26.661,
+"fin": 26.881,
+"score": 0.899
+},
+{
+"texto": "a",
+"inicio": 26.901,
+"fin": 26.941,
+"score": 0.424
+},
+{
+"texto": "fucking",
+"inicio": 27.001,
+"fin": 27.281,
+"score": 0.509
+},
+{
+"texto": "monster.",
+"inicio": 27.341,
+"fin": 27.801,
+"score": 0.859
+},
+{
+"texto": "Most",
+"inicio": 27.982,
+"fin": 28.182,
+"score": 0.905
+},
+{
+"texto": "people",
+"inicio": 28.242,
+"fin": 28.522,
+"score": 0.887
+},
+{
+"texto": "don't",
+"inicio": 28.602,
+"fin": 28.742,
+"score": 0.81
+},
+{
+"texto": "know",
+"inicio": 28.802,
+"fin": 28.942,
+"score": 0.913
+},
+{
+"texto": "what",
+"inicio": 28.982,
+"fin": 29.102,
+"score": 0.869
+},
+{
+"texto": "Gary",
+"inicio": 29.222,
+"fin": 29.582,
+"score": 0.815
+},
+{
+"texto": "actually",
+"inicio": 29.782,
+"fin": 30.242,
+"score": 0.897
+},
+{
+"texto": "does.",
+"inicio": 30.322,
+"fin": 30.662,
+"score": 0.802
+},
+{
+"texto": "And",
+"inicio": 30.862,
+"fin": 30.942,
+"score": 0.848
+},
+{
+"texto": "for",
+"inicio": 30.962,
+"fin": 31.042,
+"score": 0.842
+},
+{
+"texto": "the",
+"inicio": 31.062,
+"fin": 31.142,
+"score": 0.831
+},
+{
+"texto": "first",
+"inicio": 31.182,
+"fin": 31.362,
+"score": 0.776
+},
+{
+"texto": "time",
+"inicio": 31.402,
+"fin": 31.582,
+"score": 0.887
+},
+{
+"texto": "ever,",
+"inicio": 31.682,
+"fin": 31.882,
+"score": 0.897
+},
+{
+"texto": "we",
+"inicio": 32.082,
+"fin": 32.222,
+"score": 0.748
+},
+{
+"texto": "walk",
+"inicio": 32.242,
+"fin": 32.402,
+"score": 0.826
+},
+{
+"texto": "through",
+"inicio": 32.422,
+"fin": 32.602,
+"score": 0.9
+},
+{
+"texto": "all",
+"inicio": 32.822,
+"fin": 32.962,
+"score": 0.79
+},
+{
+"texto": "of",
+"inicio": 32.983,
+"fin": 33.023,
+"score": 0.46
+},
+{
+"texto": "his",
+"inicio": 33.083,
+"fin": 33.223,
+"score": 0.798
+},
+{
+"texto": "businesses,",
+"inicio": 33.263,
+"fin": 33.803,
+"score": 0.965
+},
+{
+"texto": "discuss",
+"inicio": 34.023,
+"fin": 34.423,
+"score": 0.802
+},
+{
+"texto": "the",
+"inicio": 34.463,
+"fin": 34.603,
+"score": 0.435
+},
+{
+"texto": "one",
+"inicio": 34.763,
+"fin": 34.883,
+"score": 0.958
+},
+{
+"texto": "rule",
+"inicio": 34.963,
+"fin": 35.203,
+"score": 0.776
+},
+{
+"texto": "he'll",
+"inicio": 35.243,
+"fin": 35.443,
+"score": 0.666
+},
+{
+"texto": "never",
+"inicio": 35.563,
+"fin": 35.803,
+"score": 0.808
+},
+{
+"texto": "break",
+"inicio": 35.863,
+"fin": 36.063,
+"score": 0.93
+},
+{
+"texto": "with",
+"inicio": 36.083,
+"fin": 36.183,
+"score": 0.876
+},
+{
+"texto": "his",
+"inicio": 36.223,
+"fin": 36.323,
+"score": 0.836
+},
+{
+"texto": "audience,",
+"inicio": 36.383,
+"fin": 36.783,
+"score": 0.884
+},
+{
+"texto": "and",
+"inicio": 37.103,
+"fin": 37.203,
+"score": 0.781
+},
+{
+"texto": "confront",
+"inicio": 37.243,
+"fin": 37.623,
+"score": 0.905
+},
+{
+"texto": "what",
+"inicio": 37.663,
+"fin": 37.783,
+"score": 0.898
+},
+{
+"texto": "most",
+"inicio": 37.883,
+"fin": 38.084,
+"score": 0.744
+},
+{
+"texto": "people",
+"inicio": 38.144,
+"fin": 38.464,
+"score": 0.717
+},
+{
+"texto": "get",
+"inicio": 38.604,
+"fin": 38.724,
+"score": 0.812
+},
+{
+"texto": "wrong",
+"inicio": 38.764,
+"fin": 38.984,
+"score": 0.883
+},
+{
+"texto": "about",
+"inicio": 39.024,
+"fin": 39.244,
+"score": 0.787
+},
+{
+"texto": "him.",
+"inicio": 39.264,
+"fin": 39.344,
+"score": 0.283
+},
+{
+"texto": "Crush",
+"inicio": 39.524,
+"fin": 39.784,
+"score": 0.799
+},
+{
+"texto": "had",
+"inicio": 39.804,
+"fin": 39.904,
+"score": 0.359
+},
+{
+"texto": "told",
+"inicio": 39.964,
+"fin": 40.164,
+"score": 0.825
+},
+{
+"texto": "the",
+"inicio": 40.184,
+"fin": 40.264,
+"score": 0.784
+},
+{
+"texto": "world",
+"inicio": 40.304,
+"fin": 40.464,
+"score": 0.588
+},
+{
+"texto": "in",
+"inicio": 40.744,
+"fin": 41.244,
+"score": 0.378
+},
+{
+"texto": "2009",
+"inicio": 41.284,
+"fin": 41.585,
+"score": 0.829
+},
+{
+"texto": "that",
+"inicio": 41.725,
+"fin": 41.865,
+"score": 0.667
+},
+{
+"texto": "you",
+"inicio": 41.885,
+"fin": 41.985,
+"score": 0.845
+},
+{
+"texto": "could",
+"inicio": 42.005,
+"fin": 42.105,
+"score": 0.346
+},
+{
+"texto": "make",
+"inicio": 42.125,
+"fin": 42.525,
+"score": 0.232
+},
+{
+"texto": "$100,000",
+"inicio": 42.545,
+"fin": 42.985,
+"score": 0.692
+},
+{
+"texto": "a",
+"inicio": 43.005,
+"fin": 43.025,
+"score": 0.562
+},
+{
+"texto": "year",
+"inicio": 43.046,
+"fin": 43.226,
+"score": 0.666
+},
+{
+"texto": "on",
+"inicio": 43.266,
+"fin": 43.306,
+"score": 0.753
+},
+{
+"texto": "the",
+"inicio": 43.326,
+"fin": 43.386,
+"score": 0.464
+},
+{
+"texto": "internet",
+"inicio": 43.426,
+"fin": 43.746,
+"score": 0.368
+},
+{
+"texto": "and",
+"inicio": 43.846,
+"fin": 43.926,
+"score": 0.894
+},
+{
+"texto": "everyone",
+"inicio": 43.966,
+"fin": 44.266,
+"score": 0.86
+},
+{
+"texto": "laughed",
+"inicio": 44.286,
+"fin": 44.506,
+"score": 0.725
+},
+{
+"texto": "at",
+"inicio": 44.586,
+"fin": 44.646,
+"score": 0.688
+},
+{
+"texto": "me.",
+"inicio": 44.666,
+"fin": 44.767,
+"score": 0.73
+},
+{
+"texto": "The",
+"inicio": 44.887,
+"fin": 44.967,
+"score": 0.861
+},
+{
+"texto": "people",
+"inicio": 45.007,
+"fin": 45.167,
+"score": 0.963
+},
+{
+"texto": "that",
+"inicio": 45.187,
+"fin": 45.267,
+"score": 0.52
+},
+{
+"texto": "are",
+"inicio": 45.287,
+"fin": 45.347,
+"score": 0.009
+},
+{
+"texto": "making",
+"inicio": 45.367,
+"fin": 45.567,
+"score": 0.956
+},
+{
+"texto": "a",
+"inicio": 45.587,
+"fin": 45.607,
+"score": 0.001
+},
+{
+"texto": "million",
+"inicio": 45.927,
+"fin": 46.167,
+"score": 0.803
+},
+{
+"texto": "dollars",
+"inicio": 46.187,
+"fin": 46.427,
+"score": 0.805
+},
+{
+"texto": "a",
+"inicio": 46.447,
+"fin": 46.468,
+"score": 0.129
+},
+{
+"texto": "year",
+"inicio": 46.488,
+"fin": 46.648,
+"score": 0.745
+},
+{
+"texto": "right",
+"inicio": 46.668,
+"fin": 46.788,
+"score": 0.837
+},
+{
+"texto": "now",
+"inicio": 46.808,
+"fin": 46.968,
+"score": 0.795
+},
+{
+"texto": "can",
+"inicio": 47.128,
+"fin": 47.248,
+"score": 0.834
+},
+{
+"texto": "actually",
+"inicio": 47.288,
+"fin": 47.528,
+"score": 0.384
+},
+{
+"texto": "make",
+"inicio": 47.548,
+"fin": 47.668,
+"score": 0.324
+},
+{
+"texto": "a",
+"inicio": 47.828,
+"fin": 47.888,
+"score": 0.741
+},
+{
+"texto": "billion",
+"inicio": 47.928,
+"fin": 48.168,
+"score": 0.712
+},
+{
+"texto": "dollars",
+"inicio": 48.189,
+"fin": 48.409,
+"score": 0.918
+},
+{
+"texto": "a",
+"inicio": 48.429,
+"fin": 48.449,
+"score": 0.018
+},
+{
+"texto": "year.",
+"inicio": 48.469,
+"fin": 48.649,
+"score": 0.827
+},
+{
+"texto": "Everyone's",
+"inicio": 48.889,
+"fin": 49.209,
+"score": 0.747
+},
+{
+"texto": "confused.",
+"inicio": 49.229,
+"fin": 49.609,
+"score": 0.788
+},
+{
+"texto": "Everyone.",
+"inicio": 50.11,
+"fin": 50.37,
+"score": 0.371
+}
+]

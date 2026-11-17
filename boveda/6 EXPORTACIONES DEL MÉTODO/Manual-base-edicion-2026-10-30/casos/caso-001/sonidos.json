@@ -1,0 +1,70 @@
+{
+ "nota": "Niveles en dB no leídos del proyecto (no los expone el lector). Mezcla final medida con earshot: −13,1 LUFS, pico verdadero +0,3 dBTP, 517 muestras saturadas.",
+ "sonidos": [
+  {
+   "inicio_s": 0,
+   "fin_s": 0.633,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 0,
+   "fin_s": 1.567,
+   "archivo": "Sharp Riser.wav"
+  },
+  {
+   "inicio_s": 0,
+   "fin_s": 332.8,
+   "archivo": "Childish Gambino L.E.S. Instrumental (Real, not Recreated).mp3"
+  },
+  {
+   "inicio_s": 1.467,
+   "fin_s": 2.1,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 2.967,
+   "fin_s": 13.933,
+   "archivo": "BOOM IMPACT (23).wav"
+  },
+  {
+   "inicio_s": 3.967,
+   "fin_s": 4.6,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 7.133,
+   "fin_s": 7.767,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 9.867,
+   "fin_s": 10.5,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 12.6,
+   "fin_s": 13.233,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 15.733,
+   "fin_s": 16.367,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 19.133,
+   "fin_s": 19.767,
+   "archivo": "Camara Presionada.mp3"
+  },
+  {
+   "inicio_s": 31.8,
+   "fin_s": 32.3,
+   "archivo": "Smooth Pop.wav"
+  },
+  {
+   "inicio_s": 33.333,
+   "fin_s": 33.733,
+   "archivo": "Mouse Click 01.wav"
+  }
+ ]
+}

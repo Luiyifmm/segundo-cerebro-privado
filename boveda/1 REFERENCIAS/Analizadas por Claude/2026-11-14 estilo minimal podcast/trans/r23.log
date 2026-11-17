@@ -1,0 +1,8 @@
+2026-11-14 21:59:03 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r23.palabras.json", "palabras": 149, "sin_tiempo": 0, "texto": "Perfectionism often feels very productive for a lot of us. So the truth is, perfectionism is often just procrastination but it's wearing a very expensive disguise. I'll just tweak this deck for the sixth time. But really a lot of the time you're just stalling actually having got it done that the most successful women that I've met do not sit around waiting for the planets to align before they make a decision or before they finish a task. They seek clarity, not perfection and they seek getting it done rather than doing it perfect. They ask the so-called stupid questions, they make the call and then they figure it out along the way. They know that progress beats perfection every single time. I love the 80% role which basically means that if something meets 80% of your criteria, act on it. Done is so much better than perfect.", "s_carga": 0.5, "s_transcripcion": 9.8, "s_alineado": 2.8, "s_total": 13.1}
+r23.palabras.json contra r23.mp4: 149 palabras
+  voz principal ≈ -3 dB (umbral -21 dB) · ruido ≈ -21 dB
+  principal 146 · voz baja 0 · sin voz 3 · sin tiempo 0 · FIABLES 132 (89 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/0 CLAUDE EDITOR/1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/trans/r23.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

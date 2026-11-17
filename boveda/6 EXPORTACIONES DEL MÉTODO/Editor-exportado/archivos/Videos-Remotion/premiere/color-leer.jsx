@@ -1,0 +1,3 @@
+(function () { var seq = app.project.activeSequence, r = [], i, k, c;
+  for (i = 0; i < seq.videoTracks[0].clips.numItems; i += 5) { c = seq.videoTracks[0].clips[i]; for (k = 0; k < c.components.numItems; k++) if (c.components[k].matchName.indexOf("Lumetri") >= 0) { var p = c.components[k].properties; r.push(c.start.seconds.toFixed(2) + " n=" + p.numItems + " contraste=" + p[20].getValue() + " resalt=" + p[21].getValue() + " negros=" + p[24].getValue() + " sat=" + p[16].getValue() + " int=" + p[42].getValue() + " basica=" + p[3].getValue() + " nombres " + p[20].displayName + "/" + p[16].displayName); } }
+  return JSON.stringify(r); })();

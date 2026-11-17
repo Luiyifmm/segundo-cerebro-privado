@@ -1,0 +1,6 @@
+// CLIENTE-A_1010_01: sin glow en las palabras clave y sombra negra más oscura y notoria en los subtítulos (de 65,9 s en adelante).
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { subs: 0, glow: 0 }, i, k, t, T = 254016000000;
+  for (t = 0; t < seq.videoTracks.numTracks; t++) { var tr = seq.videoTracks[t]; for (i = 0; i < tr.clips.numItems; i++) { var c = tr.clips[i], g = c.getMGTComponent(); if (!g || c.start.seconds < 65.9) continue; var es = false; for (k = 0; k < g.properties.numItems; k++) if (g.properties[k].displayName === "Palabra clave") es = true; if (!es) continue;
+    for (k = 0; k < g.properties.numItems; k++) { var p = g.properties[k], n = p.displayName; if (n.indexOf("Glow") === 0) { p.setValue(0, true); r.glow++; } else if (n === "Sombra") p.setValue(true, true); else if (n.indexOf("Sombra: opacidad") === 0) p.setValue(100, true); else if (n === "Sombra: difuminado") p.setValue(38, true); else if (n === "Sombra: distancia") p.setValue(16, true); } r.subs++; } }
+  var q = qe.project.getActiveSequence(), ts = [73.2, 81.9, 93.5, 104.9]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/v9-" + i); }
+  return JSON.stringify(r); })();

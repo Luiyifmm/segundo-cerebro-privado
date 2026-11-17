@@ -1,0 +1,9 @@
+// CLIENTE-N_1010_01: desenfoque en la copia de fondo de la botella para que los lados no repitan la jarra ni el charco con nitidez.
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = {}, i, k, t, T = 254016000000; if (app.project.name !== "CLIENTE-N EDICION.prproj" || seq.name !== "CLIENTE-N_1010_01 - Reaccion a los pasos") return "proyecto o secuencia inesperados";
+  var vF = -1; for (t = 0; t < seq.videoTracks.numTracks; t++) if (seq.videoTracks[t].name === "REACCION") vF = t; if (vF < 0) return "sin pista";
+  var c = seq.videoTracks[vF].clips[0], tiene = false; for (k = 0; k < c.components.numItems; k++) if (/Desenfoque gaussiano/.test(c.components[k].displayName)) tiene = true;
+  var q = qe.project.getActiveSequence(); if (!tiene) { var fx = qe.project.getVideoEffectByName("Desenfoque gaussiano (heredado)"), qt = q.getVideoTrackAt(vF); for (k = 0; k < qt.numItems; k++) { var qi = qt.getItemAt(k); if (qi && qi.type === "Clip") qi.addVideoEffect(fx); } }
+  for (k = 0; k < c.components.numItems; k++) if (/Desenfoque gaussiano/.test(c.components[k].displayName)) { var P = c.components[k].properties, nm = []; for (var j = 0; j < P.numItems; j++) { nm.push(j + ":" + P[j].displayName + "=" + P[j].getValue()); } r.props = nm.join("|"); try { P[0].setValue(55, true); } catch (x) { r.e0 = String(x); } for (j = 0; j < P.numItems; j++) if (/repet/i.test(P[j].displayName)) P[j].setValue(true, true); }
+  r.quedan = []; for (k = 0; k < c.components.numItems; k++) r.quedan.push(c.components[k].displayName);
+  var ts = [0.1, 5.0, 10.0, 14.8]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-USUARIO/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/natu-" + i); }
+  return JSON.stringify(r); })();

@@ -1,0 +1,1 @@
+(function () { app.enableQE(); var q = qe.project.getActiveSequence(), m = [], i; for (i = 0; i < q.reflect.methods.length; i++) m.push(q.reflect.methods[i].name); var s = app.project.activeSequence, m2 = []; for (i = 0; i < s.reflect.methods.length; i++) m2.push(s.reflect.methods[i].name); return JSON.stringify({ activa: s.name, qe: m, seq: m2 }); })();

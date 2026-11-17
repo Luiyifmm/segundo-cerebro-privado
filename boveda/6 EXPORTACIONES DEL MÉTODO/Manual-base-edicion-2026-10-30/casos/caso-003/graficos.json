@@ -1,0 +1,17 @@
+{
+ "motion_graphics": [
+  {
+   "t_aprox_s": 36.2,
+   "nombre": "MG escuela (collage)",
+   "dispara": "«la escuela no te educa para ser rico»",
+   "nota": "versión collage tras la referencia de Pinterest del usuario"
+  },
+  {
+   "t_aprox_s": 43.3,
+   "nombre": "MG romper cadenas (collage)",
+   "dispara": "«romper con la programación mental»",
+   "nota": "el usuario pidió que terminase cuando se rompen las cadenas, sin el elemento azul final"
+  }
+ ],
+ "nota": "Tiempos aproximados en el corte de 54 s, sacados de amin-v6-sonido.jsx (secuencia con desfase de 66 s)."
+}

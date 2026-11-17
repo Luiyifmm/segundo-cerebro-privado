@@ -1,0 +1,2210 @@
+[
+{
+"texto": "I",
+"inicio": 0.114,
+"fin": 0.214,
+"score": 0.789
+},
+{
+"texto": "think",
+"inicio": 0.294,
+"fin": 0.514,
+"score": 0.931
+},
+{
+"texto": "there",
+"inicio": 0.614,
+"fin": 0.754,
+"score": 0.839
+},
+{
+"texto": "are",
+"inicio": 0.774,
+"fin": 0.854,
+"score": 0.88
+},
+{
+"texto": "a",
+"inicio": 0.874,
+"fin": 0.894,
+"score": 0.473
+},
+{
+"texto": "lot",
+"inicio": 0.934,
+"fin": 1.034,
+"score": 0.968
+},
+{
+"texto": "of",
+"inicio": 1.054,
+"fin": 1.094,
+"score": 0.99
+},
+{
+"texto": "people",
+"inicio": 1.114,
+"fin": 1.334,
+"score": 0.689
+},
+{
+"texto": "who",
+"inicio": 1.374,
+"fin": 1.494,
+"score": 0.877
+},
+{
+"texto": "do",
+"inicio": 1.514,
+"fin": 1.614,
+"score": 0.628
+},
+{
+"texto": "not",
+"inicio": 1.634,
+"fin": 1.754,
+"score": 0.719
+},
+{
+"texto": "like",
+"inicio": 1.814,
+"fin": 1.934,
+"score": 0.958
+},
+{
+"texto": "what",
+"inicio": 1.974,
+"fin": 2.114,
+"score": 0.814
+},
+{
+"texto": "I'm",
+"inicio": 2.154,
+"fin": 2.234,
+"score": 0.388
+},
+{
+"texto": "saying.",
+"inicio": 2.274,
+"fin": 2.514,
+"score": 0.577
+},
+{
+"texto": "I",
+"inicio": 2.655,
+"fin": 2.695,
+"score": 0.999
+},
+{
+"texto": "am",
+"inicio": 2.735,
+"fin": 2.775,
+"score": 0.978
+},
+{
+"texto": "one",
+"inicio": 2.795,
+"fin": 2.855,
+"score": 0.0
+},
+{
+"texto": "of",
+"inicio": 2.875,
+"fin": 2.915,
+"score": 0.0
+},
+{
+"texto": "the",
+"inicio": 2.935,
+"fin": 2.995,
+"score": 0.705
+},
+{
+"texto": "most",
+"inicio": 3.015,
+"fin": 3.135,
+"score": 0.786
+},
+{
+"texto": "polarizing",
+"inicio": 3.215,
+"fin": 3.955,
+"score": 0.836
+},
+{
+"texto": "figures",
+"inicio": 4.095,
+"fin": 4.575,
+"score": 0.83
+},
+{
+"texto": "in",
+"inicio": 4.815,
+"fin": 4.895,
+"score": 0.986
+},
+{
+"texto": "the",
+"inicio": 4.935,
+"fin": 5.035,
+"score": 0.744
+},
+{
+"texto": "world",
+"inicio": 5.095,
+"fin": 5.375,
+"score": 0.826
+},
+{
+"texto": "right",
+"inicio": 5.495,
+"fin": 5.675,
+"score": 0.806
+},
+{
+"texto": "now.",
+"inicio": 5.715,
+"fin": 5.895,
+"score": 0.973
+},
+{
+"texto": "But",
+"inicio": 5.975,
+"fin": 6.195,
+"score": 0.93
+},
+{
+"texto": "I'm",
+"inicio": 6.315,
+"fin": 6.415,
+"score": 0.679
+},
+{
+"texto": "trying",
+"inicio": 6.475,
+"fin": 6.815,
+"score": 0.885
+},
+{
+"texto": "to",
+"inicio": 6.895,
+"fin": 7.015,
+"score": 0.866
+},
+{
+"texto": "prepare",
+"inicio": 7.075,
+"fin": 7.536,
+"score": 0.58
+},
+{
+"texto": "everyone.",
+"inicio": 7.636,
+"fin": 7.996,
+"score": 0.923
+},
+{
+"texto": "And",
+"inicio": 8.176,
+"fin": 8.296,
+"score": 0.627
+},
+{
+"texto": "what",
+"inicio": 8.376,
+"fin": 8.616,
+"score": 0.635
+},
+{
+"texto": "I",
+"inicio": 8.736,
+"fin": 8.816,
+"score": 0.744
+},
+{
+"texto": "want",
+"inicio": 8.876,
+"fin": 9.116,
+"score": 0.715
+},
+{
+"texto": "to",
+"inicio": 9.216,
+"fin": 9.436,
+"score": 0.781
+},
+{
+"texto": "explain",
+"inicio": 9.576,
+"fin": 9.916,
+"score": 0.904
+},
+{
+"texto": "to",
+"inicio": 9.936,
+"fin": 9.976,
+"score": 0.706
+},
+{
+"texto": "you",
+"inicio": 9.996,
+"fin": 10.136,
+"score": 0.941
+},
+{
+"texto": "today,",
+"inicio": 10.196,
+"fin": 10.456,
+"score": 0.681
+},
+{
+"texto": "Stephen,",
+"inicio": 10.476,
+"fin": 10.856,
+"score": 0.857
+},
+{
+"texto": "is",
+"inicio": 11.016,
+"fin": 11.156,
+"score": 0.714
+},
+{
+"texto": "why",
+"inicio": 11.296,
+"fin": 11.796,
+"score": 0.914
+},
+{
+"texto": "the",
+"inicio": 11.916,
+"fin": 12.016,
+"score": 0.889
+},
+{
+"texto": "world",
+"inicio": 12.076,
+"fin": 12.376,
+"score": 0.746
+},
+{
+"texto": "is",
+"inicio": 12.476,
+"fin": 12.557,
+"score": 0.708
+},
+{
+"texto": "collapsing.",
+"inicio": 12.637,
+"fin": 13.057,
+"score": 0.578
+},
+{
+"texto": "Because",
+"inicio": 13.257,
+"fin": 13.697,
+"score": 0.817
+},
+{
+"texto": "having",
+"inicio": 13.837,
+"fin": 14.017,
+"score": 0.969
+},
+{
+"texto": "studied",
+"inicio": 14.057,
+"fin": 14.297,
+"score": 0.542
+},
+{
+"texto": "patterns",
+"inicio": 14.357,
+"fin": 14.737,
+"score": 0.65
+},
+{
+"texto": "of",
+"inicio": 14.777,
+"fin": 14.837,
+"score": 0.748
+},
+{
+"texto": "history",
+"inicio": 14.877,
+"fin": 15.217,
+"score": 0.886
+},
+{
+"texto": "and",
+"inicio": 15.277,
+"fin": 15.357,
+"score": 0.851
+},
+{
+"texto": "global",
+"inicio": 15.397,
+"fin": 15.617,
+"score": 0.486
+},
+{
+"texto": "supply",
+"inicio": 15.637,
+"fin": 15.917,
+"score": 0.698
+},
+{
+"texto": "chains,",
+"inicio": 15.957,
+"fin": 16.297,
+"score": 0.686
+},
+{
+"texto": "I",
+"inicio": 16.417,
+"fin": 16.477,
+"score": 0.877
+},
+{
+"texto": "now",
+"inicio": 16.517,
+"fin": 16.637,
+"score": 0.846
+},
+{
+"texto": "recognize",
+"inicio": 16.677,
+"fin": 17.097,
+"score": 0.875
+},
+{
+"texto": "that",
+"inicio": 17.117,
+"fin": 17.257,
+"score": 0.222
+},
+{
+"texto": "I",
+"inicio": 17.277,
+"fin": 17.297,
+"score": 0.001
+},
+{
+"texto": "have",
+"inicio": 17.337,
+"fin": 17.477,
+"score": 0.894
+},
+{
+"texto": "a",
+"inicio": 17.578,
+"fin": 17.618,
+"score": 0.672
+},
+{
+"texto": "framework",
+"inicio": 17.678,
+"fin": 18.038,
+"score": 0.476
+},
+{
+"texto": "to",
+"inicio": 18.098,
+"fin": 18.278,
+"score": 0.962
+},
+{
+"texto": "predict",
+"inicio": 18.398,
+"fin": 18.818,
+"score": 0.853
+},
+{
+"texto": "the",
+"inicio": 18.878,
+"fin": 18.978,
+"score": 0.957
+},
+{
+"texto": "future.",
+"inicio": 19.058,
+"fin": 19.538,
+"score": 0.95
+},
+{
+"texto": "And",
+"inicio": 19.738,
+"fin": 19.838,
+"score": 0.757
+},
+{
+"texto": "I",
+"inicio": 19.918,
+"fin": 20.038,
+"score": 0.756
+},
+{
+"texto": "brought",
+"inicio": 20.058,
+"fin": 20.278,
+"score": 0.819
+},
+{
+"texto": "to",
+"inicio": 20.298,
+"fin": 20.338,
+"score": 0.044
+},
+{
+"texto": "you",
+"inicio": 20.398,
+"fin": 20.578,
+"score": 0.89
+},
+{
+"texto": "three",
+"inicio": 20.598,
+"fin": 20.958,
+"score": 0.525
+},
+{
+"texto": "horrifying",
+"inicio": 20.978,
+"fin": 21.418,
+"score": 0.813
+},
+{
+"texto": "predictions,",
+"inicio": 21.458,
+"fin": 21.878,
+"score": 0.823
+},
+{
+"texto": "structured",
+"inicio": 22.038,
+"fin": 22.358,
+"score": 0.49
+},
+{
+"texto": "around",
+"inicio": 22.438,
+"fin": 22.759,
+"score": 0.938
+},
+{
+"texto": "9-11.",
+"inicio": 22.779,
+"fin": 23.539,
+"score": 0.691
+},
+{
+"texto": "So",
+"inicio": 23.659,
+"fin": 23.859,
+"score": 0.817
+},
+{
+"texto": "what",
+"inicio": 24.039,
+"fin": 24.159,
+"score": 0.916
+},
+{
+"texto": "are",
+"inicio": 24.199,
+"fin": 24.299,
+"score": 0.439
+},
+{
+"texto": "your",
+"inicio": 24.319,
+"fin": 24.479,
+"score": 0.704
+},
+{
+"texto": "predictions",
+"inicio": 24.499,
+"fin": 24.899,
+"score": 0.908
+},
+{
+"texto": "I've",
+"inicio": 24.939,
+"fin": 25.079,
+"score": 0.406
+},
+{
+"texto": "been",
+"inicio": 25.099,
+"fin": 25.239,
+"score": 0.868
+},
+{
+"texto": "dying",
+"inicio": 25.279,
+"fin": 25.559,
+"score": 0.947
+},
+{
+"texto": "to",
+"inicio": 25.599,
+"fin": 25.679,
+"score": 0.904
+},
+{
+"texto": "know?",
+"inicio": 25.699,
+"fin": 25.879,
+"score": 0.541
+},
+{
+"texto": "My",
+"inicio": 26.039,
+"fin": 26.319,
+"score": 0.994
+},
+{
+"texto": "first",
+"inicio": 26.459,
+"fin": 26.739,
+"score": 0.716
+},
+{
+"texto": "prediction,",
+"inicio": 26.779,
+"fin": 27.279,
+"score": 0.906
+},
+{
+"texto": "if",
+"inicio": 27.399,
+"fin": 27.459,
+"score": 0.682
+},
+{
+"texto": "there",
+"inicio": 27.479,
+"fin": 27.64,
+"score": 0.863
+},
+{
+"texto": "is",
+"inicio": 27.7,
+"fin": 27.78,
+"score": 0.69
+},
+{
+"texto": "another",
+"inicio": 27.82,
+"fin": 28.06,
+"score": 0.809
+},
+{
+"texto": "9-11",
+"inicio": 28.08,
+"fin": 28.6,
+"score": 0.756
+},
+{
+"texto": "attack,",
+"inicio": 28.72,
+"fin": 29.2,
+"score": 0.847
+},
+{
+"texto": "it",
+"inicio": 29.28,
+"fin": 29.34,
+"score": 0.926
+},
+{
+"texto": "will",
+"inicio": 29.36,
+"fin": 29.48,
+"score": 0.736
+},
+{
+"texto": "be",
+"inicio": 29.5,
+"fin": 29.54,
+"score": 0.954
+},
+{
+"texto": "an",
+"inicio": 29.56,
+"fin": 29.62,
+"score": 0.415
+},
+{
+"texto": "attack",
+"inicio": 29.66,
+"fin": 30.0,
+"score": 0.452
+},
+{
+"texto": "on",
+"inicio": 30.48,
+"fin": 30.62,
+"score": 0.934
+},
+{
+"texto": "the",
+"inicio": 30.66,
+"fin": 30.8,
+"score": 0.47
+},
+{
+"texto": "US",
+"inicio": 30.9,
+"fin": 31.18,
+"score": 0.72
+},
+{
+"texto": "financial",
+"inicio": 31.24,
+"fin": 31.841,
+"score": 0.784
+},
+{
+"texto": "infrastructure.",
+"inicio": 31.961,
+"fin": 32.601,
+"score": 0.751
+},
+{
+"texto": "Imagine",
+"inicio": 32.801,
+"fin": 33.381,
+"score": 0.791
+},
+{
+"texto": "one",
+"inicio": 33.581,
+"fin": 33.701,
+"score": 0.711
+},
+{
+"texto": "day",
+"inicio": 33.741,
+"fin": 33.982,
+"score": 0.74
+},
+{
+"texto": "you",
+"inicio": 34.142,
+"fin": 34.322,
+"score": 0.905
+},
+{
+"texto": "open",
+"inicio": 34.442,
+"fin": 34.722,
+"score": 0.797
+},
+{
+"texto": "your",
+"inicio": 34.922,
+"fin": 35.222,
+"score": 0.584
+},
+{
+"texto": "iPhone",
+"inicio": 35.442,
+"fin": 35.802,
+"score": 0.496
+},
+{
+"texto": "and",
+"inicio": 35.862,
+"fin": 35.942,
+"score": 0.826
+},
+{
+"texto": "you're",
+"inicio": 35.962,
+"fin": 36.122,
+"score": 0.733
+},
+{
+"texto": "looking",
+"inicio": 36.142,
+"fin": 36.443,
+"score": 0.854
+},
+{
+"texto": "to",
+"inicio": 36.543,
+"fin": 36.963,
+"score": 0.938
+},
+{
+"texto": "buy",
+"inicio": 37.123,
+"fin": 37.423,
+"score": 0.836
+},
+{
+"texto": "a",
+"inicio": 37.463,
+"fin": 37.483,
+"score": 0.806
+},
+{
+"texto": "coffee",
+"inicio": 37.563,
+"fin": 37.943,
+"score": 0.901
+},
+{
+"texto": "and",
+"inicio": 38.123,
+"fin": 38.243,
+"score": 0.723
+},
+{
+"texto": "all",
+"inicio": 38.303,
+"fin": 38.423,
+"score": 0.797
+},
+{
+"texto": "the",
+"inicio": 38.463,
+"fin": 38.523,
+"score": 0.992
+},
+{
+"texto": "money",
+"inicio": 38.583,
+"fin": 38.723,
+"score": 0.759
+},
+{
+"texto": "you",
+"inicio": 38.744,
+"fin": 38.844,
+"score": 0.833
+},
+{
+"texto": "bank",
+"inicio": 38.864,
+"fin": 38.984,
+"score": 0.648
+},
+{
+"texto": "account",
+"inicio": 39.004,
+"fin": 39.384,
+"score": 0.523
+},
+{
+"texto": "has",
+"inicio": 39.424,
+"fin": 39.524,
+"score": 0.791
+},
+{
+"texto": "been",
+"inicio": 39.544,
+"fin": 39.704,
+"score": 0.728
+},
+{
+"texto": "wiped",
+"inicio": 39.764,
+"fin": 39.984,
+"score": 0.871
+},
+{
+"texto": "out",
+"inicio": 40.084,
+"fin": 40.164,
+"score": 0.977
+},
+{
+"texto": "and",
+"inicio": 40.264,
+"fin": 40.364,
+"score": 0.769
+},
+{
+"texto": "they",
+"inicio": 40.384,
+"fin": 40.484,
+"score": 0.851
+},
+{
+"texto": "don't",
+"inicio": 40.504,
+"fin": 40.604,
+"score": 0.985
+},
+{
+"texto": "know",
+"inicio": 40.624,
+"fin": 40.744,
+"score": 0.948
+},
+{
+"texto": "when",
+"inicio": 40.884,
+"fin": 41.245,
+"score": 0.931
+},
+{
+"texto": "or",
+"inicio": 41.385,
+"fin": 41.445,
+"score": 0.929
+},
+{
+"texto": "how",
+"inicio": 41.525,
+"fin": 41.725,
+"score": 0.844
+},
+{
+"texto": "long",
+"inicio": 41.785,
+"fin": 42.065,
+"score": 0.72
+},
+{
+"texto": "it",
+"inicio": 42.145,
+"fin": 42.185,
+"score": 0.729
+},
+{
+"texto": "will",
+"inicio": 42.205,
+"fin": 42.345,
+"score": 0.898
+},
+{
+"texto": "take",
+"inicio": 42.365,
+"fin": 42.485,
+"score": 0.872
+},
+{
+"texto": "them",
+"inicio": 42.525,
+"fin": 42.665,
+"score": 0.897
+},
+{
+"texto": "to",
+"inicio": 42.745,
+"fin": 42.865,
+"score": 0.894
+},
+{
+"texto": "retrieve",
+"inicio": 42.885,
+"fin": 43.305,
+"score": 0.592
+},
+{
+"texto": "it.",
+"inicio": 43.345,
+"fin": 43.425,
+"score": 0.561
+},
+{
+"texto": "I",
+"inicio": 43.545,
+"fin": 43.625,
+"score": 0.782
+},
+{
+"texto": "believe",
+"inicio": 43.665,
+"fin": 43.966,
+"score": 0.871
+},
+{
+"texto": "that's",
+"inicio": 44.026,
+"fin": 44.286,
+"score": 0.827
+},
+{
+"texto": "what",
+"inicio": 44.386,
+"fin": 44.546,
+"score": 0.686
+},
+{
+"texto": "makes",
+"inicio": 44.606,
+"fin": 44.766,
+"score": 0.847
+},
+{
+"texto": "Americans",
+"inicio": 44.806,
+"fin": 45.146,
+"score": 0.768
+},
+{
+"texto": "most",
+"inicio": 45.266,
+"fin": 45.506,
+"score": 0.845
+},
+{
+"texto": "vulnerable",
+"inicio": 45.566,
+"fin": 46.086,
+"score": 0.703
+},
+{
+"texto": "and",
+"inicio": 46.166,
+"fin": 46.227,
+"score": 0.588
+},
+{
+"texto": "therefore",
+"inicio": 46.247,
+"fin": 46.507,
+"score": 0.781
+},
+{
+"texto": "the",
+"inicio": 46.527,
+"fin": 46.587,
+"score": 0.985
+},
+{
+"texto": "most",
+"inicio": 46.647,
+"fin": 46.767,
+"score": 0.828
+},
+{
+"texto": "easily",
+"inicio": 46.907,
+"fin": 47.147,
+"score": 0.898
+},
+{
+"texto": "traumatized.",
+"inicio": 47.207,
+"fin": 47.827,
+"score": 0.547
+},
+{
+"texto": "What's",
+"inicio": 47.947,
+"fin": 48.107,
+"score": 0.903
+},
+{
+"texto": "prediction",
+"inicio": 48.127,
+"fin": 48.447,
+"score": 0.843
+},
+{
+"texto": "number",
+"inicio": 48.487,
+"fin": 48.728,
+"score": 0.924
+},
+{
+"texto": "two?",
+"inicio": 48.748,
+"fin": 48.948,
+"score": 0.759
+},
+{
+"texto": "Is",
+"inicio": 49.308,
+"fin": 49.508,
+"score": 0.954
+},
+{
+"texto": "that",
+"inicio": 49.588,
+"fin": 49.828,
+"score": 0.912
+},
+{
+"texto": "Lionel",
+"inicio": 49.908,
+"fin": 50.228,
+"score": 0.475
+},
+{
+"texto": "Messi",
+"inicio": 50.248,
+"fin": 50.628,
+"score": 0.885
+},
+{
+"texto": "will",
+"inicio": 50.708,
+"fin": 50.848,
+"score": 0.567
+},
+{
+"texto": "become",
+"inicio": 50.868,
+"fin": 51.108,
+"score": 0.742
+},
+{
+"texto": "president",
+"inicio": 51.168,
+"fin": 51.509,
+"score": 0.677
+},
+{
+"texto": "of",
+"inicio": 51.609,
+"fin": 51.669,
+"score": 0.791
+},
+{
+"texto": "Argentina.",
+"inicio": 51.749,
+"fin": 52.309,
+"score": 0.937
+},
+{
+"texto": "Oh",
+"inicio": 52.469,
+"fin": 52.549,
+"score": 0.331
+},
+{
+"texto": "wow,",
+"inicio": 52.569,
+"fin": 52.749,
+"score": 0.554
+},
+{
+"texto": "I",
+"inicio": 52.769,
+"fin": 52.789,
+"score": 0.0
+},
+{
+"texto": "wasn't",
+"inicio": 52.809,
+"fin": 52.969,
+"score": 0.275
+},
+{
+"texto": "expecting",
+"inicio": 53.009,
+"fin": 53.329,
+"score": 0.917
+},
+{
+"texto": "that.",
+"inicio": 53.369,
+"fin": 53.529,
+"score": 0.509
+},
+{
+"texto": "And",
+"inicio": 53.709,
+"fin": 53.79,
+"score": 0.805
+},
+{
+"texto": "also",
+"inicio": 53.83,
+"fin": 54.03,
+"score": 0.832
+},
+{
+"texto": "do",
+"inicio": 54.05,
+"fin": 54.09,
+"score": 0.971
+},
+{
+"texto": "you",
+"inicio": 54.11,
+"fin": 54.21,
+"score": 0.894
+},
+{
+"texto": "think",
+"inicio": 54.27,
+"fin": 54.45,
+"score": 0.965
+},
+{
+"texto": "Trump",
+"inicio": 54.51,
+"fin": 54.69,
+"score": 0.829
+},
+{
+"texto": "is",
+"inicio": 54.71,
+"fin": 54.81,
+"score": 0.677
+},
+{
+"texto": "gonna",
+"inicio": 54.83,
+"fin": 54.99,
+"score": 0.467
+},
+{
+"texto": "have",
+"inicio": 55.03,
+"fin": 55.13,
+"score": 0.355
+},
+{
+"texto": "a",
+"inicio": 55.15,
+"fin": 55.19,
+"score": 0.607
+},
+{
+"texto": "third",
+"inicio": 55.21,
+"fin": 55.39,
+"score": 0.435
+},
+{
+"texto": "term?",
+"inicio": 55.43,
+"fin": 55.63,
+"score": 0.498
+},
+{
+"texto": "Let's",
+"inicio": 55.75,
+"fin": 55.91,
+"score": 0.938
+},
+{
+"texto": "take",
+"inicio": 55.93,
+"fin": 56.05,
+"score": 0.367
+},
+{
+"texto": "the",
+"inicio": 56.07,
+"fin": 56.17,
+"score": 0.209
+},
+{
+"texto": "French",
+"inicio": 56.19,
+"fin": 56.331,
+"score": 0.192
+},
+{
+"texto": "ban",
+"inicio": 56.351,
+"fin": 56.511,
+"score": 0.774
+},
+{
+"texto": "and",
+"inicio": 56.551,
+"fin": 56.651,
+"score": 0.786
+},
+{
+"texto": "say",
+"inicio": 56.671,
+"fin": 56.811,
+"score": 0.762
+},
+{
+"texto": "$100.",
+"inicio": 56.831,
+"fin": 57.371,
+"score": 0.613
+},
+{
+"texto": "Trump",
+"inicio": 57.431,
+"fin": 57.571,
+"score": 0.776
+},
+{
+"texto": "gets",
+"inicio": 57.591,
+"fin": 57.671,
+"score": 0.051
+},
+{
+"texto": "a",
+"inicio": 57.711,
+"fin": 57.751,
+"score": 0.524
+},
+{
+"texto": "third",
+"inicio": 57.771,
+"fin": 57.951,
+"score": 0.756
+},
+{
+"texto": "term",
+"inicio": 57.991,
+"fin": 58.211,
+"score": 0.54
+},
+{
+"texto": "to",
+"inicio": 58.231,
+"fin": 58.311,
+"score": 0.78
+},
+{
+"texto": "be",
+"inicio": 58.331,
+"fin": 58.411,
+"score": 0.751
+},
+{
+"texto": "a",
+"inicio": 58.431,
+"fin": 58.451,
+"score": 0.004
+},
+{
+"texto": "CEO",
+"inicio": 58.511,
+"fin": 58.712,
+"score": 0.481
+},
+{
+"texto": "of",
+"inicio": 58.732,
+"fin": 58.772,
+"score": 0.062
+},
+{
+"texto": "New",
+"inicio": 58.792,
+"fin": 58.852,
+"score": 0.0
+},
+{
+"texto": "York",
+"inicio": 58.872,
+"fin": 59.032,
+"score": 0.75
+},
+{
+"texto": "City.",
+"inicio": 59.072,
+"fin": 59.292,
+"score": 0.964
+},
+{
+"texto": "Prediction",
+"inicio": 59.412,
+"fin": 59.772,
+"score": 0.891
+},
+{
+"texto": "three?",
+"inicio": 59.812,
+"fin": 59.952,
+"score": 0.175
+},
+{
+"texto": "My",
+"inicio": 60.232,
+"fin": 60.332,
+"score": 0.996
+},
+{
+"texto": "third",
+"inicio": 60.412,
+"fin": 60.612,
+"score": 0.785
+},
+{
+"texto": "prediction",
+"inicio": 60.632,
+"fin": 61.192,
+"score": 0.68
+},
+{
+"texto": "is",
+"inicio": 61.533,
+"fin": 61.713,
+"score": 0.737
+},
+{
+"texto": "that...",
+"inicio": 61.853,
+"fin": 62.153,
+"score": 0.846
+},
+{
+"texto": "Are",
+"inicio": 62.293,
+"fin": 62.413,
+"score": 0.382
+},
+{
+"texto": "you",
+"inicio": 62.433,
+"fin": 62.493,
+"score": 0.038
+},
+{
+"texto": "sure?",
+"inicio": 62.553,
+"fin": 62.813,
+"score": 0.759
+},
+{
+"texto": "You",
+"inicio": 62.973,
+"fin": 63.053,
+"score": 0.843
+},
+{
+"texto": "don't",
+"inicio": 63.073,
+"fin": 63.233,
+"score": 0.855
+},
+{
+"texto": "think",
+"inicio": 63.253,
+"fin": 63.473,
+"score": 0.831
+},
+{
+"texto": "that",
+"inicio": 63.553,
+"fin": 63.714,
+"score": 0.865
+},
+{
+"texto": "the",
+"inicio": 63.754,
+"fin": 63.854,
+"score": 0.332
+},
+{
+"texto": "US",
+"inicio": 63.934,
+"fin": 64.014,
+"score": 0.558
+},
+{
+"texto": "will",
+"inicio": 64.034,
+"fin": 64.114,
+"score": 0.0
+},
+{
+"texto": "actually",
+"inicio": 64.154,
+"fin": 64.454,
+"score": 0.389
+},
+{
+"texto": "do",
+"inicio": 64.494,
+"fin": 64.634,
+"score": 0.852
+},
+{
+"texto": "that",
+"inicio": 64.654,
+"fin": 64.794,
+"score": 0.806
+},
+{
+"texto": "very",
+"inicio": 64.814,
+"fin": 64.894,
+"score": 0.007
+},
+{
+"texto": "well?",
+"inicio": 64.914,
+"fin": 65.014,
+"score": 0.075
+},
+{
+"texto": "Well,",
+"inicio": 65.294,
+"fin": 65.494,
+"score": 0.979
+},
+{
+"texto": "I",
+"inicio": 65.634,
+"fin": 65.674,
+"score": 0.549
+},
+{
+"texto": "understand",
+"inicio": 65.694,
+"fin": 66.215,
+"score": 0.746
+},
+{
+"texto": "a",
+"inicio": 66.235,
+"fin": 66.255,
+"score": 0.0
+},
+{
+"texto": "lot",
+"inicio": 66.675,
+"fin": 67.075,
+"score": 0.936
+},
+{
+"texto": "of",
+"inicio": 67.275,
+"fin": 67.355,
+"score": 0.972
+},
+{
+"texto": "this",
+"inicio": 67.415,
+"fin": 67.735,
+"score": 0.848
+},
+{
+"texto": "is",
+"inicio": 67.955,
+"fin": 68.055,
+"score": 0.716
+},
+{
+"texto": "going",
+"inicio": 68.155,
+"fin": 68.555,
+"score": 0.744
+},
+{
+"texto": "to",
+"inicio": 68.675,
+"fin": 68.856,
+"score": 0.942
+},
+{
+"texto": "be",
+"inicio": 68.936,
+"fin": 69.296,
+"score": 0.893
+},
+{
+"texto": "extremely",
+"inicio": 69.496,
+"fin": 69.756,
+"score": 0.245
+},
+{
+"texto": "pessimistic,",
+"inicio": 69.796,
+"fin": 70.416,
+"score": 0.835
+},
+{
+"texto": "but",
+"inicio": 70.496,
+"fin": 70.756,
+"score": 0.948
+},
+{
+"texto": "we",
+"inicio": 70.856,
+"fin": 71.056,
+"score": 0.931
+},
+{
+"texto": "are",
+"inicio": 71.237,
+"fin": 71.377,
+"score": 0.616
+},
+{
+"texto": "living",
+"inicio": 71.557,
+"fin": 71.797,
+"score": 0.899
+},
+{
+"texto": "a",
+"inicio": 71.857,
+"fin": 71.897,
+"score": 0.656
+},
+{
+"texto": "time",
+"inicio": 71.997,
+"fin": 72.557,
+"score": 0.788
+},
+{
+"texto": "of",
+"inicio": 72.777,
+"fin": 72.837,
+"score": 0.972
+},
+{
+"texto": "not",
+"inicio": 72.877,
+"fin": 73.037,
+"score": 0.684
+},
+{
+"texto": "just",
+"inicio": 73.057,
+"fin": 73.157,
+"score": 0.468
+},
+{
+"texto": "war,",
+"inicio": 73.357,
+"fin": 73.798,
+"score": 0.894
+},
+{
+"texto": "but",
+"inicio": 73.918,
+"fin": 74.058,
+"score": 0.871
+},
+{
+"texto": "also",
+"inicio": 74.178,
+"fin": 74.618,
+"score": 0.961
+},
+{
+"texto": "the",
+"inicio": 74.758,
+"fin": 74.858,
+"score": 0.685
+},
+{
+"texto": "regression",
+"inicio": 74.898,
+"fin": 75.638,
+"score": 0.73
+},
+{
+"texto": "of",
+"inicio": 75.798,
+"fin": 75.878,
+"score": 0.973
+},
+{
+"texto": "civilization.",
+"inicio": 75.918,
+"fin": 76.639,
+"score": 0.864
+},
+{
+"texto": "We",
+"inicio": 76.819,
+"fin": 76.999,
+"score": 0.88
+},
+{
+"texto": "basically",
+"inicio": 77.059,
+"fin": 77.519,
+"score": 0.584
+},
+{
+"texto": "hit",
+"inicio": 77.579,
+"fin": 77.719,
+"score": 0.957
+},
+{
+"texto": "the",
+"inicio": 77.759,
+"fin": 77.879,
+"score": 0.771
+},
+{
+"texto": "height",
+"inicio": 78.019,
+"fin": 78.299,
+"score": 0.892
+},
+{
+"texto": "of",
+"inicio": 78.519,
+"fin": 78.619,
+"score": 0.865
+},
+{
+"texto": "technological",
+"inicio": 78.68,
+"fin": 79.3,
+"score": 0.675
+},
+{
+"texto": "advancement.",
+"inicio": 79.48,
+"fin": 80.14,
+"score": 0.815
+},
+{
+"texto": "The",
+"inicio": 80.26,
+"fin": 80.34,
+"score": 0.953
+},
+{
+"texto": "word",
+"inicio": 80.38,
+"fin": 80.54,
+"score": 0.936
+},
+{
+"texto": "collapse",
+"inicio": 80.66,
+"fin": 81.16,
+"score": 0.884
+},
+{
+"texto": "you",
+"inicio": 81.201,
+"fin": 81.361,
+"score": 0.886
+},
+{
+"texto": "use,",
+"inicio": 81.461,
+"fin": 81.601,
+"score": 0.798
+},
+{
+"texto": "there",
+"inicio": 81.621,
+"fin": 81.761,
+"score": 0.878
+},
+{
+"texto": "is",
+"inicio": 81.801,
+"fin": 81.881,
+"score": 0.578
+},
+{
+"texto": "a",
+"inicio": 81.921,
+"fin": 81.961,
+"score": 0.539
+},
+{
+"texto": "strong",
+"inicio": 82.001,
+"fin": 82.261,
+"score": 0.869
+},
+{
+"texto": "word.",
+"inicio": 82.301,
+"fin": 82.581,
+"score": 0.982
+},
+{
+"texto": "Yes.",
+"inicio": 82.721,
+"fin": 82.921,
+"score": 0.938
+},
+{
+"texto": "I",
+"inicio": 83.241,
+"fin": 83.321,
+"score": 0.751
+},
+{
+"texto": "am",
+"inicio": 83.421,
+"fin": 83.501,
+"score": 0.552
+},
+{
+"texto": "positive",
+"inicio": 83.682,
+"fin": 84.222,
+"score": 0.871
+},
+{
+"texto": "that",
+"inicio": 84.262,
+"fin": 84.442,
+"score": 0.795
+},
+{
+"texto": "we",
+"inicio": 84.502,
+"fin": 84.602,
+"score": 0.998
+},
+{
+"texto": "are",
+"inicio": 84.662,
+"fin": 84.782,
+"score": 0.666
+},
+{
+"texto": "seeing",
+"inicio": 84.862,
+"fin": 85.362,
+"score": 0.687
+},
+{
+"texto": "the",
+"inicio": 85.522,
+"fin": 85.602,
+"score": 0.911
+},
+{
+"texto": "collapse",
+"inicio": 85.662,
+"fin": 86.082,
+"score": 0.781
+},
+{
+"texto": "of",
+"inicio": 86.203,
+"fin": 86.263,
+"score": 0.996
+},
+{
+"texto": "civilization.",
+"inicio": 86.303,
+"fin": 87.043,
+"score": 0.913
+},
+{
+"texto": "All",
+"inicio": 87.063,
+"fin": 87.163,
+"score": 0.406
+},
+{
+"texto": "the",
+"inicio": 87.183,
+"fin": 87.283,
+"score": 0.423
+},
+{
+"texto": "suffering",
+"inicio": 87.303,
+"fin": 87.583,
+"score": 0.639
+},
+{
+"texto": "that",
+"inicio": 87.603,
+"fin": 87.783,
+"score": 0.827
+},
+{
+"texto": "we",
+"inicio": 87.863,
+"fin": 88.043,
+"score": 0.878
+},
+{
+"texto": "might",
+"inicio": 88.303,
+"fin": 88.423,
+"score": 0.777
+},
+{
+"texto": "have",
+"inicio": 88.443,
+"fin": 88.523,
+"score": 0.844
+},
+{
+"texto": "seen",
+"inicio": 88.543,
+"fin": 88.684,
+"score": 0.866
+},
+{
+"texto": "on",
+"inicio": 88.744,
+"fin": 88.824,
+"score": 0.782
+},
+{
+"texto": "television,",
+"inicio": 88.944,
+"fin": 89.464,
+"score": 0.653
+},
+{
+"texto": "it",
+"inicio": 89.624,
+"fin": 89.684,
+"score": 0.981
+},
+{
+"texto": "is",
+"inicio": 89.744,
+"fin": 89.804,
+"score": 0.876
+},
+{
+"texto": "coming",
+"inicio": 89.904,
+"fin": 90.104,
+"score": 0.594
+},
+{
+"texto": "to",
+"inicio": 90.265,
+"fin": 90.405,
+"score": 0.817
+},
+{
+"texto": "us",
+"inicio": 90.605,
+"fin": 90.725,
+"score": 0.692
+},
+{
+"texto": "in",
+"inicio": 91.106,
+"fin": 91.226,
+"score": 0.647
+},
+{
+"texto": "our",
+"inicio": 91.386,
+"fin": 91.486,
+"score": 0.979
+},
+{
+"texto": "lives",
+"inicio": 91.526,
+"fin": 91.867,
+"score": 0.96
+},
+{
+"texto": "and",
+"inicio": 92.388,
+"fin": 92.528,
+"score": 0.654
+},
+{
+"texto": "the",
+"inicio": 92.648,
+"fin": 92.748,
+"score": 0.954
+},
+{
+"texto": "world",
+"inicio": 92.828,
+"fin": 93.269,
+"score": 0.686
+},
+{
+"texto": "is",
+"inicio": 93.389,
+"fin": 93.469,
+"score": 0.752
+},
+{
+"texto": "essentially",
+"inicio": 93.509,
+"fin": 93.95,
+"score": 0.705
+},
+{
+"texto": "running",
+"inicio": 94.15,
+"fin": 94.39,
+"score": 0.679
+},
+{
+"texto": "out",
+"inicio": 94.47,
+"fin": 94.571,
+"score": 0.896
+},
+{
+"texto": "of",
+"inicio": 94.591,
+"fin": 94.651,
+"score": 0.66
+},
+{
+"texto": "time",
+"inicio": 94.671,
+"fin": 94.751,
+"score": 0.093
+},
+{
+"texto": "and",
+"inicio": 95.352,
+"fin": 95.412,
+"score": 0.921
+},
+{
+"texto": "I",
+"inicio": 95.512,
+"fin": 95.572,
+"score": 0.996
+},
+{
+"texto": "will",
+"inicio": 95.632,
+"fin": 95.933,
+"score": 0.776
+},
+{
+"texto": "paint",
+"inicio": 96.053,
+"fin": 96.333,
+"score": 0.816
+},
+{
+"texto": "a",
+"inicio": 96.473,
+"fin": 96.513,
+"score": 0.564
+},
+{
+"texto": "clear",
+"inicio": 96.654,
+"fin": 96.974,
+"score": 0.801
+},
+{
+"texto": "and",
+"inicio": 97.114,
+"fin": 97.194,
+"score": 0.818
+},
+{
+"texto": "simple",
+"inicio": 97.234,
+"fin": 97.475,
+"score": 0.895
+},
+{
+"texto": "picture",
+"inicio": 97.555,
+"fin": 97.975,
+"score": 0.838
+},
+{
+"texto": "of",
+"inicio": 98.196,
+"fin": 98.276,
+"score": 0.95
+},
+{
+"texto": "what",
+"inicio": 98.416,
+"fin": 98.576,
+"score": 0.766
+},
+{
+"texto": "is",
+"inicio": 98.676,
+"fin": 98.777,
+"score": 0.472
+},
+{
+"texto": "about",
+"inicio": 98.797,
+"fin": 98.957,
+"score": 0.973
+},
+{
+"texto": "to",
+"inicio": 98.977,
+"fin": 99.057,
+"score": 0.415
+},
+{
+"texto": "come.",
+"inicio": 99.077,
+"fin": 99.317,
+"score": 0.86
+},
+{
+"texto": "Well,",
+"inicio": 99.417,
+"fin": 99.518,
+"score": 0.391
+},
+{
+"texto": "we",
+"inicio": 99.538,
+"fin": 99.638,
+"score": 0.132
+},
+{
+"texto": "have",
+"inicio": 99.658,
+"fin": 99.778,
+"score": 0.737
+},
+{
+"texto": "to",
+"inicio": 99.798,
+"fin": 99.838,
+"score": 0.999
+},
+{
+"texto": "be",
+"inicio": 99.878,
+"fin": 99.938,
+"score": 0.776
+},
+{
+"texto": "the",
+"inicio": 99.978,
+"fin": 100.038,
+"score": 0.972
+},
+{
+"texto": "case",
+"inicio": 100.058,
+"fin": 100.219,
+"score": 0.949
+},
+{
+"texto": "for",
+"inicio": 100.259,
+"fin": 100.379,
+"score": 0.768
+},
+{
+"texto": "none",
+"inicio": 100.439,
+"fin": 100.559,
+"score": 0.847
+},
+{
+"texto": "of",
+"inicio": 100.579,
+"fin": 100.619,
+"score": 0.964
+},
+{
+"texto": "these",
+"inicio": 100.659,
+"fin": 100.779,
+"score": 0.893
+},
+{
+"texto": "sort",
+"inicio": 100.799,
+"fin": 100.92,
+"score": 0.913
+},
+{
+"texto": "of",
+"inicio": 100.94,
+"fin": 101.0,
+"score": 0.736
+},
+{
+"texto": "catastrophic",
+"inicio": 101.06,
+"fin": 101.44,
+"score": 0.358
+},
+{
+"texto": "things",
+"inicio": 101.48,
+"fin": 101.641,
+"score": 0.591
+},
+{
+"texto": "to",
+"inicio": 101.661,
+"fin": 101.741,
+"score": 0.776
+},
+{
+"texto": "take",
+"inicio": 101.761,
+"fin": 101.881,
+"score": 0.833
+},
+{
+"texto": "place.",
+"inicio": 101.921,
+"fin": 102.121,
+"score": 0.877
+},
+{
+"texto": "Well,",
+"inicio": 102.302,
+"fin": 102.642,
+"score": 0.899
+},
+{
+"texto": "the",
+"inicio": 102.662,
+"fin": 102.902,
+"score": 0.298
+},
+{
+"texto": "only",
+"inicio": 102.922,
+"fin": 103.003,
+"score": 0.092
+},
+{
+"texto": "thing",
+"inicio": 103.023,
+"fin": 103.123,
+"score": 0.015
+},
+{
+"texto": "that",
+"inicio": 103.143,
+"fin": 103.243,
+"score": 0.356
+},
+{
+"texto": "gives",
+"inicio": 103.263,
+"fin": 103.383,
+"score": 0.682
+},
+{
+"texto": "me",
+"inicio": 103.403,
+"fin": 103.483,
+"score": 0.714
+},
+{
+"texto": "hope",
+"inicio": 103.523,
+"fin": 103.684,
+"score": 0.797
+},
+{
+"texto": "is...",
+"inicio": 103.844,
+"fin": 103.984,
+"score": 0.81
+}
+]

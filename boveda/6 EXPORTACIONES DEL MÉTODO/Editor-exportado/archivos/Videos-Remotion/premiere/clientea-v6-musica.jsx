@@ -1,0 +1,2 @@
+// CLIENTE-A_1010_01: música 3 dB más alta (queda unos 14 dB por debajo de la voz).
+(function () { var seq = app.project.activeSequence, n = 0; for (var t = 0; t < seq.audioTracks.numTracks; t++) for (var i = 0; i < seq.audioTracks[t].clips.numItems; i++) { var c = seq.audioTracks[t].clips[i]; if (c.name === "musica CLIENTE-A_1010_01.wav") for (var y = 0; y < c.components.numItems; y++) if (c.components[y].displayName === "Volumen") { c.components[y].properties[1].setValue(Math.pow(10, (-14 - 15) / 20), true); n++; } } return "musica " + n; })();

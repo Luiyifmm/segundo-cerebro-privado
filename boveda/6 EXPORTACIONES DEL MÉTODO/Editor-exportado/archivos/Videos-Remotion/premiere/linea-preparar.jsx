@@ -1,0 +1,12 @@
+// Línea de tiempo de lote, paso 1: clona la secuencia de ejemplo (el vídeo editado por el usuario queda al inicio) e importa los brutos enteros.
+(function () { var CFG = __CFG__, r = { hecho: [], errores: [], info: {} }, i, T = 254016000000;
+  if (app.project.name !== CFG.proyecto) { app.openDocument(CFG.ruta, true, true, true); if (app.project.name !== CFG.proyecto) return JSON.stringify({ error: "no activo" }); }
+  function sec(n) { for (var x = 0; x < app.project.sequences.numSequences; x++) if (app.project.sequences[x].name === n) return app.project.sequences[x]; return null; }
+  var L = sec(CFG.linea); if (!L) { var ej = sec(CFG.ejemplo); if (!ej) return JSON.stringify({ error: "sin secuencia de ejemplo" }); var antes = {}; for (i = 0; i < app.project.sequences.numSequences; i++) antes[app.project.sequences[i].sequenceID] = 1; ej.clone(); for (i = 0; i < app.project.sequences.numSequences; i++) if (!antes[app.project.sequences[i].sequenceID]) L = app.project.sequences[i]; if (!L) return JSON.stringify({ error: "no se clonó" }); L.name = CFG.linea; r.hecho.push("línea creada"); }
+  r.finEjemplo = L.end / T; r.fps = 254016000000 / L.timebase; r.vt = L.videoTracks.numTracks; r.at = L.audioTracks.numTracks;
+  var root = app.project.rootItem, bin = null; for (i = 0; i < root.children.numItems; i++) if (root.children[i].type === 2 && root.children[i].name === CFG.bin) bin = root.children[i]; if (!bin) bin = root.createBin(CFG.bin);
+  var ya = {}; for (i = 0; i < bin.children.numItems; i++) { try { ya[bin.children[i].getMediaPath()] = 1; } catch (e) {} } var falta = []; for (i = 0; i < CFG.fuentes.length; i++) if (!ya[CFG.fuentes[i]]) falta.push(CFG.fuentes[i]);
+  if (falta.length) app.project.importFiles(falta, true, bin, false);
+  var np = 0; for (i = 0; i < bin.children.numItems; i++) { var c = bin.children[i], mp = ""; try { mp = c.getMediaPath(); } catch (e) {} if (!mp) continue; var md = ""; try { md = c.getProjectMetadata(); } catch (e) {} var m = /VideoInfo>(\d+) x (\d+)/.exec(md); r.info[mp] = m ? [+m[1], +m[2]] : null; var px = CFG.proxies[mp]; if (px) { try { if (!c.hasProxy() && c.canProxy()) { c.attachProxy(px, 0); np++; } } catch (e) { r.errores.push("proxy " + c.name); } } }
+  r.hecho.push("brutos en la bandeja: " + bin.children.numItems + ", proxies enlazados ahora: " + np);
+  try { app.project.save(); } catch (e) {} return JSON.stringify(r); })();
