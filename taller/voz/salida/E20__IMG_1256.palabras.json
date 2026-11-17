@@ -1,0 +1,152 @@
+[
+ {
+  "texto": "5",
+  "inicio": 1.88,
+  "fin": 2.12
+ },
+ {
+  "texto": "desayunos,",
+  "inicio": 2.12,
+  "fin": 3.02
+ },
+ {
+  "texto": "califiquemolos.",
+  "inicio": 3.26,
+  "fin": 4
+ },
+ {
+  "texto": "No.",
+  "inicio": 4.14,
+  "fin": 5
+ },
+ {
+  "texto": "Vale.",
+  "inicio": 9.66,
+  "fin": 11.28
+ },
+ {
+  "texto": "Va.",
+  "inicio": 12.02,
+  "fin": 12.82
+ },
+ {
+  "texto": "5",
+  "inicio": 13.52,
+  "fin": 13.78
+ },
+ {
+  "texto": "desayunos",
+  "inicio": 13.78,
+  "fin": 14.36
+ },
+ {
+  "texto": "y",
+  "inicio": 14.36,
+  "fin": 14.5
+ },
+ {
+  "texto": "2",
+  "inicio": 14.5,
+  "fin": 14.66
+ },
+ {
+  "texto": "de",
+  "inicio": 14.66,
+  "fin": 14.86
+ },
+ {
+  "texto": "ellos",
+  "inicio": 14.86,
+  "fin": 15.08
+ },
+ {
+  "texto": "no",
+  "inicio": 15.08,
+  "fin": 15.26
+ },
+ {
+  "texto": "deberías",
+  "inicio": 15.26,
+  "fin": 15.7
+ },
+ {
+  "texto": "comer.",
+  "inicio": 15.7,
+  "fin": 16.56
+ },
+ {
+  "texto": "Otra",
+  "inicio": 17.28,
+  "fin": 17.54
+ },
+ {
+  "texto": "vez.",
+  "inicio": 17.54,
+  "fin": 18
+ },
+ {
+  "texto": "5",
+  "inicio": 19.36,
+  "fin": 19.6
+ },
+ {
+  "texto": "desayunos",
+  "inicio": 19.6,
+  "fin": 20.26
+ },
+ {
+  "texto": "y",
+  "inicio": 20.26,
+  "fin": 20.42
+ },
+ {
+  "texto": "2",
+  "inicio": 20.42,
+  "fin": 20.58
+ },
+ {
+  "texto": "de",
+  "inicio": 20.58,
+  "fin": 20.78
+ },
+ {
+  "texto": "ellos",
+  "inicio": 20.78,
+  "fin": 20.96
+ },
+ {
+  "texto": "no",
+  "inicio": 20.96,
+  "fin": 21.14
+ },
+ {
+  "texto": "deberías",
+  "inicio": 21.14,
+  "fin": 21.58
+ },
+ {
+  "texto": "comerlos",
+  "inicio": 21.58,
+  "fin": 21.98
+ },
+ {
+  "texto": "si",
+  "inicio": 21.98,
+  "fin": 22.18
+ },
+ {
+  "texto": "quieres",
+  "inicio": 22.18,
+  "fin": 22.46
+ },
+ {
+  "texto": "perder",
+  "inicio": 22.46,
+  "fin": 22.7
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 22.7,
+  "fin": 22.88
+ }
+]

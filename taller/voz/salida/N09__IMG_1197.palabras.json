@@ -1,0 +1,37 @@
+[
+ {
+  "texto": "Primero",
+  "inicio": 4,
+  "fin": 4.56
+ },
+ {
+  "texto": "pesas",
+  "inicio": 4.56,
+  "fin": 5.16
+ },
+ {
+  "texto": "después",
+  "inicio": 5.16,
+  "fin": 5.72
+ },
+ {
+  "texto": "cardio",
+  "inicio": 5.72,
+  "fin": 6.14
+ },
+ {
+  "texto": "el",
+  "inicio": 6.14,
+  "fin": 6.42
+ },
+ {
+  "texto": "orden",
+  "inicio": 6.42,
+  "fin": 6.9
+ },
+ {
+  "texto": "importa",
+  "inicio": 6.9,
+  "fin": 7
+ }
+]

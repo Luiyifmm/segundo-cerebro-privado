@@ -1,0 +1,72 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 4.84,
+  "fin": 5.16
+ },
+ {
+  "texto": "empiezas",
+  "inicio": 5.16,
+  "fin": 5.66
+ },
+ {
+  "texto": "el",
+  "inicio": 5.66,
+  "fin": 5.86
+ },
+ {
+  "texto": "gym",
+  "inicio": 5.86,
+  "fin": 6.3
+ },
+ {
+  "texto": "con",
+  "inicio": 6.3,
+  "fin": 6.52
+ },
+ {
+  "texto": "30",
+  "inicio": 6.52,
+  "fin": 6.9
+ },
+ {
+  "texto": "minutos",
+  "inicio": 6.9,
+  "fin": 7.2
+ },
+ {
+  "texto": "de",
+  "inicio": 7.2,
+  "fin": 7.52
+ },
+ {
+  "texto": "cardio,",
+  "inicio": 7.52,
+  "fin": 8.14
+ },
+ {
+  "texto": "por",
+  "inicio": 8.3,
+  "fin": 8.5
+ },
+ {
+  "texto": "eso",
+  "inicio": 8.5,
+  "fin": 8.68
+ },
+ {
+  "texto": "no",
+  "inicio": 8.68,
+  "fin": 8.84
+ },
+ {
+  "texto": "les",
+  "inicio": 8.84,
+  "fin": 9.08
+ },
+ {
+  "texto": "cambios.",
+  "inicio": 9.08,
+  "fin": 9.36
+ }
+]

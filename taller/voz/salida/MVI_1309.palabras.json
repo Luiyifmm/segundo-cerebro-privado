@@ -1,0 +1,702 @@
+[
+ {
+  "texto": "Estoy",
+  "inicio": 6.92,
+  "fin": 7.14
+ },
+ {
+  "texto": "en",
+  "inicio": 7.14,
+  "fin": 7.28
+ },
+ {
+  "texto": "uno",
+  "inicio": 7.28,
+  "fin": 7.36
+ },
+ {
+  "texto": "de",
+  "inicio": 7.36,
+  "fin": 7.48
+ },
+ {
+  "texto": "los",
+  "inicio": 7.48,
+  "fin": 7.74
+ },
+ {
+  "texto": "países",
+  "inicio": 7.74,
+  "fin": 8.04
+ },
+ {
+  "texto": "más",
+  "inicio": 8.04,
+  "fin": 8.26
+ },
+ {
+  "texto": "pequeños",
+  "inicio": 8.26,
+  "fin": 8.56
+ },
+ {
+  "texto": "del",
+  "inicio": 8.56,
+  "fin": 8.8
+ },
+ {
+  "texto": "mundo",
+  "inicio": 8.8,
+  "fin": 9
+ },
+ {
+  "texto": "y",
+  "inicio": 9,
+  "fin": 9.1
+ },
+ {
+  "texto": "voy",
+  "inicio": 9.1,
+  "fin": 9.18
+ },
+ {
+  "texto": "a",
+  "inicio": 9.18,
+  "fin": 9.34
+ },
+ {
+  "texto": "preguntar",
+  "inicio": 9.34,
+  "fin": 9.6
+ },
+ {
+  "texto": "a",
+  "inicio": 9.6,
+  "fin": 9.64
+ },
+ {
+  "texto": "la",
+  "inicio": 9.64,
+  "fin": 9.86
+ },
+ {
+  "texto": "gente",
+  "inicio": 9.86,
+  "fin": 10.26
+ },
+ {
+  "texto": "cómo",
+  "inicio": 10.26,
+  "fin": 10.3
+ },
+ {
+  "texto": "se",
+  "inicio": 10.44,
+  "fin": 10.66
+ },
+ {
+  "texto": "hizo",
+  "inicio": 10.66,
+  "fin": 10.84
+ },
+ {
+  "texto": "rica.",
+  "inicio": 10.84,
+  "fin": 11.3
+ },
+ {
+  "texto": "Que",
+  "inicio": 11.32,
+  "fin": 11.48
+ },
+ {
+  "texto": "obtenen",
+  "inicio": 11.48,
+  "fin": 11.78
+ },
+ {
+  "texto": "consejos",
+  "inicio": 11.78,
+  "fin": 12.18
+ },
+ {
+  "texto": "de",
+  "inicio": 12.18,
+  "fin": 12.54
+ },
+ {
+  "texto": "cómo",
+  "inicio": 12.54,
+  "fin": 12.68
+ },
+ {
+  "texto": "se",
+  "inicio": 12.68,
+  "fin": 12.78
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 12.78,
+  "fin": 13.08
+ },
+ {
+  "texto": "ricos,",
+  "inicio": 13.08,
+  "fin": 13.42
+ },
+ {
+  "texto": "qué",
+  "inicio": 13.46,
+  "fin": 13.7
+ },
+ {
+  "texto": "negocio",
+  "inicio": 13.7,
+  "fin": 14.02
+ },
+ {
+  "texto": "eligieron,",
+  "inicio": 14.02,
+  "fin": 14.72
+ },
+ {
+  "texto": "qué",
+  "inicio": 14.78,
+  "fin": 15.02
+ },
+ {
+  "texto": "estrategia",
+  "inicio": 15.02,
+  "fin": 15.52
+ },
+ {
+  "texto": "fue",
+  "inicio": 15.52,
+  "fin": 15.54
+ },
+ {
+  "texto": "la",
+  "inicio": 15.64,
+  "fin": 15.74
+ },
+ {
+  "texto": "que",
+  "inicio": 15.74,
+  "fin": 15.94
+ },
+ {
+  "texto": "más",
+  "inicio": 15.94,
+  "fin": 16.04
+ },
+ {
+  "texto": "le",
+  "inicio": 16.04,
+  "fin": 16.16
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 16.16,
+  "fin": 16.38
+ },
+ {
+  "texto": "dar",
+  "inicio": 16.38,
+  "fin": 16.5
+ },
+ {
+  "texto": "un",
+  "inicio": 16.5,
+  "fin": 16.64
+ },
+ {
+  "texto": "salto",
+  "inicio": 16.64,
+  "fin": 16.8
+ },
+ {
+  "texto": "de",
+  "inicio": 16.8,
+  "fin": 16.96
+ },
+ {
+  "texto": "facturación",
+  "inicio": 16.96,
+  "fin": 17.36
+ },
+ {
+  "texto": "y",
+  "inicio": 17.36,
+  "fin": 17.52
+ },
+ {
+  "texto": "estoy",
+  "inicio": 17.52,
+  "fin": 17.66
+ },
+ {
+  "texto": "en",
+  "inicio": 17.66,
+  "fin": 17.76
+ },
+ {
+  "texto": "un",
+  "inicio": 17.76,
+  "fin": 17.96
+ },
+ {
+  "texto": "país",
+  "inicio": 17.96,
+  "fin": 18.48
+ },
+ {
+  "texto": "en",
+  "inicio": 18.48,
+  "fin": 18.6
+ },
+ {
+  "texto": "el",
+  "inicio": 18.6,
+  "fin": 18.7
+ },
+ {
+  "texto": "que",
+  "inicio": 18.7,
+  "fin": 18.92
+ },
+ {
+  "texto": "con",
+  "inicio": 18.92,
+  "fin": 19.1
+ },
+ {
+  "texto": "menos",
+  "inicio": 19.1,
+  "fin": 19.26
+ },
+ {
+  "texto": "de",
+  "inicio": 19.26,
+  "fin": 19.58
+ },
+ {
+  "texto": "90",
+  "inicio": 19.58,
+  "fin": 19.64
+ },
+ {
+  "texto": "mil",
+  "inicio": 19.84,
+  "fin": 20.1
+ },
+ {
+  "texto": "habitantes",
+  "inicio": 20.1,
+  "fin": 24.52
+ },
+ {
+  "texto": "...",
+  "inicio": 24.52,
+  "fin": 24.54
+ },
+ {
+  "texto": "Los",
+  "inicio": 26.2,
+  "fin": 26.44
+ },
+ {
+  "texto": "bancas",
+  "inicio": 26.44,
+  "fin": 26.94
+ },
+ {
+  "texto": "gestionan",
+  "inicio": 26.94,
+  "fin": 27.4
+ },
+ {
+  "texto": "más",
+  "inicio": 27.38,
+  "fin": 27.56
+ },
+ {
+  "texto": "de",
+  "inicio": 27.56,
+  "fin": 27.86
+ },
+ {
+  "texto": "113",
+  "inicio": 27.86,
+  "fin": 28.46
+ },
+ {
+  "texto": "mil",
+  "inicio": 28.46,
+  "fin": 28.98
+ },
+ {
+  "texto": "millones",
+  "inicio": 28.98,
+  "fin": 29.16
+ },
+ {
+  "texto": "de",
+  "inicio": 29.16,
+  "fin": 29.36
+ },
+ {
+  "texto": "euros,",
+  "inicio": 29.36,
+  "fin": 29.56
+ },
+ {
+  "texto": "con",
+  "inicio": 29.66,
+  "fin": 29.84
+ },
+ {
+  "texto": "menos",
+  "inicio": 29.84,
+  "fin": 30
+ },
+ {
+  "texto": "de",
+  "inicio": 30,
+  "fin": 30.2
+ },
+ {
+  "texto": "90",
+  "inicio": 30.2,
+  "fin": 30.42
+ },
+ {
+  "texto": "mil",
+  "inicio": 30.42,
+  "fin": 30.6
+ },
+ {
+  "texto": "habitantes.",
+  "inicio": 30.6,
+  "fin": 30.88
+ },
+ {
+  "texto": "Entonces",
+  "inicio": 31.46,
+  "fin": 31.76
+ },
+ {
+  "texto": "es",
+  "inicio": 31.76,
+  "fin": 31.88
+ },
+ {
+  "texto": "uno",
+  "inicio": 31.88,
+  "fin": 31.98
+ },
+ {
+  "texto": "de",
+  "inicio": 31.98,
+  "fin": 32.06
+ },
+ {
+  "texto": "los",
+  "inicio": 32.06,
+  "fin": 32.18
+ },
+ {
+  "texto": "pueblos",
+  "inicio": 32.18,
+  "fin": 32.82
+ },
+ {
+  "texto": "y",
+  "inicio": 32.82,
+  "fin": 33.04
+ },
+ {
+  "texto": "uno",
+  "inicio": 33.04,
+  "fin": 33.16
+ },
+ {
+  "texto": "de",
+  "inicio": 33.16,
+  "fin": 33.24
+ },
+ {
+  "texto": "los",
+  "inicio": 33.24,
+  "fin": 33.56
+ },
+ {
+  "texto": "países",
+  "inicio": 33.56,
+  "fin": 34.36
+ },
+ {
+  "texto": "más",
+  "inicio": 34.36,
+  "fin": 34.72
+ },
+ {
+  "texto": "ricos",
+  "inicio": 34.72,
+  "fin": 34.98
+ },
+ {
+  "texto": "y",
+  "inicio": 34.98,
+  "fin": 35.1
+ },
+ {
+  "texto": "con",
+  "inicio": 35.1,
+  "fin": 35.28
+ },
+ {
+  "texto": "gente",
+  "inicio": 35.28,
+  "fin": 35.56
+ },
+ {
+  "texto": "más",
+  "inicio": 35.56,
+  "fin": 35.72
+ },
+ {
+  "texto": "rica",
+  "inicio": 35.72,
+  "fin": 35.96
+ },
+ {
+  "texto": "del",
+  "inicio": 35.96,
+  "fin": 36.16
+ },
+ {
+  "texto": "mundo.",
+  "inicio": 36.16,
+  "fin": 36.24
+ },
+ {
+  "texto": "Entonces",
+  "inicio": 36.82,
+  "fin": 37.54
+ },
+ {
+  "texto": "voy",
+  "inicio": 37.54,
+  "fin": 37.72
+ },
+ {
+  "texto": "con",
+  "inicio": 37.72,
+  "fin": 37.82
+ },
+ {
+  "texto": "un",
+  "inicio": 37.82,
+  "fin": 37.98
+ },
+ {
+  "texto": "Lamborghini",
+  "inicio": 37.98,
+  "fin": 38.46
+ },
+ {
+  "texto": "y",
+  "inicio": 38.46,
+  "fin": 38.6
+ },
+ {
+  "texto": "voy",
+  "inicio": 38.6,
+  "fin": 38.86
+ },
+ {
+  "texto": "directamente",
+  "inicio": 38.86,
+  "fin": 39.16
+ },
+ {
+  "texto": "a",
+  "inicio": 39.16,
+  "fin": 39.28
+ },
+ {
+  "texto": "buscar",
+  "inicio": 39.28,
+  "fin": 39.52
+ },
+ {
+  "texto": "dueños",
+  "inicio": 39.52,
+  "fin": 39.76
+ },
+ {
+  "texto": "de",
+  "inicio": 39.76,
+  "fin": 39.92
+ },
+ {
+  "texto": "supercoaches,",
+  "inicio": 39.92,
+  "fin": 40.32
+ },
+ {
+  "texto": "a",
+  "inicio": 40.46,
+  "fin": 40.6
+ },
+ {
+  "texto": "gente",
+  "inicio": 40.6,
+  "fin": 40.78
+ },
+ {
+  "texto": "por",
+  "inicio": 40.78,
+  "fin": 40.88
+ },
+ {
+  "texto": "la",
+  "inicio": 40.88,
+  "fin": 41.12
+ },
+ {
+  "texto": "calle,",
+  "inicio": 41.12,
+  "fin": 41.46
+ },
+ {
+  "texto": "gente",
+  "inicio": 41.64,
+  "fin": 41.76
+ },
+ {
+  "texto": "que",
+  "inicio": 41.76,
+  "fin": 41.9
+ },
+ {
+  "texto": "yo",
+  "inicio": 41.9,
+  "fin": 41.98
+ },
+ {
+  "texto": "vea",
+  "inicio": 41.98,
+  "fin": 42.18
+ },
+ {
+  "texto": "que",
+  "inicio": 42.18,
+  "fin": 42.84
+ },
+ {
+  "texto": "realmente",
+  "inicio": 42.84,
+  "fin": 43.22
+ },
+ {
+  "texto": "gente",
+  "inicio": 43.22,
+  "fin": 43.36
+ },
+ {
+  "texto": "de",
+  "inicio": 43.36,
+  "fin": 43.42
+ },
+ {
+  "texto": "un",
+  "inicio": 43.42,
+  "fin": 43.58
+ },
+ {
+  "texto": "alto",
+  "inicio": 43.58,
+  "fin": 43.78
+ },
+ {
+  "texto": "poder",
+  "inicio": 43.78,
+  "fin": 43.94
+ },
+ {
+  "texto": "adquisitivo,",
+  "inicio": 43.94,
+  "fin": 44.32
+ },
+ {
+  "texto": "para",
+  "inicio": 44.7,
+  "fin": 44.78
+ },
+ {
+  "texto": "que",
+  "inicio": 44.78,
+  "fin": 44.88
+ },
+ {
+  "texto": "os",
+  "inicio": 44.88,
+  "fin": 44.96
+ },
+ {
+  "texto": "traigan",
+  "inicio": 44.96,
+  "fin": 45.18
+ },
+ {
+  "texto": "los",
+  "inicio": 45.18,
+  "fin": 45.48
+ },
+ {
+  "texto": "mejores",
+  "inicio": 45.48,
+  "fin": 45.84
+ },
+ {
+  "texto": "consejos",
+  "inicio": 45.84,
+  "fin": 46.64
+ },
+ {
+  "texto": "para",
+  "inicio": 46.64,
+  "fin": 46.78
+ },
+ {
+  "texto": "vuestro",
+  "inicio": 46.78,
+  "fin": 47.08
+ },
+ {
+  "texto": "negocio",
+  "inicio": 47.08,
+  "fin": 47.44
+ },
+ {
+  "texto": "y",
+  "inicio": 47.44,
+  "fin": 47.58
+ },
+ {
+  "texto": "para",
+  "inicio": 47.58,
+  "fin": 47.7
+ },
+ {
+  "texto": "vuestro",
+  "inicio": 47.7,
+  "fin": 48
+ },
+ {
+  "texto": "futuro",
+  "inicio": 48,
+  "fin": 48.12
+ }
+]

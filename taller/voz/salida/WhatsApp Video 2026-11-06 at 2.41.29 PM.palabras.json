@@ -1,0 +1,487 @@
+[
+ {
+  "texto": "La",
+  "inicio": 0.12,
+  "fin": 0.26
+ },
+ {
+  "texto": "vulgaridad",
+  "inicio": 0.26,
+  "fin": 0.88
+ },
+ {
+  "texto": "genera",
+  "inicio": 0.88,
+  "fin": 1.28
+ },
+ {
+  "texto": "deseo,",
+  "inicio": 1.28,
+  "fin": 1.5
+ },
+ {
+  "texto": "la",
+  "inicio": 1.56,
+  "fin": 1.74
+ },
+ {
+  "texto": "elegancia,",
+  "inicio": 1.74,
+  "fin": 2.32
+ },
+ {
+  "texto": "admiración,",
+  "inicio": 2.54,
+  "fin": 3
+ },
+ {
+  "texto": "atento",
+  "inicio": 3.08,
+  "fin": 3.42
+ },
+ {
+  "texto": "a",
+  "inicio": 3.42,
+  "fin": 3.46
+ },
+ {
+  "texto": "la",
+  "inicio": 3.46,
+  "fin": 3.76
+ },
+ {
+  "texto": "diferencia,",
+  "inicio": 3.76,
+  "fin": 4.08
+ },
+ {
+  "texto": "mostrando",
+  "inicio": 4.22,
+  "fin": 4.5
+ },
+ {
+  "texto": "todos",
+  "inicio": 4.64,
+  "fin": 4.76
+ },
+ {
+  "texto": "los",
+  "inicio": 4.76,
+  "fin": 4.92
+ },
+ {
+  "texto": "redes",
+  "inicio": 4.92,
+  "fin": 5.18
+ },
+ {
+  "texto": "para",
+  "inicio": 5.18,
+  "fin": 5.38
+ },
+ {
+  "texto": "buscar",
+  "inicio": 5.38,
+  "fin": 5.68
+ },
+ {
+  "texto": "admiración,",
+  "inicio": 5.68,
+  "fin": 6.4
+ },
+ {
+  "texto": "deseo",
+  "inicio": 6.6,
+  "fin": 6.88
+ },
+ {
+  "texto": "barato,",
+  "inicio": 6.88,
+  "fin": 7.16
+ },
+ {
+  "texto": "directar",
+  "inicio": 7.32,
+  "fin": 7.92
+ },
+ {
+  "texto": "clase",
+  "inicio": 7.92,
+  "fin": 8.12
+ },
+ {
+  "texto": "de",
+  "inicio": 8.12,
+  "fin": 8.34
+ },
+ {
+  "texto": "deseo",
+  "inicio": 8.34,
+  "fin": 8.5
+ },
+ {
+  "texto": "y",
+  "inicio": 8.5,
+  "fin": 8.64
+ },
+ {
+  "texto": "status,",
+  "inicio": 8.64,
+  "fin": 8.98
+ },
+ {
+  "texto": "admiración",
+  "inicio": 9.14,
+  "fin": 9.76
+ },
+ {
+  "texto": "pura,",
+  "inicio": 9.76,
+  "fin": 10.06
+ },
+ {
+  "texto": "que",
+  "inicio": 10.1,
+  "fin": 10.2
+ },
+ {
+  "texto": "te",
+  "inicio": 10.2,
+  "fin": 10.32
+ },
+ {
+  "texto": "busquen",
+  "inicio": 10.32,
+  "fin": 10.62
+ },
+ {
+  "texto": "para",
+  "inicio": 10.62,
+  "fin": 10.84
+ },
+ {
+  "texto": "pasar",
+  "inicio": 10.84,
+  "fin": 11
+ },
+ {
+  "texto": "de",
+  "inicio": 11,
+  "fin": 11.14
+ },
+ {
+  "texto": "ratun",
+  "inicio": 11.14,
+  "fin": 11.46
+ },
+ {
+  "texto": "viernes,",
+  "inicio": 11.46,
+  "fin": 12.24
+ },
+ {
+  "texto": "deseo,",
+  "inicio": 12.5,
+  "fin": 12.82
+ },
+ {
+  "texto": "que",
+  "inicio": 12.88,
+  "fin": 13
+ },
+ {
+  "texto": "te",
+  "inicio": 13,
+  "fin": 13.06
+ },
+ {
+  "texto": "elijan",
+  "inicio": 13.06,
+  "fin": 13.44
+ },
+ {
+  "texto": "para",
+  "inicio": 13.44,
+  "fin": 13.46
+ },
+ {
+  "texto": "construir",
+  "inicio": 13.78,
+  "fin": 14
+ },
+ {
+  "texto": "un",
+  "inicio": 14,
+  "fin": 14.26
+ },
+ {
+  "texto": "imperio,",
+  "inicio": 14.26,
+  "fin": 15.02
+ },
+ {
+  "texto": "admiración,",
+  "inicio": 15.3,
+  "fin": 15.88
+ },
+ {
+  "texto": "llamar",
+  "inicio": 16,
+  "fin": 16.26
+ },
+ {
+  "texto": "la",
+  "inicio": 16.26,
+  "fin": 16.54
+ },
+ {
+  "texto": "atención",
+  "inicio": 16.54,
+  "fin": 16.78
+ },
+ {
+  "texto": "de",
+  "inicio": 16.78,
+  "fin": 16.96
+ },
+ {
+  "texto": "mediocres",
+  "inicio": 16.96,
+  "fin": 17.46
+ },
+ {
+  "texto": "desesperados,",
+  "inicio": 17.46,
+  "fin": 18.56
+ },
+ {
+  "texto": "vulgar,",
+  "inicio": 18.82,
+  "fin": 19.36
+ },
+ {
+  "texto": "imponer",
+  "inicio": 19.6,
+  "fin": 20.08
+ },
+ {
+  "texto": "respuesta,",
+  "inicio": 20.08,
+  "fin": 21.78
+ },
+ {
+  "texto": "que",
+  "inicio": 24.72,
+  "fin": 24.74
+ },
+ {
+  "texto": "te",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "diga",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "que",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "no",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "es",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "una",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "que",
+  "inicio": 24.74,
+  "fin": 24.74
+ },
+ {
+  "texto": "no",
+  "inicio": 24.74,
+  "fin": 24.78
+ },
+ {
+  "texto": "es",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "una",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "que",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "no",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "es",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "una",
+  "inicio": 24.78,
+  "fin": 24.78
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.78,
+  "fin": 24.8
+ },
+ {
+  "texto": "que",
+  "inicio": 24.8,
+  "fin": 24.8
+ },
+ {
+  "texto": "no",
+  "inicio": 24.8,
+  "fin": 24.8
+ },
+ {
+  "texto": "es",
+  "inicio": 24.8,
+  "fin": 24.8
+ },
+ {
+  "texto": "una",
+  "inicio": 24.8,
+  "fin": 24.8
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.8,
+  "fin": 24.82
+ },
+ {
+  "texto": "que",
+  "inicio": 24.92,
+  "fin": 24.92
+ },
+ {
+  "texto": "no",
+  "inicio": 24.92,
+  "fin": 24.92
+ },
+ {
+  "texto": "es",
+  "inicio": 24.92,
+  "fin": 24.92
+ },
+ {
+  "texto": "una",
+  "inicio": 24.92,
+  "fin": 24.92
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.92,
+  "fin": 24.94
+ },
+ {
+  "texto": "que",
+  "inicio": 24.94,
+  "fin": 24.94
+ },
+ {
+  "texto": "no",
+  "inicio": 24.94,
+  "fin": 24.94
+ },
+ {
+  "texto": "es",
+  "inicio": 24.94,
+  "fin": 24.94
+ },
+ {
+  "texto": "una",
+  "inicio": 24.94,
+  "fin": 24.94
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.94,
+  "fin": 24.96
+ },
+ {
+  "texto": "que",
+  "inicio": 24.98,
+  "fin": 24.98
+ },
+ {
+  "texto": "no",
+  "inicio": 24.98,
+  "fin": 24.98
+ },
+ {
+  "texto": "es",
+  "inicio": 24.98,
+  "fin": 24.98
+ },
+ {
+  "texto": "una",
+  "inicio": 24.98,
+  "fin": 24.98
+ },
+ {
+  "texto": "cosa,",
+  "inicio": 24.98,
+  "fin": 25
+ },
+ {
+  "texto": "que",
+  "inicio": 29.98,
+  "fin": 29.98
+ },
+ {
+  "texto": "no",
+  "inicio": 29.98,
+  "fin": 29.98
+ },
+ {
+  "texto": "es",
+  "inicio": 29.98,
+  "fin": 29.98
+ },
+ {
+  "texto": "una",
+  "inicio": 29.98,
+  "fin": 29.98
+ },
+ {
+  "texto": "y",
+  "inicio": 29.98,
+  "fin": 29.98
+ }
+]

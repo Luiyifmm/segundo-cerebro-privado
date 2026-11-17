@@ -1,0 +1,32 @@
+[
+{
+"texto": "Hazlo",
+"inicio": 0.307,
+"fin": 0.569,
+"score": 0.673
+},
+{
+"texto": "con",
+"inicio": 0.65,
+"fin": 0.831,
+"score": 0.853
+},
+{
+"texto": "miedo",
+"inicio": 0.872,
+"fin": 1.174,
+"score": 0.472
+},
+{
+"texto": "pero",
+"inicio": 1.255,
+"fin": 1.457,
+"score": 0.748
+},
+{
+"texto": "hazlo.",
+"inicio": 1.477,
+"fin": 1.679,
+"score": 0.409
+}
+]

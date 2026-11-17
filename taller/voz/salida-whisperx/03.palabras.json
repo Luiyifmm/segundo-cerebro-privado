@@ -1,0 +1,1394 @@
+[
+{
+"texto": "Vamo'",
+"inicio": 1.218,
+"fin": 4.659,
+"score": 0.846
+},
+{
+"texto": "todos",
+"inicio": 4.699,
+"fin": 5.859,
+"score": 0.493
+},
+{
+"texto": "ricos,",
+"inicio": 5.879,
+"fin": 6.039,
+"score": 0.178
+},
+{
+"texto": "vamo'",
+"inicio": 6.059,
+"fin": 6.279,
+"score": 0.444
+},
+{
+"texto": "todos",
+"inicio": 6.299,
+"fin": 6.56,
+"score": 0.539
+},
+{
+"texto": "pa'",
+"inicio": 6.58,
+"fin": 6.66,
+"score": 0.184
+},
+{
+"texto": "allá.",
+"inicio": 6.68,
+"fin": 6.82,
+"score": 0.194
+},
+{
+"texto": "Ay,",
+"inicio": 6.88,
+"fin": 6.94,
+"score": 0.051
+},
+{
+"texto": "que",
+"inicio": 6.96,
+"fin": 7.02,
+"score": 0.054
+},
+{
+"texto": "la",
+"inicio": 7.04,
+"fin": 7.08,
+"score": 0.004
+},
+{
+"texto": "fiesta",
+"inicio": 7.1,
+"fin": 7.34,
+"score": 0.34
+},
+{
+"texto": "es",
+"inicio": 7.4,
+"fin": 7.44,
+"score": 0.008
+},
+{
+"texto": "rica.",
+"inicio": 7.46,
+"fin": 7.6,
+"score": 0.199
+},
+{
+"texto": "Uh,",
+"inicio": 7.62,
+"fin": 7.72,
+"score": 0.234
+},
+{
+"texto": "que",
+"inicio": 7.74,
+"fin": 7.88,
+"score": 0.394
+},
+{
+"texto": "la",
+"inicio": 7.9,
+"fin": 7.98,
+"score": 0.43
+},
+{
+"texto": "fiesta",
+"inicio": 8.0,
+"fin": 8.14,
+"score": 0.09
+},
+{
+"texto": "es",
+"inicio": 8.18,
+"fin": 8.22,
+"score": 0.112
+},
+{
+"texto": "rica.",
+"inicio": 8.24,
+"fin": 8.36,
+"score": 0.229
+},
+{
+"texto": "Ay,",
+"inicio": 8.38,
+"fin": 8.46,
+"score": 0.274
+},
+{
+"texto": "rico,",
+"inicio": 8.48,
+"fin": 8.62,
+"score": 0.321
+},
+{
+"texto": "rico,",
+"inicio": 8.64,
+"fin": 8.78,
+"score": 0.278
+},
+{
+"texto": "rico",
+"inicio": 8.88,
+"fin": 9.04,
+"score": 0.389
+},
+{
+"texto": "ya,",
+"inicio": 9.12,
+"fin": 9.24,
+"score": 0.513
+},
+{
+"texto": "que",
+"inicio": 9.26,
+"fin": 9.44,
+"score": 0.415
+},
+{
+"texto": "rico.",
+"inicio": 9.5,
+"fin": 9.801,
+"score": 0.658
+},
+{
+"texto": "Y",
+"inicio": 10.061,
+"fin": 10.081,
+"score": 0.651
+},
+{
+"texto": "estoy",
+"inicio": 10.121,
+"fin": 10.501,
+"score": 0.702
+},
+{
+"texto": "en",
+"inicio": 10.661,
+"fin": 10.801,
+"score": 0.834
+},
+{
+"texto": "esta",
+"inicio": 10.921,
+"fin": 11.181,
+"score": 0.756
+},
+{
+"texto": "fiesteraura,",
+"inicio": 11.261,
+"fin": 12.181,
+"score": 0.764
+},
+{
+"texto": "más",
+"inicio": 12.221,
+"fin": 12.321,
+"score": 0.669
+},
+{
+"texto": "que",
+"inicio": 12.361,
+"fin": 12.441,
+"score": 0.183
+},
+{
+"texto": "arriba,",
+"inicio": 12.481,
+"fin": 12.701,
+"score": 0.38
+},
+{
+"texto": "más",
+"inicio": 12.741,
+"fin": 12.801,
+"score": 0.075
+},
+{
+"texto": "que",
+"inicio": 12.841,
+"fin": 12.981,
+"score": 0.501
+},
+{
+"texto": "guabra.",
+"inicio": 13.001,
+"fin": 13.382,
+"score": 0.629
+},
+{
+"texto": "Una",
+"inicio": 14.202,
+"fin": 14.322,
+"score": 0.803
+},
+{
+"texto": "fiestera",
+"inicio": 14.362,
+"fin": 14.622,
+"score": 0.357
+},
+{
+"texto": "en",
+"inicio": 14.662,
+"fin": 14.722,
+"score": 0.222
+},
+{
+"texto": "la",
+"inicio": 14.762,
+"fin": 14.862,
+"score": 0.54
+},
+{
+"texto": "locuraura.",
+"inicio": 14.902,
+"fin": 15.502,
+"score": 0.586
+},
+{
+"texto": "Acúrame",
+"inicio": 16.122,
+"fin": 16.863,
+"score": 0.724
+},
+{
+"texto": "lo",
+"inicio": 16.903,
+"fin": 16.983,
+"score": 0.779
+},
+{
+"texto": "con",
+"inicio": 17.023,
+"fin": 17.123,
+"score": 0.499
+},
+{
+"texto": "ternura",
+"inicio": 17.163,
+"fin": 17.683,
+"score": 0.714
+},
+{
+"texto": "y",
+"inicio": 17.783,
+"fin": 17.803,
+"score": 0.206
+},
+{
+"texto": "todo",
+"inicio": 17.963,
+"fin": 18.103,
+"score": 0.8
+},
+{
+"texto": "se",
+"inicio": 18.183,
+"fin": 18.323,
+"score": 0.568
+},
+{
+"texto": "cura.",
+"inicio": 18.363,
+"fin": 18.903,
+"score": 0.728
+},
+{
+"texto": "Mira,",
+"inicio": 18.943,
+"fin": 19.123,
+"score": 0.539
+},
+{
+"texto": "yo",
+"inicio": 19.143,
+"fin": 19.263,
+"score": 0.468
+},
+{
+"texto": "te",
+"inicio": 19.323,
+"fin": 19.403,
+"score": 0.726
+},
+{
+"texto": "digo,",
+"inicio": 19.483,
+"fin": 20.124,
+"score": 0.903
+},
+{
+"texto": "este",
+"inicio": 21.104,
+"fin": 21.304,
+"score": 0.622
+},
+{
+"texto": "lujo",
+"inicio": 21.344,
+"fin": 21.564,
+"score": 0.501
+},
+{
+"texto": "guarda",
+"inicio": 21.604,
+"fin": 21.924,
+"score": 0.848
+},
+{
+"texto": "acústica.",
+"inicio": 21.944,
+"fin": 22.644,
+"score": 0.571
+},
+{
+"texto": "Cheque,",
+"inicio": 22.664,
+"fin": 22.984,
+"score": 0.483
+},
+{
+"texto": "llogo,",
+"inicio": 23.024,
+"fin": 23.545,
+"score": 0.514
+},
+{
+"texto": "cheque,",
+"inicio": 23.605,
+"fin": 24.025,
+"score": 0.576
+},
+{
+"texto": "llogo,",
+"inicio": 24.085,
+"fin": 24.605,
+"score": 0.595
+},
+{
+"texto": "cheque,",
+"inicio": 24.645,
+"fin": 25.105,
+"score": 0.61
+},
+{
+"texto": "llogo,",
+"inicio": 25.165,
+"fin": 25.685,
+"score": 0.573
+},
+{
+"texto": "cheque.",
+"inicio": 25.725,
+"fin": 26.325,
+"score": 0.613
+},
+{
+"texto": "Opa,",
+"inicio": 26.725,
+"fin": 27.206,
+"score": 0.511
+},
+{
+"texto": "tinga",
+"inicio": 27.326,
+"fin": 27.486,
+"score": 0.291
+},
+{
+"texto": "ponga.",
+"inicio": 27.506,
+"fin": 27.746,
+"score": 0.574
+},
+{
+"texto": "Choco,",
+"inicio": 29.314,
+"fin": 29.735,
+"score": 0.474
+},
+{
+"texto": "choco,",
+"inicio": 29.755,
+"fin": 30.376,
+"score": 0.609
+},
+{
+"texto": "choco,",
+"inicio": 30.456,
+"fin": 30.817,
+"score": 0.547
+},
+{
+"texto": "choco...",
+"inicio": 30.837,
+"fin": 31.277,
+"score": 0.468
+},
+{
+"texto": "Que",
+"inicio": 62.306,
+"fin": 62.406,
+"score": 0.221
+},
+{
+"texto": "que,",
+"inicio": 62.426,
+"fin": 62.526,
+"score": 0.245
+},
+{
+"texto": "que",
+"inicio": 62.566,
+"fin": 62.666,
+"score": 0.261
+},
+{
+"texto": "que,",
+"inicio": 62.686,
+"fin": 62.806,
+"score": 0.379
+},
+{
+"texto": "que",
+"inicio": 62.826,
+"fin": 62.926,
+"score": 0.256
+},
+{
+"texto": "que,",
+"inicio": 62.946,
+"fin": 63.066,
+"score": 0.248
+},
+{
+"texto": "que",
+"inicio": 63.086,
+"fin": 63.206,
+"score": 0.248
+},
+{
+"texto": "que,",
+"inicio": 63.226,
+"fin": 63.347,
+"score": 0.178
+},
+{
+"texto": "que",
+"inicio": 63.367,
+"fin": 63.467,
+"score": 0.256
+},
+{
+"texto": "que,",
+"inicio": 63.487,
+"fin": 63.587,
+"score": 0.254
+},
+{
+"texto": "que",
+"inicio": 63.627,
+"fin": 63.727,
+"score": 0.206
+},
+{
+"texto": "que,",
+"inicio": 63.747,
+"fin": 63.887,
+"score": 0.483
+},
+{
+"texto": "que",
+"inicio": 63.927,
+"fin": 64.127,
+"score": 0.419
+},
+{
+"texto": "que.",
+"inicio": 64.147,
+"fin": 64.247,
+"score": 0.259
+},
+{
+"texto": "Que",
+"inicio": 64.267,
+"fin": 64.387,
+"score": 0.23
+},
+{
+"texto": "que,",
+"inicio": 64.427,
+"fin": 64.547,
+"score": 0.23
+},
+{
+"texto": "que",
+"inicio": 64.567,
+"fin": 64.687,
+"score": 0.318
+},
+{
+"texto": "que,",
+"inicio": 64.707,
+"fin": 64.807,
+"score": 0.264
+},
+{
+"texto": "que",
+"inicio": 64.827,
+"fin": 64.947,
+"score": 0.421
+},
+{
+"texto": "que,",
+"inicio": 64.967,
+"fin": 65.067,
+"score": 0.24
+},
+{
+"texto": "que",
+"inicio": 65.087,
+"fin": 65.307,
+"score": 0.486
+},
+{
+"texto": "que,",
+"inicio": 65.367,
+"fin": 65.487,
+"score": 0.188
+},
+{
+"texto": "que",
+"inicio": 65.507,
+"fin": 65.627,
+"score": 0.183
+},
+{
+"texto": "que,",
+"inicio": 65.647,
+"fin": 65.767,
+"score": 0.317
+},
+{
+"texto": "que",
+"inicio": 65.787,
+"fin": 65.867,
+"score": 0.268
+},
+{
+"texto": "que.",
+"inicio": 65.907,
+"fin": 66.027,
+"score": 0.454
+},
+{
+"texto": "Que",
+"inicio": 66.047,
+"fin": 66.127,
+"score": 0.113
+},
+{
+"texto": "que,",
+"inicio": 66.167,
+"fin": 66.287,
+"score": 0.194
+},
+{
+"texto": "que",
+"inicio": 66.307,
+"fin": 66.447,
+"score": 0.3
+},
+{
+"texto": "que,",
+"inicio": 66.507,
+"fin": 66.587,
+"score": 0.073
+},
+{
+"texto": "que",
+"inicio": 66.607,
+"fin": 66.687,
+"score": 0.121
+},
+{
+"texto": "que,",
+"inicio": 66.707,
+"fin": 66.827,
+"score": 0.341
+},
+{
+"texto": "que",
+"inicio": 66.867,
+"fin": 66.927,
+"score": 0.015
+},
+{
+"texto": "que,",
+"inicio": 66.968,
+"fin": 67.088,
+"score": 0.347
+},
+{
+"texto": "que",
+"inicio": 67.108,
+"fin": 67.208,
+"score": 0.259
+},
+{
+"texto": "que,",
+"inicio": 67.248,
+"fin": 67.368,
+"score": 0.246
+},
+{
+"texto": "que",
+"inicio": 67.388,
+"fin": 67.488,
+"score": 0.307
+},
+{
+"texto": "que,",
+"inicio": 67.508,
+"fin": 67.748,
+"score": 0.45
+},
+{
+"texto": "que",
+"inicio": 67.788,
+"fin": 68.808,
+"score": 0.476
+},
+{
+"texto": "que,",
+"inicio": 69.088,
+"fin": 69.468,
+"score": 0.47
+},
+{
+"texto": "que",
+"inicio": 69.488,
+"fin": 69.588,
+"score": 0.208
+},
+{
+"texto": "que,",
+"inicio": 69.628,
+"fin": 69.728,
+"score": 0.163
+},
+{
+"texto": "que",
+"inicio": 69.768,
+"fin": 69.888,
+"score": 0.226
+},
+{
+"texto": "que,",
+"inicio": 69.908,
+"fin": 70.028,
+"score": 0.298
+},
+{
+"texto": "que",
+"inicio": 70.068,
+"fin": 70.188,
+"score": 0.319
+},
+{
+"texto": "que,",
+"inicio": 70.208,
+"fin": 70.308,
+"score": 0.162
+},
+{
+"texto": "que",
+"inicio": 70.348,
+"fin": 70.428,
+"score": 0.283
+},
+{
+"texto": "que,",
+"inicio": 70.468,
+"fin": 70.809,
+"score": 0.585
+},
+{
+"texto": "que",
+"inicio": 70.869,
+"fin": 70.969,
+"score": 0.28
+},
+{
+"texto": "que,",
+"inicio": 71.009,
+"fin": 71.089,
+"score": 0.034
+},
+{
+"texto": "que",
+"inicio": 71.109,
+"fin": 71.229,
+"score": 0.23
+},
+{
+"texto": "que,",
+"inicio": 71.249,
+"fin": 71.369,
+"score": 0.218
+},
+{
+"texto": "que",
+"inicio": 71.409,
+"fin": 71.489,
+"score": 0.329
+},
+{
+"texto": "que,",
+"inicio": 71.529,
+"fin": 71.629,
+"score": 0.16
+},
+{
+"texto": "que",
+"inicio": 71.669,
+"fin": 71.969,
+"score": 0.612
+},
+{
+"texto": "que,",
+"inicio": 71.989,
+"fin": 72.069,
+"score": 0.092
+},
+{
+"texto": "que",
+"inicio": 72.089,
+"fin": 72.169,
+"score": 0.195
+},
+{
+"texto": "que,",
+"inicio": 72.189,
+"fin": 72.449,
+"score": 0.466
+},
+{
+"texto": "que",
+"inicio": 72.489,
+"fin": 72.569,
+"score": 0.291
+},
+{
+"texto": "que,",
+"inicio": 72.609,
+"fin": 72.969,
+"score": 0.548
+},
+{
+"texto": "que",
+"inicio": 73.009,
+"fin": 73.129,
+"score": 0.296
+},
+{
+"texto": "que,",
+"inicio": 73.149,
+"fin": 73.249,
+"score": 0.208
+},
+{
+"texto": "que",
+"inicio": 73.269,
+"fin": 73.369,
+"score": 0.212
+},
+{
+"texto": "que,",
+"inicio": 73.389,
+"fin": 73.529,
+"score": 0.274
+},
+{
+"texto": "que",
+"inicio": 73.549,
+"fin": 73.629,
+"score": 0.396
+},
+{
+"texto": "que,",
+"inicio": 73.649,
+"fin": 73.769,
+"score": 0.202
+},
+{
+"texto": "que",
+"inicio": 73.789,
+"fin": 73.929,
+"score": 0.233
+},
+{
+"texto": "que,",
+"inicio": 73.949,
+"fin": 74.049,
+"score": 0.219
+},
+{
+"texto": "que",
+"inicio": 74.089,
+"fin": 74.169,
+"score": 0.268
+},
+{
+"texto": "que,",
+"inicio": 74.21,
+"fin": 74.33,
+"score": 0.274
+},
+{
+"texto": "que",
+"inicio": 74.35,
+"fin": 74.43,
+"score": 0.204
+},
+{
+"texto": "que,",
+"inicio": 74.47,
+"fin": 74.57,
+"score": 0.189
+},
+{
+"texto": "que",
+"inicio": 74.61,
+"fin": 74.69,
+"score": 0.464
+},
+{
+"texto": "que,",
+"inicio": 74.75,
+"fin": 74.85,
+"score": 0.149
+},
+{
+"texto": "que",
+"inicio": 74.87,
+"fin": 74.97,
+"score": 0.221
+},
+{
+"texto": "que,",
+"inicio": 74.99,
+"fin": 75.07,
+"score": 0.062
+},
+{
+"texto": "que",
+"inicio": 75.13,
+"fin": 75.23,
+"score": 0.427
+},
+{
+"texto": "que,",
+"inicio": 75.25,
+"fin": 75.35,
+"score": 0.199
+},
+{
+"texto": "que",
+"inicio": 75.39,
+"fin": 75.53,
+"score": 0.342
+},
+{
+"texto": "que,",
+"inicio": 75.55,
+"fin": 75.67,
+"score": 0.281
+},
+{
+"texto": "que",
+"inicio": 75.69,
+"fin": 75.79,
+"score": 0.293
+},
+{
+"texto": "que,",
+"inicio": 75.81,
+"fin": 75.91,
+"score": 0.149
+},
+{
+"texto": "que",
+"inicio": 75.93,
+"fin": 76.07,
+"score": 0.403
+},
+{
+"texto": "que,",
+"inicio": 76.11,
+"fin": 76.21,
+"score": 0.152
+},
+{
+"texto": "que",
+"inicio": 76.25,
+"fin": 76.33,
+"score": 0.248
+},
+{
+"texto": "que,",
+"inicio": 76.35,
+"fin": 76.51,
+"score": 0.474
+},
+{
+"texto": "que",
+"inicio": 76.61,
+"fin": 76.75,
+"score": 0.448
+},
+{
+"texto": "que,",
+"inicio": 76.77,
+"fin": 76.85,
+"score": 0.231
+},
+{
+"texto": "que",
+"inicio": 76.87,
+"fin": 76.97,
+"score": 0.319
+},
+{
+"texto": "que,",
+"inicio": 77.01,
+"fin": 77.13,
+"score": 0.238
+},
+{
+"texto": "que",
+"inicio": 77.15,
+"fin": 77.27,
+"score": 0.247
+},
+{
+"texto": "que,",
+"inicio": 77.29,
+"fin": 77.41,
+"score": 0.4
+},
+{
+"texto": "que",
+"inicio": 77.43,
+"fin": 77.55,
+"score": 0.322
+},
+{
+"texto": "que,",
+"inicio": 77.57,
+"fin": 77.67,
+"score": 0.195
+},
+{
+"texto": "que",
+"inicio": 77.69,
+"fin": 77.81,
+"score": 0.27
+},
+{
+"texto": "que,",
+"inicio": 77.851,
+"fin": 77.931,
+"score": 0.283
+},
+{
+"texto": "que",
+"inicio": 77.951,
+"fin": 78.051,
+"score": 0.207
+},
+{
+"texto": "que,",
+"inicio": 78.071,
+"fin": 78.351,
+"score": 0.477
+},
+{
+"texto": "que",
+"inicio": 78.371,
+"fin": 78.471,
+"score": 0.234
+},
+{
+"texto": "que,",
+"inicio": 78.491,
+"fin": 78.651,
+"score": 0.385
+},
+{
+"texto": "que",
+"inicio": 78.771,
+"fin": 78.891,
+"score": 0.276
+},
+{
+"texto": "que,",
+"inicio": 78.911,
+"fin": 79.011,
+"score": 0.433
+},
+{
+"texto": "que",
+"inicio": 79.071,
+"fin": 79.151,
+"score": 0.133
+},
+{
+"texto": "que,",
+"inicio": 79.171,
+"fin": 79.271,
+"score": 0.202
+},
+{
+"texto": "que",
+"inicio": 79.291,
+"fin": 79.411,
+"score": 0.368
+},
+{
+"texto": "que,",
+"inicio": 79.431,
+"fin": 79.571,
+"score": 0.326
+},
+{
+"texto": "que",
+"inicio": 79.591,
+"fin": 79.671,
+"score": 0.18
+},
+{
+"texto": "que,",
+"inicio": 79.691,
+"fin": 79.811,
+"score": 0.256
+},
+{
+"texto": "que",
+"inicio": 79.831,
+"fin": 79.951,
+"score": 0.316
+},
+{
+"texto": "que,",
+"inicio": 79.991,
+"fin": 80.211,
+"score": 0.488
+},
+{
+"texto": "que",
+"inicio": 80.231,
+"fin": 80.391,
+"score": 0.412
+},
+{
+"texto": "que,",
+"inicio": 80.411,
+"fin": 80.511,
+"score": 0.171
+},
+{
+"texto": "que",
+"inicio": 80.531,
+"fin": 80.631,
+"score": 0.219
+},
+{
+"texto": "que,",
+"inicio": 80.651,
+"fin": 80.771,
+"score": 0.289
+},
+{
+"texto": "que",
+"inicio": 80.931,
+"fin": 81.011,
+"score": 0.168
+},
+{
+"texto": "que,",
+"inicio": 81.031,
+"fin": 81.171,
+"score": 0.277
+},
+{
+"texto": "que",
+"inicio": 81.211,
+"fin": 81.311,
+"score": 0.277
+},
+{
+"texto": "que,",
+"inicio": 81.331,
+"fin": 81.411,
+"score": 0.075
+},
+{
+"texto": "que",
+"inicio": 81.431,
+"fin": 81.592,
+"score": 0.429
+},
+{
+"texto": "que,",
+"inicio": 81.612,
+"fin": 81.832,
+"score": 0.492
+},
+{
+"texto": "que",
+"inicio": 81.852,
+"fin": 81.972,
+"score": 0.672
+},
+{
+"texto": "que,",
+"inicio": 81.992,
+"fin": 82.112,
+"score": 0.26
+},
+{
+"texto": "que",
+"inicio": 82.172,
+"fin": 82.232,
+"score": 0.068
+},
+{
+"texto": "que,",
+"inicio": 82.352,
+"fin": 82.532,
+"score": 0.436
+},
+{
+"texto": "que",
+"inicio": 82.572,
+"fin": 82.672,
+"score": 0.204
+},
+{
+"texto": "que,",
+"inicio": 82.692,
+"fin": 82.792,
+"score": 0.308
+},
+{
+"texto": "que",
+"inicio": 82.812,
+"fin": 83.012,
+"score": 0.506
+},
+{
+"texto": "que,",
+"inicio": 83.032,
+"fin": 83.152,
+"score": 0.427
+},
+{
+"texto": "que",
+"inicio": 83.212,
+"fin": 83.312,
+"score": 0.306
+},
+{
+"texto": "que,",
+"inicio": 83.352,
+"fin": 83.472,
+"score": 0.268
+},
+{
+"texto": "que",
+"inicio": 83.492,
+"fin": 83.552,
+"score": 0.022
+},
+{
+"texto": "que,",
+"inicio": 83.572,
+"fin": 83.652,
+"score": 0.202
+},
+{
+"texto": "que",
+"inicio": 83.752,
+"fin": 83.832,
+"score": 0.34
+},
+{
+"texto": "que,",
+"inicio": 83.872,
+"fin": 84.052,
+"score": 0.524
+},
+{
+"texto": "que",
+"inicio": 84.112,
+"fin": 84.232,
+"score": 0.459
+},
+{
+"texto": "que,",
+"inicio": 84.292,
+"fin": 84.532,
+"score": 0.323
+},
+{
+"texto": "que",
+"inicio": 84.572,
+"fin": 84.792,
+"score": 0.509
+},
+{
+"texto": "que,",
+"inicio": 84.832,
+"fin": 84.912,
+"score": 0.257
+},
+{
+"texto": "que",
+"inicio": 84.952,
+"fin": 85.133,
+"score": 0.462
+},
+{
+"texto": "que,",
+"inicio": 85.173,
+"fin": 85.313,
+"score": 0.418
+},
+{
+"texto": "que",
+"inicio": 85.373,
+"fin": 85.473,
+"score": 0.228
+},
+{
+"texto": "que,",
+"inicio": 85.493,
+"fin": 85.633,
+"score": 0.315
+},
+{
+"texto": "que",
+"inicio": 85.653,
+"fin": 85.853,
+"score": 0.59
+},
+{
+"texto": "que,",
+"inicio": 85.893,
+"fin": 86.153,
+"score": 0.576
+},
+{
+"texto": "que",
+"inicio": 86.233,
+"fin": 86.353,
+"score": 0.415
+},
+{
+"texto": "que,",
+"inicio": 86.393,
+"fin": 86.633,
+"score": 0.664
+},
+{
+"texto": "que",
+"inicio": 86.673,
+"fin": 86.813,
+"score": 0.404
+},
+{
+"texto": "que,",
+"inicio": 86.873,
+"fin": 87.053,
+"score": 0.538
+},
+{
+"texto": "que",
+"inicio": 87.153,
+"fin": 87.253,
+"score": 0.184
+},
+{
+"texto": "que",
+"inicio": 87.353,
+"fin": 87.433,
+"score": 0.232
+},
+{
+"texto": "cheque",
+"inicio": 90.85,
+"fin": 91.351,
+"score": 0.352
+},
+{
+"texto": "cheque",
+"inicio": 91.391,
+"fin": 91.731,
+"score": 0.361
+},
+{
+"texto": "cheque",
+"inicio": 91.772,
+"fin": 91.992,
+"score": 0.504
+},
+{
+"texto": "cheque",
+"inicio": 92.032,
+"fin": 92.212,
+"score": 0.18
+},
+{
+"texto": "cheque",
+"inicio": 92.292,
+"fin": 92.513,
+"score": 0.466
+},
+{
+"texto": "cheque",
+"inicio": 92.553,
+"fin": 92.733,
+"score": 0.15
+},
+{
+"texto": "cheque",
+"inicio": 92.813,
+"fin": 93.054,
+"score": 0.486
+},
+{
+"texto": "cheque",
+"inicio": 93.094,
+"fin": 93.635,
+"score": 0.426
+},
+{
+"texto": "cheque",
+"inicio": 93.655,
+"fin": 93.855,
+"score": 0.485
+},
+{
+"texto": "FMI",
+"inicio": 129.346,
+"fin": 129.406,
+"score": 0.004
+}
+]

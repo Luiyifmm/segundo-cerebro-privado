@@ -1,0 +1,112 @@
+[
+ {
+  "texto": "sin",
+  "inicio": 0.34,
+  "fin": 0.78
+ },
+ {
+  "texto": "algún",
+  "inicio": 0.78,
+  "fin": 1.32
+ },
+ {
+  "texto": "momento",
+  "inicio": 1.32,
+  "fin": 1.58
+ },
+ {
+  "texto": "de",
+  "inicio": 1.58,
+  "fin": 1.76
+ },
+ {
+  "texto": "tu",
+  "inicio": 1.76,
+  "fin": 2.02
+ },
+ {
+  "texto": "vida",
+  "inicio": 2.02,
+  "fin": 2.28
+ },
+ {
+  "texto": "quieres",
+  "inicio": 2.28,
+  "fin": 2.58
+ },
+ {
+  "texto": "ser",
+  "inicio": 2.58,
+  "fin": 2.96
+ },
+ {
+  "texto": "libre",
+  "inicio": 2.96,
+  "fin": 3.16
+ },
+ {
+  "texto": "de",
+  "inicio": 3.16,
+  "fin": 3.48
+ },
+ {
+  "texto": "verdad,",
+  "inicio": 3.48,
+  "fin": 3.66
+ },
+ {
+  "texto": "tienes",
+  "inicio": 3.88,
+  "fin": 4.02
+ },
+ {
+  "texto": "que",
+  "inicio": 4.02,
+  "fin": 4.24
+ },
+ {
+  "texto": "romper",
+  "inicio": 4.24,
+  "fin": 4.86
+ },
+ {
+  "texto": "con",
+  "inicio": 4.86,
+  "fin": 4.98
+ },
+ {
+  "texto": "la",
+  "inicio": 4.98,
+  "fin": 5.24
+ },
+ {
+  "texto": "programación",
+  "inicio": 5.24,
+  "fin": 5.64
+ },
+ {
+  "texto": "mental",
+  "inicio": 6.14,
+  "fin": 6.42
+ },
+ {
+  "texto": "que",
+  "inicio": 6.42,
+  "fin": 6.64
+ },
+ {
+  "texto": "ya",
+  "inicio": 6.64,
+  "fin": 7.14
+ },
+ {
+  "texto": "tienes.",
+  "inicio": 7.14,
+  "fin": 7.46
+ },
+ {
+  "texto": "SÍGEME",
+  "inicio": 7.66,
+  "fin": 7.96
+ }
+]

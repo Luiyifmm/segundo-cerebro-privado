@@ -1,0 +1,447 @@
+[
+ {
+  "texto": "Calcula",
+  "inicio": 0.2,
+  "fin": 0.92
+ },
+ {
+  "texto": "esto.",
+  "inicio": 0.92,
+  "fin": 1.16
+ },
+ {
+  "texto": "Vas",
+  "inicio": 1.34,
+  "fin": 1.48
+ },
+ {
+  "texto": "a",
+  "inicio": 1.48,
+  "fin": 1.58
+ },
+ {
+  "texto": "cober",
+  "inicio": 1.58,
+  "fin": 1.84
+ },
+ {
+  "texto": "tu",
+  "inicio": 1.84,
+  "fin": 2.06
+ },
+ {
+  "texto": "peso",
+  "inicio": 2.06,
+  "fin": 2.32
+ },
+ {
+  "texto": "corporal",
+  "inicio": 2.32,
+  "fin": 2.84
+ },
+ {
+  "texto": "y",
+  "inicio": 2.84,
+  "fin": 2.96
+ },
+ {
+  "texto": "lo",
+  "inicio": 2.96,
+  "fin": 3.1
+ },
+ {
+  "texto": "vas",
+  "inicio": 3.1,
+  "fin": 3.2
+ },
+ {
+  "texto": "a",
+  "inicio": 3.2,
+  "fin": 3.46
+ },
+ {
+  "texto": "multiplicar",
+  "inicio": 3.46,
+  "fin": 4.04
+ },
+ {
+  "texto": "por",
+  "inicio": 4.04,
+  "fin": 4.34
+ },
+ {
+  "texto": "30.",
+  "inicio": 4.34,
+  "fin": 4.64
+ },
+ {
+  "texto": "Estas",
+  "inicio": 4.78,
+  "fin": 5.22
+ },
+ {
+  "texto": "son",
+  "inicio": 5.22,
+  "fin": 5.34
+ },
+ {
+  "texto": "la",
+  "inicio": 5.34,
+  "fin": 5.54
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 5.54,
+  "fin": 5.72
+ },
+ {
+  "texto": "de",
+  "inicio": 5.72,
+  "fin": 5.88
+ },
+ {
+  "texto": "calorías",
+  "inicio": 5.88,
+  "fin": 6.22
+ },
+ {
+  "texto": "que",
+  "inicio": 6.22,
+  "fin": 6.42
+ },
+ {
+  "texto": "deberías",
+  "inicio": 6.42,
+  "fin": 6.82
+ },
+ {
+  "texto": "consumir",
+  "inicio": 6.82,
+  "fin": 7.18
+ },
+ {
+  "texto": "por",
+  "inicio": 7.18,
+  "fin": 7.36
+ },
+ {
+  "texto": "día.",
+  "inicio": 7.36,
+  "fin": 7.4
+ },
+ {
+  "texto": "Cove",
+  "inicio": 7.56,
+  "fin": 7.7
+ },
+ {
+  "texto": "tu",
+  "inicio": 7.7,
+  "fin": 7.92
+ },
+ {
+  "texto": "peso",
+  "inicio": 7.92,
+  "fin": 8.16
+ },
+ {
+  "texto": "corporal",
+  "inicio": 8.16,
+  "fin": 8.62
+ },
+ {
+  "texto": "y",
+  "inicio": 8.62,
+  "fin": 8.8
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 8.8,
+  "fin": 9.34
+ },
+ {
+  "texto": "por",
+  "inicio": 9.34,
+  "fin": 9.52
+ },
+ {
+  "texto": "2.",
+  "inicio": 9.52,
+  "fin": 9.6
+ },
+ {
+  "texto": "Esta",
+  "inicio": 9.94,
+  "fin": 10.24
+ },
+ {
+  "texto": "es",
+  "inicio": 10.24,
+  "fin": 10.32
+ },
+ {
+  "texto": "la",
+  "inicio": 10.32,
+  "fin": 10.56
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 10.56,
+  "fin": 10.82
+ },
+ {
+  "texto": "de",
+  "inicio": 10.82,
+  "fin": 11.04
+ },
+ {
+  "texto": "proteína",
+  "inicio": 11.04,
+  "fin": 11.54
+ },
+ {
+  "texto": "mínima",
+  "inicio": 11.54,
+  "fin": 11.92
+ },
+ {
+  "texto": "que",
+  "inicio": 11.92,
+  "fin": 12.12
+ },
+ {
+  "texto": "deberías",
+  "inicio": 12.12,
+  "fin": 12.56
+ },
+ {
+  "texto": "consumir",
+  "inicio": 12.56,
+  "fin": 12.9
+ },
+ {
+  "texto": "por",
+  "inicio": 12.9,
+  "fin": 13.1
+ },
+ {
+  "texto": "día.",
+  "inicio": 13.1,
+  "fin": 13.12
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 13.46,
+  "fin": 13.74
+ },
+ {
+  "texto": "coge",
+  "inicio": 13.74,
+  "fin": 13.9
+ },
+ {
+  "texto": "tu",
+  "inicio": 13.9,
+  "fin": 14.12
+ },
+ {
+  "texto": "peso",
+  "inicio": 14.12,
+  "fin": 14.36
+ },
+ {
+  "texto": "corporal",
+  "inicio": 14.36,
+  "fin": 14.8
+ },
+ {
+  "texto": "y",
+  "inicio": 14.8,
+  "fin": 14.98
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 14.98,
+  "fin": 15.62
+ },
+ {
+  "texto": "por",
+  "inicio": 15.62,
+  "fin": 15.84
+ },
+ {
+  "texto": "1.",
+  "inicio": 15.84,
+  "fin": 15.88
+ },
+ {
+  "texto": "Esta",
+  "inicio": 16.26,
+  "fin": 16.5
+ },
+ {
+  "texto": "es",
+  "inicio": 16.5,
+  "fin": 16.6
+ },
+ {
+  "texto": "la",
+  "inicio": 16.6,
+  "fin": 16.82
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 16.82,
+  "fin": 17.14
+ },
+ {
+  "texto": "de",
+  "inicio": 17.14,
+  "fin": 17.3
+ },
+ {
+  "texto": "grasa",
+  "inicio": 17.3,
+  "fin": 17.64
+ },
+ {
+  "texto": "que",
+  "inicio": 17.64,
+  "fin": 17.84
+ },
+ {
+  "texto": "deberías",
+  "inicio": 17.84,
+  "fin": 18.32
+ },
+ {
+  "texto": "consumir",
+  "inicio": 18.32,
+  "fin": 18.72
+ },
+ {
+  "texto": "por",
+  "inicio": 18.72,
+  "fin": 18.94
+ },
+ {
+  "texto": "día.",
+  "inicio": 18.94,
+  "fin": 18.96
+ },
+ {
+  "texto": "Cove",
+  "inicio": 19.1,
+  "fin": 19.3
+ },
+ {
+  "texto": "tu",
+  "inicio": 19.3,
+  "fin": 19.52
+ },
+ {
+  "texto": "peso",
+  "inicio": 19.52,
+  "fin": 19.76
+ },
+ {
+  "texto": "corporal",
+  "inicio": 19.76,
+  "fin": 20.28
+ },
+ {
+  "texto": "y",
+  "inicio": 20.28,
+  "fin": 20.5
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 20.5,
+  "fin": 21.16
+ },
+ {
+  "texto": "por",
+  "inicio": 21.16,
+  "fin": 21.5
+ },
+ {
+  "texto": "35.",
+  "inicio": 21.5,
+  "fin": 22.04
+ },
+ {
+  "texto": "Esta",
+  "inicio": 22.68,
+  "fin": 22.96
+ },
+ {
+  "texto": "es",
+  "inicio": 22.96,
+  "fin": 23.06
+ },
+ {
+  "texto": "la",
+  "inicio": 23.06,
+  "fin": 23.28
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 23.28,
+  "fin": 23.64
+ },
+ {
+  "texto": "de",
+  "inicio": 23.64,
+  "fin": 23.82
+ },
+ {
+  "texto": "agua",
+  "inicio": 23.82,
+  "fin": 24
+ },
+ {
+  "texto": "que",
+  "inicio": 24,
+  "fin": 24.2
+ },
+ {
+  "texto": "deberías",
+  "inicio": 24.2,
+  "fin": 24.6
+ },
+ {
+  "texto": "consumir",
+  "inicio": 24.6,
+  "fin": 24.96
+ },
+ {
+  "texto": "por",
+  "inicio": 24.96,
+  "fin": 25.2
+ },
+ {
+  "texto": "día.",
+  "inicio": 25.2,
+  "fin": 25.24
+ },
+ {
+  "texto": "Antes",
+  "inicio": 25.58,
+  "fin": 25.74
+ },
+ {
+  "texto": "de",
+  "inicio": 25.74,
+  "fin": 25.92
+ },
+ {
+  "texto": "seguir",
+  "inicio": 25.92,
+  "fin": 26.2
+ },
+ {
+  "texto": "avanzando,",
+  "inicio": 26.2,
+  "fin": 26.56
+ }
+]

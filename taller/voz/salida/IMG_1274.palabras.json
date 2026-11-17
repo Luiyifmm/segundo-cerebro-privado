@@ -1,0 +1,162 @@
+[
+ {
+  "texto": "No",
+  "inicio": 0.38,
+  "fin": 0.5
+ },
+ {
+  "texto": "puedo",
+  "inicio": 0.5,
+  "fin": 0.58
+ },
+ {
+  "texto": "irte",
+  "inicio": 0.58,
+  "fin": 0.78
+ },
+ {
+  "texto": "en",
+  "inicio": 0.78,
+  "fin": 0.88
+ },
+ {
+  "texto": "el",
+  "inicio": 0.88,
+  "fin": 1
+ },
+ {
+  "texto": "deje.",
+  "inicio": 1,
+  "fin": 1.8
+ },
+ {
+  "texto": "Pero",
+  "inicio": 5.32,
+  "fin": 5.62
+ },
+ {
+  "texto": "esto",
+  "inicio": 5.62,
+  "fin": 5.76
+ },
+ {
+  "texto": "es",
+  "inicio": 5.76,
+  "fin": 6.14
+ },
+ {
+  "texto": "bastante",
+  "inicio": 6.14,
+  "fin": 6.54
+ },
+ {
+  "texto": "comida.",
+  "inicio": 6.54,
+  "fin": 7
+ },
+ {
+  "texto": "Nosotros",
+  "inicio": 7.86,
+  "fin": 8.6
+ },
+ {
+  "texto": "decidimos",
+  "inicio": 8.6,
+  "fin": 9.34
+ },
+ {
+  "texto": "utilizar",
+  "inicio": 9.34,
+  "fin": 9.84
+ },
+ {
+  "texto": "mejor",
+  "inicio": 9.84,
+  "fin": 10.38
+ },
+ {
+  "texto": "esta",
+  "inicio": 10.38,
+  "fin": 10.6
+ },
+ {
+  "texto": "estrategia.",
+  "inicio": 10.6,
+  "fin": 11
+ },
+ {
+  "texto": "Otra",
+  "inicio": 12.82,
+  "fin": 13
+ },
+ {
+  "texto": "vez.",
+  "inicio": 13.06,
+  "fin": 13.52
+ },
+ {
+  "texto": "Otra",
+  "inicio": 13.76,
+  "fin": 14
+ },
+ {
+  "texto": "vez.",
+  "inicio": 14.02,
+  "fin": 14.64
+ },
+ {
+  "texto": "Dale.",
+  "inicio": 15.26,
+  "fin": 15.74
+ },
+ {
+  "texto": "Pero",
+  "inicio": 16.18,
+  "fin": 16.48
+ },
+ {
+  "texto": "esto",
+  "inicio": 16.48,
+  "fin": 16.6
+ },
+ {
+  "texto": "es",
+  "inicio": 16.6,
+  "fin": 17.08
+ },
+ {
+  "texto": "bastante",
+  "inicio": 17.08,
+  "fin": 17.54
+ },
+ {
+  "texto": "comida.",
+  "inicio": 17.54,
+  "fin": 18
+ },
+ {
+  "texto": "Nosotros",
+  "inicio": 18.42,
+  "fin": 19.2
+ },
+ {
+  "texto": "utilizamos",
+  "inicio": 19.2,
+  "fin": 20.08
+ },
+ {
+  "texto": "esta",
+  "inicio": 20.08,
+  "fin": 20.36
+ },
+ {
+  "texto": "estrategia.",
+  "inicio": 20.36,
+  "fin": 21
+ },
+ {
+  "texto": "Páralo.",
+  "inicio": 23.2,
+  "fin": 24
+ }
+]

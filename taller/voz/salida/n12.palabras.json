@@ -1,0 +1,27 @@
+[
+ {
+  "texto": "de",
+  "inicio": 0.22,
+  "fin": 0.44
+ },
+ {
+  "texto": "los",
+  "inicio": 0.44,
+  "fin": 0.72
+ },
+ {
+  "texto": "que",
+  "inicio": 0.72,
+  "fin": 2
+ },
+ {
+  "texto": "nos",
+  "inicio": 29.98,
+  "fin": 29.98
+ },
+ {
+  "texto": "han",
+  "inicio": 29.98,
+  "fin": 29.98
+ }
+]

@@ -1,0 +1,252 @@
+[
+ {
+  "texto": "Esta",
+  "inicio": 0.36,
+  "fin": 0.5
+ },
+ {
+  "texto": "de",
+  "inicio": 0.5,
+  "fin": 0.68
+ },
+ {
+  "texto": "aquí",
+  "inicio": 0.68,
+  "fin": 0.86
+ },
+ {
+  "texto": "es",
+  "inicio": 0.86,
+  "fin": 0.98
+ },
+ {
+  "texto": "la",
+  "inicio": 0.98,
+  "fin": 1.28
+ },
+ {
+  "texto": "mujer",
+  "inicio": 1.28,
+  "fin": 1.58
+ },
+ {
+  "texto": "del",
+  "inicio": 1.58,
+  "fin": 1.86
+ },
+ {
+  "texto": "pobre",
+  "inicio": 1.86,
+  "fin": 2.3
+ },
+ {
+  "texto": "y",
+  "inicio": 2.3,
+  "fin": 2.54
+ },
+ {
+  "texto": "esta",
+  "inicio": 2.54,
+  "fin": 2.66
+ },
+ {
+  "texto": "de",
+  "inicio": 2.66,
+  "fin": 2.78
+ },
+ {
+  "texto": "aquí",
+  "inicio": 2.78,
+  "fin": 2.86
+ },
+ {
+  "texto": "es",
+  "inicio": 2.86,
+  "fin": 2.98
+ },
+ {
+  "texto": "la",
+  "inicio": 2.98,
+  "fin": 3.24
+ },
+ {
+  "texto": "mujer",
+  "inicio": 3.24,
+  "fin": 3.46
+ },
+ {
+  "texto": "de",
+  "inicio": 3.46,
+  "fin": 3.68
+ },
+ {
+  "texto": "rico.",
+  "inicio": 3.68,
+  "fin": 3.72
+ },
+ {
+  "texto": "Esto",
+  "inicio": 9.38,
+  "fin": 9.48
+ },
+ {
+  "texto": "es",
+  "inicio": 9.48,
+  "fin": 9.58
+ },
+ {
+  "texto": "lo",
+  "inicio": 9.58,
+  "fin": 9.68
+ },
+ {
+  "texto": "que",
+  "inicio": 9.68,
+  "fin": 9.8
+ },
+ {
+  "texto": "le",
+  "inicio": 9.8,
+  "fin": 10.02
+ },
+ {
+  "texto": "gusta",
+  "inicio": 10.02,
+  "fin": 10.22
+ },
+ {
+  "texto": "al",
+  "inicio": 10.22,
+  "fin": 10.42
+ },
+ {
+  "texto": "pobre",
+  "inicio": 10.42,
+  "fin": 10.64
+ },
+ {
+  "texto": "y",
+  "inicio": 10.64,
+  "fin": 10.8
+ },
+ {
+  "texto": "esto",
+  "inicio": 10.8,
+  "fin": 10.88
+ },
+ {
+  "texto": "es",
+  "inicio": 10.88,
+  "fin": 10.96
+ },
+ {
+  "texto": "lo",
+  "inicio": 10.96,
+  "fin": 11.06
+ },
+ {
+  "texto": "que",
+  "inicio": 11.06,
+  "fin": 11.18
+ },
+ {
+  "texto": "el",
+  "inicio": 11.18,
+  "fin": 11.32
+ },
+ {
+  "texto": "rico",
+  "inicio": 11.32,
+  "fin": 11.62
+ },
+ {
+  "texto": "disfruta.",
+  "inicio": 11.62,
+  "fin": 11.8
+ },
+ {
+  "texto": "Hola,",
+  "inicio": 13.04,
+  "fin": 13.28
+ },
+ {
+  "texto": "no,",
+  "inicio": 13.42,
+  "fin": 13.44
+ },
+ {
+  "texto": "no,",
+  "inicio": 13.58,
+  "fin": 13.6
+ },
+ {
+  "texto": "no,",
+  "inicio": 13.66,
+  "fin": 13.68
+ },
+ {
+  "texto": "no.",
+  "inicio": 13.96,
+  "fin": 14
+ },
+ {
+  "texto": "Estoy",
+  "inicio": 15.2,
+  "fin": 15.44
+ },
+ {
+  "texto": "en",
+  "inicio": 15.44,
+  "fin": 15.7
+ },
+ {
+  "texto": "el",
+  "inicio": 15.7,
+  "fin": 15.82
+ },
+ {
+  "texto": "...",
+  "inicio": 15.82,
+  "fin": 15.84
+ },
+ {
+  "texto": "Este",
+  "inicio": 18.88,
+  "fin": 18.98
+ },
+ {
+  "texto": "de",
+  "inicio": 18.98,
+  "fin": 19.22
+ },
+ {
+  "texto": "aquí",
+  "inicio": 19.22,
+  "fin": 19.54
+ },
+ {
+  "texto": "es",
+  "inicio": 19.54,
+  "fin": 19.66
+ },
+ {
+  "texto": "el",
+  "inicio": 19.66,
+  "fin": 19.78
+ },
+ {
+  "texto": "fin",
+  "inicio": 19.78,
+  "fin": 19.86
+ },
+ {
+  "texto": "de",
+  "inicio": 19.86,
+  "fin": 20
+ },
+ {
+  "texto": "semana.",
+  "inicio": 20,
+  "fin": 20
+ }
+]

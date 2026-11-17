@@ -1,0 +1,212 @@
+[
+{
+"texto": "A",
+"inicio": 5.434,
+"fin": 5.454,
+"score": 0.655
+},
+{
+"texto": "partir",
+"inicio": 5.534,
+"fin": 6.215,
+"score": 0.926
+},
+{
+"texto": "de",
+"inicio": 7.195,
+"fin": 7.355,
+"score": 0.744
+},
+{
+"texto": "este",
+"inicio": 7.415,
+"fin": 7.735,
+"score": 0.902
+},
+{
+"texto": "momento",
+"inicio": 7.835,
+"fin": 8.596,
+"score": 0.984
+},
+{
+"texto": "nada",
+"inicio": 11.378,
+"fin": 11.698,
+"score": 0.88
+},
+{
+"texto": "volverá",
+"inicio": 11.798,
+"fin": 12.378,
+"score": 0.891
+},
+{
+"texto": "a",
+"inicio": 12.398,
+"fin": 12.418,
+"score": 0.016
+},
+{
+"texto": "ser",
+"inicio": 12.618,
+"fin": 12.798,
+"score": 0.944
+},
+{
+"texto": "igual.",
+"inicio": 12.838,
+"fin": 15.18,
+"score": 0.892
+},
+{
+"texto": "Estás",
+"inicio": 17.141,
+"fin": 17.501,
+"score": 0.932
+},
+{
+"texto": "por",
+"inicio": 17.601,
+"fin": 17.761,
+"score": 0.972
+},
+{
+"texto": "entrar",
+"inicio": 17.841,
+"fin": 18.562,
+"score": 0.902
+},
+{
+"texto": "en",
+"inicio": 20.783,
+"fin": 20.923,
+"score": 0.97
+},
+{
+"texto": "un",
+"inicio": 21.023,
+"fin": 21.143,
+"score": 0.883
+},
+{
+"texto": "viaje",
+"inicio": 21.263,
+"fin": 21.824,
+"score": 0.937
+},
+{
+"texto": "del",
+"inicio": 22.764,
+"fin": 22.944,
+"score": 0.879
+},
+{
+"texto": "que",
+"inicio": 23.024,
+"fin": 23.144,
+"score": 0.806
+},
+{
+"texto": "no",
+"inicio": 23.224,
+"fin": 23.364,
+"score": 0.894
+},
+{
+"texto": "vas",
+"inicio": 23.485,
+"fin": 23.645,
+"score": 0.652
+},
+{
+"texto": "a",
+"inicio": 23.685,
+"fin": 23.705,
+"score": 0.977
+},
+{
+"texto": "querer",
+"inicio": 23.805,
+"fin": 24.145,
+"score": 0.91
+},
+{
+"texto": "salir.",
+"inicio": 24.265,
+"fin": 25.306,
+"score": 0.897
+},
+{
+"texto": "Una",
+"inicio": 26.466,
+"fin": 26.666,
+"score": 0.815
+},
+{
+"texto": "vez",
+"inicio": 26.746,
+"fin": 26.927,
+"score": 0.888
+},
+{
+"texto": "que",
+"inicio": 27.007,
+"fin": 27.167,
+"score": 0.846
+},
+{
+"texto": "empiece",
+"inicio": 27.247,
+"fin": 28.047,
+"score": 0.917
+},
+{
+"texto": "no",
+"inicio": 30.269,
+"fin": 30.389,
+"score": 0.742
+},
+{
+"texto": "habrá",
+"inicio": 30.569,
+"fin": 30.849,
+"score": 0.521
+},
+{
+"texto": "vuelta",
+"inicio": 30.949,
+"fin": 31.549,
+"score": 0.934
+},
+{
+"texto": "atrás.",
+"inicio": 31.569,
+"fin": 32.51,
+"score": 0.637
+},
+{
+"texto": "Damas",
+"inicio": 40.694,
+"fin": 41.015,
+"score": 0.662
+},
+{
+"texto": "y",
+"inicio": 41.156,
+"fin": 41.236,
+"score": 0.762
+},
+{
+"texto": "caballeros.",
+"inicio": 41.336,
+"fin": 42.399,
+"score": 0.729
+},
+{
+"texto": "Bienvenidos.",
+"inicio": 45.506,
+"fin": 46.428,
+"score": 0.805
+}
+]

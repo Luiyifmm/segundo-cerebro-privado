@@ -1,0 +1,127 @@
+[
+ {
+  "texto": "¡Garada,",
+  "inicio": 0.12,
+  "fin": 0.32
+ },
+ {
+  "texto": "graba,",
+  "inicio": 0.36,
+  "fin": 0.56
+ },
+ {
+  "texto": "graba!",
+  "inicio": 0.64,
+  "fin": 1.1
+ },
+ {
+  "texto": "¡Perdona!",
+  "inicio": 4.42,
+  "fin": 5.06
+ },
+ {
+  "texto": "¿Estoy",
+  "inicio": 10.46,
+  "fin": 10.76
+ },
+ {
+  "texto": "entrevistando",
+  "inicio": 10.76,
+  "fin": 11.2
+ },
+ {
+  "texto": "a",
+  "inicio": 11.2,
+  "fin": 11.36
+ },
+ {
+  "texto": "gente",
+  "inicio": 11.36,
+  "fin": 11.52
+ },
+ {
+  "texto": "y",
+  "inicio": 11.52,
+  "fin": 11.74
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 11.74,
+  "fin": 12.18
+ },
+ {
+  "texto": "cómo",
+  "inicio": 12.18,
+  "fin": 12.3
+ },
+ {
+  "texto": "han",
+  "inicio": 12.3,
+  "fin": 12.5
+ },
+ {
+  "texto": "empezado",
+  "inicio": 12.5,
+  "fin": 12.72
+ },
+ {
+  "texto": "su",
+  "inicio": 12.72,
+  "fin": 12.9
+ },
+ {
+  "texto": "negocio?",
+  "inicio": 12.9,
+  "fin": 13.12
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 13.12,
+  "fin": 13.36
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 13.36,
+  "fin": 13.8
+ },
+ {
+  "texto": "participar?",
+  "inicio": 13.8,
+  "fin": 14
+ },
+ {
+  "texto": "Vale,",
+  "inicio": 15.76,
+  "fin": 15.86
+ },
+ {
+  "texto": "tranquilo,",
+  "inicio": 15.98,
+  "fin": 16.28
+ },
+ {
+  "texto": "otro",
+  "inicio": 16.34,
+  "fin": 16.52
+ },
+ {
+  "texto": "día,",
+  "inicio": 16.52,
+  "fin": 16.64
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 16.76,
+  "fin": 17
+ },
+ {
+  "texto": "Segundo",
+  "inicio": 17.9,
+  "fin": 18.2
+ },
+ {
+  "texto": "rechazo.",
+  "inicio": 18.2,
+  "fin": 18.7
+ }
+]

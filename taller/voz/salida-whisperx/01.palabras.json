@@ -1,0 +1,146 @@
+[
+{
+"texto": "Vampiro,",
+"inicio": 1.646,
+"fin": 2.126,
+"score": 0.604
+},
+{
+"texto": "vampiro",
+"inicio": 2.166,
+"fin": 2.707,
+"score": 0.643
+},
+{
+"texto": "Me",
+"inicio": 5.328,
+"fin": 5.448,
+"score": 0.619
+},
+{
+"texto": "chupa",
+"inicio": 5.468,
+"fin": 5.748,
+"score": 0.536
+},
+{
+"texto": "el",
+"inicio": 5.788,
+"fin": 5.868,
+"score": 0.629
+},
+{
+"texto": "vampiro",
+"inicio": 5.888,
+"fin": 6.429,
+"score": 0.731
+},
+{
+"texto": "Vampiro,",
+"inicio": 9.01,
+"fin": 9.57,
+"score": 0.632
+},
+{
+"texto": "vampiro",
+"inicio": 9.59,
+"fin": 10.15,
+"score": 0.64
+},
+{
+"texto": "Me",
+"inicio": 12.752,
+"fin": 12.892,
+"score": 0.617
+},
+{
+"texto": "chupa",
+"inicio": 12.912,
+"fin": 13.152,
+"score": 0.595
+},
+{
+"texto": "el",
+"inicio": 13.212,
+"fin": 13.272,
+"score": 0.756
+},
+{
+"texto": "vampiro",
+"inicio": 13.312,
+"fin": 13.852,
+"score": 0.633
+},
+{
+"texto": "Vampiro,",
+"inicio": 16.454,
+"fin": 17.054,
+"score": 0.627
+},
+{
+"texto": "vampiro",
+"inicio": 17.094,
+"fin": 17.594,
+"score": 0.626
+},
+{
+"texto": "Me",
+"inicio": 18.315,
+"fin": 18.495,
+"score": 0.464
+},
+{
+"texto": "chupa",
+"inicio": 18.515,
+"fin": 18.715,
+"score": 0.382
+},
+{
+"texto": "el",
+"inicio": 18.755,
+"fin": 18.875,
+"score": 0.49
+},
+{
+"texto": "vampiro",
+"inicio": 18.915,
+"fin": 19.455,
+"score": 0.631
+},
+{
+"texto": "Vampiro,",
+"inicio": 20.175,
+"fin": 20.736,
+"score": 0.446
+},
+{
+"texto": "vampiro",
+"inicio": 20.776,
+"fin": 21.336,
+"score": 0.656
+},
+{
+"texto": "Me",
+"inicio": 22.036,
+"fin": 22.177,
+"score": 0.65
+},
+{
+"texto": "chupa",
+"inicio": 22.217,
+"fin": 22.477,
+"score": 0.594
+},
+{
+"texto": "el",
+"inicio": 22.537,
+"fin": 22.597,
+"score": 0.45
+},
+{
+"texto": "vampiro",
+"inicio": 22.617,
+"fin": 23.097,
+"score": 0.575
+}
+]

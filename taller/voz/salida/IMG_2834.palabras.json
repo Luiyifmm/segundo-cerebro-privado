@@ -1,0 +1,62 @@
+[
+ {
+  "texto": "y",
+  "inicio": 0.12,
+  "fin": 0.22
+ },
+ {
+  "texto": "número",
+  "inicio": 0.22,
+  "fin": 0.52
+ },
+ {
+  "texto": "3",
+  "inicio": 0.52,
+  "fin": 0.8
+ },
+ {
+  "texto": "ser",
+  "inicio": 0.8,
+  "fin": 1
+ },
+ {
+  "texto": "tan",
+  "inicio": 1,
+  "fin": 1.38
+ },
+ {
+  "texto": "bueno",
+  "inicio": 1.38,
+  "fin": 1.74
+ },
+ {
+  "texto": "manteniendo",
+  "inicio": 1.74,
+  "fin": 2.22
+ },
+ {
+  "texto": "la",
+  "inicio": 2.22,
+  "fin": 2.42
+ },
+ {
+  "texto": "calma",
+  "inicio": 2.42,
+  "fin": 2.8
+ },
+ {
+  "texto": "que",
+  "inicio": 2.8,
+  "fin": 2.88
+ },
+ {
+  "texto": "la",
+  "inicio": 2.88,
+  "fin": 3.1
+ },
+ {
+  "texto": "gente",
+  "inicio": 3.1,
+  "fin": 3.24
+ }
+]

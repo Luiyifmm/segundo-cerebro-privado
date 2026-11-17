@@ -1,0 +1,32 @@
+[
+ {
+  "texto": "Más",
+  "inicio": 1.22,
+  "fin": 1.72
+ },
+ {
+  "texto": "comida,",
+  "inicio": 1.72,
+  "fin": 2.26
+ },
+ {
+  "texto": "compostre",
+  "inicio": 2.36,
+  "fin": 3.38
+ },
+ {
+  "texto": "y",
+  "inicio": 3.38,
+  "fin": 3.64
+ },
+ {
+  "texto": "menos",
+  "inicio": 3.64,
+  "fin": 3.88
+ },
+ {
+  "texto": "calorías.",
+  "inicio": 3.88,
+  "fin": 4.2
+ }
+]

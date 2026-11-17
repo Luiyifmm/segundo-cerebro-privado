@@ -1,0 +1,1 @@
+Calcula esto, multiplica tu peso por 2. Esto te va a dar la cantidad de gramos de proteína que debes consumir al día. Ahora, esa cantidad de gramos la vas a multiplicar por 4. Esa es la cantidad de calorías a las que equivalen esas proteínas que consumes al día. Vamos a hacer un ejemplo.

@@ -1,0 +1,172 @@
+[
+ {
+  "texto": "No",
+  "inicio": 0.08,
+  "fin": 0.2
+ },
+ {
+  "texto": "tengo,",
+  "inicio": 0.2,
+  "fin": 0.32
+ },
+ {
+  "texto": "no",
+  "inicio": 0.32,
+  "fin": 0.44
+ },
+ {
+  "texto": "tengo,",
+  "inicio": 0.44,
+  "fin": 0.48
+ },
+ {
+  "texto": "no",
+  "inicio": 0.58,
+  "fin": 0.72
+ },
+ {
+  "texto": "tengo.",
+  "inicio": 0.72,
+  "fin": 1.5
+ },
+ {
+  "texto": "¡Perdona,",
+  "inicio": 2.92,
+  "fin": 13.16
+ },
+ {
+  "texto": "bro!",
+  "inicio": 13.22,
+  "fin": 13.76
+ },
+ {
+  "texto": "¡Unas",
+  "inicio": 13.9,
+  "fin": 14.12
+ },
+ {
+  "texto": "un",
+  "inicio": 14.12,
+  "fin": 14.28
+ },
+ {
+  "texto": "dita!",
+  "inicio": 14.28,
+  "fin": 14.8
+ },
+ {
+  "texto": "¡Morito",
+  "inicio": 16.52,
+  "fin": 16.78
+ },
+ {
+  "texto": "coche",
+  "inicio": 16.78,
+  "fin": 17
+ },
+ {
+  "texto": "hermano!",
+  "inicio": 17.06,
+  "fin": 17.22
+ },
+ {
+  "texto": "Estoy",
+  "inicio": 17.38,
+  "fin": 17.62
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 17.62,
+  "fin": 17.88
+ },
+ {
+  "texto": "entrevistas",
+  "inicio": 17.88,
+  "fin": 18.32
+ },
+ {
+  "texto": "y",
+  "inicio": 18.32,
+  "fin": 18.5
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 18.5,
+  "fin": 18.74
+ },
+ {
+  "texto": "a",
+  "inicio": 18.74,
+  "fin": 18.76
+ },
+ {
+  "texto": "la",
+  "inicio": 18.76,
+  "fin": 18.9
+ },
+ {
+  "texto": "gente",
+  "inicio": 18.9,
+  "fin": 19.14
+ },
+ {
+  "texto": "cómo",
+  "inicio": 19.14,
+  "fin": 19.3
+ },
+ {
+  "texto": "se",
+  "inicio": 19.3,
+  "fin": 19.46
+ },
+ {
+  "texto": "hizo",
+  "inicio": 19.46,
+  "fin": 19.66
+ },
+ {
+  "texto": "Rica.",
+  "inicio": 19.66,
+  "fin": 19.8
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 19.8,
+  "fin": 20.08
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 20.08,
+  "fin": 20.34
+ },
+ {
+  "texto": "contestar?",
+  "inicio": 20.34,
+  "fin": 20.78
+ },
+ {
+  "texto": "No,",
+  "inicio": 21.16,
+  "fin": 21.24
+ },
+ {
+  "texto": "no.",
+  "inicio": 21.32,
+  "fin": 21.72
+ },
+ {
+  "texto": "¡Morito",
+  "inicio": 22.1,
+  "fin": 22.52
+ },
+ {
+  "texto": "coche,",
+  "inicio": 22.52,
+  "fin": 22.7
+ },
+ {
+  "texto": "bro!",
+  "inicio": 22.84,
+  "fin": 23
+ }
+]

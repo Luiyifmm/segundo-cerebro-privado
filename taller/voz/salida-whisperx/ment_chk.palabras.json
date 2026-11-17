@@ -1,0 +1,284 @@
+[
+{
+"texto": "Joseph",
+"inicio": 0.454,
+"fin": 0.814,
+"score": 0.566
+},
+{
+"texto": "Barbosa",
+"inicio": 0.874,
+"fin": 1.335,
+"score": 0.876
+},
+{
+"texto": "está",
+"inicio": 1.395,
+"fin": 1.675,
+"score": 0.858
+},
+{
+"texto": "en",
+"inicio": 1.735,
+"fin": 1.795,
+"score": 0.983
+},
+{
+"texto": "la",
+"inicio": 1.835,
+"fin": 1.895,
+"score": 0.933
+},
+{
+"texto": "casa",
+"inicio": 1.955,
+"fin": 2.295,
+"score": 0.929
+},
+{
+"texto": "Esto",
+"inicio": 4.697,
+"fin": 4.977,
+"score": 0.986
+},
+{
+"texto": "es",
+"inicio": 5.097,
+"fin": 5.237,
+"score": 0.912
+},
+{
+"texto": "Prede",
+"inicio": 5.457,
+"fin": 5.758,
+"score": 0.861
+},
+{
+"texto": "el",
+"inicio": 5.778,
+"fin": 5.858,
+"score": 0.872
+},
+{
+"texto": "Party",
+"inicio": 5.938,
+"fin": 6.318,
+"score": 0.788
+},
+{
+"texto": "Arriba",
+"inicio": 8.62,
+"fin": 8.94,
+"score": 0.904
+},
+{
+"texto": "esas",
+"inicio": 9.0,
+"fin": 9.22,
+"score": 0.736
+},
+{
+"texto": "manos,",
+"inicio": 9.28,
+"fin": 9.58,
+"score": 0.842
+},
+{
+"texto": "que",
+"inicio": 9.7,
+"fin": 9.84,
+"score": 0.915
+},
+{
+"texto": "esto",
+"inicio": 9.88,
+"fin": 10.141,
+"score": 0.81
+},
+{
+"texto": "no",
+"inicio": 10.261,
+"fin": 10.361,
+"score": 0.97
+},
+{
+"texto": "para",
+"inicio": 10.481,
+"fin": 10.741,
+"score": 0.93
+},
+{
+"texto": "La",
+"inicio": 13.143,
+"fin": 13.203,
+"score": 0.864
+},
+{
+"texto": "fiesta",
+"inicio": 13.303,
+"fin": 13.603,
+"score": 0.912
+},
+{
+"texto": "está",
+"inicio": 13.643,
+"fin": 13.823,
+"score": 0.855
+},
+{
+"texto": "en",
+"inicio": 13.883,
+"fin": 13.943,
+"score": 0.958
+},
+{
+"texto": "manos",
+"inicio": 14.003,
+"fin": 14.263,
+"score": 0.89
+},
+{
+"texto": "de",
+"inicio": 14.363,
+"fin": 14.484,
+"score": 0.818
+},
+{
+"texto": "Joseph",
+"inicio": 14.624,
+"fin": 15.024,
+"score": 0.528
+},
+{
+"texto": "Barbosa",
+"inicio": 15.084,
+"fin": 15.564,
+"score": 0.878
+},
+{
+"texto": "Prede",
+"inicio": 17.846,
+"fin": 18.146,
+"score": 0.796
+},
+{
+"texto": "el",
+"inicio": 18.186,
+"fin": 18.266,
+"score": 0.83
+},
+{
+"texto": "Party,",
+"inicio": 18.346,
+"fin": 18.706,
+"score": 0.581
+},
+{
+"texto": "poniendo",
+"inicio": 18.887,
+"fin": 19.267,
+"score": 0.94
+},
+{
+"texto": "a",
+"inicio": 19.287,
+"fin": 19.307,
+"score": 0.115
+},
+{
+"texto": "bailar",
+"inicio": 19.367,
+"fin": 19.727,
+"score": 0.802
+},
+{
+"texto": "a",
+"inicio": 19.747,
+"fin": 19.787,
+"score": 0.491
+},
+{
+"texto": "todo",
+"inicio": 19.927,
+"fin": 20.167,
+"score": 0.882
+},
+{
+"texto": "el",
+"inicio": 20.207,
+"fin": 20.268,
+"score": 0.846
+},
+{
+"texto": "mundo",
+"inicio": 20.328,
+"fin": 20.608,
+"score": 0.851
+},
+{
+"texto": "Joseph",
+"inicio": 20.628,
+"fin": 23.41,
+"score": 0.431
+},
+{
+"texto": "Barbosa",
+"inicio": 23.47,
+"fin": 23.99,
+"score": 0.847
+},
+{
+"texto": "está",
+"inicio": 24.35,
+"fin": 24.67,
+"score": 0.892
+},
+{
+"texto": "en",
+"inicio": 24.731,
+"fin": 24.811,
+"score": 0.936
+},
+{
+"texto": "la",
+"inicio": 24.851,
+"fin": 24.911,
+"score": 0.976
+},
+{
+"texto": "casa",
+"inicio": 24.991,
+"fin": 25.331,
+"score": 0.98
+},
+{
+"texto": "Esto",
+"inicio": 27.733,
+"fin": 28.033,
+"score": 0.928
+},
+{
+"texto": "es",
+"inicio": 28.213,
+"fin": 28.333,
+"score": 0.89
+},
+{
+"texto": "Prede",
+"inicio": 28.853,
+"fin": 29.214,
+"score": 0.968
+},
+{
+"texto": "el",
+"inicio": 29.274,
+"fin": 29.374,
+"score": 0.917
+},
+{
+"texto": "Party",
+"inicio": 29.494,
+"fin": 29.774,
+"score": 0.661
+}
+]

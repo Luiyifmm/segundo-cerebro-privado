@@ -1,0 +1,72 @@
+[
+ {
+  "texto": "Enviéselo",
+  "inicio": 2.58,
+  "fin": 3.16
+ },
+ {
+  "texto": "a",
+  "inicio": 3.16,
+  "fin": 3.24
+ },
+ {
+  "texto": "esa",
+  "inicio": 3.24,
+  "fin": 3.42
+ },
+ {
+  "texto": "amiga",
+  "inicio": 3.42,
+  "fin": 3.64
+ },
+ {
+  "texto": "que",
+  "inicio": 3.64,
+  "fin": 3.76
+ },
+ {
+  "texto": "se",
+  "inicio": 3.76,
+  "fin": 4
+ },
+ {
+  "texto": "pasa",
+  "inicio": 4,
+  "fin": 4.32
+ },
+ {
+  "texto": "media",
+  "inicio": 4.32,
+  "fin": 4.76
+ },
+ {
+  "texto": "hora",
+  "inicio": 4.76,
+  "fin": 4.94
+ },
+ {
+  "texto": "de",
+  "inicio": 4.94,
+  "fin": 5.36
+ },
+ {
+  "texto": "cardio",
+  "inicio": 5.36,
+  "fin": 5.8
+ },
+ {
+  "texto": "antes",
+  "inicio": 5.8,
+  "fin": 5.98
+ },
+ {
+  "texto": "de",
+  "inicio": 5.98,
+  "fin": 6.2
+ },
+ {
+  "texto": "entrenar.",
+  "inicio": 6.2,
+  "fin": 6.4
+ }
+]

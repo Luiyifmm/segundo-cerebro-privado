@@ -1,0 +1,127 @@
+[
+ {
+  "texto": "¡Voy",
+  "inicio": 3.16,
+  "fin": 3.42
+ },
+ {
+  "texto": "o",
+  "inicio": 3.42,
+  "fin": 3.46
+ },
+ {
+  "texto": "no",
+  "inicio": 3.46,
+  "fin": 3.66
+ },
+ {
+  "texto": "voy!",
+  "inicio": 3.66,
+  "fin": 3.8
+ },
+ {
+  "texto": "¡Voy",
+  "inicio": 3.84,
+  "fin": 4
+ },
+ {
+  "texto": "o",
+  "inicio": 4,
+  "fin": 4.04
+ },
+ {
+  "texto": "no",
+  "inicio": 4.04,
+  "fin": 4.28
+ },
+ {
+  "texto": "voy!",
+  "inicio": 4.28,
+  "fin": 4.48
+ },
+ {
+  "texto": "¡No!",
+  "inicio": 4.58,
+  "fin": 5
+ },
+ {
+  "texto": "¿Qué",
+  "inicio": 6.58,
+  "fin": 6.9
+ },
+ {
+  "texto": "jodido",
+  "inicio": 6.9,
+  "fin": 7.34
+ },
+ {
+  "texto": "que",
+  "inicio": 7.34,
+  "fin": 7.56
+ },
+ {
+  "texto": "es?",
+  "inicio": 7.56,
+  "fin": 8.12
+ },
+ {
+  "texto": "Os",
+  "inicio": 8.4,
+  "fin": 8.54
+ },
+ {
+  "texto": "lo",
+  "inicio": 8.54,
+  "fin": 8.7
+ },
+ {
+  "texto": "juro,",
+  "inicio": 8.7,
+  "fin": 8.98
+ },
+ {
+  "texto": "no",
+  "inicio": 9.12,
+  "fin": 9.24
+ },
+ {
+  "texto": "es",
+  "inicio": 9.24,
+  "fin": 9.48
+ },
+ {
+  "texto": "fácil.",
+  "inicio": 9.48,
+  "fin": 10
+ },
+ {
+  "texto": "¡Vuelve",
+  "inicio": 12.6,
+  "fin": 12.92
+ },
+ {
+  "texto": "tranquila!",
+  "inicio": 12.92,
+  "fin": 13
+ },
+ {
+  "texto": "¡No",
+  "inicio": 13.94,
+  "fin": 14.24
+ },
+ {
+  "texto": "vamos,",
+  "inicio": 14.24,
+  "fin": 14.34
+ },
+ {
+  "texto": "va!",
+  "inicio": 14.42,
+  "fin": 14.72
+ },
+ {
+  "texto": "¡Tranquila!",
+  "inicio": 14.92,
+  "fin": 15
+ }
+]

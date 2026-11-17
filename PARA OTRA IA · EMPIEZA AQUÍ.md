@@ -17,7 +17,7 @@ Escrito por Claude (Opus) el 17-11-2026, después de ~6 semanas editando vídeo 
 6. `boveda/2 CLIENTES/AMIN/FICHA.md` y `boveda/7 TRABAJOS EN CURSO/Marcas alumnos Trainer10x · PROPUESTA.md`.
 7. `boveda/10 BIBLIOTECA DE FORMATOS/` y `boveda/8 BIBLIOTECA DE ESTILOS/00 Índice.md` (opciones, no reglas).
 8. `boveda/11 BANCO DE CRITERIO/BANCO.md` — 113 recursos: qué recurso explica qué idea y por qué (incluye el estudio de Miro pieza a pieza).
-9. `boveda/1 REFERENCIAS/` — `favoritas/` (6 vídeos que **mandan sobre todo lo demás**) y `Analizadas por Claude/` (medidas fotograma a fotograma).
+9. `boveda/1 REFERENCIAS/00 ÍNDICE DE REFERENCIAS Y ESTUDIOS.md` — **cada vídeo de referencia (383) con su enlace original, su ruta en el PC de Luis, sus transcripciones/medidas y las notas que lo estudian.** Luego `boveda/1 REFERENCIAS/` — `favoritas/` (6 vídeos que **mandan sobre todo lo demás**) y `Analizadas por Claude/` (medidas fotograma a fotograma).
 10. `boveda/MANUAL COMPLETO DE EDICIÓN - Claude (2026-11-06).md` — manual largo (consulta, no lectura de corrido).
 11. `boveda/7 TRABAJOS EN CURSO/*ESTADO*.md` — dónde está cada trabajo. Para retomar uno: leer SOLO su ESTADO.
 

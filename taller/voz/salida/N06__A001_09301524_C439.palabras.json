@@ -1,0 +1,97 @@
+[
+ {
+  "texto": "Según",
+  "inicio": 1.22,
+  "fin": 1.48
+ },
+ {
+  "texto": "cuantos",
+  "inicio": 1.48,
+  "fin": 1.68
+ },
+ {
+  "texto": "le",
+  "inicio": 1.68,
+  "fin": 1.9
+ },
+ {
+  "texto": "pongas",
+  "inicio": 1.9,
+  "fin": 2.42
+ },
+ {
+  "texto": "pueden",
+  "inicio": 2.42,
+  "fin": 2.68
+ },
+ {
+  "texto": "llegar",
+  "inicio": 2.68,
+  "fin": 2.88
+ },
+ {
+  "texto": "a",
+  "inicio": 2.88,
+  "fin": 3.26
+ },
+ {
+  "texto": "900",
+  "inicio": 3.26,
+  "fin": 4.04
+ },
+ {
+  "texto": "calorías,",
+  "inicio": 4.04,
+  "fin": 4.84
+ },
+ {
+  "texto": "lo",
+  "inicio": 5.14,
+  "fin": 5.36
+ },
+ {
+  "texto": "mismo",
+  "inicio": 5.36,
+  "fin": 5.66
+ },
+ {
+  "texto": "que",
+  "inicio": 5.66,
+  "fin": 6.02
+ },
+ {
+  "texto": "una",
+  "inicio": 6.02,
+  "fin": 6.2
+ },
+ {
+  "texto": "hamburguesa",
+  "inicio": 6.2,
+  "fin": 7.32
+ },
+ {
+  "texto": "o",
+  "inicio": 7.32,
+  "fin": 7.7
+ },
+ {
+  "texto": "3",
+  "inicio": 7.7,
+  "fin": 7.88
+ },
+ {
+  "texto": "porciones",
+  "inicio": 7.88,
+  "fin": 8.28
+ },
+ {
+  "texto": "de",
+  "inicio": 8.28,
+  "fin": 8.48
+ },
+ {
+  "texto": "pizza.",
+  "inicio": 8.48,
+  "fin": 8.86
+ }
+]

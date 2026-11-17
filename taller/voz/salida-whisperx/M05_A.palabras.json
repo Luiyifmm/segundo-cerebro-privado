@@ -1,0 +1,56 @@
+[
+{
+"texto": "el",
+"inicio": 0.462,
+"fin": 0.563,
+"score": 0.826
+},
+{
+"texto": "party,",
+"inicio": 0.603,
+"fin": 0.864,
+"score": 0.732
+},
+{
+"texto": "poniendo",
+"inicio": 1.064,
+"fin": 1.445,
+"score": 0.879
+},
+{
+"texto": "a",
+"inicio": 1.465,
+"fin": 1.486,
+"score": 0.995
+},
+{
+"texto": "bailar",
+"inicio": 1.546,
+"fin": 1.867,
+"score": 0.833
+},
+{
+"texto": "a",
+"inicio": 1.907,
+"fin": 1.947,
+"score": 0.499
+},
+{
+"texto": "todo",
+"inicio": 2.107,
+"fin": 2.328,
+"score": 0.917
+},
+{
+"texto": "el",
+"inicio": 2.388,
+"fin": 2.448,
+"score": 0.868
+},
+{
+"texto": "mundo.",
+"inicio": 2.509,
+"fin": 2.769,
+"score": 0.836
+}
+]

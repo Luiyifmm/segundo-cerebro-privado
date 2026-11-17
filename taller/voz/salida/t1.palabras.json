@@ -1,0 +1,42 @@
+[
+ {
+  "texto": "muy",
+  "inicio": 0.2,
+  "fin": 0.46
+ },
+ {
+  "texto": "saciante,",
+  "inicio": 0.46,
+  "fin": 1.32
+ },
+ {
+  "texto": "dulce",
+  "inicio": 1.48,
+  "fin": 1.92
+ },
+ {
+  "texto": "y",
+  "inicio": 1.92,
+  "fin": 2.18
+ },
+ {
+  "texto": "tiene",
+  "inicio": 2.18,
+  "fin": 2.38
+ },
+ {
+  "texto": "fuente",
+  "inicio": 2.38,
+  "fin": 2.66
+ },
+ {
+  "texto": "de",
+  "inicio": 2.66,
+  "fin": 2.88
+ },
+ {
+  "texto": "proteína.",
+  "inicio": 2.88,
+  "fin": 3.2
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 0.72,
+  "fin": 0.84
+ },
+ {
+  "texto": "haces",
+  "inicio": 0.84,
+  "fin": 1.06
+ },
+ {
+  "texto": "ahí",
+  "inicio": 1.06,
+  "fin": 1.24
+ },
+ {
+  "texto": "meses",
+  "inicio": 1.24,
+  "fin": 1.52
+ },
+ {
+  "texto": "facturabas",
+  "inicio": 1.52,
+  "fin": 2.04
+ },
+ {
+  "texto": "2",
+  "inicio": 2.04,
+  "fin": 2.04
+ },
+ {
+  "texto": ",000,",
+  "inicio": 2.04,
+  "fin": 2.28
+ },
+ {
+  "texto": "3",
+  "inicio": 2.28,
+  "fin": 2.38
+ },
+ {
+  "texto": ".000",
+  "inicio": 2.38,
+  "fin": 2.7
+ },
+ {
+  "texto": "euros",
+  "inicio": 2.7,
+  "fin": 2.92
+ },
+ {
+  "texto": "y",
+  "inicio": 2.92,
+  "fin": 3.1
+ },
+ {
+  "texto": "sigues",
+  "inicio": 3.1,
+  "fin": 3.32
+ },
+ {
+  "texto": "en",
+  "inicio": 3.32,
+  "fin": 3.42
+ },
+ {
+  "texto": "el",
+  "inicio": 3.42,
+  "fin": 3.6
+ },
+ {
+  "texto": "mismo",
+  "inicio": 3.6,
+  "fin": 3.98
+ },
+ {
+  "texto": "punto,",
+  "inicio": 3.98,
+  "fin": 5.32
+ },
+ {
+  "texto": "quizá",
+  "inicio": 5.44,
+  "fin": 5.5
+ },
+ {
+  "texto": "ya",
+  "inicio": 5.5,
+  "fin": 5.6
+ },
+ {
+  "texto": "no",
+  "inicio": 5.6,
+  "fin": 6.98
+ },
+ {
+  "texto": "sea",
+  "inicio": 6.98,
+  "fin": 7.12
+ },
+ {
+  "texto": "una",
+  "inicio": 7.12,
+  "fin": 7.38
+ },
+ {
+  "texto": "cuestión",
+  "inicio": 7.38,
+  "fin": 7.52
+ },
+ {
+  "texto": "de",
+  "inicio": 7.52,
+  "fin": 7.64
+ },
+ {
+  "texto": "ser",
+  "inicio": 7.64,
+  "fin": 8.02
+ },
+ {
+  "texto": "constante",
+  "inicio": 8.02,
+  "fin": 8.2
+ },
+ {
+  "texto": "y",
+  "inicio": 8.2,
+  "fin": 8.42
+ },
+ {
+  "texto": "esperar",
+  "inicio": 8.42,
+  "fin": 8.58
+ },
+ {
+  "texto": "un",
+  "inicio": 8.58,
+  "fin": 8.7
+ },
+ {
+  "texto": "poco",
+  "inicio": 8.7,
+  "fin": 8.9
+ },
+ {
+  "texto": "más.",
+  "inicio": 8.9,
+  "fin": 9
+ }
+]

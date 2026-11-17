@@ -1,0 +1,32 @@
+[
+ {
+  "texto": "No",
+  "inicio": 0.12,
+  "fin": 0.2
+ },
+ {
+  "texto": "va",
+  "inicio": 0.2,
+  "fin": 0.24
+ },
+ {
+  "texto": "a",
+  "inicio": 0.24,
+  "fin": 0.34
+ },
+ {
+  "texto": "dematarse",
+  "inicio": 0.34,
+  "fin": 0.92
+ },
+ {
+  "texto": "de",
+  "inicio": 0.92,
+  "fin": 1.06
+ },
+ {
+  "texto": "hambre.",
+  "inicio": 1.06,
+  "fin": 1.58
+ }
+]

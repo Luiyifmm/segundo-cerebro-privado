@@ -1,0 +1,537 @@
+[
+ {
+  "texto": "necesitas",
+  "inicio": 0.68,
+  "fin": 1.12
+ },
+ {
+  "texto": "un",
+  "inicio": 1.12,
+  "fin": 1.32
+ },
+ {
+  "texto": "alter",
+  "inicio": 1.32,
+  "fin": 1.54
+ },
+ {
+  "texto": "ego,",
+  "inicio": 1.54,
+  "fin": 1.94
+ },
+ {
+  "texto": "una",
+  "inicio": 2.04,
+  "fin": 2.22
+ },
+ {
+  "texto": "versión",
+  "inicio": 2.22,
+  "fin": 2.42
+ },
+ {
+  "texto": "de",
+  "inicio": 2.42,
+  "fin": 2.58
+ },
+ {
+  "texto": "timis,",
+  "inicio": 2.58,
+  "fin": 3.2
+ },
+ {
+  "texto": "una",
+  "inicio": 4.46,
+  "fin": 4.7
+ },
+ {
+  "texto": "versión",
+  "inicio": 4.7,
+  "fin": 4.86
+ },
+ {
+  "texto": "de",
+  "inicio": 4.86,
+  "fin": 5
+ },
+ {
+  "texto": "timismos",
+  "inicio": 5,
+  "fin": 5.4
+ },
+ {
+  "texto": "sin",
+  "inicio": 5.4,
+  "fin": 5.54
+ },
+ {
+  "texto": "límites",
+  "inicio": 5.54,
+  "fin": 5.72
+ },
+ {
+  "texto": "sin",
+  "inicio": 10.12,
+  "fin": 10.22
+ },
+ {
+  "texto": "tu",
+  "inicio": 10.22,
+  "fin": 10.4
+ },
+ {
+  "texto": "debilidad",
+  "inicio": 10.4,
+  "fin": 11.46
+ },
+ {
+  "texto": "sin",
+  "inicio": 11.46,
+  "fin": 11.64
+ },
+ {
+  "texto": "tu",
+  "inicio": 11.64,
+  "fin": 11.82
+ },
+ {
+  "texto": "debilidad",
+  "inicio": 11.82,
+  "fin": 12.2
+ },
+ {
+  "texto": "de",
+  "inicio": 12.2,
+  "fin": 12.34
+ },
+ {
+  "texto": "incontuado",
+  "inicio": 12.34,
+  "fin": 13.46
+ },
+ {
+  "texto": "sin",
+  "inicio": 13.46,
+  "fin": 13.68
+ },
+ {
+  "texto": "tu",
+  "inicio": 13.68,
+  "fin": 13.86
+ },
+ {
+  "texto": "debilidad",
+  "inicio": 13.86,
+  "fin": 14.22
+ },
+ {
+  "texto": "de",
+  "inicio": 14.22,
+  "fin": 14.36
+ },
+ {
+  "texto": "incontuado",
+  "inicio": 14.36,
+  "fin": 14.76
+ },
+ {
+  "texto": "tus",
+  "inicio": 14.76,
+  "fin": 14.98
+ },
+ {
+  "texto": "fortalezas",
+  "inicio": 14.98,
+  "fin": 15.32
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 16.9,
+  "fin": 17.28
+ },
+ {
+  "texto": "un",
+  "inicio": 17.28,
+  "fin": 17.46
+ },
+ {
+  "texto": "alter",
+  "inicio": 17.46,
+  "fin": 17.66
+ },
+ {
+  "texto": "ego,",
+  "inicio": 17.66,
+  "fin": 17.74
+ },
+ {
+  "texto": "una",
+  "inicio": 17.78,
+  "fin": 17.98
+ },
+ {
+  "texto": "versión",
+  "inicio": 17.98,
+  "fin": 18.16
+ },
+ {
+  "texto": "de",
+  "inicio": 18.16,
+  "fin": 18.26
+ },
+ {
+  "texto": "ti",
+  "inicio": 18.26,
+  "fin": 18.46
+ },
+ {
+  "texto": "sin",
+  "inicio": 18.46,
+  "fin": 18.6
+ },
+ {
+  "texto": "límites",
+  "inicio": 18.6,
+  "fin": 18.98
+ },
+ {
+  "texto": "con",
+  "inicio": 18.98,
+  "fin": 20.14
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 20.14,
+  "fin": 20.52
+ },
+ {
+  "texto": "un",
+  "inicio": 20.52,
+  "fin": 20.72
+ },
+ {
+  "texto": "alter",
+  "inicio": 20.72,
+  "fin": 20.94
+ },
+ {
+  "texto": "ego,",
+  "inicio": 20.94,
+  "fin": 21.08
+ },
+ {
+  "texto": "una",
+  "inicio": 21.14,
+  "fin": 21.36
+ },
+ {
+  "texto": "versión",
+  "inicio": 21.36,
+  "fin": 21.52
+ },
+ {
+  "texto": "de",
+  "inicio": 21.52,
+  "fin": 21.62
+ },
+ {
+  "texto": "ti",
+  "inicio": 21.62,
+  "fin": 21.82
+ },
+ {
+  "texto": "sin",
+  "inicio": 21.82,
+  "fin": 21.98
+ },
+ {
+  "texto": "límites",
+  "inicio": 21.98,
+  "fin": 22.28
+ },
+ {
+  "texto": "y",
+  "inicio": 22.28,
+  "fin": 22.36
+ },
+ {
+  "texto": "con",
+  "inicio": 22.4,
+  "fin": 23.98
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 25.4,
+  "fin": 25.82
+ },
+ {
+  "texto": "un",
+  "inicio": 25.82,
+  "fin": 26
+ },
+ {
+  "texto": "alter",
+  "inicio": 26,
+  "fin": 26.24
+ },
+ {
+  "texto": "ego,",
+  "inicio": 26.24,
+  "fin": 26.42
+ },
+ {
+  "texto": "una",
+  "inicio": 26.52,
+  "fin": 26.76
+ },
+ {
+  "texto": "versión",
+  "inicio": 26.76,
+  "fin": 26.94
+ },
+ {
+  "texto": "de",
+  "inicio": 26.94,
+  "fin": 27.02
+ },
+ {
+  "texto": "ti.",
+  "inicio": 27.02,
+  "fin": 27.36
+ },
+ {
+  "texto": "Necesitas",
+  "inicio": 27.62,
+  "fin": 28.1
+ },
+ {
+  "texto": "un",
+  "inicio": 28.1,
+  "fin": 28.26
+ },
+ {
+  "texto": "alter",
+  "inicio": 28.26,
+  "fin": 28.46
+ },
+ {
+  "texto": "ego,",
+  "inicio": 28.46,
+  "fin": 28.56
+ },
+ {
+  "texto": "una",
+  "inicio": 28.62,
+  "fin": 28.82
+ },
+ {
+  "texto": "versión",
+  "inicio": 28.82,
+  "fin": 29
+ },
+ {
+  "texto": "de",
+  "inicio": 29,
+  "fin": 29.08
+ },
+ {
+  "texto": "ti",
+  "inicio": 29.08,
+  "fin": 29.26
+ },
+ {
+  "texto": "sin",
+  "inicio": 29.26,
+  "fin": 29.48
+ },
+ {
+  "texto": "límites.",
+  "inicio": 29.48,
+  "fin": 30
+ },
+ {
+  "texto": "No,",
+  "inicio": 30.6,
+  "fin": 30.84
+ },
+ {
+  "texto": "sin",
+  "inicio": 30.98,
+  "fin": 30.98
+ },
+ {
+  "texto": "límites.",
+  "inicio": 30.98,
+  "fin": 31.16
+ },
+ {
+  "texto": "Sin",
+  "inicio": 31.44,
+  "fin": 31.58
+ },
+ {
+  "texto": "tonibilidad",
+  "inicio": 31.58,
+  "fin": 32.04
+ },
+ {
+  "texto": "de",
+  "inicio": 32.04,
+  "fin": 32.2
+ },
+ {
+  "texto": "contacto.",
+  "inicio": 32.2,
+  "fin": 32.64
+ },
+ {
+  "texto": "Necesitas",
+  "inicio": 34.44,
+  "fin": 34.88
+ },
+ {
+  "texto": "un",
+  "inicio": 34.88,
+  "fin": 35.06
+ },
+ {
+  "texto": "alter",
+  "inicio": 35.06,
+  "fin": 35.28
+ },
+ {
+  "texto": "ego.",
+  "inicio": 35.28,
+  "fin": 35.52
+ },
+ {
+  "texto": "Necesitas",
+  "inicio": 36.4,
+  "fin": 36.88
+ },
+ {
+  "texto": "un",
+  "inicio": 36.88,
+  "fin": 37.04
+ },
+ {
+  "texto": "alter",
+  "inicio": 37.04,
+  "fin": 37.26
+ },
+ {
+  "texto": "ego,",
+  "inicio": 37.26,
+  "fin": 37.32
+ },
+ {
+  "texto": "una",
+  "inicio": 37.42,
+  "fin": 37.62
+ },
+ {
+  "texto": "versión",
+  "inicio": 37.62,
+  "fin": 37.8
+ },
+ {
+  "texto": "de",
+  "inicio": 37.8,
+  "fin": 37.96
+ },
+ {
+  "texto": "ti.",
+  "inicio": 37.96,
+  "fin": 38.24
+ },
+ {
+  "texto": "Necesitas",
+  "inicio": 40.18,
+  "fin": 40.68
+ },
+ {
+  "texto": "un",
+  "inicio": 40.68,
+  "fin": 40.84
+ },
+ {
+  "texto": "alter",
+  "inicio": 40.84,
+  "fin": 41.04
+ },
+ {
+  "texto": "ego,",
+  "inicio": 41.04,
+  "fin": 41.14
+ },
+ {
+  "texto": "una",
+  "inicio": 41.2,
+  "fin": 41.4
+ },
+ {
+  "texto": "versión",
+  "inicio": 41.4,
+  "fin": 41.6
+ },
+ {
+  "texto": "de",
+  "inicio": 41.6,
+  "fin": 41.74
+ },
+ {
+  "texto": "ti",
+  "inicio": 41.74,
+  "fin": 41.92
+ },
+ {
+  "texto": "sin",
+  "inicio": 41.92,
+  "fin": 42.1
+ },
+ {
+  "texto": "tus",
+  "inicio": 42.1,
+  "fin": 42.28
+ },
+ {
+  "texto": "debilidades.",
+  "inicio": 42.28,
+  "fin": 42.9
+ },
+ {
+  "texto": "Mierro.",
+  "inicio": 43.14,
+  "fin": 43.64
+ },
+ {
+  "texto": "A",
+  "inicio": 43.98,
+  "fin": 44.14
+ },
+ {
+  "texto": "versión",
+  "inicio": 44.14,
+  "fin": 44.28
+ },
+ {
+  "texto": "de",
+  "inicio": 44.28,
+  "fin": 44.4
+ },
+ {
+  "texto": "ti",
+  "inicio": 44.4,
+  "fin": 44.52
+ },
+ {
+  "texto": "sin",
+  "inicio": 44.52,
+  "fin": 44.68
+ },
+ {
+  "texto": "límites.",
+  "inicio": 44.68,
+  "fin": 45.04
+ }
+]

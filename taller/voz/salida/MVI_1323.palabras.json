@@ -1,0 +1,352 @@
+[
+ {
+  "texto": "Ese",
+  "inicio": 0.58,
+  "fin": 0.88
+ },
+ {
+  "texto": "hombre",
+  "inicio": 0.88,
+  "fin": 1.14
+ },
+ {
+  "texto": "literalmente",
+  "inicio": 1.14,
+  "fin": 1.74
+ },
+ {
+  "texto": "dijo",
+  "inicio": 1.74,
+  "fin": 1.88
+ },
+ {
+  "texto": "que",
+  "inicio": 1.88,
+  "fin": 2
+ },
+ {
+  "texto": "no",
+  "inicio": 2,
+  "fin": 2.28
+ },
+ {
+  "texto": "tiene",
+  "inicio": 2.28,
+  "fin": 2.5
+ },
+ {
+  "texto": "una",
+  "inicio": 2.5,
+  "fin": 2.72
+ },
+ {
+  "texto": "estrategia",
+  "inicio": 2.72,
+  "fin": 3.18
+ },
+ {
+  "texto": "de",
+  "inicio": 3.18,
+  "fin": 3.48
+ },
+ {
+  "texto": "marketing",
+  "inicio": 3.48,
+  "fin": 3.88
+ },
+ {
+  "texto": "como",
+  "inicio": 3.88,
+  "fin": 4.12
+ },
+ {
+  "texto": "preferencia.",
+  "inicio": 4.12,
+  "fin": 4.5
+ },
+ {
+  "texto": "Dice",
+  "inicio": 4.66,
+  "fin": 4.92
+ },
+ {
+  "texto": "que",
+  "inicio": 4.92,
+  "fin": 5.44
+ },
+ {
+  "texto": "el",
+  "inicio": 5.44,
+  "fin": 5.64
+ },
+ {
+  "texto": "secreto",
+  "inicio": 5.64,
+  "fin": 5.94
+ },
+ {
+  "texto": "para",
+  "inicio": 5.94,
+  "fin": 6.06
+ },
+ {
+  "texto": "él",
+  "inicio": 6.06,
+  "fin": 6.14
+ },
+ {
+  "texto": "es",
+  "inicio": 6.14,
+  "fin": 6.24
+ },
+ {
+  "texto": "la",
+  "inicio": 6.24,
+  "fin": 6.38
+ },
+ {
+  "texto": "pasión.",
+  "inicio": 6.38,
+  "fin": 6.7
+ },
+ {
+  "texto": "Y",
+  "inicio": 7.16,
+  "fin": 7.52
+ },
+ {
+  "texto": "en",
+  "inicio": 7.52,
+  "fin": 7.74
+ },
+ {
+  "texto": "verdad",
+  "inicio": 7.74,
+  "fin": 8.04
+ },
+ {
+  "texto": "concuerdo",
+  "inicio": 8.04,
+  "fin": 8.36
+ },
+ {
+  "texto": "un",
+  "inicio": 8.36,
+  "fin": 8.46
+ },
+ {
+  "texto": "poco",
+  "inicio": 8.46,
+  "fin": 8.68
+ },
+ {
+  "texto": "con",
+  "inicio": 8.68,
+  "fin": 8.76
+ },
+ {
+  "texto": "él",
+  "inicio": 8.76,
+  "fin": 8.96
+ },
+ {
+  "texto": "porque",
+  "inicio": 8.96,
+  "fin": 9.24
+ },
+ {
+  "texto": "cuando",
+  "inicio": 9.24,
+  "fin": 9.42
+ },
+ {
+  "texto": "a",
+  "inicio": 9.42,
+  "fin": 9.5
+ },
+ {
+  "texto": "ti",
+  "inicio": 9.5,
+  "fin": 9.64
+ },
+ {
+  "texto": "te",
+  "inicio": 9.64,
+  "fin": 9.86
+ },
+ {
+  "texto": "gusta",
+  "inicio": 9.86,
+  "fin": 10.06
+ },
+ {
+  "texto": "de",
+  "inicio": 10.06,
+  "fin": 10.18
+ },
+ {
+  "texto": "verdad",
+  "inicio": 10.18,
+  "fin": 10.34
+ },
+ {
+  "texto": "lo",
+  "inicio": 10.34,
+  "fin": 10.42
+ },
+ {
+  "texto": "que",
+  "inicio": 10.42,
+  "fin": 10.56
+ },
+ {
+  "texto": "haces,",
+  "inicio": 10.56,
+  "fin": 10.94
+ },
+ {
+  "texto": "acabas",
+  "inicio": 11.4,
+  "fin": 11.78
+ },
+ {
+  "texto": "encontrando",
+  "inicio": 11.78,
+  "fin": 12.18
+ },
+ {
+  "texto": "el",
+  "inicio": 12.18,
+  "fin": 12.36
+ },
+ {
+  "texto": "como.",
+  "inicio": 12.36,
+  "fin": 12.44
+ },
+ {
+  "texto": "Entonces,",
+  "inicio": 12.7,
+  "fin": 12.88
+ },
+ {
+  "texto": "muchas",
+  "inicio": 13.26,
+  "fin": 13.46
+ },
+ {
+  "texto": "veces",
+  "inicio": 13.46,
+  "fin": 13.62
+ },
+ {
+  "texto": "es",
+  "inicio": 13.62,
+  "fin": 13.76
+ },
+ {
+  "texto": "mucho",
+  "inicio": 13.76,
+  "fin": 14
+ },
+ {
+  "texto": "mejor",
+  "inicio": 14,
+  "fin": 14.26
+ },
+ {
+  "texto": "centrarte",
+  "inicio": 14.26,
+  "fin": 14.62
+ },
+ {
+  "texto": "en",
+  "inicio": 14.62,
+  "fin": 14.74
+ },
+ {
+  "texto": "lo",
+  "inicio": 14.74,
+  "fin": 14.88
+ },
+ {
+  "texto": "que",
+  "inicio": 14.88,
+  "fin": 15.18
+ },
+ {
+  "texto": "quieres,",
+  "inicio": 15.18,
+  "fin": 15.3
+ },
+ {
+  "texto": "que",
+  "inicio": 15.48,
+  "fin": 15.6
+ },
+ {
+  "texto": "en",
+  "inicio": 15.6,
+  "fin": 15.72
+ },
+ {
+  "texto": "el",
+  "inicio": 15.72,
+  "fin": 16
+ },
+ {
+  "texto": "como",
+  "inicio": 16,
+  "fin": 16.28
+ },
+ {
+  "texto": "consigue",
+  "inicio": 16.28,
+  "fin": 16.5
+ },
+ {
+  "texto": "lo",
+  "inicio": 16.5,
+  "fin": 16.6
+ },
+ {
+  "texto": "que",
+  "inicio": 16.6,
+  "fin": 16.78
+ },
+ {
+  "texto": "quieres",
+  "inicio": 16.78,
+  "fin": 17
+ },
+ {
+  "texto": "porque",
+  "inicio": 17,
+  "fin": 17.16
+ },
+ {
+  "texto": "el",
+  "inicio": 17.16,
+  "fin": 17.3
+ },
+ {
+  "texto": "como",
+  "inicio": 17.3,
+  "fin": 17.48
+ },
+ {
+  "texto": "acaba",
+  "inicio": 17.48,
+  "fin": 17.62
+ },
+ {
+  "texto": "llegando",
+  "inicio": 17.62,
+  "fin": 17.98
+ },
+ {
+  "texto": "solo.",
+  "inicio": 17.98,
+  "fin": 18.14
+ }
+]

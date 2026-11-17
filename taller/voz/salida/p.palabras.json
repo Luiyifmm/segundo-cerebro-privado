@@ -1,0 +1,82 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 0,
+  "fin": 0.08
+ },
+ {
+  "texto": "te",
+  "inicio": 0.08,
+  "fin": 0.24
+ },
+ {
+  "texto": "estoy",
+  "inicio": 0.24,
+  "fin": 0.42
+ },
+ {
+  "texto": "mintiendo,",
+  "inicio": 0.42,
+  "fin": 0.86
+ },
+ {
+  "texto": "después",
+  "inicio": 0.98,
+  "fin": 1.1
+ },
+ {
+  "texto": "de",
+  "inicio": 1.1,
+  "fin": 1.2
+ },
+ {
+  "texto": "ver",
+  "inicio": 1.2,
+  "fin": 1.3
+ },
+ {
+  "texto": "la",
+  "inicio": 1.3,
+  "fin": 1.5
+ },
+ {
+  "texto": "clase,",
+  "inicio": 1.5,
+  "fin": 1.64
+ },
+ {
+  "texto": "bloquea",
+  "inicio": 1.78,
+  "fin": 2.3
+ },
+ {
+  "texto": "directamente",
+  "inicio": 2.3,
+  "fin": 2.52
+ },
+ {
+  "texto": "mi",
+  "inicio": 2.52,
+  "fin": 2.74
+ },
+ {
+  "texto": "perfil",
+  "inicio": 2.74,
+  "fin": 2.94
+ },
+ {
+  "texto": "de",
+  "inicio": 2.94,
+  "fin": 3.12
+ },
+ {
+  "texto": "Instagram.",
+  "inicio": 3.12,
+  "fin": 4.98
+ },
+ {
+  "texto": "Hazle.",
+  "inicio": 5.18,
+  "fin": 5.58
+ }
+]

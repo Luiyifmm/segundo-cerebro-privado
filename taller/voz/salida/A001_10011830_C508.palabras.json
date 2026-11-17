@@ -1,0 +1,227 @@
+[
+ {
+  "texto": "¿Cómo",
+  "inicio": 14.46,
+  "fin": 17.24
+ },
+ {
+  "texto": "calcular?",
+  "inicio": 17.24,
+  "fin": 29.58
+ },
+ {
+  "texto": "esto.",
+  "inicio": 26.54,
+  "fin": 27.06
+ },
+ {
+  "texto": "Coges",
+  "inicio": 27.06,
+  "fin": 27.32
+ },
+ {
+  "texto": "tu",
+  "inicio": 27.32,
+  "fin": 27.56
+ },
+ {
+  "texto": "peso",
+  "inicio": 27.56,
+  "fin": 27.72
+ },
+ {
+  "texto": "y",
+  "inicio": 27.72,
+  "fin": 27.96
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 27.96,
+  "fin": 28.68
+ },
+ {
+  "texto": "por",
+  "inicio": 28.68,
+  "fin": 29.1
+ },
+ {
+  "texto": "30",
+  "inicio": 29.1,
+  "fin": 29.56
+ },
+ {
+  "texto": "o",
+  "inicio": 29.56,
+  "fin": 29.68
+ },
+ {
+  "texto": "por",
+  "inicio": 29.68,
+  "fin": 30.06
+ },
+ {
+  "texto": "35.",
+  "inicio": 30.06,
+  "fin": 30.66
+ },
+ {
+  "texto": "Estas",
+  "inicio": 30.9,
+  "fin": 31.12
+ },
+ {
+  "texto": "son",
+  "inicio": 31.12,
+  "fin": 31.26
+ },
+ {
+  "texto": "la",
+  "inicio": 31.26,
+  "fin": 31.5
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 31.5,
+  "fin": 31.7
+ },
+ {
+  "texto": "de",
+  "inicio": 31.7,
+  "fin": 31.86
+ },
+ {
+  "texto": "calorías",
+  "inicio": 31.86,
+  "fin": 32.1
+ },
+ {
+  "texto": "que",
+  "inicio": 32.24,
+  "fin": 32.46
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 32.46,
+  "fin": 33.08
+ },
+ {
+  "texto": "para",
+  "inicio": 33.08,
+  "fin": 33.26
+ },
+ {
+  "texto": "día",
+  "inicio": 33.26,
+  "fin": 33.4
+ },
+ {
+  "texto": "a",
+  "inicio": 33.4,
+  "fin": 33.5
+ },
+ {
+  "texto": "día.",
+  "inicio": 33.5,
+  "fin": 35.68
+ },
+ {
+  "texto": "Coges",
+  "inicio": 37.06,
+  "fin": 37.42
+ },
+ {
+  "texto": "tu",
+  "inicio": 37.42,
+  "fin": 37.74
+ },
+ {
+  "texto": "peso",
+  "inicio": 37.74,
+  "fin": 38.04
+ },
+ {
+  "texto": "y",
+  "inicio": 38.04,
+  "fin": 38.34
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 38.34,
+  "fin": 39.04
+ },
+ {
+  "texto": "por",
+  "inicio": 39.04,
+  "fin": 39.34
+ },
+ {
+  "texto": "1",
+  "inicio": 39.34,
+  "fin": 39.56
+ },
+ {
+  "texto": ".6",
+  "inicio": 39.56,
+  "fin": 40.4
+ },
+ {
+  "texto": "o",
+  "inicio": 40.4,
+  "fin": 40.8
+ },
+ {
+  "texto": "2.",
+  "inicio": 40.8,
+  "fin": 41.24
+ },
+ {
+  "texto": "Esta",
+  "inicio": 41.6,
+  "fin": 41.88
+ },
+ {
+  "texto": "es",
+  "inicio": 41.88,
+  "fin": 41.96
+ },
+ {
+  "texto": "la",
+  "inicio": 41.96,
+  "fin": 42.2
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 42.2,
+  "fin": 42.32
+ },
+ {
+  "texto": "proteína",
+  "inicio": 42.56,
+  "fin": 42.9
+ },
+ {
+  "texto": "que",
+  "inicio": 42.9,
+  "fin": 43.1
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 43.1,
+  "fin": 43.82
+ },
+ {
+  "texto": "para",
+  "inicio": 43.82,
+  "fin": 43.96
+ },
+ {
+  "texto": "todo",
+  "inicio": 43.96,
+  "fin": 44.2
+ },
+ {
+  "texto": "día.",
+  "inicio": 44.2,
+  "fin": 44.2
+ }
+]

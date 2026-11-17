@@ -1,0 +1,507 @@
+[
+ {
+  "texto": "Así",
+  "inicio": 0.24,
+  "fin": 0.36
+ },
+ {
+  "texto": "se",
+  "inicio": 0.36,
+  "fin": 0.46
+ },
+ {
+  "texto": "viste",
+  "inicio": 0.46,
+  "fin": 0.66
+ },
+ {
+  "texto": "a",
+  "inicio": 0.66,
+  "fin": 0.7
+ },
+ {
+  "texto": "la",
+  "inicio": 0.7,
+  "fin": 0.88
+ },
+ {
+  "texto": "mujer",
+  "inicio": 0.88,
+  "fin": 1.06
+ },
+ {
+  "texto": "que",
+  "inicio": 1.06,
+  "fin": 1.26
+ },
+ {
+  "texto": "solo",
+  "inicio": 1.26,
+  "fin": 1.52
+ },
+ {
+  "texto": "quieren",
+  "inicio": 1.52,
+  "fin": 1.78
+ },
+ {
+  "texto": "para",
+  "inicio": 1.78,
+  "fin": 1.92
+ },
+ {
+  "texto": "una",
+  "inicio": 1.92,
+  "fin": 2.18
+ },
+ {
+  "texto": "noche",
+  "inicio": 2.18,
+  "fin": 2.4
+ },
+ {
+  "texto": "y",
+  "inicio": 2.4,
+  "fin": 2.56
+ },
+ {
+  "texto": "así",
+  "inicio": 2.56,
+  "fin": 2.72
+ },
+ {
+  "texto": "se",
+  "inicio": 2.72,
+  "fin": 2.86
+ },
+ {
+  "texto": "viste",
+  "inicio": 2.86,
+  "fin": 3.1
+ },
+ {
+  "texto": "a",
+  "inicio": 3.1,
+  "fin": 3.12
+ },
+ {
+  "texto": "la",
+  "inicio": 3.12,
+  "fin": 3.32
+ },
+ {
+  "texto": "mujer",
+  "inicio": 3.32,
+  "fin": 3.52
+ },
+ {
+  "texto": "que",
+  "inicio": 3.54,
+  "fin": 3.72
+ },
+ {
+  "texto": "quieren",
+  "inicio": 3.78,
+  "fin": 4.06
+ },
+ {
+  "texto": "para",
+  "inicio": 4.06,
+  "fin": 4.28
+ },
+ {
+  "texto": "toda",
+  "inicio": 4.28,
+  "fin": 4.46
+ },
+ {
+  "texto": "la",
+  "inicio": 4.46,
+  "fin": 4.66
+ },
+ {
+  "texto": "vida.",
+  "inicio": 4.66,
+  "fin": 4.8
+ },
+ {
+  "texto": "A",
+  "inicio": 4.92,
+  "fin": 5.1
+ },
+ {
+  "texto": "ésta",
+  "inicio": 5.1,
+  "fin": 5.56
+ },
+ {
+  "texto": "solo",
+  "inicio": 5.56,
+  "fin": 5.7
+ },
+ {
+  "texto": "la",
+  "inicio": 5.7,
+  "fin": 5.86
+ },
+ {
+  "texto": "quieren",
+  "inicio": 5.86,
+  "fin": 6.14
+ },
+ {
+  "texto": "para",
+  "inicio": 6.14,
+  "fin": 6.28
+ },
+ {
+  "texto": "una",
+  "inicio": 6.28,
+  "fin": 6.52
+ },
+ {
+  "texto": "cosa.",
+  "inicio": 6.52,
+  "fin": 6.84
+ },
+ {
+  "texto": "Ya",
+  "inicio": 6.98,
+  "fin": 7.18
+ },
+ {
+  "texto": "sabes",
+  "inicio": 7.18,
+  "fin": 7.38
+ },
+ {
+  "texto": "para",
+  "inicio": 7.38,
+  "fin": 7.52
+ },
+ {
+  "texto": "qué.",
+  "inicio": 7.52,
+  "fin": 7.6
+ },
+ {
+  "texto": "A",
+  "inicio": 7.68,
+  "fin": 7.82
+ },
+ {
+  "texto": "ésta",
+  "inicio": 7.82,
+  "fin": 8
+ },
+ {
+  "texto": "la",
+  "inicio": 8,
+  "fin": 8.24
+ },
+ {
+  "texto": "respetan.",
+  "inicio": 8.24,
+  "fin": 8.8
+ },
+ {
+  "texto": "A",
+  "inicio": 8.98,
+  "fin": 9.12
+ },
+ {
+  "texto": "ella",
+  "inicio": 9.12,
+  "fin": 9.26
+ },
+ {
+  "texto": "la",
+  "inicio": 9.26,
+  "fin": 9.44
+ },
+ {
+  "texto": "buscan",
+  "inicio": 9.44,
+  "fin": 9.8
+ },
+ {
+  "texto": "para",
+  "inicio": 9.8,
+  "fin": 9.98
+ },
+ {
+  "texto": "divertirse",
+  "inicio": 9.98,
+  "fin": 10.56
+ },
+ {
+  "texto": "y",
+  "inicio": 10.56,
+  "fin": 10.84
+ },
+ {
+  "texto": "perder",
+  "inicio": 10.84,
+  "fin": 11.06
+ },
+ {
+  "texto": "el",
+  "inicio": 11.06,
+  "fin": 11.34
+ },
+ {
+  "texto": "tiempo.",
+  "inicio": 11.34,
+  "fin": 11.48
+ },
+ {
+  "texto": "Y",
+  "inicio": 11.58,
+  "fin": 11.78
+ },
+ {
+  "texto": "con",
+  "inicio": 11.78,
+  "fin": 11.96
+ },
+ {
+  "texto": "ella",
+  "inicio": 11.96,
+  "fin": 12.22
+ },
+ {
+  "texto": "para",
+  "inicio": 12.22,
+  "fin": 12.54
+ },
+ {
+  "texto": "prosperar",
+  "inicio": 12.54,
+  "fin": 12.88
+ },
+ {
+  "texto": "la",
+  "inicio": 12.88,
+  "fin": 13
+ },
+ {
+  "texto": "vida",
+  "inicio": 13,
+  "fin": 13.28
+ },
+ {
+  "texto": "entera.",
+  "inicio": 13.28,
+  "fin": 13.52
+ },
+ {
+  "texto": "La",
+  "inicio": 13.6,
+  "fin": 13.84
+ },
+ {
+  "texto": "regla",
+  "inicio": 13.84,
+  "fin": 14.12
+ },
+ {
+  "texto": "es",
+  "inicio": 14.12,
+  "fin": 14.36
+ },
+ {
+  "texto": "cruel",
+  "inicio": 14.36,
+  "fin": 14.72
+ },
+ {
+  "texto": "pero",
+  "inicio": 14.72,
+  "fin": 14.88
+ },
+ {
+  "texto": "es",
+  "inicio": 14.88,
+  "fin": 15.06
+ },
+ {
+  "texto": "innegable.",
+  "inicio": 15.06,
+  "fin": 15.46
+ },
+ {
+  "texto": "Atraes",
+  "inicio": 15.66,
+  "fin": 16.5
+ },
+ {
+  "texto": "exactamente",
+  "inicio": 16.5,
+  "fin": 17.04
+ },
+ {
+  "texto": "lo",
+  "inicio": 17.04,
+  "fin": 17.18
+ },
+ {
+  "texto": "que",
+  "inicio": 17.18,
+  "fin": 17.52
+ },
+ {
+  "texto": "proyectas.",
+  "inicio": 17.52,
+  "fin": 17.84
+ },
+ {
+  "texto": "Como",
+  "inicio": 17.94,
+  "fin": 18.12
+ },
+ {
+  "texto": "esa",
+  "inicio": 18.12,
+  "fin": 18.28
+ },
+ {
+  "texto": "adentro,",
+  "inicio": 18.28,
+  "fin": 19
+ },
+ {
+  "texto": "esa",
+  "inicio": 19.26,
+  "fin": 19.5
+ },
+ {
+  "texto": "fuera.",
+  "inicio": 19.5,
+  "fin": 19.74
+ },
+ {
+  "texto": "La",
+  "inicio": 19.84,
+  "fin": 20.14
+ },
+ {
+  "texto": "forma",
+  "inicio": 20.14,
+  "fin": 20.28
+ },
+ {
+  "texto": "en",
+  "inicio": 20.28,
+  "fin": 20.32
+ },
+ {
+  "texto": "la",
+  "inicio": 20.32,
+  "fin": 20.48
+ },
+ {
+  "texto": "que",
+  "inicio": 20.48,
+  "fin": 20.84
+ },
+ {
+  "texto": "representas",
+  "inicio": 20.84,
+  "fin": 21.24
+ },
+ {
+  "texto": "al",
+  "inicio": 21.24,
+  "fin": 21.42
+ },
+ {
+  "texto": "mundo",
+  "inicio": 21.42,
+  "fin": 21.68
+ },
+ {
+  "texto": "adicta",
+  "inicio": 21.68,
+  "fin": 22.28
+ },
+ {
+  "texto": "cómo",
+  "inicio": 22.28,
+  "fin": 22.44
+ },
+ {
+  "texto": "te",
+  "inicio": 22.44,
+  "fin": 22.56
+ },
+ {
+  "texto": "van",
+  "inicio": 22.56,
+  "fin": 22.64
+ },
+ {
+  "texto": "a",
+  "inicio": 22.64,
+  "fin": 22.9
+ },
+ {
+  "texto": "tratar",
+  "inicio": 22.9,
+  "fin": 23.48
+ },
+ {
+  "texto": "y",
+  "inicio": 23.48,
+  "fin": 23.76
+ },
+ {
+  "texto": "cómo",
+  "inicio": 23.76,
+  "fin": 23.94
+ },
+ {
+  "texto": "te",
+  "inicio": 23.94,
+  "fin": 24.06
+ },
+ {
+  "texto": "van",
+  "inicio": 24.06,
+  "fin": 24.16
+ },
+ {
+  "texto": "a",
+  "inicio": 24.16,
+  "fin": 24.34
+ },
+ {
+  "texto": "valorar.",
+  "inicio": 24.34,
+  "fin": 24.48
+ },
+ {
+  "texto": "Sígueme",
+  "inicio": 24.6,
+  "fin": 25.42
+ },
+ {
+  "texto": "para",
+  "inicio": 25.42,
+  "fin": 25.74
+ },
+ {
+  "texto": "mejorar",
+  "inicio": 25.74,
+  "fin": 25.88
+ },
+ {
+  "texto": "tu",
+  "inicio": 25.88,
+  "fin": 26.04
+ },
+ {
+  "texto": "vida.",
+  "inicio": 26.04,
+  "fin": 26.04
+ }
+]

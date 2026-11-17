@@ -1,0 +1,87 @@
+[
+ {
+  "texto": "Perdona.",
+  "inicio": 0.28,
+  "fin": 1
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 1.66,
+  "fin": 1.78
+ },
+ {
+  "texto": "dime.",
+  "inicio": 1.82,
+  "fin": 2
+ },
+ {
+  "texto": "¿Cuántas",
+  "inicio": 2.48,
+  "fin": 2.98
+ },
+ {
+  "texto": "calorías",
+  "inicio": 2.98,
+  "fin": 3.56
+ },
+ {
+  "texto": "consume",
+  "inicio": 3.56,
+  "fin": 3.92
+ },
+ {
+  "texto": "al",
+  "inicio": 3.92,
+  "fin": 4.1
+ },
+ {
+  "texto": "día?",
+  "inicio": 4.1,
+  "fin": 4.6
+ },
+ {
+  "texto": "Unas",
+  "inicio": 4.82,
+  "fin": 5.34
+ },
+ {
+  "texto": "3",
+  "inicio": 5.34,
+  "fin": 5.6
+ },
+ {
+  "texto": ".450",
+  "inicio": 5.6,
+  "fin": 7.3
+ },
+ {
+  "texto": "o",
+  "inicio": 7.3,
+  "fin": 7.46
+ },
+ {
+  "texto": "así",
+  "inicio": 7.46,
+  "fin": 7.58
+ },
+ {
+  "texto": "más",
+  "inicio": 7.58,
+  "fin": 7.72
+ },
+ {
+  "texto": "o",
+  "inicio": 7.72,
+  "fin": 7.86
+ },
+ {
+  "texto": "menos.",
+  "inicio": 7.86,
+  "fin": 8
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 8.54,
+  "fin": 9
+ }
+]

@@ -1,0 +1,362 @@
+[
+ {
+  "texto": "Yo",
+  "inicio": 0.18,
+  "fin": 0.22
+ },
+ {
+  "texto": "he",
+  "inicio": 0.22,
+  "fin": 0.4
+ },
+ {
+  "texto": "relacionado",
+  "inicio": 0.4,
+  "fin": 0.78
+ },
+ {
+  "texto": "dos",
+  "inicio": 0.78,
+  "fin": 1.02
+ },
+ {
+  "texto": "cosas",
+  "inicio": 1.02,
+  "fin": 1.2
+ },
+ {
+  "texto": "chicos,",
+  "inicio": 1.2,
+  "fin": 1.38
+ },
+ {
+  "texto": "ha",
+  "inicio": 1.46,
+  "fin": 1.66
+ },
+ {
+  "texto": "dicho",
+  "inicio": 1.66,
+  "fin": 1.88
+ },
+ {
+  "texto": "que",
+  "inicio": 1.88,
+  "fin": 2.22
+ },
+ {
+  "texto": "gestión",
+  "inicio": 2.22,
+  "fin": 2.78
+ },
+ {
+  "texto": "financiera",
+  "inicio": 2.78,
+  "fin": 3.66
+ },
+ {
+  "texto": "inmuebles,",
+  "inicio": 3.66,
+  "fin": 4.16
+ },
+ {
+  "texto": "y",
+  "inicio": 4.58,
+  "fin": 4.64
+ },
+ {
+  "texto": "número",
+  "inicio": 4.64,
+  "fin": 4.96
+ },
+ {
+  "texto": "dos",
+  "inicio": 4.96,
+  "fin": 5.4
+ },
+ {
+  "texto": "ha",
+  "inicio": 5.4,
+  "fin": 5.64
+ },
+ {
+  "texto": "dicho",
+  "inicio": 5.64,
+  "fin": 5.86
+ },
+ {
+  "texto": "turismo.",
+  "inicio": 5.86,
+  "fin": 6.16
+ },
+ {
+  "texto": "Yo",
+  "inicio": 6.86,
+  "fin": 7.1
+ },
+ {
+  "texto": "por",
+  "inicio": 7.1,
+  "fin": 7.24
+ },
+ {
+  "texto": "la",
+  "inicio": 7.24,
+  "fin": 7.42
+ },
+ {
+  "texto": "mezcla",
+  "inicio": 7.42,
+  "fin": 7.92
+ },
+ {
+  "texto": "veo",
+  "inicio": 7.92,
+  "fin": 8.16
+ },
+ {
+  "texto": "venir",
+  "inicio": 8.16,
+  "fin": 8.38
+ },
+ {
+  "texto": "que",
+  "inicio": 8.38,
+  "fin": 8.6
+ },
+ {
+  "texto": "esa",
+  "inicio": 8.6,
+  "fin": 8.78
+ },
+ {
+  "texto": "mujer",
+  "inicio": 8.78,
+  "fin": 8.98
+ },
+ {
+  "texto": "se",
+  "inicio": 8.98,
+  "fin": 9.16
+ },
+ {
+  "texto": "dedicaba",
+  "inicio": 9.16,
+  "fin": 9.46
+ },
+ {
+  "texto": "al",
+  "inicio": 9.46,
+  "fin": 9.62
+ },
+ {
+  "texto": "real",
+  "inicio": 9.62,
+  "fin": 9.9
+ },
+ {
+  "texto": "estate",
+  "inicio": 9.9,
+  "fin": 10.14
+ },
+ {
+  "texto": "a",
+  "inicio": 10.14,
+  "fin": 10.18
+ },
+ {
+  "texto": "lo",
+  "inicio": 10.18,
+  "fin": 10.5
+ },
+ {
+  "texto": "grande,",
+  "inicio": 10.5,
+  "fin": 10.62
+ },
+ {
+  "texto": "gestión",
+  "inicio": 10.82,
+  "fin": 11.2
+ },
+ {
+  "texto": "hotelera,",
+  "inicio": 11.2,
+  "fin": 11.92
+ },
+ {
+  "texto": "etc",
+  "inicio": 12.14,
+  "fin": 12.5
+ },
+ {
+  "texto": "etc",
+  "inicio": 12.5,
+  "fin": 12.74
+ },
+ {
+  "texto": "etc,",
+  "inicio": 12.74,
+  "fin": 12.98
+ },
+ {
+  "texto": "pero",
+  "inicio": 13.16,
+  "fin": 13.96
+ },
+ {
+  "texto": "aún",
+  "inicio": 13.96,
+  "fin": 14.28
+ },
+ {
+  "texto": "me",
+  "inicio": 14.28,
+  "fin": 14.36
+ },
+ {
+  "texto": "da",
+  "inicio": 14.36,
+  "fin": 14.44
+ },
+ {
+  "texto": "un",
+  "inicio": 14.44,
+  "fin": 14.58
+ },
+ {
+  "texto": "poquito",
+  "inicio": 14.58,
+  "fin": 14.78
+ },
+ {
+  "texto": "de",
+  "inicio": 14.78,
+  "fin": 14.88
+ },
+ {
+  "texto": "cosa",
+  "inicio": 14.88,
+  "fin": 15.04
+ },
+ {
+  "texto": "a",
+  "inicio": 15.04,
+  "fin": 15.16
+ },
+ {
+  "texto": "preguntar",
+  "inicio": 15.16,
+  "fin": 15.84
+ },
+ {
+  "texto": "exactamente",
+  "inicio": 15.84,
+  "fin": 15.92
+ },
+ {
+  "texto": "oye,",
+  "inicio": 16.04,
+  "fin": 16.18
+ },
+ {
+  "texto": "¿a",
+  "inicio": 16.24,
+  "fin": 16.3
+ },
+ {
+  "texto": "qué",
+  "inicio": 16.3,
+  "fin": 16.46
+ },
+ {
+  "texto": "te",
+  "inicio": 16.46,
+  "fin": 16.64
+ },
+ {
+  "texto": "dedicas?",
+  "inicio": 16.64,
+  "fin": 16.92
+ },
+ {
+  "texto": "En",
+  "inicio": 17.54,
+  "fin": 17.66
+ },
+ {
+  "texto": "mi",
+  "inicio": 17.66,
+  "fin": 17.9
+ },
+ {
+  "texto": "primera",
+  "inicio": 17.9,
+  "fin": 18.12
+ },
+ {
+  "texto": "entrevista,",
+  "inicio": 18.12,
+  "fin": 18.34
+ },
+ {
+  "texto": "no",
+  "inicio": 18.42,
+  "fin": 18.5
+ },
+ {
+  "texto": "me",
+  "inicio": 18.5,
+  "fin": 18.54
+ },
+ {
+  "texto": "lo",
+  "inicio": 18.54,
+  "fin": 18.68
+ },
+ {
+  "texto": "tengáis",
+  "inicio": 18.68,
+  "fin": 18.9
+ },
+ {
+  "texto": "en",
+  "inicio": 18.9,
+  "fin": 19.08
+ },
+ {
+  "texto": "cuenta,",
+  "inicio": 19.08,
+  "fin": 19.2
+ },
+ {
+  "texto": "cada",
+  "inicio": 19.32,
+  "fin": 19.74
+ },
+ {
+  "texto": "entrevista",
+  "inicio": 19.74,
+  "fin": 20.14
+ },
+ {
+  "texto": "irá",
+  "inicio": 20.14,
+  "fin": 20.38
+ },
+ {
+  "texto": "a",
+  "inicio": 20.38,
+  "fin": 20.68
+ },
+ {
+  "texto": "mejor,",
+  "inicio": 20.68,
+  "fin": 20.78
+ },
+ {
+  "texto": "señores.",
+  "inicio": 20.92,
+  "fin": 21.16
+ }
+]

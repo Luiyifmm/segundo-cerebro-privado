@@ -1,0 +1,112 @@
+[
+ {
+  "texto": "El",
+  "inicio": 1.2,
+  "fin": 1.42
+ },
+ {
+  "texto": "desayuno",
+  "inicio": 1.42,
+  "fin": 1.94
+ },
+ {
+  "texto": "es",
+  "inicio": 1.94,
+  "fin": 2.1
+ },
+ {
+  "texto": "una",
+  "inicio": 2.1,
+  "fin": 2.18
+ },
+ {
+  "texto": "de",
+  "inicio": 2.18,
+  "fin": 2.28
+ },
+ {
+  "texto": "las",
+  "inicio": 2.28,
+  "fin": 2.46
+ },
+ {
+  "texto": "comidas",
+  "inicio": 2.46,
+  "fin": 2.86
+ },
+ {
+  "texto": "más",
+  "inicio": 2.86,
+  "fin": 3.42
+ },
+ {
+  "texto": "importantes",
+  "inicio": 3.42,
+  "fin": 3.68
+ },
+ {
+  "texto": "del",
+  "inicio": 3.68,
+  "fin": 3.86
+ },
+ {
+  "texto": "día.",
+  "inicio": 3.86,
+  "fin": 4
+ },
+ {
+  "texto": "Te",
+  "inicio": 4.1,
+  "fin": 4.26
+ },
+ {
+  "texto": "debe",
+  "inicio": 4.26,
+  "fin": 4.4
+ },
+ {
+  "texto": "aportar",
+  "inicio": 4.4,
+  "fin": 4.98
+ },
+ {
+  "texto": "energía,",
+  "inicio": 4.98,
+  "fin": 5.3
+ },
+ {
+  "texto": "buena",
+  "inicio": 5.44,
+  "fin": 5.56
+ },
+ {
+  "texto": "fuente",
+  "inicio": 5.56,
+  "fin": 5.76
+ },
+ {
+  "texto": "de",
+  "inicio": 5.76,
+  "fin": 5.94
+ },
+ {
+  "texto": "proteínas",
+  "inicio": 5.94,
+  "fin": 6.5
+ },
+ {
+  "texto": "y",
+  "inicio": 6.5,
+  "fin": 6.72
+ },
+ {
+  "texto": "buenas",
+  "inicio": 6.72,
+  "fin": 6.96
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 6.96,
+  "fin": 7
+ }
+]

@@ -15,6 +15,7 @@ Generado por `~/Videos-Remotion/herramientas/obsidian/mapa.py` el 17-11-2026. No
 
 ## 1 REFERENCIAS
 
+- [[00 ÍNDICE DE REFERENCIAS Y ESTUDIOS|00 ÍNDICE DE REFERENCIAS Y ESTUDIOS]] — Generado por ~/Videos-Remotion/herramientas/indice_referencias.py el 17-11-2026. No editar a mano.
 - [[1 REFERENCIAS/LEEME|LEEME]] — Lo que tenías en "4 REFERENCIAS" (sigue habiendo un acceso con ese nombre en EDICION):
 - [[1 REFERENCIAS/Analizadas por Claude/2026-10-30 estilo Amin/LEEME|Analizadas por Claude/2026-10-30 estilo Amin/LEEME]] — Hojas de fotogramas: hoja-1.jpg … hoja-4.jpg. Lo que se repite en las cuatro es lo que aplico.
 - [[1 REFERENCIAS/Analizadas por Claude/2026-11-07 referencias lote 6887/LEEME|Analizadas por Claude/2026-11-07 referencias lote 6887/LEEME]] — - Descarga: con yt-dlp sin cookies ni sesión. Sin extraer credenciales.

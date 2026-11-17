@@ -1,0 +1,86 @@
+[
+{
+"texto": "Casi",
+"inicio": 0.226,
+"fin": 0.547,
+"score": 0.617
+},
+{
+"texto": "en",
+"inicio": 0.567,
+"fin": 0.607,
+"score": 0.388
+},
+{
+"texto": "el",
+"inicio": 0.627,
+"fin": 0.667,
+"score": 0.368
+},
+{
+"texto": "día",
+"inicio": 0.707,
+"fin": 0.868,
+"score": 0.827
+},
+{
+"texto": "se",
+"inicio": 0.908,
+"fin": 0.968,
+"score": 0.269
+},
+{
+"texto": "está",
+"inicio": 1.028,
+"fin": 1.208,
+"score": 0.871
+},
+{
+"texto": "en",
+"inicio": 1.249,
+"fin": 1.309,
+"score": 0.806
+},
+{
+"texto": "el",
+"inicio": 1.409,
+"fin": 1.469,
+"score": 0.451
+},
+{
+"texto": "gym",
+"inicio": 1.489,
+"fin": 1.569,
+"score": 0.15
+},
+{
+"texto": "y",
+"inicio": 1.67,
+"fin": 1.71,
+"score": 0.53
+},
+{
+"texto": "probablemente",
+"inicio": 1.75,
+"fin": 2.271,
+"score": 0.669
+},
+{
+"texto": "es",
+"inicio": 2.291,
+"fin": 2.371,
+"score": 0.33
+},
+{
+"texto": "lo",
+"inicio": 2.391,
+"fin": 2.432,
+"score": 0.122
+},
+{
+"texto": "tánico.",
+"inicio": 2.492,
+"fin": 2.752,
+"score": 0.394
+}
+]

@@ -1,0 +1,1370 @@
+[
+{
+"texto": "en",
+"inicio": 315.062,
+"fin": 315.122,
+"score": 0.49
+},
+{
+"texto": "pie",
+"inicio": 315.142,
+"fin": 315.322,
+"score": 0.564
+},
+{
+"texto": "de",
+"inicio": 315.342,
+"fin": 315.462,
+"score": 0.636
+},
+{
+"texto": "gratuito,",
+"inicio": 315.502,
+"fin": 316.183,
+"score": 0.835
+},
+{
+"texto": "en",
+"inicio": 317.364,
+"fin": 317.404,
+"score": 0.224
+},
+{
+"texto": "estancia",
+"inicio": 317.444,
+"fin": 317.904,
+"score": 0.552
+},
+{
+"texto": "gratuita,",
+"inicio": 317.985,
+"fin": 318.645,
+"score": 0.738
+},
+{
+"texto": "pero",
+"inicio": 319.766,
+"fin": 320.226,
+"score": 0.663
+},
+{
+"texto": "no",
+"inicio": 320.987,
+"fin": 321.067,
+"score": 0.834
+},
+{
+"texto": "voy",
+"inicio": 321.127,
+"fin": 321.287,
+"score": 0.645
+},
+{
+"texto": "a",
+"inicio": 321.307,
+"fin": 321.327,
+"score": 0.948
+},
+{
+"texto": "ser",
+"inicio": 321.447,
+"fin": 321.608,
+"score": 0.846
+},
+{
+"texto": "retiro",
+"inicio": 322.008,
+"fin": 322.428,
+"score": 0.737
+},
+{
+"texto": "como",
+"inicio": 322.448,
+"fin": 322.728,
+"score": 0.418
+},
+{
+"texto": "quizás",
+"inicio": 322.748,
+"fin": 323.029,
+"score": 0.438
+},
+{
+"texto": "si",
+"inicio": 323.049,
+"fin": 323.129,
+"score": 0.412
+},
+{
+"texto": "no",
+"inicio": 323.169,
+"fin": 323.329,
+"score": 0.46
+},
+{
+"texto": "se",
+"inicio": 323.369,
+"fin": 323.429,
+"score": 0.877
+},
+{
+"texto": "lo",
+"inicio": 323.469,
+"fin": 323.529,
+"score": 0.511
+},
+{
+"texto": "desea.",
+"inicio": 323.549,
+"fin": 324.09,
+"score": 0.807
+},
+{
+"texto": "¿Qué",
+"inicio": 324.11,
+"fin": 326.171,
+"score": 0.665
+},
+{
+"texto": "es",
+"inicio": 326.231,
+"fin": 326.412,
+"score": 0.747
+},
+{
+"texto": "ser",
+"inicio": 326.472,
+"fin": 326.752,
+"score": 0.742
+},
+{
+"texto": "cristial?",
+"inicio": 326.812,
+"fin": 329.454,
+"score": 0.445
+},
+{
+"texto": "Todas",
+"inicio": 329.494,
+"fin": 329.754,
+"score": 0.562
+},
+{
+"texto": "estas",
+"inicio": 329.794,
+"fin": 330.055,
+"score": 0.86
+},
+{
+"texto": "cosas",
+"inicio": 330.155,
+"fin": 330.635,
+"score": 0.85
+},
+{
+"texto": "pueden",
+"inicio": 331.436,
+"fin": 331.696,
+"score": 0.717
+},
+{
+"texto": "ser",
+"inicio": 331.836,
+"fin": 331.996,
+"score": 0.934
+},
+{
+"texto": "huevos.",
+"inicio": 332.176,
+"fin": 332.577,
+"score": 0.716
+},
+{
+"texto": "Un",
+"inicio": 333.698,
+"fin": 333.758,
+"score": 0.366
+},
+{
+"texto": "retiro",
+"inicio": 333.818,
+"fin": 334.378,
+"score": 0.808
+},
+{
+"texto": "puede",
+"inicio": 335.359,
+"fin": 335.659,
+"score": 0.544
+},
+{
+"texto": "ayudarnos",
+"inicio": 335.9,
+"fin": 336.6,
+"score": 0.751
+},
+{
+"texto": "a",
+"inicio": 336.68,
+"fin": 336.76,
+"score": 0.359
+},
+{
+"texto": "encontrarnos",
+"inicio": 336.82,
+"fin": 337.641,
+"score": 0.88
+},
+{
+"texto": "con",
+"inicio": 337.741,
+"fin": 337.941,
+"score": 0.816
+},
+{
+"texto": "el",
+"inicio": 338.041,
+"fin": 338.121,
+"score": 0.641
+},
+{
+"texto": "Señor.",
+"inicio": 338.221,
+"fin": 338.602,
+"score": 0.882
+},
+{
+"texto": "Una",
+"inicio": 340.023,
+"fin": 340.123,
+"score": 0.328
+},
+{
+"texto": "comunidad",
+"inicio": 340.223,
+"fin": 340.744,
+"score": 0.946
+},
+{
+"texto": "puede",
+"inicio": 342.025,
+"fin": 342.485,
+"score": 0.598
+},
+{
+"texto": "sostenernos",
+"inicio": 342.545,
+"fin": 343.426,
+"score": 0.701
+},
+{
+"texto": "En",
+"inicio": 344.018,
+"fin": 344.078,
+"score": 0.708
+},
+{
+"texto": "los",
+"inicio": 344.118,
+"fin": 344.258,
+"score": 0.748
+},
+{
+"texto": "momentos",
+"inicio": 344.298,
+"fin": 344.618,
+"score": 0.831
+},
+{
+"texto": "difíciles,",
+"inicio": 344.638,
+"fin": 345.358,
+"score": 0.725
+},
+{
+"texto": "una",
+"inicio": 346.659,
+"fin": 346.779,
+"score": 0.85
+},
+{
+"texto": "canción",
+"inicio": 346.899,
+"fin": 347.459,
+"score": 0.917
+},
+{
+"texto": "puede",
+"inicio": 347.479,
+"fin": 349.18,
+"score": 0.353
+},
+{
+"texto": "abrir",
+"inicio": 349.2,
+"fin": 349.54,
+"score": 0.906
+},
+{
+"texto": "nuestro",
+"inicio": 349.62,
+"fin": 349.88,
+"score": 0.365
+},
+{
+"texto": "corazón",
+"inicio": 349.92,
+"fin": 350.58,
+"score": 0.861
+},
+{
+"texto": "a",
+"inicio": 351.14,
+"fin": 351.2,
+"score": 0.802
+},
+{
+"texto": "la",
+"inicio": 351.22,
+"fin": 351.26,
+"score": 0.872
+},
+{
+"texto": "oración.",
+"inicio": 351.38,
+"fin": 351.88,
+"score": 0.821
+},
+{
+"texto": "Pero",
+"inicio": 353.201,
+"fin": 353.481,
+"score": 0.675
+},
+{
+"texto": "debemos",
+"inicio": 353.541,
+"fin": 353.961,
+"score": 0.788
+},
+{
+"texto": "hacernos",
+"inicio": 354.001,
+"fin": 354.741,
+"score": 0.658
+},
+{
+"texto": "una",
+"inicio": 355.502,
+"fin": 355.622,
+"score": 0.968
+},
+{
+"texto": "pregunta",
+"inicio": 355.702,
+"fin": 356.122,
+"score": 0.874
+},
+{
+"texto": "muy",
+"inicio": 356.222,
+"fin": 356.342,
+"score": 0.836
+},
+{
+"texto": "importante.",
+"inicio": 356.422,
+"fin": 357.142,
+"score": 0.888
+},
+{
+"texto": "Después",
+"inicio": 358.362,
+"fin": 358.843,
+"score": 0.76
+},
+{
+"texto": "de",
+"inicio": 358.903,
+"fin": 359.023,
+"score": 0.707
+},
+{
+"texto": "nuestro",
+"inicio": 359.083,
+"fin": 359.383,
+"score": 0.452
+},
+{
+"texto": "encuentro",
+"inicio": 359.423,
+"fin": 359.923,
+"score": 0.475
+},
+{
+"texto": "con",
+"inicio": 360.023,
+"fin": 360.183,
+"score": 0.731
+},
+{
+"texto": "Jesús,",
+"inicio": 360.303,
+"fin": 361.023,
+"score": 0.683
+},
+{
+"texto": "somos",
+"inicio": 362.144,
+"fin": 362.484,
+"score": 0.925
+},
+{
+"texto": "mejores",
+"inicio": 362.624,
+"fin": 363.084,
+"score": 0.778
+},
+{
+"texto": "personas.",
+"inicio": 363.884,
+"fin": 364.544,
+"score": 0.775
+},
+{
+"texto": "Somos",
+"inicio": 365.865,
+"fin": 366.225,
+"score": 0.927
+},
+{
+"texto": "más",
+"inicio": 366.405,
+"fin": 366.545,
+"score": 0.871
+},
+{
+"texto": "civiles.",
+"inicio": 366.605,
+"fin": 367.205,
+"score": 0.724
+},
+{
+"texto": "Tenemos",
+"inicio": 368.365,
+"fin": 368.766,
+"score": 0.713
+},
+{
+"texto": "más",
+"inicio": 368.946,
+"fin": 369.086,
+"score": 0.966
+},
+{
+"texto": "paciencia",
+"inicio": 369.146,
+"fin": 369.906,
+"score": 0.816
+},
+{
+"texto": "con",
+"inicio": 370.586,
+"fin": 370.906,
+"score": 0.198
+},
+{
+"texto": "nuestra",
+"inicio": 370.926,
+"fin": 371.967,
+"score": 0.167
+},
+{
+"texto": "familia,",
+"inicio": 372.027,
+"fin": 372.467,
+"score": 0.583
+},
+{
+"texto": "con",
+"inicio": 372.488,
+"fin": 372.948,
+"score": 0.607
+},
+{
+"texto": "nuestra",
+"inicio": 373.048,
+"fin": 373.328,
+"score": 0.605
+},
+{
+"texto": "familia,",
+"inicio": 373.428,
+"fin": 373.989,
+"score": 0.748
+},
+{
+"texto": "con",
+"inicio": 374.009,
+"fin": 374.069,
+"score": 0.001
+},
+{
+"texto": "nuestros",
+"inicio": 374.809,
+"fin": 375.21,
+"score": 0.516
+},
+{
+"texto": "felices.",
+"inicio": 375.31,
+"fin": 376.01,
+"score": 0.713
+},
+{
+"texto": "Tratamos",
+"inicio": 377.872,
+"fin": 378.472,
+"score": 0.831
+},
+{
+"texto": "mejor",
+"inicio": 378.492,
+"fin": 378.592,
+"score": 0.008
+},
+{
+"texto": "a",
+"inicio": 379.653,
+"fin": 380.294,
+"score": 0.695
+},
+{
+"texto": "nuestros",
+"inicio": 381.234,
+"fin": 381.575,
+"score": 0.758
+},
+{
+"texto": "compañeros",
+"inicio": 381.675,
+"fin": 382.335,
+"score": 0.871
+},
+{
+"texto": "del",
+"inicio": 382.355,
+"fin": 383.296,
+"score": 0.305
+},
+{
+"texto": "trabajo.",
+"inicio": 383.516,
+"fin": 384.177,
+"score": 0.773
+},
+{
+"texto": "Somos",
+"inicio": 384.957,
+"fin": 385.278,
+"score": 0.769
+},
+{
+"texto": "capaces",
+"inicio": 385.378,
+"fin": 385.838,
+"score": 0.896
+},
+{
+"texto": "de",
+"inicio": 385.898,
+"fin": 385.978,
+"score": 0.915
+},
+{
+"texto": "perdonar.",
+"inicio": 386.098,
+"fin": 386.839,
+"score": 0.807
+},
+{
+"texto": "Nos",
+"inicio": 388.16,
+"fin": 388.32,
+"score": 0.856
+},
+{
+"texto": "preocupamos",
+"inicio": 388.4,
+"fin": 389.301,
+"score": 0.84
+},
+{
+"texto": "por",
+"inicio": 389.661,
+"fin": 389.781,
+"score": 0.885
+},
+{
+"texto": "los",
+"inicio": 389.821,
+"fin": 389.941,
+"score": 0.708
+},
+{
+"texto": "pobres,",
+"inicio": 390.021,
+"fin": 390.522,
+"score": 0.784
+},
+{
+"texto": "los",
+"inicio": 391.022,
+"fin": 391.122,
+"score": 0.858
+},
+{
+"texto": "enfermos,",
+"inicio": 391.242,
+"fin": 391.863,
+"score": 0.735
+},
+{
+"texto": "los",
+"inicio": 392.243,
+"fin": 392.343,
+"score": 0.851
+},
+{
+"texto": "ancianos,",
+"inicio": 392.423,
+"fin": 393.124,
+"score": 0.759
+},
+{
+"texto": "las",
+"inicio": 393.444,
+"fin": 393.564,
+"score": 0.8
+},
+{
+"texto": "personas",
+"inicio": 393.644,
+"fin": 394.345,
+"score": 0.626
+},
+{
+"texto": "que",
+"inicio": 394.705,
+"fin": 394.805,
+"score": 0.538
+},
+{
+"texto": "están",
+"inicio": 394.825,
+"fin": 395.185,
+"score": 0.829
+},
+{
+"texto": "solas.",
+"inicio": 395.326,
+"fin": 395.826,
+"score": 0.864
+},
+{
+"texto": "y",
+"inicio": 398.202,
+"fin": 398.422,
+"score": 0.744
+},
+{
+"texto": "como",
+"inicio": 398.462,
+"fin": 398.642,
+"score": 0.834
+},
+{
+"texto": "le",
+"inicio": 398.682,
+"fin": 398.762,
+"score": 0.4
+},
+{
+"texto": "están",
+"inicio": 398.782,
+"fin": 399.123,
+"score": 0.746
+},
+{
+"texto": "denotando,",
+"inicio": 399.443,
+"fin": 400.324,
+"score": 0.799
+},
+{
+"texto": "no",
+"inicio": 400.884,
+"fin": 400.964,
+"score": 0.895
+},
+{
+"texto": "quiere",
+"inicio": 401.144,
+"fin": 401.505,
+"score": 0.485
+},
+{
+"texto": "deberar",
+"inicio": 401.685,
+"fin": 402.165,
+"score": 0.833
+},
+{
+"texto": "lo",
+"inicio": 402.245,
+"fin": 402.325,
+"score": 0.872
+},
+{
+"texto": "que",
+"inicio": 402.386,
+"fin": 402.486,
+"score": 0.847
+},
+{
+"texto": "yo",
+"inicio": 402.546,
+"fin": 402.686,
+"score": 0.46
+},
+{
+"texto": "invido",
+"inicio": 402.746,
+"fin": 403.186,
+"score": 0.718
+},
+{
+"texto": "ahí,",
+"inicio": 403.446,
+"fin": 403.727,
+"score": 0.704
+},
+{
+"texto": "porque",
+"inicio": 404.207,
+"fin": 404.387,
+"score": 0.844
+},
+{
+"texto": "me",
+"inicio": 404.507,
+"fin": 404.607,
+"score": 0.477
+},
+{
+"texto": "dice,",
+"inicio": 404.627,
+"fin": 405.128,
+"score": 0.564
+},
+{
+"texto": "no,",
+"inicio": 405.168,
+"fin": 405.268,
+"score": 0.762
+},
+{
+"texto": "lo",
+"inicio": 405.348,
+"fin": 405.488,
+"score": 0.71
+},
+{
+"texto": "voy",
+"inicio": 405.508,
+"fin": 405.628,
+"score": 0.421
+},
+{
+"texto": "a",
+"inicio": 405.648,
+"fin": 405.708,
+"score": 0.759
+},
+{
+"texto": "decir.",
+"inicio": 405.768,
+"fin": 407.67,
+"score": 0.761
+},
+{
+"texto": "Porque",
+"inicio": 410.753,
+"fin": 411.033,
+"score": 0.812
+},
+{
+"texto": "podemos",
+"inicio": 411.113,
+"fin": 411.693,
+"score": 0.673
+},
+{
+"texto": "participar",
+"inicio": 411.874,
+"fin": 412.574,
+"score": 0.738
+},
+{
+"texto": "en",
+"inicio": 412.914,
+"fin": 412.955,
+"score": 0.028
+},
+{
+"texto": "muchos",
+"inicio": 413.035,
+"fin": 413.355,
+"score": 0.77
+},
+{
+"texto": "encuentros",
+"inicio": 413.475,
+"fin": 414.296,
+"score": 0.67
+},
+{
+"texto": "nerviosos,",
+"inicio": 414.336,
+"fin": 415.297,
+"score": 0.665
+},
+{
+"texto": "sin",
+"inicio": 415.977,
+"fin": 416.117,
+"score": 0.688
+},
+{
+"texto": "embargo,",
+"inicio": 416.157,
+"fin": 416.778,
+"score": 0.854
+},
+{
+"texto": "conservamos",
+"inicio": 417.799,
+"fin": 418.679,
+"score": 0.716
+},
+{
+"texto": "un",
+"inicio": 419.0,
+"fin": 419.08,
+"score": 0.795
+},
+{
+"texto": "corazón",
+"inicio": 419.12,
+"fin": 419.7,
+"score": 0.952
+},
+{
+"texto": "yendo",
+"inicio": 419.72,
+"fin": 420.981,
+"score": 0.914
+},
+{
+"texto": "el",
+"inicio": 421.061,
+"fin": 421.101,
+"score": 0.292
+},
+{
+"texto": "buyo,",
+"inicio": 421.161,
+"fin": 421.662,
+"score": 0.781
+},
+{
+"texto": "yendo",
+"inicio": 421.682,
+"fin": 423.203,
+"score": 0.687
+},
+{
+"texto": "ceros,",
+"inicio": 423.363,
+"fin": 423.924,
+"score": 0.672
+},
+{
+"texto": "yendo",
+"inicio": 424.925,
+"fin": 425.385,
+"score": 0.615
+},
+{
+"texto": "críticas,",
+"inicio": 425.445,
+"fin": 426.186,
+"score": 0.703
+},
+{
+"texto": "y",
+"inicio": 427.426,
+"fin": 427.566,
+"score": 0.626
+},
+{
+"texto": "deseos",
+"inicio": 427.626,
+"fin": 428.307,
+"score": 0.776
+},
+{
+"texto": "de",
+"inicio": 428.907,
+"fin": 429.367,
+"score": 0.603
+},
+{
+"texto": "dominar",
+"inicio": 429.547,
+"fin": 430.048,
+"score": 0.874
+},
+{
+"texto": "a",
+"inicio": 430.408,
+"fin": 430.448,
+"score": 0.913
+},
+{
+"texto": "los",
+"inicio": 430.488,
+"fin": 430.588,
+"score": 0.889
+},
+{
+"texto": "demás.",
+"inicio": 430.628,
+"fin": 431.048,
+"score": 0.858
+},
+{
+"texto": "Me",
+"inicio": 433.109,
+"fin": 433.33,
+"score": 0.806
+},
+{
+"texto": "quedo,",
+"inicio": 433.39,
+"fin": 433.83,
+"score": 0.741
+},
+{
+"texto": "gracias",
+"inicio": 434.39,
+"fin": 434.65,
+"score": 0.924
+},
+{
+"texto": "al",
+"inicio": 434.69,
+"fin": 434.73,
+"score": 0.274
+},
+{
+"texto": "encuentro,",
+"inicio": 434.771,
+"fin": 435.391,
+"score": 0.61
+},
+{
+"texto": "mejor",
+"inicio": 435.831,
+"fin": 436.111,
+"score": 0.963
+},
+{
+"texto": "que",
+"inicio": 436.131,
+"fin": 436.191,
+"score": 0.001
+},
+{
+"texto": "mi",
+"inicio": 436.572,
+"fin": 436.672,
+"score": 0.57
+},
+{
+"texto": "mujer,",
+"inicio": 436.732,
+"fin": 437.152,
+"score": 0.924
+},
+{
+"texto": "mi",
+"inicio": 437.532,
+"fin": 437.632,
+"score": 0.566
+},
+{
+"texto": "marido,",
+"inicio": 437.712,
+"fin": 438.233,
+"score": 0.894
+},
+{
+"texto": "mi",
+"inicio": 438.733,
+"fin": 438.833,
+"score": 0.71
+},
+{
+"texto": "vecino.",
+"inicio": 438.873,
+"fin": 439.493,
+"score": 0.778
+},
+{
+"texto": "Podemos",
+"inicio": 440.594,
+"fin": 441.214,
+"score": 0.762
+},
+{
+"texto": "hablar",
+"inicio": 441.355,
+"fin": 441.875,
+"score": 0.831
+},
+{
+"texto": "mucho",
+"inicio": 442.715,
+"fin": 443.036,
+"score": 0.756
+},
+{
+"texto": "de",
+"inicio": 443.076,
+"fin": 443.156,
+"score": 0.934
+},
+{
+"texto": "Jesucristo",
+"inicio": 443.216,
+"fin": 443.856,
+"score": 0.536
+},
+{
+"texto": "y",
+"inicio": 443.896,
+"fin": 443.936,
+"score": 0.208
+},
+{
+"texto": "de",
+"inicio": 443.956,
+"fin": 444.036,
+"score": 0.322
+},
+{
+"texto": "su",
+"inicio": 444.056,
+"fin": 444.156,
+"score": 0.711
+},
+{
+"texto": "citado,",
+"inicio": 444.196,
+"fin": 444.737,
+"score": 0.719
+},
+{
+"texto": "pero",
+"inicio": 444.817,
+"fin": 445.137,
+"score": 0.785
+},
+{
+"texto": "si",
+"inicio": 445.737,
+"fin": 445.877,
+"score": 0.884
+},
+{
+"texto": "las",
+"inicio": 445.957,
+"fin": 446.137,
+"score": 0.808
+},
+{
+"texto": "personas",
+"inicio": 446.237,
+"fin": 446.718,
+"score": 0.543
+},
+{
+"texto": "que",
+"inicio": 446.778,
+"fin": 446.858,
+"score": 0.63
+},
+{
+"texto": "viven",
+"inicio": 446.958,
+"fin": 447.278,
+"score": 0.602
+},
+{
+"texto": "con",
+"inicio": 447.358,
+"fin": 447.478,
+"score": 0.753
+},
+{
+"texto": "nosotros",
+"inicio": 447.518,
+"fin": 448.399,
+"score": 0.756
+},
+{
+"texto": "me",
+"inicio": 449.019,
+"fin": 449.099,
+"score": 0.631
+},
+{
+"texto": "encuentran",
+"inicio": 449.199,
+"fin": 449.9,
+"score": 0.64
+},
+{
+"texto": "en",
+"inicio": 450.12,
+"fin": 450.22,
+"score": 0.68
+},
+{
+"texto": "meta",
+"inicio": 450.3,
+"fin": 450.64,
+"score": 0.753
+},
+{
+"texto": "poluta",
+"inicio": 450.72,
+"fin": 451.341,
+"score": 0.778
+},
+{
+"texto": "el",
+"inicio": 452.021,
+"fin": 452.121,
+"score": 0.956
+},
+{
+"texto": "amor",
+"inicio": 452.181,
+"fin": 452.541,
+"score": 0.787
+},
+{
+"texto": "de",
+"inicio": 452.561,
+"fin": 452.741,
+"score": 0.742
+},
+{
+"texto": "Cristo",
+"inicio": 452.882,
+"fin": 453.262,
+"score": 0.735
+},
+{
+"texto": "debemos",
+"inicio": 454.358,
+"fin": 454.758,
+"score": 0.866
+},
+{
+"texto": "preguntarnos",
+"inicio": 454.858,
+"fin": 455.639,
+"score": 0.87
+},
+{
+"texto": "si",
+"inicio": 455.799,
+"fin": 455.959,
+"score": 0.808
+},
+{
+"texto": "realmente",
+"inicio": 455.999,
+"fin": 456.779,
+"score": 0.715
+},
+{
+"texto": "estamos",
+"inicio": 456.839,
+"fin": 457.199,
+"score": 0.769
+},
+{
+"texto": "dejando",
+"inicio": 457.22,
+"fin": 457.84,
+"score": 0.86
+},
+{
+"texto": "que",
+"inicio": 457.86,
+"fin": 457.92,
+"score": 0.021
+},
+{
+"texto": "el",
+"inicio": 457.94,
+"fin": 457.98,
+"score": 0.032
+},
+{
+"texto": "Vajero",
+"inicio": 458.96,
+"fin": 459.401,
+"score": 0.436
+},
+{
+"texto": "transforme",
+"inicio": 459.441,
+"fin": 460.101,
+"score": 0.515
+},
+{
+"texto": "nuestra",
+"inicio": 460.141,
+"fin": 460.441,
+"score": 0.651
+},
+{
+"texto": "vida",
+"inicio": 460.581,
+"fin": 460.781,
+"score": 0.34
+},
+{
+"texto": "allí",
+"inicio": 462.822,
+"fin": 463.223,
+"score": 0.721
+},
+{
+"texto": "a",
+"inicio": 463.843,
+"fin": 463.883,
+"score": 0.9
+},
+{
+"texto": "tercero",
+"inicio": 463.963,
+"fin": 464.483,
+"score": 0.73
+},
+{
+"texto": "verme",
+"inicio": 467.745,
+"fin": 468.305,
+"score": 0.848
+},
+{
+"texto": "con",
+"inicio": 469.586,
+"fin": 469.726,
+"score": 0.947
+},
+{
+"texto": "la",
+"inicio": 469.806,
+"fin": 469.866,
+"score": 0.762
+},
+{
+"texto": "mirada",
+"inicio": 469.946,
+"fin": 470.326,
+"score": 0.682
+},
+{
+"texto": "del",
+"inicio": 470.366,
+"fin": 470.526,
+"score": 0.511
+},
+{
+"texto": "Vajero,",
+"inicio": 470.586,
+"fin": 471.307,
+"score": 0.665
+},
+{
+"texto": "con",
+"inicio": 472.207,
+"fin": 472.327,
+"score": 0.836
+},
+{
+"texto": "Jesús",
+"inicio": 472.427,
+"fin": 472.868,
+"score": 0.711
+},
+{
+"texto": "que",
+"inicio": 473.848,
+"fin": 473.928,
+"score": 0.909
+},
+{
+"texto": "me",
+"inicio": 474.108,
+"fin": 474.208,
+"score": 0.629
+},
+{
+"texto": "quitaba,",
+"inicio": 474.608,
+"fin": 475.409,
+"score": 0.774
+},
+{
+"texto": "que",
+"inicio": 476.449,
+"fin": 476.569,
+"score": 0.868
+},
+{
+"texto": "tengo",
+"inicio": 476.63,
+"fin": 476.83,
+"score": 0.754
+},
+{
+"texto": "que",
+"inicio": 476.87,
+"fin": 476.97,
+"score": 0.701
+},
+{
+"texto": "vivir",
+"inicio": 477.03,
+"fin": 477.39,
+"score": 0.774
+}
+]

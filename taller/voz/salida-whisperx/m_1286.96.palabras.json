@@ -1,0 +1,44 @@
+[
+{
+"texto": "Esta",
+"inicio": 5.319,
+"fin": 5.44,
+"score": 0.272
+},
+{
+"texto": "está",
+"inicio": 5.46,
+"fin": 5.582,
+"score": 0.708
+},
+{
+"texto": "en",
+"inicio": 5.602,
+"fin": 5.663,
+"score": 0.475
+},
+{
+"texto": "manos",
+"inicio": 5.723,
+"fin": 6.006,
+"score": 0.823
+},
+{
+"texto": "de",
+"inicio": 6.087,
+"fin": 6.168,
+"score": 0.751
+},
+{
+"texto": "Joseph",
+"inicio": 6.349,
+"fin": 6.733,
+"score": 0.502
+},
+{
+"texto": "Barbosa.",
+"inicio": 6.794,
+"fin": 7.34,
+"score": 0.659
+}
+]

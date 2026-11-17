@@ -1,0 +1,72 @@
+[
+ {
+  "texto": "Muy",
+  "inicio": 0.24,
+  "fin": 0.48
+ },
+ {
+  "texto": "buena",
+  "inicio": 0.48,
+  "fin": 0.64
+ },
+ {
+  "texto": "opción,",
+  "inicio": 0.64,
+  "fin": 1.22
+ },
+ {
+  "texto": "buena",
+  "inicio": 1.36,
+  "fin": 1.5
+ },
+ {
+  "texto": "aporte",
+  "inicio": 1.5,
+  "fin": 1.78
+ },
+ {
+  "texto": "de",
+  "inicio": 1.78,
+  "fin": 1.96
+ },
+ {
+  "texto": "proteínas",
+  "inicio": 1.96,
+  "fin": 2.5
+ },
+ {
+  "texto": "y",
+  "inicio": 2.5,
+  "fin": 2.6
+ },
+ {
+  "texto": "de",
+  "inicio": 2.6,
+  "fin": 2.76
+ },
+ {
+  "texto": "gracias",
+  "inicio": 2.76,
+  "fin": 3.12
+ },
+ {
+  "texto": "saludables.",
+  "inicio": 3.12,
+  "fin": 3.62
+ },
+ {
+  "texto": "¡Y",
+  "inicio": 3.8,
+  "fin": 3.96
+ },
+ {
+  "texto": "te",
+  "inicio": 3.96,
+  "fin": 4.1
+ },
+ {
+  "texto": "sasia!",
+  "inicio": 4.1,
+  "fin": 4.32
+ }
+]

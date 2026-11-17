@@ -1,0 +1,32 @@
+[
+{
+"texto": "Esto",
+"inicio": 1.827,
+"fin": 2.008,
+"score": 0.775
+},
+{
+"texto": "es",
+"inicio": 2.108,
+"fin": 2.229,
+"score": 0.901
+},
+{
+"texto": "Pre",
+"inicio": 2.751,
+"fin": 2.972,
+"score": 0.913
+},
+{
+"texto": "del",
+"inicio": 3.012,
+"fin": 3.274,
+"score": 0.807
+},
+{
+"texto": "Pari.",
+"inicio": 3.374,
+"fin": 3.655,
+"score": 0.842
+}
+]

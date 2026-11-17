@@ -1,0 +1,302 @@
+[
+{
+"texto": "Así",
+"inicio": 0.226,
+"fin": 0.346,
+"score": 0.435
+},
+{
+"texto": "se",
+"inicio": 0.386,
+"fin": 0.466,
+"score": 0.246
+},
+{
+"texto": "viste",
+"inicio": 0.507,
+"fin": 0.667,
+"score": 0.616
+},
+{
+"texto": "a",
+"inicio": 0.687,
+"fin": 0.707,
+"score": 0.137
+},
+{
+"texto": "la",
+"inicio": 0.727,
+"fin": 0.767,
+"score": 0.926
+},
+{
+"texto": "mujer",
+"inicio": 0.827,
+"fin": 1.027,
+"score": 0.905
+},
+{
+"texto": "que",
+"inicio": 1.067,
+"fin": 1.147,
+"score": 0.847
+},
+{
+"texto": "solo",
+"inicio": 1.207,
+"fin": 1.368,
+"score": 0.953
+},
+{
+"texto": "quieren",
+"inicio": 1.428,
+"fin": 1.628,
+"score": 0.867
+},
+{
+"texto": "para",
+"inicio": 1.708,
+"fin": 1.868,
+"score": 0.873
+},
+{
+"texto": "una",
+"inicio": 1.908,
+"fin": 2.008,
+"score": 0.846
+},
+{
+"texto": "noche.",
+"inicio": 2.048,
+"fin": 2.309,
+"score": 0.867
+},
+{
+"texto": "Y",
+"inicio": 2.429,
+"fin": 2.469,
+"score": 0.922
+},
+{
+"texto": "así",
+"inicio": 2.509,
+"fin": 2.669,
+"score": 0.827
+},
+{
+"texto": "se",
+"inicio": 2.729,
+"fin": 2.809,
+"score": 0.843
+},
+{
+"texto": "viste",
+"inicio": 2.869,
+"fin": 3.07,
+"score": 0.831
+},
+{
+"texto": "a",
+"inicio": 3.09,
+"fin": 3.11,
+"score": 0.906
+},
+{
+"texto": "la",
+"inicio": 3.15,
+"fin": 3.21,
+"score": 0.742
+},
+{
+"texto": "mujer",
+"inicio": 3.27,
+"fin": 3.47,
+"score": 0.922
+},
+{
+"texto": "que",
+"inicio": 3.51,
+"fin": 3.61,
+"score": 0.8
+},
+{
+"texto": "quieren",
+"inicio": 3.67,
+"fin": 3.87,
+"score": 0.929
+},
+{
+"texto": "para",
+"inicio": 3.991,
+"fin": 4.151,
+"score": 0.862
+},
+{
+"texto": "toda",
+"inicio": 4.251,
+"fin": 4.431,
+"score": 0.957
+},
+{
+"texto": "la",
+"inicio": 4.471,
+"fin": 4.551,
+"score": 0.945
+},
+{
+"texto": "vida.",
+"inicio": 4.591,
+"fin": 4.772,
+"score": 0.906
+},
+{
+"texto": "A",
+"inicio": 4.972,
+"fin": 5.032,
+"score": 0.855
+},
+{
+"texto": "ésta",
+"inicio": 5.092,
+"fin": 5.292,
+"score": 0.849
+},
+{
+"texto": "solo",
+"inicio": 5.492,
+"fin": 5.673,
+"score": 0.92
+},
+{
+"texto": "la",
+"inicio": 5.713,
+"fin": 5.773,
+"score": 0.934
+},
+{
+"texto": "quieren",
+"inicio": 5.833,
+"fin": 6.033,
+"score": 0.905
+},
+{
+"texto": "para",
+"inicio": 6.113,
+"fin": 6.233,
+"score": 0.884
+},
+{
+"texto": "una",
+"inicio": 6.293,
+"fin": 6.373,
+"score": 0.977
+},
+{
+"texto": "cosa.",
+"inicio": 6.453,
+"fin": 6.794,
+"score": 0.813
+},
+{
+"texto": "Ya",
+"inicio": 6.954,
+"fin": 7.054,
+"score": 0.762
+},
+{
+"texto": "sabes",
+"inicio": 7.094,
+"fin": 7.315,
+"score": 0.739
+},
+{
+"texto": "para",
+"inicio": 7.335,
+"fin": 7.455,
+"score": 0.907
+},
+{
+"texto": "qué.",
+"inicio": 7.515,
+"fin": 7.675,
+"score": 0.558
+},
+{
+"texto": "A",
+"inicio": 7.715,
+"fin": 7.775,
+"score": 0.865
+},
+{
+"texto": "ésta",
+"inicio": 7.835,
+"fin": 7.995,
+"score": 0.636
+},
+{
+"texto": "la",
+"inicio": 8.055,
+"fin": 8.115,
+"score": 0.962
+},
+{
+"texto": "respeta.",
+"inicio": 8.196,
+"fin": 8.576,
+"score": 0.925
+},
+{
+"texto": "Allá",
+"inicio": 9.037,
+"fin": 9.257,
+"score": 0.444
+},
+{
+"texto": "la",
+"inicio": 9.337,
+"fin": 9.397,
+"score": 0.852
+},
+{
+"texto": "buscan",
+"inicio": 9.437,
+"fin": 9.717,
+"score": 0.85
+},
+{
+"texto": "para",
+"inicio": 9.777,
+"fin": 9.898,
+"score": 0.917
+},
+{
+"texto": "divertirse",
+"inicio": 9.978,
+"fin": 10.558,
+"score": 0.853
+},
+{
+"texto": "y",
+"inicio": 10.598,
+"fin": 10.638,
+"score": 0.491
+},
+{
+"texto": "perder",
+"inicio": 10.739,
+"fin": 11.019,
+"score": 0.946
+},
+{
+"texto": "el",
+"inicio": 11.079,
+"fin": 11.139,
+"score": 0.762
+},
+{
+"texto": "tiempo.",
+"inicio": 11.219,
+"fin": 11.459,
+"score": 0.863
+}
+]

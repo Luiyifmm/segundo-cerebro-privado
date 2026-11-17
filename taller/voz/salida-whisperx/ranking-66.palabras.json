@@ -1,0 +1,1382 @@
+[
+{
+"texto": "Voy",
+"inicio": 0.25,
+"fin": 0.35,
+"score": 0.369
+},
+{
+"texto": "a",
+"inicio": 0.37,
+"fin": 0.39,
+"score": 0.287
+},
+{
+"texto": "ordenar",
+"inicio": 0.41,
+"fin": 0.67,
+"score": 0.142
+},
+{
+"texto": "10",
+"inicio": 0.69,
+"fin": 0.73,
+"score": 0.362
+},
+{
+"texto": "negocios",
+"inicio": 0.77,
+"fin": 1.351,
+"score": 0.571
+},
+{
+"texto": "del",
+"inicio": 1.431,
+"fin": 1.571,
+"score": 0.596
+},
+{
+"texto": "peor",
+"inicio": 1.631,
+"fin": 1.851,
+"score": 0.99
+},
+{
+"texto": "o",
+"inicio": 1.871,
+"fin": 1.891,
+"score": 0.002
+},
+{
+"texto": "mejor.",
+"inicio": 1.931,
+"fin": 2.171,
+"score": 0.924
+},
+{
+"texto": "Un",
+"inicio": 2.331,
+"fin": 2.391,
+"score": 0.982
+},
+{
+"texto": "restaurante",
+"inicio": 2.431,
+"fin": 2.992,
+"score": 0.78
+},
+{
+"texto": "el",
+"inicio": 3.072,
+"fin": 3.192,
+"score": 0.864
+},
+{
+"texto": "puesto",
+"inicio": 3.392,
+"fin": 3.612,
+"score": 0.862
+},
+{
+"texto": "10.",
+"inicio": 3.652,
+"fin": 3.752,
+"score": 0.915
+},
+{
+"texto": "Horarios",
+"inicio": 3.892,
+"fin": 4.253,
+"score": 0.893
+},
+{
+"texto": "infernales",
+"inicio": 4.333,
+"fin": 4.833,
+"score": 0.801
+},
+{
+"texto": "y",
+"inicio": 4.873,
+"fin": 4.913,
+"score": 0.495
+},
+{
+"texto": "la",
+"inicio": 4.973,
+"fin": 5.033,
+"score": 0.75
+},
+{
+"texto": "mayoría",
+"inicio": 5.073,
+"fin": 5.373,
+"score": 0.601
+},
+{
+"texto": "cierran",
+"inicio": 5.393,
+"fin": 5.753,
+"score": 0.663
+},
+{
+"texto": "antes",
+"inicio": 5.774,
+"fin": 5.974,
+"score": 0.667
+},
+{
+"texto": "de",
+"inicio": 5.994,
+"fin": 6.134,
+"score": 0.264
+},
+{
+"texto": "los",
+"inicio": 6.174,
+"fin": 6.274,
+"score": 0.786
+},
+{
+"texto": "3",
+"inicio": 6.374,
+"fin": 6.454,
+"score": 0.747
+},
+{
+"texto": "años.",
+"inicio": 6.534,
+"fin": 6.734,
+"score": 0.909
+},
+{
+"texto": "Una",
+"inicio": 6.974,
+"fin": 7.074,
+"score": 0.697
+},
+{
+"texto": "peluquería",
+"inicio": 7.134,
+"fin": 7.595,
+"score": 0.674
+},
+{
+"texto": "puesto",
+"inicio": 7.655,
+"fin": 7.895,
+"score": 0.889
+},
+{
+"texto": "9.",
+"inicio": 7.955,
+"fin": 8.195,
+"score": 0.634
+},
+{
+"texto": "Si",
+"inicio": 8.575,
+"fin": 8.655,
+"score": 0.96
+},
+{
+"texto": "no",
+"inicio": 8.675,
+"fin": 8.755,
+"score": 0.525
+},
+{
+"texto": "cortas,",
+"inicio": 8.875,
+"fin": 9.236,
+"score": 0.945
+},
+{
+"texto": "no",
+"inicio": 9.436,
+"fin": 9.536,
+"score": 0.55
+},
+{
+"texto": "cobras.",
+"inicio": 9.616,
+"fin": 9.916,
+"score": 0.951
+},
+{
+"texto": "Una",
+"inicio": 10.136,
+"fin": 10.236,
+"score": 0.653
+},
+{
+"texto": "franquicia",
+"inicio": 10.296,
+"fin": 10.817,
+"score": 0.777
+},
+{
+"texto": "puesto",
+"inicio": 10.897,
+"fin": 11.137,
+"score": 0.879
+},
+{
+"texto": "8.",
+"inicio": 11.157,
+"fin": 11.197,
+"score": 0.862
+},
+{
+"texto": "Pagas",
+"inicio": 11.417,
+"fin": 11.637,
+"score": 0.506
+},
+{
+"texto": "por",
+"inicio": 11.677,
+"fin": 11.797,
+"score": 0.875
+},
+{
+"texto": "una",
+"inicio": 11.857,
+"fin": 11.937,
+"score": 0.968
+},
+{
+"texto": "marca",
+"inicio": 11.977,
+"fin": 12.177,
+"score": 0.938
+},
+{
+"texto": "que",
+"inicio": 12.197,
+"fin": 12.258,
+"score": 0.016
+},
+{
+"texto": "ni",
+"inicio": 12.578,
+"fin": 12.678,
+"score": 0.577
+},
+{
+"texto": "siquiera",
+"inicio": 12.718,
+"fin": 12.918,
+"score": 0.761
+},
+{
+"texto": "estudia.",
+"inicio": 12.938,
+"fin": 13.238,
+"score": 0.29
+},
+{
+"texto": "Una",
+"inicio": 13.278,
+"fin": 13.378,
+"score": 0.713
+},
+{
+"texto": "cafetería",
+"inicio": 13.438,
+"fin": 14.079,
+"score": 0.896
+},
+{
+"texto": "puesto",
+"inicio": 14.099,
+"fin": 14.539,
+"score": 0.39
+},
+{
+"texto": "7.",
+"inicio": 14.599,
+"fin": 14.839,
+"score": 0.701
+},
+{
+"texto": "Un",
+"inicio": 14.939,
+"fin": 15.019,
+"score": 0.865
+},
+{
+"texto": "café",
+"inicio": 15.059,
+"fin": 15.259,
+"score": 0.731
+},
+{
+"texto": "soso",
+"inicio": 15.339,
+"fin": 15.64,
+"score": 0.989
+},
+{
+"texto": "y",
+"inicio": 15.66,
+"fin": 15.68,
+"score": 0.002
+},
+{
+"texto": "no",
+"inicio": 15.7,
+"fin": 15.74,
+"score": 0.0
+},
+{
+"texto": "da",
+"inicio": 16.02,
+"fin": 16.1,
+"score": 0.922
+},
+{
+"texto": "para",
+"inicio": 16.16,
+"fin": 16.3,
+"score": 0.775
+},
+{
+"texto": "el",
+"inicio": 16.32,
+"fin": 16.36,
+"score": 0.016
+},
+{
+"texto": "alquiler.",
+"inicio": 16.4,
+"fin": 16.82,
+"score": 0.704
+},
+{
+"texto": "Una",
+"inicio": 16.98,
+"fin": 17.061,
+"score": 0.897
+},
+{
+"texto": "gasolinera",
+"inicio": 17.141,
+"fin": 17.701,
+"score": 0.812
+},
+{
+"texto": "puesto",
+"inicio": 17.721,
+"fin": 18.161,
+"score": 0.386
+},
+{
+"texto": "6.",
+"inicio": 18.281,
+"fin": 18.461,
+"score": 0.768
+},
+{
+"texto": "Cada",
+"inicio": 18.601,
+"fin": 18.802,
+"score": 0.711
+},
+{
+"texto": "vez",
+"inicio": 18.842,
+"fin": 18.962,
+"score": 0.912
+},
+{
+"texto": "está",
+"inicio": 19.062,
+"fin": 19.222,
+"score": 0.645
+},
+{
+"texto": "más",
+"inicio": 19.262,
+"fin": 19.362,
+"score": 0.86
+},
+{
+"texto": "cara",
+"inicio": 19.402,
+"fin": 19.702,
+"score": 0.898
+},
+{
+"texto": "y",
+"inicio": 19.722,
+"fin": 19.742,
+"score": 0.003
+},
+{
+"texto": "encima",
+"inicio": 20.062,
+"fin": 20.443,
+"score": 0.951
+},
+{
+"texto": "ganas",
+"inicio": 20.563,
+"fin": 20.863,
+"score": 0.569
+},
+{
+"texto": "céntimos",
+"inicio": 20.883,
+"fin": 21.323,
+"score": 0.722
+},
+{
+"texto": "por",
+"inicio": 21.363,
+"fin": 21.483,
+"score": 0.886
+},
+{
+"texto": "litro.",
+"inicio": 21.563,
+"fin": 21.803,
+"score": 0.705
+},
+{
+"texto": "Un",
+"inicio": 21.924,
+"fin": 22.004,
+"score": 0.708
+},
+{
+"texto": "centro",
+"inicio": 22.064,
+"fin": 22.344,
+"score": 0.876
+},
+{
+"texto": "médico",
+"inicio": 22.404,
+"fin": 23.224,
+"score": 0.957
+},
+{
+"texto": "un",
+"inicio": 23.444,
+"fin": 23.485,
+"score": 0.131
+},
+{
+"texto": "puesto",
+"inicio": 23.545,
+"fin": 23.785,
+"score": 0.774
+},
+{
+"texto": "5.",
+"inicio": 23.925,
+"fin": 24.125,
+"score": 0.784
+},
+{
+"texto": "Si",
+"inicio": 24.365,
+"fin": 24.725,
+"score": 0.952
+},
+{
+"texto": "se",
+"inicio": 24.825,
+"fin": 24.905,
+"score": 0.914
+},
+{
+"texto": "van",
+"inicio": 24.945,
+"fin": 25.065,
+"score": 0.929
+},
+{
+"texto": "tus",
+"inicio": 25.086,
+"fin": 25.206,
+"score": 0.703
+},
+{
+"texto": "médicos",
+"inicio": 25.266,
+"fin": 25.646,
+"score": 0.925
+},
+{
+"texto": "te",
+"inicio": 26.034,
+"fin": 26.094,
+"score": 0.29
+},
+{
+"texto": "quedas",
+"inicio": 26.114,
+"fin": 26.354,
+"score": 0.505
+},
+{
+"texto": "hacer",
+"inicio": 26.414,
+"fin": 26.595,
+"score": 0.416
+},
+{
+"texto": "amigos.",
+"inicio": 26.635,
+"fin": 26.875,
+"score": 0.229
+},
+{
+"texto": "Un",
+"inicio": 27.035,
+"fin": 27.115,
+"score": 0.82
+},
+{
+"texto": "concesionario",
+"inicio": 27.155,
+"fin": 27.976,
+"score": 0.918
+},
+{
+"texto": "puesto",
+"inicio": 28.276,
+"fin": 28.517,
+"score": 0.818
+},
+{
+"texto": "4,",
+"inicio": 28.537,
+"fin": 28.577,
+"score": 0.938
+},
+{
+"texto": "coches",
+"inicio": 28.617,
+"fin": 29.257,
+"score": 0.733
+},
+{
+"texto": "parados",
+"inicio": 29.318,
+"fin": 29.618,
+"score": 0.818
+},
+{
+"texto": "que",
+"inicio": 29.658,
+"fin": 29.738,
+"score": 0.924
+},
+{
+"texto": "pierden",
+"inicio": 29.858,
+"fin": 30.138,
+"score": 0.752
+},
+{
+"texto": "valor",
+"inicio": 30.198,
+"fin": 30.439,
+"score": 0.418
+},
+{
+"texto": "cada",
+"inicio": 30.479,
+"fin": 30.659,
+"score": 0.93
+},
+{
+"texto": "día.",
+"inicio": 30.739,
+"fin": 30.879,
+"score": 0.877
+},
+{
+"texto": "Una",
+"inicio": 31.059,
+"fin": 31.159,
+"score": 0.778
+},
+{
+"texto": "mobiliaria",
+"inicio": 31.24,
+"fin": 31.8,
+"score": 0.597
+},
+{
+"texto": "puesto",
+"inicio": 31.84,
+"fin": 32.04,
+"score": 0.786
+},
+{
+"texto": "número",
+"inicio": 32.06,
+"fin": 32.281,
+"score": 0.69
+},
+{
+"texto": "3,",
+"inicio": 32.401,
+"fin": 32.501,
+"score": 0.72
+},
+{
+"texto": "los",
+"inicio": 32.721,
+"fin": 32.821,
+"score": 0.775
+},
+{
+"texto": "alquileres",
+"inicio": 32.861,
+"fin": 33.222,
+"score": 0.713
+},
+{
+"texto": "cada",
+"inicio": 33.262,
+"fin": 33.422,
+"score": 0.822
+},
+{
+"texto": "vez",
+"inicio": 33.462,
+"fin": 33.542,
+"score": 0.881
+},
+{
+"texto": "están",
+"inicio": 33.562,
+"fin": 33.702,
+"score": 0.255
+},
+{
+"texto": "más",
+"inicio": 33.742,
+"fin": 33.862,
+"score": 0.837
+},
+{
+"texto": "caros",
+"inicio": 33.882,
+"fin": 34.123,
+"score": 0.787
+},
+{
+"texto": "y",
+"inicio": 34.143,
+"fin": 34.163,
+"score": 0.025
+},
+{
+"texto": "hay",
+"inicio": 34.363,
+"fin": 34.423,
+"score": 0.561
+},
+{
+"texto": "poquita",
+"inicio": 34.523,
+"fin": 34.783,
+"score": 0.932
+},
+{
+"texto": "gente",
+"inicio": 34.843,
+"fin": 35.003,
+"score": 0.58
+},
+{
+"texto": "que",
+"inicio": 35.044,
+"fin": 35.124,
+"score": 0.832
+},
+{
+"texto": "lo",
+"inicio": 35.144,
+"fin": 35.224,
+"score": 0.756
+},
+{
+"texto": "pueda",
+"inicio": 35.244,
+"fin": 35.384,
+"score": 0.912
+},
+{
+"texto": "para.",
+"inicio": 35.464,
+"fin": 35.584,
+"score": 0.467
+},
+{
+"texto": "Un",
+"inicio": 35.704,
+"fin": 35.764,
+"score": 0.762
+},
+{
+"texto": "gimnasio",
+"inicio": 35.804,
+"fin": 36.245,
+"score": 0.701
+},
+{
+"texto": "puesto",
+"inicio": 36.325,
+"fin": 36.565,
+"score": 0.926
+},
+{
+"texto": "2,",
+"inicio": 36.645,
+"fin": 36.765,
+"score": 0.703
+},
+{
+"texto": "gastos",
+"inicio": 36.946,
+"fin": 37.226,
+"score": 0.842
+},
+{
+"texto": "en",
+"inicio": 37.286,
+"fin": 37.346,
+"score": 0.822
+},
+{
+"texto": "máquinas",
+"inicio": 37.406,
+"fin": 37.746,
+"score": 0.688
+},
+{
+"texto": "y",
+"inicio": 37.786,
+"fin": 37.806,
+"score": 0.704
+},
+{
+"texto": "al",
+"inicio": 37.846,
+"fin": 37.947,
+"score": 0.196
+},
+{
+"texto": "alquiler",
+"inicio": 37.987,
+"fin": 38.327,
+"score": 0.746
+},
+{
+"texto": "pero",
+"inicio": 38.367,
+"fin": 38.547,
+"score": 0.858
+},
+{
+"texto": "puede",
+"inicio": 38.707,
+"fin": 38.908,
+"score": 0.774
+},
+{
+"texto": "ir",
+"inicio": 38.948,
+"fin": 39.048,
+"score": 0.802
+},
+{
+"texto": "muy",
+"inicio": 39.108,
+"fin": 39.208,
+"score": 0.767
+},
+{
+"texto": "bien.",
+"inicio": 39.228,
+"fin": 39.368,
+"score": 0.808
+},
+{
+"texto": "Entrenador",
+"inicio": 39.648,
+"fin": 40.069,
+"score": 0.724
+},
+{
+"texto": "online",
+"inicio": 40.109,
+"fin": 40.429,
+"score": 0.697
+},
+{
+"texto": "puesto",
+"inicio": 40.489,
+"fin": 40.709,
+"score": 0.836
+},
+{
+"texto": "número",
+"inicio": 40.729,
+"fin": 41.01,
+"score": 0.804
+},
+{
+"texto": "1,",
+"inicio": 41.03,
+"fin": 41.27,
+"score": 0.913
+},
+{
+"texto": "sin",
+"inicio": 41.29,
+"fin": 41.43,
+"score": 0.883
+},
+{
+"texto": "duda",
+"inicio": 41.47,
+"fin": 41.69,
+"score": 0.672
+},
+{
+"texto": "trabajas",
+"inicio": 41.731,
+"fin": 42.091,
+"score": 0.781
+},
+{
+"texto": "desde",
+"inicio": 42.131,
+"fin": 42.371,
+"score": 0.751
+},
+{
+"texto": "donde",
+"inicio": 42.471,
+"fin": 42.651,
+"score": 0.741
+},
+{
+"texto": "quieras,",
+"inicio": 42.712,
+"fin": 43.012,
+"score": 0.758
+},
+{
+"texto": "vendiendo",
+"inicio": 43.332,
+"fin": 43.793,
+"score": 0.846
+},
+{
+"texto": "lo",
+"inicio": 43.813,
+"fin": 43.893,
+"score": 0.653
+},
+{
+"texto": "que",
+"inicio": 43.933,
+"fin": 44.073,
+"score": 0.58
+},
+{
+"texto": "todo",
+"inicio": 44.173,
+"fin": 44.353,
+"score": 0.758
+},
+{
+"texto": "el",
+"inicio": 44.373,
+"fin": 44.453,
+"score": 0.607
+},
+{
+"texto": "mundo",
+"inicio": 44.473,
+"fin": 44.654,
+"score": 0.801
+},
+{
+"texto": "quiere.",
+"inicio": 44.734,
+"fin": 44.934,
+"score": 0.731
+},
+{
+"texto": "que",
+"inicio": 45.354,
+"fin": 45.474,
+"score": 0.544
+},
+{
+"texto": "es",
+"inicio": 45.534,
+"fin": 45.634,
+"score": 0.624
+},
+{
+"texto": "verse",
+"inicio": 45.714,
+"fin": 45.975,
+"score": 0.737
+},
+{
+"texto": "mejor",
+"inicio": 46.035,
+"fin": 46.255,
+"score": 0.845
+},
+{
+"texto": "y",
+"inicio": 46.355,
+"fin": 46.395,
+"score": 0.773
+},
+{
+"texto": "si",
+"inicio": 46.435,
+"fin": 46.495,
+"score": 0.896
+},
+{
+"texto": "ya",
+"inicio": 46.535,
+"fin": 46.635,
+"score": 0.532
+},
+{
+"texto": "eres",
+"inicio": 46.655,
+"fin": 46.775,
+"score": 0.584
+},
+{
+"texto": "entrenador",
+"inicio": 46.835,
+"fin": 47.236,
+"score": 0.771
+},
+{
+"texto": "solo",
+"inicio": 47.276,
+"fin": 47.476,
+"score": 0.496
+},
+{
+"texto": "de",
+"inicio": 47.536,
+"fin": 47.636,
+"score": 0.826
+},
+{
+"texto": "falta",
+"inicio": 47.776,
+"fin": 48.256,
+"score": 0.924
+},
+{
+"texto": "un",
+"inicio": 48.276,
+"fin": 48.316,
+"score": 0.0
+},
+{
+"texto": "paso",
+"inicio": 48.877,
+"fin": 49.097,
+"score": 0.876
+},
+{
+"texto": "para",
+"inicio": 49.117,
+"fin": 49.297,
+"score": 0.594
+},
+{
+"texto": "estar",
+"inicio": 49.337,
+"fin": 49.517,
+"score": 0.633
+},
+{
+"texto": "en",
+"inicio": 49.537,
+"fin": 49.637,
+"score": 0.298
+},
+{
+"texto": "el",
+"inicio": 49.698,
+"fin": 49.758,
+"score": 0.759
+},
+{
+"texto": "número",
+"inicio": 49.818,
+"fin": 50.018,
+"score": 0.869
+},
+{
+"texto": "uno",
+"inicio": 50.118,
+"fin": 50.318,
+"score": 0.703
+},
+{
+"texto": "y",
+"inicio": 50.458,
+"fin": 50.498,
+"score": 0.611
+},
+{
+"texto": "si",
+"inicio": 50.518,
+"fin": 50.598,
+"score": 0.902
+},
+{
+"texto": "ya",
+"inicio": 50.638,
+"fin": 50.738,
+"score": 0.519
+},
+{
+"texto": "eres",
+"inicio": 50.758,
+"fin": 50.878,
+"score": 0.565
+},
+{
+"texto": "entrenador",
+"inicio": 50.939,
+"fin": 51.339,
+"score": 0.727
+},
+{
+"texto": "solo",
+"inicio": 51.379,
+"fin": 51.579,
+"score": 0.509
+},
+{
+"texto": "de",
+"inicio": 51.639,
+"fin": 51.739,
+"score": 0.883
+},
+{
+"texto": "falta",
+"inicio": 51.879,
+"fin": 52.36,
+"score": 0.89
+},
+{
+"texto": "un",
+"inicio": 52.38,
+"fin": 52.42,
+"score": 0.0
+},
+{
+"texto": "paso",
+"inicio": 52.98,
+"fin": 53.22,
+"score": 0.778
+},
+{
+"texto": "para",
+"inicio": 53.3,
+"fin": 53.42,
+"score": 0.731
+},
+{
+"texto": "estar",
+"inicio": 53.461,
+"fin": 53.621,
+"score": 0.695
+},
+{
+"texto": "en",
+"inicio": 53.641,
+"fin": 53.741,
+"score": 0.308
+},
+{
+"texto": "el",
+"inicio": 53.801,
+"fin": 53.861,
+"score": 0.79
+},
+{
+"texto": "número",
+"inicio": 53.921,
+"fin": 54.121,
+"score": 0.874
+},
+{
+"texto": "uno",
+"inicio": 54.221,
+"fin": 54.401,
+"score": 0.738
+},
+{
+"texto": "y",
+"inicio": 54.521,
+"fin": 54.561,
+"score": 0.908
+},
+{
+"texto": "es",
+"inicio": 54.621,
+"fin": 54.702,
+"score": 0.758
+},
+{
+"texto": "dejar",
+"inicio": 54.762,
+"fin": 55.002,
+"score": 0.975
+},
+{
+"texto": "de",
+"inicio": 55.042,
+"fin": 55.122,
+"score": 0.768
+},
+{
+"texto": "cambiar",
+"inicio": 55.162,
+"fin": 55.402,
+"score": 0.899
+},
+{
+"texto": "tus",
+"inicio": 55.422,
+"fin": 55.562,
+"score": 0.735
+},
+{
+"texto": "horas",
+"inicio": 55.582,
+"fin": 55.822,
+"score": 0.5
+},
+{
+"texto": "por",
+"inicio": 55.862,
+"fin": 55.983,
+"score": 0.911
+},
+{
+"texto": "dinero",
+"inicio": 56.023,
+"fin": 56.283,
+"score": 0.909
+},
+{
+"texto": "y",
+"inicio": 56.303,
+"fin": 56.323,
+"score": 0.01
+},
+{
+"texto": "empezar",
+"inicio": 56.523,
+"fin": 56.863,
+"score": 0.877
+},
+{
+"texto": "a",
+"inicio": 56.883,
+"fin": 56.903,
+"score": 0.959
+},
+{
+"texto": "vender",
+"inicio": 56.983,
+"fin": 57.224,
+"score": 0.726
+},
+{
+"texto": "planes",
+"inicio": 57.264,
+"fin": 57.484,
+"score": 0.948
+},
+{
+"texto": "anuales.",
+"inicio": 57.544,
+"fin": 57.864,
+"score": 0.918
+},
+{
+"texto": "Comenta",
+"inicio": 57.984,
+"fin": 58.404,
+"score": 0.701
+},
+{
+"texto": "plan",
+"inicio": 58.424,
+"fin": 58.665,
+"score": 0.782
+},
+{
+"texto": "y",
+"inicio": 58.845,
+"fin": 58.885,
+"score": 0.589
+},
+{
+"texto": "te",
+"inicio": 58.925,
+"fin": 58.985,
+"score": 0.734
+},
+{
+"texto": "envío",
+"inicio": 59.005,
+"fin": 59.405,
+"score": 0.851
+},
+{
+"texto": "la",
+"inicio": 59.585,
+"fin": 59.645,
+"score": 0.558
+},
+{
+"texto": "leía",
+"inicio": 59.706,
+"fin": 60.006,
+"score": 0.563
+},
+{
+"texto": "paso",
+"inicio": 60.146,
+"fin": 60.366,
+"score": 0.888
+},
+{
+"texto": "a",
+"inicio": 60.426,
+"fin": 60.486,
+"score": 0.392
+},
+{
+"texto": "paso",
+"inicio": 60.526,
+"fin": 60.746,
+"score": 0.76
+},
+{
+"texto": "de",
+"inicio": 60.766,
+"fin": 60.806,
+"score": 0.006
+},
+{
+"texto": "cómo",
+"inicio": 61.047,
+"fin": 61.207,
+"score": 0.846
+},
+{
+"texto": "puedes",
+"inicio": 61.267,
+"fin": 61.427,
+"score": 0.771
+},
+{
+"texto": "llegar",
+"inicio": 61.447,
+"fin": 61.627,
+"score": 0.772
+},
+{
+"texto": "a",
+"inicio": 61.647,
+"fin": 61.667,
+"score": 0.088
+},
+{
+"texto": "tus",
+"inicio": 61.747,
+"fin": 61.867,
+"score": 0.723
+},
+{
+"texto": "primeros",
+"inicio": 61.907,
+"fin": 62.208,
+"score": 0.802
+},
+{
+"texto": "5000",
+"inicio": 62.308,
+"fin": 62.508,
+"score": 0.642
+},
+{
+"texto": "euros",
+"inicio": 62.588,
+"fin": 62.948,
+"score": 0.604
+},
+{
+"texto": "al",
+"inicio": 63.008,
+"fin": 63.108,
+"score": 0.701
+},
+{
+"texto": "mes",
+"inicio": 63.168,
+"fin": 63.348,
+"score": 0.859
+},
+{
+"texto": "como",
+"inicio": 63.469,
+"fin": 63.609,
+"score": 0.858
+},
+{
+"texto": "entrenador",
+"inicio": 63.629,
+"fin": 64.149,
+"score": 0.74
+},
+{
+"texto": "online",
+"inicio": 64.169,
+"fin": 64.549,
+"score": 0.423
+},
+{
+"texto": "desde",
+"inicio": 64.569,
+"fin": 64.87,
+"score": 0.864
+},
+{
+"texto": "cero.",
+"inicio": 64.97,
+"fin": 65.19,
+"score": 0.761
+}
+]

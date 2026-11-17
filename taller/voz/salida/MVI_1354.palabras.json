@@ -1,0 +1,592 @@
+[
+ {
+  "texto": "Perdona,",
+  "inicio": 1.1,
+  "fin": 1.8
+ },
+ {
+  "texto": "¿tienes",
+  "inicio": 2.04,
+  "fin": 2.28
+ },
+ {
+  "texto": "dos",
+  "inicio": 2.28,
+  "fin": 2.44
+ },
+ {
+  "texto": "minutos?",
+  "inicio": 2.44,
+  "fin": 2.92
+ },
+ {
+  "texto": "30",
+  "inicio": 3.42,
+  "fin": 3.78
+ },
+ {
+  "texto": "segundos.",
+  "inicio": 3.78,
+  "fin": 3.94
+ },
+ {
+  "texto": "30",
+  "inicio": 4.1,
+  "fin": 4.46
+ },
+ {
+  "texto": "segundos",
+  "inicio": 4.46,
+  "fin": 4.66
+ },
+ {
+  "texto": "me",
+  "inicio": 4.66,
+  "fin": 4.9
+ },
+ {
+  "texto": "sirve",
+  "inicio": 4.9,
+  "fin": 5.24
+ },
+ {
+  "texto": "para",
+  "inicio": 5.24,
+  "fin": 5.38
+ },
+ {
+  "texto": "la",
+  "inicio": 5.38,
+  "fin": 5.6
+ },
+ {
+  "texto": "gente",
+  "inicio": 5.6,
+  "fin": 5.82
+ },
+ {
+  "texto": "joven",
+  "inicio": 5.82,
+  "fin": 6
+ },
+ {
+  "texto": "y",
+  "inicio": 6,
+  "fin": 6.12
+ },
+ {
+  "texto": "para",
+  "inicio": 6.12,
+  "fin": 6.3
+ },
+ {
+  "texto": "ayudarles.",
+  "inicio": 6.3,
+  "fin": 6.7
+ },
+ {
+  "texto": "Estoy",
+  "inicio": 6.86,
+  "fin": 7.06
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 7.06,
+  "fin": 7.16
+ },
+ {
+  "texto": "una",
+  "inicio": 7.16,
+  "fin": 7.38
+ },
+ {
+  "texto": "pregunta",
+  "inicio": 7.38,
+  "fin": 7.52
+ },
+ {
+  "texto": "un",
+  "inicio": 7.52,
+  "fin": 7.64
+ },
+ {
+  "texto": "poco",
+  "inicio": 7.64,
+  "fin": 7.84
+ },
+ {
+  "texto": "directa,",
+  "inicio": 7.84,
+  "fin": 8.26
+ },
+ {
+  "texto": "pero",
+  "inicio": 8.4,
+  "fin": 8.58
+ },
+ {
+  "texto": "estamos",
+  "inicio": 8.58,
+  "fin": 8.88
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 8.88,
+  "fin": 9.06
+ },
+ {
+  "texto": "la",
+  "inicio": 9.06,
+  "fin": 9.28
+ },
+ {
+  "texto": "pregunta",
+  "inicio": 9.28,
+  "fin": 9.52
+ },
+ {
+  "texto": "de",
+  "inicio": 9.52,
+  "fin": 9.62
+ },
+ {
+  "texto": "¿cómo",
+  "inicio": 9.62,
+  "fin": 9.88
+ },
+ {
+  "texto": "te",
+  "inicio": 9.88,
+  "fin": 9.98
+ },
+ {
+  "texto": "hiciste",
+  "inicio": 9.98,
+  "fin": 10.26
+ },
+ {
+  "texto": "rico?",
+  "inicio": 10.26,
+  "fin": 11
+ },
+ {
+  "texto": "Ehh",
+  "inicio": 11.66,
+  "fin": 12.94
+ },
+ {
+  "texto": "...",
+  "inicio": 12.94,
+  "fin": 12.96
+ },
+ {
+  "texto": "me",
+  "inicio": 13.08,
+  "fin": 13.2
+ },
+ {
+  "texto": "hice",
+  "inicio": 13.2,
+  "fin": 13.42
+ },
+ {
+  "texto": "rico",
+  "inicio": 13.42,
+  "fin": 13.62
+ },
+ {
+  "texto": "cuando",
+  "inicio": 13.62,
+  "fin": 13.8
+ },
+ {
+  "texto": "me",
+  "inicio": 13.8,
+  "fin": 13.92
+ },
+ {
+  "texto": "casé",
+  "inicio": 13.92,
+  "fin": 14.12
+ },
+ {
+  "texto": "con",
+  "inicio": 14.12,
+  "fin": 14.24
+ },
+ {
+  "texto": "ella.",
+  "inicio": 14.24,
+  "fin": 15
+ },
+ {
+  "texto": "Dicen",
+  "inicio": 15.12,
+  "fin": 15.36
+ },
+ {
+  "texto": "que",
+  "inicio": 15.36,
+  "fin": 15.44
+ },
+ {
+  "texto": "es",
+  "inicio": 15.44,
+  "fin": 15.52
+ },
+ {
+  "texto": "muy",
+  "inicio": 15.52,
+  "fin": 15.94
+ },
+ {
+  "texto": "importante.",
+  "inicio": 15.94,
+  "fin": 16.2
+ },
+ {
+  "texto": "Dicen",
+  "inicio": 17.26,
+  "fin": 17.48
+ },
+ {
+  "texto": "que",
+  "inicio": 17.48,
+  "fin": 17.66
+ },
+ {
+  "texto": "cuando",
+  "inicio": 17.66,
+  "fin": 17.86
+ },
+ {
+  "texto": "uno",
+  "inicio": 17.86,
+  "fin": 18.02
+ },
+ {
+  "texto": "conoce",
+  "inicio": 18.02,
+  "fin": 18.22
+ },
+ {
+  "texto": "su",
+  "inicio": 18.22,
+  "fin": 18.38
+ },
+ {
+  "texto": "pareja",
+  "inicio": 18.38,
+  "fin": 18.68
+ },
+ {
+  "texto": "potencia",
+  "inicio": 18.68,
+  "fin": 19.08
+ },
+ {
+  "texto": "cada",
+  "inicio": 19.08,
+  "fin": 19.26
+ },
+ {
+  "texto": "área",
+  "inicio": 19.26,
+  "fin": 19.4
+ },
+ {
+  "texto": "e",
+  "inicio": 19.4,
+  "fin": 19.46
+ },
+ {
+  "texto": "incluido",
+  "inicio": 19.46,
+  "fin": 19.74
+ },
+ {
+  "texto": "los",
+  "inicio": 19.74,
+  "fin": 19.92
+ },
+ {
+  "texto": "negocios.",
+  "inicio": 19.92,
+  "fin": 20
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 20.46,
+  "fin": 20.62
+ },
+ {
+  "texto": "bueno,",
+  "inicio": 20.7,
+  "fin": 20.98
+ },
+ {
+  "texto": "yo",
+  "inicio": 21.1,
+  "fin": 21.3
+ },
+ {
+  "texto": "creo",
+  "inicio": 21.3,
+  "fin": 21.44
+ },
+ {
+  "texto": "que",
+  "inicio": 21.44,
+  "fin": 21.6
+ },
+ {
+  "texto": "sea",
+  "inicio": 21.6,
+  "fin": 21.74
+ },
+ {
+  "texto": "la",
+  "inicio": 21.74,
+  "fin": 22.16
+ },
+ {
+  "texto": "positividad",
+  "inicio": 22.16,
+  "fin": 22.74
+ },
+ {
+  "texto": "y",
+  "inicio": 22.74,
+  "fin": 22.86
+ },
+ {
+  "texto": "eso",
+  "inicio": 22.86,
+  "fin": 23
+ },
+ {
+  "texto": "sí",
+  "inicio": 23,
+  "fin": 23.26
+ },
+ {
+  "texto": "para",
+  "inicio": 23.26,
+  "fin": 23.66
+ },
+ {
+  "texto": "toda",
+  "inicio": 23.66,
+  "fin": 23.78
+ },
+ {
+  "texto": "la",
+  "inicio": 23.78,
+  "fin": 23.92
+ },
+ {
+  "texto": "vida,",
+  "inicio": 23.92,
+  "fin": 24.16
+ },
+ {
+  "texto": "pero",
+  "inicio": 24.16,
+  "fin": 24.92
+ },
+ {
+  "texto": "no,",
+  "inicio": 24.92,
+  "fin": 25.04
+ },
+ {
+  "texto": "no,",
+  "inicio": 25.04,
+  "fin": 25.14
+ },
+ {
+  "texto": "récordos",
+  "inicio": 25.22,
+  "fin": 25.52
+ },
+ {
+  "texto": "somos",
+  "inicio": 25.52,
+  "fin": 25.66
+ },
+ {
+  "texto": "ricos,",
+  "inicio": 25.66,
+  "fin": 25.7
+ },
+ {
+  "texto": "si",
+  "inicio": 25.88,
+  "fin": 26
+ },
+ {
+  "texto": "fuéramos",
+  "inicio": 26,
+  "fin": 26.24
+ },
+ {
+  "texto": "ricos",
+  "inicio": 26.24,
+  "fin": 26.72
+ },
+ {
+  "texto": "no",
+  "inicio": 26.72,
+  "fin": 27.18
+ },
+ {
+  "texto": "trabajaríamos.",
+  "inicio": 27.18,
+  "fin": 27.6
+ },
+ {
+  "texto": "Bueno,",
+  "inicio": 27.72,
+  "fin": 28.28
+ },
+ {
+  "texto": "muchas",
+  "inicio": 28.5,
+  "fin": 28.78
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 28.78,
+  "fin": 28.9
+ },
+ {
+  "texto": "Pero",
+  "inicio": 29.16,
+  "fin": 29.24
+ },
+ {
+  "texto": "en",
+  "inicio": 29.24,
+  "fin": 29.4
+ },
+ {
+  "texto": "final,",
+  "inicio": 29.4,
+  "fin": 30.12
+ },
+ {
+  "texto": "hay",
+  "inicio": 30.52,
+  "fin": 30.92
+ },
+ {
+  "texto": "falta",
+  "inicio": 30.92,
+  "fin": 31.1
+ },
+ {
+  "texto": "de",
+  "inicio": 31.1,
+  "fin": 31.3
+ },
+ {
+  "texto": "cosas,",
+  "inicio": 31.3,
+  "fin": 31.84
+ },
+ {
+  "texto": "perseverancia",
+  "inicio": 32.28,
+  "fin": 32.68
+ },
+ {
+  "texto": "y",
+  "inicio": 32.68,
+  "fin": 32.78
+ },
+ {
+  "texto": "suerte.",
+  "inicio": 32.78,
+  "fin": 33
+ },
+ {
+  "texto": "Muchísimas",
+  "inicio": 33.42,
+  "fin": 33.88
+ },
+ {
+  "texto": "gracias",
+  "inicio": 33.88,
+  "fin": 34.08
+ },
+ {
+  "texto": "por",
+  "inicio": 34.08,
+  "fin": 34.2
+ },
+ {
+  "texto": "los",
+  "inicio": 34.2,
+  "fin": 34.2
+ },
+ {
+  "texto": "oriocos.",
+  "inicio": 34.2,
+  "fin": 34.46
+ },
+ {
+  "texto": "Si",
+  "inicio": 34.54,
+  "fin": 34.72
+ },
+ {
+  "texto": "ninguna",
+  "inicio": 34.72,
+  "fin": 34.86
+ },
+ {
+  "texto": "de",
+  "inicio": 34.86,
+  "fin": 35
+ },
+ {
+  "texto": "las",
+  "inicio": 35,
+  "fin": 35.1
+ },
+ {
+  "texto": "dos",
+  "inicio": 35.1,
+  "fin": 35.3
+ },
+ {
+  "texto": "o",
+  "inicio": 35.3,
+  "fin": 35.54
+ },
+ {
+  "texto": "funciona.",
+  "inicio": 35.54,
+  "fin": 35.6
+ },
+ {
+  "texto": "Muchas",
+  "inicio": 36.04,
+  "fin": 36.32
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 36.32,
+  "fin": 36.6
+ },
+ {
+  "texto": "Muchas",
+  "inicio": 36.82,
+  "fin": 36.96
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 36.96,
+  "fin": 37.58
+ }
+]

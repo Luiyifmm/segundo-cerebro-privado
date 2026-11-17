@@ -1,0 +1,42 @@
+[
+ {
+  "texto": "Café",
+  "inicio": 0.18,
+  "fin": 0.48
+ },
+ {
+  "texto": "solo.",
+  "inicio": 0.48,
+  "fin": 1
+ },
+ {
+  "texto": "No",
+  "inicio": 1.3,
+  "fin": 1.52
+ },
+ {
+  "texto": "va",
+  "inicio": 1.52,
+  "fin": 1.68
+ },
+ {
+  "texto": "a",
+  "inicio": 1.68,
+  "fin": 1.68
+ },
+ {
+  "texto": "dematarte",
+  "inicio": 1.68,
+  "fin": 2.22
+ },
+ {
+  "texto": "de",
+  "inicio": 2.22,
+  "fin": 2.4
+ },
+ {
+  "texto": "hambre.",
+  "inicio": 2.4,
+  "fin": 2.7
+ }
+]

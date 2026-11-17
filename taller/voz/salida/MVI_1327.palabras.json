@@ -1,0 +1,307 @@
+[
+ {
+  "texto": "No",
+  "inicio": 0.9,
+  "fin": 1.12
+ },
+ {
+  "texto": "amor",
+  "inicio": 1.12,
+  "fin": 1.24
+ },
+ {
+  "texto": "que",
+  "inicio": 1.24,
+  "fin": 1.34
+ },
+ {
+  "texto": "no",
+  "inicio": 1.34,
+  "fin": 1.46
+ },
+ {
+  "texto": "me",
+  "inicio": 1.46,
+  "fin": 1.56
+ },
+ {
+  "texto": "va",
+  "inicio": 1.56,
+  "fin": 1.6
+ },
+ {
+  "texto": "a",
+  "inicio": 1.6,
+  "fin": 1.66
+ },
+ {
+  "texto": "dar",
+  "inicio": 1.66,
+  "fin": 1.88
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 1.88,
+  "fin": 2.2
+ },
+ {
+  "texto": "si",
+  "inicio": 2.2,
+  "fin": 2.32
+ },
+ {
+  "texto": "es",
+  "inicio": 2.32,
+  "fin": 2.44
+ },
+ {
+  "texto": "gestal",
+  "inicio": 2.44,
+  "fin": 2.66
+ },
+ {
+  "texto": "chavá,",
+  "inicio": 2.66,
+  "fin": 2.84
+ },
+ {
+  "texto": "vamos",
+  "inicio": 3.02,
+  "fin": 3.2
+ },
+ {
+  "texto": "a",
+  "inicio": 3.2,
+  "fin": 3.36
+ },
+ {
+  "texto": "intentarlo",
+  "inicio": 3.36,
+  "fin": 4.02
+ },
+ {
+  "texto": "pero",
+  "inicio": 4.02,
+  "fin": 5
+ },
+ {
+  "texto": "no",
+  "inicio": 5,
+  "fin": 5.16
+ },
+ {
+  "texto": "me",
+  "inicio": 5.16,
+  "fin": 5.26
+ },
+ {
+  "texto": "va",
+  "inicio": 5.26,
+  "fin": 5.36
+ },
+ {
+  "texto": "a",
+  "inicio": 5.36,
+  "fin": 5.36
+ },
+ {
+  "texto": "dar",
+  "inicio": 5.36,
+  "fin": 5.58
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 5.58,
+  "fin": 6
+ },
+ {
+  "texto": "Mírense",
+  "inicio": 13.38,
+  "fin": 13.82
+ },
+ {
+  "texto": "Porsche,",
+  "inicio": 13.82,
+  "fin": 14.14
+ },
+ {
+  "texto": "mírense",
+  "inicio": 14.24,
+  "fin": 14.66
+ },
+ {
+  "texto": "Porsche",
+  "inicio": 14.66,
+  "fin": 15
+ },
+ {
+  "texto": "Vamos",
+  "inicio": 17.06,
+  "fin": 17.22
+ },
+ {
+  "texto": "a",
+  "inicio": 17.22,
+  "fin": 17.46
+ },
+ {
+  "texto": "intentar",
+  "inicio": 17.46,
+  "fin": 17.76
+ },
+ {
+  "texto": "seguirlo",
+  "inicio": 17.76,
+  "fin": 18
+ },
+ {
+  "texto": "Dime",
+  "inicio": 20.42,
+  "fin": 20.64
+ },
+ {
+  "texto": "que",
+  "inicio": 20.64,
+  "fin": 20.8
+ },
+ {
+  "texto": "sí,",
+  "inicio": 20.8,
+  "fin": 21
+ },
+ {
+  "texto": "dime",
+  "inicio": 21.1,
+  "fin": 21.26
+ },
+ {
+  "texto": "que",
+  "inicio": 21.26,
+  "fin": 21.46
+ },
+ {
+  "texto": "sí,",
+  "inicio": 21.46,
+  "fin": 21.7
+ },
+ {
+  "texto": "dime",
+  "inicio": 21.8,
+  "fin": 21.98
+ },
+ {
+  "texto": "que",
+  "inicio": 21.98,
+  "fin": 22.1
+ },
+ {
+  "texto": "es",
+  "inicio": 22.1,
+  "fin": 22.42
+ },
+ {
+  "texto": "no",
+  "inicio": 22.42,
+  "fin": 23
+ },
+ {
+  "texto": "...",
+  "inicio": 23.48,
+  "fin": 23.5
+ },
+ {
+  "texto": "Se",
+  "inicio": 24.72,
+  "fin": 24.84
+ },
+ {
+  "texto": "va,",
+  "inicio": 24.84,
+  "fin": 25.36
+ },
+ {
+  "texto": "ese",
+  "inicio": 25.54,
+  "fin": 25.68
+ },
+ {
+  "texto": "es",
+  "inicio": 25.52,
+  "fin": 25.66
+ },
+ {
+  "texto": "el",
+  "inicio": 25.66,
+  "fin": 25.8
+ },
+ {
+  "texto": "rojo",
+  "inicio": 25.8,
+  "fin": 26
+ },
+ {
+  "texto": "Cuidado,",
+  "inicio": 36.44,
+  "fin": 36.62
+ },
+ {
+  "texto": "no",
+  "inicio": 36.74,
+  "fin": 36.84
+ },
+ {
+  "texto": "te",
+  "inicio": 36.84,
+  "fin": 36.96
+ },
+ {
+  "texto": "conoce",
+  "inicio": 36.96,
+  "fin": 37.2
+ },
+ {
+  "texto": "el",
+  "inicio": 37.2,
+  "fin": 37.36
+ },
+ {
+  "texto": "tomorote",
+  "inicio": 37.36,
+  "fin": 38
+ },
+ {
+  "texto": "Ayer",
+  "inicio": 47.12,
+  "fin": 47.3
+ },
+ {
+  "texto": "a",
+  "inicio": 47.3,
+  "fin": 47.4
+ },
+ {
+  "texto": "André",
+  "inicio": 47.4,
+  "fin": 47.62
+ },
+ {
+  "texto": "también",
+  "inicio": 69.98,
+  "fin": 69.98
+ },
+ {
+  "texto": "se",
+  "inicio": 69.98,
+  "fin": 69.98
+ },
+ {
+  "texto": "podía",
+  "inicio": 69.98,
+  "fin": 69.98
+ },
+ {
+  "texto": "entrar.",
+  "inicio": 69.98,
+  "fin": 69.98
+ }
+]

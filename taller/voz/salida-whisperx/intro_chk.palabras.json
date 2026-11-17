@@ -1,0 +1,494 @@
+[
+{
+"texto": "A",
+"inicio": 5.434,
+"fin": 5.474,
+"score": 0.73
+},
+{
+"texto": "partir",
+"inicio": 5.534,
+"fin": 6.214,
+"score": 0.953
+},
+{
+"texto": "de",
+"inicio": 7.215,
+"fin": 7.355,
+"score": 0.939
+},
+{
+"texto": "este",
+"inicio": 7.415,
+"fin": 7.735,
+"score": 0.82
+},
+{
+"texto": "momento",
+"inicio": 7.835,
+"fin": 8.596,
+"score": 0.981
+},
+{
+"texto": "nada",
+"inicio": 11.377,
+"fin": 11.697,
+"score": 0.927
+},
+{
+"texto": "volverá",
+"inicio": 11.798,
+"fin": 12.358,
+"score": 0.89
+},
+{
+"texto": "a",
+"inicio": 12.378,
+"fin": 12.398,
+"score": 0.016
+},
+{
+"texto": "ser",
+"inicio": 12.618,
+"fin": 12.798,
+"score": 0.955
+},
+{
+"texto": "igual.",
+"inicio": 12.838,
+"fin": 15.179,
+"score": 0.896
+},
+{
+"texto": "Estás",
+"inicio": 17.14,
+"fin": 17.501,
+"score": 0.938
+},
+{
+"texto": "por",
+"inicio": 17.601,
+"fin": 17.761,
+"score": 0.954
+},
+{
+"texto": "entrar",
+"inicio": 17.841,
+"fin": 18.561,
+"score": 0.949
+},
+{
+"texto": "en",
+"inicio": 20.782,
+"fin": 20.922,
+"score": 0.979
+},
+{
+"texto": "un",
+"inicio": 21.023,
+"fin": 21.143,
+"score": 0.849
+},
+{
+"texto": "viaje",
+"inicio": 21.263,
+"fin": 21.823,
+"score": 0.929
+},
+{
+"texto": "del",
+"inicio": 22.763,
+"fin": 22.944,
+"score": 0.869
+},
+{
+"texto": "que",
+"inicio": 23.024,
+"fin": 23.144,
+"score": 0.726
+},
+{
+"texto": "no",
+"inicio": 23.224,
+"fin": 23.364,
+"score": 0.892
+},
+{
+"texto": "vas",
+"inicio": 23.484,
+"fin": 23.624,
+"score": 0.667
+},
+{
+"texto": "a",
+"inicio": 23.684,
+"fin": 23.704,
+"score": 0.975
+},
+{
+"texto": "querer",
+"inicio": 23.804,
+"fin": 24.144,
+"score": 0.918
+},
+{
+"texto": "salir.",
+"inicio": 24.264,
+"fin": 25.305,
+"score": 0.896
+},
+{
+"texto": "Una",
+"inicio": 26.465,
+"fin": 26.666,
+"score": 0.819
+},
+{
+"texto": "vez",
+"inicio": 26.746,
+"fin": 26.926,
+"score": 0.89
+},
+{
+"texto": "que",
+"inicio": 27.006,
+"fin": 27.166,
+"score": 0.871
+},
+{
+"texto": "empiece",
+"inicio": 27.246,
+"fin": 28.046,
+"score": 0.91
+},
+{
+"texto": "no",
+"inicio": 30.268,
+"fin": 30.368,
+"score": 0.791
+},
+{
+"texto": "habrá",
+"inicio": 30.568,
+"fin": 30.848,
+"score": 0.51
+},
+{
+"texto": "vuelta",
+"inicio": 30.948,
+"fin": 31.568,
+"score": 0.932
+},
+{
+"texto": "atrás.",
+"inicio": 31.668,
+"fin": 32.669,
+"score": 0.706
+},
+{
+"texto": "¡Damas",
+"inicio": 32.709,
+"fin": 33.149,
+"score": 0.511
+},
+{
+"texto": "y",
+"inicio": 33.749,
+"fin": 33.85,
+"score": 0.754
+},
+{
+"texto": "caballeros!",
+"inicio": 33.87,
+"fin": 34.69,
+"score": 0.543
+},
+{
+"texto": "Ha",
+"inicio": 35.538,
+"fin": 35.638,
+"score": 0.842
+},
+{
+"texto": "llegado",
+"inicio": 35.678,
+"fin": 36.018,
+"score": 0.848
+},
+{
+"texto": "el",
+"inicio": 36.038,
+"fin": 36.178,
+"score": 0.344
+},
+{
+"texto": "momento",
+"inicio": 36.218,
+"fin": 36.519,
+"score": 0.778
+},
+{
+"texto": "que",
+"inicio": 36.539,
+"fin": 36.599,
+"score": 0.118
+},
+{
+"texto": "todos",
+"inicio": 36.619,
+"fin": 37.339,
+"score": 0.538
+},
+{
+"texto": "estaban",
+"inicio": 37.419,
+"fin": 37.859,
+"score": 0.843
+},
+{
+"texto": "esperando.",
+"inicio": 37.939,
+"fin": 38.46,
+"score": 0.966
+},
+{
+"texto": "Prepárense",
+"inicio": 39.3,
+"fin": 39.9,
+"score": 0.937
+},
+{
+"texto": "para",
+"inicio": 39.961,
+"fin": 40.101,
+"score": 0.866
+},
+{
+"texto": "vivir",
+"inicio": 40.161,
+"fin": 40.381,
+"score": 0.902
+},
+{
+"texto": "una",
+"inicio": 40.401,
+"fin": 40.561,
+"score": 0.397
+},
+{
+"texto": "experiencia",
+"inicio": 40.621,
+"fin": 41.281,
+"score": 0.922
+},
+{
+"texto": "llena",
+"inicio": 41.421,
+"fin": 41.661,
+"score": 0.789
+},
+{
+"texto": "de",
+"inicio": 41.702,
+"fin": 41.762,
+"score": 0.978
+},
+{
+"texto": "música,",
+"inicio": 41.882,
+"fin": 42.362,
+"score": 0.746
+},
+{
+"texto": "energía",
+"inicio": 42.682,
+"fin": 43.202,
+"score": 0.788
+},
+{
+"texto": "y",
+"inicio": 43.222,
+"fin": 43.242,
+"score": 0.02
+},
+{
+"texto": "mucha",
+"inicio": 43.823,
+"fin": 44.143,
+"score": 0.836
+},
+{
+"texto": "locura.",
+"inicio": 44.183,
+"fin": 44.643,
+"score": 0.875
+},
+{
+"texto": "Porque",
+"inicio": 45.404,
+"fin": 45.684,
+"score": 0.815
+},
+{
+"texto": "esta",
+"inicio": 45.704,
+"fin": 46.024,
+"score": 0.8
+},
+{
+"texto": "noche",
+"inicio": 46.104,
+"fin": 46.364,
+"score": 0.808
+},
+{
+"texto": "llega",
+"inicio": 46.424,
+"fin": 46.684,
+"score": 0.817
+},
+{
+"texto": "con",
+"inicio": 46.784,
+"fin": 46.924,
+"score": 0.997
+},
+{
+"texto": "toda",
+"inicio": 47.165,
+"fin": 47.405,
+"score": 0.918
+},
+{
+"texto": "su",
+"inicio": 47.505,
+"fin": 47.605,
+"score": 0.895
+},
+{
+"texto": "fuerza.",
+"inicio": 47.685,
+"fin": 48.045,
+"score": 0.906
+},
+{
+"texto": "¡Prede",
+"inicio": 48.065,
+"fin": 49.246,
+"score": 0.81
+},
+{
+"texto": "el",
+"inicio": 49.286,
+"fin": 49.406,
+"score": 0.622
+},
+{
+"texto": "party!",
+"inicio": 49.466,
+"fin": 49.906,
+"score": 0.664
+},
+{
+"texto": "Y",
+"inicio": 52.247,
+"fin": 52.307,
+"score": 0.723
+},
+{
+"texto": "directamente",
+"inicio": 52.368,
+"fin": 53.008,
+"score": 0.952
+},
+{
+"texto": "en",
+"inicio": 53.028,
+"fin": 53.128,
+"score": 0.296
+},
+{
+"texto": "los",
+"inicio": 53.168,
+"fin": 53.268,
+"score": 0.996
+},
+{
+"texto": "controles,",
+"inicio": 53.328,
+"fin": 53.788,
+"score": 0.928
+},
+{
+"texto": "el",
+"inicio": 53.808,
+"fin": 53.848,
+"score": 0.006
+},
+{
+"texto": "encargado",
+"inicio": 54.389,
+"fin": 54.889,
+"score": 0.953
+},
+{
+"texto": "de",
+"inicio": 54.929,
+"fin": 55.009,
+"score": 0.727
+},
+{
+"texto": "prender",
+"inicio": 55.089,
+"fin": 55.549,
+"score": 0.903
+},
+{
+"texto": "esta",
+"inicio": 55.609,
+"fin": 55.789,
+"score": 0.83
+},
+{
+"texto": "fiesta.",
+"inicio": 55.889,
+"fin": 56.25,
+"score": 0.884
+},
+{
+"texto": "¡Joseph",
+"inicio": 56.27,
+"fin": 57.69,
+"score": 0.52
+},
+{
+"texto": "Barbosa!",
+"inicio": 58.351,
+"fin": 59.071,
+"score": 0.822
+},
+{
+"texto": "¡Manos",
+"inicio": 59.111,
+"fin": 61.433,
+"score": 0.896
+},
+{
+"texto": "arriba!",
+"inicio": 61.513,
+"fin": 61.933,
+"score": 0.799
+},
+{
+"texto": "¡Tres!",
+"inicio": 61.953,
+"fin": 63.774,
+"score": 0.917
+},
+{
+"texto": "¡Vamos!",
+"inicio": 65.452,
+"fin": 65.621,
+"score": 0.086
+}
+]

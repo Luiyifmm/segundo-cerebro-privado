@@ -1,0 +1,147 @@
+[
+ {
+  "texto": "solo",
+  "inicio": 0.38,
+  "fin": 0.52
+ },
+ {
+  "texto": "un",
+  "inicio": 0.52,
+  "fin": 0.74
+ },
+ {
+  "texto": "consejo,",
+  "inicio": 0.74,
+  "fin": 0.98
+ },
+ {
+  "texto": "da",
+  "inicio": 1.04,
+  "fin": 1.1
+ },
+ {
+  "texto": "un",
+  "inicio": 1.1,
+  "fin": 1.28
+ },
+ {
+  "texto": "consejo",
+  "inicio": 1.28,
+  "fin": 1.52
+ },
+ {
+  "texto": "a",
+  "inicio": 1.52,
+  "fin": 1.52
+ },
+ {
+  "texto": "la",
+  "inicio": 1.52,
+  "fin": 1.7
+ },
+ {
+  "texto": "gente",
+  "inicio": 1.7,
+  "fin": 1.98
+ },
+ {
+  "texto": "joven",
+  "inicio": 1.98,
+  "fin": 2
+ },
+ {
+  "texto": "y",
+  "inicio": 2.52,
+  "fin": 2.66
+ },
+ {
+  "texto": "diles",
+  "inicio": 2.66,
+  "fin": 3.3
+ },
+ {
+  "texto": "que",
+  "inicio": 3.3,
+  "fin": 3.42
+ },
+ {
+  "texto": "es",
+  "inicio": 3.42,
+  "fin": 3.52
+ },
+ {
+  "texto": "lo",
+  "inicio": 3.52,
+  "fin": 3.74
+ },
+ {
+  "texto": "mejor",
+  "inicio": 3.74,
+  "fin": 3.86
+ },
+ {
+  "texto": "que",
+  "inicio": 3.86,
+  "fin": 4.04
+ },
+ {
+  "texto": "pueden",
+  "inicio": 4.04,
+  "fin": 4.22
+ },
+ {
+  "texto": "hacer",
+  "inicio": 4.22,
+  "fin": 4.36
+ },
+ {
+  "texto": "para",
+  "inicio": 4.36,
+  "fin": 4.54
+ },
+ {
+  "texto": "hacerse",
+  "inicio": 4.54,
+  "fin": 4.78
+ },
+ {
+  "texto": "ricos",
+  "inicio": 4.78,
+  "fin": 5
+ },
+ {
+  "texto": "pues",
+  "inicio": 5.8,
+  "fin": 6.14
+ },
+ {
+  "texto": "como",
+  "inicio": 6.14,
+  "fin": 6.38
+ },
+ {
+  "texto": "hablo",
+  "inicio": 6.38,
+  "fin": 6.6
+ },
+ {
+  "texto": "más",
+  "inicio": 6.6,
+  "fin": 6.78
+ },
+ {
+  "texto": "despacito,",
+  "inicio": 6.78,
+  "fin": 7
+ },
+ {
+  "texto": "por",
+  "inicio": 7.28,
+  "fin": 7.44
+ },
+ {
+  "texto": "favor",
+  "inicio": 7.44,
+  "fin": 9.22
+ }
+]

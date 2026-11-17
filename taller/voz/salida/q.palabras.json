@@ -1,0 +1,207 @@
+[
+ {
+  "texto": "Y",
+  "inicio": 0.08,
+  "fin": 0.16
+ },
+ {
+  "texto": "si",
+  "inicio": 0.16,
+  "fin": 0.26
+ },
+ {
+  "texto": "tú",
+  "inicio": 0.26,
+  "fin": 0.46
+ },
+ {
+  "texto": "quieres",
+  "inicio": 0.46,
+  "fin": 0.72
+ },
+ {
+  "texto": "pasar",
+  "inicio": 0.72,
+  "fin": 0.92
+ },
+ {
+  "texto": "de",
+  "inicio": 0.92,
+  "fin": 1.12
+ },
+ {
+  "texto": "sobrevivir",
+  "inicio": 1.12,
+  "fin": 1.48
+ },
+ {
+  "texto": "a",
+  "inicio": 1.48,
+  "fin": 1.64
+ },
+ {
+  "texto": "vivir",
+  "inicio": 1.64,
+  "fin": 1.98
+ },
+ {
+  "texto": "muy",
+  "inicio": 1.98,
+  "fin": 2.18
+ },
+ {
+  "texto": "bien",
+  "inicio": 2.18,
+  "fin": 2.34
+ },
+ {
+  "texto": "con",
+  "inicio": 2.34,
+  "fin": 2.44
+ },
+ {
+  "texto": "el",
+  "inicio": 2.44,
+  "fin": 2.58
+ },
+ {
+  "texto": "FINDES,",
+  "inicio": 2.58,
+  "fin": 3.04
+ },
+ {
+  "texto": "vas",
+  "inicio": 3.22,
+  "fin": 3.34
+ },
+ {
+  "texto": "a",
+  "inicio": 3.34,
+  "fin": 3.48
+ },
+ {
+  "texto": "ver",
+  "inicio": 3.48,
+  "fin": 3.68
+ },
+ {
+  "texto": "que",
+  "inicio": 3.68,
+  "fin": 3.96
+ },
+ {
+  "texto": "mi",
+  "inicio": 3.96,
+  "fin": 4.08
+ },
+ {
+  "texto": "taller",
+  "inicio": 4.08,
+  "fin": 4.28
+ },
+ {
+  "texto": "es",
+  "inicio": 4.28,
+  "fin": 4.46
+ },
+ {
+  "texto": "práctico,",
+  "inicio": 4.46,
+  "fin": 4.82
+ },
+ {
+  "texto": "no",
+  "inicio": 4.92,
+  "fin": 5.06
+ },
+ {
+  "texto": "relleno.",
+  "inicio": 5.06,
+  "fin": 5.28
+ },
+ {
+  "texto": "Así",
+  "inicio": 5.44,
+  "fin": 5.54
+ },
+ {
+  "texto": "que",
+  "inicio": 5.54,
+  "fin": 5.68
+ },
+ {
+  "texto": "comenta",
+  "inicio": 5.68,
+  "fin": 5.9
+ },
+ {
+  "texto": "la",
+  "inicio": 5.9,
+  "fin": 6.02
+ },
+ {
+  "texto": "palabra",
+  "inicio": 6.02,
+  "fin": 6.28
+ },
+ {
+  "texto": "guía,",
+  "inicio": 6.28,
+  "fin": 6.52
+ },
+ {
+  "texto": "porque",
+  "inicio": 6.76,
+  "fin": 6.86
+ },
+ {
+  "texto": "te",
+  "inicio": 6.86,
+  "fin": 6.96
+ },
+ {
+  "texto": "vas",
+  "inicio": 6.96,
+  "fin": 7.02
+ },
+ {
+  "texto": "a",
+  "inicio": 7.02,
+  "fin": 7.14
+ },
+ {
+  "texto": "llevar",
+  "inicio": 7.14,
+  "fin": 7.4
+ },
+ {
+  "texto": "tres",
+  "inicio": 7.4,
+  "fin": 7.68
+ },
+ {
+  "texto": "estrategias",
+  "inicio": 7.68,
+  "fin": 8.1
+ },
+ {
+  "texto": "para",
+  "inicio": 8.1,
+  "fin": 8.28
+ },
+ {
+  "texto": "aplicar",
+  "inicio": 8.28,
+  "fin": 8.7
+ },
+ {
+  "texto": "hoy",
+  "inicio": 8.7,
+  "fin": 8.98
+ },
+ {
+  "texto": "mismo.",
+  "inicio": 8.98,
+  "fin": 9.08
+ }
+]

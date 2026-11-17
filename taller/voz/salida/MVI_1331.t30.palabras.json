@@ -1,0 +1,177 @@
+[
+ {
+  "texto": "Para",
+  "inicio": 0.22,
+  "fin": 0.54
+ },
+ {
+  "texto": "hacer",
+  "inicio": 0.54,
+  "fin": 0.8
+ },
+ {
+  "texto": "dinero,",
+  "inicio": 0.8,
+  "fin": 1.06
+ },
+ {
+  "texto": "para",
+  "inicio": 1.28,
+  "fin": 2.42
+ },
+ {
+  "texto": "hacer",
+  "inicio": 2.42,
+  "fin": 2.8
+ },
+ {
+  "texto": "sueños.",
+  "inicio": 2.8,
+  "fin": 3
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 3.76,
+  "fin": 3.8
+ },
+ {
+  "texto": "ellos",
+  "inicio": 4.02,
+  "fin": 4.58
+ },
+ {
+  "texto": "pueden",
+  "inicio": 4.58,
+  "fin": 4.76
+ },
+ {
+  "texto": "trabajar",
+  "inicio": 4.76,
+  "fin": 4.98
+ },
+ {
+  "texto": "muy",
+  "inicio": 4.98,
+  "fin": 4.98
+ },
+ {
+  "texto": "bien",
+  "inicio": 4.98,
+  "fin": 5.18
+ },
+ {
+  "texto": "como",
+  "inicio": 5.18,
+  "fin": 5.38
+ },
+ {
+  "texto": "yo.",
+  "inicio": 5.38,
+  "fin": 5.54
+ },
+ {
+  "texto": "Quiero",
+  "inicio": 5.98,
+  "fin": 6.24
+ },
+ {
+  "texto": "ser",
+  "inicio": 6.24,
+  "fin": 6.36
+ },
+ {
+  "texto": "rica,",
+  "inicio": 6.36,
+  "fin": 6.52
+ },
+ {
+  "texto": "pero",
+  "inicio": 7.08,
+  "fin": 7.56
+ },
+ {
+  "texto": "no",
+  "inicio": 7.56,
+  "fin": 7.58
+ },
+ {
+  "texto": "estoy",
+  "inicio": 7.58,
+  "fin": 7.76
+ },
+ {
+  "texto": "tan",
+  "inicio": 7.76,
+  "fin": 7.98
+ },
+ {
+  "texto": "bien",
+  "inicio": 7.98,
+  "fin": 8.24
+ },
+ {
+  "texto": "ahora,",
+  "inicio": 8.24,
+  "fin": 8.4
+ },
+ {
+  "texto": "pero",
+  "inicio": 8.78,
+  "fin": 9.48
+ },
+ {
+  "texto": "si",
+  "inicio": 9.48,
+  "fin": 10.7
+ },
+ {
+  "texto": "cada",
+  "inicio": 10.7,
+  "fin": 11.32
+ },
+ {
+  "texto": "día",
+  "inicio": 11.32,
+  "fin": 11.42
+ },
+ {
+  "texto": "tienes",
+  "inicio": 11.42,
+  "fin": 11.5
+ },
+ {
+  "texto": "un",
+  "inicio": 11.5,
+  "fin": 11.72
+ },
+ {
+  "texto": "poco",
+  "inicio": 11.72,
+  "fin": 11.92
+ },
+ {
+  "texto": "más",
+  "inicio": 11.92,
+  "fin": 12
+ },
+ {
+  "texto": "de",
+  "inicio": 12.1,
+  "fin": 12.1
+ },
+ {
+  "texto": "tiempo,",
+  "inicio": 12.1,
+  "fin": 12.26
+ },
+ {
+  "texto": "vamos",
+  "inicio": 12.68,
+  "fin": 12.88
+ },
+ {
+  "texto": "juntos.",
+  "inicio": 12.88,
+  "fin": 13.32
+ }
+]

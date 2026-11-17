@@ -1,0 +1,32 @@
+[
+{
+"texto": "Esto",
+"inicio": 0.143,
+"fin": 0.425,
+"score": 0.95
+},
+{
+"texto": "es",
+"inicio": 0.566,
+"fin": 0.707,
+"score": 0.9
+},
+{
+"texto": "¡Prede",
+"inicio": 0.728,
+"fin": 1.615,
+"score": 0.821
+},
+{
+"texto": "el",
+"inicio": 1.635,
+"fin": 1.756,
+"score": 0.922
+},
+{
+"texto": "Party!",
+"inicio": 1.897,
+"fin": 2.26,
+"score": 0.749
+}
+]

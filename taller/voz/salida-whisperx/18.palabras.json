@@ -1,0 +1,404 @@
+[
+{
+"texto": "y",
+"inicio": 2.498,
+"fin": 2.518,
+"score": 0.043
+},
+{
+"texto": "robo",
+"inicio": 41.122,
+"fin": 41.423,
+"score": 0.676
+},
+{
+"texto": "baba",
+"inicio": 41.483,
+"fin": 41.943,
+"score": 0.718
+},
+{
+"texto": "si",
+"inicio": 42.203,
+"fin": 42.664,
+"score": 0.754
+},
+{
+"texto": "bigaba",
+"inicio": 42.684,
+"fin": 42.964,
+"score": 0.474
+},
+{
+"texto": "ribillo",
+"inicio": 43.004,
+"fin": 43.304,
+"score": 0.448
+},
+{
+"texto": "fue",
+"inicio": 43.324,
+"fin": 43.504,
+"score": 0.437
+},
+{
+"texto": "por",
+"inicio": 43.524,
+"fin": 43.624,
+"score": 0.387
+},
+{
+"texto": "lo",
+"inicio": 43.644,
+"fin": 43.805,
+"score": 0.616
+},
+{
+"texto": "que",
+"inicio": 43.825,
+"fin": 43.925,
+"score": 0.636
+},
+{
+"texto": "vemos",
+"inicio": 43.985,
+"fin": 44.165,
+"score": 0.837
+},
+{
+"texto": "Lava",
+"inicio": 80.95,
+"fin": 81.25,
+"score": 0.648
+},
+{
+"texto": "robo",
+"inicio": 81.551,
+"fin": 81.891,
+"score": 0.744
+},
+{
+"texto": "baba,",
+"inicio": 81.931,
+"fin": 82.551,
+"score": 0.681
+},
+{
+"texto": "bobo",
+"inicio": 82.591,
+"fin": 82.972,
+"score": 0.723
+},
+{
+"texto": "repeso",
+"inicio": 83.292,
+"fin": 83.892,
+"score": 0.771
+},
+{
+"texto": "bo",
+"inicio": 84.012,
+"fin": 84.312,
+"score": 0.678
+},
+{
+"texto": "Maba",
+"inicio": 84.352,
+"fin": 84.733,
+"score": 0.764
+},
+{
+"texto": "nueve",
+"inicio": 85.053,
+"fin": 85.393,
+"score": 0.422
+},
+{
+"texto": "lava,",
+"inicio": 85.433,
+"fin": 85.653,
+"score": 0.539
+},
+{
+"texto": "me",
+"inicio": 86.114,
+"fin": 86.274,
+"score": 0.806
+},
+{
+"texto": "ve",
+"inicio": 86.314,
+"fin": 86.494,
+"score": 0.666
+},
+{
+"texto": "que",
+"inicio": 86.754,
+"fin": 86.854,
+"score": 0.586
+},
+{
+"texto": "pe",
+"inicio": 86.974,
+"fin": 87.154,
+"score": 0.914
+},
+{
+"texto": "mogo",
+"inicio": 87.174,
+"fin": 87.455,
+"score": 0.597
+},
+{
+"texto": "Lava",
+"inicio": 87.855,
+"fin": 88.255,
+"score": 0.755
+},
+{
+"texto": "robo",
+"inicio": 88.575,
+"fin": 89.156,
+"score": 0.762
+},
+{
+"texto": "baba,",
+"inicio": 89.256,
+"fin": 89.976,
+"score": 0.66
+},
+{
+"texto": "si",
+"inicio": 90.076,
+"fin": 90.136,
+"score": 0.262
+},
+{
+"texto": "pica",
+"inicio": 90.156,
+"fin": 90.356,
+"score": 0.747
+},
+{
+"texto": "barribillo",
+"inicio": 90.397,
+"fin": 90.777,
+"score": 0.636
+},
+{
+"texto": "po",
+"inicio": 90.817,
+"fin": 90.877,
+"score": 0.578
+},
+{
+"texto": "fue",
+"inicio": 90.897,
+"fin": 90.997,
+"score": 0.317
+},
+{
+"texto": "po",
+"inicio": 91.017,
+"fin": 91.117,
+"score": 0.642
+},
+{
+"texto": "lobo",
+"inicio": 91.157,
+"fin": 91.297,
+"score": 0.561
+},
+{
+"texto": "que",
+"inicio": 91.317,
+"fin": 91.437,
+"score": 0.646
+},
+{
+"texto": "me",
+"inicio": 91.457,
+"fin": 91.517,
+"score": 0.603
+},
+{
+"texto": "mogo",
+"inicio": 91.577,
+"fin": 91.677,
+"score": 0.374
+},
+{
+"texto": "Si",
+"inicio": 91.697,
+"fin": 91.857,
+"score": 0.418
+},
+{
+"texto": "pica",
+"inicio": 91.878,
+"fin": 92.078,
+"score": 0.753
+},
+{
+"texto": "barribillo",
+"inicio": 92.118,
+"fin": 92.518,
+"score": 0.632
+},
+{
+"texto": "po",
+"inicio": 92.558,
+"fin": 92.638,
+"score": 0.717
+},
+{
+"texto": "me",
+"inicio": 92.658,
+"fin": 92.718,
+"score": 0.945
+},
+{
+"texto": "quemo",
+"inicio": 92.758,
+"fin": 92.958,
+"score": 0.75
+},
+{
+"texto": "po",
+"inicio": 92.978,
+"fin": 93.078,
+"score": 0.555
+},
+{
+"texto": "la",
+"inicio": 93.098,
+"fin": 93.138,
+"score": 0.576
+},
+{
+"texto": "roba",
+"inicio": 93.258,
+"fin": 93.399,
+"score": 0.782
+},
+{
+"texto": "pa",
+"inicio": 93.459,
+"fin": 93.499,
+"score": 0.976
+},
+{
+"texto": "Si",
+"inicio": 93.539,
+"fin": 93.619,
+"score": 0.562
+},
+{
+"texto": "pica",
+"inicio": 93.639,
+"fin": 93.839,
+"score": 0.643
+},
+{
+"texto": "barribillo",
+"inicio": 93.879,
+"fin": 94.279,
+"score": 0.584
+},
+{
+"texto": "po",
+"inicio": 94.319,
+"fin": 94.399,
+"score": 0.586
+},
+{
+"texto": "fue",
+"inicio": 94.419,
+"fin": 94.499,
+"score": 0.257
+},
+{
+"texto": "po",
+"inicio": 94.519,
+"fin": 94.619,
+"score": 0.594
+},
+{
+"texto": "lobo",
+"inicio": 94.639,
+"fin": 94.799,
+"score": 0.577
+},
+{
+"texto": "que",
+"inicio": 94.819,
+"fin": 94.92,
+"score": 0.647
+},
+{
+"texto": "me",
+"inicio": 94.94,
+"fin": 95.0,
+"score": 0.541
+},
+{
+"texto": "mogo",
+"inicio": 95.06,
+"fin": 95.24,
+"score": 0.484
+},
+{
+"texto": "Si",
+"inicio": 95.26,
+"fin": 95.36,
+"score": 0.45
+},
+{
+"texto": "pica",
+"inicio": 95.38,
+"fin": 95.48,
+"score": 0.136
+},
+{
+"texto": "barribillo",
+"inicio": 95.5,
+"fin": 95.94,
+"score": 0.278
+},
+{
+"texto": "po",
+"inicio": 95.96,
+"fin": 96.0,
+"score": 0.061
+},
+{
+"texto": "Me",
+"inicio": 141.782,
+"fin": 141.842,
+"score": 0.388
+},
+{
+"texto": "movo",
+"inicio": 141.862,
+"fin": 142.283,
+"score": 0.636
+},
+{
+"texto": "la",
+"inicio": 142.523,
+"fin": 142.644,
+"score": 0.722
+},
+{
+"texto": "barro",
+"inicio": 142.704,
+"fin": 143.305,
+"score": 0.764
+},
+{
+"texto": "popaba",
+"inicio": 143.325,
+"fin": 143.966,
+"score": 0.713
+}
+]

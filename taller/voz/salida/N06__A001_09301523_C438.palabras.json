@@ -1,0 +1,72 @@
+[
+ {
+  "texto": "El",
+  "inicio": 1.82,
+  "fin": 2.16
+ },
+ {
+  "texto": "problema",
+  "inicio": 2.16,
+  "fin": 2.4
+ },
+ {
+  "texto": "no",
+  "inicio": 2.4,
+  "fin": 2.5
+ },
+ {
+  "texto": "es",
+  "inicio": 2.5,
+  "fin": 2.6
+ },
+ {
+  "texto": "la",
+  "inicio": 2.6,
+  "fin": 2.72
+ },
+ {
+  "texto": "lechuga,",
+  "inicio": 2.72,
+  "fin": 3.52
+ },
+ {
+  "texto": "es",
+  "inicio": 4.16,
+  "fin": 4.44
+ },
+ {
+  "texto": "la",
+  "inicio": 4.44,
+  "fin": 4.8
+ },
+ {
+  "texto": "salsa,",
+  "inicio": 4.8,
+  "fin": 5.58
+ },
+ {
+  "texto": "los",
+  "inicio": 5.7,
+  "fin": 5.92
+ },
+ {
+  "texto": "picatostes",
+  "inicio": 5.92,
+  "fin": 7.4
+ },
+ {
+  "texto": "y",
+  "inicio": 7.4,
+  "fin": 7.54
+ },
+ {
+  "texto": "el",
+  "inicio": 7.54,
+  "fin": 7.68
+ },
+ {
+  "texto": "queso.",
+  "inicio": 7.68,
+  "fin": 9.06
+ }
+]

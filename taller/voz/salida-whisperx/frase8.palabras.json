@@ -1,0 +1,86 @@
+[
+{
+"texto": "Damas",
+"inicio": 2.71,
+"fin": 3.03,
+"score": 0.655
+},
+{
+"texto": "y",
+"inicio": 3.17,
+"fin": 3.25,
+"score": 0.72
+},
+{
+"texto": "caballeros.",
+"inicio": 3.331,
+"fin": 4.391,
+"score": 0.69
+},
+{
+"texto": "Bienvenidos.",
+"inicio": 7.473,
+"fin": 8.534,
+"score": 0.718
+},
+{
+"texto": "¿Preparados?",
+"inicio": 8.554,
+"fin": 9.455,
+"score": 0.607
+},
+{
+"texto": "Llegó",
+"inicio": 9.895,
+"fin": 10.235,
+"score": 0.347
+},
+{
+"texto": "Préver",
+"inicio": 10.315,
+"fin": 10.535,
+"score": 0.357
+},
+{
+"texto": "el",
+"inicio": 10.596,
+"fin": 10.836,
+"score": 0.535
+},
+{
+"texto": "party.",
+"inicio": 10.856,
+"fin": 11.336,
+"score": 0.568
+},
+{
+"texto": "En",
+"inicio": 11.716,
+"fin": 11.796,
+"score": 0.847
+},
+{
+"texto": "las",
+"inicio": 11.836,
+"fin": 11.916,
+"score": 0.903
+},
+{
+"texto": "máquinas.",
+"inicio": 11.976,
+"fin": 12.617,
+"score": 0.627
+},
+{
+"texto": "Joseph",
+"inicio": 12.957,
+"fin": 13.598,
+"score": 0.621
+},
+{
+"texto": "Barbosa.",
+"inicio": 13.618,
+"fin": 14.038,
+"score": 0.581
+}
+]

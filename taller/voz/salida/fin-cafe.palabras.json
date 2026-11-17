@@ -1,0 +1,17 @@
+[
+ {
+  "texto": "estarás",
+  "inicio": 0.12,
+  "fin": 0.34
+ },
+ {
+  "texto": "comiendo",
+  "inicio": 0.34,
+  "fin": 0.72
+ },
+ {
+  "texto": "más.",
+  "inicio": 0.72,
+  "fin": 0.8
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "texto": "No",
+  "inicio": 0.08,
+  "fin": 0.18
+ },
+ {
+  "texto": "me",
+  "inicio": 0.18,
+  "fin": 0.24
+ },
+ {
+  "texto": "voy",
+  "inicio": 0.24,
+  "fin": 0.4
+ },
+ {
+  "texto": "a",
+  "inicio": 0.4,
+  "fin": 0.4
+ },
+ {
+  "texto": "encontrar.",
+  "inicio": 0.4,
+  "fin": 1.88
+ },
+ {
+  "texto": "Perdona,",
+  "inicio": 2.4,
+  "fin": 3.12
+ },
+ {
+  "texto": "señor.",
+  "inicio": 3.4,
+  "fin": 4
+ },
+ {
+  "texto": "¿Qué",
+  "inicio": 4.4,
+  "fin": 4.58
+ },
+ {
+  "texto": "tal?",
+  "inicio": 4.58,
+  "fin": 4.78
+ },
+ {
+  "texto": "Mira,",
+  "inicio": 4.88,
+  "fin": 5.1
+ },
+ {
+  "texto": "estoy",
+  "inicio": 5.32,
+  "fin": 5.6
+ },
+ {
+  "texto": "ayudando",
+  "inicio": 5.6,
+  "fin": 5.96
+ },
+ {
+  "texto": "a",
+  "inicio": 5.96,
+  "fin": 6.06
+ },
+ {
+  "texto": "la",
+  "inicio": 6.06,
+  "fin": 6.26
+ },
+ {
+  "texto": "gente",
+  "inicio": 6.26,
+  "fin": 6.5
+ },
+ {
+  "texto": "joven,",
+  "inicio": 6.5,
+  "fin": 6.66
+ },
+ {
+  "texto": "entrevistando",
+  "inicio": 6.88,
+  "fin": 7.24
+ },
+ {
+  "texto": "a",
+  "inicio": 7.24,
+  "fin": 7.42
+ },
+ {
+  "texto": "gente,",
+  "inicio": 7.42,
+  "fin": 7.62
+ },
+ {
+  "texto": "dando",
+  "inicio": 7.72,
+  "fin": 7.92
+ },
+ {
+  "texto": "rey",
+  "inicio": 7.92,
+  "fin": 8.16
+ },
+ {
+  "texto": "preguntándoles",
+  "inicio": 8.16,
+  "fin": 8.64
+ },
+ {
+  "texto": "cómo",
+  "inicio": 8.64,
+  "fin": 8.78
+ },
+ {
+  "texto": "se",
+  "inicio": 8.78,
+  "fin": 8.88
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 8.88,
+  "fin": 9
+ },
+ {
+  "texto": "ricos.",
+  "inicio": 9.14,
+  "fin": 9.34
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 9.38,
+  "fin": 9.62
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 9.62,
+  "fin": 10
+ },
+ {
+  "texto": "participar?",
+  "inicio": 10.02,
+  "fin": 10.68
+ },
+ {
+  "texto": "No,",
+  "inicio": 10.92,
+  "fin": 11
+ },
+ {
+  "texto": "ahora.",
+  "inicio": 11.24,
+  "fin": 11.48
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 11.74,
+  "fin": 12
+ },
+ {
+  "texto": "Un",
+  "inicio": 12.2,
+  "fin": 12.2
+ },
+ {
+  "texto": "momento,",
+  "inicio": 12.2,
+  "fin": 12.44
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 12.64,
+  "fin": 12.94
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 13.32,
+  "fin": 14
+ }
+]

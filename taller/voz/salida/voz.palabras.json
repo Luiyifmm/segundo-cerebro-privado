@@ -1,0 +1,502 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 0.18,
+  "fin": 0.44
+ },
+ {
+  "texto": "estás",
+  "inicio": 0.44,
+  "fin": 0.66
+ },
+ {
+  "texto": "comiendo",
+  "inicio": 0.66,
+  "fin": 1.06
+ },
+ {
+  "texto": "esto",
+  "inicio": 1.06,
+  "fin": 1.28
+ },
+ {
+  "texto": "para",
+  "inicio": 1.28,
+  "fin": 1.46
+ },
+ {
+  "texto": "adelgazar,",
+  "inicio": 1.46,
+  "fin": 2.1
+ },
+ {
+  "texto": "te",
+  "inicio": 2.92,
+  "fin": 3.16
+ },
+ {
+  "texto": "tengo",
+  "inicio": 3.16,
+  "fin": 3.32
+ },
+ {
+  "texto": "malas",
+  "inicio": 3.32,
+  "fin": 3.58
+ },
+ {
+  "texto": "noticias.",
+  "inicio": 3.58,
+  "fin": 3.8
+ },
+ {
+  "texto": "El",
+  "inicio": 4,
+  "fin": 4.3
+ },
+ {
+  "texto": "problema",
+  "inicio": 4.3,
+  "fin": 4.54
+ },
+ {
+  "texto": "no",
+  "inicio": 4.54,
+  "fin": 4.64
+ },
+ {
+  "texto": "es",
+  "inicio": 4.64,
+  "fin": 4.74
+ },
+ {
+  "texto": "la",
+  "inicio": 4.74,
+  "fin": 4.86
+ },
+ {
+  "texto": "lechuga,",
+  "inicio": 4.86,
+  "fin": 5.36
+ },
+ {
+  "texto": "es",
+  "inicio": 5.64,
+  "fin": 5.92
+ },
+ {
+  "texto": "la",
+  "inicio": 5.92,
+  "fin": 6.26
+ },
+ {
+  "texto": "salsa,",
+  "inicio": 6.26,
+  "fin": 7.02
+ },
+ {
+  "texto": "los",
+  "inicio": 7.16,
+  "fin": 7.38
+ },
+ {
+  "texto": "picatostes",
+  "inicio": 7.38,
+  "fin": 8.86
+ },
+ {
+  "texto": "y",
+  "inicio": 8.86,
+  "fin": 9.02
+ },
+ {
+  "texto": "el",
+  "inicio": 9.02,
+  "fin": 9.16
+ },
+ {
+  "texto": "queso.",
+  "inicio": 9.16,
+  "fin": 9.34
+ },
+ {
+  "texto": "Según",
+  "inicio": 9.66,
+  "fin": 9.9
+ },
+ {
+  "texto": "cuánto",
+  "inicio": 9.9,
+  "fin": 10.12
+ },
+ {
+  "texto": "le",
+  "inicio": 10.12,
+  "fin": 10.32
+ },
+ {
+  "texto": "pongas,",
+  "inicio": 10.32,
+  "fin": 10.72
+ },
+ {
+  "texto": "pueden",
+  "inicio": 10.88,
+  "fin": 11.12
+ },
+ {
+  "texto": "llegar",
+  "inicio": 11.12,
+  "fin": 11.3
+ },
+ {
+  "texto": "a",
+  "inicio": 11.3,
+  "fin": 11.68
+ },
+ {
+  "texto": "900",
+  "inicio": 11.68,
+  "fin": 12.48
+ },
+ {
+  "texto": "calorías,",
+  "inicio": 12.48,
+  "fin": 12.88
+ },
+ {
+  "texto": "lo",
+  "inicio": 13.56,
+  "fin": 13.8
+ },
+ {
+  "texto": "mismo",
+  "inicio": 13.8,
+  "fin": 14.08
+ },
+ {
+  "texto": "que",
+  "inicio": 14.08,
+  "fin": 14.46
+ },
+ {
+  "texto": "una",
+  "inicio": 14.46,
+  "fin": 14.62
+ },
+ {
+  "texto": "hamburguesa",
+  "inicio": 14.62,
+  "fin": 15.3
+ },
+ {
+  "texto": "o",
+  "inicio": 15.3,
+  "fin": 15.68
+ },
+ {
+  "texto": "3",
+  "inicio": 15.68,
+  "fin": 15.86
+ },
+ {
+  "texto": "porciones",
+  "inicio": 15.86,
+  "fin": 16.26
+ },
+ {
+  "texto": "de",
+  "inicio": 16.26,
+  "fin": 16.46
+ },
+ {
+  "texto": "pizza.",
+  "inicio": 16.46,
+  "fin": 16.48
+ },
+ {
+  "texto": "Por",
+  "inicio": 16.68,
+  "fin": 16.98
+ },
+ {
+  "texto": "menos",
+  "inicio": 16.98,
+  "fin": 17.28
+ },
+ {
+  "texto": "calorías",
+  "inicio": 17.28,
+  "fin": 17.76
+ },
+ {
+  "texto": "puedes",
+  "inicio": 17.76,
+  "fin": 18.1
+ },
+ {
+  "texto": "comer",
+  "inicio": 18.1,
+  "fin": 18.46
+ },
+ {
+  "texto": "todo",
+  "inicio": 18.46,
+  "fin": 18.78
+ },
+ {
+  "texto": "esto.",
+  "inicio": 18.78,
+  "fin": 18.82
+ },
+ {
+  "texto": "150",
+  "inicio": 19.3,
+  "fin": 19.84
+ },
+ {
+  "texto": "gramos",
+  "inicio": 19.84,
+  "fin": 20.14
+ },
+ {
+  "texto": "de",
+  "inicio": 20.14,
+  "fin": 20.3
+ },
+ {
+  "texto": "pollo,",
+  "inicio": 20.3,
+  "fin": 20.7
+ },
+ {
+  "texto": "100",
+  "inicio": 20.86,
+  "fin": 21.12
+ },
+ {
+  "texto": "gramos",
+  "inicio": 21.12,
+  "fin": 21.4
+ },
+ {
+  "texto": "de",
+  "inicio": 21.4,
+  "fin": 21.5
+ },
+ {
+  "texto": "arroz",
+  "inicio": 21.5,
+  "fin": 21.86
+ },
+ {
+  "texto": "vaporizado,",
+  "inicio": 21.86,
+  "fin": 22.28
+ },
+ {
+  "texto": "verduras",
+  "inicio": 22.62,
+  "fin": 23.14
+ },
+ {
+  "texto": "salteadas",
+  "inicio": 23.14,
+  "fin": 23.9
+ },
+ {
+  "texto": "y",
+  "inicio": 23.9,
+  "fin": 24.3
+ },
+ {
+  "texto": "además",
+  "inicio": 24.3,
+  "fin": 25.06
+ },
+ {
+  "texto": "postre.",
+  "inicio": 25.06,
+  "fin": 25.38
+ },
+ {
+  "texto": "Podes",
+  "inicio": 25.52,
+  "fin": 25.9
+ },
+ {
+  "texto": "comer",
+  "inicio": 25.9,
+  "fin": 26.14
+ },
+ {
+  "texto": "un",
+  "inicio": 26.14,
+  "fin": 26.24
+ },
+ {
+  "texto": "yogurte",
+  "inicio": 26.24,
+  "fin": 26.62
+ },
+ {
+  "texto": "soja,",
+  "inicio": 26.62,
+  "fin": 26.96
+ },
+ {
+  "texto": "fresas",
+  "inicio": 27.12,
+  "fin": 27.7
+ },
+ {
+  "texto": "y",
+  "inicio": 27.7,
+  "fin": 27.98
+ },
+ {
+  "texto": "chocolate",
+  "inicio": 27.98,
+  "fin": 28.26
+ },
+ {
+  "texto": "del",
+  "inicio": 28.26,
+  "fin": 28.7
+ },
+ {
+  "texto": "85",
+  "inicio": 28.7,
+  "fin": 29.12
+ },
+ {
+  "texto": "%.",
+  "inicio": 29.12,
+  "fin": 29.14
+ },
+ {
+  "texto": "Comer",
+  "inicio": 29.28,
+  "fin": 29.7
+ },
+ {
+  "texto": "sano",
+  "inicio": 29.7,
+  "fin": 30.04
+ },
+ {
+  "texto": "no",
+  "inicio": 30.04,
+  "fin": 30.12
+ },
+ {
+  "texto": "es",
+  "inicio": 30.12,
+  "fin": 30.22
+ },
+ {
+  "texto": "lo",
+  "inicio": 30.22,
+  "fin": 30.44
+ },
+ {
+  "texto": "mismo",
+  "inicio": 30.44,
+  "fin": 30.64
+ },
+ {
+  "texto": "que",
+  "inicio": 30.64,
+  "fin": 30.94
+ },
+ {
+  "texto": "comer",
+  "inicio": 30.94,
+  "fin": 31.26
+ },
+ {
+  "texto": "para",
+  "inicio": 31.26,
+  "fin": 31.58
+ },
+ {
+  "texto": "perder",
+  "inicio": 31.58,
+  "fin": 31.82
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 31.82,
+  "fin": 32.82
+ },
+ {
+  "texto": "Escribe",
+  "inicio": 33.12,
+  "fin": 33.58
+ },
+ {
+  "texto": "ensalada",
+  "inicio": 33.58,
+  "fin": 34.12
+ },
+ {
+  "texto": "y",
+  "inicio": 34.12,
+  "fin": 34.24
+ },
+ {
+  "texto": "te",
+  "inicio": 34.24,
+  "fin": 34.4
+ },
+ {
+  "texto": "mando",
+  "inicio": 34.4,
+  "fin": 34.9
+ },
+ {
+  "texto": "10",
+  "inicio": 34.9,
+  "fin": 35.16
+ },
+ {
+  "texto": "platos",
+  "inicio": 35.16,
+  "fin": 35.58
+ },
+ {
+  "texto": "completos",
+  "inicio": 35.58,
+  "fin": 35.96
+ },
+ {
+  "texto": "para",
+  "inicio": 35.96,
+  "fin": 36.24
+ },
+ {
+  "texto": "perder",
+  "inicio": 36.24,
+  "fin": 36.5
+ },
+ {
+  "texto": "grasa",
+  "inicio": 36.5,
+  "fin": 36.76
+ },
+ {
+  "texto": "con",
+  "inicio": 36.76,
+  "fin": 36.9
+ },
+ {
+  "texto": "sus",
+  "inicio": 36.9,
+  "fin": 37.14
+ },
+ {
+  "texto": "calorías.",
+  "inicio": 37.14,
+  "fin": 37.48
+ }
+]

@@ -1,0 +1,292 @@
+[
+ {
+  "texto": "¿Ya?",
+  "inicio": 0.08,
+  "fin": 1
+ },
+ {
+  "texto": "Bueno.",
+  "inicio": 1.6,
+  "fin": 2
+ },
+ {
+  "texto": "Ya.",
+  "inicio": 6.58,
+  "fin": 8.46
+ },
+ {
+  "texto": "¿Listo?",
+  "inicio": 8.78,
+  "fin": 10.54
+ },
+ {
+  "texto": "Pull",
+  "inicio": 14.96,
+  "fin": 15.24
+ },
+ {
+  "texto": "ups.",
+  "inicio": 15.24,
+  "fin": 15.72
+ },
+ {
+  "texto": "La",
+  "inicio": 15.92,
+  "fin": 16.12
+ },
+ {
+  "texto": "reina",
+  "inicio": 16.12,
+  "fin": 16.38
+ },
+ {
+  "texto": "de",
+  "inicio": 16.38,
+  "fin": 16.5
+ },
+ {
+  "texto": "todos",
+  "inicio": 16.5,
+  "fin": 16.7
+ },
+ {
+  "texto": "los",
+  "inicio": 16.7,
+  "fin": 16.92
+ },
+ {
+  "texto": "ejercicios",
+  "inicio": 16.92,
+  "fin": 17.28
+ },
+ {
+  "texto": "de",
+  "inicio": 17.28,
+  "fin": 17.44
+ },
+ {
+  "texto": "espalda.",
+  "inicio": 17.44,
+  "fin": 17.8
+ },
+ {
+  "texto": "Aquí",
+  "inicio": 17.98,
+  "fin": 18.24
+ },
+ {
+  "texto": "trabaja.",
+  "inicio": 18.24,
+  "fin": 19
+ },
+ {
+  "texto": "El",
+  "inicio": 19.52,
+  "fin": 19.56
+ },
+ {
+  "texto": "reino",
+  "inicio": 19.56,
+  "fin": 19.7
+ },
+ {
+  "texto": "de",
+  "inicio": 19.7,
+  "fin": 19.82
+ },
+ {
+  "texto": "todos",
+  "inicio": 19.82,
+  "fin": 20.04
+ },
+ {
+  "texto": "los",
+  "inicio": 20.04,
+  "fin": 20.86
+ },
+ {
+  "texto": "ejercicios",
+  "inicio": 20.86,
+  "fin": 23
+ },
+ {
+  "texto": "de",
+  "inicio": 24.48,
+  "fin": 25.44
+ },
+ {
+  "texto": "espalda.",
+  "inicio": 25.44,
+  "fin": 27.8
+ },
+ {
+  "texto": "La",
+  "inicio": 23.12,
+  "fin": 23.3
+ },
+ {
+  "texto": "Reina",
+  "inicio": 23.3,
+  "fin": 23.68
+ },
+ {
+  "texto": "de",
+  "inicio": 23.68,
+  "fin": 24.16
+ },
+ {
+  "texto": "los",
+  "inicio": 24.16,
+  "fin": 24.92
+ },
+ {
+  "texto": "ejercicios",
+  "inicio": 24.92,
+  "fin": 25.36
+ },
+ {
+  "texto": "de",
+  "inicio": 25.36,
+  "fin": 25.44
+ },
+ {
+  "texto": "espalda.",
+  "inicio": 25.44,
+  "fin": 26
+ },
+ {
+  "texto": "Aquí",
+  "inicio": 26.02,
+  "fin": 26.88
+ },
+ {
+  "texto": "activas",
+  "inicio": 26.88,
+  "fin": 27
+ },
+ {
+  "texto": "todos",
+  "inicio": 27.16,
+  "fin": 27.34
+ },
+ {
+  "texto": "los",
+  "inicio": 27.34,
+  "fin": 27.58
+ },
+ {
+  "texto": "músculos.",
+  "inicio": 27.58,
+  "fin": 27.94
+ },
+ {
+  "texto": "La",
+  "inicio": 28.16,
+  "fin": 28.38
+ },
+ {
+  "texto": "frente",
+  "inicio": 28.38,
+  "fin": 28.64
+ },
+ {
+  "texto": "del",
+  "inicio": 28.64,
+  "fin": 28.78
+ },
+ {
+  "texto": "más",
+  "inicio": 28.78,
+  "fin": 28.94
+ },
+ {
+  "texto": "que",
+  "inicio": 28.94,
+  "fin": 29
+ },
+ {
+  "texto": "trabaja.",
+  "inicio": 29.2,
+  "fin": 30.06
+ },
+ {
+  "texto": "Ulabs.",
+  "inicio": 36.82,
+  "fin": 37.58
+ },
+ {
+  "texto": "La",
+  "inicio": 37.82,
+  "fin": 38.02
+ },
+ {
+  "texto": "reina",
+  "inicio": 38.02,
+  "fin": 38.26
+ },
+ {
+  "texto": "de",
+  "inicio": 38.26,
+  "fin": 38.28
+ },
+ {
+  "texto": "los",
+  "inicio": 38.28,
+  "fin": 38.54
+ },
+ {
+  "texto": "ejercicios",
+  "inicio": 38.54,
+  "fin": 38.96
+ },
+ {
+  "texto": "de",
+  "inicio": 38.96,
+  "fin": 39.18
+ },
+ {
+  "texto": "espalda.",
+  "inicio": 39.18,
+  "fin": 39.56
+ },
+ {
+  "texto": "Aquí",
+  "inicio": 39.74,
+  "fin": 40.08
+ },
+ {
+  "texto": "activas",
+  "inicio": 40.08,
+  "fin": 40.54
+ },
+ {
+  "texto": "todos",
+  "inicio": 40.54,
+  "fin": 40.78
+ },
+ {
+  "texto": "los",
+  "inicio": 40.78,
+  "fin": 41
+ },
+ {
+  "texto": "músculos.",
+  "inicio": 41.02,
+  "fin": 42.62
+ },
+ {
+  "texto": "Era",
+  "inicio": 43.5,
+  "fin": 43.64
+ },
+ {
+  "texto": "la",
+  "inicio": 43.64,
+  "fin": 43.8
+ },
+ {
+  "texto": "otra.",
+  "inicio": 43.8,
+  "fin": 44
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "texto": "con",
+  "inicio": 0.92,
+  "fin": 2.84
+ },
+ {
+  "texto": "esta",
+  "inicio": 2.84,
+  "fin": 3.16
+ },
+ {
+  "texto": "máquina",
+  "inicio": 3.16,
+  "fin": 3.6
+ },
+ {
+  "texto": "en",
+  "inicio": 3.6,
+  "fin": 3.86
+ },
+ {
+  "texto": "remo",
+  "inicio": 3.86,
+  "fin": 4.54
+ },
+ {
+  "texto": "vas",
+  "inicio": 4.54,
+  "fin": 4.66
+ },
+ {
+  "texto": "a",
+  "inicio": 4.66,
+  "fin": 4.92
+ },
+ {
+  "texto": "trabajar",
+  "inicio": 4.92,
+  "fin": 5.12
+ },
+ {
+  "texto": "la",
+  "inicio": 5.12,
+  "fin": 5.34
+ },
+ {
+  "texto": "parte",
+  "inicio": 5.34,
+  "fin": 5.7
+ },
+ {
+  "texto": "lateral",
+  "inicio": 5.7,
+  "fin": 5.88
+ },
+ {
+  "texto": "de",
+  "inicio": 5.88,
+  "fin": 6.02
+ },
+ {
+  "texto": "tu",
+  "inicio": 6.02,
+  "fin": 6.22
+ },
+ {
+  "texto": "espalda",
+  "inicio": 6.22,
+  "fin": 6.68
+ },
+ {
+  "texto": "y",
+  "inicio": 6.68,
+  "fin": 6.84
+ },
+ {
+  "texto": "vas",
+  "inicio": 6.84,
+  "fin": 6.96
+ },
+ {
+  "texto": "a",
+  "inicio": 6.96,
+  "fin": 7.1
+ },
+ {
+  "texto": "levantar",
+  "inicio": 7.1,
+  "fin": 7.46
+ },
+ {
+  "texto": "más",
+  "inicio": 7.46,
+  "fin": 7.7
+ },
+ {
+  "texto": "peso",
+  "inicio": 7.7,
+  "fin": 7.8
+ }
+]

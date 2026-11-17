@@ -1,0 +1,82 @@
+[
+ {
+  "texto": "Os",
+  "inicio": 1.34,
+  "fin": 1.6
+ },
+ {
+  "texto": "juro",
+  "inicio": 1.6,
+  "fin": 1.84
+ },
+ {
+  "texto": "que",
+  "inicio": 1.84,
+  "fin": 2
+ },
+ {
+  "texto": "ese",
+  "inicio": 2,
+  "fin": 2.18
+ },
+ {
+  "texto": "hombre",
+  "inicio": 2.18,
+  "fin": 2.46
+ },
+ {
+  "texto": "mayor",
+  "inicio": 2.46,
+  "fin": 2.72
+ },
+ {
+  "texto": "tenía",
+  "inicio": 2.72,
+  "fin": 2.94
+ },
+ {
+  "texto": "pinta",
+  "inicio": 2.94,
+  "fin": 3.26
+ },
+ {
+  "texto": "de",
+  "inicio": 3.26,
+  "fin": 3.42
+ },
+ {
+  "texto": "tener",
+  "inicio": 3.42,
+  "fin": 3.94
+ },
+ {
+  "texto": "mucha,",
+  "inicio": 3.94,
+  "fin": 4.1
+ },
+ {
+  "texto": "mucha,",
+  "inicio": 4.44,
+  "fin": 4.46
+ },
+ {
+  "texto": "mucha",
+  "inicio": 4.74,
+  "fin": 5.08
+ },
+ {
+  "texto": "pasta.",
+  "inicio": 5.08,
+  "fin": 5.24
+ },
+ {
+  "texto": "¡Mucha!",
+  "inicio": 5.46,
+  "fin": 6.18
+ },
+ {
+  "texto": "¡Seguimos!",
+  "inicio": 6.42,
+  "fin": 7.24
+ }
+]

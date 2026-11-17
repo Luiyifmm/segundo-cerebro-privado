@@ -1,0 +1,162 @@
+[
+ {
+  "texto": "Por",
+  "inicio": 1.76,
+  "fin": 2.1
+ },
+ {
+  "texto": "menos",
+  "inicio": 2.1,
+  "fin": 2.38
+ },
+ {
+  "texto": "calorías",
+  "inicio": 2.38,
+  "fin": 2.9
+ },
+ {
+  "texto": "puedes",
+  "inicio": 2.9,
+  "fin": 3.2
+ },
+ {
+  "texto": "comer",
+  "inicio": 3.2,
+  "fin": 3.6
+ },
+ {
+  "texto": "todo",
+  "inicio": 3.6,
+  "fin": 3.96
+ },
+ {
+  "texto": "esto.",
+  "inicio": 3.96,
+  "fin": 5.96
+ },
+ {
+  "texto": "150",
+  "inicio": 7.02,
+  "fin": 7.56
+ },
+ {
+  "texto": "gramos",
+  "inicio": 7.56,
+  "fin": 7.84
+ },
+ {
+  "texto": "de",
+  "inicio": 7.84,
+  "fin": 8
+ },
+ {
+  "texto": "pollo,",
+  "inicio": 8,
+  "fin": 9.26
+ },
+ {
+  "texto": "100",
+  "inicio": 9.58,
+  "fin": 9.82
+ },
+ {
+  "texto": "gramos",
+  "inicio": 9.82,
+  "fin": 10.1
+ },
+ {
+  "texto": "de",
+  "inicio": 10.1,
+  "fin": 10.18
+ },
+ {
+  "texto": "arroz",
+  "inicio": 10.18,
+  "fin": 10.56
+ },
+ {
+  "texto": "vaporizado,",
+  "inicio": 10.56,
+  "fin": 11.8
+ },
+ {
+  "texto": "verduras",
+  "inicio": 12.06,
+  "fin": 12.62
+ },
+ {
+  "texto": "salteadas",
+  "inicio": 12.62,
+  "fin": 13.82
+ },
+ {
+  "texto": "y",
+  "inicio": 13.82,
+  "fin": 14.18
+ },
+ {
+  "texto": "además",
+  "inicio": 14.18,
+  "fin": 14.24
+ },
+ {
+  "texto": "postre.",
+  "inicio": 15.62,
+  "fin": 16.22
+ },
+ {
+  "texto": "Podes",
+  "inicio": 16.66,
+  "fin": 17.06
+ },
+ {
+  "texto": "comer",
+  "inicio": 17.06,
+  "fin": 17.74
+ },
+ {
+  "texto": "un",
+  "inicio": 17.74,
+  "fin": 17.86
+ },
+ {
+  "texto": "yogurte",
+  "inicio": 17.86,
+  "fin": 18.24
+ },
+ {
+  "texto": "soja,",
+  "inicio": 18.24,
+  "fin": 18.86
+ },
+ {
+  "texto": "fresas",
+  "inicio": 19.02,
+  "fin": 20.2
+ },
+ {
+  "texto": "y",
+  "inicio": 20.2,
+  "fin": 20.48
+ },
+ {
+  "texto": "chocolate",
+  "inicio": 20.48,
+  "fin": 20.78
+ },
+ {
+  "texto": "del",
+  "inicio": 20.78,
+  "fin": 21.18
+ },
+ {
+  "texto": "85",
+  "inicio": 21.18,
+  "fin": 21.58
+ },
+ {
+  "texto": "%.",
+  "inicio": 21.58,
+  "fin": 21.6
+ }
+]

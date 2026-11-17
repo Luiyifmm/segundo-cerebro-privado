@@ -1,0 +1,152 @@
+[
+ {
+  "texto": "Mis",
+  "inicio": 1.2,
+  "fin": 1.42
+ },
+ {
+  "texto": "cojones,",
+  "inicio": 1.42,
+  "fin": 1.78
+ },
+ {
+  "texto": "no",
+  "inicio": 1.86,
+  "fin": 1.96
+ },
+ {
+  "texto": "es",
+  "inicio": 1.96,
+  "fin": 2
+ },
+ {
+  "texto": "rico.",
+  "inicio": 2.1,
+  "fin": 2.5
+ },
+ {
+  "texto": "Sí",
+  "inicio": 2.72,
+  "fin": 2.86
+ },
+ {
+  "texto": "lo",
+  "inicio": 2.86,
+  "fin": 3
+ },
+ {
+  "texto": "es.",
+  "inicio": 3.02,
+  "fin": 3.26
+ },
+ {
+  "texto": "Creerme",
+  "inicio": 3.38,
+  "fin": 3.74
+ },
+ {
+  "texto": "que",
+  "inicio": 3.74,
+  "fin": 3.92
+ },
+ {
+  "texto": "sí",
+  "inicio": 3.92,
+  "fin": 4
+ },
+ {
+  "texto": "lo",
+  "inicio": 4.02,
+  "fin": 4.18
+ },
+ {
+  "texto": "es.",
+  "inicio": 4.18,
+  "fin": 4.28
+ },
+ {
+  "texto": "Vuelo",
+  "inicio": 4.4,
+  "fin": 4.78
+ },
+ {
+  "texto": "a",
+  "inicio": 4.78,
+  "fin": 4.84
+ },
+ {
+  "texto": "la",
+  "inicio": 4.84,
+  "fin": 5
+ },
+ {
+  "texto": "gente",
+  "inicio": 5.04,
+  "fin": 5.24
+ },
+ {
+  "texto": "rica.",
+  "inicio": 5.24,
+  "fin": 5.78
+ },
+ {
+  "texto": "Por",
+  "inicio": 7.6,
+  "fin": 7.8
+ },
+ {
+  "texto": "cierto,",
+  "inicio": 7.8,
+  "fin": 8.04
+ },
+ {
+  "texto": "ese",
+  "inicio": 8.16,
+  "fin": 8.28
+ },
+ {
+  "texto": "es",
+  "inicio": 8.28,
+  "fin": 8.36
+ },
+ {
+  "texto": "el",
+  "inicio": 8.36,
+  "fin": 8.56
+ },
+ {
+  "texto": "R8",
+  "inicio": 8.56,
+  "fin": 9.28
+ },
+ {
+  "texto": "del",
+  "inicio": 9.28,
+  "fin": 9.5
+ },
+ {
+  "texto": "chico",
+  "inicio": 9.5,
+  "fin": 9.74
+ },
+ {
+  "texto": "de",
+  "inicio": 9.74,
+  "fin": 9.92
+ },
+ {
+  "texto": "antes.",
+  "inicio": 9.92,
+  "fin": 10
+ },
+ {
+  "texto": "Juraría,",
+  "inicio": 10.38,
+  "fin": 10.88
+ },
+ {
+  "texto": "eh.",
+  "inicio": 10.88,
+  "fin": 11
+ }
+]

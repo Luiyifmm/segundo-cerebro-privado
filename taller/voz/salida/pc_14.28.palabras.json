@@ -1,0 +1,57 @@
+[
+ {
+  "texto": "Esta",
+  "inicio": 0.4,
+  "fin": 0.66
+ },
+ {
+  "texto": "es",
+  "inicio": 0.66,
+  "fin": 0.76
+ },
+ {
+  "texto": "la",
+  "inicio": 0.76,
+  "fin": 0.98
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 0.98,
+  "fin": 1.28
+ },
+ {
+  "texto": "de",
+  "inicio": 1.28,
+  "fin": 1.48
+ },
+ {
+  "texto": "proteína",
+  "inicio": 1.48,
+  "fin": 1.9
+ },
+ {
+  "texto": "que",
+  "inicio": 1.9,
+  "fin": 2.14
+ },
+ {
+  "texto": "deberías",
+  "inicio": 2.14,
+  "fin": 2.54
+ },
+ {
+  "texto": "consumir",
+  "inicio": 2.54,
+  "fin": 2.88
+ },
+ {
+  "texto": "por",
+  "inicio": 2.88,
+  "fin": 3.08
+ },
+ {
+  "texto": "día.",
+  "inicio": 3.08,
+  "fin": 3.4
+ }
+]

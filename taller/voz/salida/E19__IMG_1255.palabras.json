@@ -1,0 +1,47 @@
+[
+ {
+  "texto": "Top",
+  "inicio": 1.52,
+  "fin": 1.96
+ },
+ {
+  "texto": "5",
+  "inicio": 1.96,
+  "fin": 2.12
+ },
+ {
+  "texto": "de",
+  "inicio": 2.12,
+  "fin": 2.22
+ },
+ {
+  "texto": "los",
+  "inicio": 2.22,
+  "fin": 2.48
+ },
+ {
+  "texto": "mejores",
+  "inicio": 2.48,
+  "fin": 2.72
+ },
+ {
+  "texto": "desayunos",
+  "inicio": 2.72,
+  "fin": 3.2
+ },
+ {
+  "texto": "para",
+  "inicio": 3.2,
+  "fin": 3.48
+ },
+ {
+  "texto": "perder",
+  "inicio": 3.48,
+  "fin": 3.7
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 3.7,
+  "fin": 3.84
+ }
+]

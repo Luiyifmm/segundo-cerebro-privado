@@ -1,0 +1,312 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 0.2,
+  "fin": 0.46
+ },
+ {
+  "texto": "quieres",
+  "inicio": 0.46,
+  "fin": 0.78
+ },
+ {
+  "texto": "perder",
+  "inicio": 0.78,
+  "fin": 1.06
+ },
+ {
+  "texto": "glasa",
+  "inicio": 1.06,
+  "fin": 1.5
+ },
+ {
+  "texto": "debes",
+  "inicio": 1.5,
+  "fin": 1.8
+ },
+ {
+  "texto": "dormir",
+  "inicio": 1.8,
+  "fin": 2.12
+ },
+ {
+  "texto": "entre",
+  "inicio": 2.12,
+  "fin": 2.4
+ },
+ {
+  "texto": "7",
+  "inicio": 2.4,
+  "fin": 2.6
+ },
+ {
+  "texto": "y",
+  "inicio": 2.6,
+  "fin": 2.86
+ },
+ {
+  "texto": "9",
+  "inicio": 2.86,
+  "fin": 3.14
+ },
+ {
+  "texto": "horas.",
+  "inicio": 3.14,
+  "fin": 3.36
+ },
+ {
+  "texto": "Si",
+  "inicio": 3.52,
+  "fin": 3.76
+ },
+ {
+  "texto": "quieres",
+  "inicio": 3.76,
+  "fin": 4.04
+ },
+ {
+  "texto": "perder",
+  "inicio": 4.04,
+  "fin": 4.3
+ },
+ {
+  "texto": "glasa",
+  "inicio": 4.3,
+  "fin": 4.78
+ },
+ {
+  "texto": "debes",
+  "inicio": 4.78,
+  "fin": 5.06
+ },
+ {
+  "texto": "priorizar",
+  "inicio": 5.06,
+  "fin": 5.48
+ },
+ {
+  "texto": "alimentos",
+  "inicio": 5.48,
+  "fin": 5.82
+ },
+ {
+  "texto": "ricos",
+  "inicio": 5.82,
+  "fin": 6.06
+ },
+ {
+  "texto": "en",
+  "inicio": 6.06,
+  "fin": 6.24
+ },
+ {
+  "texto": "proteína.",
+  "inicio": 6.24,
+  "fin": 6.56
+ },
+ {
+  "texto": "Si",
+  "inicio": 6.74,
+  "fin": 7
+ },
+ {
+  "texto": "quieres",
+  "inicio": 7,
+  "fin": 7.36
+ },
+ {
+  "texto": "perder",
+  "inicio": 7.36,
+  "fin": 7.66
+ },
+ {
+  "texto": "glasa",
+  "inicio": 7.66,
+  "fin": 8.06
+ },
+ {
+  "texto": "debes",
+  "inicio": 8.06,
+  "fin": 8.32
+ },
+ {
+  "texto": "caminar",
+  "inicio": 8.32,
+  "fin": 8.62
+ },
+ {
+  "texto": "al",
+  "inicio": 8.62,
+  "fin": 8.78
+ },
+ {
+  "texto": "menos",
+  "inicio": 8.78,
+  "fin": 9.04
+ },
+ {
+  "texto": "8",
+  "inicio": 9.04,
+  "fin": 9.2
+ },
+ {
+  "texto": "mil",
+  "inicio": 9.2,
+  "fin": 9.44
+ },
+ {
+  "texto": "pasos",
+  "inicio": 9.44,
+  "fin": 9.68
+ },
+ {
+  "texto": "al",
+  "inicio": 9.68,
+  "fin": 9.84
+ },
+ {
+  "texto": "día.",
+  "inicio": 9.84,
+  "fin": 10.04
+ },
+ {
+  "texto": "Si",
+  "inicio": 10.22,
+  "fin": 10.46
+ },
+ {
+  "texto": "quieres",
+  "inicio": 10.46,
+  "fin": 10.76
+ },
+ {
+  "texto": "perder",
+  "inicio": 10.76,
+  "fin": 11.04
+ },
+ {
+  "texto": "glasa",
+  "inicio": 11.04,
+  "fin": 11.5
+ },
+ {
+  "texto": "debes",
+  "inicio": 11.5,
+  "fin": 11.78
+ },
+ {
+  "texto": "hacer",
+  "inicio": 11.78,
+  "fin": 12.06
+ },
+ {
+  "texto": "ejercicios",
+  "inicio": 12.06,
+  "fin": 12.44
+ },
+ {
+  "texto": "de",
+  "inicio": 12.44,
+  "fin": 12.62
+ },
+ {
+  "texto": "fuerza.",
+  "inicio": 12.62,
+  "fin": 12.96
+ },
+ {
+  "texto": "Si",
+  "inicio": 13.16,
+  "fin": 13.4
+ },
+ {
+  "texto": "quieres",
+  "inicio": 13.4,
+  "fin": 13.66
+ },
+ {
+  "texto": "perder",
+  "inicio": 13.66,
+  "fin": 13.98
+ },
+ {
+  "texto": "glasa",
+  "inicio": 13.98,
+  "fin": 14.32
+ },
+ {
+  "texto": "debes",
+  "inicio": 14.32,
+  "fin": 14.68
+ },
+ {
+  "texto": "mantener",
+  "inicio": 14.68,
+  "fin": 14.96
+ },
+ {
+  "texto": "estos",
+  "inicio": 14.96,
+  "fin": 15.16
+ },
+ {
+  "texto": "hábitos",
+  "inicio": 15.16,
+  "fin": 15.52
+ },
+ {
+  "texto": "durante",
+  "inicio": 15.52,
+  "fin": 15.92
+ },
+ {
+  "texto": "meses,",
+  "inicio": 15.92,
+  "fin": 16.04
+ },
+ {
+  "texto": "no",
+  "inicio": 16.1,
+  "fin": 16.24
+ },
+ {
+  "texto": "una",
+  "inicio": 16.24,
+  "fin": 16.48
+ },
+ {
+  "texto": "semana.",
+  "inicio": 16.48,
+  "fin": 16.72
+ },
+ {
+  "texto": "Si",
+  "inicio": 16.9,
+  "fin": 17.12
+ },
+ {
+  "texto": "quieres",
+  "inicio": 17.12,
+  "fin": 17.36
+ },
+ {
+  "texto": "perder",
+  "inicio": 17.36,
+  "fin": 17.66
+ },
+ {
+  "texto": "glasa",
+  "inicio": 17.66,
+  "fin": 18.1
+ },
+ {
+  "texto": "debes",
+  "inicio": 18.1,
+  "fin": 18.48
+ },
+ {
+  "texto": "seguirme.",
+  "inicio": 18.48,
+  "fin": 18.88
+ }
+]

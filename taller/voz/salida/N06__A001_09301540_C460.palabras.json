@@ -1,0 +1,82 @@
+[
+ {
+  "texto": "2,",
+  "inicio": 0.14,
+  "fin": 0.88
+ },
+ {
+  "texto": "3.",
+  "inicio": 1.82,
+  "fin": 3.98
+ },
+ {
+  "texto": "Escribe",
+  "inicio": 4.12,
+  "fin": 4.6
+ },
+ {
+  "texto": "ensalada",
+  "inicio": 4.6,
+  "fin": 5.1
+ },
+ {
+  "texto": "y",
+  "inicio": 5.1,
+  "fin": 5.24
+ },
+ {
+  "texto": "te",
+  "inicio": 5.24,
+  "fin": 5.4
+ },
+ {
+  "texto": "mando",
+  "inicio": 5.4,
+  "fin": 5.88
+ },
+ {
+  "texto": "10",
+  "inicio": 5.88,
+  "fin": 6.16
+ },
+ {
+  "texto": "platos",
+  "inicio": 6.16,
+  "fin": 6.58
+ },
+ {
+  "texto": "completos",
+  "inicio": 6.58,
+  "fin": 6.96
+ },
+ {
+  "texto": "para",
+  "inicio": 6.96,
+  "fin": 7.24
+ },
+ {
+  "texto": "perder",
+  "inicio": 7.24,
+  "fin": 7.5
+ },
+ {
+  "texto": "grasa",
+  "inicio": 7.5,
+  "fin": 7.76
+ },
+ {
+  "texto": "con",
+  "inicio": 7.76,
+  "fin": 7.9
+ },
+ {
+  "texto": "sus",
+  "inicio": 7.9,
+  "fin": 8.12
+ },
+ {
+  "texto": "calorías.",
+  "inicio": 8.12,
+  "fin": 8.52
+ }
+]

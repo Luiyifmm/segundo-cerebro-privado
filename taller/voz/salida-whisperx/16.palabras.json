@@ -1,0 +1,272 @@
+[
+{
+"texto": "¡Pirate,",
+"inicio": 11.682,
+"fin": 12.123,
+"score": 0.465
+},
+{
+"texto": "hombre,",
+"inicio": 12.143,
+"fin": 12.323,
+"score": 0.235
+},
+{
+"texto": "calimeño!",
+"inicio": 12.363,
+"fin": 13.084,
+"score": 0.746
+},
+{
+"texto": "¿Seguro",
+"inicio": 13.845,
+"fin": 14.205,
+"score": 0.377
+},
+{
+"texto": "que",
+"inicio": 14.225,
+"fin": 14.325,
+"score": 0.23
+},
+{
+"texto": "no",
+"inicio": 14.425,
+"fin": 14.485,
+"score": 0.466
+},
+{
+"texto": "pasa",
+"inicio": 14.505,
+"fin": 14.806,
+"score": 0.603
+},
+{
+"texto": "nada?",
+"inicio": 14.846,
+"fin": 15.106,
+"score": 0.45
+},
+{
+"texto": "No",
+"inicio": 15.206,
+"fin": 15.286,
+"score": 0.458
+},
+{
+"texto": "me",
+"inicio": 15.306,
+"fin": 15.587,
+"score": 0.648
+},
+{
+"texto": "pasa",
+"inicio": 15.607,
+"fin": 15.707,
+"score": 0.156
+},
+{
+"texto": "nada",
+"inicio": 15.807,
+"fin": 16.007,
+"score": 0.429
+},
+{
+"texto": "hacer",
+"inicio": 16.067,
+"fin": 16.488,
+"score": 0.618
+},
+{
+"texto": "un",
+"inicio": 16.528,
+"fin": 16.608,
+"score": 0.37
+},
+{
+"texto": "pantalón",
+"inicio": 16.628,
+"fin": 17.009,
+"score": 0.36
+},
+{
+"texto": "piragua.",
+"inicio": 17.029,
+"fin": 17.369,
+"score": 0.34
+},
+{
+"texto": "Y",
+"inicio": 48.59,
+"fin": 48.85,
+"score": 0.691
+},
+{
+"texto": "vos",
+"inicio": 48.87,
+"fin": 49.071,
+"score": 0.414
+},
+{
+"texto": "como",
+"inicio": 49.091,
+"fin": 49.231,
+"score": 0.349
+},
+{
+"texto": "baila.",
+"inicio": 49.251,
+"fin": 49.431,
+"score": 0.371
+},
+{
+"texto": "Calimeño,",
+"inicio": 101.89,
+"fin": 102.61,
+"score": 0.699
+},
+{
+"texto": "calimeño",
+"inicio": 103.731,
+"fin": 104.071,
+"score": 0.447
+},
+{
+"texto": "vamos",
+"inicio": 104.091,
+"fin": 104.231,
+"score": 0.323
+},
+{
+"texto": "a",
+"inicio": 104.311,
+"fin": 104.331,
+"score": 0.405
+},
+{
+"texto": "bailar.",
+"inicio": 104.351,
+"fin": 104.831,
+"score": 0.691
+},
+{
+"texto": "Como",
+"inicio": 105.031,
+"fin": 105.231,
+"score": 0.288
+},
+{
+"texto": "piragua",
+"inicio": 105.251,
+"fin": 105.631,
+"score": 0.388
+},
+{
+"texto": "tirate",
+"inicio": 105.731,
+"fin": 106.311,
+"score": 0.644
+},
+{
+"texto": "hombre",
+"inicio": 106.331,
+"fin": 106.571,
+"score": 0.382
+},
+{
+"texto": "que",
+"inicio": 106.611,
+"fin": 106.692,
+"score": 0.228
+},
+{
+"texto": "no",
+"inicio": 106.772,
+"fin": 106.892,
+"score": 0.588
+},
+{
+"texto": "pasa",
+"inicio": 106.932,
+"fin": 107.052,
+"score": 0.278
+},
+{
+"texto": "nada.",
+"inicio": 107.152,
+"fin": 107.492,
+"score": 0.53
+},
+{
+"texto": "Calimeño,",
+"inicio": 107.512,
+"fin": 108.052,
+"score": 0.536
+},
+{
+"texto": "calimeño",
+"inicio": 108.132,
+"fin": 108.692,
+"score": 0.449
+},
+{
+"texto": "vamos",
+"inicio": 108.712,
+"fin": 108.892,
+"score": 0.327
+},
+{
+"texto": "a",
+"inicio": 108.952,
+"fin": 108.992,
+"score": 0.431
+},
+{
+"texto": "bailar.",
+"inicio": 109.032,
+"fin": 109.252,
+"score": 0.262
+},
+{
+"texto": "¡Salimeño!",
+"inicio": 155.574,
+"fin": 156.498,
+"score": 0.537
+},
+{
+"texto": "Ahí",
+"inicio": 156.739,
+"fin": 156.9,
+"score": 0.46
+},
+{
+"texto": "ve",
+"inicio": 156.98,
+"fin": 157.06,
+"score": 0.421
+},
+{
+"texto": "este",
+"inicio": 157.081,
+"fin": 157.241,
+"score": 0.974
+},
+{
+"texto": "hombre",
+"inicio": 157.301,
+"fin": 157.502,
+"score": 0.93
+},
+{
+"texto": "se",
+"inicio": 157.522,
+"fin": 157.563,
+"score": 0.03
+},
+{
+"texto": "mató.",
+"inicio": 157.723,
+"fin": 158.004,
+"score": 0.65
+}
+]

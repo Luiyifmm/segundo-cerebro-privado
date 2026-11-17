@@ -1,0 +1,42 @@
+[
+ {
+  "texto": "Primero,",
+  "inicio": 10.74,
+  "fin": 11.22
+ },
+ {
+  "texto": "vas",
+  "inicio": 11.32,
+  "fin": 11.4
+ },
+ {
+  "texto": "a",
+  "inicio": 11.4,
+  "fin": 11.56
+ },
+ {
+  "texto": "eliminar",
+  "inicio": 11.56,
+  "fin": 12.1
+ },
+ {
+  "texto": "todos",
+  "inicio": 12.1,
+  "fin": 12.42
+ },
+ {
+  "texto": "los",
+  "inicio": 12.42,
+  "fin": 12.64
+ },
+ {
+  "texto": "carbohidratos",
+  "inicio": 12.64,
+  "fin": 13.26
+ },
+ {
+  "texto": "procesados.",
+  "inicio": 13.26,
+  "fin": 13.84
+ }
+]

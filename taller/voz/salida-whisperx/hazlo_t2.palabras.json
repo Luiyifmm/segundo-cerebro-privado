@@ -1,0 +1,26 @@
+[
+{
+"texto": "Lo",
+"inicio": 0.604,
+"fin": 0.685,
+"score": 0.64
+},
+{
+"texto": "convido,",
+"inicio": 0.705,
+"fin": 1.05,
+"score": 0.712
+},
+{
+"texto": "pero",
+"inicio": 1.416,
+"fin": 1.558,
+"score": 0.828
+},
+{
+"texto": "hace.",
+"inicio": 1.599,
+"fin": 1.741,
+"score": 0.278
+}
+]

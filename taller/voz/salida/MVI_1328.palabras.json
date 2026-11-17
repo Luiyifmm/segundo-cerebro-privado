@@ -1,0 +1,507 @@
+[
+ {
+  "texto": "Lo",
+  "inicio": 0.1,
+  "fin": 0.28
+ },
+ {
+  "texto": "tengo,",
+  "inicio": 0.28,
+  "fin": 0.4
+ },
+ {
+  "texto": "lo",
+  "inicio": 0.44,
+  "fin": 0.56
+ },
+ {
+  "texto": "tengo,",
+  "inicio": 0.56,
+  "fin": 0.58
+ },
+ {
+  "texto": "lo",
+  "inicio": 0.7,
+  "fin": 0.86
+ },
+ {
+  "texto": "tengo.",
+  "inicio": 0.86,
+  "fin": 1.96
+ },
+ {
+  "texto": "Perdona.",
+  "inicio": 2.2,
+  "fin": 3
+ },
+ {
+  "texto": "Hola.",
+  "inicio": 5.72,
+  "fin": 6.24
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 6.36,
+  "fin": 6.48
+ },
+ {
+  "texto": "puedo",
+  "inicio": 6.48,
+  "fin": 6.62
+ },
+ {
+  "texto": "hacer",
+  "inicio": 6.62,
+  "fin": 6.76
+ },
+ {
+  "texto": "una",
+  "inicio": 6.76,
+  "fin": 7
+ },
+ {
+  "texto": "pregunta?",
+  "inicio": 7,
+  "fin": 7
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 7.5,
+  "fin": 7.56
+ },
+ {
+  "texto": "dos.",
+  "inicio": 7.64,
+  "fin": 7.84
+ },
+ {
+  "texto": "Mira,",
+  "inicio": 8,
+  "fin": 8.18
+ },
+ {
+  "texto": "en",
+  "inicio": 8.26,
+  "fin": 8.36
+ },
+ {
+  "texto": "los",
+  "inicio": 8.36,
+  "fin": 8.64
+ },
+ {
+  "texto": "últimos",
+  "inicio": 8.64,
+  "fin": 8.94
+ },
+ {
+  "texto": "30",
+  "inicio": 8.94,
+  "fin": 9.2
+ },
+ {
+  "texto": "días",
+  "inicio": 9.2,
+  "fin": 9.36
+ },
+ {
+  "texto": "hemos",
+  "inicio": 9.36,
+  "fin": 9.6
+ },
+ {
+  "texto": "conseguido",
+  "inicio": 9.6,
+  "fin": 9.9
+ },
+ {
+  "texto": "dos",
+  "inicio": 9.9,
+  "fin": 10
+ },
+ {
+  "texto": "millones",
+  "inicio": 10,
+  "fin": 10.2
+ },
+ {
+  "texto": "de",
+  "inicio": 10.2,
+  "fin": 10.38
+ },
+ {
+  "texto": "visualizaciones",
+  "inicio": 10.38,
+  "fin": 11
+ },
+ {
+  "texto": "orgánicas.",
+  "inicio": 11.18,
+  "fin": 11.56
+ },
+ {
+  "texto": "Y",
+  "inicio": 11.6,
+  "fin": 11.72
+ },
+ {
+  "texto": "estoy",
+  "inicio": 11.72,
+  "fin": 11.96
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 11.96,
+  "fin": 12.24
+ },
+ {
+  "texto": "a",
+  "inicio": 12.24,
+  "fin": 12.26
+ },
+ {
+  "texto": "la",
+  "inicio": 12.26,
+  "fin": 12.48
+ },
+ {
+  "texto": "gente",
+  "inicio": 12.48,
+  "fin": 12.96
+ },
+ {
+  "texto": "para",
+  "inicio": 12.96,
+  "fin": 13.12
+ },
+ {
+  "texto": "ayudar",
+  "inicio": 13.12,
+  "fin": 13.22
+ },
+ {
+  "texto": "a",
+  "inicio": 13.22,
+  "fin": 13.26
+ },
+ {
+  "texto": "la",
+  "inicio": 13.26,
+  "fin": 13.4
+ },
+ {
+  "texto": "gente",
+  "inicio": 13.4,
+  "fin": 13.56
+ },
+ {
+  "texto": "joven",
+  "inicio": 13.56,
+  "fin": 13.8
+ },
+ {
+  "texto": "cómo",
+  "inicio": 13.8,
+  "fin": 13.94
+ },
+ {
+  "texto": "se",
+  "inicio": 13.94,
+  "fin": 13.98
+ },
+ {
+  "texto": "han",
+  "inicio": 13.98,
+  "fin": 14.12
+ },
+ {
+  "texto": "hecho",
+  "inicio": 14.12,
+  "fin": 14.26
+ },
+ {
+  "texto": "ricos.",
+  "inicio": 14.26,
+  "fin": 14.86
+ },
+ {
+  "texto": "Hostia,",
+  "inicio": 15.26,
+  "fin": 15.4
+ },
+ {
+  "texto": "buena",
+  "inicio": 15.48,
+  "fin": 15.72
+ },
+ {
+  "texto": "pregunta.",
+  "inicio": 15.72,
+  "fin": 16.04
+ },
+ {
+  "texto": "Me",
+  "inicio": 16.1,
+  "fin": 16.28
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 16.28,
+  "fin": 16.56
+ },
+ {
+  "texto": "saberlo.",
+  "inicio": 16.56,
+  "fin": 16.88
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 16.92,
+  "fin": 17.14
+ },
+ {
+  "texto": "se",
+  "inicio": 17.14,
+  "fin": 17.14
+ },
+ {
+  "texto": "han",
+  "inicio": 17.14,
+  "fin": 17.3
+ },
+ {
+  "texto": "hecho",
+  "inicio": 17.3,
+  "fin": 17.48
+ },
+ {
+  "texto": "ricos?",
+  "inicio": 17.48,
+  "fin": 17.66
+ },
+ {
+  "texto": "Supongo",
+  "inicio": 17.82,
+  "fin": 18.24
+ },
+ {
+  "texto": "que",
+  "inicio": 18.24,
+  "fin": 18.54
+ },
+ {
+  "texto": "de",
+  "inicio": 18.54,
+  "fin": 18.66
+ },
+ {
+  "texto": "alguna",
+  "inicio": 18.66,
+  "fin": 19
+ },
+ {
+  "texto": "manera,",
+  "inicio": 19.04,
+  "fin": 19.16
+ },
+ {
+  "texto": "¿no?",
+  "inicio": 19.2,
+  "fin": 19.4
+ },
+ {
+  "texto": "¿Es",
+  "inicio": 19.6,
+  "fin": 19.86
+ },
+ {
+  "texto": "usted",
+  "inicio": 19.86,
+  "fin": 20
+ },
+ {
+  "texto": "rico?",
+  "inicio": 20.14,
+  "fin": 20.52
+ },
+ {
+  "texto": "No,",
+  "inicio": 20.7,
+  "fin": 21
+ },
+ {
+  "texto": "nada.",
+  "inicio": 21.28,
+  "fin": 21.54
+ },
+ {
+  "texto": "Nada.",
+  "inicio": 21.54,
+  "fin": 21.92
+ },
+ {
+  "texto": "Ni",
+  "inicio": 22.1,
+  "fin": 22.28
+ },
+ {
+  "texto": "millonario.",
+  "inicio": 22.28,
+  "fin": 22.76
+ },
+ {
+  "texto": "Bueno.",
+  "inicio": 22.96,
+  "fin": 23.54
+ },
+ {
+  "texto": "¿Y",
+  "inicio": 23.66,
+  "fin": 24.02
+ },
+ {
+  "texto": "le",
+  "inicio": 24.02,
+  "fin": 24.24
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 24.24,
+  "fin": 24.42
+ },
+ {
+  "texto": "dar",
+  "inicio": 24.42,
+  "fin": 24.5
+ },
+ {
+  "texto": "un",
+  "inicio": 24.5,
+  "fin": 24.68
+ },
+ {
+  "texto": "consejo",
+  "inicio": 24.66,
+  "fin": 24.88
+ },
+ {
+  "texto": "a",
+  "inicio": 24.88,
+  "fin": 24.9
+ },
+ {
+  "texto": "la",
+  "inicio": 24.9,
+  "fin": 25.04
+ },
+ {
+  "texto": "gente",
+  "inicio": 25.04,
+  "fin": 25.24
+ },
+ {
+  "texto": "joven?",
+  "inicio": 25.24,
+  "fin": 25.98
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 26.82,
+  "fin": 27
+ },
+ {
+  "texto": "que",
+  "inicio": 27.08,
+  "fin": 27.2
+ },
+ {
+  "texto": "se",
+  "inicio": 27.2,
+  "fin": 27.36
+ },
+ {
+  "texto": "dedique",
+  "inicio": 27.36,
+  "fin": 28.32
+ },
+ {
+  "texto": "a",
+  "inicio": 28.32,
+  "fin": 28.64
+ },
+ {
+  "texto": "poder",
+  "inicio": 28.64,
+  "fin": 28.84
+ },
+ {
+  "texto": "hacer",
+  "inicio": 28.84,
+  "fin": 29.06
+ },
+ {
+  "texto": "cosas",
+  "inicio": 29.06,
+  "fin": 29.24
+ },
+ {
+  "texto": "que",
+  "inicio": 29.24,
+  "fin": 29.36
+ },
+ {
+  "texto": "le",
+  "inicio": 29.36,
+  "fin": 29.5
+ },
+ {
+  "texto": "gusten",
+  "inicio": 29.5,
+  "fin": 29.7
+ },
+ {
+  "texto": "y",
+  "inicio": 29.7,
+  "fin": 29.84
+ },
+ {
+  "texto": "ganar",
+  "inicio": 29.84,
+  "fin": 30
+ },
+ {
+  "texto": "dinero.",
+  "inicio": 30.08,
+  "fin": 30.48
+ },
+ {
+  "texto": "Muchas",
+  "inicio": 30.8,
+  "fin": 31.06
+ },
+ {
+  "texto": "gracias",
+  "inicio": 31.06,
+  "fin": 31.26
+ },
+ {
+  "texto": "por",
+  "inicio": 31.26,
+  "fin": 31.32
+ },
+ {
+  "texto": "tu",
+  "inicio": 31.32,
+  "fin": 31.5
+ },
+ {
+  "texto": "tiempo.",
+  "inicio": 31.5,
+  "fin": 31.6
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 31.98,
+  "fin": 33
+ }
+]

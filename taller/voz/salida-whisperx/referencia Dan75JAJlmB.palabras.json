@@ -1,0 +1,794 @@
+[
+{
+"texto": "100",
+"inicio": 0.162,
+"fin": 0.442,
+"score": 0.608
+},
+{
+"texto": "pesos.",
+"inicio": 0.482,
+"fin": 0.922,
+"score": 0.712
+},
+{
+"texto": "Compro",
+"inicio": 0.942,
+"fin": 1.162,
+"score": 0.556
+},
+{
+"texto": "una",
+"inicio": 1.182,
+"fin": 1.242,
+"score": 0.228
+},
+{
+"texto": "hamburguesa",
+"inicio": 1.262,
+"fin": 1.642,
+"score": 0.621
+},
+{
+"texto": "de",
+"inicio": 1.662,
+"fin": 1.722,
+"score": 0.72
+},
+{
+"texto": "McDonald's.",
+"inicio": 1.762,
+"fin": 2.082,
+"score": 0.264
+},
+{
+"texto": "Compro",
+"inicio": 2.102,
+"fin": 2.302,
+"score": 0.618
+},
+{
+"texto": "acciones",
+"inicio": 2.342,
+"fin": 2.602,
+"score": 0.681
+},
+{
+"texto": "de",
+"inicio": 2.622,
+"fin": 2.663,
+"score": 0.773
+},
+{
+"texto": "McDonald's.",
+"inicio": 2.723,
+"fin": 3.243,
+"score": 0.645
+},
+{
+"texto": "500",
+"inicio": 3.463,
+"fin": 3.783,
+"score": 0.646
+},
+{
+"texto": "pesos.",
+"inicio": 3.883,
+"fin": 4.203,
+"score": 0.675
+},
+{
+"texto": "Me",
+"inicio": 4.403,
+"fin": 4.483,
+"score": 0.819
+},
+{
+"texto": "compro",
+"inicio": 4.603,
+"fin": 4.843,
+"score": 0.91
+},
+{
+"texto": "mi",
+"inicio": 4.863,
+"fin": 4.943,
+"score": 0.94
+},
+{
+"texto": "baquete,",
+"inicio": 5.023,
+"fin": 5.383,
+"score": 0.496
+},
+{
+"texto": "chito.",
+"inicio": 5.783,
+"fin": 6.003,
+"score": 0.306
+},
+{
+"texto": "Compro",
+"inicio": 6.043,
+"fin": 6.223,
+"score": 0.28
+},
+{
+"texto": "un",
+"inicio": 6.263,
+"fin": 6.323,
+"score": 0.23
+},
+{
+"texto": "libro.",
+"inicio": 6.363,
+"fin": 6.743,
+"score": 0.433
+},
+{
+"texto": "1000",
+"inicio": 6.783,
+"fin": 6.963,
+"score": 0.71
+},
+{
+"texto": "pesos.",
+"inicio": 7.043,
+"fin": 7.343,
+"score": 0.877
+},
+{
+"texto": "Le",
+"inicio": 7.684,
+"fin": 7.764,
+"score": 0.893
+},
+{
+"texto": "compro",
+"inicio": 7.844,
+"fin": 8.084,
+"score": 0.803
+},
+{
+"texto": "un",
+"inicio": 8.124,
+"fin": 8.204,
+"score": 0.702
+},
+{
+"texto": "ramito",
+"inicio": 8.384,
+"fin": 8.724,
+"score": 0.828
+},
+{
+"texto": "buchón",
+"inicio": 8.784,
+"fin": 9.144,
+"score": 0.862
+},
+{
+"texto": "a",
+"inicio": 9.324,
+"fin": 9.384,
+"score": 0.653
+},
+{
+"texto": "un",
+"inicio": 9.404,
+"fin": 9.464,
+"score": 0.88
+},
+{
+"texto": "liguesillo.",
+"inicio": 9.484,
+"fin": 10.004,
+"score": 0.721
+},
+{
+"texto": "Me",
+"inicio": 10.044,
+"fin": 10.124,
+"score": 0.807
+},
+{
+"texto": "pago",
+"inicio": 10.164,
+"fin": 10.304,
+"score": 0.807
+},
+{
+"texto": "una",
+"inicio": 10.324,
+"fin": 10.404,
+"score": 0.831
+},
+{
+"texto": "clase",
+"inicio": 10.464,
+"fin": 10.664,
+"score": 0.686
+},
+{
+"texto": "de",
+"inicio": 10.684,
+"fin": 10.744,
+"score": 0.465
+},
+{
+"texto": "ventas.",
+"inicio": 10.764,
+"fin": 11.044,
+"score": 0.658
+},
+{
+"texto": "10.000",
+"inicio": 11.064,
+"fin": 11.584,
+"score": 0.639
+},
+{
+"texto": "pesos.",
+"inicio": 11.684,
+"fin": 11.984,
+"score": 0.739
+},
+{
+"texto": "Me",
+"inicio": 12.024,
+"fin": 12.164,
+"score": 0.497
+},
+{
+"texto": "compro",
+"inicio": 12.244,
+"fin": 12.484,
+"score": 0.951
+},
+{
+"texto": "mi",
+"inicio": 12.504,
+"fin": 12.624,
+"score": 0.908
+},
+{
+"texto": "playerita",
+"inicio": 12.705,
+"fin": 13.265,
+"score": 0.936
+},
+{
+"texto": "Gucci.",
+"inicio": 13.325,
+"fin": 13.545,
+"score": 0.507
+},
+{
+"texto": "Me",
+"inicio": 13.825,
+"fin": 13.885,
+"score": 0.237
+},
+{
+"texto": "hago",
+"inicio": 13.905,
+"fin": 14.025,
+"score": 0.46
+},
+{
+"texto": "un",
+"inicio": 14.045,
+"fin": 14.085,
+"score": 0.032
+},
+{
+"texto": "trajecito",
+"inicio": 14.125,
+"fin": 14.585,
+"score": 0.88
+},
+{
+"texto": "a",
+"inicio": 14.605,
+"fin": 14.625,
+"score": 0.434
+},
+{
+"texto": "la",
+"inicio": 14.665,
+"fin": 14.745,
+"score": 0.56
+},
+{
+"texto": "medida.",
+"inicio": 14.785,
+"fin": 15.045,
+"score": 0.819
+},
+{
+"texto": "50.000",
+"inicio": 15.165,
+"fin": 15.525,
+"score": 0.748
+},
+{
+"texto": "pesos.",
+"inicio": 15.805,
+"fin": 16.085,
+"score": 0.891
+},
+{
+"texto": "Me",
+"inicio": 16.145,
+"fin": 16.205,
+"score": 0.352
+},
+{
+"texto": "voy",
+"inicio": 16.245,
+"fin": 16.365,
+"score": 0.432
+},
+{
+"texto": "de",
+"inicio": 16.385,
+"fin": 16.445,
+"score": 0.77
+},
+{
+"texto": "vacaciones",
+"inicio": 16.485,
+"fin": 16.905,
+"score": 0.764
+},
+{
+"texto": "a",
+"inicio": 16.965,
+"fin": 17.005,
+"score": 0.473
+},
+{
+"texto": "Cancún,",
+"inicio": 17.065,
+"fin": 17.465,
+"score": 0.796
+},
+{
+"texto": "todo",
+"inicio": 17.726,
+"fin": 17.886,
+"score": 0.692
+},
+{
+"texto": "incluido.",
+"inicio": 17.926,
+"fin": 18.286,
+"score": 0.939
+},
+{
+"texto": "Lo",
+"inicio": 18.366,
+"fin": 18.446,
+"score": 0.654
+},
+{
+"texto": "invierto",
+"inicio": 18.486,
+"fin": 18.726,
+"score": 0.919
+},
+{
+"texto": "en",
+"inicio": 18.766,
+"fin": 18.826,
+"score": 0.692
+},
+{
+"texto": "el",
+"inicio": 18.846,
+"fin": 18.906,
+"score": 0.692
+},
+{
+"texto": "S&P",
+"inicio": 18.966,
+"fin": 19.186,
+"score": 0.628
+},
+{
+"texto": "500.",
+"inicio": 19.226,
+"fin": 19.426,
+"score": 0.847
+},
+{
+"texto": "100.000",
+"inicio": 19.446,
+"fin": 20.006,
+"score": 0.676
+},
+{
+"texto": "pesos.",
+"inicio": 20.086,
+"fin": 20.406,
+"score": 0.771
+},
+{
+"texto": "Me",
+"inicio": 20.506,
+"fin": 20.586,
+"score": 0.624
+},
+{
+"texto": "voy",
+"inicio": 20.626,
+"fin": 20.766,
+"score": 0.466
+},
+{
+"texto": "de",
+"inicio": 20.786,
+"fin": 20.866,
+"score": 0.704
+},
+{
+"texto": "viajecito",
+"inicio": 20.906,
+"fin": 21.546,
+"score": 0.735
+},
+{
+"texto": "al",
+"inicio": 21.846,
+"fin": 21.946,
+"score": 0.711
+},
+{
+"texto": "Eurotrip.",
+"inicio": 21.966,
+"fin": 22.466,
+"score": 0.736
+},
+{
+"texto": "Lo",
+"inicio": 22.606,
+"fin": 22.667,
+"score": 0.751
+},
+{
+"texto": "invierto",
+"inicio": 22.707,
+"fin": 22.927,
+"score": 0.942
+},
+{
+"texto": "en",
+"inicio": 22.967,
+"fin": 23.027,
+"score": 0.714
+},
+{
+"texto": "un",
+"inicio": 23.067,
+"fin": 23.127,
+"score": 0.772
+},
+{
+"texto": "portafolio",
+"inicio": 23.147,
+"fin": 23.487,
+"score": 0.687
+},
+{
+"texto": "diversificado.",
+"inicio": 23.547,
+"fin": 24.167,
+"score": 0.876
+},
+{
+"texto": "Medio",
+"inicio": 24.487,
+"fin": 24.727,
+"score": 0.795
+},
+{
+"texto": "millón",
+"inicio": 24.767,
+"fin": 25.007,
+"score": 0.878
+},
+{
+"texto": "de",
+"inicio": 25.027,
+"fin": 25.107,
+"score": 0.525
+},
+{
+"texto": "pesos.",
+"inicio": 25.187,
+"fin": 25.467,
+"score": 0.903
+},
+{
+"texto": "Doy",
+"inicio": 25.527,
+"fin": 25.707,
+"score": 0.684
+},
+{
+"texto": "el",
+"inicio": 25.747,
+"fin": 25.807,
+"score": 0.756
+},
+{
+"texto": "enganche",
+"inicio": 25.867,
+"fin": 26.307,
+"score": 0.902
+},
+{
+"texto": "para",
+"inicio": 26.407,
+"fin": 26.547,
+"score": 0.776
+},
+{
+"texto": "mi",
+"inicio": 26.607,
+"fin": 26.687,
+"score": 0.888
+},
+{
+"texto": "BMW.",
+"inicio": 26.747,
+"fin": 27.147,
+"score": 0.58
+},
+{
+"texto": "Doy",
+"inicio": 27.307,
+"fin": 27.427,
+"score": 0.37
+},
+{
+"texto": "el",
+"inicio": 27.447,
+"fin": 27.507,
+"score": 0.716
+},
+{
+"texto": "enganche",
+"inicio": 27.547,
+"fin": 27.908,
+"score": 0.881
+},
+{
+"texto": "para",
+"inicio": 27.928,
+"fin": 28.048,
+"score": 0.729
+},
+{
+"texto": "un",
+"inicio": 28.108,
+"fin": 28.148,
+"score": 0.882
+},
+{
+"texto": "departamento.",
+"inicio": 28.168,
+"fin": 29.108,
+"score": 0.897
+},
+{
+"texto": "2",
+"inicio": 29.128,
+"fin": 29.148,
+"score": 0.998
+},
+{
+"texto": "millones",
+"inicio": 29.188,
+"fin": 29.508,
+"score": 0.833
+},
+{
+"texto": "de",
+"inicio": 29.548,
+"fin": 29.608,
+"score": 0.751
+},
+{
+"texto": "pesos.",
+"inicio": 29.708,
+"fin": 29.988,
+"score": 0.794
+},
+{
+"texto": "Me",
+"inicio": 30.208,
+"fin": 30.308,
+"score": 0.54
+},
+{
+"texto": "compro",
+"inicio": 30.368,
+"fin": 30.609,
+"score": 0.733
+},
+{
+"texto": "nigipetón.",
+"inicio": 30.829,
+"fin": 31.53,
+"score": 0.473
+},
+{
+"texto": "Me",
+"inicio": 31.55,
+"fin": 31.63,
+"score": 0.248
+},
+{
+"texto": "compro",
+"inicio": 31.65,
+"fin": 31.85,
+"score": 0.309
+},
+{
+"texto": "local",
+"inicio": 31.91,
+"fin": 32.151,
+"score": 0.639
+},
+{
+"texto": "comercial.",
+"inicio": 32.191,
+"fin": 33.052,
+"score": 0.824
+},
+{
+"texto": "5",
+"inicio": 33.072,
+"fin": 33.092,
+"score": 0.997
+},
+{
+"texto": "millones",
+"inicio": 33.132,
+"fin": 33.392,
+"score": 0.831
+},
+{
+"texto": "de",
+"inicio": 33.452,
+"fin": 33.492,
+"score": 0.995
+},
+{
+"texto": "pesos.",
+"inicio": 33.593,
+"fin": 33.893,
+"score": 0.676
+},
+{
+"texto": "Me",
+"inicio": 34.173,
+"fin": 34.233,
+"score": 0.49
+},
+{
+"texto": "invierto",
+"inicio": 34.274,
+"fin": 34.674,
+"score": 0.87
+},
+{
+"texto": "todo",
+"inicio": 34.814,
+"fin": 35.055,
+"score": 0.691
+},
+{
+"texto": "en",
+"inicio": 35.275,
+"fin": 35.355,
+"score": 0.817
+},
+{
+"texto": "una",
+"inicio": 35.395,
+"fin": 35.495,
+"score": 0.828
+},
+{
+"texto": "cafetería.",
+"inicio": 35.555,
+"fin": 36.016,
+"score": 0.793
+},
+{
+"texto": "Compro",
+"inicio": 36.096,
+"fin": 36.276,
+"score": 0.623
+},
+{
+"texto": "propiedades",
+"inicio": 36.356,
+"fin": 36.877,
+"score": 0.524
+},
+{
+"texto": "ultra",
+"inicio": 37.177,
+"fin": 37.418,
+"score": 0.824
+},
+{
+"texto": "rentables.",
+"inicio": 37.478,
+"fin": 37.878,
+"score": 0.826
+},
+{
+"texto": "Yo",
+"inicio": 38.319,
+"fin": 38.419,
+"score": 0.814
+},
+{
+"texto": "no",
+"inicio": 38.499,
+"fin": 38.559,
+"score": 0.915
+},
+{
+"texto": "sigo",
+"inicio": 38.619,
+"fin": 38.86,
+"score": 0.872
+},
+{
+"texto": "adiós",
+"inicio": 39.18,
+"fin": 39.42,
+"score": 0.399
+},
+{
+"texto": "García.",
+"inicio": 39.5,
+"fin": 39.861,
+"score": 0.56
+},
+{
+"texto": "Yo",
+"inicio": 39.941,
+"fin": 40.101,
+"score": 0.883
+},
+{
+"texto": "sí",
+"inicio": 40.282,
+"fin": 40.362,
+"score": 0.843
+},
+{
+"texto": "sigo",
+"inicio": 40.422,
+"fin": 40.602,
+"score": 0.76
+},
+{
+"texto": "adiós",
+"inicio": 40.642,
+"fin": 40.862,
+"score": 0.265
+},
+{
+"texto": "García.",
+"inicio": 40.902,
+"fin": 41.243,
+"score": 0.798
+}
+]

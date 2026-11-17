@@ -1,0 +1,467 @@
+[
+ {
+  "texto": "Todo",
+  "inicio": 0.14,
+  "fin": 0.34
+ },
+ {
+  "texto": "hombre",
+  "inicio": 0.34,
+  "fin": 0.48
+ },
+ {
+  "texto": "que",
+  "inicio": 0.48,
+  "fin": 0.6
+ },
+ {
+  "texto": "va",
+  "inicio": 0.6,
+  "fin": 0.66
+ },
+ {
+  "texto": "a",
+  "inicio": 0.66,
+  "fin": 0.74
+ },
+ {
+  "texto": "ser",
+  "inicio": 0.74,
+  "fin": 1.06
+ },
+ {
+  "texto": "grande",
+  "inicio": 1.06,
+  "fin": 1.34
+ },
+ {
+  "texto": "tiene",
+  "inicio": 1.34,
+  "fin": 1.46
+ },
+ {
+  "texto": "que",
+  "inicio": 1.46,
+  "fin": 1.68
+ },
+ {
+  "texto": "pasar",
+  "inicio": 1.68,
+  "fin": 1.92
+ },
+ {
+  "texto": "por",
+  "inicio": 1.92,
+  "fin": 2.1
+ },
+ {
+  "texto": "estas",
+  "inicio": 2.1,
+  "fin": 2.34
+ },
+ {
+  "texto": "5",
+  "inicio": 2.34,
+  "fin": 2.52
+ },
+ {
+  "texto": "fases.",
+  "inicio": 2.52,
+  "fin": 2.8
+ },
+ {
+  "texto": "Vale,",
+  "inicio": 5.58,
+  "fin": 5.7
+ },
+ {
+  "texto": "ahora",
+  "inicio": 5.8,
+  "fin": 6.04
+ },
+ {
+  "texto": "pruebo",
+  "inicio": 6.04,
+  "fin": 6.26
+ },
+ {
+  "texto": "hacerme",
+  "inicio": 6.26,
+  "fin": 6.44
+ },
+ {
+  "texto": "un",
+  "inicio": 6.44,
+  "fin": 6.6
+ },
+ {
+  "texto": "plano",
+  "inicio": 6.6,
+  "fin": 6.8
+ },
+ {
+  "texto": "desde",
+  "inicio": 6.8,
+  "fin": 7.02
+ },
+ {
+  "texto": "aquí",
+  "inicio": 7.02,
+  "fin": 7.2
+ },
+ {
+  "texto": "para",
+  "inicio": 7.48,
+  "fin": 7.6
+ },
+ {
+  "texto": "que",
+  "inicio": 7.6,
+  "fin": 7.72
+ },
+ {
+  "texto": "se",
+  "inicio": 7.72,
+  "fin": 7.84
+ },
+ {
+  "texto": "vea",
+  "inicio": 7.84,
+  "fin": 7.98
+ },
+ {
+  "texto": "el",
+  "inicio": 7.98,
+  "fin": 8.16
+ },
+ {
+  "texto": "vídeo",
+  "inicio": 8.16,
+  "fin": 8.36
+ },
+ {
+  "texto": "dinámico",
+  "inicio": 8.36,
+  "fin": 8.64
+ },
+ {
+  "texto": "y",
+  "inicio": 8.64,
+  "fin": 8.78
+ },
+ {
+  "texto": "los",
+  "inicio": 8.78,
+  "fin": 8.92
+ },
+ {
+  "texto": "editores",
+  "inicio": 8.92,
+  "fin": 9.28
+ },
+ {
+  "texto": "puedan",
+  "inicio": 9.28,
+  "fin": 9.46
+ },
+ {
+  "texto": "hacerlo",
+  "inicio": 9.46,
+  "fin": 9.7
+ },
+ {
+  "texto": "mucho",
+  "inicio": 9.7,
+  "fin": 9.78
+ },
+ {
+  "texto": "más",
+  "inicio": 9.78,
+  "fin": 9.92
+ },
+ {
+  "texto": "dinámico.",
+  "inicio": 9.92,
+  "fin": 10.3
+ },
+ {
+  "texto": "La",
+  "inicio": 12.3,
+  "fin": 12.54
+ },
+ {
+  "texto": "fase",
+  "inicio": 12.54,
+  "fin": 12.76
+ },
+ {
+  "texto": "del",
+  "inicio": 12.76,
+  "fin": 12.94
+ },
+ {
+  "texto": "inicio.",
+  "inicio": 12.94,
+  "fin": 13.3
+ },
+ {
+  "texto": "Tienes",
+  "inicio": 19.86,
+  "fin": 20.2
+ },
+ {
+  "texto": "que",
+  "inicio": 20.2,
+  "fin": 20.38
+ },
+ {
+  "texto": "abandonar",
+  "inicio": 20.38,
+  "fin": 20.7
+ },
+ {
+  "texto": "tu",
+  "inicio": 20.7,
+  "fin": 20.96
+ },
+ {
+  "texto": "ciudad.",
+  "inicio": 20.96,
+  "fin": 21.14
+ },
+ {
+  "texto": "Nadie",
+  "inicio": 21.22,
+  "fin": 21.46
+ },
+ {
+  "texto": "es",
+  "inicio": 21.46,
+  "fin": 21.6
+ },
+ {
+  "texto": "profeta",
+  "inicio": 21.6,
+  "fin": 21.88
+ },
+ {
+  "texto": "en",
+  "inicio": 21.88,
+  "fin": 22
+ },
+ {
+  "texto": "su",
+  "inicio": 22,
+  "fin": 22.16
+ },
+ {
+  "texto": "propia",
+  "inicio": 22.16,
+  "fin": 22.52
+ },
+ {
+  "texto": "tierra.",
+  "inicio": 22.52,
+  "fin": 22.7
+ },
+ {
+  "texto": "La",
+  "inicio": 23.04,
+  "fin": 23.2
+ },
+ {
+  "texto": "gente",
+  "inicio": 23.2,
+  "fin": 23.34
+ },
+ {
+  "texto": "de",
+  "inicio": 23.34,
+  "fin": 23.42
+ },
+ {
+  "texto": "tu",
+  "inicio": 23.42,
+  "fin": 23.58
+ },
+ {
+  "texto": "ciudad",
+  "inicio": 23.58,
+  "fin": 23.68
+ },
+ {
+  "texto": "ya",
+  "inicio": 23.68,
+  "fin": 23.8
+ },
+ {
+  "texto": "te",
+  "inicio": 23.8,
+  "fin": 23.98
+ },
+ {
+  "texto": "conoce",
+  "inicio": 23.98,
+  "fin": 24.22
+ },
+ {
+  "texto": "lo",
+  "inicio": 24.22,
+  "fin": 24.48
+ },
+ {
+  "texto": "suficiente.",
+  "inicio": 24.48,
+  "fin": 24.8
+ },
+ {
+  "texto": "Vale.",
+  "inicio": 27.52,
+  "fin": 27.92
+ },
+ {
+  "texto": "No,",
+  "inicio": 28.7,
+  "fin": 28.82
+ },
+ {
+  "texto": "no,",
+  "inicio": 28.82,
+  "fin": 28.96
+ },
+ {
+  "texto": "esperateate,",
+  "inicio": 29.04,
+  "fin": 29.24
+ },
+ {
+  "texto": "espérate,",
+  "inicio": 29.3,
+  "fin": 29.42
+ },
+ {
+  "texto": "pueden",
+  "inicio": 29.56,
+  "fin": 29.76
+ },
+ {
+  "texto": "faltar",
+  "inicio": 29.76,
+  "fin": 29.98
+ },
+ {
+  "texto": "una",
+  "inicio": 29.98,
+  "fin": 30.22
+ },
+ {
+  "texto": "frase.",
+  "inicio": 30.22,
+  "fin": 30.56
+ },
+ {
+  "texto": "Yo",
+  "inicio": 30.64,
+  "fin": 30.7
+ },
+ {
+  "texto": "te",
+  "inicio": 30.7,
+  "fin": 30.8
+ },
+ {
+  "texto": "aviso.",
+  "inicio": 30.8,
+  "fin": 32.54
+ },
+ {
+  "texto": "Y",
+  "inicio": 32.8,
+  "fin": 33.08
+ },
+ {
+  "texto": "sobre",
+  "inicio": 33.08,
+  "fin": 33.32
+ },
+ {
+  "texto": "todo",
+  "inicio": 33.32,
+  "fin": 33.64
+ },
+ {
+  "texto": "esa",
+  "inicio": 33.64,
+  "fin": 33.9
+ },
+ {
+  "texto": "versión",
+  "inicio": 33.9,
+  "fin": 34.24
+ },
+ {
+  "texto": "antigua",
+  "inicio": 34.24,
+  "fin": 34.52
+ },
+ {
+  "texto": "de",
+  "inicio": 34.52,
+  "fin": 34.6
+ },
+ {
+  "texto": "ti.",
+  "inicio": 34.62,
+  "fin": 35.44
+ },
+ {
+  "texto": "Vale,",
+  "inicio": 35.7,
+  "fin": 36
+ },
+ {
+  "texto": "vamos",
+  "inicio": 36.2,
+  "fin": 36.34
+ },
+ {
+  "texto": "a",
+  "inicio": 36.34,
+  "fin": 36.38
+ },
+ {
+  "texto": "la",
+  "inicio": 36.38,
+  "fin": 36.64
+ },
+ {
+  "texto": "segunda,",
+  "inicio": 36.64,
+  "fin": 36.72
+ },
+ {
+  "texto": "la",
+  "inicio": 36.8,
+  "fin": 36.98
+ },
+ {
+  "texto": "fase",
+  "inicio": 36.98,
+  "fin": 37.12
+ },
+ {
+  "texto": "de",
+  "inicio": 37.12,
+  "fin": 37.14
+ },
+ {
+  "texto": "la",
+  "inicio": 37.14,
+  "fin": 37.28
+ },
+ {
+  "texto": "soledad.",
+  "inicio": 37.28,
+  "fin": 37.4
+ }
+]

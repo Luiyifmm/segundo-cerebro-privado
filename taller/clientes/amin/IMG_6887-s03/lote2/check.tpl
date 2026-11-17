@@ -1,0 +1,1 @@
+(function(){app.enableQE();var B=app.project.activeSequence,q=qe.project.getActiveSequence();B.setPlayerPosition(String(Math.round(__T__*254016000000)));try{q.exportFramePNG(q.CTI.timecode,"__F__");return "render ok";}catch(e){return "RENDER ERROR "+e;}})();

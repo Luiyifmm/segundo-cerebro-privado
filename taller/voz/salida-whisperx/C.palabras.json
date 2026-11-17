@@ -1,0 +1,68 @@
+[
+{
+"texto": "¿Preparados?",
+"inicio": 0.166,
+"fin": 0.728,
+"score": 0.91
+},
+{
+"texto": "Llegó",
+"inicio": 1.169,
+"fin": 1.49,
+"score": 0.88
+},
+{
+"texto": "pre",
+"inicio": 1.65,
+"fin": 1.831,
+"score": 0.972
+},
+{
+"texto": "de",
+"inicio": 1.851,
+"fin": 1.951,
+"score": 0.795
+},
+{
+"texto": "el",
+"inicio": 1.991,
+"fin": 2.071,
+"score": 0.924
+},
+{
+"texto": "party.",
+"inicio": 2.191,
+"fin": 2.613,
+"score": 0.891
+},
+{
+"texto": "En",
+"inicio": 2.994,
+"fin": 3.094,
+"score": 0.89
+},
+{
+"texto": "las",
+"inicio": 3.134,
+"fin": 3.234,
+"score": 0.871
+},
+{
+"texto": "máquinas,",
+"inicio": 3.314,
+"fin": 3.856,
+"score": 0.871
+},
+{
+"texto": "Joseph",
+"inicio": 4.237,
+"fin": 4.678,
+"score": 0.629
+},
+{
+"texto": "Barbosa.",
+"inicio": 4.758,
+"fin": 5.42,
+"score": 0.838
+}
+]

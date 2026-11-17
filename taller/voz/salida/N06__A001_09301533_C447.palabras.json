@@ -1,0 +1,147 @@
+[
+ {
+  "texto": "Me",
+  "inicio": 4.34,
+  "fin": 4.44
+ },
+ {
+  "texto": "lo",
+  "inicio": 4.44,
+  "fin": 4.6
+ },
+ {
+  "texto": "estás",
+  "inicio": 4.6,
+  "fin": 4.82
+ },
+ {
+  "texto": "poniendo",
+  "inicio": 4.82,
+  "fin": 5.08
+ },
+ {
+  "texto": "muy",
+  "inicio": 5.08,
+  "fin": 5.36
+ },
+ {
+  "texto": "arriba,",
+  "inicio": 5.36,
+  "fin": 5.78
+ },
+ {
+  "texto": "vuelve.",
+  "inicio": 5.9,
+  "fin": 6.04
+ },
+ {
+  "texto": "Abajo,",
+  "inicio": 10.18,
+  "fin": 11.36
+ },
+ {
+  "texto": "abajo.",
+  "inicio": 12.22,
+  "fin": 15.78
+ },
+ {
+  "texto": "150",
+  "inicio": 16.64,
+  "fin": 17.26
+ },
+ {
+  "texto": "gramos",
+  "inicio": 17.26,
+  "fin": 17.56
+ },
+ {
+  "texto": "de",
+  "inicio": 17.56,
+  "fin": 17.76
+ },
+ {
+  "texto": "pollo,",
+  "inicio": 17.76,
+  "fin": 18.62
+ },
+ {
+  "texto": "100",
+  "inicio": 18.76,
+  "fin": 18.98
+ },
+ {
+  "texto": "de",
+  "inicio": 18.98,
+  "fin": 19.14
+ },
+ {
+  "texto": "arroz,",
+  "inicio": 19.14,
+  "fin": 20.1
+ },
+ {
+  "texto": "verduras",
+  "inicio": 20.24,
+  "fin": 20.68
+ },
+ {
+  "texto": "salteadas.",
+  "inicio": 20.68,
+  "fin": 21.04
+ },
+ {
+  "texto": "quítalo",
+  "inicio": 22.84,
+  "fin": 30.32
+ },
+ {
+  "texto": "yogur,",
+  "inicio": 34.68,
+  "fin": 35.54
+ },
+ {
+  "texto": "50",
+  "inicio": 36.08,
+  "fin": 36.28
+ },
+ {
+  "texto": "gramos",
+  "inicio": 36.28,
+  "fin": 36.54
+ },
+ {
+  "texto": "de",
+  "inicio": 36.54,
+  "fin": 36.74
+ },
+ {
+  "texto": "fresas",
+  "inicio": 36.74,
+  "fin": 37.58
+ },
+ {
+  "texto": "y",
+  "inicio": 37.58,
+  "fin": 37.8
+ },
+ {
+  "texto": "chocolate",
+  "inicio": 37.8,
+  "fin": 38.08
+ },
+ {
+  "texto": "al",
+  "inicio": 38.08,
+  "fin": 38.52
+ },
+ {
+  "texto": "85",
+  "inicio": 38.52,
+  "fin": 38.98
+ },
+ {
+  "texto": "%",
+  "inicio": 38.98,
+  "fin": 39
+ }
+]

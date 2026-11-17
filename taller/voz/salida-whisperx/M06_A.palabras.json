@@ -1,0 +1,38 @@
+[
+{
+"texto": "Joseph",
+"inicio": 0.154,
+"fin": 0.515,
+"score": 0.686
+},
+{
+"texto": "Barbosa",
+"inicio": 0.595,
+"fin": 1.096,
+"score": 0.95
+},
+{
+"texto": "está",
+"inicio": 1.457,
+"fin": 1.798,
+"score": 0.806
+},
+{
+"texto": "en",
+"inicio": 1.838,
+"fin": 1.918,
+"score": 0.829
+},
+{
+"texto": "la",
+"inicio": 1.979,
+"fin": 2.019,
+"score": 0.998
+},
+{
+"texto": "casa.",
+"inicio": 2.099,
+"fin": 2.379,
+"score": 0.904
+}
+]

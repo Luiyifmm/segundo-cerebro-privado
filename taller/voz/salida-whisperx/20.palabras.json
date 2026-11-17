@@ -1,0 +1,50 @@
+[
+{
+"texto": "Entra",
+"inicio": 4.066,
+"fin": 4.246,
+"score": 0.719
+},
+{
+"texto": "la",
+"inicio": 4.307,
+"fin": 4.367,
+"score": 0.828
+},
+{
+"texto": "tambora.",
+"inicio": 4.407,
+"fin": 4.827,
+"score": 0.939
+},
+{
+"texto": "No,",
+"inicio": 9.474,
+"fin": 9.594,
+"score": 0.537
+},
+{
+"texto": "señor.",
+"inicio": 9.674,
+"fin": 9.994,
+"score": 0.953
+},
+{
+"texto": "Es",
+"inicio": 13.059,
+"fin": 13.179,
+"score": 0.948
+},
+{
+"texto": "así.",
+"inicio": 13.199,
+"fin": 13.679,
+"score": 0.636
+},
+{
+"texto": "Balma.",
+"inicio": 14.921,
+"fin": 15.402,
+"score": 0.779
+}
+]

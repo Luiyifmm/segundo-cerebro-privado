@@ -1,0 +1,110 @@
+[
+{
+"texto": "TACMUŞ",
+"inicio": 12.218,
+"fin": 12.638,
+"score": 0.506
+},
+{
+"texto": "KOLUNA",
+"inicio": 12.678,
+"fin": 12.938,
+"score": 0.337
+},
+{
+"texto": "ELİN",
+"inicio": 13.038,
+"fin": 13.258,
+"score": 0.483
+},
+{
+"texto": "ADAMINI",
+"inicio": 13.278,
+"fin": 13.799,
+"score": 0.573
+},
+{
+"texto": "BENİ",
+"inicio": 13.879,
+"fin": 14.099,
+"score": 0.614
+},
+{
+"texto": "ORTAN",
+"inicio": 14.139,
+"fin": 14.599,
+"score": 0.648
+},
+{
+"texto": "YERİNDEN",
+"inicio": 14.619,
+"fin": 14.979,
+"score": 0.368
+},
+{
+"texto": "ÇAPLATIYOR",
+"inicio": 15.019,
+"fin": 15.54,
+"score": 0.504
+},
+{
+"texto": "AĞZINDA",
+"inicio": 15.68,
+"fin": 16.0,
+"score": 0.356
+},
+{
+"texto": "SAKIZI",
+"inicio": 16.08,
+"fin": 16.601,
+"score": 0.629
+},
+{
+"texto": "ŞİŞİRİP",
+"inicio": 16.621,
+"fin": 16.861,
+"score": 0.335
+},
+{
+"texto": "ŞİŞİRİP",
+"inicio": 16.901,
+"fin": 17.181,
+"score": 0.389
+},
+{
+"texto": "ARSIZ",
+"inicio": 17.201,
+"fin": 17.481,
+"score": 0.539
+},
+{
+"texto": "ARSIZ",
+"inicio": 17.501,
+"fin": 17.941,
+"score": 0.539
+},
+{
+"texto": "no",
+"inicio": 30.562,
+"fin": 30.662,
+"score": 0.54
+},
+{
+"texto": "es",
+"inicio": 30.702,
+"fin": 30.823,
+"score": 0.683
+},
+{
+"texto": "es",
+"inicio": 77.878,
+"fin": 77.918,
+"score": 0.148
+},
+{
+"texto": "el",
+"inicio": 77.938,
+"fin": 77.978,
+"score": 0.065
+}
+]

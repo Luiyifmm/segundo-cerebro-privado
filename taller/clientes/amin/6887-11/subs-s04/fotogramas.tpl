@@ -1,0 +1,1 @@
+(function(){var C=__CFG__;app.enableQE();var B=app.project.activeSequence,q=qe.project.getActiveSequence(),r=[];for(var i=0;i<C.t.length;i++){B.setPlayerPosition(String(Math.round(C.t[i]*254016000000)));var f=C.dir+"/"+C.p+"-"+i;try{q.exportFramePNG(q.CTI.timecode,f);r.push("ok");}catch(e){r.push("ERR");}}return r.join(",");})();

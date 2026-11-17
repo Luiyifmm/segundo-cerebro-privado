@@ -1,0 +1,167 @@
+[
+ {
+  "texto": "¿Te",
+  "inicio": 0.7,
+  "fin": 0.94
+ },
+ {
+  "texto": "puedo",
+  "inicio": 0.94,
+  "fin": 1.12
+ },
+ {
+  "texto": "hacer",
+  "inicio": 1.12,
+  "fin": 1.26
+ },
+ {
+  "texto": "dos",
+  "inicio": 1.26,
+  "fin": 1.5
+ },
+ {
+  "texto": "preguntas?",
+  "inicio": 1.5,
+  "fin": 1.88
+ },
+ {
+  "texto": "Mira,",
+  "inicio": 2.68,
+  "fin": 3
+ },
+ {
+  "texto": "estamos",
+  "inicio": 3.24,
+  "fin": 3.6
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 3.6,
+  "fin": 3.9
+ },
+ {
+  "texto": "entrevistas",
+  "inicio": 3.9,
+  "fin": 4.24
+ },
+ {
+  "texto": "para",
+  "inicio": 4.24,
+  "fin": 4.34
+ },
+ {
+  "texto": "la",
+  "inicio": 4.34,
+  "fin": 4.5
+ },
+ {
+  "texto": "gente",
+  "inicio": 4.5,
+  "fin": 4.74
+ },
+ {
+  "texto": "joven",
+  "inicio": 4.74,
+  "fin": 5
+ },
+ {
+  "texto": "y",
+  "inicio": 5.02,
+  "fin": 5.2
+ },
+ {
+  "texto": "estamos",
+  "inicio": 5.2,
+  "fin": 5.46
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 5.46,
+  "fin": 5.74
+ },
+ {
+  "texto": "a",
+  "inicio": 5.74,
+  "fin": 5.74
+ },
+ {
+  "texto": "la",
+  "inicio": 5.74,
+  "fin": 5.92
+ },
+ {
+  "texto": "gente",
+  "inicio": 5.92,
+  "fin": 6.06
+ },
+ {
+  "texto": "de",
+  "inicio": 6.06,
+  "fin": 6.1
+ },
+ {
+  "texto": "Andorra,",
+  "inicio": 6.1,
+  "fin": 6.68
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 6.7,
+  "fin": 6.96
+ },
+ {
+  "texto": "se",
+  "inicio": 6.96,
+  "fin": 7.12
+ },
+ {
+  "texto": "hicieron?",
+  "inicio": 7.12,
+  "fin": 7.46
+ },
+ {
+  "texto": "¿No?",
+  "inicio": 7.54,
+  "fin": 7.74
+ },
+ {
+  "texto": "No",
+  "inicio": 8,
+  "fin": 8.08
+ },
+ {
+  "texto": "te",
+  "inicio": 8.08,
+  "fin": 8.26
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 8.26,
+  "fin": 8.54
+ },
+ {
+  "texto": "salir,",
+  "inicio": 8.54,
+  "fin": 8.68
+ },
+ {
+  "texto": "lo",
+  "inicio": 8.72,
+  "fin": 8.88
+ },
+ {
+  "texto": "cortamos,",
+  "inicio": 8.88,
+  "fin": 9.16
+ },
+ {
+  "texto": "tranquila,",
+  "inicio": 9.26,
+  "fin": 9.44
+ },
+ {
+  "texto": "gracias.",
+  "inicio": 9.58,
+  "fin": 10
+ }
+]

@@ -1,0 +1,292 @@
+[
+ {
+  "texto": "Os",
+  "inicio": 0.48,
+  "fin": 0.6
+ },
+ {
+  "texto": "juro",
+  "inicio": 0.6,
+  "fin": 0.76
+ },
+ {
+  "texto": "que",
+  "inicio": 0.76,
+  "fin": 0.84
+ },
+ {
+  "texto": "me",
+  "inicio": 0.84,
+  "fin": 0.9
+ },
+ {
+  "texto": "he",
+  "inicio": 0.9,
+  "fin": 0.98
+ },
+ {
+  "texto": "comido",
+  "inicio": 0.98,
+  "fin": 1.24
+ },
+ {
+  "texto": "hoy",
+  "inicio": 1.24,
+  "fin": 1.38
+ },
+ {
+  "texto": "más",
+  "inicio": 1.38,
+  "fin": 1.52
+ },
+ {
+  "texto": "rechazos",
+  "inicio": 1.52,
+  "fin": 1.86
+ },
+ {
+  "texto": "que",
+  "inicio": 1.86,
+  "fin": 1.94
+ },
+ {
+  "texto": "en",
+  "inicio": 1.94,
+  "fin": 2
+ },
+ {
+  "texto": "toda",
+  "inicio": 2,
+  "fin": 2
+ },
+ {
+  "texto": "mi",
+  "inicio": 2.18,
+  "fin": 2.3
+ },
+ {
+  "texto": "vida",
+  "inicio": 2.3,
+  "fin": 2.34
+ },
+ {
+  "texto": "Yo",
+  "inicio": 2.42,
+  "fin": 2.52
+ },
+ {
+  "texto": "ya",
+  "inicio": 2.52,
+  "fin": 2.58
+ },
+ {
+  "texto": "no",
+  "inicio": 2.58,
+  "fin": 2.7
+ },
+ {
+  "texto": "sé",
+  "inicio": 2.7,
+  "fin": 2.78
+ },
+ {
+  "texto": "si",
+  "inicio": 2.78,
+  "fin": 2.96
+ },
+ {
+  "texto": "hacer",
+  "inicio": 2.96,
+  "fin": 3.22
+ },
+ {
+  "texto": "así",
+  "inicio": 3.22,
+  "fin": 3.42
+ },
+ {
+  "texto": "y",
+  "inicio": 3.42,
+  "fin": 3.66
+ },
+ {
+  "texto": "ponerles",
+  "inicio": 3.66,
+  "fin": 3.96
+ },
+ {
+  "texto": "así",
+  "inicio": 3.96,
+  "fin": 4.08
+ },
+ {
+  "texto": "el",
+  "inicio": 4.08,
+  "fin": 4.24
+ },
+ {
+  "texto": "micro",
+  "inicio": 4.24,
+  "fin": 4.44
+ },
+ {
+  "texto": "para",
+  "inicio": 4.44,
+  "fin": 4.56
+ },
+ {
+  "texto": "que",
+  "inicio": 4.56,
+  "fin": 4.66
+ },
+ {
+  "texto": "vean",
+  "inicio": 4.66,
+  "fin": 4.86
+ },
+ {
+  "texto": "el",
+  "inicio": 4.86,
+  "fin": 4.98
+ },
+ {
+  "texto": "logo",
+  "inicio": 4.98,
+  "fin": 5
+ },
+ {
+  "texto": "Lamborghini",
+  "inicio": 5.24,
+  "fin": 5.6
+ },
+ {
+  "texto": "No",
+  "inicio": 5.74,
+  "fin": 5.9
+ },
+ {
+  "texto": "sé",
+  "inicio": 5.9,
+  "fin": 6.04
+ },
+ {
+  "texto": "de",
+  "inicio": 6.04,
+  "fin": 6.16
+ },
+ {
+  "texto": "qué",
+  "inicio": 6.16,
+  "fin": 6.48
+ },
+ {
+  "texto": "forma",
+  "inicio": 6.48,
+  "fin": 6.76
+ },
+ {
+  "texto": "hacerles",
+  "inicio": 6.76,
+  "fin": 7.2
+ },
+ {
+  "texto": "entender",
+  "inicio": 7.2,
+  "fin": 7.8
+ },
+ {
+  "texto": "que",
+  "inicio": 7.8,
+  "fin": 7.9
+ },
+ {
+  "texto": "la",
+  "inicio": 7.9,
+  "fin": 8.08
+ },
+ {
+  "texto": "entrevista",
+  "inicio": 8.08,
+  "fin": 8.32
+ },
+ {
+  "texto": "va",
+  "inicio": 8.32,
+  "fin": 8.4
+ },
+ {
+  "texto": "a",
+  "inicio": 8.4,
+  "fin": 8.48
+ },
+ {
+  "texto": "ser",
+  "inicio": 8.48,
+  "fin": 8.64
+ },
+ {
+  "texto": "la",
+  "inicio": 8.64,
+  "fin": 8.8
+ },
+ {
+  "texto": "polla",
+  "inicio": 8.8,
+  "fin": 9
+ },
+ {
+  "texto": "Pero",
+  "inicio": 9.5,
+  "fin": 9.64
+ },
+ {
+  "texto": "¿sabéis",
+  "inicio": 9.64,
+  "fin": 9.86
+ },
+ {
+  "texto": "qué?",
+  "inicio": 9.86,
+  "fin": 9.92
+ },
+ {
+  "texto": "Lo",
+  "inicio": 10,
+  "fin": 10.06
+ },
+ {
+  "texto": "que",
+  "inicio": 10.06,
+  "fin": 10.14
+ },
+ {
+  "texto": "no",
+  "inicio": 10.14,
+  "fin": 10.22
+ },
+ {
+  "texto": "voy",
+  "inicio": 10.22,
+  "fin": 10.28
+ },
+ {
+  "texto": "a",
+  "inicio": 10.28,
+  "fin": 10.36
+ },
+ {
+  "texto": "hacer",
+  "inicio": 10.36,
+  "fin": 10.44
+ },
+ {
+  "texto": "es",
+  "inicio": 10.44,
+  "fin": 10.6
+ },
+ {
+  "texto": "rendirme",
+  "inicio": 10.6,
+  "fin": 11
+ }
+]

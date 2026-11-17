@@ -1,0 +1,26 @@
+[
+{
+"texto": "Que",
+"inicio": 4.482,
+"fin": 4.543,
+"score": 0.046
+},
+{
+"texto": "esto",
+"inicio": 4.563,
+"fin": 4.644,
+"score": 0.066
+},
+{
+"texto": "no",
+"inicio": 4.664,
+"fin": 4.745,
+"score": 0.183
+},
+{
+"texto": "para.",
+"inicio": 4.786,
+"fin": 5.009,
+"score": 0.675
+}
+]

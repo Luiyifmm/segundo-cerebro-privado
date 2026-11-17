@@ -1,0 +1,692 @@
+[
+{
+"texto": "Pagar",
+"inicio": 0.114,
+"fin": 0.334,
+"score": 0.745
+},
+{
+"texto": "a",
+"inicio": 0.354,
+"fin": 0.374,
+"score": 0.096
+},
+{
+"texto": "medias",
+"inicio": 0.414,
+"fin": 0.615,
+"score": 0.882
+},
+{
+"texto": "con",
+"inicio": 0.675,
+"fin": 0.795,
+"score": 0.709
+},
+{
+"texto": "tu",
+"inicio": 0.815,
+"fin": 0.895,
+"score": 0.966
+},
+{
+"texto": "novia.",
+"inicio": 0.915,
+"fin": 1.195,
+"score": 0.882
+},
+{
+"texto": "Triste",
+"inicio": 1.655,
+"fin": 1.976,
+"score": 0.812
+},
+{
+"texto": "y",
+"inicio": 1.996,
+"fin": 2.016,
+"score": 0.993
+},
+{
+"texto": "de",
+"inicio": 2.056,
+"fin": 2.116,
+"score": 0.863
+},
+{
+"texto": "mediocre.",
+"inicio": 2.176,
+"fin": 2.536,
+"score": 0.674
+},
+{
+"texto": "Tener",
+"inicio": 2.817,
+"fin": 3.017,
+"score": 0.863
+},
+{
+"texto": "el",
+"inicio": 3.077,
+"fin": 3.157,
+"score": 0.526
+},
+{
+"texto": "último",
+"inicio": 3.197,
+"fin": 3.417,
+"score": 0.853
+},
+{
+"texto": "iPhone.",
+"inicio": 3.437,
+"fin": 3.757,
+"score": 0.293
+},
+{
+"texto": "De",
+"inicio": 4.298,
+"fin": 4.378,
+"score": 0.905
+},
+{
+"texto": "pobre.",
+"inicio": 4.458,
+"fin": 4.718,
+"score": 0.924
+},
+{
+"texto": "Llevar",
+"inicio": 5.059,
+"fin": 5.279,
+"score": 0.866
+},
+{
+"texto": "ropa",
+"inicio": 5.359,
+"fin": 5.559,
+"score": 0.825
+},
+{
+"texto": "con",
+"inicio": 5.599,
+"fin": 5.699,
+"score": 0.967
+},
+{
+"texto": "logos.",
+"inicio": 5.759,
+"fin": 6.02,
+"score": 0.767
+},
+{
+"texto": "De",
+"inicio": 6.24,
+"fin": 6.34,
+"score": 0.903
+},
+{
+"texto": "pobre,",
+"inicio": 6.42,
+"fin": 6.76,
+"score": 0.907
+},
+{
+"texto": "mediocre.",
+"inicio": 7.241,
+"fin": 7.841,
+"score": 0.739
+},
+{
+"texto": "Llevar",
+"inicio": 7.881,
+"fin": 8.081,
+"score": 0.751
+},
+{
+"texto": "ropa",
+"inicio": 8.141,
+"fin": 8.302,
+"score": 0.924
+},
+{
+"texto": "simple.",
+"inicio": 8.342,
+"fin": 8.602,
+"score": 0.826
+},
+{
+"texto": "De",
+"inicio": 9.062,
+"fin": 9.162,
+"score": 0.82
+},
+{
+"texto": "rico.",
+"inicio": 9.263,
+"fin": 9.523,
+"score": 0.618
+},
+{
+"texto": "Comprarte",
+"inicio": 9.743,
+"fin": 10.123,
+"score": 0.805
+},
+{
+"texto": "un",
+"inicio": 10.143,
+"fin": 10.223,
+"score": 0.89
+},
+{
+"texto": "coche.",
+"inicio": 10.263,
+"fin": 10.524,
+"score": 0.807
+},
+{
+"texto": "De",
+"inicio": 11.024,
+"fin": 11.104,
+"score": 0.844
+},
+{
+"texto": "pobre",
+"inicio": 11.184,
+"fin": 11.424,
+"score": 0.916
+},
+{
+"texto": "casi",
+"inicio": 11.465,
+"fin": 11.665,
+"score": 0.923
+},
+{
+"texto": "siempre.",
+"inicio": 11.725,
+"fin": 12.005,
+"score": 0.922
+},
+{
+"texto": "Pero",
+"inicio": 12.686,
+"fin": 12.866,
+"score": 0.911
+},
+{
+"texto": "de",
+"inicio": 12.926,
+"fin": 13.006,
+"score": 0.854
+},
+{
+"texto": "rico",
+"inicio": 13.066,
+"fin": 13.326,
+"score": 0.706
+},
+{
+"texto": "si",
+"inicio": 13.486,
+"fin": 13.586,
+"score": 0.74
+},
+{
+"texto": "sabes",
+"inicio": 13.627,
+"fin": 13.827,
+"score": 0.727
+},
+{
+"texto": "comprarlo.",
+"inicio": 13.847,
+"fin": 14.207,
+"score": 0.696
+},
+{
+"texto": "Comprarte",
+"inicio": 14.447,
+"fin": 14.848,
+"score": 0.844
+},
+{
+"texto": "una",
+"inicio": 14.888,
+"fin": 14.988,
+"score": 0.745
+},
+{
+"texto": "casa",
+"inicio": 15.048,
+"fin": 15.248,
+"score": 0.848
+},
+{
+"texto": "para",
+"inicio": 15.308,
+"fin": 15.448,
+"score": 0.753
+},
+{
+"texto": "vivir.",
+"inicio": 15.488,
+"fin": 15.748,
+"score": 0.84
+},
+{
+"texto": "De",
+"inicio": 16.189,
+"fin": 16.289,
+"score": 0.9
+},
+{
+"texto": "pobre.",
+"inicio": 16.369,
+"fin": 16.669,
+"score": 0.903
+},
+{
+"texto": "Y",
+"inicio": 16.99,
+"fin": 17.03,
+"score": 0.951
+},
+{
+"texto": "si",
+"inicio": 17.09,
+"fin": 17.17,
+"score": 0.887
+},
+{
+"texto": "es",
+"inicio": 17.21,
+"fin": 17.29,
+"score": 0.778
+},
+{
+"texto": "para",
+"inicio": 17.33,
+"fin": 17.47,
+"score": 0.827
+},
+{
+"texto": "invertir",
+"inicio": 17.53,
+"fin": 17.85,
+"score": 0.864
+},
+{
+"texto": "en",
+"inicio": 17.89,
+"fin": 17.971,
+"score": 0.812
+},
+{
+"texto": "ella.",
+"inicio": 18.011,
+"fin": 18.191,
+"score": 0.884
+},
+{
+"texto": "De",
+"inicio": 18.691,
+"fin": 18.791,
+"score": 0.882
+},
+{
+"texto": "rico,",
+"inicio": 18.891,
+"fin": 19.172,
+"score": 0.872
+},
+{
+"texto": "muy",
+"inicio": 19.712,
+"fin": 19.812,
+"score": 0.828
+},
+{
+"texto": "rico.",
+"inicio": 19.892,
+"fin": 20.133,
+"score": 0.901
+},
+{
+"texto": "Dejar",
+"inicio": 20.373,
+"fin": 20.613,
+"score": 0.823
+},
+{
+"texto": "el",
+"inicio": 20.653,
+"fin": 20.733,
+"score": 0.717
+},
+{
+"texto": "dinero",
+"inicio": 20.753,
+"fin": 20.993,
+"score": 0.906
+},
+{
+"texto": "en",
+"inicio": 21.033,
+"fin": 21.093,
+"score": 0.942
+},
+{
+"texto": "el",
+"inicio": 21.133,
+"fin": 21.214,
+"score": 0.92
+},
+{
+"texto": "banco.",
+"inicio": 21.254,
+"fin": 21.514,
+"score": 0.946
+},
+{
+"texto": "De",
+"inicio": 22.034,
+"fin": 22.114,
+"score": 0.726
+},
+{
+"texto": "pobre",
+"inicio": 22.194,
+"fin": 22.455,
+"score": 0.786
+},
+{
+"texto": "porque",
+"inicio": 22.615,
+"fin": 22.855,
+"score": 0.781
+},
+{
+"texto": "te",
+"inicio": 22.895,
+"fin": 22.935,
+"score": 0.365
+},
+{
+"texto": "arruina.",
+"inicio": 22.955,
+"fin": 23.275,
+"score": 0.807
+},
+{
+"texto": "Cocinar",
+"inicio": 23.456,
+"fin": 23.796,
+"score": 0.811
+},
+{
+"texto": "para",
+"inicio": 23.856,
+"fin": 23.996,
+"score": 0.951
+},
+{
+"texto": "ti.",
+"inicio": 24.036,
+"fin": 24.617,
+"score": 0.93
+},
+{
+"texto": "¿O",
+"inicio": 24.637,
+"fin": 24.717,
+"score": 0.778
+},
+{
+"texto": "eres",
+"inicio": 24.757,
+"fin": 24.937,
+"score": 0.752
+},
+{
+"texto": "pobre",
+"inicio": 24.977,
+"fin": 25.217,
+"score": 0.925
+},
+{
+"texto": "o",
+"inicio": 25.337,
+"fin": 25.558,
+"score": 0.553
+},
+{
+"texto": "muy",
+"inicio": 25.658,
+"fin": 25.758,
+"score": 0.858
+},
+{
+"texto": "rico?",
+"inicio": 25.838,
+"fin": 26.018,
+"score": 0.704
+},
+{
+"texto": "Los",
+"inicio": 26.426,
+"fin": 26.566,
+"score": 0.672
+},
+{
+"texto": "pobres",
+"inicio": 26.647,
+"fin": 26.907,
+"score": 0.742
+},
+{
+"texto": "gastan",
+"inicio": 27.107,
+"fin": 27.348,
+"score": 0.852
+},
+{
+"texto": "dinero",
+"inicio": 27.388,
+"fin": 27.608,
+"score": 0.825
+},
+{
+"texto": "para",
+"inicio": 27.668,
+"fin": 27.788,
+"score": 0.869
+},
+{
+"texto": "aparentar.",
+"inicio": 27.809,
+"fin": 28.249,
+"score": 0.795
+},
+{
+"texto": "Los",
+"inicio": 28.369,
+"fin": 28.47,
+"score": 0.853
+},
+{
+"texto": "ricos",
+"inicio": 28.55,
+"fin": 28.89,
+"score": 0.766
+},
+{
+"texto": "invierten",
+"inicio": 29.251,
+"fin": 29.712,
+"score": 0.939
+},
+{
+"texto": "en",
+"inicio": 29.732,
+"fin": 29.772,
+"score": 0.012
+},
+{
+"texto": "conocimiento",
+"inicio": 30.193,
+"fin": 30.834,
+"score": 0.883
+},
+{
+"texto": "que",
+"inicio": 30.894,
+"fin": 30.974,
+"score": 0.954
+},
+{
+"texto": "les",
+"inicio": 31.014,
+"fin": 31.274,
+"score": 0.768
+},
+{
+"texto": "hará",
+"inicio": 31.294,
+"fin": 31.375,
+"score": 0.073
+},
+{
+"texto": "ganar",
+"inicio": 31.415,
+"fin": 31.655,
+"score": 0.892
+},
+{
+"texto": "mucho",
+"inicio": 31.795,
+"fin": 32.036,
+"score": 0.867
+},
+{
+"texto": "más",
+"inicio": 32.136,
+"fin": 32.256,
+"score": 0.873
+},
+{
+"texto": "dinero.",
+"inicio": 32.336,
+"fin": 32.617,
+"score": 0.965
+},
+{
+"texto": "Si",
+"inicio": 32.917,
+"fin": 32.977,
+"score": 0.964
+},
+{
+"texto": "quieres",
+"inicio": 33.017,
+"fin": 33.258,
+"score": 0.729
+},
+{
+"texto": "aprender",
+"inicio": 33.298,
+"fin": 33.638,
+"score": 0.518
+},
+{
+"texto": "una",
+"inicio": 33.658,
+"fin": 33.738,
+"score": 0.814
+},
+{
+"texto": "habilidad",
+"inicio": 33.759,
+"fin": 34.039,
+"score": 0.792
+},
+{
+"texto": "online",
+"inicio": 34.119,
+"fin": 34.38,
+"score": 0.598
+},
+{
+"texto": "para",
+"inicio": 34.44,
+"fin": 34.6,
+"score": 0.869
+},
+{
+"texto": "poder",
+"inicio": 34.72,
+"fin": 34.92,
+"score": 0.802
+},
+{
+"texto": "ganar",
+"inicio": 34.961,
+"fin": 35.201,
+"score": 0.921
+},
+{
+"texto": "dinero",
+"inicio": 35.241,
+"fin": 35.542,
+"score": 0.718
+},
+{
+"texto": "y",
+"inicio": 35.562,
+"fin": 35.582,
+"score": 0.004
+},
+{
+"texto": "vivir",
+"inicio": 35.962,
+"fin": 36.183,
+"score": 0.9
+},
+{
+"texto": "la",
+"inicio": 36.243,
+"fin": 36.303,
+"score": 0.859
+},
+{
+"texto": "vida",
+"inicio": 36.343,
+"fin": 36.483,
+"score": 0.767
+},
+{
+"texto": "que",
+"inicio": 36.543,
+"fin": 36.643,
+"score": 0.801
+},
+{
+"texto": "quieres,",
+"inicio": 36.703,
+"fin": 37.044,
+"score": 0.802
+},
+{
+"texto": "comenta",
+"inicio": 37.545,
+"fin": 37.905,
+"score": 0.896
+},
+{
+"texto": "rico.",
+"inicio": 37.946,
+"fin": 38.146,
+"score": 0.869
+}
+]

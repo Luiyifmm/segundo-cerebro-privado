@@ -1,0 +1,32 @@
+[
+{
+"texto": "diablo",
+"inicio": 5.762,
+"fin": 6.049,
+"score": 0.487
+},
+{
+"texto": "se",
+"inicio": 6.069,
+"fin": 6.111,
+"score": 0.126
+},
+{
+"texto": "cayó",
+"inicio": 6.131,
+"fin": 6.213,
+"score": 0.009
+},
+{
+"texto": "a",
+"inicio": 6.233,
+"fin": 6.254,
+"score": 0.609
+},
+{
+"texto": "la",
+"inicio": 6.316,
+"fin": 6.377,
+"score": 0.282
+}
+]

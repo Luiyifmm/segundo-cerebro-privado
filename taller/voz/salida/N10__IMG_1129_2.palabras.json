@@ -1,0 +1,62 @@
+[
+ {
+  "texto": "Escribe",
+  "inicio": 1.98,
+  "fin": 2.4
+ },
+ {
+  "texto": "espalda",
+  "inicio": 2.4,
+  "fin": 2.84
+ },
+ {
+  "texto": "y",
+  "inicio": 2.84,
+  "fin": 2.96
+ },
+ {
+  "texto": "te",
+  "inicio": 2.96,
+  "fin": 3.08
+ },
+ {
+  "texto": "envío",
+  "inicio": 3.08,
+  "fin": 3.3
+ },
+ {
+  "texto": "mi",
+  "inicio": 3.3,
+  "fin": 3.42
+ },
+ {
+  "texto": "mejor",
+  "inicio": 3.42,
+  "fin": 12.02
+ },
+ {
+  "texto": "rutina",
+  "inicio": 12.02,
+  "fin": 12.4
+ },
+ {
+  "texto": "con",
+  "inicio": 12.4,
+  "fin": 12.72
+ },
+ {
+  "texto": "series",
+  "inicio": 12.72,
+  "fin": 13.04
+ },
+ {
+  "texto": "y",
+  "inicio": 13.04,
+  "fin": 13.24
+ },
+ {
+  "texto": "repeticiones.",
+  "inicio": 13.24,
+  "fin": 13.68
+ }
+]

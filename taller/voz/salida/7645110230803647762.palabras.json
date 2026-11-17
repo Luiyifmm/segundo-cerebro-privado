@@ -1,0 +1,202 @@
+[
+ {
+  "texto": "FALSA",
+  "inicio": 0.52,
+  "fin": 0.76
+ },
+ {
+  "texto": "ALARMA",
+  "inicio": 0.76,
+  "fin": 1
+ },
+ {
+  "texto": "ESE",
+  "inicio": 2.04,
+  "fin": 2.24
+ },
+ {
+  "texto": "CUADRO",
+  "inicio": 2.24,
+  "fin": 2.46
+ },
+ {
+  "texto": "NO",
+  "inicio": 2.46,
+  "fin": 2.6
+ },
+ {
+  "texto": "VALÍNADA",
+  "inicio": 2.6,
+  "fin": 3
+ },
+ {
+  "texto": "LLEVE",
+  "inicio": 3.62,
+  "fin": 3.84
+ },
+ {
+  "texto": "SONDO",
+  "inicio": 3.84,
+  "fin": 4
+ },
+ {
+  "texto": "SI",
+  "inicio": 4.06,
+  "fin": 4.2
+ },
+ {
+  "texto": "QUIERES",
+  "inicio": 4.2,
+  "fin": 4.58
+ },
+ {
+  "texto": "Entonces",
+  "inicio": 4.76,
+  "fin": 4.94
+ },
+ {
+  "texto": "¿POR",
+  "inicio": 4.94,
+  "fin": 5.02
+ },
+ {
+  "texto": "QUÉ",
+  "inicio": 5.02,
+  "fin": 5.12
+ },
+ {
+  "texto": "LO",
+  "inicio": 5.12,
+  "fin": 5.28
+ },
+ {
+  "texto": "TENÍN",
+  "inicio": 5.28,
+  "fin": 5.44
+ },
+ {
+  "texto": "UN",
+  "inicio": 5.44,
+  "fin": 5.54
+ },
+ {
+  "texto": "GUSEO?",
+  "inicio": 5.54,
+  "fin": 6
+ },
+ {
+  "texto": "Se",
+  "inicio": 6.98,
+  "fin": 7.08
+ },
+ {
+  "texto": "ve",
+  "inicio": 7.08,
+  "fin": 7.22
+ },
+ {
+  "texto": "que",
+  "inicio": 7.22,
+  "fin": 7.36
+ },
+ {
+  "texto": "no",
+  "inicio": 7.36,
+  "fin": 7.58
+ },
+ {
+  "texto": "conoce",
+  "inicio": 7.58,
+  "fin": 7.86
+ },
+ {
+  "texto": "a",
+  "inicio": 7.86,
+  "fin": 8.06
+ },
+ {
+  "texto": "Wolfgang",
+  "inicio": 8.06,
+  "fin": 8.56
+ },
+ {
+  "texto": "del",
+  "inicio": 8.56,
+  "fin": 8.7
+ },
+ {
+  "texto": "Traki",
+  "inicio": 8.7,
+  "fin": 9
+ },
+ {
+  "texto": "Un",
+  "inicio": 9.22,
+  "fin": 9.38
+ },
+ {
+  "texto": "alemán",
+  "inicio": 9.38,
+  "fin": 9.72
+ },
+ {
+  "texto": "que",
+  "inicio": 9.72,
+  "fin": 9.86
+ },
+ {
+  "texto": "los",
+  "inicio": 9.86,
+  "fin": 10.26
+ },
+ {
+  "texto": "14",
+  "inicio": 10.26,
+  "fin": 10.58
+ },
+ {
+  "texto": "años",
+  "inicio": 10.58,
+  "fin": 10.88
+ },
+ {
+  "texto": "pintó",
+  "inicio": 10.88,
+  "fin": 11.14
+ },
+ {
+  "texto": "una",
+  "inicio": 11.14,
+  "fin": 11.4
+ },
+ {
+  "texto": "réplica",
+  "inicio": 11.4,
+  "fin": 11.78
+ },
+ {
+  "texto": "de",
+  "inicio": 11.78,
+  "fin": 12.14
+ },
+ {
+  "texto": "Picasso",
+  "inicio": 12.14,
+  "fin": 12.5
+ },
+ {
+  "texto": "tan",
+  "inicio": 12.5,
+  "fin": 13
+ },
+ {
+  "texto": "exactamente",
+  "inicio": 13.14,
+  "fin": 13.58
+ },
+ {
+  "texto": "igual",
+  "inicio": 13.58,
+  "fin": 13.88
+ }
+]

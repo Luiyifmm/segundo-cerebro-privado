@@ -1,0 +1,67 @@
+[
+ {
+  "texto": "Estas",
+  "inicio": 0.32,
+  "fin": 0.52
+ },
+ {
+  "texto": "son",
+  "inicio": 0.52,
+  "fin": 0.68
+ },
+ {
+  "texto": "las",
+  "inicio": 0.68,
+  "fin": 0.84
+ },
+ {
+  "texto": "tres",
+  "inicio": 0.84,
+  "fin": 1.14
+ },
+ {
+  "texto": "habilidades,",
+  "inicio": 1.14,
+  "fin": 1.54
+ },
+ {
+  "texto": "diez",
+  "inicio": 1.8,
+  "fin": 1.98
+ },
+ {
+  "texto": "de",
+  "inicio": 1.98,
+  "fin": 2.16
+ },
+ {
+  "texto": "diez",
+  "inicio": 2.16,
+  "fin": 2.26
+ },
+ {
+  "texto": "de",
+  "inicio": 2.26,
+  "fin": 2.34
+ },
+ {
+  "texto": "un",
+  "inicio": 2.34,
+  "fin": 2.54
+ },
+ {
+  "texto": "hombre",
+  "inicio": 2.54,
+  "fin": 2.98
+ },
+ {
+  "texto": "altamente",
+  "inicio": 2.98,
+  "fin": 3.8
+ },
+ {
+  "texto": "peligroso.",
+  "inicio": 3.8,
+  "fin": 4.34
+ }
+]

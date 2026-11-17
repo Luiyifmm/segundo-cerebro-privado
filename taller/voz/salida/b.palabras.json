@@ -1,0 +1,47 @@
+[
+ {
+  "texto": "Número",
+  "inicio": 0.12,
+  "fin": 0.38
+ },
+ {
+  "texto": "1,",
+  "inicio": 0.38,
+  "fin": 0.56
+ },
+ {
+  "texto": "dominar",
+  "inicio": 0.7,
+  "fin": 1.28
+ },
+ {
+  "texto": "las",
+  "inicio": 1.28,
+  "fin": 1.54
+ },
+ {
+  "texto": "leyes",
+  "inicio": 1.54,
+  "fin": 1.88
+ },
+ {
+  "texto": "de",
+  "inicio": 1.88,
+  "fin": 2
+ },
+ {
+  "texto": "la",
+  "inicio": 2,
+  "fin": 2.28
+ },
+ {
+  "texto": "naturaleza",
+  "inicio": 2.28,
+  "fin": 2.62
+ },
+ {
+  "texto": "humana.",
+  "inicio": 2.62,
+  "fin": 2.8
+ }
+]

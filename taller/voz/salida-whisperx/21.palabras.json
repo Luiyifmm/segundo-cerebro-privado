@@ -1,0 +1,50 @@
+[
+{
+"texto": "Bienvenidos",
+"inicio": 10.87,
+"fin": 11.291,
+"score": 0.651
+},
+{
+"texto": "a",
+"inicio": 11.372,
+"fin": 11.392,
+"score": 0.298
+},
+{
+"texto": "este",
+"inicio": 11.412,
+"fin": 11.612,
+"score": 0.73
+},
+{
+"texto": "viaje",
+"inicio": 11.752,
+"fin": 12.093,
+"score": 0.658
+},
+{
+"texto": "por",
+"inicio": 12.153,
+"fin": 12.253,
+"score": 0.866
+},
+{
+"texto": "Colombia.",
+"inicio": 12.334,
+"fin": 12.855,
+"score": 0.74
+},
+{
+"texto": "Ruta",
+"inicio": 12.915,
+"fin": 13.216,
+"score": 0.482
+},
+{
+"texto": "Candela.",
+"inicio": 13.236,
+"fin": 14.098,
+"score": 0.55
+}
+]

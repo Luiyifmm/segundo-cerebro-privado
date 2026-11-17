@@ -1,0 +1,427 @@
+[
+ {
+  "texto": "Chicos,",
+  "inicio": 1.06,
+  "fin": 1.32
+ },
+ {
+  "texto": "estoy",
+  "inicio": 1.58,
+  "fin": 2.02
+ },
+ {
+  "texto": "súper",
+  "inicio": 2.02,
+  "fin": 2.34
+ },
+ {
+  "texto": "contento",
+  "inicio": 2.34,
+  "fin": 2.62
+ },
+ {
+  "texto": "porque",
+  "inicio": 2.62,
+  "fin": 2.76
+ },
+ {
+  "texto": "he",
+  "inicio": 2.76,
+  "fin": 2.88
+ },
+ {
+  "texto": "conseguido",
+  "inicio": 2.88,
+  "fin": 3.18
+ },
+ {
+  "texto": "una",
+  "inicio": 3.18,
+  "fin": 3.36
+ },
+ {
+  "texto": "entrevista",
+  "inicio": 3.36,
+  "fin": 3.7
+ },
+ {
+  "texto": "de",
+  "inicio": 3.7,
+  "fin": 4
+ },
+ {
+  "texto": "puta",
+  "inicio": 4,
+  "fin": 4.26
+ },
+ {
+  "texto": "madre.",
+  "inicio": 4.26,
+  "fin": 4.34
+ },
+ {
+  "texto": "O",
+  "inicio": 4.42,
+  "fin": 4.46
+ },
+ {
+  "texto": "sea,",
+  "inicio": 4.46,
+  "fin": 4.52
+ },
+ {
+  "texto": "un",
+  "inicio": 4.58,
+  "fin": 4.78
+ },
+ {
+  "texto": "director",
+  "inicio": 4.78,
+  "fin": 5.28
+ },
+ {
+  "texto": "comercial",
+  "inicio": 5.28,
+  "fin": 5.46
+ },
+ {
+  "texto": "que",
+  "inicio": 5.46,
+  "fin": 5.54
+ },
+ {
+  "texto": "ha",
+  "inicio": 5.54,
+  "fin": 5.64
+ },
+ {
+  "texto": "llevado",
+  "inicio": 5.64,
+  "fin": 5.84
+ },
+ {
+  "texto": "a",
+  "inicio": 5.84,
+  "fin": 5.92
+ },
+ {
+  "texto": "Matis",
+  "inicio": 5.92,
+  "fin": 6.2
+ },
+ {
+  "texto": "50",
+  "inicio": 6.2,
+  "fin": 6.52
+ },
+ {
+  "texto": "picopersonas",
+  "inicio": 6.52,
+  "fin": 7.12
+ },
+ {
+  "texto": "en",
+  "inicio": 7.3,
+  "fin": 7.4
+ },
+ {
+  "texto": "una",
+  "inicio": 7.4,
+  "fin": 7.68
+ },
+ {
+  "texto": "compañía",
+  "inicio": 7.68,
+  "fin": 7.92
+ },
+ {
+  "texto": "de",
+  "inicio": 7.92,
+  "fin": 8.02
+ },
+ {
+  "texto": "seguros",
+  "inicio": 8.02,
+  "fin": 8.34
+ },
+ {
+  "texto": "que",
+  "inicio": 8.34,
+  "fin": 8.34
+ },
+ {
+  "texto": "ha",
+  "inicio": 8.34,
+  "fin": 8.5
+ },
+ {
+  "texto": "facturado",
+  "inicio": 8.5,
+  "fin": 9.14
+ },
+ {
+  "texto": "millones",
+  "inicio": 9.14,
+  "fin": 9.7
+ },
+ {
+  "texto": "y",
+  "inicio": 9.7,
+  "fin": 10.12
+ },
+ {
+  "texto": "millones",
+  "inicio": 10.12,
+  "fin": 10.68
+ },
+ {
+  "texto": "y",
+  "inicio": 10.68,
+  "fin": 10.96
+ },
+ {
+  "texto": "millones",
+  "inicio": 10.96,
+  "fin": 11.16
+ },
+ {
+  "texto": "de",
+  "inicio": 11.16,
+  "fin": 11.32
+ },
+ {
+  "texto": "euros",
+  "inicio": 11.32,
+  "fin": 11.54
+ },
+ {
+  "texto": "os",
+  "inicio": 11.92,
+  "fin": 11.98
+ },
+ {
+  "texto": "ha",
+  "inicio": 11.98,
+  "fin": 12.2
+ },
+ {
+  "texto": "dicho",
+  "inicio": 12.2,
+  "fin": 12.42
+ },
+ {
+  "texto": "que",
+  "inicio": 12.42,
+  "fin": 12.72
+ },
+ {
+  "texto": "uno",
+  "inicio": 12.72,
+  "fin": 12.84
+ },
+ {
+  "texto": "de",
+  "inicio": 12.84,
+  "fin": 12.9
+ },
+ {
+  "texto": "los",
+  "inicio": 12.9,
+  "fin": 13.14
+ },
+ {
+  "texto": "secretos",
+  "inicio": 13.14,
+  "fin": 14.14
+ },
+ {
+  "texto": "para",
+  "inicio": 14.14,
+  "fin": 14.42
+ },
+ {
+  "texto": "vender",
+  "inicio": 14.42,
+  "fin": 15.14
+ },
+ {
+  "texto": "es",
+  "inicio": 15.14,
+  "fin": 15.42
+ },
+ {
+  "texto": "conectar",
+  "inicio": 15.42,
+  "fin": 15.8
+ },
+ {
+  "texto": "con",
+  "inicio": 15.8,
+  "fin": 15.92
+ },
+ {
+  "texto": "las",
+  "inicio": 15.92,
+  "fin": 16.24
+ },
+ {
+  "texto": "personas",
+  "inicio": 16.24,
+  "fin": 16.42
+ },
+ {
+  "texto": "y",
+  "inicio": 16.52,
+  "fin": 16.66
+ },
+ {
+  "texto": "pienso",
+  "inicio": 16.66,
+  "fin": 17.64
+ },
+ {
+  "texto": "brutalmente",
+  "inicio": 17.64,
+  "fin": 18.12
+ },
+ {
+  "texto": "en",
+  "inicio": 18.12,
+  "fin": 18.22
+ },
+ {
+  "texto": "esto.",
+  "inicio": 18.22,
+  "fin": 18.32
+ },
+ {
+  "texto": "Mucha",
+  "inicio": 18.38,
+  "fin": 18.66
+ },
+ {
+  "texto": "gente",
+  "inicio": 18.66,
+  "fin": 19.06
+ },
+ {
+  "texto": "en",
+  "inicio": 19.06,
+  "fin": 19.14
+ },
+ {
+  "texto": "la",
+  "inicio": 19.14,
+  "fin": 19.32
+ },
+ {
+  "texto": "venta",
+  "inicio": 19.32,
+  "fin": 19.6
+ },
+ {
+  "texto": "se",
+  "inicio": 19.6,
+  "fin": 20.04
+ },
+ {
+  "texto": "especializa",
+  "inicio": 20.04,
+  "fin": 20.3
+ },
+ {
+  "texto": "en",
+  "inicio": 20.3,
+  "fin": 20.44
+ },
+ {
+  "texto": "un",
+  "inicio": 20.44,
+  "fin": 20.56
+ },
+ {
+  "texto": "guión,",
+  "inicio": 20.56,
+  "fin": 20.78
+ },
+ {
+  "texto": "guión,",
+  "inicio": 20.82,
+  "fin": 20.96
+ },
+ {
+  "texto": "guión",
+  "inicio": 21.06,
+  "fin": 21.34
+ },
+ {
+  "texto": "conecta",
+  "inicio": 21.8,
+  "fin": 22.04
+ },
+ {
+  "texto": "con",
+  "inicio": 22.04,
+  "fin": 22.12
+ },
+ {
+  "texto": "el",
+  "inicio": 22.12,
+  "fin": 22.2
+ },
+ {
+  "texto": "que",
+  "inicio": 22.2,
+  "fin": 22.32
+ },
+ {
+  "texto": "tiene",
+  "inicio": 22.32,
+  "fin": 22.52
+ },
+ {
+  "texto": "adelante",
+  "inicio": 22.52,
+  "fin": 22.76
+ },
+ {
+  "texto": "y",
+  "inicio": 22.76,
+  "fin": 22.82
+ },
+ {
+  "texto": "va",
+  "inicio": 22.82,
+  "fin": 22.86
+ },
+ {
+  "texto": "a",
+  "inicio": 22.86,
+  "fin": 22.94
+ },
+ {
+  "texto": "ser",
+  "inicio": 22.94,
+  "fin": 23.18
+ },
+ {
+  "texto": "mucho",
+  "inicio": 23.18,
+  "fin": 23.32
+ },
+ {
+  "texto": "más",
+  "inicio": 23.32,
+  "fin": 23.52
+ },
+ {
+  "texto": "fácil",
+  "inicio": 23.52,
+  "fin": 23.78
+ },
+ {
+  "texto": "venderle.",
+  "inicio": 23.78,
+  "fin": 24.04
+ }
+]

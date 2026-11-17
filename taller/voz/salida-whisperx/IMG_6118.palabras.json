@@ -1,0 +1,986 @@
+[
+{
+"texto": "Así",
+"inicio": 7.326,
+"fin": 7.466,
+"score": 0.799
+},
+{
+"texto": "se",
+"inicio": 7.526,
+"fin": 7.606,
+"score": 0.779
+},
+{
+"texto": "viste",
+"inicio": 7.626,
+"fin": 7.786,
+"score": 0.754
+},
+{
+"texto": "a",
+"inicio": 7.846,
+"fin": 7.866,
+"score": 0.029
+},
+{
+"texto": "la",
+"inicio": 7.886,
+"fin": 7.946,
+"score": 0.632
+},
+{
+"texto": "mujer",
+"inicio": 7.986,
+"fin": 8.167,
+"score": 0.861
+},
+{
+"texto": "que",
+"inicio": 8.207,
+"fin": 8.287,
+"score": 0.842
+},
+{
+"texto": "solo",
+"inicio": 8.347,
+"fin": 8.507,
+"score": 0.864
+},
+{
+"texto": "quieren",
+"inicio": 8.567,
+"fin": 8.787,
+"score": 0.855
+},
+{
+"texto": "para",
+"inicio": 8.867,
+"fin": 9.007,
+"score": 0.896
+},
+{
+"texto": "una",
+"inicio": 9.047,
+"fin": 9.147,
+"score": 0.941
+},
+{
+"texto": "noche.",
+"inicio": 9.207,
+"fin": 9.468,
+"score": 0.808
+},
+{
+"texto": "Y",
+"inicio": 9.948,
+"fin": 10.008,
+"score": 0.778
+},
+{
+"texto": "así",
+"inicio": 10.048,
+"fin": 10.208,
+"score": 0.91
+},
+{
+"texto": "se",
+"inicio": 10.268,
+"fin": 10.368,
+"score": 0.92
+},
+{
+"texto": "viste",
+"inicio": 10.428,
+"fin": 10.648,
+"score": 0.77
+},
+{
+"texto": "a",
+"inicio": 10.668,
+"fin": 10.688,
+"score": 0.012
+},
+{
+"texto": "la",
+"inicio": 10.708,
+"fin": 10.748,
+"score": 0.912
+},
+{
+"texto": "mujer",
+"inicio": 10.808,
+"fin": 11.029,
+"score": 0.905
+},
+{
+"texto": "que",
+"inicio": 11.069,
+"fin": 11.149,
+"score": 0.867
+},
+{
+"texto": "quieren",
+"inicio": 11.209,
+"fin": 11.429,
+"score": 0.937
+},
+{
+"texto": "para",
+"inicio": 11.529,
+"fin": 11.689,
+"score": 0.879
+},
+{
+"texto": "toda",
+"inicio": 11.789,
+"fin": 11.969,
+"score": 0.998
+},
+{
+"texto": "la",
+"inicio": 12.029,
+"fin": 12.089,
+"score": 0.992
+},
+{
+"texto": "vida.",
+"inicio": 12.129,
+"fin": 12.349,
+"score": 0.951
+},
+{
+"texto": "A",
+"inicio": 20.515,
+"fin": 20.615,
+"score": 0.845
+},
+{
+"texto": "esta",
+"inicio": 20.675,
+"fin": 20.895,
+"score": 0.965
+},
+{
+"texto": "solo",
+"inicio": 21.055,
+"fin": 21.256,
+"score": 0.909
+},
+{
+"texto": "la",
+"inicio": 21.296,
+"fin": 21.376,
+"score": 0.798
+},
+{
+"texto": "quieren",
+"inicio": 21.416,
+"fin": 21.616,
+"score": 0.967
+},
+{
+"texto": "para",
+"inicio": 21.696,
+"fin": 21.836,
+"score": 0.79
+},
+{
+"texto": "una",
+"inicio": 21.856,
+"fin": 21.976,
+"score": 0.883
+},
+{
+"texto": "cosa.",
+"inicio": 22.036,
+"fin": 22.256,
+"score": 0.987
+},
+{
+"texto": "Ya",
+"inicio": 22.536,
+"fin": 22.636,
+"score": 0.956
+},
+{
+"texto": "sabes",
+"inicio": 22.677,
+"fin": 22.877,
+"score": 0.913
+},
+{
+"texto": "para",
+"inicio": 22.917,
+"fin": 23.057,
+"score": 0.954
+},
+{
+"texto": "qué.",
+"inicio": 23.117,
+"fin": 25.759,
+"score": 0.934
+},
+{
+"texto": "A",
+"inicio": 27.82,
+"fin": 27.88,
+"score": 0.834
+},
+{
+"texto": "esta",
+"inicio": 27.96,
+"fin": 28.14,
+"score": 0.811
+},
+{
+"texto": "la",
+"inicio": 28.18,
+"fin": 28.24,
+"score": 0.907
+},
+{
+"texto": "respetan.",
+"inicio": 28.3,
+"fin": 28.721,
+"score": 0.947
+},
+{
+"texto": "A",
+"inicio": 30.782,
+"fin": 31.142,
+"score": 0.838
+},
+{
+"texto": "ella",
+"inicio": 32.243,
+"fin": 34.344,
+"score": 0.849
+},
+{
+"texto": "la",
+"inicio": 34.404,
+"fin": 34.465,
+"score": 0.894
+},
+{
+"texto": "buscan",
+"inicio": 34.505,
+"fin": 34.805,
+"score": 0.922
+},
+{
+"texto": "para",
+"inicio": 34.845,
+"fin": 35.005,
+"score": 0.861
+},
+{
+"texto": "divertirse",
+"inicio": 35.045,
+"fin": 35.645,
+"score": 0.869
+},
+{
+"texto": "y",
+"inicio": 35.685,
+"fin": 35.725,
+"score": 0.837
+},
+{
+"texto": "perder",
+"inicio": 35.825,
+"fin": 36.106,
+"score": 0.917
+},
+{
+"texto": "el",
+"inicio": 36.166,
+"fin": 36.226,
+"score": 0.992
+},
+{
+"texto": "tiempo.",
+"inicio": 36.306,
+"fin": 36.546,
+"score": 0.91
+},
+{
+"texto": "y",
+"inicio": 40.414,
+"fin": 40.494,
+"score": 0.844
+},
+{
+"texto": "con",
+"inicio": 40.554,
+"fin": 40.674,
+"score": 0.832
+},
+{
+"texto": "ella",
+"inicio": 40.734,
+"fin": 40.934,
+"score": 0.87
+},
+{
+"texto": "para",
+"inicio": 41.014,
+"fin": 41.134,
+"score": 0.909
+},
+{
+"texto": "prosperar",
+"inicio": 41.234,
+"fin": 41.655,
+"score": 0.851
+},
+{
+"texto": "la",
+"inicio": 41.715,
+"fin": 41.775,
+"score": 0.772
+},
+{
+"texto": "vida",
+"inicio": 41.815,
+"fin": 41.975,
+"score": 0.986
+},
+{
+"texto": "entera.",
+"inicio": 42.015,
+"fin": 42.335,
+"score": 0.843
+},
+{
+"texto": "La",
+"inicio": 48.718,
+"fin": 48.778,
+"score": 0.986
+},
+{
+"texto": "ven",
+"inicio": 48.838,
+"fin": 48.958,
+"score": 0.816
+},
+{
+"texto": "como",
+"inicio": 48.978,
+"fin": 49.118,
+"score": 0.839
+},
+{
+"texto": "una...",
+"inicio": 49.138,
+"fin": 49.338,
+"score": 0.809
+},
+{
+"texto": "la",
+"inicio": 50.719,
+"fin": 50.799,
+"score": 0.807
+},
+{
+"texto": "ven",
+"inicio": 50.839,
+"fin": 50.959,
+"score": 0.968
+},
+{
+"texto": "como",
+"inicio": 50.999,
+"fin": 51.139,
+"score": 0.952
+},
+{
+"texto": "una",
+"inicio": 51.179,
+"fin": 51.299,
+"score": 0.949
+},
+{
+"texto": "asocia",
+"inicio": 51.319,
+"fin": 51.679,
+"score": 0.832
+},
+{
+"texto": "y",
+"inicio": 51.699,
+"fin": 51.719,
+"score": 0.011
+},
+{
+"texto": "la",
+"inicio": 51.98,
+"fin": 52.04,
+"score": 0.978
+},
+{
+"texto": "dirigen",
+"inicio": 52.1,
+"fin": 52.44,
+"score": 0.912
+},
+{
+"texto": "para",
+"inicio": 52.48,
+"fin": 52.6,
+"score": 0.966
+},
+{
+"texto": "prosperar",
+"inicio": 52.68,
+"fin": 53.08,
+"score": 0.861
+},
+{
+"texto": "un",
+"inicio": 53.16,
+"fin": 53.22,
+"score": 0.42
+},
+{
+"texto": "pro...",
+"inicio": 53.26,
+"fin": 54.121,
+"score": 0.596
+},
+{
+"texto": "y",
+"inicio": 54.181,
+"fin": 54.201,
+"score": 0.893
+},
+{
+"texto": "la",
+"inicio": 54.261,
+"fin": 54.321,
+"score": 0.962
+},
+{
+"texto": "dirigen",
+"inicio": 54.381,
+"fin": 54.721,
+"score": 0.849
+},
+{
+"texto": "para",
+"inicio": 54.801,
+"fin": 54.961,
+"score": 0.861
+},
+{
+"texto": "prosperar",
+"inicio": 55.061,
+"fin": 55.481,
+"score": 0.842
+},
+{
+"texto": "un",
+"inicio": 55.561,
+"fin": 55.601,
+"score": 0.999
+},
+{
+"texto": "proyecto",
+"inicio": 55.641,
+"fin": 55.981,
+"score": 0.804
+},
+{
+"texto": "real.",
+"inicio": 56.081,
+"fin": 56.302,
+"score": 0.936
+},
+{
+"texto": "Y...",
+"inicio": 61.664,
+"fin": 61.824,
+"score": 0.346
+},
+{
+"texto": "y",
+"inicio": 63.385,
+"fin": 63.425,
+"score": 0.709
+},
+{
+"texto": "la",
+"inicio": 63.485,
+"fin": 63.545,
+"score": 0.862
+},
+{
+"texto": "eligen",
+"inicio": 63.585,
+"fin": 63.925,
+"score": 0.861
+},
+{
+"texto": "para",
+"inicio": 64.005,
+"fin": 64.145,
+"score": 0.75
+},
+{
+"texto": "construir",
+"inicio": 64.245,
+"fin": 64.626,
+"score": 0.791
+},
+{
+"texto": "un",
+"inicio": 64.706,
+"fin": 64.746,
+"score": 1.0
+},
+{
+"texto": "proyecto",
+"inicio": 64.786,
+"fin": 65.146,
+"score": 0.847
+},
+{
+"texto": "real.",
+"inicio": 65.246,
+"fin": 65.426,
+"score": 0.718
+},
+{
+"texto": "¿Qué?",
+"inicio": 71.746,
+"fin": 76.209,
+"score": 0.391
+},
+{
+"texto": "La",
+"inicio": 76.249,
+"fin": 76.329,
+"score": 0.977
+},
+{
+"texto": "regla",
+"inicio": 76.429,
+"fin": 76.669,
+"score": 0.939
+},
+{
+"texto": "es",
+"inicio": 76.729,
+"fin": 76.81,
+"score": 0.675
+},
+{
+"texto": "cruel",
+"inicio": 76.89,
+"fin": 77.25,
+"score": 0.922
+},
+{
+"texto": "pero",
+"inicio": 77.33,
+"fin": 77.61,
+"score": 0.654
+},
+{
+"texto": "innegable.",
+"inicio": 77.65,
+"fin": 80.132,
+"score": 0.944
+},
+{
+"texto": "Atrás",
+"inicio": 82.473,
+"fin": 82.854,
+"score": 0.743
+},
+{
+"texto": "exactamente",
+"inicio": 83.114,
+"fin": 83.854,
+"score": 0.935
+},
+{
+"texto": "lo",
+"inicio": 83.914,
+"fin": 83.994,
+"score": 0.77
+},
+{
+"texto": "que",
+"inicio": 84.034,
+"fin": 84.134,
+"score": 0.835
+},
+{
+"texto": "proyectas.",
+"inicio": 84.194,
+"fin": 84.715,
+"score": 0.865
+},
+{
+"texto": "Como",
+"inicio": 89.018,
+"fin": 89.218,
+"score": 0.915
+},
+{
+"texto": "esa",
+"inicio": 89.318,
+"fin": 89.478,
+"score": 0.915
+},
+{
+"texto": "dentro,",
+"inicio": 89.518,
+"fin": 89.918,
+"score": 0.926
+},
+{
+"texto": "esa",
+"inicio": 90.819,
+"fin": 90.999,
+"score": 0.987
+},
+{
+"texto": "fuera.",
+"inicio": 91.079,
+"fin": 91.319,
+"score": 0.899
+},
+{
+"texto": "La",
+"inicio": 99.265,
+"fin": 99.345,
+"score": 0.98
+},
+{
+"texto": "forma",
+"inicio": 99.465,
+"fin": 99.725,
+"score": 0.951
+},
+{
+"texto": "en",
+"inicio": 99.785,
+"fin": 99.845,
+"score": 0.98
+},
+{
+"texto": "cómo",
+"inicio": 99.905,
+"fin": 100.085,
+"score": 0.958
+},
+{
+"texto": "representas",
+"inicio": 100.165,
+"fin": 100.746,
+"score": 0.897
+},
+{
+"texto": "al",
+"inicio": 100.806,
+"fin": 100.886,
+"score": 0.991
+},
+{
+"texto": "mundo",
+"inicio": 100.966,
+"fin": 101.206,
+"score": 0.947
+},
+{
+"texto": "La",
+"inicio": 102.954,
+"fin": 103.034,
+"score": 0.806
+},
+{
+"texto": "forma",
+"inicio": 103.074,
+"fin": 103.254,
+"score": 0.892
+},
+{
+"texto": "en",
+"inicio": 103.314,
+"fin": 103.375,
+"score": 0.566
+},
+{
+"texto": "la",
+"inicio": 103.395,
+"fin": 103.475,
+"score": 0.849
+},
+{
+"texto": "que",
+"inicio": 103.535,
+"fin": 103.615,
+"score": 0.959
+},
+{
+"texto": "repres...",
+"inicio": 103.695,
+"fin": 104.836,
+"score": 0.885
+},
+{
+"texto": "La",
+"inicio": 105.316,
+"fin": 105.396,
+"score": 0.926
+},
+{
+"texto": "forma",
+"inicio": 105.476,
+"fin": 105.696,
+"score": 0.946
+},
+{
+"texto": "en",
+"inicio": 105.716,
+"fin": 105.776,
+"score": 0.752
+},
+{
+"texto": "la",
+"inicio": 105.816,
+"fin": 105.897,
+"score": 0.703
+},
+{
+"texto": "que",
+"inicio": 105.957,
+"fin": 106.057,
+"score": 0.845
+},
+{
+"texto": "representas",
+"inicio": 106.117,
+"fin": 106.657,
+"score": 0.837
+},
+{
+"texto": "al",
+"inicio": 106.697,
+"fin": 106.777,
+"score": 0.899
+},
+{
+"texto": "mundo.",
+"inicio": 106.837,
+"fin": 107.198,
+"score": 0.766
+},
+{
+"texto": "Dicta",
+"inicio": 107.238,
+"fin": 107.498,
+"score": 0.829
+},
+{
+"texto": "cómo",
+"inicio": 107.738,
+"fin": 107.998,
+"score": 0.938
+},
+{
+"texto": "lo...",
+"inicio": 108.118,
+"fin": 108.739,
+"score": 0.448
+},
+{
+"texto": "¿Dicta",
+"inicio": 108.759,
+"fin": 109.019,
+"score": 0.776
+},
+{
+"texto": "qué?",
+"inicio": 109.059,
+"fin": 109.199,
+"score": 0.607
+},
+{
+"texto": "Dicta",
+"inicio": 117.006,
+"fin": 117.326,
+"score": 0.651
+},
+{
+"texto": "cuán...",
+"inicio": 117.566,
+"fin": 117.946,
+"score": 0.676
+},
+{
+"texto": "Dicta",
+"inicio": 118.667,
+"fin": 118.927,
+"score": 0.912
+},
+{
+"texto": "cómo",
+"inicio": 119.087,
+"fin": 119.287,
+"score": 0.943
+},
+{
+"texto": "te",
+"inicio": 119.328,
+"fin": 119.388,
+"score": 0.759
+},
+{
+"texto": "van",
+"inicio": 119.428,
+"fin": 119.528,
+"score": 0.735
+},
+{
+"texto": "a",
+"inicio": 119.568,
+"fin": 119.588,
+"score": 0.983
+},
+{
+"texto": "tratar",
+"inicio": 119.648,
+"fin": 119.928,
+"score": 0.833
+},
+{
+"texto": "y",
+"inicio": 119.948,
+"fin": 119.968,
+"score": 0.005
+},
+{
+"texto": "cómo",
+"inicio": 120.569,
+"fin": 120.769,
+"score": 0.968
+},
+{
+"texto": "te",
+"inicio": 120.829,
+"fin": 120.909,
+"score": 0.924
+},
+{
+"texto": "van",
+"inicio": 120.929,
+"fin": 121.029,
+"score": 0.584
+},
+{
+"texto": "a",
+"inicio": 121.069,
+"fin": 121.089,
+"score": 0.987
+},
+{
+"texto": "valorar.",
+"inicio": 121.129,
+"fin": 121.449,
+"score": 0.914
+},
+{
+"texto": "Sígueme...",
+"inicio": 127.394,
+"fin": 129.396,
+"score": 0.721
+},
+{
+"texto": "Sígueme",
+"inicio": 129.416,
+"fin": 129.796,
+"score": 0.925
+},
+{
+"texto": "para",
+"inicio": 130.216,
+"fin": 130.377,
+"score": 0.807
+},
+{
+"texto": "mejorar",
+"inicio": 130.417,
+"fin": 130.697,
+"score": 0.844
+},
+{
+"texto": "tu",
+"inicio": 130.737,
+"fin": 130.817,
+"score": 0.98
+},
+{
+"texto": "vida.",
+"inicio": 130.837,
+"fin": 131.017,
+"score": 0.731
+},
+{
+"texto": "Así",
+"inicio": 131.738,
+"fin": 131.898,
+"score": 0.789
+},
+{
+"texto": "es.",
+"inicio": 131.938,
+"fin": 132.038,
+"score": 0.59
+},
+{
+"texto": "Sí,",
+"inicio": 133.851,
+"fin": 133.951,
+"score": 0.374
+},
+{
+"texto": "¿no?",
+"inicio": 133.972,
+"fin": 134.213,
+"score": 0.429
+},
+{
+"texto": "Number",
+"inicio": 135.622,
+"fin": 135.904,
+"score": 0.559
+},
+{
+"texto": "one",
+"inicio": 135.945,
+"fin": 136.186,
+"score": 0.564
+},
+{
+"texto": "listo.",
+"inicio": 136.226,
+"fin": 136.508,
+"score": 0.909
+},
+{
+"texto": "A",
+"inicio": 137.032,
+"fin": 137.072,
+"score": 0.898
+},
+{
+"texto": "ver.",
+"inicio": 137.092,
+"fin": 137.233,
+"score": 0.704
+}
+]

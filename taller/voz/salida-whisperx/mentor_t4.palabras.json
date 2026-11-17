@@ -1,0 +1,56 @@
+[
+{
+"texto": "con",
+"inicio": 0.066,
+"fin": 0.207,
+"score": 0.17
+},
+{
+"texto": "un",
+"inicio": 0.227,
+"fin": 0.308,
+"score": 0.046
+},
+{
+"texto": "comentario",
+"inicio": 0.328,
+"fin": 0.65,
+"score": 0.456
+},
+{
+"texto": "que",
+"inicio": 0.691,
+"fin": 0.771,
+"score": 0.884
+},
+{
+"texto": "esté",
+"inicio": 0.792,
+"fin": 0.993,
+"score": 0.76
+},
+{
+"texto": "donde",
+"inicio": 1.033,
+"fin": 1.235,
+"score": 0.644
+},
+{
+"texto": "tú",
+"inicio": 1.275,
+"fin": 1.336,
+"score": 0.574
+},
+{
+"texto": "quieres",
+"inicio": 1.376,
+"fin": 1.578,
+"score": 0.282
+},
+{
+"texto": "estar.",
+"inicio": 1.618,
+"fin": 1.819,
+"score": 0.42
+}
+]

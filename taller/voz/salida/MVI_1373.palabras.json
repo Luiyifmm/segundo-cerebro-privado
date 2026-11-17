@@ -1,0 +1,652 @@
+[
+ {
+  "texto": "Me",
+  "inicio": 0.18,
+  "fin": 0.32
+ },
+ {
+  "texto": "ha",
+  "inicio": 0.32,
+  "fin": 0.48
+ },
+ {
+  "texto": "dado",
+  "inicio": 0.48,
+  "fin": 1.84
+ },
+ {
+  "texto": "...",
+  "inicio": 1.84,
+  "fin": 1.86
+ },
+ {
+  "texto": "Pues",
+  "inicio": 2.78,
+  "fin": 2.92
+ },
+ {
+  "texto": "está",
+  "inicio": 2.92,
+  "fin": 3.1
+ },
+ {
+  "texto": "grabando",
+  "inicio": 3.1,
+  "fin": 3.58
+ },
+ {
+  "texto": "yo",
+  "inicio": 3.58,
+  "fin": 4
+ },
+ {
+  "texto": "...",
+  "inicio": 4.82,
+  "fin": 4.82
+ },
+ {
+  "texto": "Vale",
+  "inicio": 5.4,
+  "fin": 6
+ },
+ {
+  "texto": "...",
+  "inicio": 6.52,
+  "fin": 6.54
+ },
+ {
+  "texto": "Y",
+  "inicio": 7.16,
+  "fin": 7.36
+ },
+ {
+  "texto": "ya",
+  "inicio": 7.36,
+  "fin": 7.76
+ },
+ {
+  "texto": "...",
+  "inicio": 7.76,
+  "fin": 7.78
+ },
+ {
+  "texto": "Bueno",
+  "inicio": 8.1,
+  "fin": 8.42
+ },
+ {
+  "texto": "familia",
+  "inicio": 8.42,
+  "fin": 8.74
+ },
+ {
+  "texto": "pues",
+  "inicio": 8.74,
+  "fin": 9.16
+ },
+ {
+  "texto": "la",
+  "inicio": 9.16,
+  "fin": 9.32
+ },
+ {
+  "texto": "verdad",
+  "inicio": 9.32,
+  "fin": 9.48
+ },
+ {
+  "texto": "que",
+  "inicio": 9.48,
+  "fin": 9.58
+ },
+ {
+  "texto": "ha",
+  "inicio": 9.58,
+  "fin": 9.7
+ },
+ {
+  "texto": "estado",
+  "inicio": 9.7,
+  "fin": 10.1
+ },
+ {
+  "texto": "bastante",
+  "inicio": 10.1,
+  "fin": 10.78
+ },
+ {
+  "texto": "guapo",
+  "inicio": 10.78,
+  "fin": 11.1
+ },
+ {
+  "texto": "para",
+  "inicio": 11.1,
+  "fin": 11.26
+ },
+ {
+  "texto": "ser",
+  "inicio": 11.26,
+  "fin": 11.38
+ },
+ {
+  "texto": "el",
+  "inicio": 11.38,
+  "fin": 11.6
+ },
+ {
+  "texto": "primer",
+  "inicio": 11.6,
+  "fin": 11.94
+ },
+ {
+  "texto": "vídeo",
+  "inicio": 11.94,
+  "fin": 12
+ },
+ {
+  "texto": "Hemos",
+  "inicio": 12.64,
+  "fin": 13.14
+ },
+ {
+  "texto": "entrevistado",
+  "inicio": 13.14,
+  "fin": 13.88
+ },
+ {
+  "texto": "a",
+  "inicio": 13.88,
+  "fin": 14.18
+ },
+ {
+  "texto": "directores",
+  "inicio": 14.18,
+  "fin": 14.8
+ },
+ {
+  "texto": "comerciales",
+  "inicio": 14.8,
+  "fin": 15.06
+ },
+ {
+  "texto": "que",
+  "inicio": 15.06,
+  "fin": 15.2
+ },
+ {
+  "texto": "llevaban",
+  "inicio": 15.2,
+  "fin": 15.52
+ },
+ {
+  "texto": "equipo",
+  "inicio": 15.52,
+  "fin": 15.68
+ },
+ {
+  "texto": "de",
+  "inicio": 15.68,
+  "fin": 15.82
+ },
+ {
+  "texto": "más",
+  "inicio": 15.82,
+  "fin": 15.92
+ },
+ {
+  "texto": "de",
+  "inicio": 15.92,
+  "fin": 16.2
+ },
+ {
+  "texto": "50",
+  "inicio": 16.2,
+  "fin": 16.66
+ },
+ {
+  "texto": "personas",
+  "inicio": 16.66,
+  "fin": 17
+ },
+ {
+  "texto": "Gente",
+  "inicio": 17.28,
+  "fin": 17.46
+ },
+ {
+  "texto": "que",
+  "inicio": 17.46,
+  "fin": 17.74
+ },
+ {
+  "texto": "estoy",
+  "inicio": 17.74,
+  "fin": 18.1
+ },
+ {
+  "texto": "convencido",
+  "inicio": 18.1,
+  "fin": 18.56
+ },
+ {
+  "texto": "que",
+  "inicio": 18.56,
+  "fin": 18.78
+ },
+ {
+  "texto": "tienen",
+  "inicio": 18.78,
+  "fin": 19.3
+ },
+ {
+  "texto": "mucho",
+  "inicio": 19.3,
+  "fin": 19.62
+ },
+ {
+  "texto": "éxito",
+  "inicio": 19.62,
+  "fin": 19.92
+ },
+ {
+  "texto": "en",
+  "inicio": 19.92,
+  "fin": 20.02
+ },
+ {
+  "texto": "el",
+  "inicio": 20.02,
+  "fin": 20.3
+ },
+ {
+  "texto": "sector",
+  "inicio": 20.3,
+  "fin": 20.8
+ },
+ {
+  "texto": "hotelero",
+  "inicio": 20.8,
+  "fin": 21
+ },
+ {
+  "texto": "Vamos,",
+  "inicio": 21.4,
+  "fin": 21.56
+ },
+ {
+  "texto": "lo",
+  "inicio": 21.68,
+  "fin": 21.84
+ },
+ {
+  "texto": "tengo",
+  "inicio": 21.84,
+  "fin": 22.12
+ },
+ {
+  "texto": "clarísimo",
+  "inicio": 22.12,
+  "fin": 22.86
+ },
+ {
+  "texto": "Incluso",
+  "inicio": 23.08,
+  "fin": 23.44
+ },
+ {
+  "texto": "mucha",
+  "inicio": 23.44,
+  "fin": 23.7
+ },
+ {
+  "texto": "gente",
+  "inicio": 23.7,
+  "fin": 23.86
+ },
+ {
+  "texto": "que",
+  "inicio": 23.86,
+  "fin": 23.92
+ },
+ {
+  "texto": "ha",
+  "inicio": 23.92,
+  "fin": 24.08
+ },
+ {
+  "texto": "dicho",
+  "inicio": 24.08,
+  "fin": 24.24
+ },
+ {
+  "texto": "que",
+  "inicio": 24.24,
+  "fin": 24.36
+ },
+ {
+  "texto": "no",
+  "inicio": 24.36,
+  "fin": 24.46
+ },
+ {
+  "texto": "es",
+  "inicio": 24.46,
+  "fin": 24.54
+ },
+ {
+  "texto": "rica",
+  "inicio": 24.54,
+  "fin": 24.84
+ },
+ {
+  "texto": "Pero",
+  "inicio": 24.86,
+  "fin": 25.06
+ },
+ {
+  "texto": "porque",
+  "inicio": 25.06,
+  "fin": 25.12
+ },
+ {
+  "texto": "en",
+  "inicio": 25.12,
+  "fin": 25.34
+ },
+ {
+  "texto": "en",
+  "inicio": 25.12,
+  "fin": 25.34
+ },
+ {
+  "texto": "España",
+  "inicio": 25.34,
+  "fin": 25.56
+ },
+ {
+  "texto": "por",
+  "inicio": 25.56,
+  "fin": 25.64
+ },
+ {
+  "texto": "qué",
+  "inicio": 25.64,
+  "fin": 25.8
+ },
+ {
+  "texto": "gracia",
+  "inicio": 25.8,
+  "fin": 26.04
+ },
+ {
+  "texto": "está",
+  "inicio": 26.04,
+  "fin": 26.28
+ },
+ {
+  "texto": "mal",
+  "inicio": 26.28,
+  "fin": 26.52
+ },
+ {
+  "texto": "visto",
+  "inicio": 26.52,
+  "fin": 26.78
+ },
+ {
+  "texto": "ser",
+  "inicio": 26.78,
+  "fin": 27
+ },
+ {
+  "texto": "rico,",
+  "inicio": 27,
+  "fin": 27.3
+ },
+ {
+  "texto": "pero",
+  "inicio": 27.52,
+  "fin": 27.64
+ },
+ {
+  "texto": "os",
+  "inicio": 27.64,
+  "fin": 27.7
+ },
+ {
+  "texto": "puedo",
+  "inicio": 27.7,
+  "fin": 27.88
+ },
+ {
+  "texto": "asegurar",
+  "inicio": 27.88,
+  "fin": 28
+ },
+ {
+  "texto": "que",
+  "inicio": 28.12,
+  "fin": 28.24
+ },
+ {
+  "texto": "era",
+  "inicio": 28.24,
+  "fin": 28.56
+ },
+ {
+  "texto": "muy",
+  "inicio": 28.56,
+  "fin": 28.8
+ },
+ {
+  "texto": "muy",
+  "inicio": 28.8,
+  "fin": 28.96
+ },
+ {
+  "texto": "pero",
+  "inicio": 28.96,
+  "fin": 29.08
+ },
+ {
+  "texto": "que",
+  "inicio": 29.08,
+  "fin": 29.24
+ },
+ {
+  "texto": "muy",
+  "inicio": 29.24,
+  "fin": 29.4
+ },
+ {
+  "texto": "ricos.",
+  "inicio": 29.4,
+  "fin": 30
+ },
+ {
+  "texto": "Así",
+  "inicio": 30.18,
+  "fin": 30.3
+ },
+ {
+  "texto": "que",
+  "inicio": 30.3,
+  "fin": 30.44
+ },
+ {
+  "texto": "nada,",
+  "inicio": 30.44,
+  "fin": 30.62
+ },
+ {
+  "texto": "en",
+  "inicio": 30.68,
+  "fin": 30.8
+ },
+ {
+  "texto": "el",
+  "inicio": 30.8,
+  "fin": 31.02
+ },
+ {
+  "texto": "siguiente",
+  "inicio": 31.02,
+  "fin": 31.28
+ },
+ {
+  "texto": "que",
+  "inicio": 31.28,
+  "fin": 31.4
+ },
+ {
+  "texto": "sepáis",
+  "inicio": 31.4,
+  "fin": 31.68
+ },
+ {
+  "texto": "que",
+  "inicio": 31.68,
+  "fin": 31.78
+ },
+ {
+  "texto": "voy",
+  "inicio": 31.78,
+  "fin": 31.9
+ },
+ {
+  "texto": "a",
+  "inicio": 31.9,
+  "fin": 32
+ },
+ {
+  "texto": "ir",
+  "inicio": 32,
+  "fin": 32.06
+ },
+ {
+  "texto": "a",
+  "inicio": 32.06,
+  "fin": 32.22
+ },
+ {
+  "texto": "por",
+  "inicio": 32.22,
+  "fin": 32.58
+ },
+ {
+  "texto": "muchísimo",
+  "inicio": 32.58,
+  "fin": 32.96
+ },
+ {
+  "texto": "más,",
+  "inicio": 32.96,
+  "fin": 33.28
+ },
+ {
+  "texto": "así",
+  "inicio": 33.42,
+  "fin": 33.58
+ },
+ {
+  "texto": "que",
+  "inicio": 33.58,
+  "fin": 33.68
+ },
+ {
+  "texto": "no",
+  "inicio": 33.72,
+  "fin": 33.76
+ },
+ {
+  "texto": "lo",
+  "inicio": 33.84,
+  "fin": 34
+ },
+ {
+  "texto": "perdáis,",
+  "inicio": 34,
+  "fin": 34.26
+ },
+ {
+  "texto": "suscribiros",
+  "inicio": 34.34,
+  "fin": 34.66
+ },
+ {
+  "texto": "al",
+  "inicio": 34.66,
+  "fin": 34.86
+ },
+ {
+  "texto": "canal",
+  "inicio": 34.86,
+  "fin": 35.44
+ },
+ {
+  "texto": "y",
+  "inicio": 35.44,
+  "fin": 35.5
+ },
+ {
+  "texto": "nos",
+  "inicio": 35.5,
+  "fin": 35.64
+ },
+ {
+  "texto": "vemos",
+  "inicio": 35.64,
+  "fin": 35.86
+ },
+ {
+  "texto": "en",
+  "inicio": 35.86,
+  "fin": 35.92
+ },
+ {
+  "texto": "el",
+  "inicio": 35.92,
+  "fin": 36.12
+ },
+ {
+  "texto": "siguiente,",
+  "inicio": 36.12,
+  "fin": 36.36
+ },
+ {
+  "texto": "a",
+  "inicio": 36.38,
+  "fin": 36.44
+ },
+ {
+  "texto": "ver",
+  "inicio": 36.44,
+  "fin": 36.56
+ },
+ {
+  "texto": "qué",
+  "inicio": 36.56,
+  "fin": 36.7
+ },
+ {
+  "texto": "locura",
+  "inicio": 36.7,
+  "fin": 36.92
+ },
+ {
+  "texto": "se",
+  "inicio": 36.92,
+  "fin": 37
+ },
+ {
+  "texto": "me",
+  "inicio": 37,
+  "fin": 37.16
+ },
+ {
+  "texto": "ocurre.",
+  "inicio": 37.16,
+  "fin": 37.28
+ }
+]

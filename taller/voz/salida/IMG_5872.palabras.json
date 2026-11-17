@@ -1,0 +1,172 @@
+[
+ {
+  "texto": "Tienes",
+  "inicio": 1.68,
+  "fin": 1.88
+ },
+ {
+  "texto": "que",
+  "inicio": 1.88,
+  "fin": 2.06
+ },
+ {
+  "texto": "practicar",
+  "inicio": 2.06,
+  "fin": 2.42
+ },
+ {
+  "texto": "la",
+  "inicio": 2.42,
+  "fin": 2.56
+ },
+ {
+  "texto": "habilidad",
+  "inicio": 2.56,
+  "fin": 2.86
+ },
+ {
+  "texto": "de",
+  "inicio": 2.86,
+  "fin": 3
+ },
+ {
+  "texto": "decepcionar",
+  "inicio": 3,
+  "fin": 3.36
+ },
+ {
+  "texto": "a",
+  "inicio": 3.36,
+  "fin": 3.46
+ },
+ {
+  "texto": "las",
+  "inicio": 3.46,
+  "fin": 3.72
+ },
+ {
+  "texto": "personas.",
+  "inicio": 3.72,
+  "fin": 8.46
+ },
+ {
+  "texto": "Si",
+  "inicio": 28.92,
+  "fin": 29.02
+ },
+ {
+  "texto": "tú",
+  "inicio": 29.02,
+  "fin": 29.18
+ },
+ {
+  "texto": "eres",
+  "inicio": 29.18,
+  "fin": 29.42
+ },
+ {
+  "texto": "alguien",
+  "inicio": 29.42,
+  "fin": 29.96
+ },
+ {
+  "texto": "...",
+  "inicio": 29.96,
+  "fin": 29.98
+ },
+ {
+  "texto": "Si",
+  "inicio": 28.94,
+  "fin": 29.04
+ },
+ {
+  "texto": "tú",
+  "inicio": 29.04,
+  "fin": 29.16
+ },
+ {
+  "texto": "eres",
+  "inicio": 29.16,
+  "fin": 29.42
+ },
+ {
+  "texto": "alguien",
+  "inicio": 29.42,
+  "fin": 33.1
+ },
+ {
+  "texto": "bueno,",
+  "inicio": 33.1,
+  "fin": 33.56
+ },
+ {
+  "texto": "siempre",
+  "inicio": 33.72,
+  "fin": 33.9
+ },
+ {
+  "texto": "está",
+  "inicio": 33.9,
+  "fin": 34.14
+ },
+ {
+  "texto": "intentando",
+  "inicio": 34.14,
+  "fin": 34.6
+ },
+ {
+  "texto": "complacer",
+  "inicio": 34.6,
+  "fin": 34.88
+ },
+ {
+  "texto": "a",
+  "inicio": 34.88,
+  "fin": 34.98
+ },
+ {
+  "texto": "los",
+  "inicio": 34.98,
+  "fin": 35.2
+ },
+ {
+  "texto": "demás.",
+  "inicio": 35.2,
+  "fin": 36
+ },
+ {
+  "texto": "Eso",
+  "inicio": 40.36,
+  "fin": 40.52
+ },
+ {
+  "texto": "no",
+  "inicio": 40.52,
+  "fin": 40.68
+ },
+ {
+  "texto": "te",
+  "inicio": 40.68,
+  "fin": 40.8
+ },
+ {
+  "texto": "va",
+  "inicio": 40.8,
+  "fin": 40.88
+ },
+ {
+  "texto": "a",
+  "inicio": 40.88,
+  "fin": 41.04
+ },
+ {
+  "texto": "llevar",
+  "inicio": 41.04,
+  "fin": 41.22
+ },
+ {
+  "texto": "lejos.",
+  "inicio": 41.22,
+  "fin": 41.6
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "texto": "Número",
+  "inicio": 0.62,
+  "fin": 0.96
+ },
+ {
+  "texto": "9,",
+  "inicio": 0.96,
+  "fin": 1.18
+ },
+ {
+  "texto": "cuantas",
+  "inicio": 1.24,
+  "fin": 1.68
+ },
+ {
+  "texto": "más",
+  "inicio": 1.68,
+  "fin": 1.98
+ },
+ {
+  "texto": "veces",
+  "inicio": 1.98,
+  "fin": 2.2
+ },
+ {
+  "texto": "digas,",
+  "inicio": 2.2,
+  "fin": 2.48
+ },
+ {
+  "texto": "empezaré",
+  "inicio": 2.76,
+  "fin": 3.18
+ },
+ {
+  "texto": "mañana",
+  "inicio": 3.18,
+  "fin": 3.74
+ },
+ {
+  "texto": "mucho",
+  "inicio": 3.74,
+  "fin": 3.98
+ },
+ {
+  "texto": "mejor.",
+  "inicio": 3.98,
+  "fin": 4.2
+ },
+ {
+  "texto": "Y",
+  "inicio": 4.74,
+  "fin": 4.94
+ },
+ {
+  "texto": "número",
+  "inicio": 4.94,
+  "fin": 5.3
+ },
+ {
+  "texto": "10,",
+  "inicio": 5.3,
+  "fin": 5.6
+ },
+ {
+  "texto": "ni",
+  "inicio": 5.7,
+  "fin": 5.9
+ },
+ {
+  "texto": "si",
+  "inicio": 5.9,
+  "fin": 6
+ },
+ {
+  "texto": "te",
+  "inicio": 6,
+  "fin": 6.26
+ },
+ {
+  "texto": "ocurra",
+  "inicio": 6.26,
+  "fin": 6.82
+ },
+ {
+  "texto": "seguir",
+  "inicio": 6.82,
+  "fin": 7.24
+ },
+ {
+  "texto": "a",
+  "inicio": 7.24,
+  "fin": 7.38
+ },
+ {
+  "texto": "Eric",
+  "inicio": 7.38,
+  "fin": 7.6
+ },
+ {
+  "texto": "Mentor",
+  "inicio": 7.6,
+  "fin": 7.92
+ },
+ {
+  "texto": "Fitness.",
+  "inicio": 7.92,
+  "fin": 8.2
+ }
+]

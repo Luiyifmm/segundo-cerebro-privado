@@ -1,0 +1,132 @@
+[
+ {
+  "texto": "¿Cuándo",
+  "inicio": 0.4,
+  "fin": 0.64
+ },
+ {
+  "texto": "es?",
+  "inicio": 0.64,
+  "fin": 0.96
+ },
+ {
+  "texto": "Y",
+  "inicio": 2.34,
+  "fin": 2.56
+ },
+ {
+  "texto": "cuando",
+  "inicio": 2.56,
+  "fin": 2.84
+ },
+ {
+  "texto": "quieres",
+  "inicio": 2.84,
+  "fin": 3.12
+ },
+ {
+  "texto": "perder",
+  "inicio": 3.12,
+  "fin": 3.46
+ },
+ {
+  "texto": "grasa,",
+  "inicio": 3.46,
+  "fin": 4.02
+ },
+ {
+  "texto": "el",
+  "inicio": 4.26,
+  "fin": 4.6
+ },
+ {
+  "texto": "músculo",
+  "inicio": 4.6,
+  "fin": 5.2
+ },
+ {
+  "texto": "es",
+  "inicio": 5.2,
+  "fin": 5.28
+ },
+ {
+  "texto": "tu",
+  "inicio": 5.28,
+  "fin": 5.56
+ },
+ {
+  "texto": "mejor",
+  "inicio": 5.56,
+  "fin": 5.8
+ },
+ {
+  "texto": "aliado.",
+  "inicio": 5.8,
+  "fin": 6
+ },
+ {
+  "texto": "¿Cuándo",
+  "inicio": 6.8,
+  "fin": 7
+ },
+ {
+  "texto": "es?",
+  "inicio": 7.04,
+  "fin": 7.3
+ },
+ {
+  "texto": "Y",
+  "inicio": 8.26,
+  "fin": 8.5
+ },
+ {
+  "texto": "cuando",
+  "inicio": 8.5,
+  "fin": 8.82
+ },
+ {
+  "texto": "quieres",
+  "inicio": 8.82,
+  "fin": 9.12
+ },
+ {
+  "texto": "perder",
+  "inicio": 9.12,
+  "fin": 9.42
+ },
+ {
+  "texto": "grasa,",
+  "inicio": 9.42,
+  "fin": 10.02
+ },
+ {
+  "texto": "el",
+  "inicio": 10.1,
+  "fin": 10.36
+ },
+ {
+  "texto": "músculo",
+  "inicio": 10.36,
+  "fin": 10.7
+ },
+ {
+  "texto": "es",
+  "inicio": 10.7,
+  "fin": 10.76
+ },
+ {
+  "texto": "tu",
+  "inicio": 10.76,
+  "fin": 11
+ },
+ {
+  "texto": "mejor",
+  "inicio": 11.02,
+  "fin": 11.24
+ },
+ {
+  "texto": "aliado.",
+  "inicio": 11.24,
+  "fin": 19.28
+ }
+]

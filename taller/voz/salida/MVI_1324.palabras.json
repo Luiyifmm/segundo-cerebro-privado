@@ -1,0 +1,27 @@
+[
+ {
+  "texto": "Seguimos",
+  "inicio": 1.66,
+  "fin": 2
+ },
+ {
+  "texto": "por",
+  "inicio": 2.1,
+  "fin": 2.26
+ },
+ {
+  "texto": "la",
+  "inicio": 2.26,
+  "fin": 2.38
+ },
+ {
+  "texto": "siguiente",
+  "inicio": 2.38,
+  "fin": 2.66
+ },
+ {
+  "texto": "entrevista.",
+  "inicio": 2.66,
+  "fin": 3.46
+ }
+]

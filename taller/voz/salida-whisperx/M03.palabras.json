@@ -1,0 +1,44 @@
+[
+{
+"texto": "Arriba",
+"inicio": 0.114,
+"fin": 0.415,
+"score": 0.837
+},
+{
+"texto": "esas",
+"inicio": 0.475,
+"fin": 0.716,
+"score": 0.812
+},
+{
+"texto": "manos,",
+"inicio": 0.776,
+"fin": 1.077,
+"score": 0.875
+},
+{
+"texto": "que",
+"inicio": 1.178,
+"fin": 1.298,
+"score": 0.867
+},
+{
+"texto": "esto",
+"inicio": 1.378,
+"fin": 1.619,
+"score": 0.936
+},
+{
+"texto": "no",
+"inicio": 1.76,
+"fin": 1.86,
+"score": 0.862
+},
+{
+"texto": "para.",
+"inicio": 1.98,
+"fin": 2.221,
+"score": 0.9
+}
+]

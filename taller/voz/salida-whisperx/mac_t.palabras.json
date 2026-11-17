@@ -1,0 +1,500 @@
+[
+{
+"texto": "que",
+"inicio": 0.182,
+"fin": 0.322,
+"score": 0.153
+},
+{
+"texto": "tu",
+"inicio": 0.342,
+"fin": 0.422,
+"score": 0.248
+},
+{
+"texto": "cuerpo",
+"inicio": 0.442,
+"fin": 0.622,
+"score": 0.277
+},
+{
+"texto": "es",
+"inicio": 0.662,
+"fin": 0.722,
+"score": 0.228
+},
+{
+"texto": "pa'",
+"inicio": 0.742,
+"fin": 0.822,
+"score": 0.363
+},
+{
+"texto": "dar",
+"inicio": 0.842,
+"fin": 0.962,
+"score": 0.448
+},
+{
+"texto": "la",
+"inicio": 1.002,
+"fin": 1.062,
+"score": 0.742
+},
+{
+"texto": "alegría",
+"inicio": 1.083,
+"fin": 1.423,
+"score": 0.501
+},
+{
+"texto": "y",
+"inicio": 1.463,
+"fin": 1.523,
+"score": 0.407
+},
+{
+"texto": "cosas",
+"inicio": 1.543,
+"fin": 1.803,
+"score": 0.626
+},
+{
+"texto": "buenas,",
+"inicio": 1.843,
+"fin": 2.403,
+"score": 0.705
+},
+{
+"texto": "dale",
+"inicio": 2.423,
+"fin": 2.603,
+"score": 0.482
+},
+{
+"texto": "a",
+"inicio": 2.803,
+"fin": 2.823,
+"score": 0.949
+},
+{
+"texto": "tu",
+"inicio": 2.863,
+"fin": 2.964,
+"score": 0.914
+},
+{
+"texto": "cuerpo",
+"inicio": 2.984,
+"fin": 3.264,
+"score": 0.382
+},
+{
+"texto": "alegría",
+"inicio": 3.364,
+"fin": 3.844,
+"score": 0.643
+},
+{
+"texto": "Macarena,",
+"inicio": 3.884,
+"fin": 4.384,
+"score": 0.807
+},
+{
+"texto": "eh",
+"inicio": 4.664,
+"fin": 5.465,
+"score": 0.752
+},
+{
+"texto": "Macarena.",
+"inicio": 5.505,
+"fin": 6.165,
+"score": 0.664
+},
+{
+"texto": "Dale",
+"inicio": 6.806,
+"fin": 7.386,
+"score": 0.535
+},
+{
+"texto": "a",
+"inicio": 7.446,
+"fin": 7.486,
+"score": 0.819
+},
+{
+"texto": "tu",
+"inicio": 7.526,
+"fin": 7.606,
+"score": 0.748
+},
+{
+"texto": "cuerpo",
+"inicio": 7.686,
+"fin": 7.886,
+"score": 0.469
+},
+{
+"texto": "alegría",
+"inicio": 8.026,
+"fin": 8.487,
+"score": 0.721
+},
+{
+"texto": "Macarena,",
+"inicio": 8.567,
+"fin": 9.067,
+"score": 0.792
+},
+{
+"texto": "que",
+"inicio": 9.127,
+"fin": 9.227,
+"score": 0.341
+},
+{
+"texto": "tu",
+"inicio": 9.247,
+"fin": 9.327,
+"score": 0.46
+},
+{
+"texto": "cuerpo",
+"inicio": 9.427,
+"fin": 9.807,
+"score": 0.575
+},
+{
+"texto": "es",
+"inicio": 9.887,
+"fin": 9.987,
+"score": 0.418
+},
+{
+"texto": "pa'",
+"inicio": 10.007,
+"fin": 10.127,
+"score": 0.412
+},
+{
+"texto": "darle",
+"inicio": 10.147,
+"fin": 10.368,
+"score": 0.445
+},
+{
+"texto": "alegría",
+"inicio": 10.388,
+"fin": 10.788,
+"score": 0.528
+},
+{
+"texto": "y",
+"inicio": 10.808,
+"fin": 10.828,
+"score": 0.096
+},
+{
+"texto": "cosas",
+"inicio": 10.848,
+"fin": 11.108,
+"score": 0.599
+},
+{
+"texto": "buenas,",
+"inicio": 11.168,
+"fin": 11.708,
+"score": 0.613
+},
+{
+"texto": "dale",
+"inicio": 11.728,
+"fin": 11.928,
+"score": 0.464
+},
+{
+"texto": "a",
+"inicio": 12.108,
+"fin": 12.129,
+"score": 0.948
+},
+{
+"texto": "tu",
+"inicio": 12.169,
+"fin": 12.269,
+"score": 0.914
+},
+{
+"texto": "cuerpo",
+"inicio": 12.289,
+"fin": 12.569,
+"score": 0.481
+},
+{
+"texto": "alegría",
+"inicio": 12.669,
+"fin": 13.169,
+"score": 0.609
+},
+{
+"texto": "Macarena,",
+"inicio": 13.189,
+"fin": 13.709,
+"score": 0.731
+},
+{
+"texto": "eh",
+"inicio": 13.97,
+"fin": 14.77,
+"score": 0.734
+},
+{
+"texto": "Macarena.",
+"inicio": 14.81,
+"fin": 15.47,
+"score": 0.666
+},
+{
+"texto": "Macarena",
+"inicio": 16.111,
+"fin": 16.571,
+"score": 0.696
+},
+{
+"texto": "tiene",
+"inicio": 16.631,
+"fin": 16.811,
+"score": 0.293
+},
+{
+"texto": "un",
+"inicio": 16.871,
+"fin": 16.911,
+"score": 0.84
+},
+{
+"texto": "novio",
+"inicio": 16.931,
+"fin": 17.171,
+"score": 0.489
+},
+{
+"texto": "que",
+"inicio": 17.231,
+"fin": 17.311,
+"score": 0.83
+},
+{
+"texto": "se",
+"inicio": 17.371,
+"fin": 17.451,
+"score": 0.873
+},
+{
+"texto": "llama,",
+"inicio": 17.511,
+"fin": 18.092,
+"score": 0.879
+},
+{
+"texto": "que",
+"inicio": 18.432,
+"fin": 18.512,
+"score": 0.262
+},
+{
+"texto": "se",
+"inicio": 18.552,
+"fin": 18.632,
+"score": 0.758
+},
+{
+"texto": "llama",
+"inicio": 18.672,
+"fin": 18.892,
+"score": 0.898
+},
+{
+"texto": "de",
+"inicio": 18.932,
+"fin": 18.992,
+"score": 0.922
+},
+{
+"texto": "apellido",
+"inicio": 19.052,
+"fin": 19.472,
+"score": 0.63
+},
+{
+"texto": "Vitorino,",
+"inicio": 19.553,
+"fin": 20.393,
+"score": 0.577
+},
+{
+"texto": "y",
+"inicio": 20.413,
+"fin": 20.433,
+"score": 0.012
+},
+{
+"texto": "en",
+"inicio": 20.813,
+"fin": 20.873,
+"score": 0.694
+},
+{
+"texto": "la",
+"inicio": 20.913,
+"fin": 20.993,
+"score": 0.775
+},
+{
+"texto": "jura",
+"inicio": 21.053,
+"fin": 21.253,
+"score": 0.802
+},
+{
+"texto": "de",
+"inicio": 21.293,
+"fin": 21.374,
+"score": 0.92
+},
+{
+"texto": "bandera",
+"inicio": 21.454,
+"fin": 21.814,
+"score": 0.754
+},
+{
+"texto": "del",
+"inicio": 21.894,
+"fin": 21.994,
+"score": 0.579
+},
+{
+"texto": "muchacho,",
+"inicio": 22.014,
+"fin": 22.734,
+"score": 0.601
+},
+{
+"texto": "se",
+"inicio": 22.974,
+"fin": 23.195,
+"score": 0.723
+},
+{
+"texto": "la",
+"inicio": 23.315,
+"fin": 23.635,
+"score": 0.626
+},
+{
+"texto": "dio",
+"inicio": 23.795,
+"fin": 24.035,
+"score": 0.528
+},
+{
+"texto": "con",
+"inicio": 24.095,
+"fin": 24.215,
+"score": 0.452
+},
+{
+"texto": "dos",
+"inicio": 24.235,
+"fin": 24.355,
+"score": 0.564
+},
+{
+"texto": "abigos.",
+"inicio": 24.435,
+"fin": 25.376,
+"score": 0.685
+},
+{
+"texto": "Macarena",
+"inicio": 25.436,
+"fin": 25.916,
+"score": 0.785
+},
+{
+"texto": "tiene",
+"inicio": 25.976,
+"fin": 26.136,
+"score": 0.305
+},
+{
+"texto": "un",
+"inicio": 26.176,
+"fin": 26.236,
+"score": 0.576
+},
+{
+"texto": "novio",
+"inicio": 26.256,
+"fin": 26.516,
+"score": 0.417
+},
+{
+"texto": "que",
+"inicio": 26.556,
+"fin": 26.656,
+"score": 0.476
+},
+{
+"texto": "se",
+"inicio": 26.736,
+"fin": 26.816,
+"score": 0.614
+},
+{
+"texto": "llama,",
+"inicio": 26.857,
+"fin": 27.217,
+"score": 0.742
+},
+{
+"texto": "que",
+"inicio": 27.737,
+"fin": 27.837,
+"score": 0.501
+},
+{
+"texto": "se",
+"inicio": 27.877,
+"fin": 27.977,
+"score": 0.696
+},
+{
+"texto": "llama",
+"inicio": 28.017,
+"fin": 28.257,
+"score": 0.794
+},
+{
+"texto": "de",
+"inicio": 28.277,
+"fin": 28.417,
+"score": 0.644
+},
+{
+"texto": "apellido",
+"inicio": 28.437,
+"fin": 28.798,
+"score": 0.511
+},
+{
+"texto": "Vitorino,",
+"inicio": 28.858,
+"fin": 29.498,
+"score": 0.592
+}
+]

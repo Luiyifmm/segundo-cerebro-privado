@@ -1,0 +1,92 @@
+[
+{
+"texto": "Negrita",
+"inicio": 6.034,
+"fin": 6.895,
+"score": 0.661
+},
+{
+"texto": "ven,",
+"inicio": 6.935,
+"fin": 7.276,
+"score": 0.568
+},
+{
+"texto": "que",
+"inicio": 8.718,
+"fin": 9.058,
+"score": 0.786
+},
+{
+"texto": "va",
+"inicio": 9.118,
+"fin": 9.279,
+"score": 0.367
+},
+{
+"texto": "a",
+"inicio": 9.299,
+"fin": 9.319,
+"score": 0.153
+},
+{
+"texto": "empezar",
+"inicio": 9.379,
+"fin": 9.98,
+"score": 0.842
+},
+{
+"texto": "el",
+"inicio": 10.0,
+"fin": 10.04,
+"score": 0.008
+},
+{
+"texto": "mapale",
+"inicio": 10.38,
+"fin": 12.463,
+"score": 0.872
+},
+{
+"texto": "Voy",
+"inicio": 13.044,
+"fin": 15.327,
+"score": 0.692
+},
+{
+"texto": "mulato,",
+"inicio": 15.347,
+"fin": 16.168,
+"score": 0.845
+},
+{
+"texto": "voy",
+"inicio": 16.188,
+"fin": 17.31,
+"score": 0.552
+},
+{
+"texto": "a",
+"inicio": 17.55,
+"fin": 17.67,
+"score": 0.852
+},
+{
+"texto": "gozar",
+"inicio": 17.75,
+"fin": 18.291,
+"score": 0.767
+},
+{
+"texto": "el",
+"inicio": 18.391,
+"fin": 18.632,
+"score": 0.73
+},
+{
+"texto": "mapale",
+"inicio": 18.712,
+"fin": 20.054,
+"score": 0.888
+}
+]

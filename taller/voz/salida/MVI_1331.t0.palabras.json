@@ -1,0 +1,152 @@
+[
+ {
+  "texto": "¡Buenas!",
+  "inicio": 3.38,
+  "fin": 5
+ },
+ {
+  "texto": "Perdona",
+  "inicio": 5.6,
+  "fin": 5.9
+ },
+ {
+  "texto": "chicos,",
+  "inicio": 5.9,
+  "fin": 6.14
+ },
+ {
+  "texto": "estoy",
+  "inicio": 6.62,
+  "fin": 7.08
+ },
+ {
+  "texto": "ayudando",
+  "inicio": 7.08,
+  "fin": 7.5
+ },
+ {
+  "texto": "a",
+  "inicio": 7.5,
+  "fin": 7.54
+ },
+ {
+  "texto": "la",
+  "inicio": 7.54,
+  "fin": 7.72
+ },
+ {
+  "texto": "gente",
+  "inicio": 7.72,
+  "fin": 7.94
+ },
+ {
+  "texto": "joven",
+  "inicio": 7.94,
+  "fin": 8
+ },
+ {
+  "texto": "y",
+  "inicio": 8.18,
+  "fin": 8.36
+ },
+ {
+  "texto": "entrevistando",
+  "inicio": 8.36,
+  "fin": 8.84
+ },
+ {
+  "texto": "a",
+  "inicio": 8.84,
+  "fin": 8.92
+ },
+ {
+  "texto": "las",
+  "inicio": 8.92,
+  "fin": 9.16
+ },
+ {
+  "texto": "personas",
+  "inicio": 9.16,
+  "fin": 9.34
+ },
+ {
+  "texto": "de",
+  "inicio": 9.34,
+  "fin": 9.38
+ },
+ {
+  "texto": "Andorra",
+  "inicio": 9.38,
+  "fin": 9.9
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 10.1,
+  "fin": 10.66
+ },
+ {
+  "texto": "cómo",
+  "inicio": 10.66,
+  "fin": 10.78
+ },
+ {
+  "texto": "se",
+  "inicio": 10.78,
+  "fin": 10.92
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 10.92,
+  "fin": 11.16
+ },
+ {
+  "texto": "ricos",
+  "inicio": 11.16,
+  "fin": 12
+ },
+ {
+  "texto": "¿Era",
+  "inicio": 12.68,
+  "fin": 12.86
+ },
+ {
+  "texto": "haber",
+  "inicio": 12.86,
+  "fin": 13.08
+ },
+ {
+  "texto": "esperado",
+  "inicio": 13.08,
+  "fin": 13.4
+ },
+ {
+  "texto": "menos",
+  "inicio": 13.4,
+  "fin": 13.54
+ },
+ {
+  "texto": "que",
+  "inicio": 13.54,
+  "fin": 13.66
+ },
+ {
+  "texto": "yo?",
+  "inicio": 13.66,
+  "fin": 14
+ },
+ {
+  "texto": "No,",
+  "inicio": 14.3,
+  "fin": 14.62
+ },
+ {
+  "texto": "no",
+  "inicio": 14.86,
+  "fin": 15
+ },
+ {
+  "texto": "hablo",
+  "inicio": 15.06,
+  "fin": 29.98
+ }
+]

@@ -1,0 +1,716 @@
+[
+{
+"texto": "borralo,",
+"inicio": 1.619,
+"fin": 2.159,
+"score": 0.663
+},
+{
+"texto": "borralo,",
+"inicio": 2.199,
+"fin": 2.74,
+"score": 0.616
+},
+{
+"texto": "charly,",
+"inicio": 2.8,
+"fin": 3.361,
+"score": 0.563
+},
+{
+"texto": "charly,",
+"inicio": 3.401,
+"fin": 3.981,
+"score": 0.554
+},
+{
+"texto": "charly",
+"inicio": 4.001,
+"fin": 4.442,
+"score": 0.601
+},
+{
+"texto": "la",
+"inicio": 4.462,
+"fin": 4.582,
+"score": 0.745
+},
+{
+"texto": "tengo",
+"inicio": 4.622,
+"fin": 4.862,
+"score": 0.823
+},
+{
+"texto": "con",
+"inicio": 4.922,
+"fin": 5.042,
+"score": 0.93
+},
+{
+"texto": "las",
+"inicio": 5.082,
+"fin": 5.182,
+"score": 0.51
+},
+{
+"texto": "manos",
+"inicio": 5.242,
+"fin": 5.543,
+"score": 0.69
+},
+{
+"texto": "a",
+"inicio": 5.583,
+"fin": 5.643,
+"score": 0.798
+},
+{
+"texto": "los",
+"inicio": 5.663,
+"fin": 5.823,
+"score": 0.611
+},
+{
+"texto": "lados",
+"inicio": 5.863,
+"fin": 6.103,
+"score": 0.739
+},
+{
+"texto": "como",
+"inicio": 6.163,
+"fin": 6.323,
+"score": 0.784
+},
+{
+"texto": "el",
+"inicio": 6.363,
+"fin": 6.423,
+"score": 0.898
+},
+{
+"texto": "avioncito",
+"inicio": 6.543,
+"fin": 7.304,
+"score": 0.615
+},
+{
+"texto": "con",
+"inicio": 7.384,
+"fin": 7.484,
+"score": 0.72
+},
+{
+"texto": "los",
+"inicio": 7.544,
+"fin": 7.664,
+"score": 0.603
+},
+{
+"texto": "ojos",
+"inicio": 7.745,
+"fin": 7.965,
+"score": 0.706
+},
+{
+"texto": "chiquiticos",
+"inicio": 7.985,
+"fin": 8.485,
+"score": 0.379
+},
+{
+"texto": "y",
+"inicio": 8.525,
+"fin": 8.565,
+"score": 0.768
+},
+{
+"texto": "volando",
+"inicio": 8.605,
+"fin": 9.146,
+"score": 0.765
+},
+{
+"texto": "bajito",
+"inicio": 9.246,
+"fin": 9.806,
+"score": 0.635
+},
+{
+"texto": "gusa,",
+"inicio": 9.846,
+"fin": 10.047,
+"score": 0.315
+},
+{
+"texto": "gusa,",
+"inicio": 10.067,
+"fin": 10.347,
+"score": 0.392
+},
+{
+"texto": "gusa,",
+"inicio": 10.367,
+"fin": 10.527,
+"score": 0.403
+},
+{
+"texto": "gusa,",
+"inicio": 10.607,
+"fin": 10.867,
+"score": 0.634
+},
+{
+"texto": "gusa",
+"inicio": 11.068,
+"fin": 11.488,
+"score": 0.661
+},
+{
+"texto": "ahí",
+"inicio": 11.708,
+"fin": 11.948,
+"score": 0.605
+},
+{
+"texto": "la",
+"inicio": 11.968,
+"fin": 12.089,
+"score": 0.606
+},
+{
+"texto": "lleva",
+"inicio": 12.369,
+"fin": 12.949,
+"score": 0.56
+},
+{
+"texto": "ya",
+"inicio": 12.989,
+"fin": 13.069,
+"score": 0.288
+},
+{
+"texto": "va",
+"inicio": 13.089,
+"fin": 13.17,
+"score": 0.576
+},
+{
+"texto": "a",
+"inicio": 13.27,
+"fin": 13.39,
+"score": 0.77
+},
+{
+"texto": "cortar",
+"inicio": 13.53,
+"fin": 14.07,
+"score": 0.735
+},
+{
+"texto": "como",
+"inicio": 14.11,
+"fin": 14.291,
+"score": 0.872
+},
+{
+"texto": "así",
+"inicio": 14.351,
+"fin": 14.531,
+"score": 0.517
+},
+{
+"texto": "gusa,",
+"inicio": 14.591,
+"fin": 15.151,
+"score": 0.544
+},
+{
+"texto": "gusa,",
+"inicio": 15.171,
+"fin": 15.452,
+"score": 0.376
+},
+{
+"texto": "gusa,",
+"inicio": 15.512,
+"fin": 15.792,
+"score": 0.677
+},
+{
+"texto": "gusa,",
+"inicio": 16.112,
+"fin": 16.653,
+"score": 0.571
+},
+{
+"texto": "gusa",
+"inicio": 16.713,
+"fin": 16.993,
+"score": 0.62
+},
+{
+"texto": "no",
+"inicio": 17.193,
+"fin": 17.293,
+"score": 0.652
+},
+{
+"texto": "se",
+"inicio": 17.333,
+"fin": 17.393,
+"score": 0.64
+},
+{
+"texto": "suelta",
+"inicio": 17.514,
+"fin": 17.854,
+"score": 0.691
+},
+{
+"texto": "la",
+"inicio": 17.914,
+"fin": 18.054,
+"score": 0.68
+},
+{
+"texto": "tengo",
+"inicio": 18.114,
+"fin": 18.374,
+"score": 0.609
+},
+{
+"texto": "a",
+"inicio": 18.454,
+"fin": 18.514,
+"score": 0.694
+},
+{
+"texto": "amarrar,",
+"inicio": 18.534,
+"fin": 18.975,
+"score": 0.649
+},
+{
+"texto": "oído",
+"inicio": 19.215,
+"fin": 19.595,
+"score": 0.748
+},
+{
+"texto": "ya",
+"inicio": 19.615,
+"fin": 20.036,
+"score": 0.684
+},
+{
+"texto": "dormí",
+"inicio": 20.056,
+"fin": 20.336,
+"score": 0.481
+},
+{
+"texto": "con",
+"inicio": 20.376,
+"fin": 20.556,
+"score": 0.585
+},
+{
+"texto": "ella",
+"inicio": 20.636,
+"fin": 21.437,
+"score": 0.68
+},
+{
+"texto": "la",
+"inicio": 21.457,
+"fin": 21.637,
+"score": 0.638
+},
+{
+"texto": "hice",
+"inicio": 21.677,
+"fin": 21.918,
+"score": 0.441
+},
+{
+"texto": "mi",
+"inicio": 21.938,
+"fin": 22.038,
+"score": 0.485
+},
+{
+"texto": "mujer",
+"inicio": 22.058,
+"fin": 22.338,
+"score": 0.483
+},
+{
+"texto": "No",
+"inicio": 23.462,
+"fin": 23.603,
+"score": 0.717
+},
+{
+"texto": "me",
+"inicio": 23.623,
+"fin": 23.723,
+"score": 0.541
+},
+{
+"texto": "ha",
+"inicio": 23.743,
+"fin": 23.783,
+"score": 0.094
+},
+{
+"texto": "sido",
+"inicio": 23.843,
+"fin": 24.203,
+"score": 0.714
+},
+{
+"texto": "fácil",
+"inicio": 24.243,
+"fin": 25.184,
+"score": 0.67
+},
+{
+"texto": "Le",
+"inicio": 25.284,
+"fin": 25.424,
+"score": 0.844
+},
+{
+"texto": "puse",
+"inicio": 25.485,
+"fin": 25.645,
+"score": 0.543
+},
+{
+"texto": "el",
+"inicio": 25.725,
+"fin": 25.805,
+"score": 0.464
+},
+{
+"texto": "freno,",
+"inicio": 25.865,
+"fin": 26.245,
+"score": 0.722
+},
+{
+"texto": "se",
+"inicio": 26.305,
+"fin": 26.365,
+"score": 0.704
+},
+{
+"texto": "lo",
+"inicio": 26.425,
+"fin": 26.466,
+"score": 0.286
+},
+{
+"texto": "hice",
+"inicio": 26.506,
+"fin": 26.886,
+"score": 0.775
+},
+{
+"texto": "como",
+"inicio": 26.946,
+"fin": 27.186,
+"score": 0.974
+},
+{
+"texto": "es",
+"inicio": 27.206,
+"fin": 27.246,
+"score": 0.006
+},
+{
+"texto": "Y",
+"inicio": 27.266,
+"fin": 27.286,
+"score": 0.002
+},
+{
+"texto": "ahora",
+"inicio": 27.787,
+"fin": 28.247,
+"score": 0.808
+},
+{
+"texto": "no",
+"inicio": 28.327,
+"fin": 28.448,
+"score": 0.76
+},
+{
+"texto": "sale",
+"inicio": 28.548,
+"fin": 28.888,
+"score": 0.793
+},
+{
+"texto": "de",
+"inicio": 28.908,
+"fin": 29.068,
+"score": 0.71
+},
+{
+"texto": "party",
+"inicio": 29.168,
+"fin": 29.969,
+"score": 0.703
+},
+{
+"texto": "Amanecemos",
+"inicio": 30.049,
+"fin": 30.95,
+"score": 0.749
+},
+{
+"texto": "más",
+"inicio": 30.99,
+"fin": 31.13,
+"score": 0.626
+},
+{
+"texto": "de",
+"inicio": 31.15,
+"fin": 31.331,
+"score": 0.626
+},
+{
+"texto": "una",
+"inicio": 31.691,
+"fin": 31.891,
+"score": 0.554
+},
+{
+"texto": "vez",
+"inicio": 31.911,
+"fin": 32.011,
+"score": 0.304
+},
+{
+"texto": "al",
+"inicio": 32.111,
+"fin": 32.191,
+"score": 0.442
+},
+{
+"texto": "mes",
+"inicio": 32.231,
+"fin": 32.412,
+"score": 0.716
+},
+{
+"texto": "No",
+"inicio": 32.692,
+"fin": 32.812,
+"score": 0.627
+},
+{
+"texto": "quieres",
+"inicio": 32.832,
+"fin": 33.233,
+"score": 0.672
+},
+{
+"texto": "salir",
+"inicio": 33.293,
+"fin": 33.633,
+"score": 0.588
+},
+{
+"texto": "de",
+"inicio": 33.673,
+"fin": 33.793,
+"score": 0.688
+},
+{
+"texto": "mi",
+"inicio": 33.853,
+"fin": 33.993,
+"score": 0.87
+},
+{
+"texto": "cama",
+"inicio": 34.073,
+"fin": 34.534,
+"score": 0.716
+},
+{
+"texto": "No",
+"inicio": 163.778,
+"fin": 163.818,
+"score": 0.118
+},
+{
+"texto": "se",
+"inicio": 163.838,
+"fin": 163.878,
+"score": 0.026
+},
+{
+"texto": "suelta",
+"inicio": 163.898,
+"fin": 164.058,
+"score": 0.145
+},
+{
+"texto": "la",
+"inicio": 164.078,
+"fin": 164.158,
+"score": 0.214
+},
+{
+"texto": "tengo",
+"inicio": 164.178,
+"fin": 164.358,
+"score": 0.302
+},
+{
+"texto": "a",
+"inicio": 164.398,
+"fin": 164.418,
+"score": 0.078
+},
+{
+"texto": "amarrar,",
+"inicio": 164.438,
+"fin": 164.598,
+"score": 0.192
+},
+{
+"texto": "vamos",
+"inicio": 164.618,
+"fin": 164.718,
+"score": 0.078
+},
+{
+"texto": "pa'",
+"inicio": 164.738,
+"fin": 164.818,
+"score": 0.471
+},
+{
+"texto": "los",
+"inicio": 164.899,
+"fin": 165.159,
+"score": 0.53
+},
+{
+"texto": "Chiricocos",
+"inicio": 165.319,
+"fin": 166.039,
+"score": 0.389
+},
+{
+"texto": "Tengo",
+"inicio": 166.099,
+"fin": 166.359,
+"score": 0.485
+},
+{
+"texto": "con",
+"inicio": 166.559,
+"fin": 166.679,
+"score": 0.515
+},
+{
+"texto": "las",
+"inicio": 166.699,
+"fin": 167.06,
+"score": 0.54
+},
+{
+"texto": "manos",
+"inicio": 167.16,
+"fin": 167.46,
+"score": 0.504
+},
+{
+"texto": "a",
+"inicio": 167.54,
+"fin": 167.72,
+"score": 0.741
+},
+{
+"texto": "los",
+"inicio": 167.8,
+"fin": 168.04,
+"score": 0.537
+},
+{
+"texto": "lados",
+"inicio": 168.1,
+"fin": 168.32,
+"score": 0.432
+},
+{
+"texto": "como",
+"inicio": 168.38,
+"fin": 168.58,
+"score": 0.764
+},
+{
+"texto": "el",
+"inicio": 168.62,
+"fin": 168.68,
+"score": 0.385
+},
+{
+"texto": "avioncito",
+"inicio": 168.7,
+"fin": 169.14,
+"score": 0.315
+},
+{
+"texto": "con",
+"inicio": 169.16,
+"fin": 169.321,
+"score": 0.523
+},
+{
+"texto": "los",
+"inicio": 169.341,
+"fin": 169.441,
+"score": 0.332
+},
+{
+"texto": "ojos",
+"inicio": 169.461,
+"fin": 169.581,
+"score": 0.324
+},
+{
+"texto": "chiquiticos",
+"inicio": 169.641,
+"fin": 170.041,
+"score": 0.328
+},
+{
+"texto": "y",
+"inicio": 170.061,
+"fin": 170.081,
+"score": 0.055
+},
+{
+"texto": "volando",
+"inicio": 170.401,
+"fin": 170.801,
+"score": 0.562
+},
+{
+"texto": "bajito",
+"inicio": 170.841,
+"fin": 171.221,
+"score": 0.584
+}
+]

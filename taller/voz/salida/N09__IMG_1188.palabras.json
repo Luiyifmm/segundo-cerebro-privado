@@ -1,0 +1,97 @@
+[
+ {
+  "texto": "Llegas",
+  "inicio": 1.94,
+  "fin": 2.28
+ },
+ {
+  "texto": "a",
+  "inicio": 2.28,
+  "fin": 2.42
+ },
+ {
+  "texto": "las",
+  "inicio": 2.42,
+  "fin": 2.68
+ },
+ {
+  "texto": "pesas",
+  "inicio": 2.68,
+  "fin": 2.98
+ },
+ {
+  "texto": "sin",
+  "inicio": 2.98,
+  "fin": 3.34
+ },
+ {
+  "texto": "energía,",
+  "inicio": 3.34,
+  "fin": 3.74
+ },
+ {
+  "texto": "levantas",
+  "inicio": 4,
+  "fin": 4.48
+ },
+ {
+  "texto": "menos,",
+  "inicio": 4.48,
+  "fin": 4.78
+ },
+ {
+  "texto": "haces",
+  "inicio": 4.84,
+  "fin": 5.14
+ },
+ {
+  "texto": "menos",
+  "inicio": 5.14,
+  "fin": 5.42
+ },
+ {
+  "texto": "repeticiones",
+  "inicio": 5.42,
+  "fin": 6.12
+ },
+ {
+  "texto": "y",
+  "inicio": 6.12,
+  "fin": 6.32
+ },
+ {
+  "texto": "así",
+  "inicio": 6.32,
+  "fin": 6.48
+ },
+ {
+  "texto": "no",
+  "inicio": 6.48,
+  "fin": 6.62
+ },
+ {
+  "texto": "vas",
+  "inicio": 6.62,
+  "fin": 6.68
+ },
+ {
+  "texto": "a",
+  "inicio": 6.68,
+  "fin": 6.84
+ },
+ {
+  "texto": "ganar",
+  "inicio": 6.84,
+  "fin": 7.12
+ },
+ {
+  "texto": "más",
+  "inicio": 7.12,
+  "fin": 7.34
+ },
+ {
+  "texto": "músculo.",
+  "inicio": 7.34,
+  "fin": 8
+ }
+]

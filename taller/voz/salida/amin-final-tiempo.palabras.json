@@ -1,0 +1,122 @@
+[
+ {
+  "texto": "toda",
+  "inicio": 0.18,
+  "fin": 0.36
+ },
+ {
+  "texto": "tu",
+  "inicio": 0.36,
+  "fin": 0.46
+ },
+ {
+  "texto": "visita",
+  "inicio": 0.46,
+  "fin": 0.6
+ },
+ {
+  "texto": "y",
+  "inicio": 0.6,
+  "fin": 0.6
+ },
+ {
+  "texto": "si",
+  "inicio": 0.6,
+  "fin": 0.76
+ },
+ {
+  "texto": "quieres",
+  "inicio": 0.76,
+  "fin": 1.02
+ },
+ {
+  "texto": "ser",
+  "inicio": 1.02,
+  "fin": 1.28
+ },
+ {
+  "texto": "libre",
+  "inicio": 1.28,
+  "fin": 1.46
+ },
+ {
+  "texto": "y",
+  "inicio": 1.46,
+  "fin": 1.66
+ },
+ {
+  "texto": "dejar",
+  "inicio": 1.66,
+  "fin": 1.78
+ },
+ {
+  "texto": "de",
+  "inicio": 1.78,
+  "fin": 2.02
+ },
+ {
+  "texto": "cambiar",
+  "inicio": 2.02,
+  "fin": 2.24
+ },
+ {
+  "texto": "tu",
+  "inicio": 2.24,
+  "fin": 2.46
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 2.46,
+  "fin": 2.66
+ },
+ {
+  "texto": "por",
+  "inicio": 2.66,
+  "fin": 2.82
+ },
+ {
+  "texto": "dinero",
+  "inicio": 2.82,
+  "fin": 3.08
+ },
+ {
+  "texto": "con",
+  "inicio": 3.08,
+  "fin": 3.16
+ },
+ {
+  "texto": "un",
+  "inicio": 3.2,
+  "fin": 3.28
+ },
+ {
+  "texto": "entrenador",
+  "inicio": 3.28,
+  "fin": 4.04
+ },
+ {
+  "texto": "online",
+  "inicio": 4.04,
+  "fin": 4.28
+ },
+ {
+  "texto": "comenta",
+  "inicio": 4.28,
+  "fin": 4.6
+ },
+ {
+  "texto": "la",
+  "inicio": 4.6,
+  "fin": 4.92
+ },
+ {
+  "texto": "palabra",
+  "inicio": 4.92,
+  "fin": 5.42
+ },
+ {
+  "texto": "Lan",
+  "inicio": 5.42,
+  "fin": 5.48
+ }
+]

@@ -1,0 +1,127 @@
+[
+ {
+  "texto": "Estos",
+  "inicio": 4.1,
+  "fin": 4.34
+ },
+ {
+  "texto": "de",
+  "inicio": 4.34,
+  "fin": 4.62
+ },
+ {
+  "texto": "pobre",
+  "inicio": 4.62,
+  "fin": 4.9
+ },
+ {
+  "texto": "y",
+  "inicio": 4.9,
+  "fin": 5.12
+ },
+ {
+  "texto": "estos",
+  "inicio": 5.12,
+  "fin": 5.3
+ },
+ {
+  "texto": "de",
+  "inicio": 5.3,
+  "fin": 5.5
+ },
+ {
+  "texto": "rico.",
+  "inicio": 5.5,
+  "fin": 9.32
+ },
+ {
+  "texto": "El",
+  "inicio": 12.14,
+  "fin": 12.38
+ },
+ {
+  "texto": "ignorante",
+  "inicio": 12.38,
+  "fin": 12.88
+ },
+ {
+  "texto": "y",
+  "inicio": 12.88,
+  "fin": 12.96
+ },
+ {
+  "texto": "el",
+  "inicio": 12.96,
+  "fin": 15.8
+ },
+ {
+  "texto": "pobre",
+  "inicio": 15.8,
+  "fin": 16.02
+ },
+ {
+  "texto": "vive",
+  "inicio": 16.02,
+  "fin": 16.32
+ },
+ {
+  "texto": "para",
+  "inicio": 16.32,
+  "fin": 16.52
+ },
+ {
+  "texto": "impresionar",
+  "inicio": 16.52,
+  "fin": 16.84
+ },
+ {
+  "texto": "a",
+  "inicio": 16.84,
+  "fin": 16.94
+ },
+ {
+  "texto": "los",
+  "inicio": 16.94,
+  "fin": 17.2
+ },
+ {
+  "texto": "demás,",
+  "inicio": 17.2,
+  "fin": 17.56
+ },
+ {
+  "texto": "pero",
+  "inicio": 17.8,
+  "fin": 17.92
+ },
+ {
+  "texto": "el",
+  "inicio": 17.92,
+  "fin": 18.12
+ },
+ {
+  "texto": "rico",
+  "inicio": 18.12,
+  "fin": 18.36
+ },
+ {
+  "texto": "se",
+  "inicio": 18.36,
+  "fin": 18.46
+ },
+ {
+  "texto": "educa",
+  "inicio": 18.46,
+  "fin": 18.82
+ },
+ {
+  "texto": "financiamente.",
+  "inicio": 18.82,
+  "fin": 19.8
+ },
+ {
+  "texto": "Sígueme.",
+  "inicio": 20,
+  "fin": 20.24
+ }
+]

@@ -1,0 +1,74 @@
+[
+{
+"texto": "Llevar",
+"inicio": 0.138,
+"fin": 0.359,
+"score": 0.686
+},
+{
+"texto": "ropa",
+"inicio": 0.44,
+"fin": 0.62,
+"score": 0.918
+},
+{
+"texto": "con",
+"inicio": 0.661,
+"fin": 0.781,
+"score": 0.816
+},
+{
+"texto": "logos",
+"inicio": 0.821,
+"fin": 1.083,
+"score": 0.85
+},
+{
+"texto": "de",
+"inicio": 1.304,
+"fin": 1.404,
+"score": 0.984
+},
+{
+"texto": "pobre",
+"inicio": 1.484,
+"fin": 1.826,
+"score": 0.945
+},
+{
+"texto": "mediocre.",
+"inicio": 2.308,
+"fin": 2.931,
+"score": 0.72
+},
+{
+"texto": "Llevar",
+"inicio": 2.951,
+"fin": 3.152,
+"score": 0.692
+},
+{
+"texto": "ropa",
+"inicio": 3.213,
+"fin": 3.373,
+"score": 0.92
+},
+{
+"texto": "simple",
+"inicio": 3.414,
+"fin": 3.675,
+"score": 0.901
+},
+{
+"texto": "de",
+"inicio": 4.137,
+"fin": 4.237,
+"score": 0.802
+},
+{
+"texto": "rico.",
+"inicio": 4.338,
+"fin": 4.659,
+"score": 0.738
+}
+]

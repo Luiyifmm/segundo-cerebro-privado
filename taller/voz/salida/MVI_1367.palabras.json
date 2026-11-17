@@ -1,0 +1,352 @@
+[
+ {
+  "texto": "¿Me",
+  "inicio": 0.8,
+  "fin": 1.06
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 1.06,
+  "fin": 1.6
+ },
+ {
+  "texto": "dar",
+  "inicio": 1.6,
+  "fin": 1.9
+ },
+ {
+  "texto": "un",
+  "inicio": 1.9,
+  "fin": 2.14
+ },
+ {
+  "texto": "consejo",
+  "inicio": 2.14,
+  "fin": 2.44
+ },
+ {
+  "texto": "para",
+  "inicio": 2.44,
+  "fin": 2.56
+ },
+ {
+  "texto": "la",
+  "inicio": 2.56,
+  "fin": 2.72
+ },
+ {
+  "texto": "gente",
+  "inicio": 2.72,
+  "fin": 2.96
+ },
+ {
+  "texto": "joven?",
+  "inicio": 2.96,
+  "fin": 3.28
+ },
+ {
+  "texto": "Es",
+  "inicio": 4.8,
+  "fin": 4.94
+ },
+ {
+  "texto": "una",
+  "inicio": 4.94,
+  "fin": 5.12
+ },
+ {
+  "texto": "entrevista",
+  "inicio": 5.12,
+  "fin": 5.48
+ },
+ {
+  "texto": "de",
+  "inicio": 5.48,
+  "fin": 5.68
+ },
+ {
+  "texto": "30",
+  "inicio": 5.68,
+  "fin": 6
+ },
+ {
+  "texto": "segundos.",
+  "inicio": 6.12,
+  "fin": 6.48
+ },
+ {
+  "texto": "O",
+  "inicio": 6.5,
+  "fin": 6.5
+ },
+ {
+  "texto": "sea,",
+  "inicio": 6.5,
+  "fin": 6.56
+ },
+ {
+  "texto": "son",
+  "inicio": 6.66,
+  "fin": 6.84
+ },
+ {
+  "texto": "30",
+  "inicio": 6.84,
+  "fin": 7.2
+ },
+ {
+  "texto": "segundos.",
+  "inicio": 7.2,
+  "fin": 7.44
+ },
+ {
+  "texto": "¿Sí?",
+  "inicio": 8.84,
+  "fin": 9.94
+ },
+ {
+  "texto": "¿Llegáis",
+  "inicio": 10.3,
+  "fin": 10.62
+ },
+ {
+  "texto": "tarde?",
+  "inicio": 10.62,
+  "fin": 10.82
+ },
+ {
+  "texto": "¿No",
+  "inicio": 10.82,
+  "fin": 11
+ },
+ {
+  "texto": "tenéis",
+  "inicio": 11,
+  "fin": 11.24
+ },
+ {
+  "texto": "20",
+  "inicio": 11.24,
+  "fin": 11.5
+ },
+ {
+  "texto": "segundos?",
+  "inicio": 11.5,
+  "fin": 11.86
+ },
+ {
+  "texto": "Tenemos",
+  "inicio": 12.26,
+  "fin": 12.48
+ },
+ {
+  "texto": "2",
+  "inicio": 12.48,
+  "fin": 12.62
+ },
+ {
+  "texto": "millones",
+  "inicio": 12.62,
+  "fin": 12.82
+ },
+ {
+  "texto": "de",
+  "inicio": 12.82,
+  "fin": 13
+ },
+ {
+  "texto": "visitas",
+  "inicio": 13,
+  "fin": 13.28
+ },
+ {
+  "texto": "en",
+  "inicio": 13.28,
+  "fin": 13.34
+ },
+ {
+  "texto": "los",
+  "inicio": 13.34,
+  "fin": 13.58
+ },
+ {
+  "texto": "últimos",
+  "inicio": 13.58,
+  "fin": 13.82
+ },
+ {
+  "texto": "30",
+  "inicio": 13.82,
+  "fin": 14
+ },
+ {
+  "texto": "días",
+  "inicio": 14.16,
+  "fin": 14.58
+ },
+ {
+  "texto": "y",
+  "inicio": 14.74,
+  "fin": 14.94
+ },
+ {
+  "texto": "estamos",
+  "inicio": 14.94,
+  "fin": 15.22
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 15.22,
+  "fin": 15.54
+ },
+ {
+  "texto": "preguntas",
+  "inicio": 15.54,
+  "fin": 16.02
+ },
+ {
+  "texto": "a",
+  "inicio": 16.02,
+  "fin": 16.1
+ },
+ {
+  "texto": "la",
+  "inicio": 16.1,
+  "fin": 16.36
+ },
+ {
+  "texto": "gente",
+  "inicio": 16.36,
+  "fin": 16.54
+ },
+ {
+  "texto": "de",
+  "inicio": 16.54,
+  "fin": 16.62
+ },
+ {
+  "texto": "Andorra.",
+  "inicio": 16.62,
+  "fin": 17
+ },
+ {
+  "texto": "Es",
+  "inicio": 17.88,
+  "fin": 18.14
+ },
+ {
+  "texto": "para",
+  "inicio": 18.14,
+  "fin": 18.28
+ },
+ {
+  "texto": "la",
+  "inicio": 18.28,
+  "fin": 18.5
+ },
+ {
+  "texto": "gente",
+  "inicio": 18.5,
+  "fin": 18.72
+ },
+ {
+  "texto": "joven,",
+  "inicio": 18.72,
+  "fin": 18.94
+ },
+ {
+  "texto": "estamos",
+  "inicio": 19.1,
+  "fin": 19.34
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 19.34,
+  "fin": 19.46
+ },
+ {
+  "texto": "la",
+  "inicio": 19.46,
+  "fin": 19.72
+ },
+ {
+  "texto": "pregunta",
+  "inicio": 19.72,
+  "fin": 19.88
+ },
+ {
+  "texto": "de,",
+  "inicio": 19.88,
+  "fin": 19.96
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 19.98,
+  "fin": 20.32
+ },
+ {
+  "texto": "se",
+  "inicio": 20.32,
+  "fin": 20.46
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 20.46,
+  "fin": 20.72
+ },
+ {
+  "texto": "ricos?",
+  "inicio": 20.72,
+  "fin": 20.88
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 20.96,
+  "fin": 21.14
+ },
+ {
+  "texto": "tuvieron",
+  "inicio": 21.14,
+  "fin": 21.42
+ },
+ {
+  "texto": "éxito?",
+  "inicio": 21.42,
+  "fin": 22
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 22.18,
+  "fin": 22.44
+ },
+ {
+  "texto": "estaría?",
+  "inicio": 22.44,
+  "fin": 22.74
+ },
+ {
+  "texto": "Trabajando.",
+  "inicio": 22.84,
+  "fin": 23.44
+ },
+ {
+  "texto": "¿Trabajando",
+  "inicio": 23.8,
+  "fin": 24.2
+ },
+ {
+  "texto": "de",
+  "inicio": 24.2,
+  "fin": 24.26
+ },
+ {
+  "texto": "uno?",
+  "inicio": 24.26,
+  "fin": 24.4
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 25.34,
+  "fin": 25.58
+ }
+]

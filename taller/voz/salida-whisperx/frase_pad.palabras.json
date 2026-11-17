@@ -1,0 +1,44 @@
+[
+{
+"texto": "Y",
+"inicio": 2.587,
+"fin": 2.627,
+"score": 0.692
+},
+{
+"texto": "directamente",
+"inicio": 2.687,
+"fin": 3.391,
+"score": 0.908
+},
+{
+"texto": "en",
+"inicio": 3.431,
+"fin": 3.492,
+"score": 0.603
+},
+{
+"texto": "los",
+"inicio": 3.512,
+"fin": 3.592,
+"score": 0.477
+},
+{
+"texto": "controles.",
+"inicio": 3.612,
+"fin": 4.216,
+"score": 0.684
+},
+{
+"texto": "Joseph",
+"inicio": 4.819,
+"fin": 5.362,
+"score": 0.484
+},
+{
+"texto": "Barbosa.",
+"inicio": 5.825,
+"fin": 6.468,
+"score": 0.537
+}
+]

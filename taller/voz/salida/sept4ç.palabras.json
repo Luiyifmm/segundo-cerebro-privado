@@ -1,0 +1,407 @@
+[
+ {
+  "texto": "Cuidado",
+  "inicio": 2.3,
+  "fin": 2.68
+ },
+ {
+  "texto": "con",
+  "inicio": 2.68,
+  "fin": 2.98
+ },
+ {
+  "texto": "decir",
+  "inicio": 2.98,
+  "fin": 3.24
+ },
+ {
+  "texto": "esta",
+  "inicio": 3.24,
+  "fin": 3.52
+ },
+ {
+  "texto": "frase.",
+  "inicio": 3.52,
+  "fin": 3.64
+ },
+ {
+  "texto": "Bueno,",
+  "inicio": 7.4,
+  "fin": 7.5
+ },
+ {
+  "texto": "te",
+  "inicio": 7.54,
+  "fin": 7.64
+ },
+ {
+  "texto": "voy",
+  "inicio": 7.64,
+  "fin": 7.74
+ },
+ {
+  "texto": "a",
+  "inicio": 7.74,
+  "fin": 7.86
+ },
+ {
+  "texto": "coger",
+  "inicio": 7.86,
+  "fin": 8.22
+ },
+ {
+  "texto": "el",
+  "inicio": 8.22,
+  "fin": 8.42
+ },
+ {
+  "texto": "robenchado.",
+  "inicio": 8.42,
+  "fin": 8.8
+ },
+ {
+  "texto": "Cuidado",
+  "inicio": 9.52,
+  "fin": 9.78
+ },
+ {
+  "texto": "con",
+  "inicio": 9.78,
+  "fin": 10.02
+ },
+ {
+  "texto": "decir",
+  "inicio": 10.02,
+  "fin": 10.26
+ },
+ {
+  "texto": "esta",
+  "inicio": 10.26,
+  "fin": 10.48
+ },
+ {
+  "texto": "frase",
+  "inicio": 10.48,
+  "fin": 10.76
+ },
+ {
+  "texto": "porque",
+  "inicio": 10.76,
+  "fin": 11.06
+ },
+ {
+  "texto": "serás.",
+  "inicio": 11.06,
+  "fin": 11.32
+ },
+ {
+  "texto": "A",
+  "inicio": 12.52,
+  "fin": 13.36
+ },
+ {
+  "texto": "ser",
+  "inicio": 13.36,
+  "fin": 13.74
+ },
+ {
+  "texto": "pobre",
+  "inicio": 13.74,
+  "fin": 14.2
+ },
+ {
+  "texto": "toda",
+  "inicio": 14.2,
+  "fin": 14.5
+ },
+ {
+  "texto": "tu",
+  "inicio": 14.5,
+  "fin": 14.72
+ },
+ {
+  "texto": "vida.",
+  "inicio": 14.72,
+  "fin": 16.62
+ },
+ {
+  "texto": "Cuidado",
+  "inicio": 21.6,
+  "fin": 22.14
+ },
+ {
+  "texto": "con",
+  "inicio": 22.14,
+  "fin": 22.38
+ },
+ {
+  "texto": "decir",
+  "inicio": 22.38,
+  "fin": 22.66
+ },
+ {
+  "texto": "esta",
+  "inicio": 22.66,
+  "fin": 23.04
+ },
+ {
+  "texto": "frase",
+  "inicio": 23.04,
+  "fin": 23.6
+ },
+ {
+  "texto": "porque",
+  "inicio": 23.6,
+  "fin": 23.86
+ },
+ {
+  "texto": "te",
+  "inicio": 23.86,
+  "fin": 24.14
+ },
+ {
+  "texto": "condanará.",
+  "inicio": 24.14,
+  "fin": 24.64
+ },
+ {
+  "texto": "Cuidado",
+  "inicio": 25.36,
+  "fin": 25.74
+ },
+ {
+  "texto": "con",
+  "inicio": 25.74,
+  "fin": 25.98
+ },
+ {
+  "texto": "decir",
+  "inicio": 25.96,
+  "fin": 26.22
+ },
+ {
+  "texto": "esta",
+  "inicio": 26.22,
+  "fin": 26.44
+ },
+ {
+  "texto": "frase",
+  "inicio": 26.44,
+  "fin": 27
+ },
+ {
+  "texto": "porque",
+  "inicio": 27,
+  "fin": 27.2
+ },
+ {
+  "texto": "te",
+  "inicio": 27.2,
+  "fin": 27.4
+ },
+ {
+  "texto": "condanará",
+  "inicio": 27.4,
+  "fin": 27.9
+ },
+ {
+  "texto": "a",
+  "inicio": 27.9,
+  "fin": 28.06
+ },
+ {
+  "texto": "ser",
+  "inicio": 28.06,
+  "fin": 28.42
+ },
+ {
+  "texto": "pobre",
+  "inicio": 28.42,
+  "fin": 28.62
+ },
+ {
+  "texto": "toda",
+  "inicio": 28.62,
+  "fin": 28.84
+ },
+ {
+  "texto": "tu",
+  "inicio": 28.84,
+  "fin": 29.02
+ },
+ {
+  "texto": "vida.",
+  "inicio": 29.02,
+  "fin": 29.84
+ },
+ {
+  "texto": "Cuidado",
+  "inicio": 30.22,
+  "fin": 30.56
+ },
+ {
+  "texto": "con",
+  "inicio": 30.56,
+  "fin": 30.72
+ },
+ {
+  "texto": "decir",
+  "inicio": 30.72,
+  "fin": 30.96
+ },
+ {
+  "texto": "esta",
+  "inicio": 30.96,
+  "fin": 31.2
+ },
+ {
+  "texto": "frase",
+  "inicio": 31.2,
+  "fin": 31.4
+ },
+ {
+  "texto": "porque",
+  "inicio": 31.4,
+  "fin": 31.6
+ },
+ {
+  "texto": "te",
+  "inicio": 31.6,
+  "fin": 31.78
+ },
+ {
+  "texto": "condanará",
+  "inicio": 31.78,
+  "fin": 32.2
+ },
+ {
+  "texto": "a",
+  "inicio": 32.2,
+  "fin": 32.24
+ },
+ {
+  "texto": "ser",
+  "inicio": 32.24,
+  "fin": 32.64
+ },
+ {
+  "texto": "pobre",
+  "inicio": 32.64,
+  "fin": 32.9
+ },
+ {
+  "texto": "toda",
+  "inicio": 32.9,
+  "fin": 33.18
+ },
+ {
+  "texto": "tu",
+  "inicio": 33.18,
+  "fin": 33.4
+ },
+ {
+  "texto": "vida.",
+  "inicio": 33.4,
+  "fin": 34
+ },
+ {
+  "texto": "Cuidado",
+  "inicio": 34.4,
+  "fin": 35.06
+ },
+ {
+  "texto": "con",
+  "inicio": 35.06,
+  "fin": 35.34
+ },
+ {
+  "texto": "esta",
+  "inicio": 35.34,
+  "fin": 35.82
+ },
+ {
+  "texto": "frase",
+  "inicio": 35.82,
+  "fin": 36.54
+ },
+ {
+  "texto": "porque",
+  "inicio": 36.54,
+  "fin": 36.76
+ },
+ {
+  "texto": "te",
+  "inicio": 36.76,
+  "fin": 36.96
+ },
+ {
+  "texto": "condanará,",
+  "inicio": 36.96,
+  "fin": 37.86
+ },
+ {
+  "texto": "cuidado",
+  "inicio": 38.58,
+  "fin": 38.94
+ },
+ {
+  "texto": "con",
+  "inicio": 38.94,
+  "fin": 39.14
+ },
+ {
+  "texto": "esta",
+  "inicio": 39.14,
+  "fin": 39.4
+ },
+ {
+  "texto": "frase",
+  "inicio": 39.4,
+  "fin": 39.62
+ },
+ {
+  "texto": "porque",
+  "inicio": 39.62,
+  "fin": 39.82
+ },
+ {
+  "texto": "te",
+  "inicio": 39.82,
+  "fin": 40.04
+ },
+ {
+  "texto": "condanará",
+  "inicio": 40.04,
+  "fin": 40.4
+ },
+ {
+  "texto": "a",
+  "inicio": 40.4,
+  "fin": 40.5
+ },
+ {
+  "texto": "ser",
+  "inicio": 40.5,
+  "fin": 40.86
+ },
+ {
+  "texto": "pobre",
+  "inicio": 40.86,
+  "fin": 41.14
+ },
+ {
+  "texto": "toda",
+  "inicio": 41.14,
+  "fin": 41.42
+ },
+ {
+  "texto": "tu",
+  "inicio": 41.42,
+  "fin": 41.64
+ },
+ {
+  "texto": "vida.",
+  "inicio": 41.64,
+  "fin": 41.92
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "texto": "Desayunos",
+  "inicio": 20.54,
+  "fin": 21.3
+ },
+ {
+  "texto": "para",
+  "inicio": 21.3,
+  "fin": 21.62
+ },
+ {
+  "texto": "perder",
+  "inicio": 21.62,
+  "fin": 21.86
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 21.86,
+  "fin": 22.22
+ },
+ {
+  "texto": "Desayunos",
+  "inicio": 22.8,
+  "fin": 23.46
+ },
+ {
+  "texto": "para",
+  "inicio": 23.46,
+  "fin": 23.8
+ },
+ {
+  "texto": "perder",
+  "inicio": 23.8,
+  "fin": 24
+ },
+ {
+  "texto": "grasa",
+  "inicio": 24,
+  "fin": 24.3
+ },
+ {
+  "texto": "más",
+  "inicio": 24.3,
+  "fin": 24.62
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 24.62,
+  "fin": 25.42
+ },
+ {
+  "texto": "Comidas",
+  "inicio": 25.58,
+  "fin": 26.24
+ },
+ {
+  "texto": "para",
+  "inicio": 26.24,
+  "fin": 26.6
+ },
+ {
+  "texto": "perder",
+  "inicio": 26.6,
+  "fin": 26.9
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 26.9,
+  "fin": 27.48
+ },
+ {
+  "texto": "Comida",
+  "inicio": 27.6,
+  "fin": 28.16
+ },
+ {
+  "texto": "para",
+  "inicio": 28.16,
+  "fin": 28.46
+ },
+ {
+  "texto": "comer",
+  "inicio": 28.46,
+  "fin": 29.84
+ },
+ {
+  "texto": "...",
+  "inicio": 30.16,
+  "fin": 30.18
+ },
+ {
+  "texto": "Desayuno",
+  "inicio": 34.84,
+  "fin": 35.42
+ },
+ {
+  "texto": "para",
+  "inicio": 35.42,
+  "fin": 35.76
+ },
+ {
+  "texto": "perder",
+  "inicio": 35.76,
+  "fin": 36.04
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 36.04,
+  "fin": 36.72
+ },
+ {
+  "texto": "Desayuno",
+  "inicio": 36.9,
+  "fin": 37.52
+ },
+ {
+  "texto": "para",
+  "inicio": 37.52,
+  "fin": 37.76
+ },
+ {
+  "texto": "perder",
+  "inicio": 37.76,
+  "fin": 38.02
+ },
+ {
+  "texto": "grasa",
+  "inicio": 38.02,
+  "fin": 38.36
+ },
+ {
+  "texto": "más",
+  "inicio": 38.36,
+  "fin": 38.7
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 38.7,
+  "fin": 39.56
+ },
+ {
+  "texto": "Comida",
+  "inicio": 39.72,
+  "fin": 40.22
+ },
+ {
+  "texto": "para",
+  "inicio": 40.22,
+  "fin": 40.56
+ },
+ {
+  "texto": "perder",
+  "inicio": 40.56,
+  "fin": 40.84
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 40.84,
+  "fin": 41.46
+ },
+ {
+  "texto": "Comida",
+  "inicio": 41.74,
+  "fin": 42.24
+ },
+ {
+  "texto": "para",
+  "inicio": 42.24,
+  "fin": 42.52
+ },
+ {
+  "texto": "perder",
+  "inicio": 42.52,
+  "fin": 42.78
+ },
+ {
+  "texto": "grasa",
+  "inicio": 42.78,
+  "fin": 43.14
+ },
+ {
+  "texto": "más",
+  "inicio": 43.14,
+  "fin": 43.52
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 43.52,
+  "fin": 43.9
+ },
+ {
+  "texto": "meriendas",
+  "inicio": 44.46,
+  "fin": 45.2
+ },
+ {
+  "texto": "para",
+  "inicio": 45.2,
+  "fin": 46
+ },
+ {
+  "texto": "perder",
+  "inicio": 46,
+  "fin": 46.32
+ },
+ {
+  "texto": "grasa",
+  "inicio": 46.32,
+  "fin": 47.28
+ },
+ {
+  "texto": "merienda",
+  "inicio": 47.28,
+  "fin": 47.78
+ },
+ {
+  "texto": "para",
+  "inicio": 47.78,
+  "fin": 47.8
+ },
+ {
+  "texto": "perder",
+  "inicio": 48.06,
+  "fin": 48.32
+ },
+ {
+  "texto": "grasa",
+  "inicio": 48.32,
+  "fin": 49.28
+ },
+ {
+  "texto": "merienda",
+  "inicio": 49.28,
+  "fin": 49.9
+ },
+ {
+  "texto": "para",
+  "inicio": 49.9,
+  "fin": 50.2
+ },
+ {
+  "texto": "perder",
+  "inicio": 50.2,
+  "fin": 50.42
+ },
+ {
+  "texto": "grasa",
+  "inicio": 50.42,
+  "fin": 50.72
+ },
+ {
+  "texto": "más",
+  "inicio": 50.72,
+  "fin": 51.08
+ },
+ {
+  "texto": "rápido",
+  "inicio": 51.08,
+  "fin": 52.16
+ },
+ {
+  "texto": "cena",
+  "inicio": 52.16,
+  "fin": 52.6
+ },
+ {
+  "texto": "para",
+  "inicio": 52.6,
+  "fin": 52.94
+ },
+ {
+  "texto": "perder",
+  "inicio": 52.94,
+  "fin": 53.24
+ },
+ {
+  "texto": "grasa",
+  "inicio": 53.24,
+  "fin": 54.38
+ },
+ {
+  "texto": "cena",
+  "inicio": 54.38,
+  "fin": 54.78
+ },
+ {
+  "texto": "para",
+  "inicio": 54.78,
+  "fin": 55.04
+ },
+ {
+  "texto": "perder",
+  "inicio": 55.04,
+  "fin": 55.36
+ },
+ {
+  "texto": "grasa",
+  "inicio": 55.36,
+  "fin": 55.64
+ },
+ {
+  "texto": "más",
+  "inicio": 55.64,
+  "fin": 56
+ },
+ {
+  "texto": "rápido",
+  "inicio": 56,
+  "fin": 56.08
+ }
+]

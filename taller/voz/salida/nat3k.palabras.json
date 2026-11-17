@@ -1,0 +1,507 @@
+[
+ {
+  "texto": "Natalia,",
+  "inicio": 0.4,
+  "fin": 0.86
+ },
+ {
+  "texto": "¿cómo",
+  "inicio": 0.88,
+  "fin": 1.04
+ },
+ {
+  "texto": "hiciste",
+  "inicio": 1.04,
+  "fin": 1.36
+ },
+ {
+  "texto": "para",
+  "inicio": 1.36,
+  "fin": 1.5
+ },
+ {
+  "texto": "bajar",
+  "inicio": 1.5,
+  "fin": 1.82
+ },
+ {
+  "texto": "3",
+  "inicio": 1.82,
+  "fin": 1.96
+ },
+ {
+  "texto": "kilos",
+  "inicio": 1.96,
+  "fin": 2.14
+ },
+ {
+  "texto": "de",
+  "inicio": 2.14,
+  "fin": 2.26
+ },
+ {
+  "texto": "grasa",
+  "inicio": 2.26,
+  "fin": 2.42
+ },
+ {
+  "texto": "en",
+  "inicio": 2.42,
+  "fin": 2.58
+ },
+ {
+  "texto": "3",
+  "inicio": 2.58,
+  "fin": 2.78
+ },
+ {
+  "texto": "meses?",
+  "inicio": 2.78,
+  "fin": 3.04
+ },
+ {
+  "texto": "Muy",
+  "inicio": 3.4,
+  "fin": 3.54
+ },
+ {
+  "texto": "sencillo,",
+  "inicio": 3.54,
+  "fin": 3.76
+ },
+ {
+  "texto": "te",
+  "inicio": 3.9,
+  "fin": 3.96
+ },
+ {
+  "texto": "lo",
+  "inicio": 3.96,
+  "fin": 4.08
+ },
+ {
+  "texto": "cuento",
+  "inicio": 4.08,
+  "fin": 4.38
+ },
+ {
+  "texto": "con",
+  "inicio": 4.38,
+  "fin": 4.6
+ },
+ {
+  "texto": "estos",
+  "inicio": 4.6,
+  "fin": 4.92
+ },
+ {
+  "texto": "3",
+  "inicio": 4.92,
+  "fin": 5.22
+ },
+ {
+  "texto": "pasos.",
+  "inicio": 5.22,
+  "fin": 5.66
+ },
+ {
+  "texto": "Lo",
+  "inicio": 6.02,
+  "fin": 6.22
+ },
+ {
+  "texto": "primero",
+  "inicio": 6.22,
+  "fin": 6.36
+ },
+ {
+  "texto": "y",
+  "inicio": 6.36,
+  "fin": 6.54
+ },
+ {
+  "texto": "más",
+  "inicio": 6.54,
+  "fin": 7.02
+ },
+ {
+  "texto": "importante",
+  "inicio": 7.02,
+  "fin": 7.36
+ },
+ {
+  "texto": "tengo",
+  "inicio": 7.36,
+  "fin": 7.6
+ },
+ {
+  "texto": "un",
+  "inicio": 7.6,
+  "fin": 7.74
+ },
+ {
+  "texto": "plan",
+  "inicio": 7.74,
+  "fin": 7.9
+ },
+ {
+  "texto": "de",
+  "inicio": 7.9,
+  "fin": 8.1
+ },
+ {
+  "texto": "alimentación",
+  "inicio": 8.1,
+  "fin": 8.54
+ },
+ {
+  "texto": "que",
+  "inicio": 8.54,
+  "fin": 8.76
+ },
+ {
+  "texto": "puedo",
+  "inicio": 8.76,
+  "fin": 9.1
+ },
+ {
+  "texto": "cumplir,",
+  "inicio": 9.1,
+  "fin": 9.18
+ },
+ {
+  "texto": "incluso",
+  "inicio": 9.56,
+  "fin": 9.8
+ },
+ {
+  "texto": "con",
+  "inicio": 9.8,
+  "fin": 9.98
+ },
+ {
+  "texto": "comidas",
+  "inicio": 9.98,
+  "fin": 10.36
+ },
+ {
+  "texto": "fuera",
+  "inicio": 10.36,
+  "fin": 10.52
+ },
+ {
+  "texto": "de",
+  "inicio": 10.52,
+  "fin": 10.66
+ },
+ {
+  "texto": "casa.",
+  "inicio": 10.66,
+  "fin": 10.88
+ },
+ {
+  "texto": "Lo",
+  "inicio": 11.2,
+  "fin": 11.5
+ },
+ {
+  "texto": "segundo,",
+  "inicio": 11.5,
+  "fin": 12.08
+ },
+ {
+  "texto": "entrené",
+  "inicio": 12.38,
+  "fin": 12.8
+ },
+ {
+  "texto": "para",
+  "inicio": 12.8,
+  "fin": 12.96
+ },
+ {
+  "texto": "no",
+  "inicio": 12.96,
+  "fin": 13.18
+ },
+ {
+  "texto": "perder",
+  "inicio": 13.18,
+  "fin": 13.54
+ },
+ {
+  "texto": "músculo,",
+  "inicio": 13.54,
+  "fin": 13.78
+ },
+ {
+  "texto": "no",
+  "inicio": 13.86,
+  "fin": 14.02
+ },
+ {
+  "texto": "solo",
+  "inicio": 14.02,
+  "fin": 14.22
+ },
+ {
+  "texto": "para",
+  "inicio": 14.22,
+  "fin": 14.4
+ },
+ {
+  "texto": "quemar",
+  "inicio": 14.4,
+  "fin": 14.74
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 14.74,
+  "fin": 15
+ },
+ {
+  "texto": "Y",
+  "inicio": 15.3,
+  "fin": 15.4
+ },
+ {
+  "texto": "lo",
+  "inicio": 15.4,
+  "fin": 15.6
+ },
+ {
+  "texto": "tercero",
+  "inicio": 15.6,
+  "fin": 15.92
+ },
+ {
+  "texto": "hice",
+  "inicio": 15.92,
+  "fin": 16.18
+ },
+ {
+  "texto": "cardio",
+  "inicio": 16.18,
+  "fin": 16.46
+ },
+ {
+  "texto": "suave",
+  "inicio": 16.46,
+  "fin": 16.86
+ },
+ {
+  "texto": "3",
+  "inicio": 16.86,
+  "fin": 17.14
+ },
+ {
+  "texto": "veces",
+  "inicio": 17.14,
+  "fin": 17.42
+ },
+ {
+  "texto": "por",
+  "inicio": 17.42,
+  "fin": 17.7
+ },
+ {
+  "texto": "semana.",
+  "inicio": 17.7,
+  "fin": 17.76
+ },
+ {
+  "texto": "Todo",
+  "inicio": 18,
+  "fin": 18.2
+ },
+ {
+  "texto": "eso",
+  "inicio": 18.2,
+  "fin": 18.4
+ },
+ {
+  "texto": "ya",
+  "inicio": 18.4,
+  "fin": 18.52
+ },
+ {
+  "texto": "lo",
+  "inicio": 18.52,
+  "fin": 18.72
+ },
+ {
+  "texto": "sabía,",
+  "inicio": 18.72,
+  "fin": 19.4
+ },
+ {
+  "texto": "pero",
+  "inicio": 19.7,
+  "fin": 20.2
+ },
+ {
+  "texto": "ya",
+  "inicio": 20.2,
+  "fin": 20.36
+ },
+ {
+  "texto": "baño",
+  "inicio": 20.36,
+  "fin": 20.6
+ },
+ {
+  "texto": "sin",
+  "inicio": 20.6,
+  "fin": 20.96
+ },
+ {
+  "texto": "conseguirlo.",
+  "inicio": 20.96,
+  "fin": 21.48
+ },
+ {
+  "texto": "Necesitaba",
+  "inicio": 21.78,
+  "fin": 22.58
+ },
+ {
+  "texto": "un",
+  "inicio": 22.58,
+  "fin": 22.88
+ },
+ {
+  "texto": "plan",
+  "inicio": 22.88,
+  "fin": 23.1
+ },
+ {
+  "texto": "que",
+  "inicio": 23.1,
+  "fin": 23.28
+ },
+ {
+  "texto": "se",
+  "inicio": 23.28,
+  "fin": 24.14
+ },
+ {
+  "texto": "adiviera",
+  "inicio": 24.14,
+  "fin": 24.7
+ },
+ {
+  "texto": "a",
+  "inicio": 24.7,
+  "fin": 24.92
+ },
+ {
+  "texto": "mi",
+  "inicio": 24.92,
+  "fin": 25.26
+ },
+ {
+  "texto": "cada",
+  "inicio": 25.26,
+  "fin": 25.7
+ },
+ {
+  "texto": "semana",
+  "inicio": 25.7,
+  "fin": 25.76
+ },
+ {
+  "texto": "para",
+  "inicio": 25.96,
+  "fin": 26.1
+ },
+ {
+  "texto": "que",
+  "inicio": 26.1,
+  "fin": 26.28
+ },
+ {
+  "texto": "no",
+  "inicio": 26.28,
+  "fin": 26.38
+ },
+ {
+  "texto": "lo",
+  "inicio": 26.38,
+  "fin": 26.54
+ },
+ {
+  "texto": "tuviera",
+  "inicio": 26.54,
+  "fin": 26.8
+ },
+ {
+  "texto": "que",
+  "inicio": 26.8,
+  "fin": 27.04
+ },
+ {
+  "texto": "abandonar.",
+  "inicio": 27.04,
+  "fin": 27.9
+ },
+ {
+  "texto": "Escribe",
+  "inicio": 28.14,
+  "fin": 28.58
+ },
+ {
+  "texto": "la",
+  "inicio": 28.58,
+  "fin": 28.9
+ },
+ {
+  "texto": "palabra",
+  "inicio": 28.9,
+  "fin": 29.26
+ },
+ {
+  "texto": "grasa",
+  "inicio": 29.26,
+  "fin": 29.96
+ },
+ {
+  "texto": "y",
+  "inicio": 29.96,
+  "fin": 30.12
+ },
+ {
+  "texto": "te",
+  "inicio": 30.12,
+  "fin": 30.26
+ },
+ {
+  "texto": "envío",
+  "inicio": 30.26,
+  "fin": 30.4
+ },
+ {
+  "texto": "el",
+  "inicio": 30.4,
+  "fin": 30.56
+ },
+ {
+  "texto": "método",
+  "inicio": 30.56,
+  "fin": 30.82
+ },
+ {
+  "texto": "que",
+  "inicio": 30.82,
+  "fin": 31.02
+ },
+ {
+  "texto": "utilice",
+  "inicio": 31.02,
+  "fin": 31.3
+ },
+ {
+  "texto": "yo.",
+  "inicio": 31.3,
+  "fin": 31.3
+ }
+]

@@ -1,0 +1,287 @@
+[
+ {
+  "texto": "Vale",
+  "inicio": 1.08,
+  "fin": 1.34
+ },
+ {
+  "texto": "chicos,",
+  "inicio": 1.34,
+  "fin": 1.62
+ },
+ {
+  "texto": "acabo",
+  "inicio": 1.7,
+  "fin": 1.88
+ },
+ {
+  "texto": "de",
+  "inicio": 1.88,
+  "fin": 2.12
+ },
+ {
+  "texto": "entrar",
+  "inicio": 2.12,
+  "fin": 2.52
+ },
+ {
+  "texto": "ahí",
+  "inicio": 2.52,
+  "fin": 2.74
+ },
+ {
+  "texto": "a",
+  "inicio": 2.74,
+  "fin": 2.86
+ },
+ {
+  "texto": "una",
+  "inicio": 2.86,
+  "fin": 3.02
+ },
+ {
+  "texto": "oficina,",
+  "inicio": 3.02,
+  "fin": 3.48
+ },
+ {
+  "texto": "un",
+  "inicio": 3.54,
+  "fin": 3.66
+ },
+ {
+  "texto": "tío",
+  "inicio": 3.66,
+  "fin": 3.84
+ },
+ {
+  "texto": "que",
+  "inicio": 3.84,
+  "fin": 4.04
+ },
+ {
+  "texto": "yo",
+  "inicio": 4.04,
+  "fin": 4.6
+ },
+ {
+  "texto": "me",
+  "inicio": 4.6,
+  "fin": 4.72
+ },
+ {
+  "texto": "han",
+  "inicio": 4.72,
+  "fin": 4.98
+ },
+ {
+  "texto": "dicho",
+  "inicio": 4.98,
+  "fin": 5.22
+ },
+ {
+  "texto": "literalmente",
+  "inicio": 5.22,
+  "fin": 5.68
+ },
+ {
+  "texto": "en",
+  "inicio": 5.68,
+  "fin": 5.68
+ },
+ {
+  "texto": "el",
+  "inicio": 5.76,
+  "fin": 5.84
+ },
+ {
+  "texto": "último",
+  "inicio": 5.84,
+  "fin": 6.06
+ },
+ {
+  "texto": "entrevista",
+  "inicio": 6.06,
+  "fin": 6.32
+ },
+ {
+  "texto": "dormir,",
+  "inicio": 6.32,
+  "fin": 6.46
+ },
+ {
+  "texto": "mira,",
+  "inicio": 6.66,
+  "fin": 6.72
+ },
+ {
+  "texto": "mira,",
+  "inicio": 6.8,
+  "fin": 6.9
+ },
+ {
+  "texto": "ese",
+  "inicio": 7,
+  "fin": 7.18
+ },
+ {
+  "texto": "tiene",
+  "inicio": 7.18,
+  "fin": 7.42
+ },
+ {
+  "texto": "mucha",
+  "inicio": 7.42,
+  "fin": 7.7
+ },
+ {
+  "texto": "pasta,",
+  "inicio": 7.7,
+  "fin": 8.04
+ },
+ {
+  "texto": "ha",
+  "inicio": 8.1,
+  "fin": 8.3
+ },
+ {
+  "texto": "entrado,",
+  "inicio": 8.3,
+  "fin": 8.66
+ },
+ {
+  "texto": "no",
+  "inicio": 8.7,
+  "fin": 8.86
+ },
+ {
+  "texto": "sé",
+  "inicio": 8.86,
+  "fin": 9.04
+ },
+ {
+  "texto": "cuánto",
+  "inicio": 9.04,
+  "fin": 9.16
+ },
+ {
+  "texto": "va",
+  "inicio": 9.3,
+  "fin": 9.34
+ },
+ {
+  "texto": "a",
+  "inicio": 9.34,
+  "fin": 9.42
+ },
+ {
+  "texto": "tardar",
+  "inicio": 9.42,
+  "fin": 9.62
+ },
+ {
+  "texto": "en",
+  "inicio": 9.62,
+  "fin": 9.78
+ },
+ {
+  "texto": "salir,",
+  "inicio": 9.78,
+  "fin": 9.9
+ },
+ {
+  "texto": "pero",
+  "inicio": 10,
+  "fin": 10.1
+ },
+ {
+  "texto": "me",
+  "inicio": 10.1,
+  "fin": 10.16
+ },
+ {
+  "texto": "voy",
+  "inicio": 10.16,
+  "fin": 10.18
+ },
+ {
+  "texto": "a",
+  "inicio": 10.18,
+  "fin": 10.3
+ },
+ {
+  "texto": "quedar",
+  "inicio": 10.3,
+  "fin": 10.58
+ },
+ {
+  "texto": "aquí",
+  "inicio": 10.58,
+  "fin": 10.74
+ },
+ {
+  "texto": "hasta",
+  "inicio": 10.74,
+  "fin": 10.88
+ },
+ {
+  "texto": "que",
+  "inicio": 10.88,
+  "fin": 11.1
+ },
+ {
+  "texto": "salga",
+  "inicio": 11.1,
+  "fin": 11.7
+ },
+ {
+  "texto": "y",
+  "inicio": 11.7,
+  "fin": 11.8
+ },
+ {
+  "texto": "le",
+  "inicio": 11.8,
+  "fin": 11.88
+ },
+ {
+  "texto": "voy",
+  "inicio": 11.88,
+  "fin": 11.94
+ },
+ {
+  "texto": "a",
+  "inicio": 11.94,
+  "fin": 12.1
+ },
+ {
+  "texto": "preguntar",
+  "inicio": 12.1,
+  "fin": 12.54
+ },
+ {
+  "texto": "cómo",
+  "inicio": 12.54,
+  "fin": 12.56
+ },
+ {
+  "texto": "se",
+  "inicio": 12.72,
+  "fin": 12.8
+ },
+ {
+  "texto": "ha",
+  "inicio": 12.8,
+  "fin": 12.9
+ },
+ {
+  "texto": "hecho",
+  "inicio": 12.9,
+  "fin": 13.14
+ },
+ {
+  "texto": "rico.",
+  "inicio": 13.14,
+  "fin": 13.2
+ }
+]

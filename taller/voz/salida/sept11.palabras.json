@@ -1,0 +1,572 @@
+[
+ {
+  "texto": "Esto",
+  "inicio": 2.1,
+  "fin": 2.26
+ },
+ {
+  "texto": "de",
+  "inicio": 2.26,
+  "fin": 2.46
+ },
+ {
+  "texto": "aquí",
+  "inicio": 2.46,
+  "fin": 2.8
+ },
+ {
+  "texto": "arriba",
+  "inicio": 2.8,
+  "fin": 3
+ },
+ {
+  "texto": "haría",
+  "inicio": 3,
+  "fin": 3.2
+ },
+ {
+  "texto": "un",
+  "inicio": 3.2,
+  "fin": 3.4
+ },
+ {
+  "texto": "millonario.",
+  "inicio": 3.4,
+  "fin": 4.08
+ },
+ {
+  "texto": "Esto",
+  "inicio": 5.16,
+  "fin": 5.42
+ },
+ {
+  "texto": "de",
+  "inicio": 5.42,
+  "fin": 5.7
+ },
+ {
+  "texto": "aquí",
+  "inicio": 5.7,
+  "fin": 6.14
+ },
+ {
+  "texto": "arriba",
+  "inicio": 6.14,
+  "fin": 6.74
+ },
+ {
+  "texto": "haría",
+  "inicio": 6.74,
+  "fin": 7
+ },
+ {
+  "texto": "un",
+  "inicio": 7.04,
+  "fin": 7.38
+ },
+ {
+  "texto": "pobre.",
+  "inicio": 7.38,
+  "fin": 8.04
+ },
+ {
+  "texto": "Esto",
+  "inicio": 8.62,
+  "fin": 8.8
+ },
+ {
+  "texto": "de",
+  "inicio": 8.8,
+  "fin": 8.98
+ },
+ {
+  "texto": "aquí",
+  "inicio": 8.98,
+  "fin": 9.58
+ },
+ {
+  "texto": "arriba",
+  "inicio": 9.58,
+  "fin": 10.62
+ },
+ {
+  "texto": "haría",
+  "inicio": 10.62,
+  "fin": 13.9
+ },
+ {
+  "texto": "un",
+  "inicio": 13.9,
+  "fin": 14
+ },
+ {
+  "texto": "millonario.",
+  "inicio": 14.06,
+  "fin": 14.98
+ },
+ {
+  "texto": "Y",
+  "inicio": 15.22,
+  "fin": 15.48
+ },
+ {
+  "texto": "esto",
+  "inicio": 15.48,
+  "fin": 15.62
+ },
+ {
+  "texto": "de",
+  "inicio": 15.62,
+  "fin": 15.78
+ },
+ {
+  "texto": "aquí",
+  "inicio": 15.78,
+  "fin": 16.12
+ },
+ {
+  "texto": "arriba",
+  "inicio": 16.12,
+  "fin": 17
+ },
+ {
+  "texto": "haría",
+  "inicio": 17,
+  "fin": 17.18
+ },
+ {
+  "texto": "un",
+  "inicio": 17.18,
+  "fin": 17.44
+ },
+ {
+  "texto": "pobre.",
+  "inicio": 17.44,
+  "fin": 17.76
+ },
+ {
+  "texto": "Esto",
+  "inicio": 18.44,
+  "fin": 18.62
+ },
+ {
+  "texto": "de",
+  "inicio": 18.62,
+  "fin": 18.76
+ },
+ {
+  "texto": "aquí",
+  "inicio": 18.76,
+  "fin": 19.14
+ },
+ {
+  "texto": "arriba",
+  "inicio": 19.14,
+  "fin": 19.72
+ },
+ {
+  "texto": "lo",
+  "inicio": 19.72,
+  "fin": 19.88
+ },
+ {
+  "texto": "haría",
+  "inicio": 19.88,
+  "fin": 20
+ },
+ {
+  "texto": "un",
+  "inicio": 20.12,
+  "fin": 20.34
+ },
+ {
+  "texto": "millonario.",
+  "inicio": 20.34,
+  "fin": 21.12
+ },
+ {
+  "texto": "Esto",
+  "inicio": 21.44,
+  "fin": 21.6
+ },
+ {
+  "texto": "de",
+  "inicio": 21.6,
+  "fin": 21.76
+ },
+ {
+  "texto": "aquí",
+  "inicio": 21.76,
+  "fin": 22.12
+ },
+ {
+  "texto": "arriba",
+  "inicio": 22.12,
+  "fin": 23.12
+ },
+ {
+  "texto": "lo",
+  "inicio": 23.12,
+  "fin": 23.24
+ },
+ {
+  "texto": "haría",
+  "inicio": 23.24,
+  "fin": 23.42
+ },
+ {
+  "texto": "un",
+  "inicio": 23.42,
+  "fin": 23.6
+ },
+ {
+  "texto": "pobre.",
+  "inicio": 23.6,
+  "fin": 24.18
+ },
+ {
+  "texto": "Esto",
+  "inicio": 25.02,
+  "fin": 25.28
+ },
+ {
+  "texto": "de",
+  "inicio": 25.28,
+  "fin": 25.48
+ },
+ {
+  "texto": "aquí",
+  "inicio": 25.48,
+  "fin": 25.86
+ },
+ {
+  "texto": "arriba",
+  "inicio": 25.86,
+  "fin": 26.04
+ },
+ {
+  "texto": "lo",
+  "inicio": 26.04,
+  "fin": 26.14
+ },
+ {
+  "texto": "haría",
+  "inicio": 26.14,
+  "fin": 26.32
+ },
+ {
+  "texto": "un",
+  "inicio": 26.34,
+  "fin": 26.48
+ },
+ {
+  "texto": "millonario.",
+  "inicio": 26.48,
+  "fin": 27.26
+ },
+ {
+  "texto": "Y",
+  "inicio": 27.28,
+  "fin": 27.52
+ },
+ {
+  "texto": "esto",
+  "inicio": 27.52,
+  "fin": 27.66
+ },
+ {
+  "texto": "de",
+  "inicio": 27.66,
+  "fin": 27.78
+ },
+ {
+  "texto": "aquí",
+  "inicio": 27.78,
+  "fin": 28.02
+ },
+ {
+  "texto": "arriba",
+  "inicio": 28.02,
+  "fin": 28.18
+ },
+ {
+  "texto": "lo",
+  "inicio": 28.18,
+  "fin": 28.28
+ },
+ {
+  "texto": "haría",
+  "inicio": 28.28,
+  "fin": 28.48
+ },
+ {
+  "texto": "un",
+  "inicio": 28.48,
+  "fin": 28.64
+ },
+ {
+  "texto": "un",
+  "inicio": 23.42,
+  "fin": 23.64
+ },
+ {
+  "texto": "pobre",
+  "inicio": 23.64,
+  "fin": 24.88
+ },
+ {
+  "texto": "esto",
+  "inicio": 24.88,
+  "fin": 25.28
+ },
+ {
+  "texto": "de",
+  "inicio": 25.28,
+  "fin": 25.46
+ },
+ {
+  "texto": "aquí",
+  "inicio": 25.46,
+  "fin": 25.8
+ },
+ {
+  "texto": "arriba",
+  "inicio": 25.8,
+  "fin": 26.04
+ },
+ {
+  "texto": "lo",
+  "inicio": 26.04,
+  "fin": 26.16
+ },
+ {
+  "texto": "haría",
+  "inicio": 26.16,
+  "fin": 26.32
+ },
+ {
+  "texto": "un",
+  "inicio": 26.34,
+  "fin": 26.38
+ },
+ {
+  "texto": "millonario",
+  "inicio": 26.48,
+  "fin": 27.32
+ },
+ {
+  "texto": "y",
+  "inicio": 27.32,
+  "fin": 27.52
+ },
+ {
+  "texto": "esto",
+  "inicio": 27.52,
+  "fin": 27.62
+ },
+ {
+  "texto": "de",
+  "inicio": 27.62,
+  "fin": 27.78
+ },
+ {
+  "texto": "aquí",
+  "inicio": 27.78,
+  "fin": 28.04
+ },
+ {
+  "texto": "arriba",
+  "inicio": 28.04,
+  "fin": 28.18
+ },
+ {
+  "texto": "lo",
+  "inicio": 28.18,
+  "fin": 28.28
+ },
+ {
+  "texto": "haría",
+  "inicio": 28.28,
+  "fin": 28.46
+ },
+ {
+  "texto": "un",
+  "inicio": 28.46,
+  "fin": 28.72
+ },
+ {
+  "texto": "pobre",
+  "inicio": 28.72,
+  "fin": 29.72
+ },
+ {
+  "texto": "adivina",
+  "inicio": 29.72,
+  "fin": 30.12
+ },
+ {
+  "texto": "cuál",
+  "inicio": 30.12,
+  "fin": 30.28
+ },
+ {
+  "texto": "es",
+  "inicio": 30.28,
+  "fin": 30.32
+ },
+ {
+  "texto": "la",
+  "inicio": 30.32,
+  "fin": 30.7
+ },
+ {
+  "texto": "diferencia",
+  "inicio": 30.7,
+  "fin": 30.96
+ },
+ {
+  "texto": "entre",
+  "inicio": 30.98,
+  "fin": 31
+ },
+ {
+  "texto": "ambos",
+  "inicio": 31.28,
+  "fin": 33.46
+ },
+ {
+  "texto": "no",
+  "inicio": 33.46,
+  "fin": 33.62
+ },
+ {
+  "texto": "se",
+  "inicio": 33.62,
+  "fin": 33.92
+ },
+ {
+  "texto": "trata",
+  "inicio": 33.92,
+  "fin": 34.18
+ },
+ {
+  "texto": "del",
+  "inicio": 34.18,
+  "fin": 34.56
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 34.56,
+  "fin": 36.52
+ },
+ {
+  "texto": "no",
+  "inicio": 36.52,
+  "fin": 36.66
+ },
+ {
+  "texto": "se",
+  "inicio": 36.66,
+  "fin": 36.88
+ },
+ {
+  "texto": "trata",
+  "inicio": 36.88,
+  "fin": 37.1
+ },
+ {
+  "texto": "del",
+  "inicio": 37.1,
+  "fin": 37.38
+ },
+ {
+  "texto": "dinero",
+  "inicio": 37.38,
+  "fin": 38.58
+ },
+ {
+  "texto": "no",
+  "inicio": 38.58,
+  "fin": 38.72
+ },
+ {
+  "texto": "se",
+  "inicio": 38.72,
+  "fin": 38.94
+ },
+ {
+  "texto": "trata",
+  "inicio": 38.94,
+  "fin": 39.1
+ },
+ {
+  "texto": "del",
+  "inicio": 39.1,
+  "fin": 39.36
+ },
+ {
+  "texto": "dinero",
+  "inicio": 39.36,
+  "fin": 39.7
+ },
+ {
+  "texto": "se",
+  "inicio": 39.7,
+  "fin": 40.04
+ },
+ {
+  "texto": "trata",
+  "inicio": 40.04,
+  "fin": 40.08
+ },
+ {
+  "texto": "no",
+  "inicio": 43.12,
+  "fin": 43.26
+ },
+ {
+  "texto": "se",
+  "inicio": 43.26,
+  "fin": 43.46
+ },
+ {
+  "texto": "trata",
+  "inicio": 43.46,
+  "fin": 43.6
+ },
+ {
+  "texto": "del",
+  "inicio": 43.6,
+  "fin": 43.8
+ },
+ {
+  "texto": "dinero",
+  "inicio": 43.8,
+  "fin": 44.02
+ },
+ {
+  "texto": "se",
+  "inicio": 44.02,
+  "fin": 44.26
+ },
+ {
+  "texto": "trata",
+  "inicio": 44.26,
+  "fin": 44.42
+ },
+ {
+  "texto": "de",
+  "inicio": 44.42,
+  "fin": 44.48
+ },
+ {
+  "texto": "la",
+  "inicio": 44.48,
+  "fin": 44.68
+ },
+ {
+  "texto": "identidad",
+  "inicio": 44.68,
+  "fin": 45
+ }
+]

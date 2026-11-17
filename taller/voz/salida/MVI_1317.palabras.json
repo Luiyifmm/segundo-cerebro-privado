@@ -1,0 +1,142 @@
+[
+ {
+  "texto": "¡Perdona!",
+  "inicio": 0.28,
+  "fin": 1.94
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 2.34,
+  "fin": 2.6
+ },
+ {
+  "texto": "puedo",
+  "inicio": 2.6,
+  "fin": 2.86
+ },
+ {
+  "texto": "hacer",
+  "inicio": 2.86,
+  "fin": 3.08
+ },
+ {
+  "texto": "unas",
+  "inicio": 3.08,
+  "fin": 3.34
+ },
+ {
+  "texto": "preguntitas?",
+  "inicio": 3.34,
+  "fin": 4
+ },
+ {
+  "texto": "Estoy",
+  "inicio": 4.5,
+  "fin": 4.76
+ },
+ {
+  "texto": "entrevistando",
+  "inicio": 4.76,
+  "fin": 5.18
+ },
+ {
+  "texto": "a",
+  "inicio": 5.18,
+  "fin": 5.3
+ },
+ {
+  "texto": "gente",
+  "inicio": 5.3,
+  "fin": 5.54
+ },
+ {
+  "texto": "por",
+  "inicio": 5.54,
+  "fin": 5.66
+ },
+ {
+  "texto": "la",
+  "inicio": 5.66,
+  "fin": 5.88
+ },
+ {
+  "texto": "calle",
+  "inicio": 5.88,
+  "fin": 6.04
+ },
+ {
+  "texto": "y",
+  "inicio": 6.04,
+  "fin": 6.26
+ },
+ {
+  "texto": "preguntándoles",
+  "inicio": 6.26,
+  "fin": 6.78
+ },
+ {
+  "texto": "cómo",
+  "inicio": 6.78,
+  "fin": 6.94
+ },
+ {
+  "texto": "se",
+  "inicio": 6.94,
+  "fin": 7.02
+ },
+ {
+  "texto": "han",
+  "inicio": 7.02,
+  "fin": 7.14
+ },
+ {
+  "texto": "hecho",
+  "inicio": 7.14,
+  "fin": 7.32
+ },
+ {
+  "texto": "ricos.",
+  "inicio": 7.32,
+  "fin": 7.76
+ },
+ {
+  "texto": "¿Te",
+  "inicio": 7.76,
+  "fin": 8.06
+ },
+ {
+  "texto": "gustaría",
+  "inicio": 8.06,
+  "fin": 8.48
+ },
+ {
+  "texto": "participar?",
+  "inicio": 8.48,
+  "fin": 9
+ },
+ {
+  "texto": "No.",
+  "inicio": 9.78,
+  "fin": 10
+ },
+ {
+  "texto": "Bueno,",
+  "inicio": 10.62,
+  "fin": 10.78
+ },
+ {
+  "texto": "otro",
+  "inicio": 10.92,
+  "fin": 11.12
+ },
+ {
+  "texto": "día.",
+  "inicio": 11.12,
+  "fin": 11.18
+ },
+ {
+  "texto": "¡Gracias!",
+  "inicio": 11.28,
+  "fin": 11.78
+ }
+]

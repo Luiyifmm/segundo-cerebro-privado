@@ -1,0 +1,1694 @@
+[
+{
+"texto": "Un",
+"inicio": 0.634,
+"fin": 0.694,
+"score": 0.985
+},
+{
+"texto": "diablo",
+"inicio": 0.734,
+"fin": 0.954,
+"score": 0.779
+},
+{
+"texto": "se",
+"inicio": 0.994,
+"fin": 1.074,
+"score": 0.806
+},
+{
+"texto": "cayó",
+"inicio": 1.114,
+"fin": 1.294,
+"score": 0.624
+},
+{
+"texto": "al",
+"inicio": 1.314,
+"fin": 1.495,
+"score": 0.803
+},
+{
+"texto": "agua",
+"inicio": 1.515,
+"fin": 1.695,
+"score": 0.835
+},
+{
+"texto": "y",
+"inicio": 1.735,
+"fin": 1.855,
+"score": 0.578
+},
+{
+"texto": "otro",
+"inicio": 1.915,
+"fin": 2.115,
+"score": 0.927
+},
+{
+"texto": "diablo",
+"inicio": 2.155,
+"fin": 2.495,
+"score": 0.717
+},
+{
+"texto": "lo",
+"inicio": 2.575,
+"fin": 2.675,
+"score": 0.956
+},
+{
+"texto": "sacó",
+"inicio": 2.715,
+"fin": 3.175,
+"score": 0.839
+},
+{
+"texto": "Y",
+"inicio": 3.195,
+"fin": 3.315,
+"score": 0.737
+},
+{
+"texto": "otro",
+"inicio": 3.416,
+"fin": 3.596,
+"score": 0.561
+},
+{
+"texto": "diablo",
+"inicio": 3.716,
+"fin": 4.076,
+"score": 0.671
+},
+{
+"texto": "que",
+"inicio": 4.116,
+"fin": 4.216,
+"score": 0.678
+},
+{
+"texto": "pasaba",
+"inicio": 4.296,
+"fin": 4.756,
+"score": 0.92
+},
+{
+"texto": "dijo",
+"inicio": 4.796,
+"fin": 5.176,
+"score": 0.682
+},
+{
+"texto": "¿Qué",
+"inicio": 5.196,
+"fin": 5.337,
+"score": 0.656
+},
+{
+"texto": "diablos",
+"inicio": 5.397,
+"fin": 5.757,
+"score": 0.77
+},
+{
+"texto": "pasó?",
+"inicio": 5.817,
+"fin": 8.818,
+"score": 0.799
+},
+{
+"texto": "El",
+"inicio": 8.898,
+"fin": 8.958,
+"score": 0.658
+},
+{
+"texto": "diablito",
+"inicio": 8.978,
+"fin": 9.299,
+"score": 0.56
+},
+{
+"texto": "engarrotado",
+"inicio": 9.339,
+"fin": 10.059,
+"score": 0.804
+},
+{
+"texto": "dijo",
+"inicio": 10.119,
+"fin": 10.519,
+"score": 0.842
+},
+{
+"texto": "que",
+"inicio": 10.559,
+"fin": 10.679,
+"score": 0.713
+},
+{
+"texto": "voy",
+"inicio": 10.739,
+"fin": 10.999,
+"score": 0.674
+},
+{
+"texto": "a",
+"inicio": 11.019,
+"fin": 11.06,
+"score": 0.866
+},
+{
+"texto": "saber",
+"inicio": 11.12,
+"fin": 11.72,
+"score": 0.699
+},
+{
+"texto": "A",
+"inicio": 11.76,
+"fin": 11.86,
+"score": 0.723
+},
+{
+"texto": "lo",
+"inicio": 11.9,
+"fin": 12.04,
+"score": 0.694
+},
+{
+"texto": "mejor",
+"inicio": 12.12,
+"fin": 12.4,
+"score": 0.739
+},
+{
+"texto": "fue",
+"inicio": 12.46,
+"fin": 12.62,
+"score": 0.715
+},
+{
+"texto": "la",
+"inicio": 12.68,
+"fin": 12.8,
+"score": 0.754
+},
+{
+"texto": "diabla,",
+"inicio": 12.84,
+"fin": 13.141,
+"score": 0.728
+},
+{
+"texto": "la",
+"inicio": 13.161,
+"fin": 13.341,
+"score": 0.72
+},
+{
+"texto": "diabla",
+"inicio": 13.401,
+"fin": 13.781,
+"score": 0.739
+},
+{
+"texto": "de",
+"inicio": 13.841,
+"fin": 13.941,
+"score": 0.876
+},
+{
+"texto": "mi",
+"inicio": 14.041,
+"fin": 14.121,
+"score": 0.966
+},
+{
+"texto": "mujer",
+"inicio": 14.181,
+"fin": 14.561,
+"score": 0.851
+},
+{
+"texto": "La",
+"inicio": 17.243,
+"fin": 17.323,
+"score": 0.7
+},
+{
+"texto": "diabla",
+"inicio": 17.403,
+"fin": 17.663,
+"score": 0.475
+},
+{
+"texto": "que",
+"inicio": 17.703,
+"fin": 17.783,
+"score": 0.627
+},
+{
+"texto": "estaba",
+"inicio": 17.803,
+"fin": 17.983,
+"score": 0.505
+},
+{
+"texto": "oyendo",
+"inicio": 18.023,
+"fin": 18.423,
+"score": 0.945
+},
+{
+"texto": "pegó",
+"inicio": 18.503,
+"fin": 18.663,
+"score": 0.367
+},
+{
+"texto": "el",
+"inicio": 18.824,
+"fin": 18.884,
+"score": 0.945
+},
+{
+"texto": "grito",
+"inicio": 18.924,
+"fin": 19.244,
+"score": 0.861
+},
+{
+"texto": "Yo",
+"inicio": 19.304,
+"fin": 19.444,
+"score": 0.768
+},
+{
+"texto": "no",
+"inicio": 19.504,
+"fin": 19.604,
+"score": 0.857
+},
+{
+"texto": "fui",
+"inicio": 19.724,
+"fin": 19.964,
+"score": 0.811
+},
+{
+"texto": "y",
+"inicio": 20.004,
+"fin": 20.144,
+"score": 0.635
+},
+{
+"texto": "no",
+"inicio": 20.164,
+"fin": 20.204,
+"score": 0.004
+},
+{
+"texto": "me",
+"inicio": 20.264,
+"fin": 20.344,
+"score": 0.756
+},
+{
+"texto": "explico",
+"inicio": 20.384,
+"fin": 20.745,
+"score": 0.946
+},
+{
+"texto": "por",
+"inicio": 20.825,
+"fin": 20.945,
+"score": 0.982
+},
+{
+"texto": "qué",
+"inicio": 20.985,
+"fin": 21.105,
+"score": 0.772
+},
+{
+"texto": "diablo",
+"inicio": 21.165,
+"fin": 21.545,
+"score": 0.768
+},
+{
+"texto": "siempre",
+"inicio": 21.625,
+"fin": 21.885,
+"score": 0.901
+},
+{
+"texto": "me",
+"inicio": 21.945,
+"fin": 22.025,
+"score": 0.79
+},
+{
+"texto": "echa",
+"inicio": 22.045,
+"fin": 22.205,
+"score": 0.188
+},
+{
+"texto": "el",
+"inicio": 22.245,
+"fin": 22.325,
+"score": 0.817
+},
+{
+"texto": "muerto",
+"inicio": 22.365,
+"fin": 22.626,
+"score": 0.684
+},
+{
+"texto": "a",
+"inicio": 22.726,
+"fin": 22.766,
+"score": 0.699
+},
+{
+"texto": "mí",
+"inicio": 22.806,
+"fin": 22.846,
+"score": 0.277
+},
+{
+"texto": "Lo",
+"inicio": 25.674,
+"fin": 25.734,
+"score": 0.455
+},
+{
+"texto": "que",
+"inicio": 25.774,
+"fin": 25.874,
+"score": 0.69
+},
+{
+"texto": "pasa",
+"inicio": 25.914,
+"fin": 26.075,
+"score": 0.685
+},
+{
+"texto": "es",
+"inicio": 26.095,
+"fin": 26.175,
+"score": 0.644
+},
+{
+"texto": "que",
+"inicio": 26.195,
+"fin": 26.275,
+"score": 0.825
+},
+{
+"texto": "es",
+"inicio": 26.295,
+"fin": 26.375,
+"score": 0.682
+},
+{
+"texto": "un",
+"inicio": 26.435,
+"fin": 26.535,
+"score": 0.667
+},
+{
+"texto": "diablo",
+"inicio": 26.555,
+"fin": 26.856,
+"score": 0.439
+},
+{
+"texto": "parrandero",
+"inicio": 26.976,
+"fin": 27.537,
+"score": 0.933
+},
+{
+"texto": "y",
+"inicio": 27.557,
+"fin": 27.577,
+"score": 0.009
+},
+{
+"texto": "borrachín",
+"inicio": 27.737,
+"fin": 28.318,
+"score": 0.7
+},
+{
+"texto": "que",
+"inicio": 28.398,
+"fin": 28.598,
+"score": 0.808
+},
+{
+"texto": "no",
+"inicio": 28.678,
+"fin": 28.778,
+"score": 0.93
+},
+{
+"texto": "para",
+"inicio": 28.918,
+"fin": 29.119,
+"score": 0.842
+},
+{
+"texto": "en",
+"inicio": 29.139,
+"fin": 29.239,
+"score": 0.747
+},
+{
+"texto": "los",
+"inicio": 29.279,
+"fin": 29.379,
+"score": 0.743
+},
+{
+"texto": "infiernos",
+"inicio": 29.519,
+"fin": 29.98,
+"score": 0.83
+},
+{
+"texto": "sino",
+"inicio": 30.04,
+"fin": 30.26,
+"score": 0.801
+},
+{
+"texto": "siempre",
+"inicio": 30.34,
+"fin": 30.721,
+"score": 0.927
+},
+{
+"texto": "por",
+"inicio": 30.841,
+"fin": 31.001,
+"score": 0.953
+},
+{
+"texto": "ahí",
+"inicio": 31.041,
+"fin": 31.402,
+"score": 0.848
+},
+{
+"texto": "Lo",
+"inicio": 31.722,
+"fin": 31.782,
+"score": 0.946
+},
+{
+"texto": "que",
+"inicio": 31.822,
+"fin": 31.922,
+"score": 0.912
+},
+{
+"texto": "pasa",
+"inicio": 31.982,
+"fin": 32.163,
+"score": 0.848
+},
+{
+"texto": "es",
+"inicio": 32.203,
+"fin": 32.263,
+"score": 0.839
+},
+{
+"texto": "que",
+"inicio": 32.303,
+"fin": 32.383,
+"score": 0.781
+},
+{
+"texto": "es",
+"inicio": 32.403,
+"fin": 32.503,
+"score": 0.548
+},
+{
+"texto": "un",
+"inicio": 32.543,
+"fin": 32.603,
+"score": 0.762
+},
+{
+"texto": "diablo",
+"inicio": 32.643,
+"fin": 32.964,
+"score": 0.725
+},
+{
+"texto": "parrandero",
+"inicio": 33.064,
+"fin": 33.685,
+"score": 0.872
+},
+{
+"texto": "y",
+"inicio": 33.745,
+"fin": 33.785,
+"score": 0.875
+},
+{
+"texto": "borrachín",
+"inicio": 33.845,
+"fin": 34.406,
+"score": 0.698
+},
+{
+"texto": "que",
+"inicio": 34.506,
+"fin": 34.706,
+"score": 0.77
+},
+{
+"texto": "no",
+"inicio": 34.786,
+"fin": 34.886,
+"score": 0.758
+},
+{
+"texto": "para",
+"inicio": 35.027,
+"fin": 35.227,
+"score": 0.893
+},
+{
+"texto": "en",
+"inicio": 35.267,
+"fin": 35.307,
+"score": 0.053
+},
+{
+"texto": "los",
+"inicio": 35.387,
+"fin": 35.467,
+"score": 0.97
+},
+{
+"texto": "infiernos",
+"inicio": 35.607,
+"fin": 36.048,
+"score": 0.797
+},
+{
+"texto": "sino",
+"inicio": 36.128,
+"fin": 36.328,
+"score": 0.894
+},
+{
+"texto": "siempre",
+"inicio": 36.428,
+"fin": 36.789,
+"score": 0.882
+},
+{
+"texto": "por",
+"inicio": 36.909,
+"fin": 37.089,
+"score": 0.86
+},
+{
+"texto": "ahí",
+"inicio": 37.149,
+"fin": 37.33,
+"score": 0.668
+},
+{
+"texto": "Se",
+"inicio": 76.622,
+"fin": 76.803,
+"score": 0.557
+},
+{
+"texto": "la",
+"inicio": 76.843,
+"fin": 76.903,
+"score": 0.742
+},
+{
+"texto": "esquivo,",
+"inicio": 76.943,
+"fin": 77.344,
+"score": 0.827
+},
+{
+"texto": "ella",
+"inicio": 77.564,
+"fin": 77.905,
+"score": 0.651
+},
+{
+"texto": "le",
+"inicio": 77.985,
+"fin": 78.085,
+"score": 0.902
+},
+{
+"texto": "dio",
+"inicio": 78.145,
+"fin": 78.245,
+"score": 0.53
+},
+{
+"texto": "su",
+"inicio": 78.345,
+"fin": 78.506,
+"score": 0.53
+},
+{
+"texto": "mordisco",
+"inicio": 78.526,
+"fin": 79.027,
+"score": 0.811
+},
+{
+"texto": "Y",
+"inicio": 79.067,
+"fin": 79.107,
+"score": 0.431
+},
+{
+"texto": "ella",
+"inicio": 79.147,
+"fin": 79.267,
+"score": 0.188
+},
+{
+"texto": "le",
+"inicio": 79.287,
+"fin": 79.387,
+"score": 0.68
+},
+{
+"texto": "dio",
+"inicio": 79.427,
+"fin": 79.588,
+"score": 0.67
+},
+{
+"texto": "su",
+"inicio": 79.688,
+"fin": 79.828,
+"score": 0.57
+},
+{
+"texto": "jazmatón",
+"inicio": 79.868,
+"fin": 80.65,
+"score": 0.711
+},
+{
+"texto": "Ella",
+"inicio": 83.114,
+"fin": 83.275,
+"score": 0.651
+},
+{
+"texto": "le",
+"inicio": 83.315,
+"fin": 83.395,
+"score": 0.864
+},
+{
+"texto": "pisó",
+"inicio": 83.495,
+"fin": 83.776,
+"score": 0.735
+},
+{
+"texto": "la",
+"inicio": 83.856,
+"fin": 83.936,
+"score": 0.816
+},
+{
+"texto": "cola",
+"inicio": 84.016,
+"fin": 84.256,
+"score": 0.752
+},
+{
+"texto": "y",
+"inicio": 84.357,
+"fin": 84.397,
+"score": 0.515
+},
+{
+"texto": "eso",
+"inicio": 84.457,
+"fin": 84.637,
+"score": 0.786
+},
+{
+"texto": "al",
+"inicio": 84.677,
+"fin": 84.777,
+"score": 0.732
+},
+{
+"texto": "diablo",
+"inicio": 84.797,
+"fin": 85.178,
+"score": 0.661
+},
+{
+"texto": "le",
+"inicio": 85.218,
+"fin": 85.278,
+"score": 0.326
+},
+{
+"texto": "dolió",
+"inicio": 85.358,
+"fin": 85.739,
+"score": 0.683
+},
+{
+"texto": "Pegando",
+"inicio": 85.859,
+"fin": 86.42,
+"score": 0.862
+},
+{
+"texto": "tal",
+"inicio": 86.501,
+"fin": 86.681,
+"score": 0.874
+},
+{
+"texto": "lalarido",
+"inicio": 86.741,
+"fin": 87.342,
+"score": 0.856
+},
+{
+"texto": "que",
+"inicio": 87.402,
+"fin": 87.482,
+"score": 0.372
+},
+{
+"texto": "en",
+"inicio": 87.523,
+"fin": 87.603,
+"score": 0.858
+},
+{
+"texto": "todas",
+"inicio": 87.643,
+"fin": 87.983,
+"score": 0.823
+},
+{
+"texto": "partes",
+"inicio": 88.064,
+"fin": 88.404,
+"score": 0.755
+},
+{
+"texto": "se",
+"inicio": 88.424,
+"fin": 88.484,
+"score": 0.327
+},
+{
+"texto": "oyó",
+"inicio": 88.524,
+"fin": 88.725,
+"score": 0.401
+},
+{
+"texto": "y",
+"inicio": 102.274,
+"fin": 102.314,
+"score": 0.283
+},
+{
+"texto": "el",
+"inicio": 102.354,
+"fin": 102.394,
+"score": 0.028
+},
+{
+"texto": "pobre",
+"inicio": 102.414,
+"fin": 102.514,
+"score": 0.45
+},
+{
+"texto": "diablo",
+"inicio": 102.534,
+"fin": 102.754,
+"score": 0.361
+},
+{
+"texto": "no",
+"inicio": 102.794,
+"fin": 102.834,
+"score": 0.089
+},
+{
+"texto": "allaba",
+"inicio": 102.874,
+"fin": 103.294,
+"score": 0.631
+},
+{
+"texto": "que",
+"inicio": 103.314,
+"fin": 103.554,
+"score": 0.532
+},
+{
+"texto": "decir",
+"inicio": 103.654,
+"fin": 103.895,
+"score": 0.925
+},
+{
+"texto": "ni",
+"inicio": 103.935,
+"fin": 104.075,
+"score": 0.837
+},
+{
+"texto": "como",
+"inicio": 104.175,
+"fin": 104.355,
+"score": 0.902
+},
+{
+"texto": "hacer",
+"inicio": 104.415,
+"fin": 104.695,
+"score": 0.926
+},
+{
+"texto": "para",
+"inicio": 104.835,
+"fin": 105.155,
+"score": 0.678
+},
+{
+"texto": "quitarse",
+"inicio": 105.275,
+"fin": 105.755,
+"score": 0.904
+},
+{
+"texto": "de",
+"inicio": 105.815,
+"fin": 105.875,
+"score": 0.972
+},
+{
+"texto": "encima",
+"inicio": 105.895,
+"fin": 106.295,
+"score": 0.762
+},
+{
+"texto": "la",
+"inicio": 106.315,
+"fin": 106.355,
+"score": 0.037
+},
+{
+"texto": "diabla",
+"inicio": 106.555,
+"fin": 106.936,
+"score": 0.667
+},
+{
+"texto": "de",
+"inicio": 106.996,
+"fin": 107.156,
+"score": 0.673
+},
+{
+"texto": "su",
+"inicio": 107.216,
+"fin": 107.356,
+"score": 0.808
+},
+{
+"texto": "mujer",
+"inicio": 107.416,
+"fin": 107.856,
+"score": 0.91
+},
+{
+"texto": "entonces",
+"inicio": 110.457,
+"fin": 110.797,
+"score": 0.559
+},
+{
+"texto": "con",
+"inicio": 110.817,
+"fin": 110.997,
+"score": 0.707
+},
+{
+"texto": "cual",
+"inicio": 111.037,
+"fin": 111.137,
+"score": 0.158
+},
+{
+"texto": "su",
+"inicio": 111.157,
+"fin": 111.237,
+"score": 0.448
+},
+{
+"texto": "fuerza",
+"inicio": 111.397,
+"fin": 111.777,
+"score": 0.742
+},
+{
+"texto": "le",
+"inicio": 111.817,
+"fin": 111.897,
+"score": 0.6
+},
+{
+"texto": "pegó",
+"inicio": 111.957,
+"fin": 112.257,
+"score": 0.616
+},
+{
+"texto": "tal",
+"inicio": 112.337,
+"fin": 112.577,
+"score": 0.668
+},
+{
+"texto": "empeñón",
+"inicio": 112.597,
+"fin": 113.038,
+"score": 0.84
+},
+{
+"texto": "que",
+"inicio": 113.058,
+"fin": 113.118,
+"score": 0.003
+},
+{
+"texto": "la",
+"inicio": 113.498,
+"fin": 113.598,
+"score": 0.856
+},
+{
+"texto": "diabla",
+"inicio": 113.658,
+"fin": 113.978,
+"score": 0.767
+},
+{
+"texto": "cayó",
+"inicio": 114.038,
+"fin": 114.238,
+"score": 0.385
+},
+{
+"texto": "el",
+"inicio": 114.378,
+"fin": 114.438,
+"score": 0.244
+},
+{
+"texto": "mismo",
+"inicio": 114.458,
+"fin": 114.678,
+"score": 0.954
+},
+{
+"texto": "donde",
+"inicio": 114.758,
+"fin": 115.038,
+"score": 0.809
+},
+{
+"texto": "el",
+"inicio": 115.058,
+"fin": 115.138,
+"score": 0.724
+},
+{
+"texto": "diablo",
+"inicio": 115.178,
+"fin": 115.538,
+"score": 0.704
+},
+{
+"texto": "se",
+"inicio": 115.598,
+"fin": 115.698,
+"score": 0.682
+},
+{
+"texto": "cayó",
+"inicio": 115.738,
+"fin": 116.219,
+"score": 0.414
+},
+{
+"texto": "entonces",
+"inicio": 116.499,
+"fin": 116.859,
+"score": 0.664
+},
+{
+"texto": "con",
+"inicio": 116.899,
+"fin": 117.079,
+"score": 0.746
+},
+{
+"texto": "cual",
+"inicio": 117.099,
+"fin": 117.219,
+"score": 0.31
+},
+{
+"texto": "su",
+"inicio": 117.239,
+"fin": 117.339,
+"score": 0.678
+},
+{
+"texto": "fuerza",
+"inicio": 117.479,
+"fin": 117.739,
+"score": 0.577
+},
+{
+"texto": "le",
+"inicio": 117.759,
+"fin": 117.939,
+"score": 0.657
+},
+{
+"texto": "pegó",
+"inicio": 118.019,
+"fin": 118.339,
+"score": 0.595
+},
+{
+"texto": "tal",
+"inicio": 118.399,
+"fin": 118.579,
+"score": 0.607
+},
+{
+"texto": "empeñón",
+"inicio": 118.639,
+"fin": 119.16,
+"score": 0.671
+},
+{
+"texto": "que",
+"inicio": 119.24,
+"fin": 119.36,
+"score": 0.669
+},
+{
+"texto": "la",
+"inicio": 119.54,
+"fin": 119.7,
+"score": 0.634
+},
+{
+"texto": "diabla",
+"inicio": 119.72,
+"fin": 120.08,
+"score": 0.77
+},
+{
+"texto": "cayó",
+"inicio": 120.1,
+"fin": 120.3,
+"score": 0.316
+},
+{
+"texto": "el",
+"inicio": 120.42,
+"fin": 120.48,
+"score": 0.489
+},
+{
+"texto": "mismo",
+"inicio": 120.5,
+"fin": 120.74,
+"score": 0.864
+},
+{
+"texto": "donde",
+"inicio": 120.8,
+"fin": 121.1,
+"score": 0.87
+},
+{
+"texto": "el",
+"inicio": 121.16,
+"fin": 121.2,
+"score": 0.22
+},
+{
+"texto": "diablo",
+"inicio": 121.24,
+"fin": 121.6,
+"score": 0.754
+},
+{
+"texto": "se",
+"inicio": 121.68,
+"fin": 121.78,
+"score": 0.665
+},
+{
+"texto": "cayó",
+"inicio": 121.82,
+"fin": 122.04,
+"score": 0.519
+},
+{
+"texto": "Estaba",
+"inicio": 160.022,
+"fin": 160.202,
+"score": 0.166
+},
+{
+"texto": "en",
+"inicio": 160.242,
+"fin": 160.302,
+"score": 0.652
+},
+{
+"texto": "el",
+"inicio": 160.342,
+"fin": 160.402,
+"score": 0.738
+},
+{
+"texto": "agua",
+"inicio": 160.442,
+"fin": 160.742,
+"score": 0.69
+},
+{
+"texto": "y",
+"inicio": 160.782,
+"fin": 160.842,
+"score": 0.818
+},
+{
+"texto": "otro",
+"inicio": 160.942,
+"fin": 161.142,
+"score": 0.849
+},
+{
+"texto": "diablo",
+"inicio": 161.202,
+"fin": 161.523,
+"score": 0.535
+},
+{
+"texto": "la",
+"inicio": 161.603,
+"fin": 161.723,
+"score": 0.974
+},
+{
+"texto": "sacó",
+"inicio": 161.763,
+"fin": 162.203,
+"score": 0.754
+},
+{
+"texto": "Y",
+"inicio": 162.243,
+"fin": 162.303,
+"score": 0.75
+},
+{
+"texto": "otro",
+"inicio": 162.383,
+"fin": 162.643,
+"score": 0.598
+},
+{
+"texto": "diablo",
+"inicio": 162.703,
+"fin": 163.043,
+"score": 0.435
+},
+{
+"texto": "que",
+"inicio": 163.103,
+"fin": 163.223,
+"score": 0.585
+},
+{
+"texto": "pasaba",
+"inicio": 163.303,
+"fin": 163.743,
+"score": 0.868
+},
+{
+"texto": "dijo",
+"inicio": 163.823,
+"fin": 164.123,
+"score": 0.856
+},
+{
+"texto": "¿Qué",
+"inicio": 164.143,
+"fin": 164.344,
+"score": 0.632
+},
+{
+"texto": "diablos",
+"inicio": 164.424,
+"fin": 164.764,
+"score": 0.744
+},
+{
+"texto": "pasó?",
+"inicio": 164.824,
+"fin": 165.264,
+"score": 0.814
+},
+{
+"texto": "La",
+"inicio": 167.845,
+"fin": 167.905,
+"score": 0.748
+},
+{
+"texto": "diablita",
+"inicio": 167.925,
+"fin": 168.285,
+"score": 0.421
+},
+{
+"texto": "engarrotada",
+"inicio": 168.305,
+"fin": 169.005,
+"score": 0.672
+},
+{
+"texto": "dijo",
+"inicio": 169.085,
+"fin": 169.385,
+"score": 0.839
+},
+{
+"texto": "¿Fue",
+"inicio": 169.405,
+"fin": 169.585,
+"score": 0.362
+},
+{
+"texto": "el",
+"inicio": 169.605,
+"fin": 169.665,
+"score": 0.894
+},
+{
+"texto": "diablo",
+"inicio": 169.705,
+"fin": 170.046,
+"score": 0.76
+},
+{
+"texto": "mayor?",
+"inicio": 170.146,
+"fin": 170.506,
+"score": 0.925
+},
+{
+"texto": "Que",
+"inicio": 170.586,
+"fin": 170.766,
+"score": 0.503
+},
+{
+"texto": "por",
+"inicio": 170.866,
+"fin": 170.966,
+"score": 0.892
+},
+{
+"texto": "pisarle",
+"inicio": 171.066,
+"fin": 171.566,
+"score": 0.806
+},
+{
+"texto": "la",
+"inicio": 171.626,
+"fin": 171.726,
+"score": 0.876
+},
+{
+"texto": "cola",
+"inicio": 171.826,
+"fin": 172.066,
+"score": 0.862
+},
+{
+"texto": "me",
+"inicio": 172.126,
+"fin": 172.326,
+"score": 0.88
+},
+{
+"texto": "tiró",
+"inicio": 172.346,
+"fin": 172.666,
+"score": 0.649
+},
+{
+"texto": "de",
+"inicio": 172.726,
+"fin": 172.807,
+"score": 0.865
+},
+{
+"texto": "un",
+"inicio": 172.867,
+"fin": 172.967,
+"score": 0.84
+},
+{
+"texto": "empello",
+"inicio": 173.027,
+"fin": 173.787,
+"score": 0.716
+},
+{
+"texto": "Y",
+"inicio": 174.167,
+"fin": 174.527,
+"score": 0.768
+},
+{
+"texto": "el",
+"inicio": 174.767,
+"fin": 176.208,
+"score": 0.567
+},
+{
+"texto": "diablo",
+"inicio": 176.348,
+"fin": 176.608,
+"score": 0.597
+},
+{
+"texto": "que",
+"inicio": 176.628,
+"fin": 176.708,
+"score": 0.734
+},
+{
+"texto": "estaba",
+"inicio": 176.728,
+"fin": 176.928,
+"score": 0.542
+},
+{
+"texto": "oyendo",
+"inicio": 176.968,
+"fin": 177.368,
+"score": 0.902
+},
+{
+"texto": "ahí",
+"inicio": 177.388,
+"fin": 177.628,
+"score": 0.411
+},
+{
+"texto": "mismo",
+"inicio": 177.688,
+"fin": 178.008,
+"score": 0.795
+},
+{
+"texto": "le",
+"inicio": 178.088,
+"fin": 178.208,
+"score": 0.825
+},
+{
+"texto": "contestó",
+"inicio": 178.288,
+"fin": 178.769,
+"score": 0.885
+},
+{
+"texto": "¿Y",
+"inicio": 178.789,
+"fin": 179.029,
+"score": 0.675
+},
+{
+"texto": "eso",
+"inicio": 179.069,
+"fin": 179.329,
+"score": 0.761
+},
+{
+"texto": "le",
+"inicio": 179.429,
+"fin": 179.529,
+"score": 0.885
+},
+{
+"texto": "pasa",
+"inicio": 179.609,
+"fin": 179.909,
+"score": 0.882
+},
+{
+"texto": "por",
+"inicio": 179.969,
+"fin": 180.069,
+"score": 0.953
+},
+{
+"texto": "onés?",
+"inicio": 180.129,
+"fin": 180.409,
+"score": 0.584
+},
+{
+"texto": "Ya",
+"inicio": 180.429,
+"fin": 180.489,
+"score": 0.247
+},
+{
+"texto": "fue",
+"inicio": 180.569,
+"fin": 180.769,
+"score": 0.574
+},
+{
+"texto": "usted",
+"inicio": 180.829,
+"fin": 181.029,
+"score": 0.69
+},
+{
+"texto": "quien",
+"inicio": 181.089,
+"fin": 181.309,
+"score": 0.772
+},
+{
+"texto": "comenzó",
+"inicio": 181.37,
+"fin": 181.77,
+"score": 0.894
+},
+{
+"texto": "Se",
+"inicio": 184.642,
+"fin": 184.722,
+"score": 0.252
+},
+{
+"texto": "quedaron",
+"inicio": 184.742,
+"fin": 185.022,
+"score": 0.546
+},
+{
+"texto": "alegando,",
+"inicio": 185.182,
+"fin": 185.722,
+"score": 0.858
+},
+{
+"texto": "nunca",
+"inicio": 185.783,
+"fin": 186.123,
+"score": 0.824
+},
+{
+"texto": "supe",
+"inicio": 186.223,
+"fin": 186.463,
+"score": 0.941
+},
+{
+"texto": "en",
+"inicio": 186.483,
+"fin": 186.563,
+"score": 0.417
+},
+{
+"texto": "que",
+"inicio": 186.623,
+"fin": 186.723,
+"score": 0.859
+},
+{
+"texto": "paro",
+"inicio": 186.823,
+"fin": 187.163,
+"score": 0.673
+},
+{
+"texto": "Porque",
+"inicio": 187.303,
+"fin": 187.623,
+"score": 0.925
+},
+{
+"texto": "yo",
+"inicio": 187.783,
+"fin": 187.863,
+"score": 0.557
+},
+{
+"texto": "salí",
+"inicio": 187.883,
+"fin": 188.264,
+"score": 0.617
+},
+{
+"texto": "corriendo",
+"inicio": 188.324,
+"fin": 188.744,
+"score": 0.839
+},
+{
+"texto": "y",
+"inicio": 188.764,
+"fin": 188.784,
+"score": 0.137
+},
+{
+"texto": "cuando",
+"inicio": 188.824,
+"fin": 189.104,
+"score": 0.855
+},
+{
+"texto": "el",
+"inicio": 189.164,
+"fin": 189.244,
+"score": 0.829
+},
+{
+"texto": "diablo",
+"inicio": 189.264,
+"fin": 189.644,
+"score": 0.755
+},
+{
+"texto": "me",
+"inicio": 189.684,
+"fin": 189.764,
+"score": 0.907
+},
+{
+"texto": "miro",
+"inicio": 189.844,
+"fin": 190.104,
+"score": 0.915
+},
+{
+"texto": "Y",
+"inicio": 190.124,
+"fin": 190.144,
+"score": 0.025
+},
+{
+"texto": "me",
+"inicio": 190.164,
+"fin": 190.685,
+"score": 0.884
+},
+{
+"texto": "voy",
+"inicio": 190.725,
+"fin": 190.805,
+"score": 0.104
+},
+{
+"texto": "barrio",
+"inicio": 190.865,
+"fin": 191.125,
+"score": 0.589
+},
+{
+"texto": "sucio",
+"inicio": 191.345,
+"fin": 191.805,
+"score": 0.724
+},
+{
+"texto": "al",
+"inicio": 191.825,
+"fin": 192.045,
+"score": 0.495
+},
+{
+"texto": "carnaval",
+"inicio": 192.105,
+"fin": 192.626,
+"score": 0.607
+}
+]

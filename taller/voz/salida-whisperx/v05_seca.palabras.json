@@ -1,0 +1,38 @@
+[
+{
+"texto": "¡Pre",
+"inicio": 1.218,
+"fin": 1.439,
+"score": 0.422
+},
+{
+"texto": "del",
+"inicio": 1.46,
+"fin": 1.56,
+"score": 0.522
+},
+{
+"texto": "party!",
+"inicio": 1.641,
+"fin": 2.023,
+"score": 0.739
+},
+{
+"texto": "¡Pre",
+"inicio": 2.043,
+"fin": 3.513,
+"score": 0.867
+},
+{
+"texto": "del",
+"inicio": 3.533,
+"fin": 3.674,
+"score": 0.462
+},
+{
+"texto": "party!",
+"inicio": 3.774,
+"fin": 4.197,
+"score": 0.757
+}
+]

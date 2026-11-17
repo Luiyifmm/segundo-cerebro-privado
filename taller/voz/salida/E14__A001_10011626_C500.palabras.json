@@ -1,0 +1,122 @@
+[
+ {
+  "texto": "Te",
+  "inicio": 3.9,
+  "fin": 4.04
+ },
+ {
+  "texto": "voy",
+  "inicio": 4.04,
+  "fin": 4.18
+ },
+ {
+  "texto": "a",
+  "inicio": 4.18,
+  "fin": 4.3
+ },
+ {
+  "texto": "dar",
+  "inicio": 4.3,
+  "fin": 4.8
+ },
+ {
+  "texto": "tres",
+  "inicio": 4.8,
+  "fin": 5.12
+ },
+ {
+  "texto": "trucos",
+  "inicio": 5.12,
+  "fin": 5.58
+ },
+ {
+  "texto": "para",
+  "inicio": 5.58,
+  "fin": 5.74
+ },
+ {
+  "texto": "que",
+  "inicio": 5.74,
+  "fin": 5.96
+ },
+ {
+  "texto": "limienes",
+  "inicio": 5.96,
+  "fin": 6.3
+ },
+ {
+  "texto": "la",
+  "inicio": 6.3,
+  "fin": 6.52
+ },
+ {
+  "texto": "barriga",
+  "inicio": 6.52,
+  "fin": 6.98
+ },
+ {
+  "texto": "en",
+  "inicio": 6.98,
+  "fin": 7.12
+ },
+ {
+  "texto": "un",
+  "inicio": 7.12,
+  "fin": 7.36
+ },
+ {
+  "texto": "mes",
+  "inicio": 7.36,
+  "fin": 7.66
+ },
+ {
+  "texto": "y",
+  "inicio": 7.66,
+  "fin": 7.8
+ },
+ {
+  "texto": "el",
+  "inicio": 7.8,
+  "fin": 8.04
+ },
+ {
+  "texto": "último",
+  "inicio": 8.04,
+  "fin": 8.42
+ },
+ {
+  "texto": "es",
+  "inicio": 8.42,
+  "fin": 8.54
+ },
+ {
+  "texto": "el",
+  "inicio": 8.54,
+  "fin": 8.62
+ },
+ {
+  "texto": "que",
+  "inicio": 8.62,
+  "fin": 8.76
+ },
+ {
+  "texto": "más",
+  "inicio": 8.76,
+  "fin": 8.78
+ },
+ {
+  "texto": "resultado",
+  "inicio": 9.14,
+  "fin": 9.4
+ },
+ {
+  "texto": "os",
+  "inicio": 9.4,
+  "fin": 9.46
+ },
+ {
+  "texto": "da.",
+  "inicio": 9.46,
+  "fin": 9.52
+ }
+]

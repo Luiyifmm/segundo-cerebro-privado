@@ -1,0 +1,27 @@
+[
+ {
+  "texto": "Para",
+  "inicio": 0.2,
+  "fin": 0.32
+ },
+ {
+  "texto": "el",
+  "inicio": 0.32,
+  "fin": 0.46
+ },
+ {
+  "texto": "Hombro,",
+  "inicio": 0.46,
+  "fin": 0.94
+ },
+ {
+  "texto": "haz",
+  "inicio": 0.96,
+  "fin": 1.26
+ },
+ {
+  "texto": "esto.",
+  "inicio": 1.26,
+  "fin": 2
+ }
+]

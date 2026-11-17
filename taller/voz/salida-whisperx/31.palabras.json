@@ -1,0 +1,710 @@
+[
+{
+"texto": "Al",
+"inicio": 8.398,
+"fin": 8.578,
+"score": 0.686
+},
+{
+"texto": "mirar",
+"inicio": 8.598,
+"fin": 8.858,
+"score": 0.511
+},
+{
+"texto": "tus",
+"inicio": 8.898,
+"fin": 8.978,
+"score": 0.208
+},
+{
+"texto": "lindos",
+"inicio": 9.018,
+"fin": 9.258,
+"score": 0.323
+},
+{
+"texto": "ojos",
+"inicio": 9.278,
+"fin": 9.459,
+"score": 0.464
+},
+{
+"texto": "y",
+"inicio": 9.899,
+"fin": 9.939,
+"score": 0.484
+},
+{
+"texto": "al",
+"inicio": 10.019,
+"fin": 10.059,
+"score": 0.074
+},
+{
+"texto": "mirar",
+"inicio": 10.079,
+"fin": 10.299,
+"score": 0.354
+},
+{
+"texto": "tus",
+"inicio": 11.98,
+"fin": 13.16,
+"score": 0.72
+},
+{
+"texto": "lindas",
+"inicio": 13.24,
+"fin": 13.74,
+"score": 0.632
+},
+{
+"texto": "formas",
+"inicio": 13.82,
+"fin": 14.301,
+"score": 0.624
+},
+{
+"texto": "yo",
+"inicio": 14.421,
+"fin": 14.701,
+"score": 0.77
+},
+{
+"texto": "me",
+"inicio": 15.001,
+"fin": 15.141,
+"score": 0.676
+},
+{
+"texto": "digo",
+"inicio": 15.281,
+"fin": 15.521,
+"score": 0.573
+},
+{
+"texto": "Chavela",
+"inicio": 38.69,
+"fin": 42.033,
+"score": 0.74
+},
+{
+"texto": "Y",
+"inicio": 42.093,
+"fin": 42.133,
+"score": 0.394
+},
+{
+"texto": "al",
+"inicio": 42.193,
+"fin": 42.313,
+"score": 0.528
+},
+{
+"texto": "saber",
+"inicio": 42.373,
+"fin": 42.693,
+"score": 0.8
+},
+{
+"texto": "que",
+"inicio": 42.753,
+"fin": 42.834,
+"score": 0.717
+},
+{
+"texto": "no",
+"inicio": 42.894,
+"fin": 43.114,
+"score": 0.704
+},
+{
+"texto": "me",
+"inicio": 43.154,
+"fin": 43.274,
+"score": 0.757
+},
+{
+"texto": "queres",
+"inicio": 43.394,
+"fin": 43.674,
+"score": 0.619
+},
+{
+"texto": "Y",
+"inicio": 43.694,
+"fin": 43.714,
+"score": 0.006
+},
+{
+"texto": "al",
+"inicio": 43.854,
+"fin": 43.934,
+"score": 0.53
+},
+{
+"texto": "mirar",
+"inicio": 43.995,
+"fin": 44.335,
+"score": 0.764
+},
+{
+"texto": "que",
+"inicio": 44.415,
+"fin": 44.515,
+"score": 0.803
+},
+{
+"texto": "me",
+"inicio": 44.635,
+"fin": 44.735,
+"score": 0.732
+},
+{
+"texto": "desprecias",
+"inicio": 44.755,
+"fin": 45.396,
+"score": 0.744
+},
+{
+"texto": "Yo",
+"inicio": 45.436,
+"fin": 45.596,
+"score": 0.6
+},
+{
+"texto": "me",
+"inicio": 45.676,
+"fin": 45.796,
+"score": 0.895
+},
+{
+"texto": "digo",
+"inicio": 45.856,
+"fin": 46.276,
+"score": 0.835
+},
+{
+"texto": "Ay",
+"inicio": 47.157,
+"fin": 47.417,
+"score": 0.686
+},
+{
+"texto": "Chavela",
+"inicio": 47.598,
+"fin": 49.759,
+"score": 0.81
+},
+{
+"texto": "Cuando",
+"inicio": 49.779,
+"fin": 51.141,
+"score": 0.506
+},
+{
+"texto": "paso",
+"inicio": 51.201,
+"fin": 51.501,
+"score": 0.774
+},
+{
+"texto": "caminando",
+"inicio": 51.601,
+"fin": 52.362,
+"score": 0.723
+},
+{
+"texto": "Debajo",
+"inicio": 52.482,
+"fin": 52.982,
+"score": 0.685
+},
+{
+"texto": "de",
+"inicio": 53.002,
+"fin": 53.142,
+"score": 0.796
+},
+{
+"texto": "tu",
+"inicio": 53.242,
+"fin": 53.402,
+"score": 0.684
+},
+{
+"texto": "ventana",
+"inicio": 53.423,
+"fin": 53.963,
+"score": 0.723
+},
+{
+"texto": "Te",
+"inicio": 54.063,
+"fin": 54.183,
+"score": 0.624
+},
+{
+"texto": "echo",
+"inicio": 54.203,
+"fin": 54.323,
+"score": 0.363
+},
+{
+"texto": "un",
+"inicio": 54.343,
+"fin": 54.403,
+"score": 0.266
+},
+{
+"texto": "grito",
+"inicio": 54.443,
+"fin": 54.884,
+"score": 0.73
+},
+{
+"texto": "¡Eita!",
+"inicio": 54.904,
+"fin": 61.369,
+"score": 0.65
+},
+{
+"texto": "Chavela",
+"inicio": 61.429,
+"fin": 64.492,
+"score": 0.667
+},
+{
+"texto": "Mas",
+"inicio": 64.512,
+"fin": 64.652,
+"score": 0.476
+},
+{
+"texto": "despues",
+"inicio": 64.672,
+"fin": 65.072,
+"score": 0.521
+},
+{
+"texto": "sales",
+"inicio": 65.092,
+"fin": 65.473,
+"score": 0.653
+},
+{
+"texto": "tu",
+"inicio": 65.553,
+"fin": 65.693,
+"score": 0.386
+},
+{
+"texto": "hermano",
+"inicio": 65.753,
+"fin": 66.113,
+"score": 0.532
+},
+{
+"texto": "Y",
+"inicio": 66.193,
+"fin": 66.333,
+"score": 0.741
+},
+{
+"texto": "tu",
+"inicio": 66.373,
+"fin": 66.494,
+"score": 0.566
+},
+{
+"texto": "mama",
+"inicio": 66.574,
+"fin": 66.854,
+"score": 0.753
+},
+{
+"texto": "Ay,",
+"inicio": 68.778,
+"fin": 69.679,
+"score": 0.576
+},
+{
+"texto": "Chavela",
+"inicio": 69.759,
+"fin": 71.54,
+"score": 0.758
+},
+{
+"texto": "Ay,",
+"inicio": 71.82,
+"fin": 72.361,
+"score": 0.761
+},
+{
+"texto": "Chavela,",
+"inicio": 72.401,
+"fin": 73.161,
+"score": 0.547
+},
+{
+"texto": "Chavela,",
+"inicio": 73.201,
+"fin": 73.982,
+"score": 0.556
+},
+{
+"texto": "Chavela",
+"inicio": 74.022,
+"fin": 74.982,
+"score": 0.593
+},
+{
+"texto": "Es",
+"inicio": 75.083,
+"fin": 75.403,
+"score": 0.7
+},
+{
+"texto": "el",
+"inicio": 75.503,
+"fin": 75.583,
+"score": 0.576
+},
+{
+"texto": "nombre",
+"inicio": 75.703,
+"fin": 76.604,
+"score": 0.758
+},
+{
+"texto": "que",
+"inicio": 76.664,
+"fin": 76.784,
+"score": 0.341
+},
+{
+"texto": "yo",
+"inicio": 77.104,
+"fin": 77.945,
+"score": 0.754
+},
+{
+"texto": "llevo",
+"inicio": 77.965,
+"fin": 81.927,
+"score": 0.718
+},
+{
+"texto": "En",
+"inicio": 81.987,
+"fin": 82.087,
+"score": 0.67
+},
+{
+"texto": "mis",
+"inicio": 82.127,
+"fin": 82.247,
+"score": 0.638
+},
+{
+"texto": "días",
+"inicio": 82.348,
+"fin": 82.608,
+"score": 0.632
+},
+{
+"texto": "y",
+"inicio": 82.628,
+"fin": 82.648,
+"score": 0.005
+},
+{
+"texto": "en",
+"inicio": 82.808,
+"fin": 82.888,
+"score": 0.703
+},
+{
+"texto": "mis",
+"inicio": 82.928,
+"fin": 83.048,
+"score": 0.807
+},
+{
+"texto": "noches",
+"inicio": 83.108,
+"fin": 83.608,
+"score": 0.633
+},
+{
+"texto": "Y",
+"inicio": 83.648,
+"fin": 83.688,
+"score": 0.395
+},
+{
+"texto": "me",
+"inicio": 83.708,
+"fin": 83.849,
+"score": 0.582
+},
+{
+"texto": "duermo",
+"inicio": 83.869,
+"fin": 84.249,
+"score": 0.621
+},
+{
+"texto": "y",
+"inicio": 84.269,
+"fin": 84.289,
+"score": 0.073
+},
+{
+"texto": "me",
+"inicio": 84.389,
+"fin": 84.469,
+"score": 0.724
+},
+{
+"texto": "despierto",
+"inicio": 84.509,
+"fin": 85.069,
+"score": 0.544
+},
+{
+"texto": "Y",
+"inicio": 85.109,
+"fin": 85.129,
+"score": 0.011
+},
+{
+"texto": "en",
+"inicio": 85.21,
+"fin": 85.35,
+"score": 0.586
+},
+{
+"texto": "mis",
+"inicio": 85.41,
+"fin": 85.51,
+"score": 0.585
+},
+{
+"texto": "sueños",
+"inicio": 85.57,
+"fin": 85.91,
+"score": 0.731
+},
+{
+"texto": "te",
+"inicio": 85.99,
+"fin": 86.17,
+"score": 0.563
+},
+{
+"texto": "contento",
+"inicio": 86.19,
+"fin": 86.771,
+"score": 0.703
+},
+{
+"texto": "Y",
+"inicio": 86.831,
+"fin": 86.871,
+"score": 0.37
+},
+{
+"texto": "te",
+"inicio": 87.011,
+"fin": 87.171,
+"score": 0.683
+},
+{
+"texto": "digo",
+"inicio": 87.231,
+"fin": 87.691,
+"score": 0.812
+},
+{
+"texto": "Ay,",
+"inicio": 89.532,
+"fin": 89.913,
+"score": 0.586
+},
+{
+"texto": "Chavela",
+"inicio": 90.333,
+"fin": 91.434,
+"score": 0.544
+},
+{
+"texto": "Pero",
+"inicio": 111.73,
+"fin": 111.97,
+"score": 0.471
+},
+{
+"texto": "qué",
+"inicio": 112.01,
+"fin": 112.09,
+"score": 0.159
+},
+{
+"texto": "bárbara",
+"inicio": 112.11,
+"fin": 112.79,
+"score": 0.598
+},
+{
+"texto": "mujer.",
+"inicio": 112.81,
+"fin": 113.05,
+"score": 0.317
+},
+{
+"texto": "¿Cómo",
+"inicio": 141.57,
+"fin": 141.85,
+"score": 0.504
+},
+{
+"texto": "te",
+"inicio": 141.89,
+"fin": 141.97,
+"score": 0.498
+},
+{
+"texto": "has",
+"inicio": 142.01,
+"fin": 142.17,
+"score": 0.709
+},
+{
+"texto": "puesto?",
+"inicio": 142.23,
+"fin": 142.75,
+"score": 0.876
+},
+{
+"texto": "Ay,",
+"inicio": 143.771,
+"fin": 144.211,
+"score": 0.728
+},
+{
+"texto": "Chabela.",
+"inicio": 144.431,
+"fin": 147.792,
+"score": 0.767
+},
+{
+"texto": "Más",
+"inicio": 147.852,
+"fin": 147.972,
+"score": 0.434
+},
+{
+"texto": "tu",
+"inicio": 148.052,
+"fin": 148.092,
+"score": 0.156
+},
+{
+"texto": "amor",
+"inicio": 148.133,
+"fin": 148.433,
+"score": 0.809
+},
+{
+"texto": "es",
+"inicio": 148.473,
+"fin": 148.573,
+"score": 0.888
+},
+{
+"texto": "un",
+"inicio": 148.673,
+"fin": 148.793,
+"score": 0.503
+},
+{
+"texto": "fracaso,",
+"inicio": 148.853,
+"fin": 149.393,
+"score": 0.472
+},
+{
+"texto": "mejor",
+"inicio": 149.453,
+"fin": 149.813,
+"score": 0.459
+},
+{
+"texto": "me",
+"inicio": 149.873,
+"fin": 150.013,
+"score": 0.786
+},
+{
+"texto": "doy",
+"inicio": 150.033,
+"fin": 150.333,
+"score": 0.827
+},
+{
+"texto": "un",
+"inicio": 150.393,
+"fin": 150.453,
+"score": 0.735
+},
+{
+"texto": "balazo",
+"inicio": 150.513,
+"fin": 151.094,
+"score": 0.752
+},
+{
+"texto": "y",
+"inicio": 151.154,
+"fin": 151.214,
+"score": 0.793
+},
+{
+"texto": "te",
+"inicio": 151.334,
+"fin": 151.474,
+"score": 0.893
+},
+{
+"texto": "digo",
+"inicio": 151.574,
+"fin": 152.014,
+"score": 0.89
+},
+{
+"texto": "adiós,",
+"inicio": 153.655,
+"fin": 154.435,
+"score": 0.716
+},
+{
+"texto": "Chabela.",
+"inicio": 155.215,
+"fin": 157.016,
+"score": 0.708
+},
+{
+"texto": "Ay,",
+"inicio": 157.096,
+"fin": 157.296,
+"score": 0.562
+},
+{
+"texto": "Chabela.",
+"inicio": 157.316,
+"fin": 157.656,
+"score": 0.335
+}
+]

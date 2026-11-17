@@ -1,0 +1,672 @@
+[
+ {
+  "texto": "Desayunos",
+  "inicio": 24.78,
+  "fin": 25.64
+ },
+ {
+  "texto": "para",
+  "inicio": 25.62,
+  "fin": 25.96
+ },
+ {
+  "texto": "perder",
+  "inicio": 25.96,
+  "fin": 26.2
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 26.2,
+  "fin": 27.06
+ },
+ {
+  "texto": "Desayuno",
+  "inicio": 28.24,
+  "fin": 28.9
+ },
+ {
+  "texto": "para",
+  "inicio": 28.9,
+  "fin": 29.22
+ },
+ {
+  "texto": "perder",
+  "inicio": 29.22,
+  "fin": 29.48
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 29.48,
+  "fin": 30.06
+ },
+ {
+  "texto": "Desayuno",
+  "inicio": 30.38,
+  "fin": 31.04
+ },
+ {
+  "texto": "para",
+  "inicio": 31.04,
+  "fin": 31.38
+ },
+ {
+  "texto": "perder",
+  "inicio": 31.38,
+  "fin": 31.56
+ },
+ {
+  "texto": "grasa",
+  "inicio": 31.56,
+  "fin": 31.86
+ },
+ {
+  "texto": "más",
+  "inicio": 31.86,
+  "fin": 32.16
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 32.16,
+  "fin": 33.06
+ },
+ {
+  "texto": "Comida",
+  "inicio": 33.46,
+  "fin": 34.04
+ },
+ {
+  "texto": "para",
+  "inicio": 34.04,
+  "fin": 34.4
+ },
+ {
+  "texto": "perder",
+  "inicio": 34.4,
+  "fin": 34.66
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 34.66,
+  "fin": 35.28
+ },
+ {
+  "texto": "Comida",
+  "inicio": 35.54,
+  "fin": 36.1
+ },
+ {
+  "texto": "para",
+  "inicio": 36.1,
+  "fin": 36.44
+ },
+ {
+  "texto": "perder",
+  "inicio": 36.44,
+  "fin": 36.7
+ },
+ {
+  "texto": "grasa",
+  "inicio": 36.7,
+  "fin": 37.02
+ },
+ {
+  "texto": "más",
+  "inicio": 37.02,
+  "fin": 37.44
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 37.44,
+  "fin": 38.04
+ },
+ {
+  "texto": "Merienda",
+  "inicio": 38.32,
+  "fin": 39.02
+ },
+ {
+  "texto": "para",
+  "inicio": 39.02,
+  "fin": 39.38
+ },
+ {
+  "texto": "perder",
+  "inicio": 39.38,
+  "fin": 39.68
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 39.68,
+  "fin": 40.5
+ },
+ {
+  "texto": "Perienme.",
+  "inicio": 40.62,
+  "fin": 41.52
+ },
+ {
+  "texto": "P",
+  "inicio": 42.54,
+  "fin": 42.7
+ },
+ {
+  "texto": "***",
+  "inicio": 42.7,
+  "fin": 42.72
+ },
+ {
+  "texto": "otra",
+  "inicio": 42.9,
+  "fin": 43.1
+ },
+ {
+  "texto": "vez.",
+  "inicio": 43.1,
+  "fin": 44.58
+ },
+ {
+  "texto": "Desayuno",
+  "inicio": 45.66,
+  "fin": 46.36
+ },
+ {
+  "texto": "para",
+  "inicio": 46.36,
+  "fin": 46.66
+ },
+ {
+  "texto": "perder",
+  "inicio": 46.66,
+  "fin": 46.94
+ },
+ {
+  "texto": "grasa",
+  "inicio": 46.94,
+  "fin": 47.7
+ },
+ {
+  "texto": "desayuno",
+  "inicio": 47.7,
+  "fin": 48.48
+ },
+ {
+  "texto": "para",
+  "inicio": 48.48,
+  "fin": 48.78
+ },
+ {
+  "texto": "perder",
+  "inicio": 48.78,
+  "fin": 49.02
+ },
+ {
+  "texto": "grasa",
+  "inicio": 49.02,
+  "fin": 49.3
+ },
+ {
+  "texto": "más",
+  "inicio": 49.3,
+  "fin": 49.64
+ },
+ {
+  "texto": "rápido",
+  "inicio": 49.64,
+  "fin": 50.62
+ },
+ {
+  "texto": "comida",
+  "inicio": 50.62,
+  "fin": 51.12
+ },
+ {
+  "texto": "para",
+  "inicio": 51.12,
+  "fin": 51.16
+ },
+ {
+  "texto": "perder",
+  "inicio": 51.46,
+  "fin": 51.72
+ },
+ {
+  "texto": "grasa",
+  "inicio": 51.72,
+  "fin": 52.74
+ },
+ {
+  "texto": "comida",
+  "inicio": 52.74,
+  "fin": 53.12
+ },
+ {
+  "texto": "para",
+  "inicio": 53.12,
+  "fin": 53.44
+ },
+ {
+  "texto": "perder",
+  "inicio": 53.44,
+  "fin": 53.68
+ },
+ {
+  "texto": "grasa",
+  "inicio": 53.68,
+  "fin": 53.98
+ },
+ {
+  "texto": "más",
+  "inicio": 53.98,
+  "fin": 54.42
+ },
+ {
+  "texto": "rápido",
+  "inicio": 54.42,
+  "fin": 55.28
+ },
+ {
+  "texto": "merienda",
+  "inicio": 55.28,
+  "fin": 55.84
+ },
+ {
+  "texto": "para",
+  "inicio": 55.84,
+  "fin": 56.18
+ },
+ {
+  "texto": "perder",
+  "inicio": 56.18,
+  "fin": 56.46
+ },
+ {
+  "texto": "grasa",
+  "inicio": 56.46,
+  "fin": 56.66
+ },
+ {
+  "texto": "merienda",
+  "inicio": 57.34,
+  "fin": 57.94
+ },
+ {
+  "texto": "para",
+  "inicio": 57.94,
+  "fin": 58.22
+ },
+ {
+  "texto": "perder",
+  "inicio": 58.22,
+  "fin": 58.44
+ },
+ {
+  "texto": "grasa",
+  "inicio": 58.44,
+  "fin": 58.76
+ },
+ {
+  "texto": "más",
+  "inicio": 58.76,
+  "fin": 59.22
+ },
+ {
+  "texto": "rápido",
+  "inicio": 59.22,
+  "fin": 60.1
+ },
+ {
+  "texto": "cena",
+  "inicio": 60.1,
+  "fin": 60.56
+ },
+ {
+  "texto": "para",
+  "inicio": 60.56,
+  "fin": 60.86
+ },
+ {
+  "texto": "perder",
+  "inicio": 60.86,
+  "fin": 61.16
+ },
+ {
+  "texto": "grasa",
+  "inicio": 61.16,
+  "fin": 62.12
+ },
+ {
+  "texto": "cena",
+  "inicio": 62.12,
+  "fin": 62.48
+ },
+ {
+  "texto": "para",
+  "inicio": 62.48,
+  "fin": 62.8
+ },
+ {
+  "texto": "perder",
+  "inicio": 62.8,
+  "fin": 62.8
+ },
+ {
+  "texto": "grasa",
+  "inicio": 63.06,
+  "fin": 63.44
+ },
+ {
+  "texto": "más",
+  "inicio": 63.44,
+  "fin": 63.74
+ },
+ {
+  "texto": "rápido.",
+  "inicio": 63.74,
+  "fin": 64.48
+ },
+ {
+  "texto": "Para",
+  "inicio": 100.82,
+  "fin": 101.18
+ },
+ {
+  "texto": "perder",
+  "inicio": 101.18,
+  "fin": 101.44
+ },
+ {
+  "texto": "grasa",
+  "inicio": 101.44,
+  "fin": 101.72
+ },
+ {
+  "texto": "lo",
+  "inicio": 101.72,
+  "fin": 101.92
+ },
+ {
+  "texto": "más",
+  "inicio": 101.92,
+  "fin": 102.36
+ },
+ {
+  "texto": "importante",
+  "inicio": 102.36,
+  "fin": 102.8
+ },
+ {
+  "texto": "es",
+  "inicio": 102.8,
+  "fin": 102.94
+ },
+ {
+  "texto": "las",
+  "inicio": 102.94,
+  "fin": 103.16
+ },
+ {
+  "texto": "costas.",
+  "inicio": 103.16,
+  "fin": 104
+ },
+ {
+  "texto": "Para",
+  "inicio": 104.68,
+  "fin": 104.94
+ },
+ {
+  "texto": "perder",
+  "inicio": 104.94,
+  "fin": 105.2
+ },
+ {
+  "texto": "grasa",
+  "inicio": 105.2,
+  "fin": 105.56
+ },
+ {
+  "texto": "lo",
+  "inicio": 105.56,
+  "fin": 105.74
+ },
+ {
+  "texto": "más",
+  "inicio": 105.74,
+  "fin": 106.14
+ },
+ {
+  "texto": "importante",
+  "inicio": 106.14,
+  "fin": 106.32
+ },
+ {
+  "texto": "la",
+  "inicio": 106.44,
+  "fin": 106.72
+ },
+ {
+  "texto": "constancia",
+  "inicio": 103.16,
+  "fin": 107.3
+ },
+ {
+  "texto": "cumpliendo",
+  "inicio": 107.3,
+  "fin": 107.64
+ },
+ {
+  "texto": "estos",
+  "inicio": 107.64,
+  "fin": 107.86
+ },
+ {
+  "texto": "hábitos.",
+  "inicio": 107.86,
+  "fin": 110.04
+ },
+ {
+  "texto": "Pero",
+  "inicio": 135.68,
+  "fin": 135.84
+ },
+ {
+  "texto": "si",
+  "inicio": 135.84,
+  "fin": 139.72
+ },
+ {
+  "texto": "quieres",
+  "inicio": 139.72,
+  "fin": 140.04
+ },
+ {
+  "texto": "perder",
+  "inicio": 140.04,
+  "fin": 140.36
+ },
+ {
+  "texto": "grasa",
+  "inicio": 140.36,
+  "fin": 140.72
+ },
+ {
+  "texto": "más",
+  "inicio": 140.72,
+  "fin": 141.14
+ },
+ {
+  "texto": "rápido",
+  "inicio": 141.14,
+  "fin": 141.54
+ },
+ {
+  "texto": "puedes",
+  "inicio": 141.54,
+  "fin": 141.7
+ },
+ {
+  "texto": "ir",
+  "inicio": 141.7,
+  "fin": 141.78
+ },
+ {
+  "texto": "a",
+  "inicio": 141.78,
+  "fin": 141.88
+ },
+ {
+  "texto": "mi",
+  "inicio": 141.88,
+  "fin": 142.14
+ },
+ {
+  "texto": "perfil",
+  "inicio": 142.14,
+  "fin": 142.5
+ },
+ {
+  "texto": "y",
+  "inicio": 142.5,
+  "fin": 142.68
+ },
+ {
+  "texto": "darle",
+  "inicio": 142.68,
+  "fin": 143.04
+ },
+ {
+  "texto": "click",
+  "inicio": 143.04,
+  "fin": 143.34
+ },
+ {
+  "texto": "en",
+  "inicio": 143.34,
+  "fin": 143.46
+ },
+ {
+  "texto": "el",
+  "inicio": 143.46,
+  "fin": 143.58
+ },
+ {
+  "texto": "ligue",
+  "inicio": 143.58,
+  "fin": 143.64
+ },
+ {
+  "texto": "de",
+  "inicio": 143.74,
+  "fin": 143.8
+ },
+ {
+  "texto": "mi",
+  "inicio": 143.8,
+  "fin": 143.98
+ },
+ {
+  "texto": "biografía.",
+  "inicio": 143.98,
+  "fin": 145.06
+ },
+ {
+  "texto": "Pero",
+  "inicio": 145.12,
+  "fin": 145.2
+ },
+ {
+  "texto": "lo",
+  "inicio": 145.2,
+  "fin": 145.38
+ },
+ {
+  "texto": "más",
+  "inicio": 145.38,
+  "fin": 145.86
+ },
+ {
+  "texto": "más",
+  "inicio": 145.4,
+  "fin": 145.92
+ },
+ {
+  "texto": "importante",
+  "inicio": 145.92,
+  "fin": 146.34
+ },
+ {
+  "texto": "no",
+  "inicio": 146.34,
+  "fin": 146.58
+ },
+ {
+  "texto": "estarás",
+  "inicio": 146.58,
+  "fin": 146.94
+ },
+ {
+  "texto": "solo",
+  "inicio": 146.94,
+  "fin": 147.38
+ },
+ {
+  "texto": "en",
+  "inicio": 147.38,
+  "fin": 147.56
+ },
+ {
+  "texto": "este",
+  "inicio": 147.56,
+  "fin": 147.9
+ },
+ {
+  "texto": "proceso",
+  "inicio": 147.9,
+  "fin": 149.36
+ },
+ {
+  "texto": "pero",
+  "inicio": 149.96,
+  "fin": 150.06
+ },
+ {
+  "texto": "lo",
+  "inicio": 150.06,
+  "fin": 150.24
+ },
+ {
+  "texto": "más",
+  "inicio": 150.24,
+  "fin": 150.7
+ },
+ {
+  "texto": "importante",
+  "inicio": 150.7,
+  "fin": 151.12
+ },
+ {
+  "texto": "no",
+  "inicio": 151.12,
+  "fin": 151.32
+ },
+ {
+  "texto": "estarás",
+  "inicio": 151.32,
+  "fin": 151.64
+ },
+ {
+  "texto": "solo",
+  "inicio": 151.64,
+  "fin": 151.82
+ },
+ {
+  "texto": "para",
+  "inicio": 151.82,
+  "fin": 152.04
+ },
+ {
+  "texto": "lograrlo",
+  "inicio": 152.04,
+  "fin": 154.28
+ }
+]

@@ -1,0 +1,457 @@
+[
+ {
+  "texto": "¿Tienes",
+  "inicio": 0.92,
+  "fin": 1.56
+ },
+ {
+  "texto": "dos",
+  "inicio": 1.56,
+  "fin": 1.82
+ },
+ {
+  "texto": "minutos",
+  "inicio": 1.82,
+  "fin": 2
+ },
+ {
+  "texto": "literal?",
+  "inicio": 2.12,
+  "fin": 2.72
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 3.06,
+  "fin": 3.28
+ },
+ {
+  "texto": "mismo",
+  "inicio": 3.28,
+  "fin": 3.48
+ },
+ {
+  "texto": "no",
+  "inicio": 3.48,
+  "fin": 3.74
+ },
+ {
+  "texto": "mucho,",
+  "inicio": 3.74,
+  "fin": 3.88
+ },
+ {
+  "texto": "tío.",
+  "inicio": 3.94,
+  "fin": 4
+ },
+ {
+  "texto": "Son",
+  "inicio": 4.18,
+  "fin": 4.46
+ },
+ {
+  "texto": "vale",
+  "inicio": 4.46,
+  "fin": 4.72
+ },
+ {
+  "texto": "30",
+  "inicio": 4.72,
+  "fin": 5
+ },
+ {
+  "texto": "segundos",
+  "inicio": 5.04,
+  "fin": 5.36
+ },
+ {
+  "texto": "menos.",
+  "inicio": 5.36,
+  "fin": 5.66
+ },
+ {
+  "texto": "Estoy",
+  "inicio": 5.8,
+  "fin": 6.02
+ },
+ {
+  "texto": "haciendo",
+  "inicio": 6.02,
+  "fin": 6.16
+ },
+ {
+  "texto": "una",
+  "inicio": 6.16,
+  "fin": 6.4
+ },
+ {
+  "texto": "pregunta",
+  "inicio": 6.4,
+  "fin": 6.62
+ },
+ {
+  "texto": "a",
+  "inicio": 6.62,
+  "fin": 6.62
+ },
+ {
+  "texto": "la",
+  "inicio": 6.62,
+  "fin": 6.76
+ },
+ {
+  "texto": "gente",
+  "inicio": 6.76,
+  "fin": 6.92
+ },
+ {
+  "texto": "de",
+  "inicio": 6.92,
+  "fin": 6.98
+ },
+ {
+  "texto": "Andorra",
+  "inicio": 6.98,
+  "fin": 7.28
+ },
+ {
+  "texto": "y",
+  "inicio": 7.28,
+  "fin": 7.4
+ },
+ {
+  "texto": "es",
+  "inicio": 7.4,
+  "fin": 7.46
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 7.46,
+  "fin": 7.7
+ },
+ {
+  "texto": "te",
+  "inicio": 7.7,
+  "fin": 7.8
+ },
+ {
+  "texto": "hiciste",
+  "inicio": 7.8,
+  "fin": 8
+ },
+ {
+  "texto": "rico?",
+  "inicio": 8.1,
+  "fin": 9.2
+ },
+ {
+  "texto": "Es",
+  "inicio": 9.44,
+  "fin": 9.62
+ },
+ {
+  "texto": "que",
+  "inicio": 9.62,
+  "fin": 9.76
+ },
+ {
+  "texto": "yo",
+  "inicio": 9.76,
+  "fin": 9.84
+ },
+ {
+  "texto": "no",
+  "inicio": 9.84,
+  "fin": 9.94
+ },
+ {
+  "texto": "me",
+  "inicio": 9.94,
+  "fin": 9.98
+ },
+ {
+  "texto": "he",
+  "inicio": 9.98,
+  "fin": 10
+ },
+ {
+  "texto": "hecho",
+  "inicio": 10.04,
+  "fin": 10.26
+ },
+ {
+  "texto": "rico",
+  "inicio": 10.26,
+  "fin": 10.62
+ },
+ {
+  "texto": "todavía.",
+  "inicio": 10.62,
+  "fin": 11.02
+ },
+ {
+  "texto": "¿Pero",
+  "inicio": 11.28,
+  "fin": 11.66
+ },
+ {
+  "texto": "estás",
+  "inicio": 11.66,
+  "fin": 11.92
+ },
+ {
+  "texto": "cerca",
+  "inicio": 11.92,
+  "fin": 12
+ },
+ {
+  "texto": "de",
+  "inicio": 12.1,
+  "fin": 12.24
+ },
+ {
+  "texto": "ello?",
+  "inicio": 12.24,
+  "fin": 12.86
+ },
+ {
+  "texto": "Bueno,",
+  "inicio": 13.42,
+  "fin": 13.96
+ },
+ {
+  "texto": "en",
+  "inicio": 14.24,
+  "fin": 14.5
+ },
+ {
+  "texto": "mentalidad",
+  "inicio": 14.5,
+  "fin": 14.94
+ },
+ {
+  "texto": "sí,",
+  "inicio": 14.94,
+  "fin": 15
+ },
+ {
+  "texto": "pero",
+  "inicio": 15.42,
+  "fin": 15.76
+ },
+ {
+  "texto": "...",
+  "inicio": 15.76,
+  "fin": 15.76
+ },
+ {
+  "texto": "Hemos",
+  "inicio": 15.84,
+  "fin": 16.04
+ },
+ {
+  "texto": "venido",
+  "inicio": 16.04,
+  "fin": 16.38
+ },
+ {
+  "texto": "desde",
+  "inicio": 16.38,
+  "fin": 16.72
+ },
+ {
+  "texto": "Dubai",
+  "inicio": 16.72,
+  "fin": 17.18
+ },
+ {
+  "texto": "literalmente",
+  "inicio": 17.18,
+  "fin": 17.68
+ },
+ {
+  "texto": "para",
+  "inicio": 17.68,
+  "fin": 17.84
+ },
+ {
+  "texto": "coger",
+  "inicio": 17.84,
+  "fin": 18.2
+ },
+ {
+  "texto": "a",
+  "inicio": 18.2,
+  "fin": 18.26
+ },
+ {
+  "texto": "la",
+  "inicio": 18.26,
+  "fin": 18.46
+ },
+ {
+  "texto": "gente",
+  "inicio": 18.46,
+  "fin": 18.78
+ },
+ {
+  "texto": "más",
+  "inicio": 18.78,
+  "fin": 19.04
+ },
+ {
+  "texto": "top",
+  "inicio": 19.04,
+  "fin": 19.16
+ },
+ {
+  "texto": "de",
+  "inicio": 19.16,
+  "fin": 19.24
+ },
+ {
+  "texto": "Andorra",
+  "inicio": 19.24,
+  "fin": 19.44
+ },
+ {
+  "texto": "y",
+  "inicio": 19.44,
+  "fin": 19.56
+ },
+ {
+  "texto": "hacer",
+  "inicio": 19.56,
+  "fin": 19.68
+ },
+ {
+  "texto": "la",
+  "inicio": 19.68,
+  "fin": 19.84
+ },
+ {
+  "texto": "entrevista.",
+  "inicio": 19.84,
+  "fin": 20
+ },
+ {
+  "texto": "Ya",
+  "inicio": 20.96,
+  "fin": 21.2
+ },
+ {
+  "texto": "ves,",
+  "inicio": 21.2,
+  "fin": 21.72
+ },
+ {
+  "texto": "yo",
+  "inicio": 21.88,
+  "fin": 21.96
+ },
+ {
+  "texto": "de",
+  "inicio": 21.96,
+  "fin": 22.16
+ },
+ {
+  "texto": "momento",
+  "inicio": 22.16,
+  "fin": 22.44
+ },
+ {
+  "texto": "no,",
+  "inicio": 22.44,
+  "fin": 22.58
+ },
+ {
+  "texto": "pero",
+  "inicio": 22.64,
+  "fin": 22.86
+ },
+ {
+  "texto": "algún",
+  "inicio": 22.86,
+  "fin": 23.02
+ },
+ {
+  "texto": "día",
+  "inicio": 23.02,
+  "fin": 23.28
+ },
+ {
+  "texto": "volverás",
+  "inicio": 23.28,
+  "fin": 23.54
+ },
+ {
+  "texto": "a",
+  "inicio": 23.54,
+  "fin": 23.66
+ },
+ {
+  "texto": "hacerme",
+  "inicio": 23.66,
+  "fin": 23.9
+ },
+ {
+  "texto": "la",
+  "inicio": 23.9,
+  "fin": 23.96
+ },
+ {
+  "texto": "suerte.",
+  "inicio": 23.96,
+  "fin": 23.98
+ },
+ {
+  "texto": "¿Volverás",
+  "inicio": 24.14,
+  "fin": 24.48
+ },
+ {
+  "texto": "a",
+  "inicio": 24.48,
+  "fin": 24.58
+ },
+ {
+  "texto": "entrarste?",
+  "inicio": 24.58,
+  "fin": 25
+ },
+ {
+  "texto": "Sí,",
+  "inicio": 25.36,
+  "fin": 25.6
+ },
+ {
+  "texto": "sí.",
+  "inicio": 25.6,
+  "fin": 25.92
+ },
+ {
+  "texto": "Gracias,",
+  "inicio": 26.72,
+  "fin": 26.88
+ },
+ {
+  "texto": "gracias,",
+  "inicio": 26.98,
+  "fin": 27
+ },
+ {
+  "texto": "tío.",
+  "inicio": 27.54,
+  "fin": 27.6
+ },
+ {
+  "texto": "Gracias,",
+  "inicio": 27.76,
+  "fin": 27.88
+ },
+ {
+  "texto": "tío.",
+  "inicio": 28.28,
+  "fin": 29.16
+ }
+]

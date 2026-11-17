@@ -1,0 +1,652 @@
+[
+ {
+  "texto": "Y",
+  "inicio": 2.18,
+  "fin": 2.54
+ },
+ {
+  "texto": "esta",
+  "inicio": 2.54,
+  "fin": 5.16
+ },
+ {
+  "texto": "es",
+  "inicio": 5.16,
+  "fin": 6.04
+ },
+ {
+  "texto": "nuestra",
+  "inicio": 6.04,
+  "fin": 6.4
+ },
+ {
+  "texto": "estrategia.",
+  "inicio": 6.4,
+  "fin": 7.24
+ },
+ {
+  "texto": "Proteína",
+  "inicio": 7.62,
+  "fin": 8.04
+ },
+ {
+  "texto": "en",
+  "inicio": 8.04,
+  "fin": 8.16
+ },
+ {
+  "texto": "polvo.",
+  "inicio": 8.16,
+  "fin": 9.08
+ },
+ {
+  "texto": "Nos",
+  "inicio": 9.28,
+  "fin": 9.58
+ },
+ {
+  "texto": "ayuda",
+  "inicio": 9.58,
+  "fin": 9.72
+ },
+ {
+  "texto": "a",
+  "inicio": 9.72,
+  "fin": 9.92
+ },
+ {
+  "texto": "llegar",
+  "inicio": 9.92,
+  "fin": 10.2
+ },
+ {
+  "texto": "a",
+  "inicio": 10.2,
+  "fin": 10.4
+ },
+ {
+  "texto": "nuestros",
+  "inicio": 10.4,
+  "fin": 10.82
+ },
+ {
+  "texto": "objetivos",
+  "inicio": 10.82,
+  "fin": 11.18
+ },
+ {
+  "texto": "de",
+  "inicio": 11.18,
+  "fin": 11.38
+ },
+ {
+  "texto": "proteína",
+  "inicio": 11.38,
+  "fin": 11.76
+ },
+ {
+  "texto": "diaria.",
+  "inicio": 11.76,
+  "fin": 12.38
+ },
+ {
+  "texto": "Y",
+  "inicio": 12.92,
+  "fin": 13
+ },
+ {
+  "texto": "si",
+  "inicio": 13,
+  "fin": 13.12
+ },
+ {
+  "texto": "no",
+  "inicio": 13.12,
+  "fin": 13.34
+ },
+ {
+  "texto": "tienes",
+  "inicio": 13.34,
+  "fin": 13.66
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 13.66,
+  "fin": 13.96
+ },
+ {
+  "texto": "en",
+  "inicio": 13.96,
+  "fin": 14.28
+ },
+ {
+  "texto": "cinco",
+  "inicio": 14.28,
+  "fin": 14.68
+ },
+ {
+  "texto": "minutos",
+  "inicio": 14.68,
+  "fin": 14.98
+ },
+ {
+  "texto": "tienes",
+  "inicio": 14.98,
+  "fin": 15.18
+ },
+ {
+  "texto": "una",
+  "inicio": 15.18,
+  "fin": 15.48
+ },
+ {
+  "texto": "comida",
+  "inicio": 15.48,
+  "fin": 15.68
+ },
+ {
+  "texto": "con",
+  "inicio": 15.68,
+  "fin": 15.84
+ },
+ {
+  "texto": "proteína.",
+  "inicio": 15.84,
+  "fin": 16.12
+ },
+ {
+  "texto": "Ya",
+  "inicio": 17.52,
+  "fin": 17.74
+ },
+ {
+  "texto": "está.",
+  "inicio": 17.74,
+  "fin": 18.4
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 18.68,
+  "fin": 18.9
+ },
+ {
+  "texto": "sí.",
+  "inicio": 18.9,
+  "fin": 19.12
+ },
+ {
+  "texto": "No,",
+  "inicio": 19.3,
+  "fin": 19.42
+ },
+ {
+  "texto": "ya",
+  "inicio": 19.48,
+  "fin": 19.76
+ },
+ {
+  "texto": "nos",
+  "inicio": 19.76,
+  "fin": 19.98
+ },
+ {
+  "texto": "acomodamos.",
+  "inicio": 19.98,
+  "fin": 20.3
+ },
+ {
+  "texto": "Nada",
+  "inicio": 20.48,
+  "fin": 20.66
+ },
+ {
+  "texto": "más.",
+  "inicio": 20.66,
+  "fin": 20.82
+ },
+ {
+  "texto": "Quítalo",
+  "inicio": 20.86,
+  "fin": 21.32
+ },
+ {
+  "texto": "y",
+  "inicio": 21.32,
+  "fin": 21.5
+ },
+ {
+  "texto": "di.",
+  "inicio": 21.5,
+  "fin": 22.42
+ },
+ {
+  "texto": "Y",
+  "inicio": 23.2,
+  "fin": 23.36
+ },
+ {
+  "texto": "si",
+  "inicio": 23.36,
+  "fin": 23.74
+ },
+ {
+  "texto": "deseas",
+  "inicio": 23.74,
+  "fin": 24.34
+ },
+ {
+  "texto": "comprar.",
+  "inicio": 24.34,
+  "fin": 24.64
+ },
+ {
+  "texto": "No.",
+  "inicio": 24.74,
+  "fin": 25.26
+ },
+ {
+  "texto": "No.",
+  "inicio": 25.5,
+  "fin": 25.64
+ },
+ {
+  "texto": "Y",
+  "inicio": 25.76,
+  "fin": 25.88
+ },
+ {
+  "texto": "te",
+  "inicio": 25.88,
+  "fin": 26.04
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 26.04,
+  "fin": 26.48
+ },
+ {
+  "texto": "el",
+  "inicio": 26.48,
+  "fin": 26.64
+ },
+ {
+  "texto": "link",
+  "inicio": 26.64,
+  "fin": 26.98
+ },
+ {
+  "texto": "y",
+  "inicio": 27.76,
+  "fin": 27.86
+ },
+ {
+  "texto": "te",
+  "inicio": 27.86,
+  "fin": 28
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 28,
+  "fin": 28.62
+ },
+ {
+  "texto": "abajo",
+  "inicio": 28.62,
+  "fin": 28.86
+ },
+ {
+  "texto": "el",
+  "inicio": 28.86,
+  "fin": 29
+ },
+ {
+  "texto": "link",
+  "inicio": 29,
+  "fin": 29.24
+ },
+ {
+  "texto": "de",
+  "inicio": 29.24,
+  "fin": 29.32
+ },
+ {
+  "texto": "la",
+  "inicio": 29.32,
+  "fin": 29.46
+ },
+ {
+  "texto": "que",
+  "inicio": 29.46,
+  "fin": 29.48
+ },
+ {
+  "texto": "estamos",
+  "inicio": 29.7,
+  "fin": 30.34
+ },
+ {
+  "texto": "la",
+  "inicio": 30.34,
+  "fin": 30.56
+ },
+ {
+  "texto": "que",
+  "inicio": 30.56,
+  "fin": 31.76
+ },
+ {
+  "texto": "uno",
+  "inicio": 31.76,
+  "fin": 32.78
+ },
+ {
+  "texto": "dos",
+  "inicio": 32.78,
+  "fin": 33.12
+ },
+ {
+  "texto": "tres",
+  "inicio": 33.12,
+  "fin": 33.5
+ },
+ {
+  "texto": "ya",
+  "inicio": 33.5,
+  "fin": 34.36
+ },
+ {
+  "texto": "y",
+  "inicio": 34.36,
+  "fin": 34.54
+ },
+ {
+  "texto": "te",
+  "inicio": 34.54,
+  "fin": 34.72
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 34.72,
+  "fin": 35.08
+ },
+ {
+  "texto": "el",
+  "inicio": 35.08,
+  "fin": 35.18
+ },
+ {
+  "texto": "link",
+  "inicio": 35.18,
+  "fin": 35.4
+ },
+ {
+  "texto": "nada",
+  "inicio": 35.4,
+  "fin": 35.92
+ },
+ {
+  "texto": "no",
+  "inicio": 35.92,
+  "fin": 36.72
+ },
+ {
+  "texto": "digamos",
+  "inicio": 36.72,
+  "fin": 36.92
+ },
+ {
+  "texto": "el",
+  "inicio": 36.92,
+  "fin": 37.14
+ },
+ {
+  "texto": "tiempo",
+  "inicio": 37.14,
+  "fin": 37.72
+ },
+ {
+  "texto": "no",
+  "inicio": 37.72,
+  "fin": 37.9
+ },
+ {
+  "texto": "no",
+  "inicio": 37.9,
+  "fin": 38.16
+ },
+ {
+  "texto": "no",
+  "inicio": 38.16,
+  "fin": 38.64
+ },
+ {
+  "texto": "vale",
+  "inicio": 38.66,
+  "fin": 39.36
+ },
+ {
+  "texto": "y",
+  "inicio": 39.58,
+  "fin": 40.94
+ },
+ {
+  "texto": "te",
+  "inicio": 40.94,
+  "fin": 41.14
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 41.14,
+  "fin": 41.46
+ },
+ {
+  "texto": "el",
+  "inicio": 41.46,
+  "fin": 41.64
+ },
+ {
+  "texto": "link",
+  "inicio": 41.64,
+  "fin": 42
+ },
+ {
+  "texto": "aquí",
+  "inicio": 42,
+  "fin": 42.3
+ },
+ {
+  "texto": "abajo",
+  "inicio": 42.3,
+  "fin": 43.6
+ },
+ {
+  "texto": "de",
+  "inicio": 43.6,
+  "fin": 43.88
+ },
+ {
+  "texto": "que",
+  "inicio": 43.88,
+  "fin": 44.32
+ },
+ {
+  "texto": "para",
+  "inicio": 44.32,
+  "fin": 44.46
+ },
+ {
+  "texto": "que?",
+  "inicio": 44.46,
+  "fin": 44.18
+ },
+ {
+  "texto": "Para",
+  "inicio": 44.32,
+  "fin": 44.46
+ },
+ {
+  "texto": "que",
+  "inicio": 44.46,
+  "fin": 44.62
+ },
+ {
+  "texto": "tú",
+  "inicio": 44.62,
+  "fin": 44.78
+ },
+ {
+  "texto": "lo",
+  "inicio": 44.78,
+  "fin": 45.18
+ },
+ {
+  "texto": "completes,",
+  "inicio": 45.18,
+  "fin": 45.78
+ },
+ {
+  "texto": "yo",
+  "inicio": 45.9,
+  "fin": 46.04
+ },
+ {
+  "texto": "no",
+  "inicio": 46.04,
+  "fin": 46.18
+ },
+ {
+  "texto": "lo",
+  "inicio": 46.18,
+  "fin": 46.44
+ },
+ {
+  "texto": "digo,",
+  "inicio": 46.44,
+  "fin": 46.82
+ },
+ {
+  "texto": "te",
+  "inicio": 46.98,
+  "fin": 47.12
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 47.12,
+  "fin": 47.44
+ },
+ {
+  "texto": "el",
+  "inicio": 47.44,
+  "fin": 47.58
+ },
+ {
+  "texto": "link",
+  "inicio": 47.58,
+  "fin": 47.82
+ },
+ {
+  "texto": "aquí",
+  "inicio": 47.82,
+  "fin": 48.06
+ },
+ {
+  "texto": "abajo",
+  "inicio": 48.06,
+  "fin": 48.34
+ },
+ {
+  "texto": "para",
+  "inicio": 48.34,
+  "fin": 48.46
+ },
+ {
+  "texto": "que",
+  "inicio": 48.46,
+  "fin": 48.62
+ },
+ {
+  "texto": "tú",
+  "inicio": 48.62,
+  "fin": 48.72
+ },
+ {
+  "texto": "lo",
+  "inicio": 48.72,
+  "fin": 48.92
+ },
+ {
+  "texto": "compres.",
+  "inicio": 48.92,
+  "fin": 49
+ },
+ {
+  "texto": "Vale.",
+  "inicio": 49.16,
+  "fin": 49.66
+ },
+ {
+  "texto": "Y",
+  "inicio": 51.22,
+  "fin": 51.38
+ },
+ {
+  "texto": "te",
+  "inicio": 51.38,
+  "fin": 51.54
+ },
+ {
+  "texto": "dejamos",
+  "inicio": 51.54,
+  "fin": 51.92
+ },
+ {
+  "texto": "el",
+  "inicio": 51.92,
+  "fin": 52.1
+ },
+ {
+  "texto": "link",
+  "inicio": 52.1,
+  "fin": 52.44
+ },
+ {
+  "texto": "aquí",
+  "inicio": 52.48,
+  "fin": 52.52
+ },
+ {
+  "texto": "abajo.",
+  "inicio": 52.78,
+  "fin": 53.12
+ },
+ {
+  "texto": "De",
+  "inicio": 53.26,
+  "fin": 53.36
+ },
+ {
+  "texto": "la",
+  "inicio": 53.36,
+  "fin": 53.56
+ },
+ {
+  "texto": "proteína",
+  "inicio": 53.56,
+  "fin": 53.88
+ },
+ {
+  "texto": "que",
+  "inicio": 53.88,
+  "fin": 54.14
+ },
+ {
+  "texto": "nosotros",
+  "inicio": 54.14,
+  "fin": 54.58
+ },
+ {
+  "texto": "consumimos.",
+  "inicio": 54.58,
+  "fin": 54.96
+ }
+]

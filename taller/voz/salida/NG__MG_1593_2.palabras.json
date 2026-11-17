@@ -1,0 +1,62 @@
+[
+ {
+  "texto": "Perdona.",
+  "inicio": 0.36,
+  "fin": 1.12
+ },
+ {
+  "texto": "Hola.",
+  "inicio": 1.54,
+  "fin": 1.86
+ },
+ {
+  "texto": "¿Cuántas",
+  "inicio": 1.94,
+  "fin": 2.48
+ },
+ {
+  "texto": "calorías",
+  "inicio": 2.48,
+  "fin": 3.1
+ },
+ {
+  "texto": "consumeis",
+  "inicio": 3.1,
+  "fin": 3.48
+ },
+ {
+  "texto": "al",
+  "inicio": 3.48,
+  "fin": 3.66
+ },
+ {
+  "texto": "día?",
+  "inicio": 3.66,
+  "fin": 3.94
+ },
+ {
+  "texto": "Unas",
+  "inicio": 4.38,
+  "fin": 4.64
+ },
+ {
+  "texto": "mil",
+  "inicio": 4.64,
+  "fin": 4.86
+ },
+ {
+  "texto": "700.",
+  "inicio": 4.86,
+  "fin": 5.44
+ },
+ {
+  "texto": "¡Ale",
+  "inicio": 5.94,
+  "fin": 6.4
+ },
+ {
+  "texto": "gracias!",
+  "inicio": 6.4,
+  "fin": 6.74
+ }
+]

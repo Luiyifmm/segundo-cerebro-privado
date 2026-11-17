@@ -1,0 +1,1607 @@
+[
+ {
+  "texto": "Coges",
+  "inicio": 4.9,
+  "fin": 5.18
+ },
+ {
+  "texto": "tu",
+  "inicio": 5.18,
+  "fin": 5.36
+ },
+ {
+  "texto": "salario",
+  "inicio": 5.36,
+  "fin": 5.74
+ },
+ {
+  "texto": "y",
+  "inicio": 5.74,
+  "fin": 5.92
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 5.92,
+  "fin": 6.48
+ },
+ {
+  "texto": "por",
+  "inicio": 6.48,
+  "fin": 7.14
+ },
+ {
+  "texto": "150.",
+  "inicio": 7.14,
+  "fin": 8
+ },
+ {
+  "texto": "Coges",
+  "inicio": 17.78,
+  "fin": 18.92
+ },
+ {
+  "texto": "tu",
+  "inicio": 18.92,
+  "fin": 19.08
+ },
+ {
+  "texto": "salario",
+  "inicio": 19.08,
+  "fin": 19.4
+ },
+ {
+  "texto": "y",
+  "inicio": 19.4,
+  "fin": 19.62
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 19.62,
+  "fin": 20.26
+ },
+ {
+  "texto": "por",
+  "inicio": 20.26,
+  "fin": 20.8
+ },
+ {
+  "texto": "150.",
+  "inicio": 20.8,
+  "fin": 21
+ },
+ {
+  "texto": "esa",
+  "inicio": 21.38,
+  "fin": 21.56
+ },
+ {
+  "texto": "es",
+  "inicio": 21.56,
+  "fin": 21.68
+ },
+ {
+  "texto": "la",
+  "inicio": 21.68,
+  "fin": 21.94
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 21.94,
+  "fin": 22.18
+ },
+ {
+  "texto": "de",
+  "inicio": 22.18,
+  "fin": 22.36
+ },
+ {
+  "texto": "dinero",
+  "inicio": 22.36,
+  "fin": 22.5
+ },
+ {
+  "texto": "que",
+  "inicio": 22.5,
+  "fin": 22.66
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 22.66,
+  "fin": 23.06
+ },
+ {
+  "texto": "para",
+  "inicio": 23.06,
+  "fin": 23.2
+ },
+ {
+  "texto": "ser",
+  "inicio": 23.2,
+  "fin": 23.5
+ },
+ {
+  "texto": "libre",
+  "inicio": 23.5,
+  "fin": 23.8
+ },
+ {
+  "texto": "financiamente",
+  "inicio": 23.8,
+  "fin": 24.4
+ },
+ {
+  "texto": "y",
+  "inicio": 24.4,
+  "fin": 24.5
+ },
+ {
+  "texto": "no",
+  "inicio": 24.5,
+  "fin": 24.52
+ },
+ {
+  "texto": "tener",
+  "inicio": 24.66,
+  "fin": 24.8
+ },
+ {
+  "texto": "que",
+  "inicio": 24.8,
+  "fin": 24.98
+ },
+ {
+  "texto": "volver",
+  "inicio": 24.98,
+  "fin": 25.12
+ },
+ {
+  "texto": "a",
+  "inicio": 25.12,
+  "fin": 25.38
+ },
+ {
+  "texto": "trabajar.",
+  "inicio": 25.38,
+  "fin": 25.5
+ },
+ {
+  "texto": "Coges",
+  "inicio": 32.9,
+  "fin": 34.9
+ },
+ {
+  "texto": "tu",
+  "inicio": 34.9,
+  "fin": 35.04
+ },
+ {
+  "texto": "salario",
+  "inicio": 35.04,
+  "fin": 35.34
+ },
+ {
+  "texto": "y",
+  "inicio": 35.34,
+  "fin": 35.54
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 35.54,
+  "fin": 36.08
+ },
+ {
+  "texto": "por",
+  "inicio": 36.08,
+  "fin": 36.56
+ },
+ {
+  "texto": "150.",
+  "inicio": 36.56,
+  "fin": 36.98
+ },
+ {
+  "texto": "Ese",
+  "inicio": 37.08,
+  "fin": 37.3
+ },
+ {
+  "texto": "es",
+  "inicio": 37.3,
+  "fin": 37.44
+ },
+ {
+  "texto": "tu",
+  "inicio": 37.44,
+  "fin": 37.68
+ },
+ {
+  "texto": "número",
+  "inicio": 37.68,
+  "fin": 37.9
+ },
+ {
+  "texto": "de",
+  "inicio": 37.9,
+  "fin": 38.1
+ },
+ {
+  "texto": "libertad",
+  "inicio": 38.1,
+  "fin": 38.62
+ },
+ {
+  "texto": "financiera.",
+  "inicio": 38.62,
+  "fin": 40.48
+ },
+ {
+  "texto": "Es",
+  "inicio": 40.6,
+  "fin": 40.7
+ },
+ {
+  "texto": "la",
+  "inicio": 40.72,
+  "fin": 40.76
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 40.9,
+  "fin": 41.08
+ },
+ {
+  "texto": "de",
+  "inicio": 41.08,
+  "fin": 41.24
+ },
+ {
+  "texto": "dinero",
+  "inicio": 41.24,
+  "fin": 41.36
+ },
+ {
+  "texto": "que",
+  "inicio": 41.36,
+  "fin": 41.54
+ },
+ {
+  "texto": "tienes",
+  "inicio": 41.54,
+  "fin": 41.66
+ },
+ {
+  "texto": "que",
+  "inicio": 41.66,
+  "fin": 41.86
+ },
+ {
+  "texto": "tener",
+  "inicio": 41.86,
+  "fin": 42.16
+ },
+ {
+  "texto": "invertida",
+  "inicio": 42.16,
+  "fin": 42.56
+ },
+ {
+  "texto": "para",
+  "inicio": 42.56,
+  "fin": 42.68
+ },
+ {
+  "texto": "no",
+  "inicio": 42.68,
+  "fin": 42.86
+ },
+ {
+  "texto": "tener",
+  "inicio": 42.86,
+  "fin": 43.24
+ },
+ {
+  "texto": "nunca",
+  "inicio": 43.24,
+  "fin": 43.46
+ },
+ {
+  "texto": "más",
+  "inicio": 43.46,
+  "fin": 43.56
+ },
+ {
+  "texto": "que",
+  "inicio": 43.56,
+  "fin": 43.74
+ },
+ {
+  "texto": "volver",
+  "inicio": 43.74,
+  "fin": 43.86
+ },
+ {
+  "texto": "a",
+  "inicio": 43.86,
+  "fin": 44.12
+ },
+ {
+  "texto": "trabajar.",
+  "inicio": 44.12,
+  "fin": 44.2
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 48.78,
+  "fin": 49.18
+ },
+ {
+  "texto": "multiplica",
+  "inicio": 49.18,
+  "fin": 49.56
+ },
+ {
+  "texto": "lo",
+  "inicio": 49.56,
+  "fin": 49.86
+ },
+ {
+  "texto": "...",
+  "inicio": 49.86,
+  "fin": 49.88
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 48.82,
+  "fin": 49.18
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 49.18,
+  "fin": 50.06
+ },
+ {
+  "texto": "por",
+  "inicio": 50.06,
+  "fin": 50.28
+ },
+ {
+  "texto": "0",
+  "inicio": 50.28,
+  "fin": 50.46
+ },
+ {
+  "texto": "con",
+  "inicio": 50.46,
+  "fin": 50.7
+ },
+ {
+  "texto": "20.",
+  "inicio": 50.7,
+  "fin": 50.96
+ },
+ {
+  "texto": "Esa",
+  "inicio": 51.12,
+  "fin": 51.3
+ },
+ {
+  "texto": "es",
+  "inicio": 51.3,
+  "fin": 51.44
+ },
+ {
+  "texto": "la",
+  "inicio": 51.44,
+  "fin": 51.82
+ },
+ {
+  "texto": "cantidad",
+  "inicio": 51.82,
+  "fin": 52.16
+ },
+ {
+  "texto": "que",
+  "inicio": 52.16,
+  "fin": 52.4
+ },
+ {
+  "texto": "sin",
+  "inicio": 52.4,
+  "fin": 52.64
+ },
+ {
+  "texto": "excepción",
+  "inicio": 52.64,
+  "fin": 53.08
+ },
+ {
+  "texto": "debes",
+  "inicio": 53.08,
+  "fin": 53.46
+ },
+ {
+  "texto": "invertir",
+  "inicio": 53.46,
+  "fin": 53.88
+ },
+ {
+  "texto": "cada",
+  "inicio": 53.88,
+  "fin": 54.1
+ },
+ {
+  "texto": "mes",
+  "inicio": 54.1,
+  "fin": 54.38
+ },
+ {
+  "texto": "en",
+  "inicio": 54.38,
+  "fin": 54.62
+ },
+ {
+  "texto": "conocimiento.",
+  "inicio": 54.62,
+  "fin": 55
+ },
+ {
+  "texto": "Ahora",
+  "inicio": 55.96,
+  "fin": 56.18
+ },
+ {
+  "texto": "coge",
+  "inicio": 56.18,
+  "fin": 56.42
+ },
+ {
+  "texto": "ese",
+  "inicio": 56.42,
+  "fin": 56.62
+ },
+ {
+  "texto": "mismo",
+  "inicio": 56.62,
+  "fin": 56.84
+ },
+ {
+  "texto": "número",
+  "inicio": 56.84,
+  "fin": 56.96
+ },
+ {
+  "texto": "y",
+  "inicio": 56.96,
+  "fin": 57.02
+ },
+ {
+  "texto": "lo",
+  "inicio": 57.02,
+  "fin": 57.2
+ },
+ {
+  "texto": "multiplicas",
+  "inicio": 57.2,
+  "fin": 57.56
+ },
+ {
+  "texto": "por",
+  "inicio": 57.56,
+  "fin": 57.74
+ },
+ {
+  "texto": "6.",
+  "inicio": 57.74,
+  "fin": 58
+ },
+ {
+  "texto": "Ese",
+  "inicio": 58.26,
+  "fin": 58.38
+ },
+ {
+  "texto": "es",
+  "inicio": 58.38,
+  "fin": 58.46
+ },
+ {
+  "texto": "tu",
+  "inicio": 58.46,
+  "fin": 58.68
+ },
+ {
+  "texto": "fondo",
+  "inicio": 58.68,
+  "fin": 58.86
+ },
+ {
+  "texto": "de",
+  "inicio": 58.86,
+  "fin": 59
+ },
+ {
+  "texto": "emergencia.",
+  "inicio": 59,
+  "fin": 59
+ },
+ {
+  "texto": "Es",
+  "inicio": 59.84,
+  "fin": 60.12
+ },
+ {
+  "texto": "muy",
+  "inicio": 60.12,
+  "fin": 60.52
+ },
+ {
+  "texto": "necesario",
+  "inicio": 60.52,
+  "fin": 60.88
+ },
+ {
+  "texto": "por",
+  "inicio": 60.88,
+  "fin": 61.06
+ },
+ {
+  "texto": "si",
+  "inicio": 61.06,
+  "fin": 61.28
+ },
+ {
+  "texto": "un",
+  "inicio": 61.28,
+  "fin": 61.48
+ },
+ {
+  "texto": "mes",
+  "inicio": 61.48,
+  "fin": 61.66
+ },
+ {
+  "texto": "va",
+  "inicio": 61.66,
+  "fin": 61.84
+ },
+ {
+  "texto": "mal",
+  "inicio": 61.84,
+  "fin": 62.1
+ },
+ {
+  "texto": "que",
+  "inicio": 62.1,
+  "fin": 62.18
+ },
+ {
+  "texto": "no",
+  "inicio": 62.18,
+  "fin": 62.28
+ },
+ {
+  "texto": "se",
+  "inicio": 62.28,
+  "fin": 62.38
+ },
+ {
+  "texto": "vaya",
+  "inicio": 62.38,
+  "fin": 62.64
+ },
+ {
+  "texto": "todo",
+  "inicio": 62.64,
+  "fin": 62.9
+ },
+ {
+  "texto": "al",
+  "inicio": 62.9,
+  "fin": 63
+ },
+ {
+  "texto": "garete.",
+  "inicio": 63.08,
+  "fin": 63.4
+ },
+ {
+  "texto": "de",
+  "inicio": 63.22,
+  "fin": 64.64
+ },
+ {
+  "texto": "la",
+  "inicio": 64.64,
+  "fin": 64.68
+ },
+ {
+  "texto": "red.",
+  "inicio": 64.68,
+  "fin": 66.58
+ },
+ {
+  "texto": "Coges",
+  "inicio": 67.34,
+  "fin": 67.58
+ },
+ {
+  "texto": "una",
+  "inicio": 67.58,
+  "fin": 67.7
+ },
+ {
+  "texto": "vez",
+  "inicio": 67.7,
+  "fin": 67.82
+ },
+ {
+  "texto": "más",
+  "inicio": 67.82,
+  "fin": 68.02
+ },
+ {
+  "texto": "ese",
+  "inicio": 68.02,
+  "fin": 68.2
+ },
+ {
+  "texto": "número",
+  "inicio": 68.2,
+  "fin": 68.42
+ },
+ {
+  "texto": "y",
+  "inicio": 68.42,
+  "fin": 68.62
+ },
+ {
+  "texto": "multiplícalo",
+  "inicio": 68.62,
+  "fin": 69.12
+ },
+ {
+  "texto": "por",
+  "inicio": 69.12,
+  "fin": 69.34
+ },
+ {
+  "texto": "0",
+  "inicio": 69.34,
+  "fin": 69.5
+ },
+ {
+  "texto": ",10.",
+  "inicio": 69.5,
+  "fin": 69.84
+ },
+ {
+  "texto": "Ese",
+  "inicio": 70,
+  "fin": 70.2
+ },
+ {
+  "texto": "será",
+  "inicio": 70.2,
+  "fin": 70.42
+ },
+ {
+  "texto": "tu",
+  "inicio": 70.42,
+  "fin": 70.66
+ },
+ {
+  "texto": "dinero",
+  "inicio": 70.66,
+  "fin": 70.88
+ },
+ {
+  "texto": "cada",
+  "inicio": 70.88,
+  "fin": 71.06
+ },
+ {
+  "texto": "mes",
+  "inicio": 71.06,
+  "fin": 71.3
+ },
+ {
+  "texto": "para",
+  "inicio": 71.3,
+  "fin": 71.48
+ },
+ {
+  "texto": "tus",
+  "inicio": 71.48,
+  "fin": 71.72
+ },
+ {
+  "texto": "extras.",
+  "inicio": 71.72,
+  "fin": 71.96
+ },
+ {
+  "texto": "Restaurantes,",
+  "inicio": 72.12,
+  "fin": 72.82
+ },
+ {
+  "texto": "algún",
+  "inicio": 73,
+  "fin": 73.16
+ },
+ {
+  "texto": "caprichito.",
+  "inicio": 73.16,
+  "fin": 74.06
+ },
+ {
+  "texto": "Luego",
+  "inicio": 74.52,
+  "fin": 74.74
+ },
+ {
+  "texto": "también",
+  "inicio": 74.74,
+  "fin": 74.94
+ },
+ {
+  "texto": "coge",
+  "inicio": 74.94,
+  "fin": 75.46
+ },
+ {
+  "texto": "el",
+  "inicio": 75.46,
+  "fin": 75.6
+ },
+ {
+  "texto": "salario",
+  "inicio": 75.6,
+  "fin": 76
+ },
+ {
+  "texto": "y",
+  "inicio": 76,
+  "fin": 76.08
+ },
+ {
+  "texto": "lo",
+  "inicio": 76.08,
+  "fin": 76.24
+ },
+ {
+  "texto": "multiplicas",
+  "inicio": 76.24,
+  "fin": 76.7
+ },
+ {
+  "texto": "por",
+  "inicio": 76.7,
+  "fin": 76.86
+ },
+ {
+  "texto": "0",
+  "inicio": 76.86,
+  "fin": 77
+ },
+ {
+  "texto": ",70.",
+  "inicio": 77,
+  "fin": 77.52
+ },
+ {
+  "texto": "Eso",
+  "inicio": 77.74,
+  "fin": 77.92
+ },
+ {
+  "texto": "será",
+  "inicio": 77.92,
+  "fin": 78.04
+ },
+ {
+  "texto": "lo",
+  "inicio": 78.04,
+  "fin": 78.12
+ },
+ {
+  "texto": "que",
+  "inicio": 78.12,
+  "fin": 78.28
+ },
+ {
+  "texto": "vas",
+  "inicio": 78.28,
+  "fin": 78.4
+ },
+ {
+  "texto": "a",
+  "inicio": 78.4,
+  "fin": 78.48
+ },
+ {
+  "texto": "adecinar",
+  "inicio": 78.48,
+  "fin": 78.98
+ },
+ {
+  "texto": "a",
+  "inicio": 78.98,
+  "fin": 79.2
+ },
+ {
+  "texto": "gastos",
+  "inicio": 79.2,
+  "fin": 79.5
+ },
+ {
+  "texto": "fijos",
+  "inicio": 79.5,
+  "fin": 79.82
+ },
+ {
+  "texto": "cada",
+  "inicio": 79.82,
+  "fin": 80.06
+ },
+ {
+  "texto": "mes.",
+  "inicio": 80.06,
+  "fin": 80.4
+ },
+ {
+  "texto": "Al",
+  "inicio": 80.56,
+  "fin": 80.74
+ },
+ {
+  "texto": "killer,",
+  "inicio": 80.74,
+  "fin": 81.32
+ },
+ {
+  "texto": "comida.",
+  "inicio": 81.54,
+  "fin": 88.1
+ },
+ {
+  "texto": "Y",
+  "inicio": 89.96,
+  "fin": 90.04
+ },
+ {
+  "texto": "si",
+  "inicio": 90.04,
+  "fin": 90.12
+ },
+ {
+  "texto": "te",
+  "inicio": 90.12,
+  "fin": 90.32
+ },
+ {
+  "texto": "pasas",
+  "inicio": 90.32,
+  "fin": 90.66
+ },
+ {
+  "texto": "de",
+  "inicio": 90.66,
+  "fin": 90.8
+ },
+ {
+  "texto": "...",
+  "inicio": 90.8,
+  "fin": 90.82
+ },
+ {
+  "texto": "Y",
+  "inicio": 93.86,
+  "fin": 93.94
+ },
+ {
+  "texto": "si",
+  "inicio": 93.94,
+  "fin": 94.04
+ },
+ {
+  "texto": "te",
+  "inicio": 94.04,
+  "fin": 94.22
+ },
+ {
+  "texto": "pasas",
+  "inicio": 94.22,
+  "fin": 94.5
+ },
+ {
+  "texto": "de",
+  "inicio": 94.5,
+  "fin": 94.66
+ },
+ {
+  "texto": "esa",
+  "inicio": 94.66,
+  "fin": 94.94
+ },
+ {
+  "texto": "cantidad,",
+  "inicio": 94.94,
+  "fin": 95.34
+ },
+ {
+  "texto": "algo",
+  "inicio": 95.66,
+  "fin": 96.36
+ },
+ {
+  "texto": "tiene",
+  "inicio": 96.36,
+  "fin": 96.64
+ },
+ {
+  "texto": "que",
+  "inicio": 96.64,
+  "fin": 96.94
+ },
+ {
+  "texto": "cambiar",
+  "inicio": 96.94,
+  "fin": 97.26
+ },
+ {
+  "texto": "en",
+  "inicio": 97.26,
+  "fin": 97.36
+ },
+ {
+  "texto": "tu",
+  "inicio": 97.36,
+  "fin": 97.52
+ },
+ {
+  "texto": "vida.",
+  "inicio": 97.52,
+  "fin": 97.78
+ },
+ {
+  "texto": "Yo",
+  "inicio": 102.56,
+  "fin": 102.7
+ },
+ {
+  "texto": "solo",
+  "inicio": 102.7,
+  "fin": 102.84
+ },
+ {
+  "texto": "digo",
+  "inicio": 102.84,
+  "fin": 102.92
+ },
+ {
+  "texto": "a",
+  "inicio": 102.92,
+  "fin": 103
+ },
+ {
+  "texto": "mis",
+  "inicio": 103,
+  "fin": 103.18
+ },
+ {
+  "texto": "alumnos",
+  "inicio": 103.18,
+  "fin": 103.54
+ },
+ {
+  "texto": "que",
+  "inicio": 103.54,
+  "fin": 103.7
+ },
+ {
+  "texto": "como",
+  "inicio": 103.7,
+  "fin": 103.88
+ },
+ {
+  "texto": "entrenadores",
+  "inicio": 103.88,
+  "fin": 104.42
+ },
+ {
+  "texto": "personales",
+  "inicio": 104.42,
+  "fin": 104.76
+ },
+ {
+  "texto": "tienen",
+  "inicio": 104.76,
+  "fin": 104.9
+ },
+ {
+  "texto": "que",
+  "inicio": 104.9,
+  "fin": 105.08
+ },
+ {
+  "texto": "predicar",
+  "inicio": 105.08,
+  "fin": 105.42
+ },
+ {
+  "texto": "con",
+  "inicio": 105.42,
+  "fin": 105.5
+ },
+ {
+  "texto": "el",
+  "inicio": 105.5,
+  "fin": 105.78
+ },
+ {
+  "texto": "ejemplo.",
+  "inicio": 105.78,
+  "fin": 107.22
+ },
+ {
+  "texto": "Cuidarse",
+  "inicio": 109.62,
+  "fin": 110.12
+ },
+ {
+  "texto": "más,",
+  "inicio": 110.12,
+  "fin": 110.28
+ },
+ {
+  "texto": "gastar",
+  "inicio": 110.48,
+  "fin": 110.84
+ },
+ {
+  "texto": "más",
+  "inicio": 110.84,
+  "fin": 111.06
+ },
+ {
+  "texto": "en",
+  "inicio": 111.06,
+  "fin": 111.26
+ },
+ {
+  "texto": "ellos",
+  "inicio": 111.26,
+  "fin": 111.6
+ },
+ {
+  "texto": "mismos",
+  "inicio": 111.6,
+  "fin": 114.26
+ },
+ {
+  "texto": "y",
+  "inicio": 114.26,
+  "fin": 114.4
+ },
+ {
+  "texto": "sobre",
+  "inicio": 114.4,
+  "fin": 114.56
+ },
+ {
+  "texto": "todo",
+  "inicio": 114.56,
+  "fin": 114.78
+ },
+ {
+  "texto": "invertir",
+  "inicio": 114.78,
+  "fin": 115.08
+ },
+ {
+  "texto": "más",
+  "inicio": 115.08,
+  "fin": 115.28
+ },
+ {
+  "texto": "en",
+  "inicio": 115.28,
+  "fin": 115.42
+ },
+ {
+  "texto": "su",
+  "inicio": 115.42,
+  "fin": 115.66
+ },
+ {
+  "texto": "conocimiento.",
+  "inicio": 115.66,
+  "fin": 116.04
+ },
+ {
+  "texto": "Ese",
+  "inicio": 120.42,
+  "fin": 120.56
+ },
+ {
+  "texto": "fue",
+  "inicio": 120.56,
+  "fin": 120.76
+ },
+ {
+  "texto": "literalmente",
+  "inicio": 120.76,
+  "fin": 121.18
+ },
+ {
+  "texto": "el",
+  "inicio": 121.18,
+  "fin": 121.36
+ },
+ {
+  "texto": "camino",
+  "inicio": 121.36,
+  "fin": 121.52
+ },
+ {
+  "texto": "que",
+  "inicio": 121.52,
+  "fin": 121.6
+ },
+ {
+  "texto": "me",
+  "inicio": 121.6,
+  "fin": 121.7
+ },
+ {
+  "texto": "llevó",
+  "inicio": 121.7,
+  "fin": 121.9
+ },
+ {
+  "texto": "de",
+  "inicio": 121.9,
+  "fin": 122.06
+ },
+ {
+  "texto": "0",
+  "inicio": 122.06,
+  "fin": 122.14
+ },
+ {
+  "texto": "a",
+  "inicio": 122.14,
+  "fin": 122.26
+ },
+ {
+  "texto": "7",
+  "inicio": 122.26,
+  "fin": 122.48
+ },
+ {
+  "texto": "cifras",
+  "inicio": 122.48,
+  "fin": 122.86
+ },
+ {
+  "texto": "con",
+  "inicio": 122.86,
+  "fin": 123
+ },
+ {
+  "texto": "el",
+  "inicio": 123,
+  "fin": 123.16
+ },
+ {
+  "texto": "negocio",
+  "inicio": 123.16,
+  "fin": 123.5
+ },
+ {
+  "texto": "FINDES.",
+  "inicio": 123.5,
+  "fin": 123.72
+ },
+ {
+  "texto": "y",
+  "inicio": 128.72,
+  "fin": 129.98
+ },
+ {
+  "texto": "Ese",
+  "inicio": 130.46,
+  "fin": 130.62
+ },
+ {
+  "texto": "fue",
+  "inicio": 130.62,
+  "fin": 130.7
+ },
+ {
+  "texto": "el",
+  "inicio": 130.7,
+  "fin": 130.86
+ },
+ {
+  "texto": "camino",
+  "inicio": 130.86,
+  "fin": 131
+ },
+ {
+  "texto": "que",
+  "inicio": 131,
+  "fin": 131.08
+ },
+ {
+  "texto": "me",
+  "inicio": 131.08,
+  "fin": 131.22
+ },
+ {
+  "texto": "llevó",
+  "inicio": 131.22,
+  "fin": 131.36
+ },
+ {
+  "texto": "a",
+  "inicio": 131.36,
+  "fin": 131.44
+ },
+ {
+  "texto": "mí",
+  "inicio": 131.44,
+  "fin": 131.54
+ },
+ {
+  "texto": "de",
+  "inicio": 131.54,
+  "fin": 131.72
+ },
+ {
+  "texto": "0",
+  "inicio": 131.72,
+  "fin": 131.82
+ },
+ {
+  "texto": "a",
+  "inicio": 131.82,
+  "fin": 131.9
+ },
+ {
+  "texto": "7",
+  "inicio": 131.9,
+  "fin": 132.16
+ },
+ {
+  "texto": "cifras",
+  "inicio": 132.16,
+  "fin": 132.38
+ },
+ {
+  "texto": "con",
+  "inicio": 132.38,
+  "fin": 132.5
+ },
+ {
+  "texto": "el",
+  "inicio": 132.5,
+  "fin": 132.64
+ },
+ {
+  "texto": "negocio",
+  "inicio": 132.64,
+  "fin": 133.04
+ },
+ {
+  "texto": "fitness.",
+  "inicio": 133.04,
+  "fin": 133.36
+ },
+ {
+  "texto": "Y",
+  "inicio": 133.4,
+  "fin": 133.58
+ },
+ {
+  "texto": "si",
+  "inicio": 133.58,
+  "fin": 133.78
+ },
+ {
+  "texto": "tú",
+  "inicio": 133.78,
+  "fin": 134.04
+ },
+ {
+  "texto": "también",
+  "inicio": 134.04,
+  "fin": 134.26
+ },
+ {
+  "texto": "estás",
+  "inicio": 134.26,
+  "fin": 134.44
+ },
+ {
+  "texto": "en",
+  "inicio": 134.44,
+  "fin": 134.52
+ },
+ {
+  "texto": "el",
+  "inicio": 134.52,
+  "fin": 134.68
+ },
+ {
+  "texto": "negocio",
+  "inicio": 134.68,
+  "fin": 135.04
+ },
+ {
+  "texto": "fitness,",
+  "inicio": 135.04,
+  "fin": 135.28
+ },
+ {
+  "texto": "no",
+  "inicio": 135.42,
+  "fin": 135.56
+ },
+ {
+  "texto": "sé",
+  "inicio": 135.56,
+  "fin": 135.64
+ },
+ {
+  "texto": "qué",
+  "inicio": 135.64,
+  "fin": 135.8
+ },
+ {
+  "texto": "haces,",
+  "inicio": 135.8,
+  "fin": 136
+ },
+ {
+  "texto": "que",
+  "inicio": 136.02,
+  "fin": 136.14
+ },
+ {
+  "texto": "aún",
+  "inicio": 136.14,
+  "fin": 136.2
+ },
+ {
+  "texto": "no",
+  "inicio": 136.2,
+  "fin": 136.22
+ },
+ {
+  "texto": "ha",
+  "inicio": 136.22,
+  "fin": 136.4
+ },
+ {
+  "texto": "visto",
+  "inicio": 136.4,
+  "fin": 136.6
+ },
+ {
+  "texto": "la",
+  "inicio": 136.6,
+  "fin": 136.76
+ },
+ {
+  "texto": "guía",
+  "inicio": 136.76,
+  "fin": 137.42
+ },
+ {
+  "texto": "para",
+  "inicio": 137.42,
+  "fin": 137.44
+ },
+ {
+  "texto": "conseguir",
+  "inicio": 137.84,
+  "fin": 138.08
+ },
+ {
+  "texto": "tus",
+  "inicio": 138.08,
+  "fin": 138.76
+ },
+ {
+  "texto": "...",
+  "inicio": 138.76,
+  "fin": 138.78
+ },
+ {
+  "texto": "y",
+  "inicio": 139.12,
+  "fin": 139.2
+ },
+ {
+  "texto": "si",
+  "inicio": 139.2,
+  "fin": 139.34
+ },
+ {
+  "texto": "estás",
+  "inicio": 139.34,
+  "fin": 139.5
+ },
+ {
+  "texto": "en",
+  "inicio": 139.5,
+  "fin": 139.56
+ },
+ {
+  "texto": "el",
+  "inicio": 139.56,
+  "fin": 139.7
+ },
+ {
+  "texto": "negocio",
+  "inicio": 139.7,
+  "fin": 142.18
+ },
+ {
+  "texto": "fitness",
+  "inicio": 142.18,
+  "fin": 142.4
+ },
+ {
+  "texto": "y",
+  "inicio": 142.4,
+  "fin": 142.54
+ },
+ {
+  "texto": "aún",
+  "inicio": 142.54,
+  "fin": 142.68
+ },
+ {
+  "texto": "no",
+  "inicio": 142.68,
+  "fin": 142.84
+ },
+ {
+  "texto": "has",
+  "inicio": 142.84,
+  "fin": 143.08
+ },
+ {
+  "texto": "empezado",
+  "inicio": 143.08,
+  "fin": 143.36
+ },
+ {
+  "texto": "a",
+  "inicio": 143.36,
+  "fin": 143.48
+ },
+ {
+  "texto": "aplicar",
+  "inicio": 143.48,
+  "fin": 143.78
+ },
+ {
+  "texto": "la",
+  "inicio": 143.78,
+  "fin": 143.92
+ },
+ {
+  "texto": "guía",
+  "inicio": 143.94,
+  "fin": 144.06
+ },
+ {
+  "texto": "High",
+  "inicio": 144.28,
+  "fin": 144.5
+ },
+ {
+  "texto": "Ticket",
+  "inicio": 144.5,
+  "fin": 144.82
+ },
+ {
+  "texto": "que",
+  "inicio": 144.82,
+  "fin": 144.92
+ },
+ {
+  "texto": "es",
+  "inicio": 144.92,
+  "fin": 145.08
+ },
+ {
+  "texto": "gratis",
+  "inicio": 145.08,
+  "fin": 145.24
+ },
+ {
+  "texto": "comenta",
+  "inicio": 145.68,
+  "fin": 145.92
+ },
+ {
+  "texto": "la",
+  "inicio": 145.92,
+  "fin": 146.06
+ },
+ {
+  "texto": "palabra",
+  "inicio": 146.06,
+  "fin": 146.36
+ },
+ {
+  "texto": "guía",
+  "inicio": 146.36,
+  "fin": 146.64
+ },
+ {
+  "texto": "y",
+  "inicio": 146.64,
+  "fin": 146.7
+ },
+ {
+  "texto": "la",
+  "inicio": 146.7,
+  "fin": 146.82
+ },
+ {
+  "texto": "empiezas",
+  "inicio": 146.82,
+  "fin": 147.1
+ },
+ {
+  "texto": "a",
+  "inicio": 147.1,
+  "fin": 147.26
+ },
+ {
+  "texto": "aplicar",
+  "inicio": 147.26,
+  "fin": 147.58
+ },
+ {
+  "texto": "desde",
+  "inicio": 147.58,
+  "fin": 147.8
+ },
+ {
+  "texto": "ya",
+  "inicio": 147.8,
+  "fin": 148.16
+ },
+ {
+  "texto": "no",
+  "inicio": 148.16,
+  "fin": 148.42
+ },
+ {
+  "texto": "negocias",
+  "inicio": 148.42,
+  "fin": 148.7
+ },
+ {
+  "texto": "tu",
+  "inicio": 148.7,
+  "fin": 148.84
+ },
+ {
+  "texto": "conocimiento",
+  "inicio": 148.84,
+  "fin": 150.9
+ },
+ {
+  "texto": "ok",
+  "inicio": 150.9,
+  "fin": 150.92
+ }
+]

@@ -1,0 +1,116 @@
+[
+{
+"texto": "o",
+"inicio": 4.961,
+"fin": 5.264,
+"score": 0.758
+},
+{
+"texto": "no",
+"inicio": 5.304,
+"fin": 5.406,
+"score": 0.568
+},
+{
+"texto": "STYLE",
+"inicio": 70.786,
+"fin": 70.953,
+"score": 0.165
+},
+{
+"texto": "es",
+"inicio": 111.19,
+"fin": 111.231,
+"score": 0.141
+},
+{
+"texto": "una",
+"inicio": 111.271,
+"fin": 111.331,
+"score": 0.048
+},
+{
+"texto": "mujer",
+"inicio": 111.372,
+"fin": 111.614,
+"score": 0.301
+},
+{
+"texto": "sensual.",
+"inicio": 111.715,
+"fin": 112.017,
+"score": 0.309
+},
+{
+"texto": "Gangnam",
+"inicio": 152.61,
+"fin": 152.791,
+"score": 0.103
+},
+{
+"texto": "Style",
+"inicio": 152.851,
+"fin": 153.292,
+"score": 0.621
+},
+{
+"texto": "Gangnam",
+"inicio": 153.533,
+"fin": 153.754,
+"score": 0.279
+},
+{
+"texto": "Style",
+"inicio": 153.874,
+"fin": 154.416,
+"score": 0.528
+},
+{
+"texto": "Gangnam",
+"inicio": 197.778,
+"fin": 198.078,
+"score": 0.487
+},
+{
+"texto": "Style",
+"inicio": 198.178,
+"fin": 200.159,
+"score": 0.802
+},
+{
+"texto": "Oppan",
+"inicio": 200.299,
+"fin": 201.219,
+"score": 0.674
+},
+{
+"texto": "Gangnam",
+"inicio": 201.239,
+"fin": 201.66,
+"score": 0.437
+},
+{
+"texto": "Style",
+"inicio": 201.76,
+"fin": 202.02,
+"score": 0.493
+},
+{
+"texto": "Oppan",
+"inicio": 202.06,
+"fin": 202.3,
+"score": 0.246
+},
+{
+"texto": "Gangnam",
+"inicio": 202.32,
+"fin": 202.76,
+"score": 0.506
+},
+{
+"texto": "Style",
+"inicio": 202.84,
+"fin": 203.12,
+"score": 0.535
+}
+]

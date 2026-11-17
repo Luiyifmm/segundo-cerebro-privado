@@ -1,0 +1,872 @@
+[
+ {
+  "texto": "Coca",
+  "inicio": 21.2,
+  "fin": 21.42
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 21.42,
+  "fin": 21.68
+ },
+ {
+  "texto": "cero,",
+  "inicio": 21.68,
+  "fin": 22.06
+ },
+ {
+  "texto": "agua",
+  "inicio": 22.18,
+  "fin": 22.4
+ },
+ {
+  "texto": "con",
+  "inicio": 22.4,
+  "fin": 22.62
+ },
+ {
+  "texto": "gas.",
+  "inicio": 22.62,
+  "fin": 23
+ },
+ {
+  "texto": "Coca",
+  "inicio": 27.38,
+  "fin": 27.62
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 27.62,
+  "fin": 27.86
+ },
+ {
+  "texto": "cero,",
+  "inicio": 27.86,
+  "fin": 28.22
+ },
+ {
+  "texto": "agua",
+  "inicio": 28.38,
+  "fin": 28.56
+ },
+ {
+  "texto": "con",
+  "inicio": 28.56,
+  "fin": 28.9
+ },
+ {
+  "texto": "gas,",
+  "inicio": 28.9,
+  "fin": 29.16
+ },
+ {
+  "texto": "café,",
+  "inicio": 29.42,
+  "fin": 29.78
+ },
+ {
+  "texto": "no.",
+  "inicio": 29.9,
+  "fin": 29.98
+ },
+ {
+  "texto": "Coca",
+  "inicio": 27.38,
+  "fin": 27.64
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 27.64,
+  "fin": 27.86
+ },
+ {
+  "texto": "cero,",
+  "inicio": 27.86,
+  "fin": 28.22
+ },
+ {
+  "texto": "agua",
+  "inicio": 28.4,
+  "fin": 28.56
+ },
+ {
+  "texto": "con",
+  "inicio": 28.56,
+  "fin": 28.92
+ },
+ {
+  "texto": "gas,",
+  "inicio": 28.92,
+  "fin": 29.14
+ },
+ {
+  "texto": "café.",
+  "inicio": 29.38,
+  "fin": 29.84
+ },
+ {
+  "texto": "Coca",
+  "inicio": 30.82,
+  "fin": 31.08
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 31.08,
+  "fin": 31.32
+ },
+ {
+  "texto": "cero,",
+  "inicio": 31.32,
+  "fin": 31.8
+ },
+ {
+  "texto": "agua",
+  "inicio": 31.94,
+  "fin": 32.14
+ },
+ {
+  "texto": "con",
+  "inicio": 32.14,
+  "fin": 32.5
+ },
+ {
+  "texto": "gas,",
+  "inicio": 32.5,
+  "fin": 32.84
+ },
+ {
+  "texto": "té",
+  "inicio": 32.94,
+  "fin": 33.2
+ },
+ {
+  "texto": "verde,",
+  "inicio": 33.2,
+  "fin": 33.68
+ },
+ {
+  "texto": "café",
+  "inicio": 33.96,
+  "fin": 34.72
+ },
+ {
+  "texto": "y",
+  "inicio": 34.72,
+  "fin": 34.9
+ },
+ {
+  "texto": "agua",
+  "inicio": 34.9,
+  "fin": 35.1
+ },
+ {
+  "texto": "con",
+  "inicio": 35.1,
+  "fin": 35.26
+ },
+ {
+  "texto": "rodazas",
+  "inicio": 35.26,
+  "fin": 35.48
+ },
+ {
+  "texto": "de",
+  "inicio": 35.48,
+  "fin": 35.6
+ },
+ {
+  "texto": "limón.",
+  "inicio": 35.6,
+  "fin": 36.72
+ },
+ {
+  "texto": "Coca",
+  "inicio": 38.06,
+  "fin": 38.32
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 38.32,
+  "fin": 38.6
+ },
+ {
+  "texto": "cero,",
+  "inicio": 38.6,
+  "fin": 39.24
+ },
+ {
+  "texto": "agua",
+  "inicio": 39.42,
+  "fin": 40.22
+ },
+ {
+  "texto": "con",
+  "inicio": 40.22,
+  "fin": 41.78
+ },
+ {
+  "texto": "gas,",
+  "inicio": 41.78,
+  "fin": 42.06
+ },
+ {
+  "texto": "de",
+  "inicio": 42.14,
+  "fin": 42.44
+ },
+ {
+  "texto": "verde,",
+  "inicio": 42.44,
+  "fin": 42.9
+ },
+ {
+  "texto": "café",
+  "inicio": 43.12,
+  "fin": 43.82
+ },
+ {
+  "texto": "y",
+  "inicio": 43.82,
+  "fin": 44.08
+ },
+ {
+  "texto": "agua",
+  "inicio": 44.08,
+  "fin": 44.28
+ },
+ {
+  "texto": "con",
+  "inicio": 44.28,
+  "fin": 44.44
+ },
+ {
+  "texto": "limón.",
+  "inicio": 44.44,
+  "fin": 46.18
+ },
+ {
+  "texto": "Coca",
+  "inicio": 46.6,
+  "fin": 46.86
+ },
+ {
+  "texto": "-Cola",
+  "inicio": 46.86,
+  "fin": 47.14
+ },
+ {
+  "texto": "cero,",
+  "inicio": 47.14,
+  "fin": 48.44
+ },
+ {
+  "texto": "agua",
+  "inicio": 50.26,
+  "fin": 50.5
+ },
+ {
+  "texto": "con",
+  "inicio": 50.5,
+  "fin": 50.82
+ },
+ {
+  "texto": "gas,",
+  "inicio": 50.82,
+  "fin": 51.16
+ },
+ {
+  "texto": "de",
+  "inicio": 51.26,
+  "fin": 51.5
+ },
+ {
+  "texto": "verde,",
+  "inicio": 51.5,
+  "fin": 51.94
+ },
+ {
+  "texto": "café,",
+  "inicio": 52.14,
+  "fin": 52.7
+ },
+ {
+  "texto": "agua",
+  "inicio": 52.82,
+  "fin": 53
+ },
+ {
+  "texto": "con",
+  "inicio": 53,
+  "fin": 53.16
+ },
+ {
+  "texto": "roja",
+  "inicio": 53.16,
+  "fin": 53.36
+ },
+ {
+  "texto": "de",
+  "inicio": 53.36,
+  "fin": 53.52
+ },
+ {
+  "texto": "limón.",
+  "inicio": 53.52,
+  "fin": 53.72
+ },
+ {
+  "texto": "A",
+  "inicio": 66.6,
+  "fin": 66.76
+ },
+ {
+  "texto": "tu",
+  "inicio": 66.76,
+  "fin": 67
+ },
+ {
+  "texto": "natural",
+  "inicio": 67.68,
+  "fin": 68.4
+ },
+ {
+  "texto": "proteína",
+  "inicio": 68.4,
+  "fin": 68.8
+ },
+ {
+  "texto": "en",
+  "inicio": 68.8,
+  "fin": 68.98
+ },
+ {
+  "texto": "polvo",
+  "inicio": 68.98,
+  "fin": 69.98
+ },
+ {
+  "texto": "Atún",
+  "inicio": 67.36,
+  "fin": 67.78
+ },
+ {
+  "texto": "natural",
+  "inicio": 67.78,
+  "fin": 68.38
+ },
+ {
+  "texto": "proteína",
+  "inicio": 68.38,
+  "fin": 68.8
+ },
+ {
+  "texto": "en",
+  "inicio": 68.8,
+  "fin": 68.98
+ },
+ {
+  "texto": "polvo.",
+  "inicio": 68.98,
+  "fin": 69.38
+ },
+ {
+  "texto": "Atún",
+  "inicio": 70.24,
+  "fin": 70.74
+ },
+ {
+  "texto": "natural",
+  "inicio": 70.74,
+  "fin": 71.1
+ },
+ {
+  "texto": "proteína",
+  "inicio": 71.1,
+  "fin": 71.44
+ },
+ {
+  "texto": "en",
+  "inicio": 71.44,
+  "fin": 71.6
+ },
+ {
+  "texto": "polvo.",
+  "inicio": 71.6,
+  "fin": 71.82
+ },
+ {
+  "texto": "Yo",
+  "inicio": 72,
+  "fin": 72.14
+ },
+ {
+  "texto": "creo",
+  "inicio": 72.14,
+  "fin": 72.32
+ },
+ {
+  "texto": "que",
+  "inicio": 72.32,
+  "fin": 72.62
+ },
+ {
+  "texto": "es",
+  "inicio": 72.62,
+  "fin": 72.96
+ },
+ {
+  "texto": "griego.",
+  "inicio": 72.96,
+  "fin": 73.12
+ },
+ {
+  "texto": "Aten",
+  "inicio": 75.6,
+  "fin": 77.96
+ },
+ {
+  "texto": "...",
+  "inicio": 77.96,
+  "fin": 77.98
+ },
+ {
+  "texto": "Atún",
+  "inicio": 80.6,
+  "fin": 82.26
+ },
+ {
+  "texto": "natural",
+  "inicio": 82.26,
+  "fin": 83.7
+ },
+ {
+  "texto": "proteína",
+  "inicio": 83.7,
+  "fin": 84.16
+ },
+ {
+  "texto": "en",
+  "inicio": 84.16,
+  "fin": 84.34
+ },
+ {
+  "texto": "polvo.",
+  "inicio": 84.34,
+  "fin": 84.8
+ },
+ {
+  "texto": "Atún",
+  "inicio": 85.76,
+  "fin": 86.3
+ },
+ {
+  "texto": "natural",
+  "inicio": 86.3,
+  "fin": 86.72
+ },
+ {
+  "texto": "proteína",
+  "inicio": 86.72,
+  "fin": 87.06
+ },
+ {
+  "texto": "en",
+  "inicio": 87.06,
+  "fin": 87.24
+ },
+ {
+  "texto": "polvo",
+  "inicio": 87.24,
+  "fin": 87.4
+ },
+ {
+  "texto": "Yocurgriégo",
+  "inicio": 87.6,
+  "fin": 88.22
+ },
+ {
+  "texto": "ueskir",
+  "inicio": 88.22,
+  "fin": 88.8
+ },
+ {
+  "texto": "Pechuga",
+  "inicio": 89.26,
+  "fin": 89.64
+ },
+ {
+  "texto": "de",
+  "inicio": 89.64,
+  "fin": 89.76
+ },
+ {
+  "texto": "pollo",
+  "inicio": 89.76,
+  "fin": 90.1
+ },
+ {
+  "texto": "o",
+  "inicio": 90.1,
+  "fin": 90.18
+ },
+ {
+  "texto": "de",
+  "inicio": 90.18,
+  "fin": 90.3
+ },
+ {
+  "texto": "pavo",
+  "inicio": 90.3,
+  "fin": 90.7
+ },
+ {
+  "texto": "Clarte",
+  "inicio": 91.06,
+  "fin": 91.34
+ },
+ {
+  "texto": "huevo",
+  "inicio": 91.34,
+  "fin": 93.3
+ },
+ {
+  "texto": "No.",
+  "inicio": 126.72,
+  "fin": 128.16
+ },
+ {
+  "texto": "de",
+  "inicio": 149.98,
+  "fin": 149.98
+ },
+ {
+  "texto": "la",
+  "inicio": 169.98,
+  "fin": 169.98
+ },
+ {
+  "texto": "parte",
+  "inicio": 169.98,
+  "fin": 169.98
+ },
+ {
+  "texto": "que",
+  "inicio": 169.98,
+  "fin": 169.98
+ },
+ {
+  "texto": "se",
+  "inicio": 189.98,
+  "fin": 189.98
+ },
+ {
+  "texto": "ha",
+  "inicio": 189.98,
+  "fin": 189.98
+ },
+ {
+  "texto": "hecho",
+  "inicio": 189.98,
+  "fin": 189.98
+ },
+ {
+  "texto": "el",
+  "inicio": 189.98,
+  "fin": 189.98
+ },
+ {
+  "texto": "Abena",
+  "inicio": 199.14,
+  "fin": 201.06
+ },
+ {
+  "texto": "palomita.",
+  "inicio": 201.06,
+  "fin": 203.48
+ },
+ {
+  "texto": "palomitas",
+  "inicio": 203.82,
+  "fin": 204.28
+ },
+ {
+  "texto": "de",
+  "inicio": 204.28,
+  "fin": 204.44
+ },
+ {
+  "texto": "maíz,",
+  "inicio": 204.44,
+  "fin": 204.8
+ },
+ {
+  "texto": "frutos",
+  "inicio": 204.92,
+  "fin": 205.28
+ },
+ {
+  "texto": "rojos",
+  "inicio": 205.28,
+  "fin": 207.84
+ },
+ {
+  "texto": "avena",
+  "inicio": 208.32,
+  "fin": 208.76
+ },
+ {
+  "texto": "palomitas",
+  "inicio": 208.76,
+  "fin": 209.18
+ },
+ {
+  "texto": "de",
+  "inicio": 209.18,
+  "fin": 209.38
+ },
+ {
+  "texto": "maíz,",
+  "inicio": 209.38,
+  "fin": 209.78
+ },
+ {
+  "texto": "frutos",
+  "inicio": 209.82,
+  "fin": 210.2
+ },
+ {
+  "texto": "rojos,",
+  "inicio": 210.2,
+  "fin": 210.54
+ },
+ {
+  "texto": "verduras",
+  "inicio": 210.7,
+  "fin": 211.46
+ },
+ {
+  "texto": "y",
+  "inicio": 211.46,
+  "fin": 211.66
+ },
+ {
+  "texto": "patata",
+  "inicio": 211.66,
+  "fin": 211.98
+ },
+ {
+  "texto": "cosida",
+  "inicio": 211.98,
+  "fin": 214.84
+ },
+ {
+  "texto": "¡Semilla",
+  "inicio": 224.88,
+  "fin": 227.86
+ },
+ {
+  "texto": "de",
+  "inicio": 227.86,
+  "fin": 228.14
+ },
+ {
+  "texto": "chia",
+  "inicio": 228.14,
+  "fin": 228.4
+ },
+ {
+  "texto": "aceite",
+  "inicio": 228.68,
+  "fin": 228.98
+ },
+ {
+  "texto": "de",
+  "inicio": 228.98,
+  "fin": 229.1
+ },
+ {
+  "texto": "virgen",
+  "inicio": 229.1,
+  "fin": 229.66
+ },
+ {
+  "texto": "extra.",
+  "inicio": 229.66,
+  "fin": 230.96
+ },
+ {
+  "texto": "Semillas",
+  "inicio": 233.58,
+  "fin": 233.98
+ },
+ {
+  "texto": "de",
+  "inicio": 233.98,
+  "fin": 234.2
+ },
+ {
+  "texto": "chía,",
+  "inicio": 234.2,
+  "fin": 234.66
+ },
+ {
+  "texto": "aceite",
+  "inicio": 234.94,
+  "fin": 235.16
+ },
+ {
+  "texto": "de",
+  "inicio": 235.16,
+  "fin": 235.32
+ },
+ {
+  "texto": "oliva",
+  "inicio": 235.32,
+  "fin": 235.6
+ },
+ {
+  "texto": "virgen",
+  "inicio": 235.6,
+  "fin": 236.12
+ },
+ {
+  "texto": "extra.",
+  "inicio": 236.12,
+  "fin": 237.26
+ },
+ {
+  "texto": "Semillas",
+  "inicio": 238.08,
+  "fin": 238.42
+ },
+ {
+  "texto": "de",
+  "inicio": 238.42,
+  "fin": 238.62
+ },
+ {
+  "texto": "chía,",
+  "inicio": 238.62,
+  "fin": 238.98
+ },
+ {
+  "texto": "aceite",
+  "inicio": 239.18,
+  "fin": 239.5
+ },
+ {
+  "texto": "de",
+  "inicio": 239.5,
+  "fin": 239.62
+ },
+ {
+  "texto": "virgen",
+  "inicio": 239.62,
+  "fin": 240.08
+ },
+ {
+  "texto": "extra.",
+  "inicio": 240.08,
+  "fin": 240.72
+ },
+ {
+  "texto": "de",
+  "inicio": 243.86,
+  "fin": 244.02
+ },
+ {
+  "texto": "chía",
+  "inicio": 244.02,
+  "fin": 244.74
+ },
+ {
+  "texto": "aceite",
+  "inicio": 244.74,
+  "fin": 245.12
+ },
+ {
+  "texto": "de",
+  "inicio": 245.12,
+  "fin": 245.28
+ },
+ {
+  "texto": "virgen",
+  "inicio": 245.28,
+  "fin": 245.5
+ },
+ {
+  "texto": "...",
+  "inicio": 245.72,
+  "fin": 245.72
+ },
+ {
+  "texto": "No,",
+  "inicio": 245.72,
+  "fin": 246.4
+ },
+ {
+  "texto": "semillas",
+  "inicio": 246.64,
+  "fin": 246.96
+ },
+ {
+  "texto": "de",
+  "inicio": 246.96,
+  "fin": 247.18
+ },
+ {
+  "texto": "chía,",
+  "inicio": 247.18,
+  "fin": 247.54
+ },
+ {
+  "texto": "aceite",
+  "inicio": 247.76,
+  "fin": 247.94
+ },
+ {
+  "texto": "de",
+  "inicio": 247.94,
+  "fin": 248.06
+ },
+ {
+  "texto": "oliva",
+  "inicio": 248.06,
+  "fin": 248.38
+ },
+ {
+  "texto": "virgen",
+  "inicio": 248.38,
+  "fin": 248.88
+ },
+ {
+  "texto": "extra,",
+  "inicio": 248.88,
+  "fin": 249.24
+ },
+ {
+  "texto": "aguacate,",
+  "inicio": 249.36,
+  "fin": 250.32
+ },
+ {
+  "texto": "huevo",
+  "inicio": 250.42,
+  "fin": 250.7
+ },
+ {
+  "texto": "entero",
+  "inicio": 250.7,
+  "fin": 251.22
+ },
+ {
+  "texto": "y",
+  "inicio": 251.22,
+  "fin": 251.4
+ },
+ {
+  "texto": "salmón.",
+  "inicio": 251.4,
+  "fin": 251.6
+ }
+]

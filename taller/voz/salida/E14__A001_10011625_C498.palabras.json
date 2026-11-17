@@ -1,0 +1,72 @@
+[
+ {
+  "texto": "Vas",
+  "inicio": 6.14,
+  "fin": 6.28
+ },
+ {
+  "texto": "a",
+  "inicio": 6.28,
+  "fin": 6.48
+ },
+ {
+  "texto": "eliminar",
+  "inicio": 6.48,
+  "fin": 7.1
+ },
+ {
+  "texto": "todos",
+  "inicio": 7.1,
+  "fin": 9.74
+ },
+ {
+  "texto": "los",
+  "inicio": 9.74,
+  "fin": 9.98
+ },
+ {
+  "texto": "carbohidratos",
+  "inicio": 9.98,
+  "fin": 10.76
+ },
+ {
+  "texto": "procesados.",
+  "inicio": 10.76,
+  "fin": 11.46
+ },
+ {
+  "texto": "El",
+  "inicio": 14.44,
+  "fin": 14.64
+ },
+ {
+  "texto": "pan,",
+  "inicio": 14.64,
+  "fin": 15.2
+ },
+ {
+  "texto": "el",
+  "inicio": 15.28,
+  "fin": 15.4
+ },
+ {
+  "texto": "maíz",
+  "inicio": 15.4,
+  "fin": 15.98
+ },
+ {
+  "texto": "y",
+  "inicio": 15.98,
+  "fin": 16.1
+ },
+ {
+  "texto": "la",
+  "inicio": 16.1,
+  "fin": 16.34
+ },
+ {
+  "texto": "pasta.",
+  "inicio": 16.34,
+  "fin": 16.44
+ }
+]

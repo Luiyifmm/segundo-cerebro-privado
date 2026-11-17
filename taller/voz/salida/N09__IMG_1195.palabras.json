@@ -1,0 +1,127 @@
+[
+ {
+  "texto": "de",
+  "inicio": 1.5,
+  "fin": 1.5
+ },
+ {
+  "texto": "la",
+  "inicio": 1.5,
+  "fin": 1.88
+ },
+ {
+  "texto": "cinta.",
+  "inicio": 1.88,
+  "fin": 1.9
+ },
+ {
+  "texto": "Calentar",
+  "inicio": 3.66,
+  "fin": 4.3
+ },
+ {
+  "texto": "cinco",
+  "inicio": 4.3,
+  "fin": 4.72
+ },
+ {
+  "texto": "minutos",
+  "inicio": 4.72,
+  "fin": 5
+ },
+ {
+  "texto": "en",
+  "inicio": 5,
+  "fin": 5.1
+ },
+ {
+  "texto": "la",
+  "inicio": 5.1,
+  "fin": 5.24
+ },
+ {
+  "texto": "cinta",
+  "inicio": 5.24,
+  "fin": 5.56
+ },
+ {
+  "texto": "o",
+  "inicio": 5.56,
+  "fin": 5.62
+ },
+ {
+  "texto": "en",
+  "inicio": 5.62,
+  "fin": 5.76
+ },
+ {
+  "texto": "otra",
+  "inicio": 5.76,
+  "fin": 6.06
+ },
+ {
+  "texto": "máquina",
+  "inicio": 6.06,
+  "fin": 6.24
+ },
+ {
+  "texto": "de",
+  "inicio": 6.24,
+  "fin": 6.54
+ },
+ {
+  "texto": "cardio",
+  "inicio": 6.54,
+  "fin": 7
+ },
+ {
+  "texto": "está",
+  "inicio": 7,
+  "fin": 7.28
+ },
+ {
+  "texto": "bien,",
+  "inicio": 7.28,
+  "fin": 7.8
+ },
+ {
+  "texto": "pero",
+  "inicio": 8,
+  "fin": 8.18
+ },
+ {
+  "texto": "el",
+  "inicio": 8.18,
+  "fin": 8.42
+ },
+ {
+  "texto": "cardio",
+  "inicio": 8.42,
+  "fin": 8.48
+ },
+ {
+  "texto": "largo",
+  "inicio": 8.76,
+  "fin": 9.08
+ },
+ {
+  "texto": "déjalo",
+  "inicio": 9.08,
+  "fin": 9.42
+ },
+ {
+  "texto": "para",
+  "inicio": 9.42,
+  "fin": 9.54
+ },
+ {
+  "texto": "el",
+  "inicio": 9.54,
+  "fin": 9.72
+ },
+ {
+  "texto": "final.",
+  "inicio": 9.72,
+  "fin": 9.84
+ }
+]

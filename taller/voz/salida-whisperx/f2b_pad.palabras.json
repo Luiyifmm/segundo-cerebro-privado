@@ -1,0 +1,110 @@
+[
+{
+"texto": "¿Preparados?",
+"inicio": 1.146,
+"fin": 1.667,
+"score": 0.648
+},
+{
+"texto": "Llegó",
+"inicio": 2.208,
+"fin": 2.448,
+"score": 0.341
+},
+{
+"texto": "Predator",
+"inicio": 2.568,
+"fin": 3.069,
+"score": 0.604
+},
+{
+"texto": "Party",
+"inicio": 3.109,
+"fin": 3.509,
+"score": 0.624
+},
+{
+"texto": "en",
+"inicio": 3.95,
+"fin": 4.03,
+"score": 0.982
+},
+{
+"texto": "las",
+"inicio": 4.09,
+"fin": 4.17,
+"score": 0.635
+},
+{
+"texto": "máquinas",
+"inicio": 4.21,
+"fin": 4.811,
+"score": 0.514
+},
+{
+"texto": "Joseph",
+"inicio": 5.192,
+"fin": 5.612,
+"score": 0.5
+},
+{
+"texto": "Barbosa",
+"inicio": 5.672,
+"fin": 6.393,
+"score": 0.663
+},
+{
+"texto": "¿Preparados?",
+"inicio": 10.499,
+"fin": 11.059,
+"score": 0.695
+},
+{
+"texto": "Llegó",
+"inicio": 11.12,
+"fin": 11.861,
+"score": 0.562
+},
+{
+"texto": "Predator",
+"inicio": 11.961,
+"fin": 12.461,
+"score": 0.59
+},
+{
+"texto": "Party",
+"inicio": 12.501,
+"fin": 12.902,
+"score": 0.65
+},
+{
+"texto": "en",
+"inicio": 13.342,
+"fin": 13.423,
+"score": 0.984
+},
+{
+"texto": "las",
+"inicio": 13.483,
+"fin": 13.563,
+"score": 0.934
+},
+{
+"texto": "máquinas",
+"inicio": 13.603,
+"fin": 14.224,
+"score": 0.569
+},
+{
+"texto": "Joseph",
+"inicio": 14.724,
+"fin": 15.005,
+"score": 0.465
+},
+{
+"texto": "Barbosa",
+"inicio": 15.065,
+"fin": 15.365,
+"score": 0.469
+}
+]

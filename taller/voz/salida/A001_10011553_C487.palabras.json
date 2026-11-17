@@ -1,0 +1,3142 @@
+[
+ {
+  "texto": "Si",
+  "inicio": 17.4,
+  "fin": 17.52
+ },
+ {
+  "texto": "no",
+  "inicio": 17.52,
+  "fin": 17.82
+ },
+ {
+  "texto": "consigues",
+  "inicio": 17.82,
+  "fin": 18.46
+ },
+ {
+  "texto": "perder",
+  "inicio": 18.46,
+  "fin": 18.86
+ },
+ {
+  "texto": "peso",
+  "inicio": 18.86,
+  "fin": 19
+ },
+ {
+  "texto": "y",
+  "inicio": 19,
+  "fin": 19.24
+ },
+ {
+  "texto": "bajar",
+  "inicio": 19.24,
+  "fin": 19.58
+ },
+ {
+  "texto": "grasa,",
+  "inicio": 19.58,
+  "fin": 20.18
+ },
+ {
+  "texto": "no",
+  "inicio": 20.26,
+  "fin": 20.42
+ },
+ {
+  "texto": "es",
+  "inicio": 20.42,
+  "fin": 20.62
+ },
+ {
+  "texto": "porque",
+  "inicio": 20.62,
+  "fin": 20.84
+ },
+ {
+  "texto": "no",
+  "inicio": 20.84,
+  "fin": 20.94
+ },
+ {
+  "texto": "hagas",
+  "inicio": 20.94,
+  "fin": 21.36
+ },
+ {
+  "texto": "dieta",
+  "inicio": 21.36,
+  "fin": 21.82
+ },
+ {
+  "texto": "o",
+  "inicio": 21.82,
+  "fin": 21.88
+ },
+ {
+  "texto": "hagas",
+  "inicio": 21.88,
+  "fin": 22.2
+ },
+ {
+  "texto": "deporte.",
+  "inicio": 22.2,
+  "fin": 23.04
+ },
+ {
+  "texto": "por",
+  "inicio": 23.48,
+  "fin": 23.7
+ },
+ {
+  "texto": "esto",
+  "inicio": 23.7,
+  "fin": 23.96
+ },
+ {
+  "texto": "que",
+  "inicio": 23.96,
+  "fin": 24.12
+ },
+ {
+  "texto": "no",
+  "inicio": 24.12,
+  "fin": 24.24
+ },
+ {
+  "texto": "lo",
+  "inicio": 24.24,
+  "fin": 24.36
+ },
+ {
+  "texto": "has",
+  "inicio": 24.36,
+  "fin": 24.6
+ },
+ {
+  "texto": "hecho.",
+  "inicio": 24.6,
+  "fin": 25
+ },
+ {
+  "texto": "Si",
+  "inicio": 38.9,
+  "fin": 38.98
+ },
+ {
+  "texto": "no",
+  "inicio": 38.98,
+  "fin": 39.26
+ },
+ {
+  "texto": "consigues",
+  "inicio": 39.26,
+  "fin": 39.82
+ },
+ {
+  "texto": "bajar",
+  "inicio": 39.82,
+  "fin": 40.2
+ },
+ {
+  "texto": "grasa,",
+  "inicio": 40.2,
+  "fin": 40.96
+ },
+ {
+  "texto": "si",
+  "inicio": 41.52,
+  "fin": 41.64
+ },
+ {
+  "texto": "no",
+  "inicio": 41.64,
+  "fin": 41.92
+ },
+ {
+  "texto": "consigues",
+  "inicio": 41.92,
+  "fin": 42.46
+ },
+ {
+  "texto": "perder",
+  "inicio": 42.46,
+  "fin": 42.8
+ },
+ {
+  "texto": "grasa",
+  "inicio": 42.8,
+  "fin": 43.16
+ },
+ {
+  "texto": "y",
+  "inicio": 43.16,
+  "fin": 43.32
+ },
+ {
+  "texto": "bajar",
+  "inicio": 43.32,
+  "fin": 43.58
+ },
+ {
+  "texto": "de",
+  "inicio": 43.58,
+  "fin": 43.94
+ },
+ {
+  "texto": "peso,",
+  "inicio": 43.94,
+  "fin": 44
+ },
+ {
+  "texto": "no",
+  "inicio": 44.68,
+  "fin": 44.88
+ },
+ {
+  "texto": "es",
+  "inicio": 44.88,
+  "fin": 45.04
+ },
+ {
+  "texto": "porque",
+  "inicio": 45.04,
+  "fin": 45.24
+ },
+ {
+  "texto": "no",
+  "inicio": 45.24,
+  "fin": 45.32
+ },
+ {
+  "texto": "hagas",
+  "inicio": 45.32,
+  "fin": 45.64
+ },
+ {
+  "texto": "dieta,",
+  "inicio": 45.64,
+  "fin": 45.94
+ },
+ {
+  "texto": "no",
+  "inicio": 46.02,
+  "fin": 46.16
+ },
+ {
+  "texto": "es",
+  "inicio": 46.16,
+  "fin": 46.16
+ },
+ {
+  "texto": "porque",
+  "inicio": 46.34,
+  "fin": 46.5
+ },
+ {
+  "texto": "no",
+  "inicio": 46.5,
+  "fin": 46.62
+ },
+ {
+  "texto": "hagas",
+  "inicio": 46.62,
+  "fin": 46.82
+ },
+ {
+  "texto": "deporte,",
+  "inicio": 46.82,
+  "fin": 47.34
+ },
+ {
+  "texto": "es",
+  "inicio": 47.52,
+  "fin": 47.72
+ },
+ {
+  "texto": "por",
+  "inicio": 47.72,
+  "fin": 47.96
+ },
+ {
+  "texto": "esto",
+  "inicio": 47.96,
+  "fin": 48.28
+ },
+ {
+  "texto": "que",
+  "inicio": 48.28,
+  "fin": 48.58
+ },
+ {
+  "texto": "no",
+  "inicio": 48.58,
+  "fin": 48.78
+ },
+ {
+  "texto": "has",
+  "inicio": 48.78,
+  "fin": 48.94
+ },
+ {
+  "texto": "tomado",
+  "inicio": 48.94,
+  "fin": 49.24
+ },
+ {
+  "texto": "en",
+  "inicio": 49.24,
+  "fin": 49.52
+ },
+ {
+  "texto": "cuenta.",
+  "inicio": 49.52,
+  "fin": 49.68
+ },
+ {
+  "texto": "Si",
+  "inicio": 65.5,
+  "fin": 65.62
+ },
+ {
+  "texto": "no",
+  "inicio": 65.62,
+  "fin": 65.88
+ },
+ {
+  "texto": "consigues",
+  "inicio": 65.88,
+  "fin": 66.4
+ },
+ {
+  "texto": "perder",
+  "inicio": 66.4,
+  "fin": 66.76
+ },
+ {
+  "texto": "grasa",
+  "inicio": 66.76,
+  "fin": 67.26
+ },
+ {
+  "texto": "o",
+  "inicio": 67.26,
+  "fin": 67.46
+ },
+ {
+  "texto": "bajar",
+  "inicio": 67.46,
+  "fin": 67.76
+ },
+ {
+  "texto": "de",
+  "inicio": 67.76,
+  "fin": 68.12
+ },
+ {
+  "texto": "peso,",
+  "inicio": 68.12,
+  "fin": 68.64
+ },
+ {
+  "texto": "no",
+  "inicio": 68.74,
+  "fin": 68.9
+ },
+ {
+  "texto": "es",
+  "inicio": 68.9,
+  "fin": 69.08
+ },
+ {
+  "texto": "porque",
+  "inicio": 69.08,
+  "fin": 69.26
+ },
+ {
+  "texto": "no",
+  "inicio": 69.26,
+  "fin": 69.36
+ },
+ {
+  "texto": "hagas",
+  "inicio": 69.36,
+  "fin": 69.64
+ },
+ {
+  "texto": "dieta",
+  "inicio": 69.64,
+  "fin": 70.02
+ },
+ {
+  "texto": "o",
+  "inicio": 70.02,
+  "fin": 70.2
+ },
+ {
+  "texto": "porque",
+  "inicio": 70.2,
+  "fin": 70.36
+ },
+ {
+  "texto": "no",
+  "inicio": 70.36,
+  "fin": 70.46
+ },
+ {
+  "texto": "hagas",
+  "inicio": 70.46,
+  "fin": 70.56
+ },
+ {
+  "texto": "deporte.",
+  "inicio": 70.72,
+  "fin": 71.56
+ },
+ {
+  "texto": "Es",
+  "inicio": 71.82,
+  "fin": 72.04
+ },
+ {
+  "texto": "por",
+  "inicio": 72.04,
+  "fin": 72.28
+ },
+ {
+  "texto": "esto",
+  "inicio": 72.28,
+  "fin": 72.54
+ },
+ {
+  "texto": "que",
+  "inicio": 72.54,
+  "fin": 72.72
+ },
+ {
+  "texto": "no",
+  "inicio": 72.72,
+  "fin": 72.88
+ },
+ {
+  "texto": "has",
+  "inicio": 72.88,
+  "fin": 73.04
+ },
+ {
+  "texto": "tomado",
+  "inicio": 73.04,
+  "fin": 73.28
+ },
+ {
+  "texto": "en",
+  "inicio": 73.28,
+  "fin": 73.54
+ },
+ {
+  "texto": "cuenta.",
+  "inicio": 73.54,
+  "fin": 73.64
+ },
+ {
+  "texto": "Seguramente",
+  "inicio": 86.8,
+  "fin": 87.4
+ },
+ {
+  "texto": "haces",
+  "inicio": 87.4,
+  "fin": 87.76
+ },
+ {
+  "texto": "ejercicio",
+  "inicio": 87.76,
+  "fin": 88.32
+ },
+ {
+  "texto": "3",
+  "inicio": 88.32,
+  "fin": 88.62
+ },
+ {
+  "texto": "veces",
+  "inicio": 88.62,
+  "fin": 88.96
+ },
+ {
+  "texto": "por",
+  "inicio": 88.96,
+  "fin": 89.42
+ },
+ {
+  "texto": "semana.",
+  "inicio": 89.42,
+  "fin": 91.3
+ },
+ {
+  "texto": "Seguramente",
+  "inicio": 96.34,
+  "fin": 97.08
+ },
+ {
+  "texto": "haces",
+  "inicio": 97.08,
+  "fin": 97.44
+ },
+ {
+  "texto": "ejercicio",
+  "inicio": 97.44,
+  "fin": 97.96
+ },
+ {
+  "texto": "de",
+  "inicio": 97.96,
+  "fin": 98.16
+ },
+ {
+  "texto": "fuerza",
+  "inicio": 98.16,
+  "fin": 98.6
+ },
+ {
+  "texto": "3",
+  "inicio": 98.6,
+  "fin": 98.86
+ },
+ {
+  "texto": "veces",
+  "inicio": 98.86,
+  "fin": 99.2
+ },
+ {
+  "texto": "por",
+  "inicio": 99.2,
+  "fin": 99.58
+ },
+ {
+  "texto": "semana",
+  "inicio": 99.58,
+  "fin": 100
+ },
+ {
+  "texto": "pero",
+  "inicio": 100,
+  "fin": 100.26
+ },
+ {
+  "texto": "sigues",
+  "inicio": 100.26,
+  "fin": 100.56
+ },
+ {
+  "texto": "con",
+  "inicio": 100.56,
+  "fin": 100.7
+ },
+ {
+  "texto": "esos",
+  "inicio": 100.7,
+  "fin": 100.98
+ },
+ {
+  "texto": "michelines.",
+  "inicio": 100.98,
+  "fin": 102
+ },
+ {
+  "texto": "De",
+  "inicio": 113.38,
+  "fin": 113.5
+ },
+ {
+  "texto": "lunes",
+  "inicio": 113.5,
+  "fin": 113.84
+ },
+ {
+  "texto": "a",
+  "inicio": 113.84,
+  "fin": 114
+ },
+ {
+  "texto": "viernes",
+  "inicio": 114,
+  "fin": 114.56
+ },
+ {
+  "texto": "haces",
+  "inicio": 114.56,
+  "fin": 115
+ },
+ {
+  "texto": "dieta",
+  "inicio": 115,
+  "fin": 115.34
+ },
+ {
+  "texto": "pero",
+  "inicio": 115.34,
+  "fin": 115.48
+ },
+ {
+  "texto": "la",
+  "inicio": 115.48,
+  "fin": 115.7
+ },
+ {
+  "texto": "barriga",
+  "inicio": 115.7,
+  "fin": 116.1
+ },
+ {
+  "texto": "sigue",
+  "inicio": 116.1,
+  "fin": 116.4
+ },
+ {
+  "texto": "ahí.",
+  "inicio": 116.4,
+  "fin": 118.22
+ },
+ {
+  "texto": "De",
+  "inicio": 118.32,
+  "fin": 118.4
+ },
+ {
+  "texto": "lunes",
+  "inicio": 118.4,
+  "fin": 118.72
+ },
+ {
+  "texto": "a",
+  "inicio": 118.72,
+  "fin": 118.86
+ },
+ {
+  "texto": "viernes",
+  "inicio": 118.86,
+  "fin": 119.4
+ },
+ {
+  "texto": "haces",
+  "inicio": 119.4,
+  "fin": 119.9
+ },
+ {
+  "texto": "dieta",
+  "inicio": 119.9,
+  "fin": 120.26
+ },
+ {
+  "texto": "pero",
+  "inicio": 120.26,
+  "fin": 120.4
+ },
+ {
+  "texto": "la",
+  "inicio": 120.4,
+  "fin": 120.6
+ },
+ {
+  "texto": "barriga",
+  "inicio": 120.6,
+  "fin": 121.12
+ },
+ {
+  "texto": "sigue",
+  "inicio": 121.12,
+  "fin": 121.34
+ },
+ {
+  "texto": "ahí.",
+  "inicio": 121.34,
+  "fin": 123.42
+ },
+ {
+  "texto": "Vas",
+  "inicio": 123.8,
+  "fin": 123.98
+ },
+ {
+  "texto": "al",
+  "inicio": 123.98,
+  "fin": 124.12
+ },
+ {
+  "texto": "gimnasio",
+  "inicio": 124.12,
+  "fin": 126.46
+ },
+ {
+  "texto": "y",
+  "inicio": 126.46,
+  "fin": 126.58
+ },
+ {
+  "texto": "haces",
+  "inicio": 126.58,
+  "fin": 126.9
+ },
+ {
+  "texto": "dos",
+  "inicio": 126.9,
+  "fin": 127.1
+ },
+ {
+  "texto": "días",
+  "inicio": 127.1,
+  "fin": 127.3
+ },
+ {
+  "texto": "de",
+  "inicio": 127.3,
+  "fin": 127.68
+ },
+ {
+  "texto": "cardio",
+  "inicio": 127.68,
+  "fin": 128.32
+ },
+ {
+  "texto": "pero",
+  "inicio": 128.32,
+  "fin": 128.5
+ },
+ {
+  "texto": "tu",
+  "inicio": 128.5,
+  "fin": 128.64
+ },
+ {
+  "texto": "vecina",
+  "inicio": 128.64,
+  "fin": 128.82
+ },
+ {
+  "texto": "que",
+  "inicio": 128.96,
+  "fin": 129.12
+ },
+ {
+  "texto": "hace",
+  "inicio": 129.12,
+  "fin": 129.42
+ },
+ {
+  "texto": "pilates",
+  "inicio": 129.42,
+  "fin": 129.86
+ },
+ {
+  "texto": "no.",
+  "inicio": 129.86,
+  "fin": 131.64
+ },
+ {
+  "texto": "Vas",
+  "inicio": 132.08,
+  "fin": 132.22
+ },
+ {
+  "texto": "al",
+  "inicio": 132.22,
+  "fin": 132.46
+ },
+ {
+  "texto": "gimnasio",
+  "inicio": 132.46,
+  "fin": 132.92
+ },
+ {
+  "texto": "a",
+  "inicio": 132.92,
+  "fin": 133.06
+ },
+ {
+  "texto": "hacer",
+  "inicio": 133.06,
+  "fin": 133.3
+ },
+ {
+  "texto": "dos",
+  "inicio": 133.3,
+  "fin": 133.5
+ },
+ {
+  "texto": "días",
+  "inicio": 133.5,
+  "fin": 133.68
+ },
+ {
+  "texto": "de",
+  "inicio": 133.68,
+  "fin": 134.18
+ },
+ {
+  "texto": "cardio",
+  "inicio": 134.18,
+  "fin": 134.54
+ },
+ {
+  "texto": "pero",
+  "inicio": 134.54,
+  "fin": 134.7
+ },
+ {
+  "texto": "la",
+  "inicio": 134.7,
+  "fin": 134.84
+ },
+ {
+  "texto": "vecina",
+  "inicio": 134.84,
+  "fin": 135.22
+ },
+ {
+  "texto": "que",
+  "inicio": 135.22,
+  "fin": 135.36
+ },
+ {
+  "texto": "hace",
+  "inicio": 135.36,
+  "fin": 135.38
+ },
+ {
+  "texto": "pilates",
+  "inicio": 135.62,
+  "fin": 136.04
+ },
+ {
+  "texto": "se",
+  "inicio": 136.04,
+  "fin": 136.14
+ },
+ {
+  "texto": "va",
+  "inicio": 136.14,
+  "fin": 136.44
+ },
+ {
+  "texto": "mucho",
+  "inicio": 136.44,
+  "fin": 136.7
+ },
+ {
+  "texto": "mejor",
+  "inicio": 136.7,
+  "fin": 136.88
+ },
+ {
+  "texto": "que",
+  "inicio": 136.88,
+  "fin": 137.06
+ },
+ {
+  "texto": "tú.",
+  "inicio": 137.06,
+  "fin": 139.2
+ },
+ {
+  "texto": "Haces",
+  "inicio": 141.06,
+  "fin": 144.9
+ },
+ {
+  "texto": "cardio",
+  "inicio": 144.9,
+  "fin": 145.2
+ },
+ {
+  "texto": "dos",
+  "inicio": 145.2,
+  "fin": 145.4
+ },
+ {
+  "texto": "días",
+  "inicio": 145.4,
+  "fin": 145.7
+ },
+ {
+  "texto": "por",
+  "inicio": 145.7,
+  "fin": 146.14
+ },
+ {
+  "texto": "semana",
+  "inicio": 146.14,
+  "fin": 146.48
+ },
+ {
+  "texto": "pero",
+  "inicio": 146.48,
+  "fin": 146.62
+ },
+ {
+  "texto": "la",
+  "inicio": 146.62,
+  "fin": 146.74
+ },
+ {
+  "texto": "vecina",
+  "inicio": 146.74,
+  "fin": 147.06
+ },
+ {
+  "texto": "que",
+  "inicio": 147.06,
+  "fin": 147.18
+ },
+ {
+  "texto": "hace",
+  "inicio": 147.18,
+  "fin": 147.44
+ },
+ {
+  "texto": "pilates",
+  "inicio": 147.44,
+  "fin": 147.9
+ },
+ {
+  "texto": "se",
+  "inicio": 147.9,
+  "fin": 148
+ },
+ {
+  "texto": "ve",
+  "inicio": 148,
+  "fin": 148.26
+ },
+ {
+  "texto": "mejor",
+  "inicio": 148.26,
+  "fin": 148.42
+ },
+ {
+  "texto": "que",
+  "inicio": 148.42,
+  "fin": 148.56
+ },
+ {
+  "texto": "tú.",
+  "inicio": 148.56,
+  "fin": 148.58
+ },
+ {
+  "texto": "Haces",
+  "inicio": 154.6,
+  "fin": 154.98
+ },
+ {
+  "texto": "todo",
+  "inicio": 154.98,
+  "fin": 155.3
+ },
+ {
+  "texto": "pero",
+  "inicio": 155.3,
+  "fin": 155.48
+ },
+ {
+  "texto": "no",
+  "inicio": 155.48,
+  "fin": 155.62
+ },
+ {
+  "texto": "ves",
+  "inicio": 155.62,
+  "fin": 156.08
+ },
+ {
+  "texto": "resultados.",
+  "inicio": 156.08,
+  "fin": 156.32
+ },
+ {
+  "texto": "Haces",
+  "inicio": 159.9,
+  "fin": 160.26
+ },
+ {
+  "texto": "todo",
+  "inicio": 160.26,
+  "fin": 160.58
+ },
+ {
+  "texto": "pero",
+  "inicio": 160.58,
+  "fin": 160.74
+ },
+ {
+  "texto": "no",
+  "inicio": 160.74,
+  "fin": 160.86
+ },
+ {
+  "texto": "ver",
+  "inicio": 160.88,
+  "fin": 161.32
+ },
+ {
+  "texto": "resultados.",
+  "inicio": 161.32,
+  "fin": 163.78
+ },
+ {
+  "texto": "Esto",
+  "inicio": 172.06,
+  "fin": 172.16
+ },
+ {
+  "texto": "que",
+  "inicio": 172.16,
+  "fin": 172.26
+ },
+ {
+  "texto": "te",
+  "inicio": 172.26,
+  "fin": 172.42
+ },
+ {
+  "texto": "voy",
+  "inicio": 172.42,
+  "fin": 172.56
+ },
+ {
+  "texto": "a",
+  "inicio": 172.56,
+  "fin": 172.84
+ },
+ {
+  "texto": "decir",
+  "inicio": 172.84,
+  "fin": 173.14
+ },
+ {
+  "texto": "puede",
+  "inicio": 173.14,
+  "fin": 178.28
+ },
+ {
+  "texto": "ser",
+  "inicio": 178.28,
+  "fin": 179.7
+ },
+ {
+  "texto": "lo",
+  "inicio": 181.94,
+  "fin": 182.48
+ },
+ {
+  "texto": "que",
+  "inicio": 182.48,
+  "fin": 182.66
+ },
+ {
+  "texto": "está",
+  "inicio": 182.66,
+  "fin": 182.92
+ },
+ {
+  "texto": "fallando",
+  "inicio": 182.92,
+  "fin": 183.5
+ },
+ {
+  "texto": "y",
+  "inicio": 183.5,
+  "fin": 183.68
+ },
+ {
+  "texto": "llevas",
+  "inicio": 183.68,
+  "fin": 184.22
+ },
+ {
+  "texto": "meses",
+  "inicio": 184.22,
+  "fin": 184.52
+ },
+ {
+  "texto": "sin",
+  "inicio": 184.52,
+  "fin": 185.08
+ },
+ {
+  "texto": "darte",
+  "inicio": 185.08,
+  "fin": 185.34
+ },
+ {
+  "texto": "cuenta.",
+  "inicio": 185.34,
+  "fin": 185.64
+ },
+ {
+  "texto": "Y",
+  "inicio": 187.14,
+  "fin": 187.4
+ },
+ {
+  "texto": "esto",
+  "inicio": 187.4,
+  "fin": 187.54
+ },
+ {
+  "texto": "que",
+  "inicio": 187.54,
+  "fin": 187.64
+ },
+ {
+  "texto": "te",
+  "inicio": 187.64,
+  "fin": 187.78
+ },
+ {
+  "texto": "voy",
+  "inicio": 187.78,
+  "fin": 187.9
+ },
+ {
+  "texto": "a",
+  "inicio": 187.9,
+  "fin": 188.14
+ },
+ {
+  "texto": "decir",
+  "inicio": 188.14,
+  "fin": 188.42
+ },
+ {
+  "texto": "puede",
+  "inicio": 188.42,
+  "fin": 188.62
+ },
+ {
+  "texto": "ser",
+  "inicio": 188.62,
+  "fin": 188.78
+ },
+ {
+  "texto": "lo",
+  "inicio": 188.78,
+  "fin": 188.86
+ },
+ {
+  "texto": "que",
+  "inicio": 188.86,
+  "fin": 189.04
+ },
+ {
+  "texto": "está",
+  "inicio": 189.04,
+  "fin": 189.26
+ },
+ {
+  "texto": "fallando",
+  "inicio": 189.26,
+  "fin": 189.54
+ },
+ {
+  "texto": "y",
+  "inicio": 189.54,
+  "fin": 189.68
+ },
+ {
+  "texto": "llevas",
+  "inicio": 189.68,
+  "fin": 190.06
+ },
+ {
+  "texto": "meses",
+  "inicio": 190.06,
+  "fin": 190.28
+ },
+ {
+  "texto": "sin",
+  "inicio": 190.28,
+  "fin": 190.4
+ },
+ {
+  "texto": "darte",
+  "inicio": 190.4,
+  "fin": 190.78
+ },
+ {
+  "texto": "cuenta.",
+  "inicio": 190.78,
+  "fin": 190.96
+ },
+ {
+  "texto": "porque",
+  "inicio": 209.3,
+  "fin": 209.64
+ },
+ {
+  "texto": "si",
+  "inicio": 209.66,
+  "fin": 210.02
+ },
+ {
+  "texto": "cuidas",
+  "inicio": 210.02,
+  "fin": 210.3
+ },
+ {
+  "texto": "tu",
+  "inicio": 210.3,
+  "fin": 210.6
+ },
+ {
+  "texto": "proceso",
+  "inicio": 210.6,
+  "fin": 210.86
+ },
+ {
+  "texto": "de",
+  "inicio": 210.86,
+  "fin": 211
+ },
+ {
+  "texto": "lunes",
+  "inicio": 211,
+  "fin": 211.32
+ },
+ {
+  "texto": "a",
+  "inicio": 211.32,
+  "fin": 211.48
+ },
+ {
+  "texto": "viernes",
+  "inicio": 211.48,
+  "fin": 212.02
+ },
+ {
+  "texto": "pero",
+  "inicio": 212.02,
+  "fin": 212.22
+ },
+ {
+  "texto": "sábado",
+  "inicio": 212.22,
+  "fin": 212.56
+ },
+ {
+  "texto": "y",
+  "inicio": 212.56,
+  "fin": 212.72
+ },
+ {
+  "texto": "domingo",
+  "inicio": 212.72,
+  "fin": 213.04
+ },
+ {
+  "texto": "te",
+  "inicio": 217.8,
+  "fin": 218.04
+ },
+ {
+  "texto": "das",
+  "inicio": 218.04,
+  "fin": 218.34
+ },
+ {
+  "texto": "gustos,",
+  "inicio": 218.34,
+  "fin": 218.94
+ },
+ {
+  "texto": "picas",
+  "inicio": 219.06,
+  "fin": 219.6
+ },
+ {
+  "texto": "más,",
+  "inicio": 219.6,
+  "fin": 219.84
+ },
+ {
+  "texto": "te",
+  "inicio": 219.9,
+  "fin": 220.04
+ },
+ {
+  "texto": "tomas",
+  "inicio": 220.04,
+  "fin": 220.32
+ },
+ {
+  "texto": "unas",
+  "inicio": 220.32,
+  "fin": 220.64
+ },
+ {
+  "texto": "cervezas,",
+  "inicio": 220.64,
+  "fin": 221.36
+ },
+ {
+  "texto": "te",
+  "inicio": 221.42,
+  "fin": 221.62
+ },
+ {
+  "texto": "mueves",
+  "inicio": 221.62,
+  "fin": 222.06
+ },
+ {
+  "texto": "menos",
+  "inicio": 222.06,
+  "fin": 222.94
+ },
+ {
+  "texto": "y",
+  "inicio": 222.94,
+  "fin": 223.16
+ },
+ {
+  "texto": "piensas",
+  "inicio": 223.16,
+  "fin": 223.58
+ },
+ {
+  "texto": "que",
+  "inicio": 223.58,
+  "fin": 223.82
+ },
+ {
+  "texto": "esto",
+  "inicio": 223.82,
+  "fin": 223.96
+ },
+ {
+  "texto": "no",
+  "inicio": 223.96,
+  "fin": 224.14
+ },
+ {
+  "texto": "afecta",
+  "inicio": 224.14,
+  "fin": 224.32
+ },
+ {
+  "texto": "en",
+  "inicio": 224.42,
+  "fin": 224.5
+ },
+ {
+  "texto": "tu",
+  "inicio": 224.5,
+  "fin": 224.84
+ },
+ {
+  "texto": "proceso.",
+  "inicio": 224.86,
+  "fin": 225.4
+ },
+ {
+  "texto": "Y",
+  "inicio": 233.6,
+  "fin": 233.78
+ },
+ {
+  "texto": "puede",
+  "inicio": 233.78,
+  "fin": 234
+ },
+ {
+  "texto": "que",
+  "inicio": 234,
+  "fin": 234.2
+ },
+ {
+  "texto": "no,",
+  "inicio": 234.2,
+  "fin": 234.38
+ },
+ {
+  "texto": "si",
+  "inicio": 234.46,
+  "fin": 234.82
+ },
+ {
+  "texto": "solamente",
+  "inicio": 234.82,
+  "fin": 235.28
+ },
+ {
+  "texto": "fuera",
+  "inicio": 235.28,
+  "fin": 235.42
+ },
+ {
+  "texto": "un",
+  "inicio": 235.42,
+  "fin": 235.58
+ },
+ {
+  "texto": "fin",
+  "inicio": 235.58,
+  "fin": 235.68
+ },
+ {
+  "texto": "de",
+  "inicio": 235.68,
+  "fin": 235.94
+ },
+ {
+  "texto": "semana",
+  "inicio": 235.94,
+  "fin": 236.28
+ },
+ {
+  "texto": "cada",
+  "inicio": 236.28,
+  "fin": 236.62
+ },
+ {
+  "texto": "dos",
+  "inicio": 236.62,
+  "fin": 236.92
+ },
+ {
+  "texto": "meses,",
+  "inicio": 236.92,
+  "fin": 237.18
+ },
+ {
+  "texto": "pero",
+  "inicio": 237.42,
+  "fin": 237.58
+ },
+ {
+  "texto": "es",
+  "inicio": 237.58,
+  "fin": 237.78
+ },
+ {
+  "texto": "algo",
+  "inicio": 237.78,
+  "fin": 238.02
+ },
+ {
+  "texto": "que",
+  "inicio": 238.02,
+  "fin": 238.44
+ },
+ {
+  "texto": "constantemente",
+  "inicio": 238.44,
+  "fin": 239.04
+ },
+ {
+  "texto": "se",
+  "inicio": 239.04,
+  "fin": 239.26
+ },
+ {
+  "texto": "repite.",
+  "inicio": 239.26,
+  "fin": 239.48
+ },
+ {
+  "texto": "Y",
+  "inicio": 246.08,
+  "fin": 246.54
+ },
+ {
+  "texto": "exactamente",
+  "inicio": 246.54,
+  "fin": 247.34
+ },
+ {
+  "texto": "eso",
+  "inicio": 247.34,
+  "fin": 247.66
+ },
+ {
+  "texto": "es",
+  "inicio": 247.66,
+  "fin": 247.78
+ },
+ {
+  "texto": "lo",
+  "inicio": 247.78,
+  "fin": 247.9
+ },
+ {
+  "texto": "que",
+  "inicio": 247.9,
+  "fin": 248.06
+ },
+ {
+  "texto": "no",
+  "inicio": 248.06,
+  "fin": 248.4
+ },
+ {
+  "texto": "permite",
+  "inicio": 248.4,
+  "fin": 248.6
+ },
+ {
+  "texto": "que",
+  "inicio": 248.62,
+  "fin": 248.78
+ },
+ {
+  "texto": "tu",
+  "inicio": 248.78,
+  "fin": 249
+ },
+ {
+  "texto": "barriga",
+  "inicio": 249,
+  "fin": 249.66
+ },
+ {
+  "texto": "baje.",
+  "inicio": 249.66,
+  "fin": 250.48
+ },
+ {
+  "texto": "Y",
+  "inicio": 255.42,
+  "fin": 255.56
+ },
+ {
+  "texto": "por",
+  "inicio": 255.56,
+  "fin": 255.66
+ },
+ {
+  "texto": "el",
+  "inicio": 255.66,
+  "fin": 256.02
+ },
+ {
+  "texto": "contrario,",
+  "inicio": 256.02,
+  "fin": 256.24
+ },
+ {
+  "texto": "te",
+  "inicio": 256.26,
+  "fin": 256.36
+ },
+ {
+  "texto": "veas",
+  "inicio": 256.36,
+  "fin": 256.66
+ },
+ {
+  "texto": "aún",
+  "inicio": 256.66,
+  "fin": 256.9
+ },
+ {
+  "texto": "más",
+  "inicio": 256.9,
+  "fin": 257.28
+ },
+ {
+  "texto": "inflamado,",
+  "inicio": 257.28,
+  "fin": 258.04
+ },
+ {
+  "texto": "tengas",
+  "inicio": 258.18,
+  "fin": 258.5
+ },
+ {
+  "texto": "menos",
+  "inicio": 258.5,
+  "fin": 259.1
+ },
+ {
+  "texto": "energía.",
+  "inicio": 259.1,
+  "fin": 259.12
+ },
+ {
+  "texto": "porque",
+  "inicio": 265.96,
+  "fin": 266.22
+ },
+ {
+  "texto": "todo",
+  "inicio": 266.22,
+  "fin": 266.4
+ },
+ {
+  "texto": "lo",
+  "inicio": 266.4,
+  "fin": 266.5
+ },
+ {
+  "texto": "que",
+  "inicio": 266.5,
+  "fin": 266.64
+ },
+ {
+  "texto": "habías",
+  "inicio": 266.64,
+  "fin": 266.94
+ },
+ {
+  "texto": "cuidado",
+  "inicio": 266.92,
+  "fin": 267.22
+ },
+ {
+  "texto": "en",
+  "inicio": 267.22,
+  "fin": 267.38
+ },
+ {
+  "texto": "esa",
+  "inicio": 267.38,
+  "fin": 267.72
+ },
+ {
+  "texto": "semana",
+  "inicio": 267.72,
+  "fin": 268.14
+ },
+ {
+  "texto": "en",
+  "inicio": 268.14,
+  "fin": 268.34
+ },
+ {
+  "texto": "dos",
+  "inicio": 268.34,
+  "fin": 268.6
+ },
+ {
+  "texto": "días",
+  "inicio": 268.6,
+  "fin": 268.64
+ },
+ {
+  "texto": "porque",
+  "inicio": 271.92,
+  "fin": 272.16
+ },
+ {
+  "texto": "todo",
+  "inicio": 272.16,
+  "fin": 272.32
+ },
+ {
+  "texto": "lo",
+  "inicio": 272.32,
+  "fin": 272.42
+ },
+ {
+  "texto": "que",
+  "inicio": 272.42,
+  "fin": 272.56
+ },
+ {
+  "texto": "habías",
+  "inicio": 272.56,
+  "fin": 272.9
+ },
+ {
+  "texto": "cuidado",
+  "inicio": 272.9,
+  "fin": 273.16
+ },
+ {
+  "texto": "en",
+  "inicio": 273.16,
+  "fin": 273.34
+ },
+ {
+  "texto": "esa",
+  "inicio": 273.34,
+  "fin": 273.7
+ },
+ {
+  "texto": "semana",
+  "inicio": 273.7,
+  "fin": 274.1
+ },
+ {
+  "texto": "en",
+  "inicio": 274.1,
+  "fin": 274.34
+ },
+ {
+  "texto": "dos",
+  "inicio": 274.34,
+  "fin": 274.58
+ },
+ {
+  "texto": "días",
+  "inicio": 274.58,
+  "fin": 274.84
+ },
+ {
+  "texto": "lo",
+  "inicio": 274.84,
+  "fin": 275.08
+ },
+ {
+  "texto": "recuperaste",
+  "inicio": 275.08,
+  "fin": 276.06
+ },
+ {
+  "texto": "inclusive",
+  "inicio": 276.06,
+  "fin": 276.68
+ },
+ {
+  "texto": "hasta",
+  "inicio": 276.68,
+  "fin": 276.9
+ },
+ {
+  "texto": "más",
+  "inicio": 276.9,
+  "fin": 279.3
+ },
+ {
+  "texto": "Pero",
+  "inicio": 291.12,
+  "fin": 291.38
+ },
+ {
+  "texto": "espera,",
+  "inicio": 291.38,
+  "fin": 291.7
+ },
+ {
+  "texto": "no",
+  "inicio": 291.78,
+  "fin": 291.88
+ },
+ {
+  "texto": "hay",
+  "inicio": 291.88,
+  "fin": 291.96
+ },
+ {
+  "texto": "que",
+  "inicio": 291.96,
+  "fin": 292.22
+ },
+ {
+  "texto": "castigarse.",
+  "inicio": 292.22,
+  "fin": 293.1
+ },
+ {
+  "texto": "Pero",
+  "inicio": 298.46,
+  "fin": 298.72
+ },
+ {
+  "texto": "espera,",
+  "inicio": 298.72,
+  "fin": 299.04
+ },
+ {
+  "texto": "no",
+  "inicio": 299.1,
+  "fin": 299.2
+ },
+ {
+  "texto": "hay",
+  "inicio": 299.2,
+  "fin": 299.26
+ },
+ {
+  "texto": "que",
+  "inicio": 299.26,
+  "fin": 299.52
+ },
+ {
+  "texto": "castigarse.",
+  "inicio": 299.52,
+  "fin": 300.48
+ },
+ {
+  "texto": "te",
+  "inicio": 300.62,
+  "fin": 300.76
+ },
+ {
+  "texto": "voy",
+  "inicio": 300.76,
+  "fin": 300.86
+ },
+ {
+  "texto": "a",
+  "inicio": 300.86,
+  "fin": 301.08
+ },
+ {
+  "texto": "decir",
+  "inicio": 301.08,
+  "fin": 301.38
+ },
+ {
+  "texto": "una",
+  "inicio": 301.38,
+  "fin": 301.46
+ },
+ {
+  "texto": "de",
+  "inicio": 301.46,
+  "fin": 301.56
+ },
+ {
+  "texto": "las",
+  "inicio": 301.56,
+  "fin": 301.8
+ },
+ {
+  "texto": "estrategias",
+  "inicio": 301.8,
+  "fin": 302.22
+ },
+ {
+  "texto": "que",
+  "inicio": 302.22,
+  "fin": 302.44
+ },
+ {
+  "texto": "aplicamos",
+  "inicio": 302.44,
+  "fin": 302.88
+ },
+ {
+  "texto": "con",
+  "inicio": 302.88,
+  "fin": 303.16
+ },
+ {
+  "texto": "muchos",
+  "inicio": 303.16,
+  "fin": 303.32
+ },
+ {
+  "texto": "de",
+  "inicio": 303.32,
+  "fin": 303.5
+ },
+ {
+  "texto": "nuestros",
+  "inicio": 303.5,
+  "fin": 303.9
+ },
+ {
+  "texto": "clientes.",
+  "inicio": 303.9,
+  "fin": 308.88
+ },
+ {
+  "texto": "Todo",
+  "inicio": 314.06,
+  "fin": 314.24
+ },
+ {
+  "texto": "lo",
+  "inicio": 314.24,
+  "fin": 314.32
+ },
+ {
+  "texto": "que",
+  "inicio": 314.32,
+  "fin": 314.52
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 314.52,
+  "fin": 315.08
+ },
+ {
+  "texto": "es",
+  "inicio": 315.08,
+  "fin": 315.54
+ },
+ {
+  "texto": "controlar",
+  "inicio": 315.54,
+  "fin": 315.92
+ },
+ {
+  "texto": "lo",
+  "inicio": 315.92,
+  "fin": 316.08
+ },
+ {
+  "texto": "que",
+  "inicio": 316.08,
+  "fin": 316.34
+ },
+ {
+  "texto": "entra",
+  "inicio": 316.34,
+  "fin": 316.54
+ },
+ {
+  "texto": "tu",
+  "inicio": 316.54,
+  "fin": 316.84
+ },
+ {
+  "texto": "cuerpo",
+  "inicio": 316.84,
+  "fin": 317.12
+ },
+ {
+  "texto": "y",
+  "inicio": 317.12,
+  "fin": 317.36
+ },
+ {
+  "texto": "cuánto",
+  "inicio": 317.36,
+  "fin": 317.6
+ },
+ {
+  "texto": "de",
+  "inicio": 317.6,
+  "fin": 317.74
+ },
+ {
+  "texto": "eso",
+  "inicio": 317.74,
+  "fin": 317.96
+ },
+ {
+  "texto": "gastas.",
+  "inicio": 317.96,
+  "fin": 318.78
+ },
+ {
+  "texto": "Y",
+  "inicio": 321.82,
+  "fin": 321.94
+ },
+ {
+  "texto": "te",
+  "inicio": 321.94,
+  "fin": 322.14
+ },
+ {
+  "texto": "daré",
+  "inicio": 322.14,
+  "fin": 322.82
+ },
+ {
+  "texto": "dos",
+  "inicio": 322.82,
+  "fin": 323.32
+ },
+ {
+  "texto": "hacks",
+  "inicio": 323.32,
+  "fin": 323.72
+ },
+ {
+  "texto": "súper",
+  "inicio": 323.72,
+  "fin": 324.26
+ },
+ {
+  "texto": "importantes",
+  "inicio": 324.26,
+  "fin": 324.66
+ },
+ {
+  "texto": "para",
+  "inicio": 324.66,
+  "fin": 324.78
+ },
+ {
+  "texto": "que",
+  "inicio": 324.78,
+  "fin": 324.92
+ },
+ {
+  "texto": "los",
+  "inicio": 324.92,
+  "fin": 325.16
+ },
+ {
+  "texto": "apliques",
+  "inicio": 325.16,
+  "fin": 325.8
+ },
+ {
+  "texto": "todos",
+  "inicio": 325.8,
+  "fin": 326
+ },
+ {
+  "texto": "los",
+  "inicio": 326,
+  "fin": 326.16
+ },
+ {
+  "texto": "fines",
+  "inicio": 326.16,
+  "fin": 326.32
+ },
+ {
+  "texto": "de",
+  "inicio": 326.32,
+  "fin": 326.6
+ },
+ {
+  "texto": "semana.",
+  "inicio": 326.6,
+  "fin": 327.3
+ },
+ {
+  "texto": "Pero",
+  "inicio": 336.88,
+  "fin": 337.04
+ },
+ {
+  "texto": "te",
+  "inicio": 337.04,
+  "fin": 337.22
+ },
+ {
+  "texto": "daré",
+  "inicio": 337.22,
+  "fin": 337.62
+ },
+ {
+  "texto": "dos",
+  "inicio": 337.62,
+  "fin": 337.92
+ },
+ {
+  "texto": "hacks",
+  "inicio": 337.92,
+  "fin": 338.2
+ },
+ {
+  "texto": "para",
+  "inicio": 338.2,
+  "fin": 338.34
+ },
+ {
+  "texto": "que",
+  "inicio": 338.34,
+  "fin": 338.48
+ },
+ {
+  "texto": "los",
+  "inicio": 338.48,
+  "fin": 338.7
+ },
+ {
+  "texto": "apliques",
+  "inicio": 338.7,
+  "fin": 339.3
+ },
+ {
+  "texto": "todos",
+  "inicio": 339.3,
+  "fin": 339.48
+ },
+ {
+  "texto": "los",
+  "inicio": 339.48,
+  "fin": 339.66
+ },
+ {
+  "texto": "fines",
+  "inicio": 339.66,
+  "fin": 339.82
+ },
+ {
+  "texto": "de",
+  "inicio": 339.82,
+  "fin": 340.18
+ },
+ {
+  "texto": "semana",
+  "inicio": 340.18,
+  "fin": 340.46
+ },
+ {
+  "texto": "y",
+  "inicio": 340.46,
+  "fin": 340.56
+ },
+ {
+  "texto": "el",
+  "inicio": 340.56,
+  "fin": 340.92
+ },
+ {
+  "texto": "segundo",
+  "inicio": 340.92,
+  "fin": 341.34
+ },
+ {
+  "texto": "será",
+  "inicio": 341.34,
+  "fin": 341.34
+ },
+ {
+  "texto": "el",
+  "inicio": 341.46,
+  "fin": 341.68
+ },
+ {
+  "texto": "mejor.",
+  "inicio": 341.68,
+  "fin": 342.36
+ },
+ {
+  "texto": "Te",
+  "inicio": 344.78,
+  "fin": 344.96
+ },
+ {
+  "texto": "daré",
+  "inicio": 344.96,
+  "fin": 345.42
+ },
+ {
+  "texto": "dos",
+  "inicio": 345.42,
+  "fin": 345.74
+ },
+ {
+  "texto": "hacks",
+  "inicio": 345.74,
+  "fin": 346.02
+ },
+ {
+  "texto": "para",
+  "inicio": 346.02,
+  "fin": 346.16
+ },
+ {
+  "texto": "que",
+  "inicio": 346.16,
+  "fin": 346.28
+ },
+ {
+  "texto": "los",
+  "inicio": 346.3,
+  "fin": 346.5
+ },
+ {
+  "texto": "apliques",
+  "inicio": 346.5,
+  "fin": 346.82
+ },
+ {
+  "texto": "el",
+  "inicio": 346.82,
+  "fin": 346.94
+ },
+ {
+  "texto": "fin",
+  "inicio": 346.94,
+  "fin": 347.04
+ },
+ {
+  "texto": "de",
+  "inicio": 347.04,
+  "fin": 347.34
+ },
+ {
+  "texto": "semana",
+  "inicio": 347.34,
+  "fin": 347.56
+ },
+ {
+  "texto": "y",
+  "inicio": 347.68,
+  "fin": 347.82
+ },
+ {
+  "texto": "el",
+  "inicio": 347.82,
+  "fin": 348.14
+ },
+ {
+  "texto": "segundo",
+  "inicio": 348.14,
+  "fin": 348.52
+ },
+ {
+  "texto": "es",
+  "inicio": 348.52,
+  "fin": 348.66
+ },
+ {
+  "texto": "el",
+  "inicio": 348.66,
+  "fin": 348.9
+ },
+ {
+  "texto": "mejor.",
+  "inicio": 348.9,
+  "fin": 349
+ },
+ {
+  "texto": "1.",
+  "inicio": 354.02,
+  "fin": 358.72
+ },
+ {
+  "texto": "Después",
+  "inicio": 359.08,
+  "fin": 359.3
+ },
+ {
+  "texto": "de",
+  "inicio": 359.3,
+  "fin": 359.46
+ },
+ {
+  "texto": "una",
+  "inicio": 359.46,
+  "fin": 359.92
+ },
+ {
+  "texto": "comida,",
+  "inicio": 359.92,
+  "fin": 360.42
+ },
+ {
+  "texto": "por",
+  "inicio": 360.44,
+  "fin": 360.76
+ },
+ {
+  "texto": "favor",
+  "inicio": 360.76,
+  "fin": 360.96
+ },
+ {
+  "texto": "ve",
+  "inicio": 360.96,
+  "fin": 361.08
+ },
+ {
+  "texto": "y",
+  "inicio": 361.08,
+  "fin": 361.2
+ },
+ {
+  "texto": "date",
+  "inicio": 361.2,
+  "fin": 361.42
+ },
+ {
+  "texto": "un",
+  "inicio": 361.42,
+  "fin": 361.58
+ },
+ {
+  "texto": "paseo",
+  "inicio": 361.58,
+  "fin": 361.84
+ },
+ {
+  "texto": "de",
+  "inicio": 361.84,
+  "fin": 362.1
+ },
+ {
+  "texto": "10",
+  "inicio": 362.1,
+  "fin": 362.38
+ },
+ {
+  "texto": "a",
+  "inicio": 362.38,
+  "fin": 362.68
+ },
+ {
+  "texto": "15",
+  "inicio": 362.68,
+  "fin": 363.1
+ },
+ {
+  "texto": "minutos.",
+  "inicio": 363.1,
+  "fin": 363.28
+ },
+ {
+  "texto": "¡Aquí",
+  "inicio": 365.58,
+  "fin": 369.98
+ },
+ {
+  "texto": "está",
+  "inicio": 369.98,
+  "fin": 369.98
+ },
+ {
+  "texto": "el",
+  "inicio": 369.98,
+  "fin": 369.98
+ },
+ {
+  "texto": "vídeo!",
+  "inicio": 369.98,
+  "fin": 369.98
+ },
+ {
+  "texto": "primero",
+  "inicio": 373.38,
+  "fin": 374.04
+ },
+ {
+  "texto": "después",
+  "inicio": 374.04,
+  "fin": 374.28
+ },
+ {
+  "texto": "de",
+  "inicio": 374.28,
+  "fin": 374.4
+ },
+ {
+  "texto": "una",
+  "inicio": 374.4,
+  "fin": 374.76
+ },
+ {
+  "texto": "comida",
+  "inicio": 374.76,
+  "fin": 375
+ },
+ {
+  "texto": "del",
+  "inicio": 375,
+  "fin": 375.16
+ },
+ {
+  "texto": "fin",
+  "inicio": 375.16,
+  "fin": 375.24
+ },
+ {
+  "texto": "de",
+  "inicio": 375.24,
+  "fin": 375.48
+ },
+ {
+  "texto": "semana",
+  "inicio": 375.48,
+  "fin": 375.78
+ },
+ {
+  "texto": "date",
+  "inicio": 375.78,
+  "fin": 375.98
+ },
+ {
+  "texto": "un",
+  "inicio": 375.98,
+  "fin": 376.16
+ },
+ {
+  "texto": "paseo",
+  "inicio": 376.16,
+  "fin": 376.44
+ },
+ {
+  "texto": "de",
+  "inicio": 376.44,
+  "fin": 376.72
+ },
+ {
+  "texto": "10",
+  "inicio": 376.72,
+  "fin": 377.1
+ },
+ {
+  "texto": "a",
+  "inicio": 377.1,
+  "fin": 377.42
+ },
+ {
+  "texto": "20",
+  "inicio": 377.42,
+  "fin": 377.92
+ },
+ {
+  "texto": "minutos",
+  "inicio": 377.92,
+  "fin": 378.6
+ },
+ {
+  "texto": "eso",
+  "inicio": 378.6,
+  "fin": 378.84
+ },
+ {
+  "texto": "mejorará",
+  "inicio": 378.84,
+  "fin": 379.32
+ },
+ {
+  "texto": "tu",
+  "inicio": 379.32,
+  "fin": 379.42
+ },
+ {
+  "texto": "metabolismo",
+  "inicio": 379.76,
+  "fin": 383.84
+ },
+ {
+  "texto": "Segundo.",
+  "inicio": 390.9,
+  "fin": 391.2
+ },
+ {
+  "texto": "Seguro.",
+  "inicio": 395.76,
+  "fin": 409.68
+ },
+ {
+  "texto": "usa",
+  "inicio": 409.72,
+  "fin": 410.02
+ },
+ {
+  "texto": "chat",
+  "inicio": 410.02,
+  "fin": 410.2
+ },
+ {
+  "texto": "gpt",
+  "inicio": 410.2,
+  "fin": 410.92
+ },
+ {
+  "texto": "y",
+  "inicio": 410.92,
+  "fin": 411.34
+ },
+ {
+  "texto": "coloca",
+  "inicio": 411.34,
+  "fin": 411.9
+ },
+ {
+  "texto": "el",
+  "inicio": 411.9,
+  "fin": 412.2
+ },
+ {
+  "texto": "prompt",
+  "inicio": 412.2,
+  "fin": 412.5
+ },
+ {
+  "texto": "que",
+  "inicio": 412.5,
+  "fin": 412.64
+ },
+ {
+  "texto": "te",
+  "inicio": 412.64,
+  "fin": 412.8
+ },
+ {
+  "texto": "voy",
+  "inicio": 412.8,
+  "fin": 412.94
+ },
+ {
+  "texto": "a",
+  "inicio": 412.94,
+  "fin": 413.14
+ },
+ {
+  "texto": "dejar",
+  "inicio": 413.14,
+  "fin": 413.28
+ },
+ {
+  "texto": "en",
+  "inicio": 413.28,
+  "fin": 413.68
+ },
+ {
+  "texto": "comentarios,",
+  "inicio": 413.68,
+  "fin": 413.68
+ },
+ {
+  "texto": "no.",
+  "inicio": 413.96,
+  "fin": 414.92
+ },
+ {
+  "texto": "2.",
+  "inicio": 427.56,
+  "fin": 428.3
+ },
+ {
+  "texto": "Coges",
+  "inicio": 428.54,
+  "fin": 428.94
+ },
+ {
+  "texto": "chat",
+  "inicio": 428.94,
+  "fin": 429.16
+ },
+ {
+  "texto": "gpt,",
+  "inicio": 429.16,
+  "fin": 429.72
+ },
+ {
+  "texto": "tómale",
+  "inicio": 429.8,
+  "fin": 430.18
+ },
+ {
+  "texto": "una",
+  "inicio": 430.18,
+  "fin": 430.52
+ },
+ {
+  "texto": "foto",
+  "inicio": 430.52,
+  "fin": 430.86
+ },
+ {
+  "texto": "a",
+  "inicio": 430.86,
+  "fin": 430.94
+ },
+ {
+  "texto": "la",
+  "inicio": 430.94,
+  "fin": 431.2
+ },
+ {
+  "texto": "comida",
+  "inicio": 431.2,
+  "fin": 431.56
+ },
+ {
+  "texto": "que",
+  "inicio": 431.56,
+  "fin": 431.74
+ },
+ {
+  "texto": "has",
+  "inicio": 431.74,
+  "fin": 431.96
+ },
+ {
+  "texto": "hecho",
+  "inicio": 431.96,
+  "fin": 432.14
+ },
+ {
+  "texto": "ese",
+  "inicio": 432.14,
+  "fin": 432.28
+ },
+ {
+  "texto": "fin",
+  "inicio": 432.28,
+  "fin": 432.38
+ },
+ {
+  "texto": "de",
+  "inicio": 432.38,
+  "fin": 432.76
+ },
+ {
+  "texto": "semana",
+  "inicio": 432.76,
+  "fin": 433
+ },
+ {
+  "texto": "y",
+  "inicio": 433.14,
+  "fin": 433.3
+ },
+ {
+  "texto": "con",
+  "inicio": 433.3,
+  "fin": 433.42
+ },
+ {
+  "texto": "el",
+  "inicio": 433.42,
+  "fin": 433.62
+ },
+ {
+  "texto": "prón",
+  "inicio": 433.62,
+  "fin": 433.94
+ },
+ {
+  "texto": "que",
+  "inicio": 433.94,
+  "fin": 434.14
+ },
+ {
+  "texto": "usamos",
+  "inicio": 434.14,
+  "fin": 434.64
+ },
+ {
+  "texto": "con",
+  "inicio": 434.64,
+  "fin": 434.94
+ },
+ {
+  "texto": "muchos",
+  "inicio": 434.94,
+  "fin": 435.12
+ },
+ {
+  "texto": "de",
+  "inicio": 435.12,
+  "fin": 435.28
+ },
+ {
+  "texto": "nuestros",
+  "inicio": 435.28,
+  "fin": 435.66
+ },
+ {
+  "texto": "clientes.",
+  "inicio": 435.66,
+  "fin": 436.7
+ },
+ {
+  "texto": "ajustar",
+  "inicio": 445.5,
+  "fin": 445.88
+ },
+ {
+  "texto": "de",
+  "inicio": 445.88,
+  "fin": 446.28
+ },
+ {
+  "texto": "forma",
+  "inicio": 446.28,
+  "fin": 446.76
+ },
+ {
+  "texto": "real",
+  "inicio": 446.76,
+  "fin": 447.04
+ },
+ {
+  "texto": "lo",
+  "inicio": 447.04,
+  "fin": 447.18
+ },
+ {
+  "texto": "que",
+  "inicio": 447.16,
+  "fin": 447.44
+ },
+ {
+  "texto": "estás",
+  "inicio": 447.44,
+  "fin": 447.76
+ },
+ {
+  "texto": "comiendo?",
+  "inicio": 447.76,
+  "fin": 448.24
+ },
+ {
+  "texto": "¿Y",
+  "inicio": 448.32,
+  "fin": 448.74
+ },
+ {
+  "texto": "cuánto",
+  "inicio": 448.74,
+  "fin": 449.06
+ },
+ {
+  "texto": "de",
+  "inicio": 449.06,
+  "fin": 449.36
+ },
+ {
+  "texto": "eso",
+  "inicio": 449.36,
+  "fin": 451.36
+ },
+ {
+  "texto": "podrás",
+  "inicio": 451.36,
+  "fin": 451.8
+ },
+ {
+  "texto": "ajustar",
+  "inicio": 451.8,
+  "fin": 452.04
+ },
+ {
+  "texto": "de",
+  "inicio": 452.2,
+  "fin": 452.48
+ },
+ {
+  "texto": "forma",
+  "inicio": 452.48,
+  "fin": 452.94
+ },
+ {
+  "texto": "real",
+  "inicio": 452.94,
+  "fin": 453.24
+ },
+ {
+  "texto": "todo",
+  "inicio": 453.24,
+  "fin": 453.4
+ },
+ {
+  "texto": "lo",
+  "inicio": 453.4,
+  "fin": 453.52
+ },
+ {
+  "texto": "que",
+  "inicio": 453.52,
+  "fin": 453.74
+ },
+ {
+  "texto": "estás",
+  "inicio": 453.74,
+  "fin": 454.02
+ },
+ {
+  "texto": "comiendo",
+  "inicio": 454.02,
+  "fin": 454.54
+ },
+ {
+  "texto": "a",
+  "inicio": 454.54,
+  "fin": 454.68
+ },
+ {
+  "texto": "tus",
+  "inicio": 454.68,
+  "fin": 454.96
+ },
+ {
+  "texto": "objetivos?",
+  "inicio": 454.96,
+  "fin": 462.9
+ },
+ {
+  "texto": "Lo",
+  "inicio": 463.7,
+  "fin": 463.92
+ },
+ {
+  "texto": "único",
+  "inicio": 463.92,
+  "fin": 464.12
+ },
+ {
+  "texto": "que",
+  "inicio": 464.12,
+  "fin": 464.3
+ },
+ {
+  "texto": "necesitas",
+  "inicio": 464.3,
+  "fin": 464.9
+ },
+ {
+  "texto": "saber",
+  "inicio": 464.9,
+  "fin": 465.12
+ },
+ {
+  "texto": "es",
+  "inicio": 465.12,
+  "fin": 465.34
+ },
+ {
+  "texto": "cuántas",
+  "inicio": 465.34,
+  "fin": 465.8
+ },
+ {
+  "texto": "calorías",
+  "inicio": 465.8,
+  "fin": 466.58
+ },
+ {
+  "texto": "tienes",
+  "inicio": 466.58,
+  "fin": 466.74
+ },
+ {
+  "texto": "que",
+  "inicio": 466.74,
+  "fin": 467
+ },
+ {
+  "texto": "consumir,",
+  "inicio": 467,
+  "fin": 467.62
+ },
+ {
+  "texto": "cuánta",
+  "inicio": 467.74,
+  "fin": 468.08
+ },
+ {
+  "texto": "proteína,",
+  "inicio": 468.08,
+  "fin": 468.78
+ },
+ {
+  "texto": "cuántos",
+  "inicio": 468.92,
+  "fin": 469.04
+ },
+ {
+  "texto": "carbohidratos",
+  "inicio": 469.22,
+  "fin": 469.92
+ },
+ {
+  "texto": "y",
+  "inicio": 469.92,
+  "fin": 470.14
+ },
+ {
+  "texto": "cuántas",
+  "inicio": 470.14,
+  "fin": 470.5
+ },
+ {
+  "texto": "grasas.",
+  "inicio": 470.5,
+  "fin": 470.94
+ },
+ {
+  "texto": "Y",
+  "inicio": 470.96,
+  "fin": 471.16
+ },
+ {
+  "texto": "esa",
+  "inicio": 471.16,
+  "fin": 471.5
+ },
+ {
+  "texto": "información",
+  "inicio": 471.5,
+  "fin": 472.02
+ },
+ {
+  "texto": "ya",
+  "inicio": 472.02,
+  "fin": 472.1
+ },
+ {
+  "texto": "la",
+  "inicio": 472.1,
+  "fin": 472.3
+ },
+ {
+  "texto": "tienes",
+  "inicio": 472.3,
+  "fin": 472.5
+ },
+ {
+  "texto": "en",
+  "inicio": 472.5,
+  "fin": 472.58
+ },
+ {
+  "texto": "mi",
+  "inicio": 472.58,
+  "fin": 472.8
+ },
+ {
+  "texto": "perfil.",
+  "inicio": 472.8,
+  "fin": 472.96
+ },
+ {
+  "texto": "Y",
+  "inicio": 480.54,
+  "fin": 480.64
+ },
+ {
+  "texto": "si",
+  "inicio": 480.64,
+  "fin": 480.96
+ },
+ {
+  "texto": "deseas",
+  "inicio": 480.96,
+  "fin": 481.4
+ },
+ {
+  "texto": "tener",
+  "inicio": 481.4,
+  "fin": 481.64
+ },
+ {
+  "texto": "el",
+  "inicio": 481.64,
+  "fin": 481.9
+ },
+ {
+  "texto": "PROM",
+  "inicio": 481.9,
+  "fin": 482.32
+ },
+ {
+  "texto": "para",
+  "inicio": 482.32,
+  "fin": 482.8
+ },
+ {
+  "texto": "poderlo",
+  "inicio": 482.8,
+  "fin": 483.24
+ },
+ {
+  "texto": "aplicar.",
+  "inicio": 483.24,
+  "fin": 483.66
+ },
+ {
+  "texto": "Y",
+  "inicio": 483.86,
+  "fin": 483.98
+ },
+ {
+  "texto": "si",
+  "inicio": 483.98,
+  "fin": 484.24
+ },
+ {
+  "texto": "deseas",
+  "inicio": 484.24,
+  "fin": 484.58
+ },
+ {
+  "texto": "tener",
+  "inicio": 484.58,
+  "fin": 484.78
+ },
+ {
+  "texto": "el",
+  "inicio": 484.78,
+  "fin": 484.96
+ },
+ {
+  "texto": "PROM",
+  "inicio": 484.96,
+  "fin": 485.22
+ },
+ {
+  "texto": "para",
+  "inicio": 485.22,
+  "fin": 485.44
+ },
+ {
+  "texto": "poderlo",
+  "inicio": 485.44,
+  "fin": 485.74
+ },
+ {
+  "texto": "aplicar",
+  "inicio": 485.74,
+  "fin": 486.02
+ },
+ {
+  "texto": "tus",
+  "inicio": 486.02,
+  "fin": 486.18
+ },
+ {
+  "texto": "100",
+  "inicio": 486.18,
+  "fin": 486.36
+ },
+ {
+  "texto": "de",
+  "inicio": 486.36,
+  "fin": 486.66
+ },
+ {
+  "texto": "semana",
+  "inicio": 486.66,
+  "fin": 486.96
+ },
+ {
+  "texto": "y",
+  "inicio": 486.96,
+  "fin": 487.06
+ },
+ {
+  "texto": "no",
+  "inicio": 487.06,
+  "fin": 487.3
+ },
+ {
+  "texto": "sentir",
+  "inicio": 487.3,
+  "fin": 487.5
+ },
+ {
+  "texto": "que",
+  "inicio": 487.5,
+  "fin": 487.62
+ },
+ {
+  "texto": "te",
+  "inicio": 487.62,
+  "fin": 487.82
+ },
+ {
+  "texto": "estás",
+  "inicio": 487.82,
+  "fin": 488.04
+ },
+ {
+  "texto": "castigando,",
+  "inicio": 488.04,
+  "fin": 488.52
+ },
+ {
+  "texto": "escribe",
+  "inicio": 488.74,
+  "fin": 489.06
+ },
+ {
+  "texto": "la",
+  "inicio": 489.06,
+  "fin": 489.28
+ },
+ {
+  "texto": "palabra",
+  "inicio": 489.28,
+  "fin": 489.64
+ },
+ {
+  "texto": "PROM",
+  "inicio": 489.64,
+  "fin": 489.98
+ },
+ {
+  "texto": "y",
+  "inicio": 489.98,
+  "fin": 490.1
+ },
+ {
+  "texto": "te",
+  "inicio": 490.1,
+  "fin": 490.22
+ },
+ {
+  "texto": "la",
+  "inicio": 490.22,
+  "fin": 490.4
+ },
+ {
+  "texto": "hago",
+  "inicio": 490.4,
+  "fin": 490.62
+ },
+ {
+  "texto": "enviar.",
+  "inicio": 490.62,
+  "fin": 491.08
+ },
+ {
+  "texto": "Escribe",
+  "inicio": 492.34,
+  "fin": 493.28
+ },
+ {
+  "texto": "la",
+  "inicio": 493.28,
+  "fin": 493.48
+ },
+ {
+  "texto": "palabra",
+  "inicio": 493.48,
+  "fin": 493.94
+ },
+ {
+  "texto": "PROM",
+  "inicio": 493.94,
+  "fin": 494.24
+ },
+ {
+  "texto": "y",
+  "inicio": 494.24,
+  "fin": 494.36
+ },
+ {
+  "texto": "te",
+  "inicio": 494.36,
+  "fin": 494.46
+ },
+ {
+  "texto": "lo",
+  "inicio": 494.46,
+  "fin": 494.56
+ },
+ {
+  "texto": "hago",
+  "inicio": 494.56,
+  "fin": 494.78
+ },
+ {
+  "texto": "llegar",
+  "inicio": 494.78,
+  "fin": 495.08
+ },
+ {
+  "texto": "por",
+  "inicio": 495.08,
+  "fin": 495.3
+ },
+ {
+  "texto": "mensaje",
+  "inicio": 495.3,
+  "fin": 495.74
+ },
+ {
+  "texto": "directo.",
+  "inicio": 495.74,
+  "fin": 496.02
+ }
+]

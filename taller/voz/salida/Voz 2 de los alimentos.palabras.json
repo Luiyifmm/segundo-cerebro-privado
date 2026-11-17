@@ -1,0 +1,92 @@
+[
+ {
+  "texto": "ensaladas",
+  "inicio": 2.06,
+  "fin": 2.62
+ },
+ {
+  "texto": "esar,",
+  "inicio": 2.62,
+  "fin": 4.7
+ },
+ {
+  "texto": "sardinas,",
+  "inicio": 5.08,
+  "fin": 7.36
+ },
+ {
+  "texto": "sushi,",
+  "inicio": 7.74,
+  "fin": 9.58
+ },
+ {
+  "texto": "patata",
+  "inicio": 9.76,
+  "fin": 10.12
+ },
+ {
+  "texto": "cocida,",
+  "inicio": 10.12,
+  "fin": 11.44
+ },
+ {
+  "texto": "aca",
+  "inicio": 12.14,
+  "fin": 12.34
+ },
+ {
+  "texto": "y",
+  "inicio": 12.34,
+  "fin": 12.54
+ },
+ {
+  "texto": "bol,",
+  "inicio": 12.54,
+  "fin": 14.24
+ },
+ {
+  "texto": "frutos",
+  "inicio": 14.5,
+  "fin": 14.9
+ },
+ {
+  "texto": "secos,",
+  "inicio": 14.9,
+  "fin": 16.64
+ },
+ {
+  "texto": "claras",
+  "inicio": 16.96,
+  "fin": 17.2
+ },
+ {
+  "texto": "de",
+  "inicio": 17.2,
+  "fin": 17.36
+ },
+ {
+  "texto": "huevo,",
+  "inicio": 17.36,
+  "fin": 18.76
+ },
+ {
+  "texto": "frutos",
+  "inicio": 19.04,
+  "fin": 19.38
+ },
+ {
+  "texto": "rojos,",
+  "inicio": 19.38,
+  "fin": 20.06
+ },
+ {
+  "texto": "frutos",
+  "inicio": 20.68,
+  "fin": 21.02
+ },
+ {
+  "texto": "rojos.",
+  "inicio": 21.02,
+  "fin": 21.2
+ }
+]

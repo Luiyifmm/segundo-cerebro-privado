@@ -1,0 +1,260 @@
+[
+{
+"texto": "tener",
+"inicio": 0.214,
+"fin": 0.394,
+"score": 0.568
+},
+{
+"texto": "novia",
+"inicio": 0.414,
+"fin": 0.674,
+"score": 0.508
+},
+{
+"texto": "de",
+"inicio": 1.095,
+"fin": 1.215,
+"score": 0.75
+},
+{
+"texto": "pobre",
+"inicio": 1.275,
+"fin": 1.495,
+"score": 0.919
+},
+{
+"texto": "pero",
+"inicio": 1.735,
+"fin": 1.875,
+"score": 0.899
+},
+{
+"texto": "por",
+"inicio": 1.935,
+"fin": 2.035,
+"score": 0.935
+},
+{
+"texto": "qué",
+"inicio": 2.075,
+"fin": 2.175,
+"score": 0.853
+},
+{
+"texto": "si",
+"inicio": 2.255,
+"fin": 2.375,
+"score": 0.538
+},
+{
+"texto": "todo",
+"inicio": 2.415,
+"fin": 2.515,
+"score": 0.874
+},
+{
+"texto": "el",
+"inicio": 2.535,
+"fin": 2.575,
+"score": 0.841
+},
+{
+"texto": "mundo",
+"inicio": 2.595,
+"fin": 2.755,
+"score": 0.764
+},
+{
+"texto": "quiere",
+"inicio": 2.795,
+"fin": 2.995,
+"score": 0.824
+},
+{
+"texto": "una",
+"inicio": 3.056,
+"fin": 3.176,
+"score": 0.761
+},
+{
+"texto": "por",
+"inicio": 3.276,
+"fin": 3.376,
+"score": 0.805
+},
+{
+"texto": "eso",
+"inicio": 3.416,
+"fin": 3.576,
+"score": 0.331
+},
+{
+"texto": "casi",
+"inicio": 3.636,
+"fin": 3.796,
+"score": 0.754
+},
+{
+"texto": "todo",
+"inicio": 3.836,
+"fin": 3.956,
+"score": 0.751
+},
+{
+"texto": "el",
+"inicio": 3.996,
+"fin": 4.036,
+"score": 0.988
+},
+{
+"texto": "mundo",
+"inicio": 4.076,
+"fin": 4.236,
+"score": 0.77
+},
+{
+"texto": "está",
+"inicio": 4.296,
+"fin": 4.516,
+"score": 0.857
+},
+{
+"texto": "arruinado",
+"inicio": 4.536,
+"fin": 5.717,
+"score": 0.737
+},
+{
+"texto": "tener",
+"inicio": 5.737,
+"fin": 5.977,
+"score": 0.78
+},
+{
+"texto": "novia",
+"inicio": 6.017,
+"fin": 6.297,
+"score": 0.684
+},
+{
+"texto": "te",
+"inicio": 6.397,
+"fin": 6.497,
+"score": 0.782
+},
+{
+"texto": "da",
+"inicio": 6.577,
+"fin": 6.717,
+"score": 0.78
+},
+{
+"texto": "dolores",
+"inicio": 6.797,
+"fin": 7.098,
+"score": 0.884
+},
+{
+"texto": "de",
+"inicio": 7.138,
+"fin": 7.218,
+"score": 0.542
+},
+{
+"texto": "cabeza",
+"inicio": 7.258,
+"fin": 7.478,
+"score": 0.776
+},
+{
+"texto": "no",
+"inicio": 7.698,
+"fin": 7.758,
+"score": 0.932
+},
+{
+"texto": "tienes",
+"inicio": 7.818,
+"fin": 8.018,
+"score": 0.751
+},
+{
+"texto": "horas",
+"inicio": 8.078,
+"fin": 8.258,
+"score": 0.858
+},
+{
+"texto": "para",
+"inicio": 8.318,
+"fin": 8.458,
+"score": 0.813
+},
+{
+"texto": "tus",
+"inicio": 8.538,
+"fin": 8.638,
+"score": 0.661
+},
+{
+"texto": "proyectos",
+"inicio": 8.678,
+"fin": 9.139,
+"score": 0.762
+},
+{
+"texto": "y",
+"inicio": 9.319,
+"fin": 9.359,
+"score": 0.624
+},
+{
+"texto": "gastarte",
+"inicio": 9.439,
+"fin": 9.819,
+"score": 0.691
+},
+{
+"texto": "dinero",
+"inicio": 9.859,
+"fin": 10.059,
+"score": 0.796
+},
+{
+"texto": "que",
+"inicio": 10.119,
+"fin": 10.199,
+"score": 0.856
+},
+{
+"texto": "no",
+"inicio": 10.239,
+"fin": 10.299,
+"score": 0.764
+},
+{
+"texto": "tienes",
+"inicio": 10.359,
+"fin": 10.619,
+"score": 0.849
+},
+{
+"texto": "en",
+"inicio": 10.779,
+"fin": 10.839,
+"score": 0.912
+},
+{
+"texto": "restaurantes",
+"inicio": 10.899,
+"fin": 11.5,
+"score": 0.848
+},
+{
+"texto": "cards",
+"inicio": 11.7,
+"fin": 11.96,
+"score": 0.692
+}
+]

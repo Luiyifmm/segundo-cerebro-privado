@@ -1,0 +1,37 @@
+[
+ {
+  "texto": "por",
+  "inicio": 2.24,
+  "fin": 2.5
+ },
+ {
+  "texto": "menos",
+  "inicio": 2.5,
+  "fin": 2.82
+ },
+ {
+  "texto": "calorías",
+  "inicio": 2.82,
+  "fin": 3.38
+ },
+ {
+  "texto": "puedes",
+  "inicio": 3.38,
+  "fin": 3.7
+ },
+ {
+  "texto": "comer",
+  "inicio": 3.7,
+  "fin": 4.04
+ },
+ {
+  "texto": "todo",
+  "inicio": 4.04,
+  "fin": 4.36
+ },
+ {
+  "texto": "esto",
+  "inicio": 4.36,
+  "fin": 4.48
+ }
+]

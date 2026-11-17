@@ -1,0 +1,47 @@
+[
+ {
+  "texto": "Perdona.",
+  "inicio": 0.3,
+  "fin": 1.26
+ },
+ {
+  "texto": "¿Cuántas",
+  "inicio": 1.56,
+  "fin": 2.16
+ },
+ {
+  "texto": "calorías",
+  "inicio": 2.16,
+  "fin": 2.8
+ },
+ {
+  "texto": "consume",
+  "inicio": 2.8,
+  "fin": 3.2
+ },
+ {
+  "texto": "al",
+  "inicio": 3.2,
+  "fin": 3.4
+ },
+ {
+  "texto": "día?",
+  "inicio": 3.4,
+  "fin": 3.82
+ },
+ {
+  "texto": "2400.",
+  "inicio": 4.4,
+  "fin": 5.6
+ },
+ {
+  "texto": "Gracias.",
+  "inicio": 6.08,
+  "fin": 6.4
+ },
+ {
+  "texto": "Vale.",
+  "inicio": 6.72,
+  "fin": 7.2
+ }
+]

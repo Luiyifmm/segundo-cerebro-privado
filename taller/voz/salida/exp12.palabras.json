@@ -1,0 +1,17 @@
+[
+ {
+  "texto": "¡Cállate",
+  "inicio": 0.3,
+  "fin": 0.64
+ },
+ {
+  "texto": "el",
+  "inicio": 0.64,
+  "fin": 0.78
+ },
+ {
+  "texto": "solio!",
+  "inicio": 0.78,
+  "fin": 1.2
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "texto": "¿Cómo",
+  "inicio": 0.68,
+  "fin": 0.8
+ },
+ {
+  "texto": "es?",
+  "inicio": 0.8,
+  "fin": 1.52
+ },
+ {
+  "texto": "Comer",
+  "inicio": 2.56,
+  "fin": 3
+ },
+ {
+  "texto": "sano",
+  "inicio": 3,
+  "fin": 3.94
+ },
+ {
+  "texto": "no",
+  "inicio": 3.94,
+  "fin": 4.02
+ },
+ {
+  "texto": "es",
+  "inicio": 4.02,
+  "fin": 4.12
+ },
+ {
+  "texto": "lo",
+  "inicio": 4.12,
+  "fin": 4.34
+ },
+ {
+  "texto": "mismo",
+  "inicio": 4.34,
+  "fin": 4.54
+ },
+ {
+  "texto": "que",
+  "inicio": 4.54,
+  "fin": 4.84
+ },
+ {
+  "texto": "comer",
+  "inicio": 4.84,
+  "fin": 5.16
+ },
+ {
+  "texto": "para",
+  "inicio": 5.16,
+  "fin": 5.48
+ },
+ {
+  "texto": "perder",
+  "inicio": 5.48,
+  "fin": 5.72
+ },
+ {
+  "texto": "grasa.",
+  "inicio": 5.72,
+  "fin": 6
+ }
+]

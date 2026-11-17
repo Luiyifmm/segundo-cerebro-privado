@@ -1,0 +1,137 @@
+[
+ {
+  "texto": "¿Haciendo",
+  "inicio": 0.12,
+  "fin": 0.46
+ },
+ {
+  "texto": "entrevistas",
+  "inicio": 0.46,
+  "fin": 1.02
+ },
+ {
+  "texto": "a",
+  "inicio": 1.02,
+  "fin": 1.4
+ },
+ {
+  "texto": "personas",
+  "inicio": 1.4,
+  "fin": 1.88
+ },
+ {
+  "texto": "preguntando",
+  "inicio": 1.88,
+  "fin": 2.44
+ },
+ {
+  "texto": "cómo",
+  "inicio": 2.44,
+  "fin": 2.56
+ },
+ {
+  "texto": "se",
+  "inicio": 2.56,
+  "fin": 2.68
+ },
+ {
+  "texto": "hicieron",
+  "inicio": 2.68,
+  "fin": 2.96
+ },
+ {
+  "texto": "ricas,",
+  "inicio": 2.96,
+  "fin": 3.24
+ },
+ {
+  "texto": "cómo",
+  "inicio": 3.24,
+  "fin": 3.4
+ },
+ {
+  "texto": "tuvieron",
+  "inicio": 3.4,
+  "fin": 3.68
+ },
+ {
+  "texto": "éxito?",
+  "inicio": 3.68,
+  "fin": 4
+ },
+ {
+  "texto": "¿Gustaría",
+  "inicio": 4.06,
+  "fin": 4.74
+ },
+ {
+  "texto": "participar",
+  "inicio": 4.74,
+  "fin": 4.98
+ },
+ {
+  "texto": "para",
+  "inicio": 4.98,
+  "fin": 5.08
+ },
+ {
+  "texto": "la",
+  "inicio": 5.08,
+  "fin": 5.22
+ },
+ {
+  "texto": "gente",
+  "inicio": 5.22,
+  "fin": 5.42
+ },
+ {
+  "texto": "joven?",
+  "inicio": 5.42,
+  "fin": 5.74
+ },
+ {
+  "texto": "Acabamos",
+  "inicio": 5.94,
+  "fin": 6.3
+ },
+ {
+  "texto": "de",
+  "inicio": 6.3,
+  "fin": 7.04
+ },
+ {
+  "texto": "llegar.",
+  "inicio": 7.04,
+  "fin": 7.32
+ },
+ {
+  "texto": "¡No!",
+  "inicio": 7.46,
+  "fin": 9.56
+ },
+ {
+  "texto": "Muchas",
+  "inicio": 9.94,
+  "fin": 10.16
+ },
+ {
+  "texto": "gracias",
+  "inicio": 10.16,
+  "fin": 10.44
+ },
+ {
+  "texto": "por",
+  "inicio": 10.44,
+  "fin": 10.56
+ },
+ {
+  "texto": "vuestro",
+  "inicio": 10.56,
+  "fin": 10.94
+ },
+ {
+  "texto": "tiempo.",
+  "inicio": 10.94,
+  "fin": 11.28
+ }
+]

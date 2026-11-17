@@ -1,0 +1,67 @@
+[
+ {
+  "texto": "Guárdalo",
+  "inicio": 0.12,
+  "fin": 0.6
+ },
+ {
+  "texto": "para",
+  "inicio": 0.6,
+  "fin": 0.7
+ },
+ {
+  "texto": "el",
+  "inicio": 0.7,
+  "fin": 0.82
+ },
+ {
+  "texto": "día",
+  "inicio": 0.82,
+  "fin": 0.96
+ },
+ {
+  "texto": "de",
+  "inicio": 0.96,
+  "fin": 1.12
+ },
+ {
+  "texto": "brazos",
+  "inicio": 1.12,
+  "fin": 1.48
+ },
+ {
+  "texto": "y",
+  "inicio": 1.48,
+  "fin": 1.66
+ },
+ {
+  "texto": "sígueme",
+  "inicio": 1.66,
+  "fin": 2.04
+ },
+ {
+  "texto": "para",
+  "inicio": 2.04,
+  "fin": 2.2
+ },
+ {
+  "texto": "más",
+  "inicio": 2.2,
+  "fin": 2.4
+ },
+ {
+  "texto": "rutinas",
+  "inicio": 2.4,
+  "fin": 2.8
+ },
+ {
+  "texto": "como",
+  "inicio": 2.8,
+  "fin": 3.08
+ },
+ {
+  "texto": "esta.",
+  "inicio": 3.08,
+  "fin": 3.16
+ }
+]
