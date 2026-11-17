@@ -1,0 +1,42 @@
+ok /private/tmp/claude-501/lote-1711/ale-mercadona/video_voz.mp4
+hoja /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/ale-mercadona/hoja.jpg
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+14 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/ale-mercadona/eventos.json --video /private/tmp/claude-501/lote-1
+checking the cue list against the picture (frame analysis of the render) ...
+sync: cannot be verified (2 wipe/hit/thump events, 2 of them near a picture change). Static camera, small objects or too few structural events: look at the frames (look.py --at T) around the first events before you trust the times.
+NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
+fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+13 cues from 13 events (0 dropped from runs faster than 14/s, 1 fused)
+declared 14 events: 13 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: whoosh=4, pop=3, tick=3, drop=1, hit=1, click=1
+routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, tick -> library:click, whoosh -> library:whoosh
+-> /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/cues.json --out /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 --voic
+level: 3 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 9.88s; --no-level-roles keeps the peaks equal)
+SFX under speech (normal): 3.6 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 13 (13 library, 0 uisfx), 13 distinct files
+WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+video: /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -26.5 LUFS, final -16.3 LUFS, true peak -4.9 dBTP
+report: /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+lower it 25 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+3. low end: 'hit' at 0.05s piles onto the bass already there (-32 dB); lower it 25 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+
+Listen to these 3 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (5 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?
+  2.    3.13s  'pop': its attack was moved 98 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
+  3.    9.88s  'swoosh': brought 6 dB up to the perceived level of its role; also 'click' at 10.48s: the highest peak of the film (-8 dBFS before the master). Listen for: a thin recording lifted that far can turn harsh: is it clean? / is it big without hurting on headphones, and does the music under it pump?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v copy -a
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v1 lote (sin música).mp4 -13.8 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 10.867 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/90mh-but-it-s-a-chill-lofi-type-beat.mp3 -af afade=t=in:d=0.3,afade=t=out:st=8.867:d=2 -ar 480
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-mercadona/mus_cruda.wav -filter_complex [1:a]volume=-8.40d
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_con_musica.wav -map 0:v -map 1:a -c:v copy -a
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v1 lote (música).mp4 -13.7 LUFS

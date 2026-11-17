@@ -1,0 +1,367 @@
+{
+ "archivo": "out_v12.wav",
+ "duracion_s": 2644.350277985201,
+ "intro": "0-53.5 s: intro original con narrador; 46.7-52.2 locutor; tema 1 entra gradualmente desde 38.6 s",
+ "final": "eco + golpe + tag, fin 4,5 s después",
+ "temas": [
+  {
+   "n": 1,
+   "id": "14",
+   "tema": "Levantando las Manos",
+   "entra_en": 53.46,
+   "sale_en": 127.84,
+   "bpm": 129.2,
+   "tipo_entrada": "rise",
+   "voces": null
+  },
+  {
+   "n": 2,
+   "id": "13",
+   "tema": "Danza Kuduro",
+   "entra_en": 127.84,
+   "sale_en": 202.17,
+   "bpm": 129.2,
+   "tipo_entrada": "blend",
+   "voces": null
+  },
+  {
+   "n": 3,
+   "id": "12",
+   "tema": "Gangnam Style",
+   "entra_en": 202.16,
+   "sale_en": 268.84,
+   "bpm": 129.2,
+   "tipo_entrada": "blend",
+   "voces": [
+    "M01 (antes de salir)"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "23",
+   "tema": "Şımarık",
+   "entra_en": 268.84,
+   "sale_en": 350.48,
+   "bpm": 129.4,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 5,
+   "id": "01",
+   "tema": "Vampiro Vampiro",
+   "entra_en": 350.48,
+   "sale_en": 424.83,
+   "bpm": 129.2,
+   "tipo_entrada": "cut",
+   "voces": null
+  },
+  {
+   "n": 6,
+   "id": "28",
+   "tema": "Te Necesito",
+   "entra_en": 424.83,
+   "sale_en": 491.95,
+   "bpm": 128.7,
+   "tipo_entrada": "filter",
+   "voces": null
+  },
+  {
+   "n": 7,
+   "id": "02",
+   "tema": "La Bomba – Azul Azul",
+   "entra_en": 492.88,
+   "sale_en": 570.13,
+   "bpm": 124.3,
+   "tipo_entrada": "echo",
+   "voces": null
+  },
+  {
+   "n": 8,
+   "id": "07",
+   "tema": "Aserejé",
+   "entra_en": 571.28,
+   "sale_en": 633.54,
+   "bpm": 92.5,
+   "tipo_entrada": "spin",
+   "voces": [
+    "M02 (antes de salir)"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "26",
+   "tema": "Macarena",
+   "entra_en": 633.54,
+   "sale_en": 698.66,
+   "bpm": 103.2,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 10,
+   "id": "27",
+   "tema": "El Meneaíto",
+   "entra_en": 698.66,
+   "sale_en": 820.34,
+   "bpm": 94.7,
+   "tipo_entrada": "filter",
+   "voces": null
+  },
+  {
+   "n": 11,
+   "id": "19",
+   "tema": "Chocolate – Mayonesa",
+   "entra_en": 821.61,
+   "sale_en": 920.54,
+   "bpm": 97.1,
+   "tipo_entrada": "echo",
+   "voces": null
+  },
+  {
+   "n": 12,
+   "id": "16",
+   "tema": "Calimeño",
+   "entra_en": 920.54,
+   "sale_en": 997.34,
+   "bpm": 100.0,
+   "tipo_entrada": "cut",
+   "voces": [
+    "M03 (antes de salir)",
+    "V07 (al entrar)"
+   ]
+  },
+  {
+   "n": 13,
+   "id": "35",
+   "tema": "El Baile del Gorila – Melody",
+   "entra_en": 997.34,
+   "sale_en": 1068.16,
+   "bpm": 122.0,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 14,
+   "id": "09",
+   "tema": "El Avioncito",
+   "entra_en": 1069.14,
+   "sale_en": 1137.71,
+   "bpm": 98.0,
+   "tipo_entrada": "echo",
+   "voces": null
+  },
+  {
+   "n": 15,
+   "id": "03",
+   "tema": "Cheque Choco",
+   "entra_en": 1137.71,
+   "sale_en": 1214.87,
+   "bpm": 112.0,
+   "tipo_entrada": "cut",
+   "voces": null
+  },
+  {
+   "n": 16,
+   "id": "15",
+   "tema": "Rock de la Cárcel",
+   "entra_en": 1216.02,
+   "sale_en": 1277.35,
+   "bpm": 94.0,
+   "tipo_entrada": "spin",
+   "voces": null
+  },
+  {
+   "n": 17,
+   "id": "11",
+   "tema": "Me Vale – Maná",
+   "entra_en": 1278.62,
+   "sale_en": 1358.78,
+   "bpm": 83.7,
+   "tipo_entrada": "echo",
+   "voces": [
+    "M04 (antes de salir)"
+   ]
+  },
+  {
+   "n": 18,
+   "id": "30",
+   "tema": "Pirulino",
+   "entra_en": 1358.78,
+   "sale_en": 1432.97,
+   "bpm": 116.5,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 19,
+   "id": "33",
+   "tema": "Ey Macalena",
+   "entra_en": 1432.97,
+   "sale_en": 1515.43,
+   "bpm": 116.5,
+   "tipo_entrada": "cut",
+   "voces": null
+  },
+  {
+   "n": 20,
+   "id": "36",
+   "tema": "Checurrulao (Caderona) – Checo Acosta",
+   "entra_en": 1515.43,
+   "sale_en": 1590.87,
+   "bpm": 140.0,
+   "tipo_entrada": "filter",
+   "voces": null
+  },
+  {
+   "n": 21,
+   "id": "31",
+   "tema": "Ay Chavela (remix)",
+   "entra_en": 1591.73,
+   "sale_en": 1656.73,
+   "bpm": 147.4,
+   "tipo_entrada": "echo",
+   "voces": [
+    "M05 (antes de salir)"
+   ]
+  },
+  {
+   "n": 22,
+   "id": "34",
+   "tema": "Kulikitaka",
+   "entra_en": 1656.73,
+   "sale_en": 1730.86,
+   "bpm": 155.4,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 23,
+   "id": "32",
+   "tema": "Las Diabluras",
+   "entra_en": 1731.64,
+   "sale_en": 1805.1,
+   "bpm": 156.8,
+   "tipo_entrada": "echo",
+   "voces": null
+  },
+  {
+   "n": 24,
+   "id": "05",
+   "tema": "San Miguelito – La Media Arepa",
+   "entra_en": 1805.1,
+   "sale_en": 1887.66,
+   "bpm": 151.1,
+   "tipo_entrada": "cut",
+   "voces": [
+    "V07 (antes de salir)"
+   ]
+  },
+  {
+   "n": 25,
+   "id": "04",
+   "tema": "La Camisa Rayá",
+   "entra_en": 1887.66,
+   "sale_en": 1969.44,
+   "bpm": 152.6,
+   "tipo_entrada": "filter",
+   "voces": null
+  },
+  {
+   "n": 26,
+   "id": "18",
+   "tema": "La Adivinanza",
+   "entra_en": 1970.23,
+   "sale_en": 2047.6,
+   "bpm": 136.6,
+   "tipo_entrada": "echo",
+   "voces": [
+    "V06 (antes de salir)"
+   ]
+  },
+  {
+   "n": 27,
+   "id": "10",
+   "tema": "Festival en Guararé",
+   "entra_en": 2047.6,
+   "sale_en": 2122.15,
+   "bpm": 103.0,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 28,
+   "id": "22",
+   "tema": "El Sanjuanero",
+   "entra_en": 2123.3,
+   "sale_en": 2188.64,
+   "bpm": 132.4,
+   "tipo_entrada": "spin",
+   "voces": null
+  },
+  {
+   "n": 29,
+   "id": "24",
+   "tema": "El Mapalé",
+   "entra_en": 2188.64,
+   "sale_en": 2267.84,
+   "bpm": 84.8,
+   "tipo_entrada": "riser",
+   "voces": [
+    "V07 (antes de salir)"
+   ]
+  },
+  {
+   "n": 30,
+   "id": "06",
+   "tema": "La Puya Loca",
+   "entra_en": 2267.84,
+   "sale_en": 2347.26,
+   "bpm": 84.6,
+   "tipo_entrada": "cut",
+   "voces": null
+  },
+  {
+   "n": 31,
+   "id": "29",
+   "tema": "La Pollera Colorá",
+   "entra_en": 2348.68,
+   "sale_en": 2429.52,
+   "bpm": 95.0,
+   "tipo_entrada": "echo",
+   "voces": null
+  },
+  {
+   "n": 32,
+   "id": "20",
+   "tema": "La Candela Viva",
+   "entra_en": 2429.52,
+   "sale_en": 2509.78,
+   "bpm": 131.5,
+   "tipo_entrada": "filter",
+   "voces": [
+    "V08 (antes de salir)"
+   ]
+  },
+  {
+   "n": 33,
+   "id": "25",
+   "tema": "Prende la Vela",
+   "entra_en": 2509.78,
+   "sale_en": 2570.5,
+   "bpm": 158.8,
+   "tipo_entrada": "riser",
+   "voces": null
+  },
+  {
+   "n": 34,
+   "id": "21",
+   "tema": "Colombia Tierra Querida",
+   "entra_en": 2571.26,
+   "sale_en": 2639.85,
+   "bpm": 98.0,
+   "tipo_entrada": "echo",
+   "voces": null
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# Git local de la bóveda (Obsidian): solo notas de texto. Los vídeos, imágenes y enlaces simbólicos quedan fuera.
+*
+!*/
+!*.md
+!.gitignore
+!.obsidian/
+!.obsidian/*.json
+.obsidian/workspace*.json
+# Enlaces a otras carpetas (se versionan en su propio repositorio)
+/3 SKILLS Y MEMORIA/
+/5 TALLER (código y herramientas)

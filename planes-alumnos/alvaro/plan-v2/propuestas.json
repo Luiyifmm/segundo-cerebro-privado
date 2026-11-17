@@ -1,0 +1,74 @@
+[
+ {
+  "n": 1,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "GANCHO. Abre con zoom out + enfoque: el fotograma 0 ampliado 1,3× y borroso, nítido a 0,25 s (c112, favoritas r22/r23/r25). Golpe grave + whoosh en el fotograma 0 y la música entra en ese tiempo. Mesa con los dos personajes (c076). Arriba aparecen 4 pestañas de cristal LUN · MAR · MIÉ · JUE (c088, Miro ANIMACIONES): LUN en blanco, las demás translúcidas. Motivo: el espectador ve de un golpe que es una semana y por dónde va.",
+  "especial": "Lunes"
+ },
+ {
+  "n": 2,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Del cuaderno del entrenador sale una VENTANA FLOTANTE de cristal (c084, tu «pantalla tipo VR») con el pan y una señal de prohibido encima; whoosh al salir y golpe en «nada». Dura 0,7 s, se encoge y vuela a la pestaña LUN, donde queda el pan tachado en pequeño (pop). «PAN» en Sequel Heavy rojo #FF5F57 sobre el pecho. Motivo: la norma sale de quien la dicta y se archiva en su día. Sustituye a las píldoras con ✕.",
+  "especial": "pan"
+ },
+ {
+  "n": 3,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Corte en J: «¿Martes?» se oye 5 fotogramas antes del cambio de plano. Misma mesa, ahora con el croissant. La pestaña MAR pasa a blanco con un pop suave.",
+  "especial": "Martes"
+ },
+ {
+  "n": 4,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "MISMA mecánica que el lunes: ventana flotante desde el cuaderno con el chocolate + prohibido, y vuela a MAR. Se QUITA la pintura de la v1 (no pega con la estética; tu corrección). Motivo: repetir el mismo gesto tres veces crea el patrón que el jueves rompe.",
+  "especial": "chocolate"
+ },
+ {
+  "n": 5,
+  "tipo": "A-roll + texto",
+  "texto": "Zoom rápido a la cara del cliente (130 %) con whoosh corto; subtítulo en SF Pro. Corte en L: su queja sigue 4 fotogramas sobre el plano siguiente.",
+  "especial": "cómo me voy a poner"
+ },
+ {
+  "n": 6,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Corte en J con «¿Miércoles?». Escena de la puerta con los dos personajes. MIÉ pasa a blanco.",
+  "especial": "Miércoles"
+ },
+ {
+  "n": 7,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Misma mecánica: ventana flotante con un plato y cubiertos + prohibido («salir a cenar»), vuela a MIÉ. «salir a cenar» en rojo.",
+  "especial": "salir a cenar"
+ },
+ {
+  "n": 8,
+  "tipo": "A-roll + texto",
+  "texto": "El cliente al móvil; «NO» grande en blanco al decirlo, con golpe seco. Sin gráfico: el chiste es su cara.",
+  "especial": "no"
+ },
+ {
+  "n": 9,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Corte en J con «¿Jueves?». Escena del sofá. JUE pasa a blanco.",
+  "especial": "Jueves"
+ },
+ {
+  "n": 10,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "Aquí el patrón cambia: la ventana flotante sale de la MANO del cliente (la manzana real recortada del plano) con marca ✓ en azul #3A86FF y sonido tonal agradable, y vuela a JUE. «MANZANA» en azul. Motivo: es el único día bien hecho y debe sonar y verse distinto.",
+  "especial": "manzana"
+ },
+ {
+  "n": 11,
+  "tipo": "Dos personajes en el mismo cuadro (superposición)",
+  "texto": "«Muy bien» con el entrenador (misma toma, sin salto: se recoloca el corte). Corte en J: el ruido de la nevera empieza bajo esta frase. La cocina se acorta de 2,5 s a ≈ 1,6 s; arriba se ve la semana completa (3 prohibidos y 1 ✓).",
+  "especial": "Muy bien"
+ },
+ {
+  "n": 12,
+  "tipo": "A-roll + texto",
+  "texto": "REMATE: zoom de golpe al entrenador al decir «¿Pero qué haces?» (tu corrección) con golpe grave; a la vez el ✓ de JUE se rompe y pasa a prohibido rojo. Después, botón «Seguir» en cristal (mismo acabado que las pestañas) 1,5 s.",
+  "especial": "qué haces"
+ }
+]

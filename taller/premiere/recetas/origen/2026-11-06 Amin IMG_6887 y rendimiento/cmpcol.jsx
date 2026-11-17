@@ -1,0 +1,4 @@
+(function(){app.enableQE();var src=null,dst=app.project.activeSequence;for(var i=0;i<app.project.sequences.numSequences;i++)if(app.project.sequences[i].name=="Secuencia 01")src=app.project.sequences[i];
+var q=qe.project.getActiveSequence();dst.setPlayerPosition(String(Math.round(22.0*254016000000)));q.exportFramePNG(q.CTI.timecode,"/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/col-nuevo");
+app.project.openSequence(src.sequenceID);var q2=qe.project.getActiveSequence();app.project.activeSequence.setPlayerPosition(String(Math.round(20.0*254016000000)));q2.exportFramePNG(q2.CTI.timecode,"/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/col-ref");
+app.project.openSequence(dst.sequenceID);return "ok "+app.project.activeSequence.name;})();

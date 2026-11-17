@@ -1,0 +1,20 @@
+- [Communication style](communication-style.md) — Spanish, direct, short bullets: comunicado / necesito / pendiente
+- [Skills y proyecto del estudio](organizacion-skills-y-proyecto.md) — 5 skills cortas + ~/Videos-Remotion/CLAUDE.md; cargar la skill antes que la memoria larga
+- [Video tooling setup](video-tooling-setup.md) — paths and commands for Remotion, After Effects and Premiere connector
+- [User: video editor](user-video-editor.md) — pro Premiere editor, wants free motion graphics tooling
+- [Clients and workload](clientes-y-carga-de-trabajo.md) — ClienteA 2/day, ClienteE 1, ClienteN 1; goal: cut 4–6 h per reel
+- [Notion: Estudio de Edición](notion-estudio-de-edicion.md) — hub page Claude maintains; link, sub-pages and how it is written
+- [Target style: S Project](estilo-objetivo-sproject.md) — elegant minimalist reel style the user wants; recipe + local references
+- [How to deliver edits](como-editar-para-el-usuario.md) — trials free-form; from-scratch edits fully editable in Premiere; ClienteA = SF Pro + second font
+- [Trials format catalog](catalogo-formatos-trials.md) — reference video with 88 variations; goal of 20 numbered formats
+- [Collage motion graphics](estilo-collage-motion-graphics.md) — cut-out collage look the user asked for on ClienteA MGs; component and workflow
+- [After Effects skill (Solazzo)](skill-after-effects-editor.md) — installed 2026-10-10; Windows-oriented, expects an MCP not installed here
+- [Motion Video Director skill (Efaz)](skill-motion-video-director.md) — installed 2026-10-10; code-rendered video playbook, its craft rules live in criterio.md
+- [Priority: user references first](prioridad-referencias-del-usuario.md) — their references and video document outrank external skills and generic rules
+- [Target style: @julianealborna](estilo-objetivo-julianealborna.md) — TikTok account whose motion graphics the user wants replicated; recipe in criterio.md
+- [Images that retain (Pinterest)](imagenes-que-retienen-pinterest.md) — provocative conceptual images, not stock; how to fetch them
+- [Workspace: ~/EDICION](espacio-de-trabajo-edicion.md) — folder layout from 2026-10-10, where raws/exports/materials go, what must not move
+- [Direction: natural and elegant](direccion-edicion-natural-y-elegante.md) — client edits simple and natural, no overload; keep markers, use proxies, log in Notion
+- [Batch projects in Premiere](lotes-de-edicion-premiere.md) — per-client lote workflow, scripts, rotation/proxy/bridge pitfalls, Notion pipeline sync status
+- [Who edits what](reparto-de-trabajo-por-cliente.md) — ClienteA: only markers on his timeline; ClienteE and ClienteN: full edit proposals from Claude
+- [ClienteE final proposal style](clientee-estilo-propuesta-final.md) — no boxes, their MOGRTs, keyword never alone, single-pop SFX

@@ -1,0 +1,95 @@
+{
+ "tFin": 46.6,
+ "titulo1": "",
+ "titulo2": "",
+ "tColumna": 1.23,
+ "tTitulo": 3.0,
+ "negocios": [
+  {
+   "puesto": 3,
+   "img": "amin-6887-11/reales/inmobiliaria-casa.webp",
+   "pop": 2.464,
+   "vuelo": 3.244,
+   "pos": "50% 55%",
+   "zoom": 1.0
+  },
+  {
+   "puesto": 8,
+   "img": "amin-6887-11/08franquicia.jpg",
+   "pop": 7.07,
+   "vuelo": 7.83,
+   "icono": "amin-6887-11/iconos/l08.svg",
+   "fondo": "#DA291C",
+   "tamIcono": 0.6
+  },
+  {
+   "puesto": 7,
+   "img": "amin-6887-11/07cafeteria.jpg",
+   "pop": 10.21,
+   "vuelo": 11.03,
+   "icono": "amin-6887-11/iconos/l07.svg",
+   "fondo": "#FFFFFF",
+   "tamIcono": 0.86
+  },
+  {
+   "puesto": 10,
+   "img": "amin-6887-11/reales/restaurante-plato.webp",
+   "pop": 13.808,
+   "vuelo": 14.218,
+   "pos": "50% 50%",
+   "zoom": 1.0
+  },
+  {
+   "puesto": 5,
+   "img": "amin-6887-11/reales/centro-medico-anciano.webp",
+   "pop": 18.416,
+   "vuelo": 20.046,
+   "pos": "50% 30%",
+   "zoom": 1.35
+  },
+  {
+   "puesto": 9,
+   "img": "amin-6887-11/reales/peluqueria-corte.webp",
+   "pop": 23.586,
+   "vuelo": 24.276,
+   "pos": "45% 62%",
+   "zoom": 1.15
+  },
+  {
+   "puesto": 6,
+   "img": "amin-6887-11/06gasolinera.jpg",
+   "pop": 26.789,
+   "vuelo": 27.529,
+   "icono": "amin-6887-11/iconos/l06.svg",
+   "fondo": "#FFD500",
+   "tamIcono": 0.66
+  },
+  {
+   "puesto": 4,
+   "img": "amin-6887-11/04concesionario.jpg",
+   "pop": 31.711,
+   "vuelo": 32.951,
+   "icono": "amin-6887-11/iconos/l04.svg",
+   "tamIcono": 0.8
+  },
+  {
+   "puesto": 2,
+   "img": "amin-6887-11/reales/gimnasio.webp",
+   "pop": 35.7,
+   "vuelo": 36.33,
+   "pos": "50% 42%",
+   "zoom": 1.0
+  },
+  {
+   "puesto": 1,
+   "img": "amin-6887-11/reales/online-hormozi.webp",
+   "pop": 39.65,
+   "vuelo": 40.49,
+   "pos": "50% 22%",
+   "zoom": 1.45
+  }
+ ],
+ "y0": 448,
+ "paso": 115,
+ "vueloRecto": true
+}

@@ -1,0 +1,15 @@
+# Camilo Arias · «sentadillas ciclista» · BITÁCORA
+
+## 16-11-2026 · mensaje 3: vídeo completo
+- `plan-v2/anima_video.py`: ejecuta el código de `anima_gancho.py` (sin modificarlo) para 0–282 f; resto con `cuadro_resto()`. Base desde el bruto con los 21 tramos de `tramos.json` (68,799 s → 2064 f). Fotogramas JPG q95 en la carpeta de trabajo. Uso: `<python whisperx> anima_video.py <carpeta> [f1,f2,…]` (lista = solo esos fotogramas, para pruebas).
+- Tiempos de palabra: `palabras.json` (bruto) llevados al corte sumando el desfase de cada tramo. Todas las claves entran al decirse (±1 f).
+- Escenas: 5 burbuja que se escribe (puntos 12,1–13,25 s) · 6 ANTES 19,31 / AHORA 20,87 · 7 píldora + 3 cuadrados de cristal, emojis con rebote al decirse (28,54 / 30,73 / 31,81) · 8 a 33,18 «Tú»: giran uno a uno (0,28 s, escalonado 0,1 s) a cara blanca, se llenan con ✓ (34,10 / 36,58 / 39,32) · 9 ciclista entra 41,61 y se tacha 43,11 · 10 píldoras ✓ 45,65 / 47,79 / 50,20 · 11 «VELOCISTA DE PISTA» se tacha 54,40 → «CICLISTA MÁS FUERTE» 55,66 con zoom 1,18 · 12 botón Seguir 64,56 → Siguiendo 65,30.
+- Retoques tras mirar la hoja: puntos de la burbuja más oscuros; «y montando» empieza a 39,22 (antes «y» solo casi 1 s).
+- Sonido (real-sfx, `--ui library`, `--voice-safe`): 50 cues (15 del gancho fijados). Rondas: r1 graves 1,0 (sub_drop y golpes nuevos) → r2/r3 highpass 250 a golpes nuevos, fuera el sub drop de 55,66 → variedad 2,4 por repetir golpes y pops → r4–r6 variar con favoritos + KF/SCH/UI clicks. Final r6: sincronía 9,7 · variedad 7,9 · voz 8,5 · graves 5,5 (solo gancho) · resto 9–10.
+- Música: `ffmpeg -ss 33.9 -t 68.8` + fundido 2 s; −12,9 LUFS crudo → −25 LUFS; amix sin normalizar con voz+efectos (−16,1) → loudnorm 2 pasadas lineal a −14 / TP −1.
+
+## 16-11-2026 · corrección de Luis y subida
+- «El sonido de contador UI no va: no hay nada que se mueva; mejor un enter UI cuando aparece el cuadrado.» Quitado Data Collect (6,46 s); Ui Enter (id 102, favorito) a 5,50 s, cuando se dibuja la caja lima sobre el ciclista (sustituye al Cinematic Click de 5,55). Ronda 7 de la crítica: igual que la 6 (graves 5,5 solo por el gancho). MP4 rehechos a −14 LUFS.
+- Panel: trainer10x-contenido.vercel.app/panel/edicion?f=entregados → tarjeta 69 s «Esto te va pasar si haces sentadillas» (subido 11-11 13:22, Entregado, versión 1). Botón «Subir mi versión corregida». La herramienta file_upload de Chrome tiene tope de 10 MB: no se puede subir el MP4 de 108 MB por ahí.
+- Luis: «tú eres el editor principal, sube y descarga tú». Subido por R2 + base de datos (credenciales `~/.config/claude-editor/alumnos.json`), igual que `confirmarEditor` del panel: vídeo `mwc5fojxf6ybbvya` → `final-editor-mwjpjsol.mp4` (107 760 829 bytes, HEAD = local), versión 2, estado «revisar». La v1 (`final-v1.mp4`) NO se borró del almacén. Scripts: `plan-v2/panel/` (t10x_s3.py firma, t10x_leer.py, t10x_confirmar.py). Panel comprobado: «Para revisar · versión 2», reproductor con la v2.
+- Luis: «Entrégala ya». Botón «Entregar al alumno» del panel (Chrome): estado entregado, versión 2, entregado_at 2026-11-16 20:22 UTC (comprobado en la base de datos).

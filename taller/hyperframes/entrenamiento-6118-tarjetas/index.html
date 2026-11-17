@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Entrenamiento 6118 (ronda 2, fase 5) · dos personajes fijos: VIDA a la izquierda (lo bueno) y NOCHE a la derecha (lo malo), regla 8 de la ficha.
+     Entran en su frase del gancho; en el desarrollo se enciende la tarjeta del "esta" del que se habla y la otra baja al 35 %.
+     Medidas del estudio Invisible: escalonado 2 f, destello 4 f, deslizamiento expo.out, radio 9,2 % del ancho, contorno blanco fino.
+     Imágenes de Pinterest (origen en clientes/amin/entrenamiento-6118/imagenes/fuentes.txt), sin licencia verificada: solo prueba. Código propio. -->
+<style>
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+.k{position:absolute;top:470px;width:310px;height:465px;border-radius:29px;overflow:hidden;opacity:0;border:3px solid rgba(255,255,255,.9);box-sizing:border-box;box-shadow:0 22px 44px rgba(0,0,0,.28)}
+.k img{width:100%;height:100%;object-fit:cover;display:block}
+.k i{position:absolute;inset:0;background:#fff;opacity:0}
+#vida{left:70px}#noche{right:70px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="29.98">
+<div id="vida" class="k clip" data-start="0" data-duration="29.98"><img src="vida.jpg"><i></i></div>
+<div id="noche" class="k clip" data-start="0" data-duration="29.98"><img src="noche.jpg"><i></i></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}),F=1/30,A=0.05;
+function entra(id,t,dx){tl.set('#'+id,{opacity:1},t);tl.fromTo('#'+id,{x:dx},{x:0,duration:0.9,ease:'expo.out'},t);
+  tl.fromTo('#'+id+' i',{opacity:.85},{opacity:0,duration:4*F,ease:'power2.out'},t);}
+function enciende(on,off,t){tl.to('#'+on,{opacity:1,scale:1,duration:0.2,ease:'power2.out'},t);tl.to('#'+off,{opacity:.35,scale:.96,duration:0.2,ease:'power2.out'},t);}
+entra('noche',0.16-A,140);                 // "Así se viste la mujer que solo quieren para una noche"
+entra('vida',2.39-A,-140); enciende('vida','noche',2.39-A);    // "Y así se viste… para toda la vida"
+enciende('noche','vida',4.92-A);           // "A esta solo la quieren para una cosa"
+enciende('vida','noche',7.54-A);           // "A esta la respetan"
+enciende('noche','vida',8.58-A);           // "A ella la buscan para divertirse"
+enciende('vida','noche',11.31-A);          // "y con ella para prosperar…" (hasta "proyecto real")
+tl.to('#vida',{y:-18,opacity:0,duration:0.3,ease:'power2.in'},16.30);
+tl.to('#noche',{y:-18,opacity:0,duration:0.3,ease:'power2.in'},16.30+2*F);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

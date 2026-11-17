@@ -1,0 +1,185 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1008_03",
+ "secuencia": "AMIN_1008_03 - corte 2",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1008_03/AMIN_1008_03 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 168.3,
+ "duracionCorte": 43.1,
+ "frases": 21,
+ "dentro": 14,
+ "fuera": 9,
+ "cortes": 16,
+ "segundosDeProceso": 0,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": true,
+   "motivo": null,
+   "seg": 5.5,
+   "clip": "IMG_6132.MOV",
+   "texto": "Por aquí en pantalla te voy a dejar a la mujer de niñato que sale de fiesta y la mujer del hombre cuando sale."
+  },
+  {
+   "n": 2,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4.6,
+   "clip": "IMG_6132.MOV",
+   "texto": "la mujer de niñato cuando entrena y esta es la mujer del hombre cuando entrena."
+  },
+  {
+   "n": 3,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6132.MOV",
+   "texto": "cuando sabe."
+  },
+  {
+   "n": 4,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6132.MOV",
+   "texto": "Tolerar las falta de respeto es de inniñato inmaduro."
+  },
+  {
+   "n": 5,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6132.MOV",
+   "texto": "establecer límites estrictos desde hombre de alto valor?"
+  },
+  {
+   "n": 6,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6132.MOV",
+   "texto": "¿Es de hombre de verdad?"
+  },
+  {
+   "n": 7,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.1,
+   "clip": "IMG_6132.MOV",
+   "texto": "Tu mujer es tu proyección exacta."
+  },
+  {
+   "n": 8,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.9,
+   "clip": "IMG_6132.MOV",
+   "texto": "Si solo atraes a niñas inmaduras,"
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.2,
+   "clip": "IMG_6132.MOV",
+   "texto": "si solo atraes a niñas inmaduras o mediocres,"
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.5,
+   "clip": "IMG_6132.MOV",
+   "texto": "probablemente el problema no son ellas."
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6132.MOV",
+   "texto": "El problema eres tú que crees"
+  },
+  {
+   "n": 12,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.5,
+   "clip": "IMG_6132.MOV",
+   "texto": "que sigues actuando como un niño."
+  },
+  {
+   "n": 13,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.5,
+   "clip": "IMG_6132.MOV",
+   "texto": "Un hombre de verdad,"
+  },
+  {
+   "n": 14,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6132.MOV",
+   "texto": "un hombre de verdad se enfoca"
+  },
+  {
+   "n": 15,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6132.MOV",
+   "texto": "primero en subir su propio valor,"
+  },
+  {
+   "n": 16,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.1,
+   "clip": "IMG_6132.MOV",
+   "texto": "construir un imperio y después"
+  },
+  {
+   "n": 17,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3,
+   "clip": "IMG_6132.MOV",
+   "texto": "construir un imperio y después dominarse a sí mismo."
+  },
+  {
+   "n": 18,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.1,
+   "clip": "IMG_6132.MOV",
+   "texto": "Si quieres aprender a hacer eso,"
+  },
+  {
+   "n": 19,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.7,
+   "clip": "IMG_6132.MOV",
+   "texto": "sígueme."
+  },
+  {
+   "n": 20,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.7,
+   "clip": "IMG_6132.MOV",
+   "texto": "Si quieres aprender a cómo hacer eso con una habilidad online,"
+  },
+  {
+   "n": 21,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.7,
+   "clip": "IMG_6132.MOV",
+   "texto": "sígueme."
+  }
+ ]
+}

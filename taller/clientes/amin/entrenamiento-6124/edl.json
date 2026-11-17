@@ -1,0 +1,162 @@
+[
+ {
+  "bloque": "gancho",
+  "entrada": 46.95,
+  "salida": 47.61,
+  "t_montaje": 0.0,
+  "clave": "pobre",
+  "marca": null
+ },
+ {
+  "bloque": "gancho",
+  "entrada": 53.39,
+  "salida": 53.99,
+  "t_montaje": 0.66,
+  "clave": "pobre",
+  "marca": null
+ },
+ {
+  "bloque": "pregunta",
+  "entrada": 59.29,
+  "salida": 60.87,
+  "t_montaje": 1.26,
+  "clave": "una",
+  "marca": null
+ },
+ {
+  "bloque": "respuesta",
+  "entrada": 99.24,
+  "salida": 101.18,
+  "t_montaje": 2.84,
+  "clave": "Atento",
+  "marca": null
+ },
+ {
+  "bloque": "respuesta",
+  "entrada": 107.91,
+  "salida": 108.63,
+  "t_montaje": 4.78,
+  "clave": "Atento",
+  "marca": null
+ },
+ {
+  "bloque": "c1",
+  "entrada": 127.72,
+  "salida": 129.77,
+  "t_montaje": 5.5,
+  "clave": "foco",
+  "marca": "reloj"
+ },
+ {
+  "bloque": "c2",
+  "entrada": 136.68,
+  "salida": 138.41,
+  "t_montaje": 7.55,
+  "clave": "cartera",
+  "marca": null
+ },
+ {
+  "bloque": "c2",
+  "entrada": 144.42,
+  "salida": 145.77,
+  "t_montaje": 9.28,
+  "clave": "cartera",
+  "marca": "cartera"
+ },
+ {
+  "bloque": "c3",
+  "entrada": 150.51,
+  "salida": 152.46,
+  "t_montaje": 10.63,
+  "clave": "proyectos",
+  "marca": null
+ },
+ {
+  "bloque": "c3",
+  "entrada": 156.94,
+  "salida": 158.67,
+  "t_montaje": 12.58,
+  "clave": "proyectos",
+  "marca": "cabeza"
+ },
+ {
+  "bloque": "c4",
+  "entrada": 165.83,
+  "salida": 168.86,
+  "t_montaje": 14.31,
+  "clave": "arrastrado",
+  "marca": null
+ },
+ {
+  "bloque": "c4",
+  "entrada": 179.67,
+  "salida": 182.44,
+  "t_montaje": 17.34,
+  "clave": "arrastrado",
+  "marca": null
+ },
+ {
+  "bloque": "c4",
+  "entrada": 187.92,
+  "salida": 190.42,
+  "t_montaje": 20.11,
+  "clave": "arrastrado",
+  "marca": null
+ },
+ {
+  "bloque": "m1",
+  "entrada": 196.49,
+  "salida": 198.57,
+  "t_montaje": 22.61,
+  "clave": "ahora mismo",
+  "marca": null
+ },
+ {
+  "bloque": "m2",
+  "entrada": 226.95,
+  "salida": 228.82,
+  "t_montaje": 24.69,
+  "clave": "imperio",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 233.1,
+  "salida": 235.21,
+  "t_montaje": 26.56,
+  "clave": "compartirlo",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 247.89,
+  "salida": 250.16,
+  "t_montaje": 28.67,
+  "clave": "compartirlo",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 250.75,
+  "salida": 251.76,
+  "t_montaje": 30.94,
+  "clave": "compartirlo",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 260.3,
+  "salida": 260.89,
+  "t_montaje": 31.95,
+  "clave": "vida",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 261.33,
+  "salida": 262.2,
+  "t_montaje": 32.54,
+  "clave": "vida",
+  "marca": null
+ }
+]

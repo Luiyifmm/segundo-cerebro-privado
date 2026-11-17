@@ -1,0 +1,497 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1010_05",
+ "secuencia": "AMIN_1010_05 - corte 2",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1010_05/AMIN_1010_05 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 253,
+ "duracionCorte": 42.2,
+ "frases": 60,
+ "dentro": 19,
+ "fuera": 42,
+ "cortes": 20,
+ "segundosDeProceso": 1,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.6,
+   "clip": "IMG_6123.MOV",
+   "texto": "Dale caña."
+  },
+  {
+   "n": 2,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "¡Uhhh!"
+  },
+  {
+   "n": 3,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Durido eso, ¿eh?"
+  },
+  {
+   "n": 4,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "5 tipos de mujeres con las que no puedes perder tu tiempo."
+  },
+  {
+   "n": 5,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.6,
+   "clip": "IMG_6123.MOV",
+   "texto": "5 tipos de mujeres con las que no puedes perder tu tiempo."
+  },
+  {
+   "n": 6,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "La quinta es la peor y con diferencia."
+  },
+  {
+   "n": 7,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "Primero."
+  },
+  {
+   "n": 8,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Primero, la que utiliza la intimidad como premio castigo."
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Es una manipuladora y no te ama."
+  },
+  {
+   "n": 10,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "Siguiente."
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "Dos."
+  },
+  {
+   "n": 12,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.3,
+   "clip": "IMG_6123.MOV",
+   "texto": "¡Pera, espera, espera!"
+  },
+  {
+   "n": 13,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que nunca acepta que se invoca y jamás pide perdón."
+  },
+  {
+   "n": 14,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que nunca acepta que se invoca y jamás pide perdón."
+  },
+  {
+   "n": 15,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que nunca acepta que se invoca"
+  },
+  {
+   "n": 16,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6123.MOV",
+   "texto": "y jamás pide perdón."
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.3,
+   "clip": "IMG_6123.MOV",
+   "texto": "Y no te lo explico."
+  },
+  {
+   "n": 18,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "No te lo explico."
+  },
+  {
+   "n": 19,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.3,
+   "clip": "IMG_6123.MOV",
+   "texto": "ni te lo explico."
+  },
+  {
+   "n": 20,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Ni te lo explico."
+  },
+  {
+   "n": 21,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Pasa de ella y me lo agradecerás."
+  },
+  {
+   "n": 22,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.6,
+   "clip": "IMG_6123.MOV",
+   "texto": "Tres."
+  },
+  {
+   "n": 23,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que necesita mantener a su ganado de amiguitos."
+  },
+  {
+   "n": 24,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.1,
+   "clip": "IMG_6123.MOV",
+   "texto": "la que necesita mantener a su ganado de amiguito Homres, amiguitos hombres."
+  },
+  {
+   "n": 25,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que necesita mantener a su ganado de amiguitos hombres."
+  },
+  {
+   "n": 26,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "No tienes tiempo para esperar que maduren."
+  },
+  {
+   "n": 27,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "No tienes tiempo para esperar que maduren."
+  },
+  {
+   "n": 28,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.6,
+   "clip": "IMG_6123.MOV",
+   "texto": "Siguiente."
+  },
+  {
+   "n": 29,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.1,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que no te respeta, no te va loca y no te apoya."
+  },
+  {
+   "n": 30,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.6,
+   "clip": "IMG_6123.MOV",
+   "texto": "Cuatro."
+  },
+  {
+   "n": 31,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "es la cuarta verdad, ¿sí, no?"
+  },
+  {
+   "n": 32,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6123.MOV",
+   "texto": "Repíteme la frase, porfa."
+  },
+  {
+   "n": 33,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "La que no te respeta, no te valora y no te apoye."
+  },
+  {
+   "n": 34,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6123.MOV",
+   "texto": "Red flag como una catedral, vete sin dar explicaciones."
+  },
+  {
+   "n": 35,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "Y por quinto, la peor, la que solo pide y gasta."
+  },
+  {
+   "n": 36,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "Te ve como su cajero automático y no como su hombre."
+  },
+  {
+   "n": 37,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "como su hombre."
+  },
+  {
+   "n": 38,
+   "dentro": false,
+   "motivo": "ruido",
+   "seg": 0.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "Esperate,"
+  },
+  {
+   "n": 39,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "holona seco, esperate."
+  },
+  {
+   "n": 40,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "¿Cómo era?"
+  },
+  {
+   "n": 41,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "¿Cómo era?"
+  },
+  {
+   "n": 42,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "Ganador y recuerda esta frase."
+  },
+  {
+   "n": 43,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 4,
+   "clip": "IMG_6123.MOV",
+   "texto": "Ganador no pierde ni un segundo de su energía con mujeres que le restan ¿no?"
+  },
+  {
+   "n": 44,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 2.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 45,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 46,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 1.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 47,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 48,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 1.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 49,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 50,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "ganador no pierde ni un segundo de energía aguantando mujeres que le restan"
+  },
+  {
+   "n": 51,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "aguantando mujeres, perate, perate, aguantando a mujeres que le restan"
+  },
+  {
+   "n": 52,
+   "dentro": false,
+   "motivo": "ruido",
+   "seg": 0.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "ahora"
+  },
+  {
+   "n": 53,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "vale ahora se lo, ahora te lo saco"
+  },
+  {
+   "n": 54,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.9,
+   "clip": "IMG_6123.MOV",
+   "texto": "esperate un segundo"
+  },
+  {
+   "n": 55,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.3,
+   "clip": "IMG_6123.MOV",
+   "texto": "invierte su tiempo en qué?"
+  },
+  {
+   "n": 56,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.5,
+   "clip": "IMG_6123.MOV",
+   "texto": "Invierte todo su tiempo en construir riqueza."
+  },
+  {
+   "n": 57,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.4,
+   "clip": "IMG_6123.MOV",
+   "texto": "¿Invierte todo su tiempo en construir riqueza?"
+  },
+  {
+   "n": 58,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6123.MOV",
+   "texto": "Invierte todo su tiempo en construir riqueza."
+  },
+  {
+   "n": 59,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "Sigueme para mejorar tu vida."
+  },
+  {
+   "n": 60,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.7,
+   "clip": "IMG_6123.MOV",
+   "texto": "Sigueme para mejorar tu vida."
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+// AMIN_1010_01: la música se alarga hasta el final del vídeo. Mismo tramo que eligió el usuario (empieza en el mismo punto de la canción), mismo volumen, con fundido de salida.
+(function () { var seq = app.project.activeSequence, r = {}, i, k, t, RUTA = "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1010_01/audio/musica AMIN_1010_01 larga.wav"; if (app.project.name !== "AMIN EDICION.prproj" || seq.name.indexOf("SONIDO v2") < 0) return "proyecto o secuencia inesperados";
+  function seg(s) { var x = new Time(); x.seconds = s; return x; }
+  function buscar(b, nombre) { for (var x = 0; x < b.children.numItems; x++) { var c = b.children[x]; if (c.type === 2) { var h = buscar(c, nombre); if (h) return h; } else if (c.name === nombre) return c; } return null; }
+  var ta = null, viejo = null; for (t = 0; t < seq.audioTracks.numTracks; t++) for (i = 0; i < seq.audioTracks[t].clips.numItems; i++) if (seq.audioTracks[t].clips[i].name === "musica AMIN_1010_01.wav" && seq.audioTracks[t].clips[i].start.seconds > 60) { ta = seq.audioTracks[t]; viejo = seq.audioTracks[t].clips[i]; }
+  if (!viejo) return "no encuentro la musica actual"; var a = viejo.start.seconds, vol = 0.0355, FIN = seq.end / 254016000000; for (k = 0; k < viejo.components.numItems; k++) if (viejo.components[k].displayName === "Volumen") vol = viejo.components[k].properties[1].getValue();
+  if (Math.abs(viejo.inPoint.seconds - 32.4333) > 0.06) return "el punto de entrada cambio (" + viejo.inPoint.seconds.toFixed(2) + "); no toco nada";
+  for (i = 0; i < ta.clips.numItems; i++) { var o = ta.clips[i]; if (o !== viejo && o.start.seconds > a && o.start.seconds < FIN) return "hay otro clip en la pista despues de la musica: " + o.name; }
+  var n = RUTA.substr(RUTA.lastIndexOf("/") + 1), it = buscar(app.project.rootItem, n); if (!it) { app.project.importFiles([RUTA], true, app.project.getInsertionBin(), false); it = buscar(app.project.rootItem, n); } if (!it) return "no se importa";
+  viejo.remove(false, false); ta.overwriteClip(it, a); var nuevo = null; for (i = 0; i < ta.clips.numItems; i++) if (ta.clips[i].name === n) nuevo = ta.clips[i]; if (!nuevo) return "no quedo la musica";
+  if (nuevo.end.seconds > FIN + 0.02) { nuevo.end = seg(FIN); nuevo.outPoint = seg(nuevo.inPoint.seconds + (FIN - a)); }
+  for (k = 0; k < nuevo.components.numItems; k++) if (nuevo.components[k].displayName === "Volumen") nuevo.components[k].properties[1].setValue(vol, true);
+  r.musica = a.toFixed(2) + " - " + nuevo.end.seconds.toFixed(2); r.vol = vol; r.finSecuencia = (app.project.activeSequence.end / 254016000000).toFixed(2); r.pista = ta.name; return JSON.stringify(r); })();

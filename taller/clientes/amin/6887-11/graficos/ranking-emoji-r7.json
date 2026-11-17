@@ -1,0 +1,100 @@
+{
+ "tFin": 46.6,
+ "titulo1": "",
+ "titulo2": "",
+ "tColumna": 1.23,
+ "tTitulo": 3.0,
+ "negocios": [
+  {
+   "puesto": 3,
+   "img": "amin-6887-11/03inmobiliaria.jpg",
+   "pop": 2.464,
+   "vuelo": 3.244,
+   "icono": "amin-6887-11/emoji/e03-inmobiliaria.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 8,
+   "img": "amin-6887-11/08franquicia.jpg",
+   "pop": 7.07,
+   "vuelo": 7.83,
+   "icono": "amin-6887-11/emoji/e08-franquicia.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 7,
+   "img": "amin-6887-11/07cafeteria.jpg",
+   "pop": 10.21,
+   "vuelo": 11.03,
+   "icono": "amin-6887-11/emoji/e07-cafeteria.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 10,
+   "img": "amin-6887-11/10restaurante.jpg",
+   "pop": 13.808,
+   "vuelo": 14.218,
+   "icono": "amin-6887-11/emoji/e10-restaurante.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 5,
+   "img": "amin-6887-11/05centromedico.jpg",
+   "pop": 18.416,
+   "vuelo": 20.046,
+   "icono": "amin-6887-11/emoji/e05-centromedico.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 9,
+   "img": "amin-6887-11/09peluqueria.jpg",
+   "pop": 23.586,
+   "vuelo": 24.276,
+   "icono": "amin-6887-11/emoji/e09-peluqueria.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 6,
+   "img": "amin-6887-11/06gasolinera.jpg",
+   "pop": 26.789,
+   "vuelo": 27.529,
+   "icono": "amin-6887-11/emoji/e06-gasolinera.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 4,
+   "img": "amin-6887-11/04concesionario.jpg",
+   "pop": 31.711,
+   "vuelo": 32.951,
+   "icono": "amin-6887-11/emoji/e04-concesionario.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 2,
+   "img": "amin-6887-11/02gimnasio.jpg",
+   "pop": 35.7,
+   "vuelo": 36.33,
+   "icono": "amin-6887-11/emoji/e02-gimnasio.png",
+   "tamIcono": 0.72
+  },
+  {
+   "puesto": 1,
+   "img": "amin-6887-11/01entrenador.jpg",
+   "pop": 39.65,
+   "vuelo": 40.49,
+   "icono": "amin-6887-11/emoji/e01-online.png",
+   "tamIcono": 0.72
+  }
+ ],
+ "y0": 556,
+ "paso": 104,
+ "vueloRecto": true,
+ "r": 50,
+ "sub": {
+  "texto": "DEL PEOR AL MEJOR",
+  "desde": 1.568,
+  "y": 383,
+  "size": 95,
+  "dx": 8
+ }
+}

@@ -1,0 +1,67 @@
+# Checklist antes de dar una escena por terminada
+
+> Parte de la skill **after-effects-editor**. Generado del CEREBRO (la base de conocimiento de las clases, 29/09–02/10/2026). Las rutas de proyectos de ejemplo (`Tanda…/…`) son del PC del autor: no vienen en la skill.
+
+## 7. Checklist antes de dar una escena por terminada
+
+- [ ] ¿El fotograma quieto ya se ve bien sin animación?
+- [ ] ¿Lo más importante es lo más grande y lo más brillante o contrastado? ¿Los equivalentes miden lo mismo?
+- [ ] ¿Hay espacio vacío suficiente? ¿Sobra algún elemento? ¿Solo lo importante está nítido?
+- [ ] Texto: ¿interlineado natural, padding uniforme y fuente adecuada al estilo?
+- [ ] ¿Hay márgenes y aire? ¿Nada importante en la franja del margen seguro (9 % lateral y 13 % vertical)?
+- [ ] ¿El peso está equilibrado en CADA momento de la animación (la cámara re-encuadra cuando entra algo)?
+- [ ] ¿Lo centrado está centrado al píxel? ¿Los puntos de interés caen en tercios o en el centro?
+- [ ] ¿Paleta dominante + acento (esquema mono, análogo o complementario)? ¿Nada desentona?
+- [ ] ¿Los colores significan lo correcto (rojo = malo, verde = bueno…)? ¿La luz y la saturación acompañan la emoción?
+- [ ] ¿Fondo con degradado, textura y viñeta (no plano)?
+- [ ] ¿Hay profundidad? (mínimo 3–4 de las 8: sombra + viñeta + textura + glow; ideal: capas delante/detrás y DOF)
+- [ ] ¿Algo se mueve SIEMPRE, aunque sea sutil? Revisarlo:
+  - zoom lento o deriva de cámara;
+  - wiggle suave (< 1 Hz);
+  - curvas largas (keyframes separados, 75–90 %);
+  - movimientos superpuestos (ninguno para en seco);
+  - zoom out de −3 a −5 % cuando entra algo nuevo.
+  - Prueba: si al pausar el plano no se nota diferencia con el reproducido, está muerto.
+- [ ] ¿Intensidad, velocidad, fluidez, fuentes, color y assets encajan con el CONTEXTO (género y emoción)?
+- [ ] ¿Se entiende viéndolo UNA vez? ¿1 concepto nuevo a la vez, en escalera con la voz y con tiempo para respirar (≥2 s; ~0,3 s por palabra)?
+- [ ] ¿Cada pop-in, zoom, subtítulo, transición e impacto cae en su palabra clave o sílaba tónica (comprobado con los tiempos por palabra)? ¿Los SFX van con el visual?
+- [ ] ¿Las fuentes son legibles y consistentes (máx. 2–3, mismo estilo de mayúsculas, mismos tamaños)?
+- [ ] ¿Subtítulos cortados en pausas naturales, en el tercio inferior, sin tapar nada y sin faltas?
+- [ ] ¿Las transiciones son cortes de acción (curva de salida → corte en el pico → curva de entrada)? ¿Ningún punto lento pasa de 50 px/s?
+- [ ] ¿El glow está dosificado (0,1–0,5 en la interfaz; picos solo en transiciones y palabras clave)? ¿El tinte es el color de la marca?
+- [ ] Si es una réplica: ¿se comparó ORIGINAL | RÉPLICA antes y después de cada corte y en 10–15 momentos repartidos?
+- [ ] ¿Ningún marco, esquina o línea del HUD toca o tacha un texto (mirar recortes al 100 %)?
+- [ ] ¿Las transiciones de color siguen vivas a mitad de camino (50 %) y no salen grises (receta 4.75)?
+- [ ] Escena con imágenes: ¿se comparó el color medio por zonas con la referencia (cielo, horizonte, suelo, primer plano) y se corrigió cada capa antes del etalonaje general (4.109)?
+- [ ] ¿Lo que entra tarde (delante de la cámara) entra fuera del cuadro, con su instante calculado y margen, sin "aparecer"? ¿Los efectos de borde (aberración, desenfoque radial) no dejan rayas en el borde (`bordes_cuadro.py`)?
+- [ ] Cámara que viaja por escenas: ¿cada escena está a "zoom" delante de la cámara en el instante en que llega (Center In View)? ¿Lo que tiene que estar fuera del cuadro (adornos cerca de la cámara, mates) lo está, comprobado por script? ¿El corte cae en el fotograma más rápido, medido (4.110)?
+- [ ] Escena 3D en estudio (Advanced 3D): ¿el suelo lejano tiene el color del fondo en el horizonte (medido), sin corte? ¿Las sombras se ven (la luz principal pesa más que el ambiente)? ¿Se avisó de los minutos del render (desenfoque + sombras ≈ 2,3 s por fotograma)?
+- [ ] ¿Todas las expresiones sin error (`expressionError`) antes del render?
+- [ ] Sonido:
+  - ¿cada golpe cae en su fotograma (espectrograma con el mapa de eventos)?
+  - ¿el RMS por segundo no tiene huecos (el tramo flojo, ≤ ~10 dB por debajo del golpe)?
+  - ¿pico en −1 dBFS?
+  - ¿el MP4 lleva audio (ffprobe)?
+- [ ] ¿Se midió el tiempo por fotograma tras cada bloque de capas? ¿Hay una previa a media resolución revisada con `revisar_video.py` (saltos solo donde se buscan) antes del render final?
+- [ ] ¿Lo que brilla o explota está contenido (sin velos que tapen la imagen ni "explosiones" blancas)? ¿Los destellos ocupan en pantalla lo mismo de lejos y de cerca?
+- [ ] Si la referencia sale de una grabación de pantalla: ¿se comprobó la velocidad del reproductor (`velocidad_reproduccion.py`) y si hubo rebobinados antes de medir tiempos?
+- [ ] ¿Hay líneas finas que brillan (cantos, trazos de 1–2 px)? Entonces, ¿se comparó con un render a **resolución completa** (a media resolución pierden el brillo)?
+- [ ] ¿Lo que entra de fuera de cuadro YA trae velocidad (la key de fuera no está a 0) y lo que sale se va sin frenar? ¿Nada lanzado se para en la cumbre (key continua con algo de velocidad)?
+- [ ] ¿Todas las keys caen en fotogramas enteros (sobre todo los contactos de un rebote)?
+- [ ] Si algo rebota o salta:
+  - ¿el aterrizaje tiene poca influencia de llegada (el "pique") y la cumbre mucha (se queda suspendida)?
+  - ¿las alturas y los giros varían de un salto a otro (nada "robot")?
+  - ¿el que recibe el golpe reacciona (aplastado y relleno) en el mismo fotograma?
+- [ ] ¿Las keys están en fotogramas enteros y la línea de tiempo se entiende (esqueleto: aterrizajes + cumbres)?
+- [ ] Si hay un artista recortado:
+  - ¿sin agujeros (`agujeros_alfa.py`) ni puntillado (comparar con el original a ×3, `comparar_zona.py`)?
+  - ¿su luz y su color encajan con el fondo (oscurecido y del tono de las luces)?
+- [ ] Videoclip: ¿cada shake, zoom y flash cae en un golpe de la música (marcadores)? ¿Ningún golpe junta flash + pulso de brillo + aura (imagen lechosa)?
+- [ ] ¿Los cortes tienen continuidad (el fondo sigue moviéndose, el artista sale o entra, el clip siguiente sale del negro)?
+- [ ] ¿Las capas al revés (Ctrl+Alt+R) muestran sus keys donde toca? (Usar Time Remap, no Estirar en negativo.)
+- [ ] Producto 3D: ¿desenfoque solo cuando la cámara está cerca (con el objeto entero a la vista, nada borroso: parece una maqueta)? ¿Cada toma empieza con otro encuadre?
+- [ ] Pantallas de aparatos: ¿la textura al derecho (UV −1), brillando sola (Illumination) y con reflejo ≤ 2 % (el negro sigue negro)?
+- [ ] Movimiento de cámara: ¿el plano donde aterriza (B) está diseñado como un fotograma terminado, centrado al píxel y sin nada cortado en el borde? ¿Se revisó también el arranque (A)?
+- [ ] ¿El motor 3D es el que toca? Classic 3D (`"ADBE Advanced 3d"`) para motion blur en capas 3D; Advanced 3D (`"ADBE Calder"`) para modelos .glb y desenfoque fuerte; Cinema 4D (`"ADBE Ernst"`) para extruir.
+- [ ] Cámara que recorre varios puntos: ¿un piso (nulo) por movimiento, y cada uno empieza antes de que acabe el anterior? ¿Lo que deja de importar se desenfoca cuando llega lo nuevo?
+- [ ] ¿Cada corte o destello cae en el pico de velocidad (medido), con la misma dirección de movimiento a los dos lados? ¿Las colas frenan siempre (la velocidad medida baja sin repuntes)?

@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- PILOTO 03 · Collage editorial "Vox" adaptado a Amin: campo plano azul de marca, plancha de papel crema,
+     Amin recortado en blanco y negro con borde blanco, tinta marina, desregistro cian, amarillo SOLO en el pico
+     (flecha a mano) y movimiento a saltos de 12 fps (stop motion), como su collage editorial aprobado.
+     Inserto a pantalla completa (opaco), 3,5 s. -->
+<style>
+@font-face{font-family:"Nyght";src:url("NyghtSerif-LightItalic.otf")}
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#1E8BFF;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif}
+#grano{position:absolute;inset:0;opacity:.18;mix-blend-mode:multiply}
+#plancha{position:absolute;left:120px;top:420px;width:840px;height:1060px;background:#F3EAD8;box-shadow:14px 14px 0 #101B3A;transform:rotate(-2deg);opacity:0}
+#foto{position:absolute;left:250px;top:520px;width:580px;height:806px;opacity:0;transform:rotate(3deg)}
+#foto img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 0 #fff) drop-shadow(8px 0 0 #fff) drop-shadow(-8px 0 0 #fff) drop-shadow(0 8px 0 #fff) drop-shadow(0 -8px 0 #fff)}
+.tx{position:absolute;opacity:0;color:#101B3A;white-space:nowrap}
+#t1{left:150px;top:300px;font-size:120px;font-weight:900;letter-spacing:-4px;color:#F3EAD8;text-shadow:7px 7px 0 #57C9F0}
+#t2{left:180px;top:1380px;font:400 118px "Nyght",serif;color:#101B3A;text-shadow:6px 5px 0 #57C9F0}
+#sello{position:absolute;left:760px;top:1180px;width:210px;height:210px;border-radius:50%;background:#101B3A;color:#F3EAD8;display:flex;align-items:center;justify-content:center;text-align:center;font:900 34px -apple-system,sans-serif;line-height:1.05;opacity:0;transform:rotate(-12deg)}
+#flecha{position:absolute;left:600px;top:1180px;width:200px;height:200px;overflow:visible}
+#flecha path{fill:none;stroke:#FFD534;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;opacity:0}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="3.5">
+<svg id="grano" class="clip" data-start="0" data-duration="3.5" width="1080" height="1920"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<div id="t1" class="tx clip" data-start="0" data-duration="3.5">TU TIEMPO</div>
+<div id="plancha" class="clip" data-start="0" data-duration="3.5"></div>
+<div id="foto" class="clip" data-start="0" data-duration="3.5"><img src="amin-recorte-bn.png"></div>
+<div id="t2" class="tx clip" data-start="0" data-duration="3.5">no está en venta</div>
+<div id="sello" class="clip" data-start="0" data-duration="3.5">NO<br>SE<br>VENDE</div>
+<svg id="flecha" viewBox="0 0 200 200"><path id="trazo" d="M20 30 C 60 120, 120 150, 175 120 M175 120 L150 105 M175 120 L160 145"/></svg>
+</div>
+<script>
+// stop motion a 12 fps: todo el movimiento se cuantiza a pasos de 1/12 s
+const tl=gsap.timeline({paused:true});
+const paso=(p)=>Math.round(p*12)/12;
+tl.set("#plancha",{opacity:1},0);
+tl.fromTo("#plancha",{y:1400,rotation:-6},{immediateRender:false,y:0,rotation:-2,duration:0.5,ease:"steps(6)"},0);
+tl.set("#foto",{opacity:1},paso(0.17));
+tl.fromTo("#foto",{y:1400,rotation:8},{immediateRender:false,y:0,rotation:3,duration:0.5,ease:"steps(6)"},paso(0.17));
+tl.set("#t1",{opacity:1},paso(0.5));
+tl.fromTo("#t1",{x:-900},{immediateRender:false,x:0,duration:0.42,ease:"steps(5)"},paso(0.5));
+tl.set("#t2",{opacity:1},paso(1.0));
+tl.fromTo("#t2",{y:60},{immediateRender:false,y:0,duration:0.33,ease:"steps(4)"},paso(1.0));
+tl.set("#sello",{opacity:1},paso(1.6));
+tl.fromTo("#sello",{scale:1.6},{immediateRender:false,scale:1,duration:0.25,ease:"steps(3)"},paso(1.6));
+casa.drawOn(tl,document.getElementById("trazo"),paso(1.9),0.5);
+// vida: pequeño temblor de papel a saltos
+tl.to("#foto",{rotation:2.2,duration:1.2,ease:"steps(6)"},paso(1.2));
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

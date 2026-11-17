@@ -1,0 +1,10 @@
+2026-11-16 21:37:59 - whisperx.asr - INFO - No language specified, language will be detected for each audio file (increases inference time)
+2026-11-16 21:37:59 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+2026-11-16 21:38:22 - whisperx.asr - INFO - Detected language: es (0.99) in first 30s of audio
+{"salida": "/Users/luiyi/Videos-Remotion/voz/salida-whisperx/colores_bruto.palabras.json", "idioma": "es", "palabras": 107, "sin_tiempo": 0, "texto": "El rojo ayuda a mantener la presión arterial saludable. El rojo... El rojo ayuda a mantener la presión arterial... El rojo ayuda a mantener la presión arterial saludable. El rojo ayuda a mantener la presión arterial saludable. No, se me perdió. El verde ayuda a niveles buenos de colesterol. El naranja apoya la salud intestinal. El morado ayuda a mantener niveles buenos de azúcar en sangre. El amarillo te ayuda con síntomas como náuseas o dolor estomacal. Y si quieres saber más sobre pérdida de grasa y nutrición, sígales a Martín Finde. Y si quieres saber más sobre pérdida de grasa y nutrición, sígales a Martín Finde.", "s_carga": 1.4, "s_transcripcion": 113.4, "s_alineado": 4.5, "s_total": 119.4}
+colores_bruto.palabras.json contra colores_bruto.mov: 107 palabras
+  voz principal ≈ -21 dB (umbral -43 dB) · ruido ≈ -66 dB
+  principal 106 · voz baja 1 · sin voz 0 · sin tiempo 0 · FIABLES 79 (74 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/Videos-Remotion/voz/salida-whisperx/colores_bruto.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

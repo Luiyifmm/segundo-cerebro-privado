@@ -1,0 +1,843 @@
+# Catálogo de efectos INSTALADOS en el PC del autor (After Effects 26.5x89)
+
+> Generado desde `app.effects` el 02/10/2026: 760 efectos, 39 categorías. Es la lista REAL de lo que hay (nativos + plugins: Sapphire, Video Copilot, Plugin Everything, ProductionCrate, BAO…).
+> **Antes de construir algo a mano, buscar aquí** (Grep por palabra en inglés: particle, glow, blur, shadow, light, noise, wipe, glitch, key…) o con `ae_search_effects`. Cada línea: nombre visible | matchName (lo que se usa por script).
+> ⛔ BAO aparece instalado pero el usuario NO lo tiene (no usar). `_Obsolete` = no usar en trabajo nuevo.
+
+## (sin categoría: efectos internos o de AE sin menú) (107)
+- 2D Text Box | `Pseudo/ADBE 2D Text Box`
+- Animated Shape Control | `ADBE CM Animated Shape 3`
+- Animated Shape Control | `ADBE CM Animated Shape Control`
+- Autoscroll - horizontal | `ADBE CM AutoscrollHorizontal`
+- Autoscroll - vertical | `ADBE CM AutoscrollVertical`
+- Bounce At Marker | `ADBE DE Bounce At Marker`
+- Bounce On Beat | `ADBE DE Bounce On Beat`
+- Bounce Random | `ADBE DE Bounce Random`
+- Bounce | `ADBE DE Bounce`
+- Card Wipe Master Control | `ADBE CM TransCard`
+- Chaser Control | `ADBE CM Animated Shape 2`
+- Color Swirl | `ADBE Color Swirl`
+- Corner Reveal | `ADBE CM CornerReveal`
+- Counter Controls | `Pseudo/ADBE Counter Controls`
+- Cracked Tiles | `ADBE CM CrackedTiles`
+- Crop Edges | `ADBE CM CropEdges`
+- Currency Controls | `Pseudo/ADBE Currency Controls`
+- Dissolve - unmelt | `ADBE CM DissolveUnmelt`
+- Dissolve Master Control | `ADBE CM TransDissolve`
+- Drift Over Time | `ADBE CM Throw`
+- Face Measurements | `Pseudo/ADBE Animal Head14`
+- Face Track Points | `Pseudo/ADBE Animal Head66`
+- Fade In+Out - frames | `ADBE CM FadeInOutFrames`
+- Fade In+Out - msec | `ADBE CM FadeInOutmsec`
+- Fade Master Control | `ADBE CM TransFade`
+- Fly to Inset | `ADBE CM FlyToInset`
+- Follow | `ADBE DE Follow`
+- Getting Jiggy | `ADBE Getting Jiggy`
+- Grid Wipe | `ADBE CM GridWipe`
+- Inset Video - framed | `ADBE CM InsetVideoFramed`
+- Inset Video - torn edges | `ADBE CM InsetVideoTorn`
+- Iris Wipe Master Controls | `ADBE CM TransIris`
+- Jiggle At Marker | `ADBE DE Jiggle At Marker`
+- Jiggle On Beat | `ADBE DE Jiggle On Beat`
+- Jiggle Random | `ADBE DE Jiggle Random`
+- Jiggle | `ADBE DE Jiggle`
+- Light Leaks - layer markers | `ADBE CM LightLeaksMarkers`
+- Light Leaks - random | `ADBE CM LightLeaksRandom`
+- Mask Fade Controls | `ADBE CM TransFadeMask`
+- Mood Lighting - amorphous | `ADBE CM MoodLightAmorph`
+- Mood Lighting - digital | `ADBE CM MoodLightDigital`
+- Mood Lighting - streaks | `ADBE CM MoodLightStreaks`
+- Opacity Flash - layer markers | `ADBE CM OpacityFlashMarkers`
+- Opacity Flash - random | `ADBE CM OpacityFlashRandom`
+- Opacity Pulse At Marker | `ADBE DE Opacity Pulse At Marker`
+- Opacity Pulse On Beat | `ADBE DE Opacity Pulse On Beat`
+- Opacity Pulse Random | `ADBE DE Opacity Pulse Random`
+- Opacity Pulse | `ADBE DE Opacity Pulse`
+- Orbit 3D | `ADBE DE Orbit 3D`
+- Orbit | `ADBE DE Orbit`
+- Oscillate At Marker | `ADBE DE Oscillate At Marker`
+- Oscillate On Beat | `ADBE DE Oscillate On Beat`
+- Oscillate Random | `ADBE DE Oscillate Random`
+- Oscillate | `ADBE DE Oscillate`
+- Pattern Template | `Pseudo/ADBE Pattern Template`
+- Pendulum At Marker | `ADBE DE Pendulum At Marker`
+- Pendulum On Beat | `ADBE DE Pendulum On Beat`
+- Pendulum Random | `ADBE DE Pendulum Random`
+- Pendulum | `ADBE DE Pendulum`
+- Percentage Controls | `Pseudo/ADBE Percentage Controls`
+- Pulse At Marker | `ADBE DE Pulse At Marker`
+- Pulse On Beat | `ADBE DE Pulse On Beat`
+- Pulse Random | `ADBE DE Pulse Random`
+- Pulse | `ADBE DE Pulse`
+- Radial Wipe Master Controls | `ADBE CM TransRadial`
+- Random Fill Color | `ADBE DE Random Fill Color`
+- Random Motion 1D | `ADBE DE Random Motion 1D`
+- Random Motion | `ADBE DE Random Motion`
+- Random Opacity | `ADBE DE Random Opacity`
+- Random Rotation 3D | `ADBE DE Random Rotation 3D`
+- Random Rotation | `ADBE DE Random Rotation`
+- Random Scale | `ADBE DE Random Scale`
+- Rotate Over Time | `ADBE CM Spin`
+- Sample Image | `ADBE Sample Image`
+- Scale Bounce - layer markers | `ADBE CM ScaleBounceMarkers`
+- Scale Bounce - random | `ADBE CM ScaleBounceRandom`
+- Separate XYZ Position | `ADBE Separate XYZ Position`
+- Separate XYZ Scale | `ADBE Separate XYZ Scale`
+- Slide - variable | `ADBE CM SlideVariable`
+- Slide Master Control | `ADBE CM TransSlide`
+- Stereo 3D Controls | `ADBE Stereo 3D Controls`
+- Stretch Master Control (edge) | `ADBE CM TransDirection`
+- Stretch Master Control | `ADBE CM TransStretch`
+- Stretch Master Control(corner) | `ADBE CM TransCorner`
+- Swarm | `ADBE DE Swarm`
+- Timer Controls | `Pseudo/ADBE Timer Controls`
+- Trace Path | `Pseudo/ADBE Trace Path`
+- Transition Master Control | `ADBE CM TransComplete`
+- Wiggle - gelatin | `ADBE CM WiggleGelatin`
+- Wiggle - position | `ADBE CM WigglePosition`
+- Wiggle - rotation | `ADBE CM WiggleRotation`
+- Wiggle - scale | `ADBE CM WiggleScale`
+- Wiggle - shear | `ADBE CM WiggleShear`
+- Wigglerama | `ADBE CM Wigglerama`
+- Wipe Master Control | `ADBE CM TransWipe`
+- Wipe Master Controls | `ADBE CM TransWipeFeath`
+- Wobble Bounce At Marker | `ADBE DE Wobble Bounce At Marker`
+- Wobble Bounce On Beat | `ADBE DE Wobble Bounce On Beat`
+- Wobble Bounce Random | `ADBE DE Wobble Bounce Random`
+- Wobble Bounce | `ADBE DE Wobble Bounce`
+- Z Spring At Marker | `ADBE DE Z Spring At Marker`
+- Z Spring | `ADBE DE Z Spring`
+- Zoom - 2D spin | `ADBE CM Zoom2DSpin`
+- Zoom - 3D tumble | `ADBE CM Zoom3DTumble`
+- Zoom - bubble | `ADBE CM ZoomBubble`
+- Zoom - spiral | `ADBE CM ZoomSpiral`
+- Zoom - wobble | `ADBE CM ZoomWobble`
+
+## 3D Channel (8)
+- 3D Channel Extract | `ADBE AUX CHANNEL EXTRACT`
+- Cryptomatte | `Cryptomatte`
+- Depth Matte | `ADBE DEPTH MATTE`
+- Depth of Field | `ADBE DEPTH FIELD`
+- EXtractoR | `EXtractoR`
+- Fog 3D | `ADBE FOG_3D`
+- ID Matte | `ADBE ID MATTE`
+- IDentifier | `IDentifier`
+
+## Audio (13)
+- Backwards | `ADBE Aud Reverse`
+- Bass & Treble | `ADBE Aud BT`
+- Compressor | `ADBE Aud Compressor`
+- Delay | `ADBE Aud Delay`
+- Distortion | `ADBE Aud Distortion`
+- Flange & Chorus | `ADBE Aud_Flange`
+- Gate | `ADBE Aud Gate`
+- High-Low Pass | `ADBE Aud HiLo`
+- Modulator | `ADBE Aud Modulator`
+- Parametric EQ | `ADBE Param EQ`
+- Reverb | `ADBE Aud Reverb`
+- Stereo Mixer | `ADBE Aud Stereo Mixer`
+- Tone | `ADBE Aud Tone`
+
+## BAO (12)
+- Boa | `BAO_Boa`
+- Bones | `BAO_Bones`
+- Bones_overlaps_manager | `BAO_Bones_renderer`
+- Joint | `BAO_Joint`
+- Layer Sculptor | `BAO_Layer_Sculptor`
+- Mask 3D Warper | `BAO M3DW_Mask`
+- Mask_Avenger | `BAO Mask_Avenger`
+- Mask_Brush | `BAO Mask_Brush`
+- Mask_Brush_Fill | `BAO Mask_Brush_Fill`
+- Mask_Reader | `BAO Mask_Reader`
+- Perspective_changer | `Perspective_changer`
+- Puppeteer | `BAO_Puppeteer`
+
+## Blur & Sharpen (16)
+- Bilateral Blur | `ADBE Bilateral`
+- CC Cross Blur | `CS CrossBlur`
+- CC Radial Blur | `CC Radial Blur`
+- CC Radial Fast Blur | `CC Radial Fast Blur`
+- CC Vector Blur | `CC Vector Blur`
+- Camera Lens Blur | `ADBE Camera Lens Blur`
+- Camera-Shake Deblur | `ADBE CameraShakeDeblur`
+- Channel Blur | `ADBE Channel Blur`
+- Compound Blur | `ADBE Compound Blur`
+- Directional Blur | `ADBE Motion Blur`
+- Fast Box Blur | `ADBE Box Blur2`
+- Gaussian Blur | `ADBE Gaussian Blur 2`
+- Radial Blur | `ADBE Radial Blur`
+- Sharpen | `ADBE Sharpen`
+- Smart Blur | `ADBE Smart Blur`
+- Unsharp Mask | `ADBE Unsharp Mask2`
+
+## Boris FX Mocha (1)
+- Mocha AE | `mochaAECC`
+
+## Channel (13)
+- Arithmetic | `ADBE Arithmetic`
+- Blend | `ADBE Blend`
+- CC Composite | `CS Composite`
+- Calculations | `ADBE Calculations`
+- Channel Combiner | `ADBE Channel Combiner`
+- Compound Arithmetic | `ADBE Compound Arithmetic`
+- Invert | `ADBE Invert`
+- Minimax | `ADBE Minimax`
+- Remove Color Matting | `ADBE Remove Color Matting`
+- Set Channels | `ADBE Set Channels`
+- Set Matte | `ADBE Set Matte3`
+- Shift Channels | `ADBE Shift Channels`
+- Solid Composite | `ADBE Solid Composite`
+
+## Cinema 4D (1)
+- Cineware | `CINEMA 4D Effect`
+
+## Color Correction (40)
+- Auto Color | `ADBE AutoColor`
+- Auto Contrast | `ADBE AutoContrast`
+- Auto Levels | `ADBE AutoLevels`
+- Black & White | `ADBE Black&White`
+- Brightness & Contrast | `ADBE Brightness & Contrast 2`
+- Broadcast Colors | `ADBE Broadcast Colors`
+- CC Color Neutralizer | `CS Color Neutralizer`
+- CC Color Offset | `CC Color Offset`
+- CC Kernel | `CS Kernel`
+- CC Toner | `CC Toner`
+- Change Color | `ADBE Change Color`
+- Change to Color | `ADBE Change To Color`
+- Channel Mixer | `ADBE CHANNEL MIXER`
+- Color Balance (HLS) | `ADBE Color Balance (HLS)`
+- Color Balance | `ADBE Color Balance 2`
+- Color Link | `ADBE Color Link`
+- Color Stabilizer | `ADBE Deflicker`
+- Colorama | `APC Colorama`
+- Curves | `ADBE CurvesCustom`
+- Equalize | `ADBE Equalize`
+- Exposure | `ADBE Exposure2`
+- Gamma/Pedestal/Gain | `ADBE Gamma/Pedestal/Gain2`
+- Hue/Saturation | `ADBE HUE SATURATION`
+- Leave Color | `ADBE Leave Color`
+- Levels (Individual Controls) | `ADBE Pro Levels2`
+- Levels | `ADBE Easy Levels2`
+- Lumetri Color | `ADBE Lumetri`
+- OCIO CDL Transform | `ADBE OCIO CDL Transform`
+- OCIO Color Space Transform | `ADBE OCIO Color Space Transform`
+- OCIO Display Transform | `ADBE OCIO Display Transform`
+- OCIO File Transform | `ADBE OCIO FILE Transform`
+- OCIO Look Transform | `ADBE OCIO Look Transform`
+- PS Arbitrary Map | `ADBE PS Arbitrary Map`
+- Photo Filter | `ADBE PhotoFilterPS`
+- Selective Color | `ADBE SelectiveColor`
+- Shadow/Highlight | `ADBE ShadowHighlight`
+- Tint | `ADBE Tint`
+- Tritone | `ADBE Tritone`
+- Vibrance | `ADBE Vibrance`
+- Video Limiter | `ADBE DigitalVideoLimiter`
+
+## Distort (37)
+- Bezier Warp | `ADBE BEZMESH`
+- Bulge | `ADBE Bulge`
+- CC Bend It | `CC Bend It`
+- CC Bender | `CC Bender`
+- CC Blobbylize | `CC Blobbylize`
+- CC Flo Motion | `CC Flo Motion`
+- CC Griddler | `CC Griddler`
+- CC Lens | `CC Lens`
+- CC Page Turn | `CC Page Turn`
+- CC Power Pin | `CC Power Pin`
+- CC Ripple Pulse | `CC Ripple Pulse`
+- CC Slant | `CC Slant`
+- CC Smear | `CC Smear`
+- CC Split 2 | `CC Split 2`
+- CC Split | `CC Split`
+- CC Tiler | `CC Tiler`
+- Corner Pin | `ADBE Corner Pin`
+- Detail-preserving Upscale | `ADBE Upscale`
+- Displacement Map | `ADBE Displacement Map`
+- Liquify | `ADBE LIQUIFY`
+- Magnify | `ADBE Magnify`
+- Mesh Warp | `ADBE MESH WARP`
+- Mirror | `ADBE Mirror`
+- Offset | `ADBE Offset`
+- Optics Compensation | `ADBE Optics Compensation`
+- Polar Coordinates | `ADBE Polar Coordinates`
+- Reshape | `ADBE RESHAPE`
+- Ripple | `ADBE Ripple`
+- Rolling Shutter Repair | `ADBE Rolling Shutter`
+- Smear | `ADBE SCHMEAR`
+- Spherize | `ADBE Spherize`
+- Transform | `ADBE Geometry2`
+- Turbulent Displace | `ADBE Turbulent Displace`
+- Twirl (Legacy) | `ADBE Twirl`
+- Warp Stabilizer | `ADBE SubspaceStabilizer`
+- Warp | `ADBE WRPMESH`
+- Wave Warp | `ADBE Wave Warp`
+
+## Expression Controls (8)
+- 3D Point Control | `ADBE Point3D Control`
+- Angle Control | `ADBE Angle Control`
+- Checkbox Control | `ADBE Checkbox Control`
+- Color Control | `ADBE Color Control`
+- Dropdown Menu Control | `ADBE Dropdown Control`
+- Layer Control | `ADBE Layer Control`
+- Point Control | `ADBE Point Control`
+- Slider Control | `ADBE Slider Control`
+
+## Generate (26)
+- 4-Color Gradient | `ADBE 4ColorGradient`
+- Advanced Lightning | `ADBE Lightning 2`
+- Audio Spectrum | `ADBE AudSpect`
+- Audio Waveform | `ADBE AudWave`
+- Beam | `ADBE Laser`
+- CC Glue Gun | `CC Glue Gun`
+- CC Light Burst 2.5 | `CC Light Burst 2.5`
+- CC Light Rays | `CC Light Rays`
+- CC Light Sweep | `CC Light Sweep`
+- CC Threads | `CS Threads`
+- Cell Pattern | `ADBE Cell Pattern`
+- Checkerboard | `ADBE Checkerboard`
+- Circle | `ADBE Circle`
+- Ellipse | `ADBE ELLIPSE`
+- Eyedropper Fill | `ADBE Eyedropper Fill`
+- Fill | `ADBE Fill`
+- Fractal | `ADBE Fractal`
+- Gradient Ramp | `ADBE Ramp`
+- Grid | `ADBE Grid`
+- Lens Flare | `ADBE Lens Flare`
+- Paint Bucket | `ADBE Paint Bucket`
+- Radio Waves | `APC Radio Waves`
+- Scribble | `ADBE Scribble Fill`
+- Stroke | `ADBE Stroke`
+- Vegas | `APC Vegas`
+- Write-on | `ADBE Write-on`
+
+## Immersive Video (12)
+- VR Blur | `Mettle SkyBox Blur`
+- VR Chromatic Aberrations | `Mettle SkyBox Chromatic Aberrat`
+- VR Color Gradients | `Mettle SkyBox Color Gradients`
+- VR Converter | `Mettle SkyBox Converter`
+- VR De-Noise | `Mettle SkyBox Denoise`
+- VR Digital Glitch | `Mettle SkyBox Digital Glitch`
+- VR Fractal Noise | `Mettle SkyBox Fractal Noise`
+- VR Glow | `Mettle SkyBox Glow`
+- VR Plane to Sphere | `Mettle SkyBox Project 2D`
+- VR Rotate Sphere | `Mettle SkyBox Rotate Sphere`
+- VR Sharpen | `Mettle SkyBox Sharpen`
+- VR Sphere To Plane | `Mettle SkyBox Viewer`
+
+## Keying (11)
+- Advanced Spill Suppressor | `ADBE Spill2`
+- CC Simple Wire Removal | `CC Simple Wire Removal`
+- Color Difference Key | `ADBE Color Difference Key`
+- Color Range | `ADBE Color Range`
+- Difference Matte | `ADBE Difference Matte2`
+- Extract | `ADBE Extract`
+- Inner/Outer Key | `ADBE ATG Extract`
+- Key Cleaner | `ADBE KeyCleaner`
+- Keylight (1.2) | `Keylight 906`
+- Linear Color Key | `ADBE Linear Color Key2`
+- Unmult | `ADBE Unmult`
+
+## Matte (4)
+- Matte Choker | `ADBE Matte Choker`
+- Refine Hard Matte | `ADBE RefineRBMatte`
+- Refine Soft Matte | `ADBE RefineMatte2`
+- Simple Choker | `ADBE Simple Choker`
+
+## Noise & Grain (13)
+- Add Grain | `VISINF Grain Implant`
+- Curl Noise | `ADBE Curl Noise`
+- Dust & Scratches | `ADBE Dust & Scratches`
+- Fractal Noise | `ADBE Fractal Noise`
+- Match Grain | `VISINF Grain Duplication`
+- Median (Legacy) | `ADBE Median`
+- Median | `ADBE PS Median`
+- Noise Alpha | `ADBE Noise Alpha2`
+- Noise HLS Auto | `ADBE Noise HLS Auto2`
+- Noise HLS | `ADBE Noise HLS2`
+- Noise | `ADBE Noise2`
+- Remove Grain | `VISINF Grain Removal`
+- Turbulent Noise | `ADBE AIF Perlin Noise 3D`
+
+## Obsolete (10)
+- Basic 3D | `ADBE Basic 3D`
+- Basic Text | `ADBE Basic Text2`
+- Color Key | `ADBE Color Key`
+- Gaussian Blur (Legacy) | `ADBE Gaussian Blur`
+- Lightning | `ADBE Lightning`
+- Luma Key | `ADBE Luma Key`
+- Path Text | `ADBE Path Text`
+- Reduce Interlace Flicker | `ADBE Reduce Interlace Flicker`
+- Spill Suppressor | `ADBE Spill Suppressor`
+- mocha shape | `ISL MochaShapeImporter`
+
+## Perspective (10)
+- 3D Camera Tracker | `ADBE 3D Tracker`
+- 3D Glasses | `ADBE 3D Glasses2`
+- Bevel Alpha | `ADBE Bevel Alpha`
+- Bevel Edges | `ADBE Bevel Edges`
+- CC Cylinder | `CC Cylinder`
+- CC Environment | `CC Environment`
+- CC Sphere | `CC Sphere`
+- CC Spotlight | `CC Spotlight`
+- Drop Shadow | `ADBE Drop Shadow`
+- Radial Shadow | `ADBE Radial Shadow`
+
+## Pixel Sorter Studio (1)
+- Pixel Sorter 4  | `GG PixelSorter3`
+
+## Plugin Everything (4)
+- Deep Glow 2 | `PEDG2`
+- Deep Glow | `PEDG`
+- Displacer Pro | `PEDX`
+- Shadow Studio 3 | `PESS3`
+
+## ProductionCrate (1)
+- Crate's Godrays | `PEGR`
+
+## Sapphire Adjust (14)
+- S_ChannelSwitcher | `S_ChannelSwitcher`
+- S_ClampChroma | `S_ClampChroma`
+- S_DuoTone | `S_DuoTone`
+- S_Gamma | `S_Gamma`
+- S_Hotspots | `S_Hotspots`
+- S_HueSatBright | `S_HueSatBright`
+- S_Invert | `S_Invert`
+- S_Monochrome | `S_Monochrome`
+- S_OCIOTransform | `S_OCIOTransform`
+- S_QuadTone | `S_QuadTone`
+- S_ShowBadColors | `S_ShowBadColors`
+- S_Threshold | `S_Threshold`
+- S_Tint | `S_Tint`
+- S_TriTone | `S_TriTone`
+
+## Sapphire Blur+Sharpen (24)
+- S_AdvancedDefocus | `S_AdvancedDefocus`
+- S_Beauty | `S_Beauty`
+- S_Blur | `S_Blur`
+- S_BlurChannels | `S_BlurChannels`
+- S_BlurChroma | `S_BlurChroma`
+- S_BlurDirectional | `S_BlurDirectional`
+- S_BlurMoCurves | `S_BlurMoCurves`
+- S_BlurMotion | `S_BlurMotion`
+- S_Convolve | `S_Convolve`
+- S_ConvolveComp | `S_ConvolveComp`
+- S_Deband | `S_Deband`
+- S_DefocusPrism | `S_DefocusPrism`
+- S_EdgeAwareBlur | `S_EdgeAwareBlur`
+- S_EdgeBlur | `S_EdgeBlur`
+- S_FreeLens | `S_FreeLens`
+- S_GrainRemove | `S_GrainRemove`
+- S_Median | `S_Median`
+- S_RackDefocus | `S_RackDefocus`
+- S_RackDfComp | `S_RackDfComp`
+- S_Sharpen | `S_Sharpen`
+- S_SoftFocus | `S_SoftFocus`
+- S_ZBlur | `S_ZBlur`
+- S_ZConvolve | `S_ZConvolve`
+- S_ZDefocus | `S_ZDefocus`
+
+## Sapphire Builder (2)
+- S_Effect | `S_Effect`
+- S_Transition | `S_Transition`
+
+## Sapphire Composite (6)
+- S_EdgeFlash | `S_EdgeFlash`
+- S_Layer | `S_Layer`
+- S_MathOps | `S_MathOps`
+- S_MatteOps | `S_MatteOps`
+- S_MatteOpsComp | `S_MatteOpsComp`
+- S_ZComp | `S_ZComp`
+
+## Sapphire Distort (24)
+- S_Distort | `S_Distort`
+- S_DistortBlur | `S_DistortBlur`
+- S_DistortChroma | `S_DistortChroma`
+- S_DistortRGB | `S_DistortRGB`
+- S_InfiniteZoom | `S_InfiniteZoom`
+- S_ParallaxStrips | `S_ParallaxStrips`
+- S_Shake | `S_Shake`
+- S_StretchFrameEdges | `S_StretchFrameEdges`
+- S_WarpBubble | `S_WarpBubble`
+- S_WarpBubble2 | `S_WarpBubble2`
+- S_WarpChroma | `S_WarpChroma`
+- S_WarpCornerPin | `S_WarpCornerPin`
+- S_WarpDrops | `S_WarpDrops`
+- S_WarpFishEye | `S_WarpFishEye`
+- S_WarpMagnify | `S_WarpMagnify`
+- S_WarpPerspective | `S_WarpPerspective`
+- S_WarpPolar | `S_WarpPolar`
+- S_WarpPuddle | `S_WarpPuddle`
+- S_WarpPuff | `S_WarpPuff`
+- S_WarpRepeat | `S_WarpRepeat`
+- S_WarpTransform | `S_WarpTransform`
+- S_WarpVortex | `S_WarpVortex`
+- S_WarpWaves | `S_WarpWaves`
+- S_WarpWaves2 | `S_WarpWaves2`
+
+## Sapphire Lighting (25)
+- S_BokehLights | `S_BokehLights`
+- S_DropShadow | `S_DropShadow`
+- S_EdgeRays | `S_EdgeRays`
+- S_Flashbulbs | `S_Flashbulbs`
+- S_Glare | `S_Glare`
+- S_Glint | `S_Glint`
+- S_GlintRainbow | `S_GlintRainbow`
+- S_Glow | `S_Glow`
+- S_GlowAura | `S_GlowAura`
+- S_GlowDarks | `S_GlowDarks`
+- S_GlowDist | `S_GlowDist`
+- S_GlowEdges | `S_GlowEdges`
+- S_GlowNoise | `S_GlowNoise`
+- S_GlowOrthicon | `S_GlowOrthicon`
+- S_GlowRainbow | `S_GlowRainbow`
+- S_GlowRings | `S_GlowRings`
+- S_LensFlare | `S_LensFlare`
+- S_LensFlareAutoTrack | `S_LensFlareAutoTrack`
+- S_Light3D | `S_Light3D`
+- S_LightLeak | `S_LightLeak`
+- S_Rays | `S_Rays`
+- S_SpotLight | `S_SpotLight`
+- S_Streaks | `S_Streaks`
+- S_UltraGlow | `S_UltraGlow`
+- S_ZGlow | `S_ZGlow`
+
+## Sapphire Render (40)
+- S_Aurora | `S_Aurora`
+- S_Caustics | `S_Caustics`
+- S_Clouds | `S_Clouds`
+- S_CloudsColorSmooth | `S_CloudsColorSmooth`
+- S_CloudsMultColor | `S_CloudsMultColor`
+- S_CloudsPerspective | `S_CloudsPerspective`
+- S_CloudsPsyko | `S_CloudsPsyko`
+- S_CloudsVortex | `S_CloudsVortex`
+- S_Dust | `S_Dust`
+- S_Gradient | `S_Gradient`
+- S_GradientMulti | `S_GradientMulti`
+- S_GradientRadial | `S_GradientRadial`
+- S_Grid | `S_Grid`
+- S_Grunge | `S_Grunge`
+- S_LaserBeam | `S_LaserBeam`
+- S_Luna | `S_Luna`
+- S_MuzzleFlash | `S_MuzzleFlash`
+- S_NightSky | `S_NightSky`
+- S_Shape | `S_Shape`
+- S_Sparkles | `S_Sparkles`
+- S_SparklesColor | `S_SparklesColor`
+- S_TextureCells | `S_TextureCells`
+- S_TextureChromaSpiral | `S_TextureChromaSpiral`
+- S_TextureFlux | `S_TextureFlux`
+- S_TextureFolded | `S_TextureFolded`
+- S_TextureLoops | `S_TextureLoops`
+- S_TextureMicro | `S_TextureMicro`
+- S_TextureMoire | `S_TextureMoire`
+- S_TextureNeurons | `S_TextureNeurons`
+- S_TextureNoiseEmboss | `S_TextureNoiseEmboss`
+- S_TextureNoisePaint | `S_TextureNoisePaint`
+- S_TexturePlasma | `S_TexturePlasma`
+- S_TextureRidges | `S_TextureRidges`
+- S_TextureSpots | `S_TextureSpots`
+- S_TextureTiles | `S_TextureTiles`
+- S_TextureWeave | `S_TextureWeave`
+- S_UltraZap | `S_UltraZap`
+- S_Zap | `S_Zap`
+- S_ZapFrom | `S_ZapFrom`
+- S_ZapTo | `S_ZapTo`
+
+## Sapphire Stylize (60)
+- S_AutoPaint | `S_AutoPaint`
+- S_BandPass | `S_BandPass`
+- S_BleachBypass | `S_BleachBypass`
+- S_Brush | `S_Brush`
+- S_Cartoon | `S_Cartoon`
+- S_CartoonPaint | `S_CartoonPaint`
+- S_ColorFuse | `S_ColorFuse`
+- S_Crosshatch | `S_Crosshatch`
+- S_Diffuse | `S_Diffuse`
+- S_DigitalDamage | `S_DigitalDamage`
+- S_DogVision | `S_DogVision`
+- S_EdgeColorize | `S_EdgeColorize`
+- S_EdgeDetect | `S_EdgeDetect`
+- S_EdgeDetectDouble | `S_EdgeDetectDouble`
+- S_EdgesInDirection | `S_EdgesInDirection`
+- S_Emboss | `S_Emboss`
+- S_EmbossDistort | `S_EmbossDistort`
+- S_EmbossGlass | `S_EmbossGlass`
+- S_EmbossShiny | `S_EmbossShiny`
+- S_Etching | `S_Etching`
+- S_FilmBurn | `S_FilmBurn`
+- S_FilmDamage | `S_FilmDamage`
+- S_FilmEffect | `S_FilmEffect`
+- S_FlysEyeCircles | `S_FlysEyeCircles`
+- S_FlysEyeHex | `S_FlysEyeHex`
+- S_FlysEyeRect | `S_FlysEyeRect`
+- S_Grain | `S_Grain`
+- S_GrainStatic | `S_GrainStatic`
+- S_HalfTone | `S_HalfTone`
+- S_HalfToneColor | `S_HalfToneColor`
+- S_HalfToneRings | `S_HalfToneRings`
+- S_JpegDamage | `S_JpegDamage`
+- S_Kaleido | `S_Kaleido`
+- S_KaleidoPolar | `S_KaleidoPolar`
+- S_KaleidoRadial | `S_KaleidoRadial`
+- S_Mosaic | `S_Mosaic`
+- S_PixelMosh | `S_PixelMosh`
+- S_PixelSort | `S_PixelSort`
+- S_Posterize | `S_Posterize`
+- S_PrismLens | `S_PrismLens`
+- S_PseudoColor | `S_PseudoColor`
+- S_PsykoBlobs | `S_PsykoBlobs`
+- S_PsykoStripes | `S_PsykoStripes`
+- S_RomanTile | `S_RomanTile`
+- S_ScanLines | `S_ScanLines`
+- S_ScanLinesMono | `S_ScanLinesMono`
+- S_Sketch | `S_Sketch`
+- S_Solarize | `S_Solarize`
+- S_StripSlide | `S_StripSlide`
+- S_TVDamage | `S_TVDamage`
+- S_TileScramble | `S_TileScramble`
+- S_UltraGrain | `S_UltraGrain`
+- S_VHSDamage | `S_VHSDamage`
+- S_Vignette | `S_Vignette`
+- S_VintageColor2Strip | `S_VintageColor2Strip`
+- S_VintageColor3Strip | `S_VintageColor3Strip`
+- S_ZFogExponential | `S_ZFogExponential`
+- S_ZFogLinear | `S_ZFogLinear`
+- S_Zebrafy | `S_Zebrafy`
+- S_ZebrafyColor | `S_ZebrafyColor`
+
+## Sapphire Time (30)
+- S_CutToDissolve | `S_CutToDissolve`
+- S_Feedback | `S_Feedback`
+- S_FeedbackBubble | `S_FeedbackBubble`
+- S_FeedbackDistort | `S_FeedbackDistort`
+- S_FieldRemove | `S_FieldRemove`
+- S_Flicker | `S_Flicker`
+- S_FlickerMatch | `S_FlickerMatch`
+- S_FlickerMatchColor | `S_FlickerMatchColor`
+- S_FlickerMatchMatte | `S_FlickerMatchMatte`
+- S_FlickerMchMatteColor | `S_FlickerMchMatteColor`
+- S_FlickerRemove | `S_FlickerRemove`
+- S_FlickerRemoveColor | `S_FlickerRemoveColor`
+- S_FlickerRemoveMatte | `S_FlickerRemoveMatte`
+- S_FlickerRmMatteColor | `S_FlickerRmMatteColor`
+- S_FreezeFrame | `S_FreezeFrame`
+- S_GetFrame | `S_GetFrame`
+- S_JitterFrames | `S_JitterFrames`
+- S_MotionDetect | `S_MotionDetect`
+- S_NearestColor | `S_NearestColor`
+- S_RandomEdits | `S_RandomEdits`
+- S_RepairFrames | `S_RepairFrames`
+- S_Retime | `S_Retime`
+- S_ReverseClip | `S_ReverseClip`
+- S_ReverseEdits | `S_ReverseEdits`
+- S_TimeAverage | `S_TimeAverage`
+- S_TimeDisplace | `S_TimeDisplace`
+- S_TimeSlice | `S_TimeSlice`
+- S_TimeWarpRGB | `S_TimeWarpRGB`
+- S_Trails | `S_Trails`
+- S_TrailsDiffuse | `S_TrailsDiffuse`
+
+## Sapphire Transitions (67)
+- S_CardFlip | `S_CardFlip`
+- S_Dissolve | `S_Dissolve`
+- S_DissolveAutoPaint | `S_DissolveAutoPaint`
+- S_DissolveBlur | `S_DissolveBlur`
+- S_DissolveBubble | `S_DissolveBubble`
+- S_DissolveDefocus | `S_DissolveDefocus`
+- S_DissolveDiffuse | `S_DissolveDiffuse`
+- S_DissolveDigitalDamage | `S_DissolveDigitalDamage`
+- S_DissolveDistort | `S_DissolveDistort`
+- S_DissolveEdgeRays | `S_DissolveEdgeRays`
+- S_DissolveFilm | `S_DissolveFilm`
+- S_DissolveFlashbulbs | `S_DissolveFlashbulbs`
+- S_DissolveGlare | `S_DissolveGlare`
+- S_DissolveGlint | `S_DissolveGlint`
+- S_DissolveGlintRainbow | `S_DissolveGlintRainbow`
+- S_DissolveGlow | `S_DissolveGlow`
+- S_DissolveLensFlare | `S_DissolveLensFlare`
+- S_DissolveLightLeak | `S_DissolveLightLeak`
+- S_DissolveLuma | `S_DissolveLuma`
+- S_DissolvePixelMosh | `S_DissolvePixelMosh`
+- S_DissolvePixelSort | `S_DissolvePixelSort`
+- S_DissolvePuddle | `S_DissolvePuddle`
+- S_DissolveRays | `S_DissolveRays`
+- S_DissolveShake | `S_DissolveShake`
+- S_DissolveSpeckle | `S_DissolveSpeckle`
+- S_DissolveStatic | `S_DissolveStatic`
+- S_DissolveTiles | `S_DissolveTiles`
+- S_DissolveUltraGlow | `S_DissolveUltraGlow`
+- S_DissolveVortex | `S_DissolveVortex`
+- S_DissolveWaves | `S_DissolveWaves`
+- S_DissolveZap | `S_DissolveZap`
+- S_FilmBurnTransition | `S_FilmBurnTransition`
+- S_FilmRoll | `S_FilmRoll`
+- S_FlutterCut | `S_FlutterCut`
+- S_HyperPull | `S_HyperPull`
+- S_HyperPush | `S_HyperPush`
+- S_MochaWhip | `S_MochaWhip`
+- S_ParallaxStripsTransition | `S_ParallaxStripsTransition`
+- S_StripSlideTransition | `S_StripSlideTransition`
+- S_Swish3D | `S_Swish3D`
+- S_SwishPan | `S_SwishPan`
+- S_TVChannelChange | `S_TVChannelChange`
+- S_WhipLash | `S_WhipLash`
+- S_WipeBlobs | `S_WipeBlobs`
+- S_WipeBubble | `S_WipeBubble`
+- S_WipeCells | `S_WipeCells`
+- S_WipeChecker | `S_WipeChecker`
+- S_WipeCircle | `S_WipeCircle`
+- S_WipeClock | `S_WipeClock`
+- S_WipeClouds | `S_WipeClouds`
+- S_WipeDiffuse | `S_WipeDiffuse`
+- S_WipeDots | `S_WipeDots`
+- S_WipeDoubleWedge | `S_WipeDoubleWedge`
+- S_WipeFlux | `S_WipeFlux`
+- S_WipeFourWedges | `S_WipeFourWedges`
+- S_WipeLine | `S_WipeLine`
+- S_WipeMoire | `S_WipeMoire`
+- S_WipePixelate | `S_WipePixelate`
+- S_WipePlasma | `S_WipePlasma`
+- S_WipePointalize | `S_WipePointalize`
+- S_WipeRectangle | `S_WipeRectangle`
+- S_WipeRings | `S_WipeRings`
+- S_WipeStar | `S_WipeStar`
+- S_WipeStripes | `S_WipeStripes`
+- S_WipeTiles | `S_WipeTiles`
+- S_WipeWeave | `S_WipeWeave`
+- S_WipeWedge | `S_WipeWedge`
+
+## Simulation (18)
+- CC Ball Action | `CC Ball Action`
+- CC Bubbles | `CC Bubbles`
+- CC Drizzle | `CC Drizzle`
+- CC Hair | `CC Hair`
+- CC Mr. Mercury | `CC Mr. Mercury`
+- CC Particle Systems II | `CC Particle Systems II`
+- CC Particle World | `CC Particle World`
+- CC Pixel Polly | `CC Pixel Polly`
+- CC Rainfall | `CSRainfall`
+- CC Scatterize | `CC Scatterize`
+- CC Snowfall | `CSSnowfall`
+- CC Star Burst | `CC Star Burst`
+- Card Dance | `APC CardDanceCam`
+- Caustics | `APC Caustics`
+- Foam | `APC Foam`
+- Particle Playground | `ADBE Playgnd`
+- Shatter | `APC Shatter`
+- Wave World | `APC Wave World`
+
+## Stylize (25)
+- Brush Strokes | `ADBE Brush Strokes`
+- CC Block Load | `CS BlockLoad`
+- CC Burn Film | `CC Burn Film`
+- CC Glass | `CC Glass`
+- CC HexTile | `CS HexTile`
+- CC Kaleida | `CC Kaleida`
+- CC Mr. Smoothie | `CC Mr. Smoothie`
+- CC Plastic | `CC Plastic`
+- CC RepeTile | `CC RepeTile`
+- CC Threshold RGB | `CC Threshold RGB`
+- CC Threshold | `CC Threshold`
+- CC Vignette | `CS Vignette`
+- Cartoon | `ADBE Cartoonify`
+- Color Emboss | `ADBE Color Emboss`
+- Emboss | `ADBE Emboss`
+- Find Edges | `ADBE Find Edges`
+- Glow | `ADBE Glo2`
+- Mosaic | `ADBE Mosaic`
+- Motion Tile | `ADBE Tile`
+- Posterize | `ADBE Posterize`
+- Roughen Edges | `ADBE Roughen Edges`
+- Scatter | `ADBE Scatter`
+- Strobe Light | `ADBE Strobe`
+- Texturize | `ADBE Texturize`
+- Threshold | `ADBE Threshold2`
+
+## Text (2)
+- Numbers | `ADBE Numbers2`
+- Timecode | `ADBE Timecode`
+
+## Time (8)
+- CC Force Motion Blur | `CC Force Motion Blur`
+- CC Wide Time | `CC Wide Time`
+- Echo | `ADBE Echo`
+- Pixel Motion Blur | `ADBE OFMotionBlur`
+- Posterize Time | `ADBE Posterize Time`
+- Time Difference | `ADBE Difference`
+- Time Displacement | `ADBE Time Displacement`
+- Timewarp | `ADBE Timewarp`
+
+## Transition (17)
+- Block Dissolve | `ADBE Block Dissolve`
+- CC Glass Wipe | `CC Glass Wipe`
+- CC Grid Wipe | `CC Grid Wipe`
+- CC Image Wipe | `CC Image Wipe`
+- CC Jaws | `CC Jaws`
+- CC Light Wipe | `CC Light Wipe`
+- CC Line Sweep | `CS LineSweep`
+- CC Radial ScaleWipe | `CC Radial ScaleWipe`
+- CC Scale Wipe | `CC Scale Wipe`
+- CC Twister | `CC Twister`
+- CC WarpoMatic | `CC WarpoMatic`
+- Card Wipe | `APC CardWipeCam`
+- Gradient Wipe | `ADBE Gradient Wipe`
+- Iris Wipe | `ADBE IRIS_WIPE`
+- Linear Wipe | `ADBE Linear Wipe`
+- Radial Wipe | `ADBE Radial Wipe`
+- Venetian Blinds | `ADBE Venetian Blinds`
+
+## Utility (7)
+- Apply Color LUT | `ADBE Apply Color LUT2`
+- CC Overbrights | `CC Overbrights`
+- Cineon Converter | `ADBE Cineon Converter2`
+- Color Profile Converter | `ADBE ProfileToProfile`
+- Grow Bounds | `ADBE GROW BOUNDS`
+- HDR Compander | `ADBE Compander`
+- HDR Highlight Compression | `ADBE HDR ToneMap`
+
+## Video Copilot (2)
+- Element | `VIDEOCOPILOT 3DArray`
+- Optical Flares | `VIDEOCOPILOT OpticalFlares`
+
+## _Obsolete (41)
+- 3D Glasses (Obsolete) | `ADBE 3D Glasses`
+- Alpha Levels | `ADBE Alpha Levels2`
+- Alpha Levels | `ADBE Alpha Levels3`
+- Apply Color LUT | `ADBE Apply Color LUT`
+- Box Blur | `ADBE Box Blur`
+- Brightness & Contrast | `ADBE Brightness & Contrast`
+- CC Composite (obsolete) | `CC Composite`
+- CC PS Classic (obsolete) | `CC PS Classic`
+- CC PS LE Classic (obsolete) | `CC PS LE Classic`
+- CC Rain (obsolete) | `CC Rain`
+- CC Snow (obsolete) | `CC Snow`
+- CC Time Blend FX | `CC Time Blend FX`
+- CC Time Blend | `CC Time Blend`
+- Cineon Converter | `ADBE Cineon Converter`
+- Color Balance | `ADBE Color Balance`
+- Exposure | `ADBE Exposure`
+- Fast Blur (Legacy) | `ADBE Fast Blur`
+- Levels (Individual Controls) | `ADBE Pro Levels`
+- Levels | `ADBE Easy Levels`
+- M3DW_Distorter | `BAO M3DW_Distort`
+- M3DW_Renderer | `BAO M3DW_Engine`
+- Noise Alpha | `ADBE Noise Alpha`
+- Noise HLS Auto | `ADBE Noise HLS Auto`
+- Noise HLS | `ADBE Noise HLS`
+- Noise | `ADBE Noise`
+- Paint | `ADBE Paint`
+- Photo Filter | `ADBE Photo Filter`
+- Photoshop Bevel And Emboss | `ADBE PSL Bevel Emboss`
+- Photoshop Drop Shadow | `ADBE PSL Drop Shadow`
+- Photoshop Inner Glow | `ADBE PSL Inner Glow`
+- Photoshop Inner Shadow | `ADBE PSL Inner Shadow`
+- Photoshop Outer Glow | `ADBE PSL Outer Glow`
+- Photoshop Solid Fill | `ADBE PSL Solid Fill`
+- Puppet | `ADBE FreePin3`
+- Refine Matte | `ADBE RefineMatte`
+- Roto Brush & Refine Edge | `ADBE Samurai`
+- Set Matte | `ADBE Set Matte2`
+- Three-Way Color Corrector | `ADBE Three-Way Color Corrector`
+- Threshold | `ADBE Threshold`
+- Transform | `ADBE Geometry`
+- Unsharp Mask | `ADBE Unsharp Mask`

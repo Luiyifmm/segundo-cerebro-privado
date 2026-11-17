@@ -1,0 +1,257 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.242,
+   "fin": 2.562,
+   "texto": "Si dicho el lunes empiezo más de tres veces,",
+   "especial": "tres veces",
+   "dur": 2.34
+  },
+  {
+   "n": 2,
+   "ini": 2.582,
+   "fin": 4.823,
+   "texto": "escucha esto, no te falta disciplina.",
+   "especial": "disciplina",
+   "dur": 2.261
+  },
+  {
+   "n": 3,
+   "ini": 4.843,
+   "fin": 7.123,
+   "texto": "Lo que te pasa tiene nombre es bucle te",
+   "especial": "bucle",
+   "dur": 2.3
+  },
+  {
+   "n": 4,
+   "ini": 7.143,
+   "fin": 8.524,
+   "texto": "lo a decir en seis pasos.",
+   "especial": "seis pasos",
+   "dur": 1.681
+  },
+  {
+   "n": 5,
+   "ini": 8.824,
+   "fin": 10.044,
+   "texto": "Uno, ves una foto,",
+   "especial": "foto",
+   "dur": 1.3599999999999994
+  },
+  {
+   "n": 6,
+   "ini": 10.184,
+   "fin": 11.364,
+   "texto": "te miras al espejo y dices,",
+   "especial": "dices",
+   "dur": 1.4000000000000004
+  },
+  {
+   "n": 7,
+   "ini": 11.584,
+   "fin": 12.725,
+   "texto": "esta vez va serio.",
+   "especial": "va serio",
+   "dur": 1.4610000000000003
+  },
+  {
+   "n": 8,
+   "ini": 13.045,
+   "fin": 14.865,
+   "texto": "Dos, haces el plan perfecto,",
+   "especial": "perfecto",
+   "dur": 1.92
+  },
+  {
+   "n": 9,
+   "ini": 14.965,
+   "fin": 16.345,
+   "texto": "vas seis días a gimnasio,",
+   "especial": "gimnasio",
+   "dur": 1.620000000000001
+  },
+  {
+   "n": 10,
+   "ini": 16.585,
+   "fin": 18.546,
+   "texto": "cumples a rajatabla cero caprichos.",
+   "especial": "caprichos",
+   "dur": 2.0809999999999995
+  },
+  {
+   "n": 11,
+   "ini": 18.666,
+   "fin": 20.266,
+   "texto": "Tres, llega la vida real.",
+   "especial": "vida real",
+   "dur": 1.879999999999999
+  },
+  {
+   "n": 12,
+   "ini": 20.546,
+   "fin": 22.146,
+   "texto": "Una cena, una mala semana",
+   "especial": "semana",
+   "dur": 2.100999999999999
+  },
+  {
+   "n": 13,
+   "ini": 22.647,
+   "fin": 23.087,
+   "texto": "mal día.",
+   "especial": "mal día",
+   "dur": 0.5600000000000023
+  },
+  {
+   "n": 14,
+   "ini": 23.207,
+   "fin": 24.787,
+   "texto": "Cuatro, ya la he liado.",
+   "especial": "he liado",
+   "dur": 1.759999999999998
+  },
+  {
+   "n": 15,
+   "ini": 24.967,
+   "fin": 27.888,
+   "texto": "Cinco, lo pierdes, empiezas a comer y lo recuperas",
+   "especial": "recuperas",
+   "dur": 2.9810000000000016
+  },
+  {
+   "n": 16,
+   "ini": 27.948,
+   "fin": 28.354000000000003,
+   "texto": "todo.",
+   "especial": "todo",
+   "dur": 0.48600000000000065
+  },
+  {
+   "n": 17,
+   "ini": 28.434,
+   "fin": 29.974,
+   "texto": "seis, pasan tres semanas,",
+   "especial": "semanas",
+   "dur": 1.8399999999999999
+  },
+  {
+   "n": 18,
+   "ini": 30.274,
+   "fin": 31.735,
+   "texto": "Y vuelta empezar, así,",
+   "especial": "empezar así",
+   "dur": 1.6610000000000014
+  },
+  {
+   "n": 19,
+   "ini": 31.935000000000002,
+   "fin": 32.876,
+   "texto": "constantemente.",
+   "especial": "constantemente",
+   "dur": 1.0409999999999968
+  },
+  {
+   "n": 20,
+   "ini": 32.976,
+   "fin": 33.716,
+   "texto": "dónde está el fallo?",
+   "especial": "fallo",
+   "dur": 0.8400000000000034
+  },
+  {
+   "n": 21,
+   "ini": 33.816,
+   "fin": 35.317,
+   "texto": "Todo el mundo dice que en el número 5,",
+   "especial": "número",
+   "dur": 1.6219999999999999
+  },
+  {
+   "n": 22,
+   "ini": 35.438,
+   "fin": 36.258,
+   "texto": "pero la verdad es que en",
+   "especial": "verdad",
+   "dur": 1.2800000000000011
+  },
+  {
+   "n": 23,
+   "ini": 36.718,
+   "fin": 38.56,
+   "texto": "los planes perfectos no existen.",
+   "especial": "existen",
+   "dur": 2.0419999999999945
+  },
+  {
+   "n": 24,
+   "ini": 38.76,
+   "fin": 40.401,
+   "texto": "Si quieres salir del bucle de una vez por",
+   "especial": "vez",
+   "dur": 1.7210000000000036
+  },
+  {
+   "n": 25,
+   "ini": 40.481,
+   "fin": 42.142,
+   "texto": "todas, comenta la palabra bucle.",
+   "especial": "palabra bucle",
+   "dur": 1.6610000000000014
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Marca · Kevin Palacios",
+   "c": [
+    "#2F5BFF",
+    "#FF3B5C",
+    "#E6E9F4",
+    "#0D0F16"
+   ]
+  },
+  {
+   "nombre": "Violeta · del plano",
+   "c": [
+    "#8674F1",
+    "#352786",
+    "#E8E6F4",
+    "#0F0D16"
+   ]
+  },
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F19B74",
+    "#864527",
+    "#F4EAE6",
+    "#16100D"
+   ]
+  },
+  {
+   "nombre": "Turquesa · del plano",
+   "c": [
+    "#74F1EB",
+    "#278681",
+    "#E6F4F4",
+    "#0D1616"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

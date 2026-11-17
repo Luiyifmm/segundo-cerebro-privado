@@ -1,0 +1,497 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1008_02",
+ "secuencia": "AMIN_1008_02 - corte 2",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1008_02/AMIN_1008_02 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 379.4,
+ "duracionCorte": 52,
+ "frases": 60,
+ "dentro": 17,
+ "fuera": 45,
+ "cortes": 25,
+ "segundosDeProceso": 1,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dar like a publicaciones de otras mujeres."
+  },
+  {
+   "n": 2,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "De niñat."
+  },
+  {
+   "n": 3,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "Ah vale, que es formato comparación, no es que alguien me esté preguntando, no?"
+  },
+  {
+   "n": 4,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "Javi."
+  },
+  {
+   "n": 5,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dímelo en principio, porfa."
+  },
+  {
+   "n": 6,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "Vale, vale, esperáte lo tengo."
+  },
+  {
+   "n": 7,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dar like a otras mujeres."
+  },
+  {
+   "n": 8,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dar like a otras mujeres es de niñato."
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.6,
+   "clip": "IMG_6127.MOV",
+   "texto": "Perseguir a mujeres por puro deseo de perdedor."
+  },
+  {
+   "n": 10,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "A traer que?"
+  },
+  {
+   "n": 11,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "Javier, por favor."
+  },
+  {
+   "n": 12,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "Vocalización y te voy a poner la mía, vale."
+  },
+  {
+   "n": 13,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "A tope."
+  },
+  {
+   "n": 14,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "Te tengo a tope."
+  },
+  {
+   "n": 15,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "Vocalización."
+  },
+  {
+   "n": 16,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 1.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "¡Adrá ir que ...!"
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "ruido",
+   "seg": 1.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "vocalización"
+  },
+  {
+   "n": 18,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "atraer que atraer que"
+  },
+  {
+   "n": 19,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.9,
+   "clip": "IMG_6127.MOV",
+   "texto": "atraer atraer presumiendo tu dinero de pobre el que has dicho"
+  },
+  {
+   "n": 20,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "guiñato no no?"
+  },
+  {
+   "n": 21,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.6,
+   "clip": "IMG_6127.MOV",
+   "texto": "Vale, ahora lo digo."
+  },
+  {
+   "n": 22,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "Atraer renseña,"
+  },
+  {
+   "n": 23,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "atraer presumiendo tu dinero,"
+  },
+  {
+   "n": 24,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 1.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "no, no, no, no, no, no, no,"
+  },
+  {
+   "n": 25,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "a la boca, por favor, te lo pido, hermano."
+  },
+  {
+   "n": 26,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "¿Evitar lo que genera inseguridad en tu pareja?"
+  },
+  {
+   "n": 27,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1,
+   "clip": "IMG_6127.MOV",
+   "texto": "¿De hombre?"
+  },
+  {
+   "n": 28,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "¿De hombre maduro?"
+  },
+  {
+   "n": 29,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "¿Que respetarla incluso cuando te lo dices?"
+  },
+  {
+   "n": 30,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "¿Respetarla incluso cuando ella no te ve"
+  },
+  {
+   "n": 31,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.6,
+   "clip": "IMG_6127.MOV",
+   "texto": "respetarla incluso cuando ella no te ve de hombre con valores"
+  },
+  {
+   "n": 32,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 11.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "Javier hermano por favor te lo pido brother ponte que te entienda brother escúchame donde estás hermano bro no te veo bro tienes el móvil pegado a algún sitio hermano y no se te entiende brother por favor puedes hacer el esfuerzo"
+  },
+  {
+   "n": 33,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.9,
+   "clip": "IMG_6127.MOV",
+   "texto": "bro te tienes quítate los cascos y ponte el móvil normal hermano que te tengo"
+  },
+  {
+   "n": 34,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "no vea tib"
+  },
+  {
+   "n": 35,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "ven a ti cuál es la sin cual era"
+  },
+  {
+   "n": 36,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 7.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "es que cada vez que me haces mover me pa decirte eso hermano se me me empieza a ruer al puto traje este hermano y tengo que volver a recolocar todo bro"
+  },
+  {
+   "n": 37,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1,
+   "clip": "IMG_6127.MOV",
+   "texto": "dar seguridad que?"
+  },
+  {
+   "n": 38,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "era ese no?"
+  },
+  {
+   "n": 39,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "seguro"
+  },
+  {
+   "n": 40,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "dar seguridad emocional que mas?"
+  },
+  {
+   "n": 41,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6127.MOV",
+   "texto": "que mas"
+  },
+  {
+   "n": 42,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "??"
+  },
+  {
+   "n": 43,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.6,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dar seguridad emocional y actuar"
+  },
+  {
+   "n": 44,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6127.MOV",
+   "texto": "Dar seguridad emocional y actuar con coherencia"
+  },
+  {
+   "n": 45,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "de hombre de alto valor, ¿de hombre de alto valor las dicha?"
+  },
+  {
+   "n": 46,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.5,
+   "clip": "IMG_6127.MOV",
+   "texto": "De hombre de alto valor"
+  },
+  {
+   "n": 47,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "De hombre de alto valor que"
+  },
+  {
+   "n": 48,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 11.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "javier hermano no te entiendo brother no te entiendo pas pas no worries hermano no te entiendo brother tío te puedes puedes vocalizar brother y pues hablar fuerte es que no se te entiende brother te lo juro hermano tío no se te entiende bro"
+  },
+  {
+   "n": 49,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 8.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "esta es la diferencia exacta entre un niñato y nombre de alto valor vale ahora sí hermano así es como tienes que hablar hermano porque te tengo en el ipad tope bro y no te entiendo tío"
+  },
+  {
+   "n": 50,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "esta es la diferencia exacta entre un niñato y un hombre de alto valor esta es la diferencia"
+  },
+  {
+   "n": 51,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "exacta entre un niñato y un hombre de alto valor."
+  },
+  {
+   "n": 52,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "Una mujer,"
+  },
+  {
+   "n": 53,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.8,
+   "clip": "IMG_6127.MOV",
+   "texto": "una mujer de alto valor,"
+  },
+  {
+   "n": 54,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.4,
+   "clip": "IMG_6127.MOV",
+   "texto": "nunca va a elegir a un niñato."
+  },
+  {
+   "n": 55,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "Si quieres a una reina a tu lado"
+  },
+  {
+   "n": 56,
+   "dentro": true,
+   "motivo": null,
+   "seg": 6.1,
+   "clip": "IMG_6127.MOV",
+   "texto": "primero debes de dejar primero tienes que dejar de comportarte como un peón y convertirte"
+  },
+  {
+   "n": 57,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6127.MOV",
+   "texto": "avanzar a la casilla del final y convertirte en un rey"
+  },
+  {
+   "n": 58,
+   "dentro": true,
+   "motivo": null,
+   "seg": 6.2,
+   "clip": "IMG_6127.MOV",
+   "texto": "y ahí empezar a construir tu imperio y ahí empezar a construir tu imperio Sígueme si quieres ser"
+  },
+  {
+   "n": 59,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.7,
+   "clip": "IMG_6127.MOV",
+   "texto": "un alpha ganador."
+  },
+  {
+   "n": 60,
+   "dentro": true,
+   "motivo": null,
+   "seg": 5,
+   "clip": "IMG_6127.MOV",
+   "texto": "sígueme si quieres ser un alfa ganador y quieres mejorar tu vida"
+  }
+ ]
+}

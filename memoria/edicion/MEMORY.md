@@ -1,0 +1,9 @@
+- [Editar según el formato](editar-segun-formato.md) — sin estilo único para Amin; formato + referencias + dirección acordada + prueba de un bloque
+- Memorias antiguas (no se cargan solas desde ~/EDICION): índice en `~/.claude/projects/-Users-luiyi/memory/MEMORY.md`; fases del sistema en `…/arquitectura-sistema-fases.md`. Las reglas vigentes NO están ahí: están en la bóveda (FICHA, Lecciones generales).
+- [Subtítulos por unidades de sentido](subtitulos-unidades-de-sentido.md) — no partir ideas ("somos mejores personas" junto); clave entra al decirla
+- [Título de Luis y subs libres](titulo-del-usuario-y-subs-libres.md) — su título manda sobre el mío; subtítulos nunca tocan gráficos fijos
+- [Víctor Hugo, prospecto](cliente-victor-hugo-prospecto.md) — psicólogo de constelaciones; clips sin avisarle aún, no publicar a su nombre sin su sí
+- [Empezar por editor-maestro](empezar-por-editor-maestro.md) — cargar esa skill primero; paso 1 = preparar-clip.sh; limpiezas del sistema solo propuestas
+- [Gustos de Luis (correcciones Álvaro)](gustos-luis-correcciones-alvaro.md) — gancho con zoom out + sonido, cortes J/L, tarjetas tipo Apple de Miro, música por emoción; no saltar paradas
+- [Subir vídeos al panel Trainer10x yo mismo](subir-videos-panel-trainer10x.md) — R2 + Neon con alumnos.json; subir deja «Para revisar», entregar se pregunta
+- [Lote alumnos sin tokens](lote-alumnos-sin-tokens.md) — convertir lo repetitivo en scripts; skill lote-alumnos

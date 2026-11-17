@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "historyId": "042af8cb-3b5e-440b-8c05-5225b7268227",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "NyghtSerif-LightItalic.otf": {
+      "hash": "816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4",
+      "content": "/Users/luiyi/.cache/hyperframes/history/042af8cb-3b5e-440b-8c05-5225b7268227/blobs/81/816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4"
+    },
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/042af8cb-3b5e-440b-8c05-5225b7268227/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "92bfde7e8cf3f633a601499fc62e28936a5e24664497eb42b28c78208afa7d76",
+      "content": "/Users/luiyi/.cache/hyperframes/history/042af8cb-3b5e-440b-8c05-5225b7268227/blobs/92/92bfde7e8cf3f633a601499fc62e28936a5e24664497eb42b28c78208afa7d76"
+    },
+    "SF-Pro.ttf": {
+      "hash": "216c8f70fc35fb8161d03a7f8ddf5fff5760e1879688d70eb20ed9779b8ffee2",
+      "content": "/Users/luiyi/.cache/hyperframes/history/042af8cb-3b5e-440b-8c05-5225b7268227/blobs/21/216c8f70fc35fb8161d03a7f8ddf5fff5760e1879688d70eb20ed9779b8ffee2"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "85565815-dce8-4ef1-94c2-6612d0b5630d",
+      "completedAt": 1794091064250,
+      "output": "/tmp/hf-render.evD6rW/bruto.mov",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

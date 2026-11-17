@@ -1,0 +1,349 @@
+[
+ {
+  "bloque": "medias",
+  "tipo": "P",
+  "t": 0.0,
+  "src": [
+   117.9,
+   119.14
+  ],
+  "audio": [
+   115.11,
+   116.35
+  ],
+  "texto": "¿Pagar a medias con tu novia?"
+ },
+ {
+  "bloque": "medias",
+  "tipo": "R",
+  "t": 1.24,
+  "src": [
+   119.14,
+   120.62
+  ],
+  "ver": [
+   [
+    1.64,
+    2.72,
+    "triste y de",
+    "MEDIOCRE",
+    "rojo"
+   ]
+  ]
+ },
+ {
+  "bloque": "iphone",
+  "tipo": "P",
+  "t": 2.72,
+  "src": [
+   94.99,
+   96.11
+  ],
+  "audio": [
+   93.18,
+   94.3
+  ],
+  "texto": "¿Tener el último iPhone?"
+ },
+ {
+  "bloque": "iphone",
+  "tipo": "R",
+  "t": 3.84,
+  "src": [
+   96.11,
+   97.2
+  ],
+  "ver": [
+   [
+    4.24,
+    4.93,
+    "de",
+    "POBRE",
+    "rojo"
+   ]
+  ]
+ },
+ {
+  "bloque": "logos",
+  "tipo": "P",
+  "t": 4.93,
+  "src": [
+   184.26,
+   185.33
+  ],
+  "audio": [
+   181.85,
+   182.92
+  ],
+  "texto": "¿Llevar ropa con logos?"
+ },
+ {
+  "bloque": "logos",
+  "tipo": "R",
+  "t": 6.0,
+  "src": [
+   185.33,
+   187.05
+  ],
+  "ver": [
+   [
+    6.27,
+    7.72,
+    "de",
+    "POBRE",
+    "rojo"
+   ]
+  ]
+ },
+ {
+  "bloque": "simple",
+  "tipo": "P",
+  "t": 7.72,
+  "src": [
+   194.16,
+   195.05
+  ],
+  "audio": [
+   191.76,
+   192.65
+  ],
+  "texto": "¿Y llevar ropa simple?"
+ },
+ {
+  "bloque": "simple",
+  "tipo": "R",
+  "t": 8.61,
+  "src": [
+   195.05,
+   196.15
+  ],
+  "ver": [
+   [
+    9.01,
+    9.71,
+    "de",
+    "RICO",
+    "azul"
+   ]
+  ]
+ },
+ {
+  "bloque": "coche",
+  "tipo": "P",
+  "t": 9.71,
+  "src": [
+   148.64,
+   149.5
+  ],
+  "audio": [
+   131.46,
+   132.32
+  ],
+  "texto": "¿Comprarte un coche?"
+ },
+ {
+  "bloque": "coche",
+  "tipo": "R",
+  "t": 10.57,
+  "src": [
+   149.5,
+   153.3
+  ],
+  "ver": [
+   [
+    10.97,
+    12.47,
+    "de pobre",
+    "CASI SIEMPRE",
+    "rojo"
+   ],
+   [
+    12.47,
+    14.37,
+    "pero de rico si",
+    "SABES COMPRARLO",
+    "azul"
+   ]
+  ]
+ },
+ {
+  "bloque": "casa",
+  "tipo": "P",
+  "t": 14.37,
+  "src": [
+   163.91,
+   165.29
+  ],
+  "audio": [
+   161.1,
+   162.48
+  ],
+  "texto": "¿Comprarte una casa para vivir?"
+ },
+ {
+  "bloque": "casa",
+  "tipo": "R",
+  "t": 15.75,
+  "src": [
+   165.29,
+   166.45
+  ],
+  "ver": [
+   [
+    16.15,
+    16.91,
+    "de",
+    "POBRE",
+    "rojo"
+   ]
+  ]
+ },
+ {
+  "bloque": "invertir",
+  "tipo": "P",
+  "t": 16.91,
+  "src": [
+   173.68,
+   175.0
+  ],
+  "audio": [
+   171.85,
+   173.17
+  ],
+  "texto": "¿Y si es para invertir en ella?"
+ },
+ {
+  "bloque": "invertir",
+  "tipo": "R",
+  "t": 18.23,
+  "src": [
+   175.0,
+   177.05
+  ],
+  "ver": [
+   [
+    18.63,
+    20.28,
+    "de rico,",
+    "MUY RICO",
+    "azul"
+   ]
+  ]
+ },
+ {
+  "bloque": "banco",
+  "tipo": "P",
+  "t": 20.28,
+  "src": [
+   238.35,
+   239.63
+  ],
+  "audio": [
+   229.78,
+   231.06
+  ],
+  "texto": "¿Dejar el dinero en el banco?"
+ },
+ {
+  "bloque": "banco",
+  "tipo": "R",
+  "t": 21.56,
+  "src": [
+   239.63,
+   241.5
+  ],
+  "ver": [
+   [
+    21.96,
+    23.43,
+    "de pobre porque te",
+    "ARRUINA",
+    "rojo"
+   ]
+  ]
+ },
+ {
+  "bloque": "cocinar",
+  "tipo": "P",
+  "t": 23.43,
+  "src": [
+   106.04,
+   106.81
+  ],
+  "audio": [
+   104.08,
+   104.85
+  ],
+  "texto": "¿Cocinar para ti?"
+ },
+ {
+  "bloque": "cocinar",
+  "tipo": "R",
+  "t": 24.2,
+  "src": [
+   106.81,
+   108.85
+  ],
+  "ver": [
+   [
+    24.6,
+    26.24,
+    "¿o eres pobre o eres",
+    "MUY RICO?",
+    "azul"
+   ]
+  ]
+ },
+ {
+  "bloque": "moraleja1",
+  "tipo": "H",
+  "t": 26.24,
+  "src": [
+   272.5,
+   274.5
+  ],
+  "sub": [
+   "los pobres gastan dinero para",
+   "APARENTAR"
+  ]
+ },
+ {
+  "bloque": "moraleja2",
+  "tipo": "H",
+  "t": 28.24,
+  "src": [
+   290.95,
+   291.75
+  ],
+  "sub": [
+   "los ricos",
+   ""
+  ]
+ },
+ {
+  "bloque": "moraleja3",
+  "tipo": "H",
+  "t": 29.04,
+  "src": [
+   292.32,
+   296.1
+  ],
+  "sub": [
+   "invierten en conocimiento que les hará ganar",
+   "MUCHO MÁS DINERO"
+  ]
+ },
+ {
+  "bloque": "cta",
+  "tipo": "H",
+  "t": 32.82,
+  "src": [
+   315.05,
+   320.55
+  ],
+  "sub": [
+   "comenta",
+   "RICO"
+  ]
+ }
+]

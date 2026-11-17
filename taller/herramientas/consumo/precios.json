@@ -1,0 +1,32 @@
+{
+  "_fuente": "Tabla de precios de la API de Anthropic (skill claude-api, caché del 2026-10-06) + multiplicadores de caché (escritura 5 min ×1,25, 1 h ×2). Validada el 2026-11-08: con los tokens de la sesión 0d22a94f da 96,4542 USD, igual que el cost-state de la app (96,4542).",
+  "_unidad": "USD por millón de tokens",
+  "_aviso": "Es el coste EQUIVALENTE de la API. Con suscripción no es lo que se paga; sirve para comparar vídeos entre sí.",
+  "modelos": {
+    "claude-opus-5-5": {
+      "entrada": 4.0,
+      "salida": 20.0,
+      "escritura_5m": 5.0,
+      "escritura_1h": 8.0,
+      "lectura_cache": 0.2,
+      "_verificado": "todo: validado contra el cost-state de la app (08-11)"
+    },
+    "claude-haiku-5-5": {
+      "entrada": 0.1,
+      "salida": 0.5,
+      "escritura_5m": 0.125,
+      "escritura_1h": 0.2,
+      "lectura_cache": 0.01,
+      "_verificado": "entrada y salida: tabla oficial (prompts ≤ 100K); caché: SUPUESTO ×0,1 / ×1,25 / ×2, sin confirmar"
+    },
+    "claude-sonnet-5-5": {
+      "entrada": 2.0,
+      "salida": 10.0,
+      "escritura_5m": 2.5,
+      "escritura_1h": 4.0,
+      "lectura_cache": 0.2,
+      "_verificado": "entrada, salida y lectura de caché: tabla oficial; escrituras: multiplicadores ×1,25 / ×2"
+    }
+  },
+  "busqueda_web_por_1000": 10.0
+}

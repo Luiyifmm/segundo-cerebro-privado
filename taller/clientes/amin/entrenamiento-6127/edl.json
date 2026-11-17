@@ -1,0 +1,170 @@
+[
+ {
+  "bloque": "gancho",
+  "entrada": 53.13,
+  "salida": 55.33,
+  "t_montaje": 0.0,
+  "clave": "niñato",
+  "marca": null
+ },
+ {
+  "bloque": "c1",
+  "entrada": 63.7,
+  "salida": 65.47,
+  "t_montaje": 2.2,
+  "clave": "perdedor",
+  "marca": null
+ },
+ {
+  "bloque": "c1",
+  "entrada": 65.91,
+  "salida": 66.58,
+  "t_montaje": 3.97,
+  "clave": "perdedor",
+  "marca": "N"
+ },
+ {
+  "bloque": "c2",
+  "entrada": 127.95,
+  "salida": 129.77,
+  "t_montaje": 4.64,
+  "clave": "estúpido",
+  "marca": null
+ },
+ {
+  "bloque": "c2",
+  "entrada": 130.18,
+  "salida": 131.48,
+  "t_montaje": 6.46,
+  "clave": "estúpido",
+  "marca": "N"
+ },
+ {
+  "bloque": "c3",
+  "entrada": 150.75,
+  "salida": 152.95,
+  "t_montaje": 7.76,
+  "clave": "maduro",
+  "marca": null
+ },
+ {
+  "bloque": "c3",
+  "entrada": 157.2,
+  "salida": 158.24,
+  "t_montaje": 9.96,
+  "clave": "maduro",
+  "marca": "H"
+ },
+ {
+  "bloque": "c4",
+  "entrada": 170.45,
+  "salida": 172.64,
+  "t_montaje": 11.0,
+  "clave": "valores",
+  "marca": null
+ },
+ {
+  "bloque": "c4",
+  "entrada": 173.12,
+  "salida": 174.37,
+  "t_montaje": 13.19,
+  "clave": "valores",
+  "marca": "H"
+ },
+ {
+  "bloque": "c5",
+  "entrada": 254.19,
+  "salida": 256.24,
+  "t_montaje": 14.44,
+  "clave": "alto valor",
+  "marca": null
+ },
+ {
+  "bloque": "c5",
+  "entrada": 258.09,
+  "salida": 258.86,
+  "t_montaje": 16.49,
+  "clave": "alto valor",
+  "marca": "H"
+ },
+ {
+  "bloque": "m1",
+  "entrada": 299.34,
+  "salida": 302.71,
+  "t_montaje": 17.26,
+  "clave": "alto valor",
+  "marca": "FIN"
+ },
+ {
+  "bloque": "m2",
+  "entrada": 319.74,
+  "salida": 321.49,
+  "t_montaje": 20.63,
+  "clave": "niñato",
+  "marca": null
+ },
+ {
+  "bloque": "m2",
+  "entrada": 321.98999999999995,
+  "salida": 324.16,
+  "t_montaje": 22.38,
+  "clave": "niñato",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 329.821,
+  "salida": 331.67,
+  "t_montaje": 24.55,
+  "clave": "rey",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 340.18,
+  "salida": 343.15,
+  "t_montaje": 26.399,
+  "clave": "rey",
+  "marca": null
+ },
+ {
+  "bloque": "m3",
+  "entrada": 346.68,
+  "salida": 349.48,
+  "t_montaje": 29.369,
+  "clave": "rey",
+  "marca": null
+ },
+ {
+  "bloque": "cierre",
+  "entrada": 360.06,
+  "salida": 360.74,
+  "t_montaje": 32.169,
+  "clave": "imperio",
+  "marca": null
+ },
+ {
+  "bloque": "cierre",
+  "entrada": 361.04,
+  "salida": 363.11,
+  "t_montaje": 32.849,
+  "clave": "imperio",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 367.14,
+  "salida": 369.98,
+  "t_montaje": 34.919,
+  "clave": "vida",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 371.38,
+  "salida": 373.59,
+  "t_montaje": 37.759,
+  "clave": "vida",
+  "marca": null
+ }
+]

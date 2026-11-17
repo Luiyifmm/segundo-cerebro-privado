@@ -1,0 +1,1652 @@
+[
+{
+"texto": "¿Esto",
+"inicio": 4.566,
+"fin": 8.87,
+"score": 0.922
+},
+{
+"texto": "te",
+"inicio": 8.89,
+"fin": 9.05,
+"score": 0.662
+},
+{
+"texto": "va",
+"inicio": 9.07,
+"fin": 9.11,
+"score": 0.473
+},
+{
+"texto": "a",
+"inicio": 9.13,
+"fin": 9.15,
+"score": 0.014
+},
+{
+"texto": "pasar",
+"inicio": 9.17,
+"fin": 9.37,
+"score": 0.977
+},
+{
+"texto": "si",
+"inicio": 9.43,
+"fin": 9.49,
+"score": 0.904
+},
+{
+"texto": "hace",
+"inicio": 9.51,
+"fin": 9.71,
+"score": 0.474
+},
+{
+"texto": "sentadillas?",
+"inicio": 9.73,
+"fin": 10.371,
+"score": 0.889
+},
+{
+"texto": "No.",
+"inicio": 11.212,
+"fin": 11.372,
+"score": 0.937
+},
+{
+"texto": "Estas",
+"inicio": 14.154,
+"fin": 14.374,
+"score": 0.784
+},
+{
+"texto": "piernas",
+"inicio": 14.434,
+"fin": 14.795,
+"score": 0.762
+},
+{
+"texto": "son",
+"inicio": 15.015,
+"fin": 15.135,
+"score": 0.913
+},
+{
+"texto": "de",
+"inicio": 15.175,
+"fin": 15.235,
+"score": 0.754
+},
+{
+"texto": "un",
+"inicio": 15.255,
+"fin": 15.315,
+"score": 0.858
+},
+{
+"texto": "ciclista",
+"inicio": 15.355,
+"fin": 15.796,
+"score": 0.907
+},
+{
+"texto": "de",
+"inicio": 15.836,
+"fin": 15.896,
+"score": 0.832
+},
+{
+"texto": "pista",
+"inicio": 15.976,
+"fin": 16.236,
+"score": 0.922
+},
+{
+"texto": "profesional,",
+"inicio": 16.296,
+"fin": 16.937,
+"score": 0.93
+},
+{
+"texto": "Robert",
+"inicio": 17.357,
+"fin": 17.677,
+"score": 0.846
+},
+{
+"texto": "Forzman.",
+"inicio": 17.877,
+"fin": 18.398,
+"score": 0.748
+},
+{
+"texto": "y",
+"inicio": 35.218,
+"fin": 35.278,
+"score": 0.533
+},
+{
+"texto": "cada",
+"inicio": 35.318,
+"fin": 35.498,
+"score": 0.9
+},
+{
+"texto": "vez",
+"inicio": 35.538,
+"fin": 35.678,
+"score": 0.868
+},
+{
+"texto": "que",
+"inicio": 35.718,
+"fin": 35.819,
+"score": 0.902
+},
+{
+"texto": "digo",
+"inicio": 35.859,
+"fin": 36.019,
+"score": 0.75
+},
+{
+"texto": "que",
+"inicio": 36.059,
+"fin": 36.159,
+"score": 0.779
+},
+{
+"texto": "hagas",
+"inicio": 36.179,
+"fin": 36.439,
+"score": 0.774
+},
+{
+"texto": "entadillas",
+"inicio": 36.459,
+"fin": 37.04,
+"score": 0.863
+},
+{
+"texto": "alguien",
+"inicio": 37.44,
+"fin": 37.66,
+"score": 0.845
+},
+{
+"texto": "me",
+"inicio": 37.7,
+"fin": 37.8,
+"score": 0.674
+},
+{
+"texto": "dice",
+"inicio": 37.84,
+"fin": 38.241,
+"score": 0.973
+},
+{
+"texto": "paso",
+"inicio": 38.961,
+"fin": 39.281,
+"score": 0.936
+},
+{
+"texto": "mejor",
+"inicio": 40.102,
+"fin": 40.642,
+"score": 0.931
+},
+{
+"texto": "paso",
+"inicio": 43.805,
+"fin": 44.145,
+"score": 0.641
+},
+{
+"texto": "que",
+"inicio": 44.225,
+"fin": 44.325,
+"score": 0.682
+},
+{
+"texto": "me",
+"inicio": 44.365,
+"fin": 44.426,
+"score": 0.776
+},
+{
+"texto": "pongo",
+"inicio": 44.506,
+"fin": 44.706,
+"score": 0.891
+},
+{
+"texto": "grande",
+"inicio": 44.786,
+"fin": 45.146,
+"score": 0.902
+},
+{
+"texto": "y",
+"inicio": 45.166,
+"fin": 45.186,
+"score": 0.004
+},
+{
+"texto": "subo",
+"inicio": 45.206,
+"fin": 45.767,
+"score": 0.782
+},
+{
+"texto": "peor",
+"inicio": 45.847,
+"fin": 46.107,
+"score": 0.928
+},
+{
+"texto": "mira",
+"inicio": 48.249,
+"fin": 48.489,
+"score": 0.933
+},
+{
+"texto": "yo",
+"inicio": 48.509,
+"fin": 48.589,
+"score": 0.847
+},
+{
+"texto": "era",
+"inicio": 48.629,
+"fin": 48.749,
+"score": 0.709
+},
+{
+"texto": "muy",
+"inicio": 48.789,
+"fin": 48.889,
+"score": 0.864
+},
+{
+"texto": "delgado",
+"inicio": 48.929,
+"fin": 49.39,
+"score": 0.925
+},
+{
+"texto": "y",
+"inicio": 59.738,
+"fin": 59.798,
+"score": 0.924
+},
+{
+"texto": "ganar",
+"inicio": 59.838,
+"fin": 60.118,
+"score": 0.918
+},
+{
+"texto": "músculo",
+"inicio": 60.198,
+"fin": 60.659,
+"score": 0.813
+},
+{
+"texto": "me",
+"inicio": 60.739,
+"fin": 60.819,
+"score": 0.708
+},
+{
+"texto": "ha",
+"inicio": 60.839,
+"fin": 60.899,
+"score": 0.746
+},
+{
+"texto": "costado",
+"inicio": 60.939,
+"fin": 61.399,
+"score": 0.853
+},
+{
+"texto": "muchísimo",
+"inicio": 61.599,
+"fin": 62.14,
+"score": 0.814
+},
+{
+"texto": "tiempo",
+"inicio": 62.24,
+"fin": 62.56,
+"score": 0.669
+},
+{
+"texto": "y",
+"inicio": 62.58,
+"fin": 62.6,
+"score": 0.001
+},
+{
+"texto": "sigo",
+"inicio": 63.681,
+"fin": 63.861,
+"score": 0.786
+},
+{
+"texto": "compitiendo",
+"inicio": 63.921,
+"fin": 64.502,
+"score": 0.956
+},
+{
+"texto": "y",
+"inicio": 68.65,
+"fin": 68.71,
+"score": 0.711
+},
+{
+"texto": "sigo",
+"inicio": 68.75,
+"fin": 68.95,
+"score": 0.836
+},
+{
+"texto": "compitiendo",
+"inicio": 69.01,
+"fin": 69.451,
+"score": 0.8
+},
+{
+"texto": "en",
+"inicio": 69.491,
+"fin": 69.551,
+"score": 0.825
+},
+{
+"texto": "descenso.",
+"inicio": 69.591,
+"fin": 70.051,
+"score": 0.877
+},
+{
+"texto": "Y",
+"inicio": 74.475,
+"fin": 74.515,
+"score": 0.926
+},
+{
+"texto": "ganar",
+"inicio": 74.555,
+"fin": 74.795,
+"score": 0.967
+},
+{
+"texto": "músculo",
+"inicio": 74.855,
+"fin": 75.175,
+"score": 0.699
+},
+{
+"texto": "me",
+"inicio": 75.215,
+"fin": 75.255,
+"score": 0.998
+},
+{
+"texto": "ha",
+"inicio": 75.275,
+"fin": 75.315,
+"score": 0.774
+},
+{
+"texto": "costado",
+"inicio": 75.375,
+"fin": 75.656,
+"score": 0.914
+},
+{
+"texto": "un",
+"inicio": 75.676,
+"fin": 75.716,
+"score": 0.145
+},
+{
+"texto": "montón",
+"inicio": 75.776,
+"fin": 76.076,
+"score": 0.913
+},
+{
+"texto": "de",
+"inicio": 76.116,
+"fin": 76.196,
+"score": 0.981
+},
+{
+"texto": "trabajo",
+"inicio": 76.256,
+"fin": 76.656,
+"score": 0.867
+},
+{
+"texto": "y",
+"inicio": 76.677,
+"fin": 76.697,
+"score": 0.0
+},
+{
+"texto": "aún",
+"inicio": 76.957,
+"fin": 77.097,
+"score": 0.848
+},
+{
+"texto": "así",
+"inicio": 77.157,
+"fin": 77.337,
+"score": 0.843
+},
+{
+"texto": "sigo",
+"inicio": 77.417,
+"fin": 77.617,
+"score": 0.976
+},
+{
+"texto": "compitiendo",
+"inicio": 77.697,
+"fin": 78.178,
+"score": 0.911
+},
+{
+"texto": "en",
+"inicio": 78.218,
+"fin": 78.278,
+"score": 0.828
+},
+{
+"texto": "descenso.",
+"inicio": 78.318,
+"fin": 78.778,
+"score": 0.885
+},
+{
+"texto": "Para",
+"inicio": 93.73,
+"fin": 93.85,
+"score": 0.98
+},
+{
+"texto": "tener",
+"inicio": 93.95,
+"fin": 94.171,
+"score": 0.911
+},
+{
+"texto": "unas",
+"inicio": 94.211,
+"fin": 94.371,
+"score": 0.845
+},
+{
+"texto": "piernas",
+"inicio": 94.451,
+"fin": 94.771,
+"score": 0.901
+},
+{
+"texto": "como",
+"inicio": 94.851,
+"fin": 95.051,
+"score": 0.82
+},
+{
+"texto": "esas",
+"inicio": 95.171,
+"fin": 95.492,
+"score": 0.814
+},
+{
+"texto": "hace",
+"inicio": 95.772,
+"fin": 95.952,
+"score": 0.875
+},
+{
+"texto": "falta",
+"inicio": 96.052,
+"fin": 96.332,
+"score": 0.863
+},
+{
+"texto": "trabajar",
+"inicio": 96.392,
+"fin": 96.773,
+"score": 0.779
+},
+{
+"texto": "mucho",
+"inicio": 97.173,
+"fin": 97.493,
+"score": 0.823
+},
+{
+"texto": "tiempo",
+"inicio": 97.613,
+"fin": 97.974,
+"score": 0.879
+},
+{
+"texto": "Comiendo",
+"inicio": 98.642,
+"fin": 99.183,
+"score": 0.93
+},
+{
+"texto": "muy",
+"inicio": 99.563,
+"fin": 99.783,
+"score": 0.654
+},
+{
+"texto": "bien.",
+"inicio": 99.863,
+"fin": 100.103,
+"score": 0.926
+},
+{
+"texto": "Para",
+"inicio": 108.17,
+"fin": 108.31,
+"score": 0.803
+},
+{
+"texto": "tener",
+"inicio": 108.39,
+"fin": 108.61,
+"score": 0.894
+},
+{
+"texto": "unas",
+"inicio": 108.67,
+"fin": 108.811,
+"score": 0.75
+},
+{
+"texto": "piernas",
+"inicio": 108.871,
+"fin": 109.171,
+"score": 0.831
+},
+{
+"texto": "como",
+"inicio": 109.231,
+"fin": 109.411,
+"score": 0.812
+},
+{
+"texto": "esa",
+"inicio": 109.491,
+"fin": 109.691,
+"score": 0.955
+},
+{
+"texto": "hace",
+"inicio": 109.891,
+"fin": 110.072,
+"score": 0.894
+},
+{
+"texto": "falta",
+"inicio": 110.152,
+"fin": 110.472,
+"score": 0.865
+},
+{
+"texto": "muchos",
+"inicio": 110.652,
+"fin": 110.932,
+"score": 0.808
+},
+{
+"texto": "años",
+"inicio": 110.992,
+"fin": 111.192,
+"score": 0.58
+},
+{
+"texto": "entrenando",
+"inicio": 111.212,
+"fin": 111.833,
+"score": 0.721
+},
+{
+"texto": "solo",
+"inicio": 111.913,
+"fin": 112.113,
+"score": 0.916
+},
+{
+"texto": "para",
+"inicio": 112.193,
+"fin": 112.373,
+"score": 0.876
+},
+{
+"texto": "eso.",
+"inicio": 112.474,
+"fin": 112.674,
+"score": 0.934
+},
+{
+"texto": "Comiendo",
+"inicio": 112.754,
+"fin": 113.114,
+"score": 0.907
+},
+{
+"texto": "muchísimo",
+"inicio": 113.174,
+"fin": 113.635,
+"score": 0.874
+},
+{
+"texto": "y",
+"inicio": 113.655,
+"fin": 113.675,
+"score": 0.001
+},
+{
+"texto": "una",
+"inicio": 114.115,
+"fin": 114.195,
+"score": 0.88
+},
+{
+"texto": "genética",
+"inicio": 114.255,
+"fin": 114.655,
+"score": 0.919
+},
+{
+"texto": "especial.",
+"inicio": 114.695,
+"fin": 115.156,
+"score": 0.82
+},
+{
+"texto": "Tú",
+"inicio": 125.064,
+"fin": 125.144,
+"score": 0.761
+},
+{
+"texto": "vas",
+"inicio": 125.184,
+"fin": 125.324,
+"score": 0.721
+},
+{
+"texto": "a",
+"inicio": 125.344,
+"fin": 125.364,
+"score": 0.875
+},
+{
+"texto": "hacer",
+"inicio": 125.384,
+"fin": 125.584,
+"score": 0.578
+},
+{
+"texto": "solo",
+"inicio": 125.705,
+"fin": 125.885,
+"score": 0.769
+},
+{
+"texto": "dos",
+"inicio": 125.985,
+"fin": 126.105,
+"score": 0.823
+},
+{
+"texto": "días",
+"inicio": 126.145,
+"fin": 126.325,
+"score": 0.841
+},
+{
+"texto": "de",
+"inicio": 126.385,
+"fin": 126.465,
+"score": 0.725
+},
+{
+"texto": "fuerza",
+"inicio": 126.545,
+"fin": 126.805,
+"score": 0.841
+},
+{
+"texto": "la",
+"inicio": 126.865,
+"fin": 126.926,
+"score": 0.753
+},
+{
+"texto": "semana.",
+"inicio": 126.966,
+"fin": 127.306,
+"score": 0.823
+},
+{
+"texto": "comiendo",
+"inicio": 137.17,
+"fin": 137.47,
+"score": 0.766
+},
+{
+"texto": "para",
+"inicio": 137.51,
+"fin": 137.63,
+"score": 0.9
+},
+{
+"texto": "bajar",
+"inicio": 137.73,
+"fin": 137.95,
+"score": 0.863
+},
+{
+"texto": "el",
+"inicio": 137.99,
+"fin": 138.07,
+"score": 0.566
+},
+{
+"texto": "porcentaje",
+"inicio": 138.111,
+"fin": 138.631,
+"score": 0.831
+},
+{
+"texto": "de",
+"inicio": 138.651,
+"fin": 138.711,
+"score": 0.706
+},
+{
+"texto": "grasa",
+"inicio": 138.771,
+"fin": 139.031,
+"score": 0.822
+},
+{
+"texto": "corporal",
+"inicio": 139.091,
+"fin": 139.571,
+"score": 0.847
+},
+{
+"texto": "y",
+"inicio": 139.591,
+"fin": 139.611,
+"score": 0.015
+},
+{
+"texto": "montando",
+"inicio": 141.432,
+"fin": 141.932,
+"score": 0.958
+},
+{
+"texto": "el",
+"inicio": 142.152,
+"fin": 142.233,
+"score": 0.743
+},
+{
+"texto": "fin",
+"inicio": 142.313,
+"fin": 142.493,
+"score": 0.926
+},
+{
+"texto": "de",
+"inicio": 142.553,
+"fin": 142.673,
+"score": 0.938
+},
+{
+"texto": "no",
+"inicio": 149.556,
+"fin": 149.636,
+"score": 0.9
+},
+{
+"texto": "te",
+"inicio": 149.656,
+"fin": 149.756,
+"score": 0.921
+},
+{
+"texto": "vas",
+"inicio": 149.776,
+"fin": 149.876,
+"score": 0.666
+},
+{
+"texto": "a",
+"inicio": 149.936,
+"fin": 149.956,
+"score": 0.959
+},
+{
+"texto": "despertar",
+"inicio": 149.976,
+"fin": 150.417,
+"score": 0.868
+},
+{
+"texto": "un",
+"inicio": 150.477,
+"fin": 150.557,
+"score": 0.783
+},
+{
+"texto": "día",
+"inicio": 150.597,
+"fin": 150.777,
+"score": 0.878
+},
+{
+"texto": "con",
+"inicio": 150.857,
+"fin": 150.997,
+"score": 0.891
+},
+{
+"texto": "esas",
+"inicio": 151.057,
+"fin": 151.257,
+"score": 0.922
+},
+{
+"texto": "piernas",
+"inicio": 151.377,
+"fin": 151.817,
+"score": 0.798
+},
+{
+"texto": "lo",
+"inicio": 158.2,
+"fin": 158.28,
+"score": 0.907
+},
+{
+"texto": "que",
+"inicio": 158.34,
+"fin": 158.44,
+"score": 0.764
+},
+{
+"texto": "si",
+"inicio": 158.541,
+"fin": 158.661,
+"score": 0.831
+},
+{
+"texto": "vas",
+"inicio": 158.701,
+"fin": 158.861,
+"score": 0.734
+},
+{
+"texto": "a",
+"inicio": 158.881,
+"fin": 158.901,
+"score": 0.951
+},
+{
+"texto": "tener",
+"inicio": 158.981,
+"fin": 159.201,
+"score": 0.832
+},
+{
+"texto": "y",
+"inicio": 159.241,
+"fin": 159.281,
+"score": 0.517
+},
+{
+"texto": "eso",
+"inicio": 159.341,
+"fin": 159.481,
+"score": 0.742
+},
+{
+"texto": "te",
+"inicio": 159.521,
+"fin": 159.601,
+"score": 0.704
+},
+{
+"texto": "lo",
+"inicio": 159.621,
+"fin": 159.681,
+"score": 0.981
+},
+{
+"texto": "aseguro",
+"inicio": 159.701,
+"fin": 160.081,
+"score": 0.888
+},
+{
+"texto": "es",
+"inicio": 160.241,
+"fin": 160.341,
+"score": 0.78
+},
+{
+"texto": "más",
+"inicio": 160.401,
+"fin": 160.522,
+"score": 0.978
+},
+{
+"texto": "fuerza",
+"inicio": 160.602,
+"fin": 160.862,
+"score": 0.814
+},
+{
+"texto": "para",
+"inicio": 161.042,
+"fin": 161.242,
+"score": 0.948
+},
+{
+"texto": "Lo",
+"inicio": 170.326,
+"fin": 170.386,
+"score": 0.848
+},
+{
+"texto": "que",
+"inicio": 170.426,
+"fin": 170.506,
+"score": 0.822
+},
+{
+"texto": "sí",
+"inicio": 170.546,
+"fin": 170.626,
+"score": 0.909
+},
+{
+"texto": "vas",
+"inicio": 170.686,
+"fin": 170.827,
+"score": 0.766
+},
+{
+"texto": "a",
+"inicio": 170.847,
+"fin": 170.867,
+"score": 0.884
+},
+{
+"texto": "tener",
+"inicio": 170.947,
+"fin": 171.187,
+"score": 0.877
+},
+{
+"texto": "y",
+"inicio": 171.267,
+"fin": 171.328,
+"score": 0.713
+},
+{
+"texto": "eso",
+"inicio": 171.368,
+"fin": 171.508,
+"score": 0.958
+},
+{
+"texto": "te",
+"inicio": 171.568,
+"fin": 171.628,
+"score": 0.929
+},
+{
+"texto": "lo",
+"inicio": 171.668,
+"fin": 171.728,
+"score": 0.759
+},
+{
+"texto": "aseguro",
+"inicio": 171.748,
+"fin": 172.149,
+"score": 0.822
+},
+{
+"texto": "es",
+"inicio": 172.349,
+"fin": 172.43,
+"score": 0.938
+},
+{
+"texto": "más",
+"inicio": 172.51,
+"fin": 172.65,
+"score": 0.607
+},
+{
+"texto": "fuerza",
+"inicio": 172.75,
+"fin": 173.091,
+"score": 0.902
+},
+{
+"texto": "para",
+"inicio": 173.231,
+"fin": 173.371,
+"score": 0.876
+},
+{
+"texto": "dar",
+"inicio": 173.452,
+"fin": 173.592,
+"score": 0.88
+},
+{
+"texto": "el",
+"inicio": 173.652,
+"fin": 173.712,
+"score": 0.994
+},
+{
+"texto": "pedal,",
+"inicio": 173.812,
+"fin": 174.173,
+"score": 0.929
+},
+{
+"texto": "aguantar",
+"inicio": 174.554,
+"fin": 175.215,
+"score": 0.879
+},
+{
+"texto": "más",
+"inicio": 175.455,
+"fin": 175.656,
+"score": 0.885
+},
+{
+"texto": "encima",
+"inicio": 175.796,
+"fin": 176.157,
+"score": 0.878
+},
+{
+"texto": "de",
+"inicio": 176.217,
+"fin": 176.297,
+"score": 0.682
+},
+{
+"texto": "la",
+"inicio": 176.337,
+"fin": 176.397,
+"score": 0.499
+},
+{
+"texto": "bici",
+"inicio": 176.497,
+"fin": 177.359,
+"score": 0.769
+},
+{
+"texto": "y",
+"inicio": 177.379,
+"fin": 177.399,
+"score": 0.004
+},
+{
+"texto": "resistir",
+"inicio": 177.639,
+"fin": 178.14,
+"score": 0.884
+},
+{
+"texto": "más",
+"inicio": 178.321,
+"fin": 178.461,
+"score": 0.843
+},
+{
+"texto": "caídas.",
+"inicio": 178.521,
+"fin": 178.922,
+"score": 0.854
+},
+{
+"texto": "Lo",
+"inicio": 202.194,
+"fin": 202.254,
+"score": 0.988
+},
+{
+"texto": "que",
+"inicio": 202.294,
+"fin": 202.374,
+"score": 0.896
+},
+{
+"texto": "si",
+"inicio": 202.394,
+"fin": 202.474,
+"score": 0.952
+},
+{
+"texto": "vas",
+"inicio": 202.514,
+"fin": 202.654,
+"score": 0.754
+},
+{
+"texto": "a",
+"inicio": 202.674,
+"fin": 202.694,
+"score": 0.875
+},
+{
+"texto": "tener",
+"inicio": 202.775,
+"fin": 202.975,
+"score": 0.946
+},
+{
+"texto": "es",
+"inicio": 203.015,
+"fin": 203.115,
+"score": 0.82
+},
+{
+"texto": "más",
+"inicio": 203.195,
+"fin": 203.315,
+"score": 0.879
+},
+{
+"texto": "fuerza",
+"inicio": 203.395,
+"fin": 203.655,
+"score": 0.855
+},
+{
+"texto": "para",
+"inicio": 203.715,
+"fin": 203.835,
+"score": 0.882
+},
+{
+"texto": "empujar",
+"inicio": 203.896,
+"fin": 204.236,
+"score": 0.99
+},
+{
+"texto": "el",
+"inicio": 204.276,
+"fin": 204.356,
+"score": 0.947
+},
+{
+"texto": "pedal.",
+"inicio": 204.436,
+"fin": 204.796,
+"score": 0.901
+},
+{
+"texto": "Más",
+"inicio": 208.74,
+"fin": 208.88,
+"score": 0.978
+},
+{
+"texto": "aguanten",
+"inicio": 208.94,
+"fin": 209.34,
+"score": 0.873
+},
+{
+"texto": "las",
+"inicio": 209.4,
+"fin": 209.52,
+"score": 0.896
+},
+{
+"texto": "subidas",
+"inicio": 209.56,
+"fin": 210.021,
+"score": 0.822
+},
+{
+"texto": "y",
+"inicio": 210.041,
+"fin": 210.061,
+"score": 0.004
+},
+{
+"texto": "un",
+"inicio": 215.325,
+"fin": 215.405,
+"score": 0.989
+},
+{
+"texto": "cuerpo",
+"inicio": 215.485,
+"fin": 215.726,
+"score": 0.754
+},
+{
+"texto": "que",
+"inicio": 215.766,
+"fin": 215.846,
+"score": 0.834
+},
+{
+"texto": "aguanta",
+"inicio": 215.886,
+"fin": 216.206,
+"score": 0.882
+},
+{
+"texto": "mejor",
+"inicio": 216.266,
+"fin": 216.526,
+"score": 0.955
+},
+{
+"texto": "las",
+"inicio": 216.566,
+"fin": 216.666,
+"score": 0.794
+},
+{
+"texto": "caídas.",
+"inicio": 216.747,
+"fin": 217.167,
+"score": 0.908
+},
+{
+"texto": "Las",
+"inicio": 227.296,
+"fin": 227.416,
+"score": 0.815
+},
+{
+"texto": "pesas",
+"inicio": 227.516,
+"fin": 227.796,
+"score": 0.885
+},
+{
+"texto": "no",
+"inicio": 227.896,
+"fin": 227.936,
+"score": 0.998
+},
+{
+"texto": "te",
+"inicio": 227.996,
+"fin": 228.096,
+"score": 0.736
+},
+{
+"texto": "van",
+"inicio": 228.116,
+"fin": 228.236,
+"score": 0.686
+},
+{
+"texto": "a",
+"inicio": 228.256,
+"fin": 228.276,
+"score": 0.916
+},
+{
+"texto": "convertir",
+"inicio": 228.337,
+"fin": 228.717,
+"score": 0.931
+},
+{
+"texto": "en",
+"inicio": 228.757,
+"fin": 228.817,
+"score": 0.994
+},
+{
+"texto": "un",
+"inicio": 228.877,
+"fin": 228.937,
+"score": 0.992
+},
+{
+"texto": "velocista",
+"inicio": 228.977,
+"fin": 229.477,
+"score": 0.871
+},
+{
+"texto": "de",
+"inicio": 229.518,
+"fin": 229.578,
+"score": 0.884
+},
+{
+"texto": "pista.",
+"inicio": 229.658,
+"fin": 229.998,
+"score": 0.834
+},
+{
+"texto": "te",
+"inicio": 246.166,
+"fin": 246.246,
+"score": 0.716
+},
+{
+"texto": "van",
+"inicio": 246.286,
+"fin": 246.386,
+"score": 0.906
+},
+{
+"texto": "a",
+"inicio": 246.406,
+"fin": 246.446,
+"score": 0.661
+},
+{
+"texto": "hacer",
+"inicio": 246.466,
+"fin": 246.626,
+"score": 0.345
+},
+{
+"texto": "un",
+"inicio": 246.666,
+"fin": 246.706,
+"score": 0.994
+},
+{
+"texto": "ciclista",
+"inicio": 246.746,
+"fin": 247.147,
+"score": 0.824
+},
+{
+"texto": "más",
+"inicio": 247.207,
+"fin": 247.367,
+"score": 0.854
+},
+{
+"texto": "fuerte",
+"inicio": 247.467,
+"fin": 247.847,
+"score": 0.761
+},
+{
+"texto": "te",
+"inicio": 253.49,
+"fin": 253.59,
+"score": 0.838
+},
+{
+"texto": "van",
+"inicio": 253.63,
+"fin": 253.73,
+"score": 0.796
+},
+{
+"texto": "a",
+"inicio": 253.75,
+"fin": 253.79,
+"score": 0.746
+},
+{
+"texto": "hacer",
+"inicio": 253.81,
+"fin": 253.99,
+"score": 0.392
+},
+{
+"texto": "un",
+"inicio": 254.03,
+"fin": 254.07,
+"score": 0.994
+},
+{
+"texto": "ciclista",
+"inicio": 254.11,
+"fin": 254.471,
+"score": 0.863
+},
+{
+"texto": "más",
+"inicio": 254.531,
+"fin": 254.671,
+"score": 0.696
+},
+{
+"texto": "fuerte",
+"inicio": 254.751,
+"fin": 255.111,
+"score": 0.646
+},
+{
+"texto": "que",
+"inicio": 255.371,
+"fin": 255.451,
+"score": 0.867
+},
+{
+"texto": "sube",
+"inicio": 255.511,
+"fin": 255.731,
+"score": 0.772
+},
+{
+"texto": "mejor",
+"inicio": 255.791,
+"fin": 256.031,
+"score": 0.811
+},
+{
+"texto": "y",
+"inicio": 256.052,
+"fin": 256.072,
+"score": 0.001
+},
+{
+"texto": "se",
+"inicio": 256.372,
+"fin": 256.472,
+"score": 0.825
+},
+{
+"texto": "ve",
+"inicio": 256.512,
+"fin": 256.612,
+"score": 0.734
+},
+{
+"texto": "mejor",
+"inicio": 256.672,
+"fin": 256.992,
+"score": 0.856
+},
+{
+"texto": "si",
+"inicio": 270.439,
+"fin": 270.54,
+"score": 0.859
+},
+{
+"texto": "quieres",
+"inicio": 270.58,
+"fin": 270.78,
+"score": 0.763
+},
+{
+"texto": "entrenar",
+"inicio": 270.84,
+"fin": 271.18,
+"score": 0.833
+},
+{
+"texto": "fuerza",
+"inicio": 271.26,
+"fin": 271.7,
+"score": 0.842
+},
+{
+"texto": "sin",
+"inicio": 271.92,
+"fin": 272.08,
+"score": 0.882
+},
+{
+"texto": "miedo",
+"inicio": 272.18,
+"fin": 272.561,
+"score": 0.807
+},
+{
+"texto": "a",
+"inicio": 272.761,
+"fin": 272.801,
+"score": 0.745
+},
+{
+"texto": "ponerte",
+"inicio": 272.861,
+"fin": 273.241,
+"score": 0.869
+},
+{
+"texto": "grande",
+"inicio": 273.301,
+"fin": 273.701,
+"score": 0.825
+},
+{
+"texto": "ni",
+"inicio": 273.901,
+"fin": 274.001,
+"score": 0.849
+},
+{
+"texto": "a",
+"inicio": 274.062,
+"fin": 274.102,
+"score": 0.668
+},
+{
+"texto": "subir",
+"inicio": 274.142,
+"fin": 274.402,
+"score": 0.837
+},
+{
+"texto": "peor",
+"inicio": 274.482,
+"fin": 274.742,
+"score": 0.95
+},
+{
+"texto": "Sígueme,",
+"inicio": 284.17,
+"fin": 284.491,
+"score": 0.807
+},
+{
+"texto": "porque",
+"inicio": 284.752,
+"fin": 284.893,
+"score": 0.999
+},
+{
+"texto": "aquí",
+"inicio": 284.933,
+"fin": 285.054,
+"score": 0.737
+},
+{
+"texto": "te",
+"inicio": 285.094,
+"fin": 285.154,
+"score": 0.804
+},
+{
+"texto": "enseño",
+"inicio": 285.174,
+"fin": 285.435,
+"score": 0.77
+},
+{
+"texto": "a",
+"inicio": 285.455,
+"fin": 285.475,
+"score": 0.01
+},
+{
+"texto": "hacerlo",
+"inicio": 285.495,
+"fin": 285.857,
+"score": 0.634
+},
+{
+"texto": "como",
+"inicio": 285.897,
+"fin": 286.037,
+"score": 0.75
+},
+{
+"texto": "ciclista,",
+"inicio": 286.118,
+"fin": 286.64,
+"score": 0.905
+},
+{
+"texto": "no",
+"inicio": 287.061,
+"fin": 287.182,
+"score": 0.956
+},
+{
+"texto": "como",
+"inicio": 287.383,
+"fin": 287.523,
+"score": 0.75
+},
+{
+"texto": "culturista.",
+"inicio": 287.603,
+"fin": 288.125,
+"score": 0.797
+}
+]

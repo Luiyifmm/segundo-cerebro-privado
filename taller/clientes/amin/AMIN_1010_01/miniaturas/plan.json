@@ -1,0 +1,170 @@
+[
+ {
+  "n": "arrow_025507_101026.png",
+  "tr": 3,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_025507_101026.png",
+  "s": 65.9,
+  "e": 70,
+  "des": 2.85,
+  "lado": "L",
+  "x": 0.14,
+  "y": 0.165,
+  "w": 667,
+  "h": 1000,
+  "crop": [
+   2,
+   8,
+   2,
+   28
+  ],
+  "esc": 45.29,
+  "escC": 124.9
+ },
+ {
+  "n": "arrow_025406_101026.png",
+  "tr": 2,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_025406_101026.png",
+  "s": 69.133,
+  "e": 73.9,
+  "des": 3.52,
+  "lado": "R",
+  "x": 0.86,
+  "y": 0.165,
+  "w": 800,
+  "h": 533,
+  "crop": [
+   25,
+   0,
+   8,
+   0
+  ],
+  "esc": 54.104,
+  "escC": 149.3
+ },
+ {
+  "n": "arrow_025633_101026.png",
+  "tr": 2,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_025633_101026.png",
+  "s": 73.267,
+  "e": 83.05,
+  "des": 8.55,
+  "lado": "L",
+  "x": 0.36,
+  "y": 0.165,
+  "w": 464,
+  "h": 700,
+  "crop": [
+   0,
+   2,
+   0,
+   10
+  ],
+  "esc": 47.078,
+  "escC": 146.1
+ },
+ {
+  "n": "arrow_025657_101026.png",
+  "tr": 3,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_025657_101026.png",
+  "s": 82.167,
+  "e": 86.27,
+  "des": 2.06,
+  "lado": "R",
+  "x": 0.64,
+  "y": 0.165,
+  "w": 736,
+  "h": 1104,
+  "crop": [
+   0,
+   0,
+   0,
+   28
+  ],
+  "esc": 36.483,
+  "escC": 108.7
+ },
+ {
+  "n": "arrow_025914_101026.png",
+  "tr": 2,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_025914_101026.png",
+  "s": 86.133,
+  "e": 91.3,
+  "des": 3.92,
+  "lado": "L",
+  "x": 0.14,
+  "y": 0.275,
+  "w": 1200,
+  "h": 1200,
+  "crop": [
+   15,
+   12,
+   10,
+   12
+  ],
+  "esc": 31.798,
+  "escC": 88.9
+ },
+ {
+  "n": "arrow_030014_101026.png",
+  "tr": 3,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_030014_101026.png",
+  "s": 90.4,
+  "e": 94.6,
+  "des": 2.95,
+  "lado": "R",
+  "x": 0.86,
+  "y": 0.275,
+  "w": 736,
+  "h": 981,
+  "crop": [
+   15,
+   20,
+   0,
+   8
+  ],
+  "esc": 41.058,
+  "escC": 127.4
+ },
+ {
+  "n": "arrow_030117_101026.png",
+  "tr": 2,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_030117_101026.png",
+  "s": 93.933,
+  "e": 97.95,
+  "des": 2.79,
+  "lado": "L",
+  "x": 0.36,
+  "y": 0.275,
+  "w": 736,
+  "h": 736,
+  "crop": [
+   30,
+   30,
+   0,
+   0
+  ],
+  "esc": 56.289,
+  "escC": 155.3
+ },
+ {
+  "n": "arrow_030210_101026.png",
+  "tr": 3,
+  "p": "/Users/luiyi/Documents/Adobe/Premiere Pro/26.0/Arrow/arrow_030210_101026.png",
+  "s": 97.067,
+  "e": 100.6,
+  "des": 2.48,
+  "lado": "R",
+  "x": 0.64,
+  "y": 0.275,
+  "w": 612,
+  "h": 816,
+  "crop": [
+   10,
+   22,
+   10,
+   15
+  ],
+  "esc": 56.411,
+  "escC": 163.4
+ }
+]

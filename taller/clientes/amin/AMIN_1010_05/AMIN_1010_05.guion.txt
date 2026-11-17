@@ -1,0 +1,62 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01 [x] Dale caña.   ← quitada a mano
+02 [x] ¡Uhhh!   ← quitada a mano
+03 [x] Durido eso, ¿eh?   ← quitada a mano
+04 [x] 5 tipos de mujeres con las que no puedes perder tu tiempo.   ← toma repetida
+05     5 tipos de mujeres con las que no puedes perder tu tiempo.
+06     La quinta es la peor y con diferencia.
+07 [x] Primero.   ← quitada a mano
+08     Primero, la que utiliza la intimidad como premio castigo.
+09     Es una manipuladora y no te ama.
+10 [x] Siguiente.   ← quitada a mano
+11     Dos.
+12 [x] ¡Pera, espera, espera!   ← quitada a mano
+13 [x] La que nunca acepta que se invoca y jamás pide perdón.   ← toma repetida
+14     La que nunca acepta que se invoca y jamás pide perdón.
+15 [x] La que nunca acepta que se invoca   ← quitada a mano
+16 [x] y jamás pide perdón.   ← quitada a mano
+17 [x] Y no te lo explico.   ← quitada a mano
+18 [x] No te lo explico.   ← quitada a mano
+19 [x] ni te lo explico.   ← toma repetida
+20     Ni te lo explico.
+21     Pasa de ella y me lo agradecerás.
+22     Tres.
+23 [x] La que necesita mantener a su ganado de amiguitos.   ← toma repetida
+24 [x] la que necesita mantener a su ganado de amiguito Homres, amiguitos hombres.   ← quitada a mano
+25     La que necesita mantener a su ganado de amiguitos hombres.
+26 [x] No tienes tiempo para esperar que maduren.   ← toma repetida
+27     No tienes tiempo para esperar que maduren.
+28 [x] Siguiente.   ← quitada a mano
+29 [x] La que no te respeta, no te va loca y no te apoya.   ← quitada a mano
+30     Cuatro.
+31 [x] es la cuarta verdad, ¿sí, no?   ← quitada a mano
+32 [x] Repíteme la frase, porfa.   ← quitada a mano
+33     La que no te respeta, no te valora y no te apoye.
+34     Red flag como una catedral, vete sin dar explicaciones.
+35     Y por quinto, la peor, la que solo pide y gasta.
+36     Te ve como su cajero automático y no como su hombre.
+37 [x] como su hombre.   ← quitada a mano
+38 [x] Esperate,   ← ruido
+39 [x] holona seco, esperate.   ← quitada a mano
+40 [x] ¿Cómo era?   ← quitada a mano
+41 [x] ¿Cómo era?   ← quitada a mano
+42 [x] Ganador y recuerda esta frase.   ← quitada a mano
+43 [x] Ganador no pierde ni un segundo de su energía con mujeres que le restan ¿no?   ← toma repetida
+44 [x] No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+45 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+46 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+47 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+48 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+49 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+50     ganador no pierde ni un segundo de energía aguantando mujeres que le restan
+51 [x] aguantando mujeres, perate, perate, aguantando a mujeres que le restan   ← quitada a mano
+52 [x] ahora   ← ruido
+53 [x] vale ahora se lo, ahora te lo saco   ← quitada a mano
+54 [x] esperate un segundo   ← quitada a mano
+55 [x] invierte su tiempo en qué?   ← quitada a mano
+56 [x] Invierte todo su tiempo en construir riqueza.   ← toma repetida
+57 [x] ¿Invierte todo su tiempo en construir riqueza?   ← toma repetida
+58     Invierte todo su tiempo en construir riqueza.
+59 [x] Sigueme para mejorar tu vida.   ← toma repetida
+60     Sigueme para mejorar tu vida.

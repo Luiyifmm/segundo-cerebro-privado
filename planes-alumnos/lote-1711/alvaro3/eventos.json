@@ -1,0 +1,86 @@
+[
+ {
+  "t": 0.0,
+  "type": "whoosh"
+ },
+ {
+  "t": 0.02,
+  "type": "sub_drop"
+ },
+ {
+  "t": 0.05,
+  "type": "hit"
+ },
+ {
+  "t": 0.1,
+  "type": "pop"
+ },
+ {
+  "t": 3.67,
+  "type": "pop"
+ },
+ {
+  "t": 6.03,
+  "type": "pop"
+ },
+ {
+  "t": 7.07,
+  "type": "pop"
+ },
+ {
+  "t": 8.05,
+  "type": "pop"
+ },
+ {
+  "t": 10.62,
+  "type": "pop"
+ },
+ {
+  "t": 12.54,
+  "type": "pop"
+ },
+ {
+  "t": 19.82,
+  "type": "click"
+ },
+ {
+  "t": 22.08,
+  "type": "click"
+ },
+ {
+  "t": 23.43,
+  "type": "whoosh"
+ },
+ {
+  "t": 23.64,
+  "type": "pop"
+ },
+ {
+  "t": 25.64,
+  "type": "pop"
+ },
+ {
+  "t": 26.5,
+  "type": "whoosh"
+ },
+ {
+  "t": 28.07,
+  "type": "click"
+ },
+ {
+  "t": 29.2,
+  "type": "click"
+ },
+ {
+  "t": 32.18,
+  "type": "whoosh"
+ },
+ {
+  "t": 32.7,
+  "type": "swoosh"
+ },
+ {
+  "t": 32.95,
+  "type": "click"
+ }
+]

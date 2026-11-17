@@ -1,0 +1,7 @@
+Funciones comunes copiadas al principio de cada receta (ExtendScript no tiene import):
+  seg(x)           -> objeto Time desde segundos
+  tk(x)            -> ticks en texto (s × 254016000000)
+  buscarSeq(nombre)-> secuencia por nombre exacto o prefijo
+  comp(clip,nombre)-> componente por displayName
+  qeItem(qt,t)     -> item QE de la pista qt que empieza en t (±0,02 s)
+  efecto(nombre)   -> efecto QE comprobando que EXISTE (si no, lanza error; un nombre mal escrito no falla solo)

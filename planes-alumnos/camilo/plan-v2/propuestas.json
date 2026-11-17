@@ -1,0 +1,206 @@
+[
+ {
+  "n": 1,
+  "tipo": "A-roll con tarjeta",
+  "texto": "GANCHO (petición del alumno): a su derecha, en la pared vacía, la foto del velocista de pista recortada en una tarjeta de cristal ligeramente girada, con caja de selección lima sobre el muslo y la etiqueta «¿TE PONDRÁS ASÍ?» (c028; Miro ANIMACIONES). Entra con zoom out + enfoque en 0,25 s y golpe grave + whoosh (c112, favoritas r22/r23/r25; tu gusto L4). Nombre «Camilo Arias» abajo a la izquierda una vez (c023, favorita r21).",
+  "especial": "sentadillas"
+ },
+ {
+  "n": 2,
+  "tipo": "A-roll + texto",
+  "texto": "«NO.» enorme en rojo #FF5A36 con golpe seco; la etiqueta de la tarjeta cambia a «SPOILER: NO» (c025). Motivo: el giro del gancho en un golpe.",
+  "especial": "No"
+ },
+ {
+  "n": 3,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "CORREGIDO POR LUIS (16-11): en «Estas piernas» zoom de golpe a Camilo con whoosh; en «ciclista de pista» corte a la FOTO DEL CICLISTA A PANTALLA COMPLETA con grano, viñeta y brillo suave (como sus animaciones de AE), zoom lento 1,06→1, caja lima en el muslo, «CICLISTA DE PISTA» en lima y nombre abajo a la izquierda.",
+  "especial": "ciclista de pista"
+ },
+ {
+  "n": 4,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "Sigue la foto a pantalla completa; nombre «Robert Förstemann · velocista de pista · Alemania» y crédito pequeño.",
+  "especial": "Förstemann"
+ },
+ {
+  "n": 5,
+  "tipo": "A-roll + texto",
+  "texto": "Vuelta a Camilo, subtítulo normal. «sentadillas» en Heavy.",
+  "especial": "sentadillas"
+ },
+ {
+  "n": 6,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Sobre su cabeza aparece una burbuja de mensaje de cristal (sin usuario ni foto: es la objeción típica, no un comentario real) con 🙅. Motivo: es la voz del espectador (c086 en espíritu, sin inventar comentarios).",
+  "especial": "alguien"
+ },
+ {
+  "n": 7,
+  "tipo": "A-roll con tarjeta",
+  "texto": "La burbuja escribe «Paso…».",
+  "especial": "paso"
+ },
+ {
+  "n": 8,
+  "tipo": "A-roll con tarjeta",
+  "texto": "(ver pregunta 2: «paso… mejor… paso» parece una toma repetida)",
+  "especial": "mejor"
+ },
+ {
+  "n": 9,
+  "tipo": "A-roll con tarjeta",
+  "texto": "La burbuja completa «que me pongo GRANDE y subo PEOR»; «grande» y «peor» en rojo. Pop al aparecer cada palabra.",
+  "especial": "grande"
+ },
+ {
+  "n": 10,
+  "tipo": "Comparación",
+  "texto": "Pantalla partida en dos tarjetas: ANTES (foto de Cami flaco) / AHORA (foto de hoy) (c015). FALTAN SUS FOTOS: mientras tanto, A-roll con «muy delgado» en Heavy.",
+  "especial": "delgado"
+ },
+ {
+  "n": 11,
+  "tipo": "Comparación",
+  "texto": "Sigue la comparación; «un montón de trabajo» en lima.",
+  "especial": "trabajo"
+ },
+ {
+  "n": 12,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Píldora de cristal «compite en descenso 🚵» junto a su mano (c019). Si llega su b-roll en bici, 1,5 s de b-roll con degradado lima abajo (c107).",
+  "especial": "descenso"
+ },
+ {
+  "n": 13,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Tres CUADRADOS de cristal sobre su cabeza (c088, tu L10), vacíos, con el título «PARA ESAS PIERNAS». Motivo: es una lista de 3 requisitos y se ve que hay tres.",
+  "especial": "piernas"
+ },
+ {
+  "n": 14,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Se llena el primero: ⏳ «años solo para eso». Pop.",
+  "especial": "años"
+ },
+ {
+  "n": 15,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Segundo: 🍝 «comer muchísimo». Pop.",
+  "especial": "muchísimo"
+ },
+ {
+  "n": 16,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Tercero: 🧬 «genética especial». Pop. Los tres quedan en rojo apagado.",
+  "especial": "genética"
+ },
+ {
+  "n": 17,
+  "tipo": "Comparación",
+  "texto": "Los tres cuadrados giran y muestran la cara «TÚ», en lima: primero 🏋️ «2 días de fuerza». Motivo: misma estructura para que la comparación se vea sola (c013 en espíritu).",
+  "especial": "dos días"
+ },
+ {
+  "n": 18,
+  "tipo": "Comparación",
+  "texto": "Sigue.",
+  "especial": "semana"
+ },
+ {
+  "n": 19,
+  "tipo": "Comparación",
+  "texto": "Segundo: 🔥 «bajar grasa».",
+  "especial": "grasa"
+ },
+ {
+  "n": 20,
+  "tipo": "Comparación",
+  "texto": "Tercero: 🚵 «montar el finde».",
+  "especial": "fin de"
+ },
+ {
+  "n": 21,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Vuelve la tarjeta del ciclista en pequeño y se tacha con el prohibido rojo (c063: el cierre repite el recurso del gancho). Zoom suave a Camilo.",
+  "especial": "despertar"
+ },
+ {
+  "n": 22,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Sigue.",
+  "especial": "piernas"
+ },
+ {
+  "n": 23,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Tres píldoras de cristal con ✓ lima que entran una a una a su lado (c011 / c019): «+ fuerza en el pedal». Si llega b-roll en bici, va aquí con degradado lima (c107).",
+  "especial": "más fuerza"
+ },
+ {
+  "n": 24,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Sigue la primera.",
+  "especial": "pedal"
+ },
+ {
+  "n": 25,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "«+ aguante en subidas».",
+  "especial": "subidas"
+ },
+ {
+  "n": 26,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "«+ cuerpo que aguanta caídas».",
+  "especial": "caídas"
+ },
+ {
+  "n": 27,
+  "tipo": "A-roll + texto",
+  "texto": "MORALEJA: «VELOCISTA DE PISTA» tachado en rojo (c025 en espíritu). Zoom de golpe con golpe grave.",
+  "especial": "velocista"
+ },
+ {
+  "n": 28,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "pista"
+ },
+ {
+  "n": 29,
+  "tipo": "A-roll + texto",
+  "texto": "«CICLISTA MÁS FUERTE» en lima, grande sobre la camiseta (c026). Respira: sin más gráficos.",
+  "especial": "ciclista más fuerte"
+ },
+ {
+  "n": 30,
+  "tipo": "A-roll + texto",
+  "texto": "«sube mejor y se ve mejor», el segundo «mejor» en lima.",
+  "especial": "se ve mejor"
+ },
+ {
+  "n": 31,
+  "tipo": "A-roll + texto",
+  "texto": "CTA en A-roll: subtítulo normal, «sin miedo» en Heavy.",
+  "especial": "sin miedo"
+ },
+ {
+  "n": 32,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "subir peor"
+ },
+ {
+  "n": 33,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Botón «Seguir» de cristal con @camiloariasfittmtb (c075, mismo acabado que los cuadrados).",
+  "especial": "Sígueme"
+ },
+ {
+  "n": 34,
+  "tipo": "A-roll con tarjeta",
+  "texto": "«NO COMO CULTURISTA» con «culturista» en rojo tachado; el botón pasa a «Siguiendo».",
+  "especial": "culturista"
+ }
+]

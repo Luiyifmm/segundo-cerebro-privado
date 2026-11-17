@@ -1,0 +1,4 @@
+// Ordena la raíz de un proyecto de lote: todo lo que no sea bandeja numerada va a "00 EJEMPLO (editado por ti)". Guarda.
+(function () { var root = app.project.rootItem, bin = null, i, mov = 0; for (i = 0; i < root.children.numItems; i++) if (root.children[i].type === 2 && root.children[i].name.indexOf("00 EJEMPLO") === 0) bin = root.children[i]; if (!bin) bin = root.createBin("00 EJEMPLO (editado por ti)");
+  for (i = root.children.numItems - 1; i >= 0; i--) { var c = root.children[i]; if (c.nodeId === bin.nodeId || (c.type === 2 && /^\d\d /.test(c.name))) continue; try { c.moveBin(bin); mov++; } catch (e) {} }
+  var n = []; for (i = 0; i < root.children.numItems; i++) n.push(root.children[i].name); try { app.project.save(); } catch (e) {} return "movidos " + mov + " | raiz: " + n.join(" / "); })();

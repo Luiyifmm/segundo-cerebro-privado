@@ -1,0 +1,1332 @@
+{
+ "subtitulos": [
+  [
+   0.0,
+   0.521,
+   "Dar like",
+   ""
+  ],
+  [
+   0.541,
+   1.562,
+   "a otras mujeres es",
+   ""
+  ],
+  [
+   1.582,
+   2.193,
+   "de",
+   "niñato"
+  ],
+  [
+   2.213,
+   2.993,
+   "Perseguir a mujeres",
+   ""
+  ],
+  [
+   3.013,
+   3.954,
+   "por puro deseo",
+   ""
+  ],
+  [
+   3.974,
+   4.724,
+   "de",
+   "perdedor"
+  ],
+  [
+   5.231,
+   6.442,
+   "presumiendo tu dinero",
+   ""
+  ],
+  [
+   6.462,
+   7.841,
+   "de niñat",
+   "estúpido"
+  ],
+  [
+   7.861,
+   8.181,
+   "Evitar",
+   ""
+  ],
+  [
+   8.201,
+   9.202,
+   "lo que genera inseguridad",
+   ""
+  ],
+  [
+   9.222,
+   10.096,
+   "en tu pareja",
+   ""
+  ],
+  [
+   10.116,
+   11.052,
+   "de hombre",
+   "maduro"
+  ],
+  [
+   11.072,
+   12.393,
+   "respetarla incluso cuando",
+   ""
+  ],
+  [
+   12.413,
+   12.833,
+   "ella no te",
+   ""
+  ],
+  [
+   12.853,
+   13.673,
+   "ve de hombre",
+   ""
+  ],
+  [
+   13.693,
+   14.539,
+   "con",
+   "valores"
+  ],
+  [
+   14.559,
+   15.459,
+   "Dar seguridad emocional",
+   ""
+  ],
+  [
+   15.479,
+   15.839,
+   "y actuar",
+   ""
+  ],
+  [
+   15.859,
+   16.77,
+   "con coherencia De hombre",
+   ""
+  ],
+  [
+   16.79,
+   17.322,
+   "de",
+   "alto valor"
+  ],
+  [
+   17.342,
+   17.582,
+   "esta es",
+   ""
+  ],
+  [
+   17.602,
+   18.923,
+   "la diferencia exacta entre",
+   ""
+  ],
+  [
+   18.943,
+   19.503,
+   "un niñato",
+   ""
+  ],
+  [
+   19.523,
+   20.747,
+   "y un hombre de",
+   "alto valor"
+  ],
+  [
+   20.767,
+   21.407,
+   "una mujer",
+   ""
+  ],
+  [
+   21.427,
+   23.108,
+   "de alto valor nunca",
+   ""
+  ],
+  [
+   23.128,
+   23.808,
+   "va a elegir",
+   ""
+  ],
+  [
+   23.828,
+   24.69,
+   "a un",
+   "niñato"
+  ],
+  [
+   24.71,
+   25.051,
+   "quieres",
+   ""
+  ],
+  [
+   25.071,
+   25.551,
+   "a una reina",
+   ""
+  ],
+  [
+   25.571,
+   27.125,
+   "a tu lado primero tienes",
+   ""
+  ],
+  [
+   27.145,
+   27.586,
+   "que dejar",
+   ""
+  ],
+  [
+   27.606,
+   28.686,
+   "de comportarte como",
+   ""
+  ],
+  [
+   28.706,
+   29.761,
+   "un peón y avanzar",
+   ""
+  ],
+  [
+   29.781,
+   30.262,
+   "a la casilla",
+   ""
+  ],
+  [
+   30.282,
+   30.702,
+   "del final",
+   ""
+  ],
+  [
+   30.722,
+   32.231,
+   "y convertirte en un",
+   "rey"
+  ],
+  [
+   32.251,
+   33.352,
+   "y ahí empezar",
+   ""
+  ],
+  [
+   33.372,
+   34.986,
+   "a construir tu",
+   "imperio"
+  ],
+  [
+   35.006,
+   35.987,
+   "sígueme si quieres",
+   ""
+  ],
+  [
+   36.007,
+   37.268,
+   "ser un alfa",
+   ""
+  ],
+  [
+   37.288,
+   39.451,
+   "ganador quieres mejorar",
+   ""
+  ],
+  [
+   39.471,
+   40.001,
+   "tu",
+   "vida"
+  ]
+ ],
+ "marcas": [
+  {
+   "bloque": "c1",
+   "tipo": "N",
+   "palabra": "perdedor",
+   "t": 4.184,
+   "fiable": true
+  },
+  {
+   "bloque": "c2",
+   "tipo": "N",
+   "palabra": "estúpido",
+   "t": 7.292,
+   "fiable": true
+  },
+  {
+   "bloque": "c3",
+   "tipo": "H",
+   "palabra": "maduro",
+   "t": 10.626,
+   "fiable": true
+  },
+  {
+   "bloque": "c4",
+   "tipo": "H",
+   "palabra": "valores",
+   "t": 13.923,
+   "fiable": true
+  },
+  {
+   "bloque": "c5",
+   "tipo": "H",
+   "palabra": "alto valor",
+   "t": 16.94,
+   "fiable": false
+  },
+  {
+   "bloque": "m1",
+   "tipo": "FIN",
+   "palabra": "alto valor",
+   "t": 20.154,
+   "fiable": true
+  }
+ ],
+ "palabras": [
+  {
+   "t": 0.05,
+   "f": 0.191,
+   "w": "Dar",
+   "b": "gancho",
+   "fiable": true,
+   "tramo": 0
+  },
+  {
+   "t": 0.251,
+   "f": 0.571,
+   "w": "like",
+   "b": "gancho",
+   "fiable": false,
+   "tramo": 0
+  },
+  {
+   "t": 0.591,
+   "f": 0.611,
+   "w": "a",
+   "b": "gancho",
+   "fiable": false,
+   "tramo": 0
+  },
+  {
+   "t": 0.651,
+   "f": 0.851,
+   "w": "otras",
+   "b": "gancho",
+   "fiable": true,
+   "tramo": 0
+  },
+  {
+   "t": 0.911,
+   "f": 1.271,
+   "w": "mujeres",
+   "b": "gancho",
+   "fiable": true,
+   "tramo": 0
+  },
+  {
+   "t": 1.291,
+   "f": 1.331,
+   "w": "es",
+   "b": "gancho",
+   "fiable": false,
+   "tramo": 0
+  },
+  {
+   "t": 1.632,
+   "f": 1.712,
+   "w": "de",
+   "b": "gancho",
+   "fiable": true,
+   "tramo": 0
+  },
+  {
+   "t": 1.772,
+   "f": 2.192,
+   "w": "niñato",
+   "b": "gancho",
+   "fiable": true,
+   "tramo": 0
+  },
+  {
+   "t": 2.263,
+   "f": 2.643,
+   "w": "Perseguir",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 1
+  },
+  {
+   "t": 2.663,
+   "f": 2.683,
+   "w": "a",
+   "b": "c1",
+   "fiable": false,
+   "tramo": 1
+  },
+  {
+   "t": 2.703,
+   "f": 3.003,
+   "w": "mujeres",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 1
+  },
+  {
+   "t": 3.063,
+   "f": 3.163,
+   "w": "por",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 1
+  },
+  {
+   "t": 3.223,
+   "f": 3.404,
+   "w": "puro",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 1
+  },
+  {
+   "t": 3.444,
+   "f": 3.844,
+   "w": "deseo",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 1
+  },
+  {
+   "t": 4.024,
+   "f": 4.124,
+   "w": "de",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 2
+  },
+  {
+   "t": 4.184,
+   "f": 4.604,
+   "w": "perdedor",
+   "b": "c1",
+   "fiable": true,
+   "tramo": 2
+  },
+  {
+   "t": 5.281,
+   "f": 5.721,
+   "w": "presumiendo",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 3
+  },
+  {
+   "t": 5.781,
+   "f": 5.861,
+   "w": "tu",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 3
+  },
+  {
+   "t": 5.881,
+   "f": 6.301,
+   "w": "dinero",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 3
+  },
+  {
+   "t": 6.512,
+   "f": 6.612,
+   "w": "de",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 4
+  },
+  {
+   "t": 6.652,
+   "f": 7.012,
+   "w": "niñat",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 4
+  },
+  {
+   "t": 7.292,
+   "f": 7.752,
+   "w": "estúpido",
+   "b": "c2",
+   "fiable": true,
+   "tramo": 4
+  },
+  {
+   "t": 7.911,
+   "f": 8.191,
+   "w": "Evitar",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 8.251,
+   "f": 8.311,
+   "w": "lo",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 8.331,
+   "f": 8.431,
+   "w": "que",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 8.491,
+   "f": 8.751,
+   "w": "genera",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 8.791,
+   "f": 9.232,
+   "w": "inseguridad",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 9.272,
+   "f": 9.332,
+   "w": "en",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 9.372,
+   "f": 9.472,
+   "w": "tu",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 9.492,
+   "f": 9.812,
+   "w": "pareja",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 5
+  },
+  {
+   "t": 10.166,
+   "f": 10.266,
+   "w": "de",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 6
+  },
+  {
+   "t": 10.306,
+   "f": 10.566,
+   "w": "hombre",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 6
+  },
+  {
+   "t": 10.626,
+   "f": 10.946,
+   "w": "maduro",
+   "b": "c3",
+   "fiable": true,
+   "tramo": 6
+  },
+  {
+   "t": 11.122,
+   "f": 11.742,
+   "w": "respetarla",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 11.782,
+   "f": 12.122,
+   "w": "incluso",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 12.202,
+   "f": 12.443,
+   "w": "cuando",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 12.463,
+   "f": 12.603,
+   "w": "ella",
+   "b": "c4",
+   "fiable": false,
+   "tramo": 7
+  },
+  {
+   "t": 12.643,
+   "f": 12.723,
+   "w": "no",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 12.763,
+   "f": 12.843,
+   "w": "te",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 12.903,
+   "f": 13.043,
+   "w": "ve",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 7
+  },
+  {
+   "t": 13.243,
+   "f": 13.343,
+   "w": "de",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 8
+  },
+  {
+   "t": 13.403,
+   "f": 13.663,
+   "w": "hombre",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 8
+  },
+  {
+   "t": 13.743,
+   "f": 13.883,
+   "w": "con",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 8
+  },
+  {
+   "t": 13.923,
+   "f": 14.324,
+   "w": "valores",
+   "b": "c4",
+   "fiable": true,
+   "tramo": 8
+  },
+  {
+   "t": 14.609,
+   "f": 14.729,
+   "w": "Dar",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 14.789,
+   "f": 15.069,
+   "w": "seguridad",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 15.089,
+   "f": 15.489,
+   "w": "emocional",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 15.529,
+   "f": 15.569,
+   "w": "y",
+   "b": "c5",
+   "fiable": false,
+   "tramo": 9
+  },
+  {
+   "t": 15.589,
+   "f": 15.849,
+   "w": "actuar",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 15.909,
+   "f": 16.009,
+   "w": "con",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 16.069,
+   "f": 16.469,
+   "w": "coherencia",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 9
+  },
+  {
+   "t": 16.54,
+   "f": 16.6,
+   "w": "De",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 10
+  },
+  {
+   "t": 16.64,
+   "f": 16.82,
+   "w": "hombre",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 10
+  },
+  {
+   "t": 16.84,
+   "f": 16.9,
+   "w": "de",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 10
+  },
+  {
+   "t": 16.94,
+   "f": 17.06,
+   "w": "alto",
+   "b": "c5",
+   "fiable": true,
+   "tramo": 10
+  },
+  {
+   "t": 17.08,
+   "f": 17.24,
+   "w": "valor",
+   "b": "c5",
+   "fiable": false,
+   "tramo": 10
+  },
+  {
+   "t": 17.392,
+   "f": 17.532,
+   "w": "esta",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 17.572,
+   "f": 17.632,
+   "w": "es",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 17.652,
+   "f": 17.712,
+   "w": "la",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 17.772,
+   "f": 18.152,
+   "w": "diferencia",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 18.212,
+   "f": 18.573,
+   "w": "exacta",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 18.673,
+   "f": 18.913,
+   "w": "entre",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 18.993,
+   "f": 19.053,
+   "w": "un",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 19.073,
+   "f": 19.493,
+   "w": "niñato",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 19.573,
+   "f": 19.634,
+   "w": "y",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 19.694,
+   "f": 19.734,
+   "w": "un",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 19.774,
+   "f": 19.994,
+   "w": "hombre",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 20.034,
+   "f": 20.094,
+   "w": "de",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 20.154,
+   "f": 20.334,
+   "w": "alto",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 20.374,
+   "f": 20.614,
+   "w": "valor",
+   "b": "m1",
+   "fiable": true,
+   "tramo": 11
+  },
+  {
+   "t": 20.817,
+   "f": 20.957,
+   "w": "una",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 12
+  },
+  {
+   "t": 21.017,
+   "f": 21.337,
+   "w": "mujer",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 12
+  },
+  {
+   "t": 21.477,
+   "f": 21.597,
+   "w": "de",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 12
+  },
+  {
+   "t": 21.677,
+   "f": 21.917,
+   "w": "alto",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 12
+  },
+  {
+   "t": 21.977,
+   "f": 22.277,
+   "w": "valor",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 12
+  },
+  {
+   "t": 22.598,
+   "f": 23.078,
+   "w": "nunca",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 23.178,
+   "f": 23.338,
+   "w": "va",
+   "b": "m2",
+   "fiable": false,
+   "tramo": 13
+  },
+  {
+   "t": 23.358,
+   "f": 23.378,
+   "w": "a",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 23.438,
+   "f": 23.838,
+   "w": "elegir",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 23.878,
+   "f": 23.898,
+   "w": "a",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 23.998,
+   "f": 24.079,
+   "w": "un",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 24.099,
+   "f": 24.539,
+   "w": "niñato",
+   "b": "m2",
+   "fiable": true,
+   "tramo": 13
+  },
+  {
+   "t": 24.76,
+   "f": 25.081,
+   "w": "quieres",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 25.121,
+   "f": 25.161,
+   "w": "a",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 25.201,
+   "f": 25.321,
+   "w": "una",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 25.401,
+   "f": 25.541,
+   "w": "reina",
+   "b": "m3",
+   "fiable": false,
+   "tramo": 14
+  },
+  {
+   "t": 25.621,
+   "f": 25.661,
+   "w": "a",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 25.681,
+   "f": 25.761,
+   "w": "tu",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 25.801,
+   "f": 26.081,
+   "w": "lado",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 14
+  },
+  {
+   "t": 26.475,
+   "f": 26.895,
+   "w": "primero",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 26.955,
+   "f": 27.155,
+   "w": "tienes",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 27.195,
+   "f": 27.295,
+   "w": "que",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 27.355,
+   "f": 27.596,
+   "w": "dejar",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 27.656,
+   "f": 27.736,
+   "w": "de",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 27.796,
+   "f": 28.436,
+   "w": "comportarte",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 28.536,
+   "f": 28.716,
+   "w": "como",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 28.756,
+   "f": 28.856,
+   "w": "un",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 28.916,
+   "f": 29.216,
+   "w": "peón",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 15
+  },
+  {
+   "t": 29.236,
+   "f": 29.256,
+   "w": "y",
+   "b": "m3",
+   "fiable": false,
+   "tramo": 15
+  },
+  {
+   "t": 29.471,
+   "f": 29.811,
+   "w": "avanzar",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 29.831,
+   "f": 29.871,
+   "w": "a",
+   "b": "m3",
+   "fiable": false,
+   "tramo": 16
+  },
+  {
+   "t": 29.911,
+   "f": 29.951,
+   "w": "la",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 30.011,
+   "f": 30.312,
+   "w": "casilla",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 30.332,
+   "f": 30.432,
+   "w": "del",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 30.492,
+   "f": 30.752,
+   "w": "final",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 30.772,
+   "f": 30.792,
+   "w": "y",
+   "b": "m3",
+   "fiable": false,
+   "tramo": 16
+  },
+  {
+   "t": 31.092,
+   "f": 31.653,
+   "w": "convertirte",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 31.673,
+   "f": 31.753,
+   "w": "en",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 31.813,
+   "f": 31.893,
+   "w": "un",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 31.953,
+   "f": 32.133,
+   "w": "rey",
+   "b": "m3",
+   "fiable": true,
+   "tramo": 16
+  },
+  {
+   "t": 32.301,
+   "f": 32.381,
+   "w": "y",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 17
+  },
+  {
+   "t": 32.461,
+   "f": 32.681,
+   "w": "ahí",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 17
+  },
+  {
+   "t": 32.902,
+   "f": 33.362,
+   "w": "empezar",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 18
+  },
+  {
+   "t": 33.422,
+   "f": 33.462,
+   "w": "a",
+   "b": "cierre",
+   "fiable": false,
+   "tramo": 18
+  },
+  {
+   "t": 33.582,
+   "f": 34.143,
+   "w": "construir",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 18
+  },
+  {
+   "t": 34.283,
+   "f": 34.383,
+   "w": "tu",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 18
+  },
+  {
+   "t": 34.443,
+   "f": 34.883,
+   "w": "imperio",
+   "b": "cierre",
+   "fiable": true,
+   "tramo": 18
+  },
+  {
+   "t": 35.056,
+   "f": 35.497,
+   "w": "sígueme",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 35.657,
+   "f": 35.737,
+   "w": "si",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 35.777,
+   "f": 35.997,
+   "w": "quieres",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 36.057,
+   "f": 36.257,
+   "w": "ser",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 36.497,
+   "f": 36.577,
+   "w": "un",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 36.637,
+   "f": 37.038,
+   "w": "alfa",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 37.338,
+   "f": 37.718,
+   "w": "ganador",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 19
+  },
+  {
+   "t": 37.979,
+   "f": 38.34,
+   "w": "quieres",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 20
+  },
+  {
+   "t": 38.72,
+   "f": 39.12,
+   "w": "mejorar",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 20
+  },
+  {
+   "t": 39.521,
+   "f": 39.621,
+   "w": "tu",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 20
+  },
+  {
+   "t": 39.661,
+   "f": 39.881,
+   "w": "vida",
+   "b": "cta",
+   "fiable": true,
+   "tramo": 20
+  }
+ ]
+}

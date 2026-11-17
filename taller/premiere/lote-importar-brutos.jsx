@@ -1,0 +1,7 @@
+// Importa los brutos de un reel en su bandeja y devuelve cómo interpreta Premiere cada archivo (tamaño), para generar el proxy adecuado.
+(function () { var CFG = __CFG__, r = {}, i; if (app.project.name !== CFG.proyecto) { app.openDocument(CFG.ruta, true, true, true); if (app.project.name !== CFG.proyecto) return "no activo"; }
+  var root = app.project.rootItem, bin = null; for (i = 0; i < root.children.numItems; i++) if (root.children[i].type === 2 && root.children[i].name === CFG.bin) bin = root.children[i]; if (!bin) bin = root.createBin(CFG.bin);
+  var ya = {}; for (i = 0; i < bin.children.numItems; i++) { try { ya[bin.children[i].getMediaPath()] = 1; } catch (e) {} } var falta = []; for (i = 0; i < CFG.fuentes.length; i++) if (!ya[CFG.fuentes[i]]) falta.push(CFG.fuentes[i]);
+  if (falta.length) app.project.importFiles(falta, true, bin, false);
+  for (i = 0; i < bin.children.numItems; i++) { var c = bin.children[i], mp = ""; try { mp = c.getMediaPath(); } catch (e) {} if (!mp) continue; var md = ""; try { md = c.getProjectMetadata(); } catch (e) {} var m = /VideoInfo>(\d+) x (\d+)/.exec(md); r[mp] = m ? [+m[1], +m[2]] : null; }
+  try { app.project.save(); } catch (e) {} return JSON.stringify(r); })();

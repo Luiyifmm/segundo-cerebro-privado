@@ -1,0 +1,11 @@
+// Opción B: las fotos v2 (solo usadas en B) pasan a las imágenes de Pinterest (v3) y las miniaturas a v4. Mismo tamaño, mismas claves.
+(function () { app.enableQE(); var r = { hecho: [], errores: [] }, i, T = 254016000000, C = "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1010_01/", S = "/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/", B = null;
+  for (i = 0; i < app.project.sequences.numSequences; i++) if (app.project.sequences[i].name === "AMIN_1010_01 - B motion graphics nuevos") B = app.project.sequences[i]; if (!B) return "sin secuencia B";
+  app.project.openSequence(B.sequenceID);
+  function buscar(b, nombre) { for (var x = 0; x < b.children.numItems; x++) { var c = b.children[x]; if (c.type === 2) { var h = buscar(c, nombre); if (h) return h; } else if (c.name === nombre) return c; } return null; }
+  var M = [["amin v2 01 estudiante.jpg", "imagenes/v3-pinterest/amin v3 01 escuela.jpg"], ["amin v2 02 marioneta.jpg", "imagenes/v3-pinterest/amin v3 02 obedecer.jpg"], ["amin v2 03 rebelde.jpg", "imagenes/v3-pinterest/amin v3 03 rebelde.jpg"], ["amin v2 04 los demas.jpg", "imagenes/v3-pinterest/amin v3 04 los demas.jpg"], ["amin v2 05 prioridad.jpg", "imagenes/v3-pinterest/amin v3 05 prioridad.jpg"], ["amin v2 06 funcionario.jpg", "imagenes/v3-pinterest/amin v3 06 funcionario.jpg"], ["amin v2 07 libre.jpg", "imagenes/v3-pinterest/amin v3 07 libre.jpg"]];
+  for (i = 1; i <= 6; i++) M.push(["miniaturas amin v3 0" + i + ".png", "miniaturas/v4/miniaturas amin v4 0" + i + ".png"]);
+  var n = 0; for (i = 0; i < M.length; i++) { var it = buscar(app.project.rootItem, M[i][0]); if (!it) { r.errores.push("no encuentro " + M[i][0]); continue; } if (!it.canChangeMediaPath()) { r.errores.push("no cambia " + M[i][0]); continue; } it.changeMediaPath(C + M[i][1], true); it.name = M[i][1].substr(M[i][1].lastIndexOf("/") + 1); n++; }
+  r.hecho.push("medios cambiados: " + n);
+  var q = qe.project.getActiveSequence(), ts = [67.6, 72.0, 76.0, 81.0, 85.0, 88.5, 91.2, 92.3]; for (i = 0; i < ts.length; i++) { B.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, S + "bp-" + i); }
+  return JSON.stringify(r); })();

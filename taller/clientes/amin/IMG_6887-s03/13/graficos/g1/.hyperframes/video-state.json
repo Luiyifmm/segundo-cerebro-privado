@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "historyId": "aadde8a3-f080-43ee-b572-088a2cb0fb8c",
+  "currentRevision": "2b21c7c3-9aee-43dd-a9c9-fb3a9f1343e1",
+  "pendingChanges": false,
+  "files": {
+    "NyghtSerif-LightItalic.otf": {
+      "hash": "816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4",
+      "content": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/81/816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4"
+    },
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "9db7f73c86736d2c7b5d4563aed8a17816a9b52bfa7298e5a5f46f0906185f39",
+      "content": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/9d/9db7f73c86736d2c7b5d4563aed8a17816a9b52bfa7298e5a5f46f0906185f39"
+    }
+  },
+  "revisions": {
+    "5829882f-f7b9-48c3-8bb4-f33c200857ad": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794220287424,
+      "endedAt": 1794220287424,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/58/58f41737bd67cac4d3b17e19e60c13389d4ae813614b51e79bd949867774a69e",
+          "after": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/90/90f041dd5ba91c64cf4da01970c76869ee3075f294d1c8fe191a6aab5e405bf5"
+        }
+      }
+    },
+    "2b21c7c3-9aee-43dd-a9c9-fb3a9f1343e1": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794222515367,
+      "endedAt": 1794222515368,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/90/90f041dd5ba91c64cf4da01970c76869ee3075f294d1c8fe191a6aab5e405bf5",
+          "after": "/Users/luiyi/.cache/hyperframes/history/aadde8a3-f080-43ee-b572-088a2cb0fb8c/blobs/9d/9db7f73c86736d2c7b5d4563aed8a17816a9b52bfa7298e5a5f46f0906185f39"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "2099127e-9395-4d29-ab4a-78e5a0d05190",
+      "completedAt": 1794222526589,
+      "output": "/tmp/hf-render.KApZae/bruto.mov",
+      "status": "completed",
+      "revision": "2b21c7c3-9aee-43dd-a9c9-fb3a9f1343e1"
+    },
+    "retainedRevisions": [
+      "2b21c7c3-9aee-43dd-a9c9-fb3a9f1343e1",
+      "5829882f-f7b9-48c3-8bb4-f33c200857ad"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

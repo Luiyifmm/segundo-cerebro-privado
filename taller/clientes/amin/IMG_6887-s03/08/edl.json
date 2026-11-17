@@ -1,0 +1,93 @@
+[
+ {
+  "bloque": "G",
+  "entrada": 9.97,
+  "salida": 11.97,
+  "t_montaje": 0,
+  "texto": "Haz esto y tu vida cambia en seis meses"
+ },
+ {
+  "bloque": "p1",
+  "entrada": 16.56,
+  "salida": 18.15,
+  "t_montaje": 2.0,
+  "texto": "Ponte en forma y deja el porno"
+ },
+ {
+  "bloque": "p2",
+  "entrada": 42.73,
+  "salida": 44.1,
+  "t_montaje": 3.59,
+  "texto": "Cero móvil por las mañanas"
+ },
+ {
+  "bloque": "p3",
+  "entrada": 59.11,
+  "salida": 61.14,
+  "t_montaje": 4.96,
+  "texto": "Busca un mentor que esté donde tú quieres estar"
+ },
+ {
+  "bloque": "p4",
+  "entrada": 73.65,
+  "salida": 76.98,
+  "t_montaje": 6.99,
+  "texto": "Deja de mirar las historias de los demás y no le cuentes tus metas a nadie"
+ },
+ {
+  "bloque": "p5",
+  "entrada": 83.46,
+  "salida": 85.12,
+  "t_montaje": 10.32,
+  "texto": "Sal del grupo que no aporta"
+ },
+ {
+  "bloque": "p6b",
+  "entrada": 91.08,
+  "salida": 93.55,
+  "t_montaje": 11.98,
+  "texto": "Di que no al 99 % de los planes"
+ },
+ {
+  "bloque": "p7",
+  "entrada": 97.59,
+  "salida": 98.46,
+  "t_montaje": 14.45,
+  "texto": "Aprende a vender"
+ },
+ {
+  "bloque": "p8",
+  "entrada": 103.15,
+  "salida": 104.35,
+  "t_montaje": 15.32,
+  "texto": "Cobra más caro"
+ },
+ {
+  "bloque": "p9",
+  "entrada": 116.81,
+  "salida": 119.24,
+  "t_montaje": 16.52,
+  "texto": "Te van a odiar y te van a llamar loco. Acostúmbrate"
+ },
+ {
+  "bloque": "p10",
+  "entrada": 121.96,
+  "salida": 123.6,
+  "t_montaje": 18.95,
+  "texto": "Hazlo con miedo, pero hazlo"
+ },
+ {
+  "bloque": "D",
+  "entrada": 133.66,
+  "salida": 137.89,
+  "t_montaje": 20.59,
+  "texto": "Y la que más dinero da: deja de cambiar horas por dinero"
+ },
+ {
+  "bloque": "CTA",
+  "entrada": 142.5,
+  "salida": 151.05,
+  "t_montaje": 24.82,
+  "texto": "Si tú quieres aprender cómo puedes vivir del fitness y cómo puedes ganar decenas de miles de euros como entrenador online, comenta la palabra PLAN y te estaré enviando la clase gratuita"
+ }
+]

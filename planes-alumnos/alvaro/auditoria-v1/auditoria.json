@@ -1,0 +1,221 @@
+{
+ "escenas": [
+  {
+   "n": "Lunes · mesa con baguette",
+   "t": "0,0–2,2 s",
+   "antes": [
+    "v_1.6"
+   ],
+   "ahora": [
+    "n_1.6"
+   ],
+   "hice": "Las dos tomas superpuestas: el cliente sentado a la izquierda y el entrenador de pie a la derecha, en el mismo cuadro (máscara estática al 60 % del ancho). «PAN» en Sequel Heavy roja (#FF5F57). Arriba, la semana: LUN se enciende y se tacha con ✕ al terminar la frase.",
+   "porque": "Es lo que pidió el alumno: los dos personajes juntos. La semana cuenta el sketch sin añadir texto (banco c012).",
+   "checks": [
+    [
+     "ok",
+     "Se ve a los dos con la cara dentro del cuadro (la v1 enseñaba una pared vacía)"
+    ],
+    [
+     "ok",
+     "Golpe grave en «nada»: medido a −2 ms"
+    ],
+    [
+     "mirar",
+     "Continuidad del pan en la unión: mirado en 1 fotograma, no en movimiento"
+    ]
+   ]
+  },
+  {
+   "n": "Martes · mesa con croissant",
+   "t": "2,2–5,5 s",
+   "antes": [
+    "v_3.0",
+    "v_4.3"
+   ],
+   "ahora": [
+    "n_2.9",
+    "n_3.6",
+    "n_5.2"
+   ],
+   "hice": "Misma mesa, ahora con el croissant. En «chocolate», la pintura de pan y chocolate 0,75 s con «CHOCOLATE» en rojo (le borré el subtítulo que traía de la v1). Vuelve a la escena y el cliente dice «¿Cómo me voy a poner?» con un zoom al 130 % hacia su cara.",
+   "porque": "La pintura ya no tapa la reacción (fallo de la v1). El zoom era la promesa incumplida del motor y es la reacción más cómica.",
+   "checks": [
+    [
+     "ok",
+     "Zoom hacia la cara del cliente"
+    ],
+    [
+     "ok",
+     "El audio de cada frase sale de la toma de quien habla"
+    ],
+    [
+     "mirar",
+     "Queda una mancha leve en la pintura donde estaba el texto"
+    ],
+    [
+     "nv",
+     "Si el zoom tiembla: solo he visto fotogramas"
+    ]
+   ]
+  },
+  {
+   "n": "Miércoles · puerta",
+   "t": "5,5–10,1 s",
+   "antes": [
+    "v_7.6",
+    "v_9.8"
+   ],
+   "ahora": [
+    "n_7.6",
+    "n_9.6"
+   ],
+   "hice": "Entrenador de pie a la izquierda con la libreta; cliente sentado a la derecha con el móvil (máscara al 40 %). «salir a cenar» en rojo; «Les digo que NO» con el NO grande en blanco.",
+   "porque": "En la v1 esta escena era una puerta sin nadie a la vista.",
+   "checks": [
+    [
+     "ok",
+     "Los dos en cuadro"
+    ],
+    [
+     "mirar",
+     "Se intuye una franja más clara en la unión"
+    ],
+    [
+     "ok",
+     "MIÉ se tacha justo antes del «no» del cliente"
+    ]
+   ]
+  },
+  {
+   "n": "Jueves · sofá",
+   "t": "10,1–13,2 s",
+   "antes": [
+    "v_11.8",
+    "v_13.9"
+   ],
+   "ahora": [
+    "n_11.5",
+    "n_12.6"
+   ],
+   "hice": "Entrenador de pie detrás del sofá; cliente delante comiendo la manzana (máscara solo en la parte delantera y la gorra; +0,4 EV a su toma porque el sol era distinto). «MANZANA» en el azul de su marca y JUE se marca con ✓. «Muy bien» viene de otra toma del entrenador.",
+   "porque": "Es el único día que hace bien: el ✓ azul lo distingue de los tres ✕.",
+   "checks": [
+    [
+     "ok",
+     "Luz de las dos tomas igualada"
+    ],
+    [
+     "mirar",
+     "Salto en la mitad del entrenador a 12,3 s al cambiar de toma para «Muy bien»"
+    ],
+    [
+     "mirar",
+     "Halo leve en el borde del respaldo"
+    ]
+   ]
+  },
+  {
+   "n": "Cocina · el cliente en la nevera",
+   "t": "13,2–15,7 s",
+   "antes": [
+    "v_14.6"
+   ],
+   "ahora": [
+    "n_13.6"
+   ],
+   "hice": "Plano solo del cliente con gorra abriendo la nevera. Sin texto. La semana sigue arriba (✕ ✕ ✕ ✓).",
+   "porque": "Prepara el remate: el «día bueno» no lo era tanto.",
+   "checks": [
+    [
+     "mirar",
+     "2,5 s sin texto ni gráfico: puede no entenderse que está picando a escondidas"
+    ],
+    [
+     "nv",
+     "No hay cartel de hora («Jueves, 23:47»); sería una idea mía, no estaba en el plan"
+    ]
+   ]
+  },
+  {
+   "n": "Remate · «¿Pero qué haces?»",
+   "t": "15,7–19,1 s",
+   "antes": [
+    "v_15.5",
+    "v_16.6"
+   ],
+   "ahora": [
+    "n_17.0",
+    "n_18.9"
+   ],
+   "hice": "El entrenador en la puerta de la cocina. Al decir «haces», el ✓ azul del jueves se vuelve ✕ rojo con golpe grave. Después, el botón «Seguir → Siguiendo».",
+   "porque": "El cambio del ✓ al ✕ es el chiste en un gesto (idea mía, fuera del plan). El botón va después del remate, no encima.",
+   "checks": [
+    [
+     "ok",
+     "Golpe y ✕ a la vez (medido a +25 ms)"
+    ],
+    [
+     "mirar",
+     "El botón dura solo 0,95 s; el vídeo se acaba con la frase"
+    ],
+    [
+     "mirar",
+     "En el último segundo el entrenador camina hacia cámara"
+    ]
+   ]
+  }
+ ],
+ "general": [
+  [
+   "ok",
+   "Encuadre: se ve a quien habla en todo el vídeo",
+   "La v1 tenía 9 de 17 s sin persona"
+  ],
+  [
+   "ok",
+   "Los dos personajes en el mismo cuadro",
+   "Mesa, puerta y sofá"
+  ],
+  [
+   "ok",
+   "Dos familias de letra",
+   "SF Pro + Sequel Heavy (la v1, tres)"
+  ],
+  [
+   "ok",
+   "Color de su marca",
+   "Rojo #FF5F57 lo prohibido, azul #3A86FF la manzana (decidido por Luis)"
+  ],
+  [
+   "ok",
+   "Volumen",
+   "−14,6 LUFS, pico real −1,3 dB, sin saturación"
+  ],
+  [
+   "ok",
+   "Efectos al fotograma",
+   "15 efectos; el 80 % cae a menos de 40 ms de su momento (mediana 10 ms)"
+  ],
+  [
+   "falla",
+   "Huecos de sonido",
+   "8 huecos de 0,3–1,2 s a −42/−56 LUFS: es la sala del propio bruto, pero muy baja. Prometí rellenarlos y no lo hice"
+  ],
+  [
+   "nv",
+   "Música",
+   "Sin música: la eliges tú"
+  ],
+  [
+   "ok",
+   "Duración",
+   "19,1 s (la v1, 17,1 s)"
+  ],
+  [
+   "nv",
+   "Velocidad real",
+   "No puedo ver el vídeo en movimiento: uniones, temblores y halos solo los he mirado en fotogramas"
+  ]
+ ]
+}

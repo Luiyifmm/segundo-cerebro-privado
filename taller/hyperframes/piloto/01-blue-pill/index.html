@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- PILOTO 01 · Tipografía cinética "Blue pill" adaptada a Amin (#1E8BFF).
+     Panel claro tipo píldora en la mitad de arriba (layout "S" del Talking Head Explainer) sobre su vídeo,
+     titular negro con UNA palabra en azul, etiqueta en píldora y losetas de icono que flotan.
+     Movimiento: vocabulario de la casa (texto sube, objetos hacen pop, sello para la palabra clave). -->
+<style>
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif}
+#panel{position:absolute;left:90px;top:262px;width:900px;height:300px;border-radius:50px;background:rgba(238,244,253,.94);
+  box-shadow:0 10px 24px rgba(10,30,70,.28),inset 0 0 0 2px rgba(255,255,255,.9);opacity:0}
+#barras{position:absolute;left:90px;top:262px;width:900px;height:300px;border-radius:50px;overflow:hidden;opacity:0}
+#barras i{position:absolute;bottom:0;width:26px;border-radius:13px 13px 0 0;background:linear-gradient(180deg,rgba(30,139,255,0),rgba(30,139,255,.22))}
+#pill{position:absolute;left:130px;top:292px;padding:10px 22px;border-radius:36px;background:#1E8BFF;color:#fff;font:800 26px -apple-system,sans-serif;letter-spacing:2px;opacity:0;box-shadow:0 8px 20px rgba(30,139,255,.4)}
+.w{position:absolute;opacity:0;color:#0B0F19;font-weight:900;letter-spacing:-3px;white-space:nowrap}
+#w1{left:130px;top:352px;font-size:62px}
+#w2{left:130px;top:405px;font-size:112px;color:#1E8BFF;letter-spacing:-5px}
+#w3{left:660px;top:452px;font-size:58px}
+.tile{position:absolute;width:96px;height:96px;border-radius:26px;background:linear-gradient(160deg,#4AA3FF,#1E8BFF);box-shadow:0 8px 16px rgba(30,139,255,.35);opacity:0;display:flex;align-items:center;justify-content:center}
+#t1{left:850px;top:290px;transform:rotate(-8deg)} #t2{left:770px;top:300px;transform:rotate(7deg)}
+.tile svg{width:64px;height:64px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="4.5">
+<div id="panel" class="clip" data-start="0" data-duration="4.5"></div>
+<div id="barras" class="clip" data-start="0" data-duration="4.5"><i style="left:640px;height:90px"></i><i style="left:676px;height:150px"></i></div>
+<div id="pill" class="clip" data-start="0" data-duration="4.5">ENTRENADOR ONLINE</div>
+<div id="w1" class="w clip" data-start="0" data-duration="4.5">deja de vender</div>
+<div id="w2" class="w clip" data-start="0" data-duration="4.5">tu tiempo</div>
+<div id="w3" class="w clip" data-start="0" data-duration="4.5">por dinero</div>
+<div id="t1" class="tile clip" data-start="0" data-duration="4.5"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="24" fill="none" stroke="#fff" stroke-width="6"/><path d="M32 18v15l10 7" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/></svg></div>
+<div id="t2" class="tile clip" data-start="0" data-duration="4.5"><svg viewBox="0 0 64 64"><text x="32" y="45" text-anchor="middle" font-size="42" font-weight="900" fill="#fff" font-family="-apple-system,sans-serif">€</text></svg></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo(["#panel","#barras"],{opacity:0,y:30,immediateRender:false},{opacity:1,y:0,duration:0.45,ease:"power3.out"},0.05);
+casa.pop(tl,"#pill",0.3);
+casa.riseIn(tl,"#w1",0.55,{tam:62});
+casa.slam(tl,"#w2",1.0);
+casa.riseIn(tl,"#w3",1.55,{tam:58});
+casa.pop(tl,"#t1",1.1); casa.pop(tl,"#t2",1.7);
+casa.float(tl,"#t1",1.3,3.9,8); casa.float(tl,"#t2",1.9,3.9,6);
+tl.to(["#pill","#w1","#w2","#w3","#t1","#t2"],{opacity:0,y:-18,duration:0.35,ease:"power2.in",stagger:0.03},3.9);
+tl.to(["#panel","#barras"],{opacity:0,y:-18,duration:0.35,ease:"power2.in"},4.1);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

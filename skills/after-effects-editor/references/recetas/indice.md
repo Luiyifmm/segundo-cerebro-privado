@@ -1,0 +1,120 @@
+# Índice de recetas (número → archivo)
+
+> Parte de la skill **after-effects-editor**. Generado del CEREBRO (la base de conocimiento de las clases, 29/09–02/10/2026). Las rutas de proyectos de ejemplo (`Tanda…/…`) son del PC del autor: no vienen en la skill.
+
+
+Las recetas citan otras por número ("receta 4.43"): aquí se ve en qué archivo está cada una.
+
+- **4.1** → `recetas/fondos-color-y-look.md` — Fondo "caro" en 4 capas
+- **4.6** → `recetas/fondos-color-y-look.md` — Diapositiva de comparación "antes / después"
+- **4.8** → `recetas/fondos-color-y-look.md` — Retícula de puntos (textura "tech") sin plugins
+- **4.12** → `recetas/fondos-color-y-look.md` — Fondo sunburst (rayos) nativo
+- **4.13** → `recetas/fondos-color-y-look.md` — Pop-out para comparar
+- **4.16** → `recetas/fondos-color-y-look.md` — Cambiar el humor de una escena con UNA capa de ajuste
+- **4.17** → `recetas/fondos-color-y-look.md` — Suelo con perspectiva (baldosas)
+- **4.18** → `recetas/fondos-color-y-look.md` — Glow sin "quemar" el color
+- **4.19** → `recetas/fondos-color-y-look.md` — Rueda cromática y colores por script
+- **4.20** → `recetas/fondos-color-y-look.md` — Estilos de capa por script (falso 3D, luz de borde)
+- **4.22** → `recetas/fondos-color-y-look.md` — Pantalla o TV abombada
+- **4.27** → `recetas/fondos-color-y-look.md` — Aberración cromática (separación RGB) nativa
+- **4.28** → `recetas/fondos-color-y-look.md` — Look de película antigua / documental
+- **4.29** → `recetas/fondos-color-y-look.md` — Textura procedural fiable (corcho, piedra, papel)
+- **4.37** → `recetas/fondos-color-y-look.md` — Papel rasgado sobre madera
+- **4.66** → `recetas/fondos-color-y-look.md` — Fondo claro con retícula de puntos, degradado medido y viñeta (clase 12)
+- **4.75** → `recetas/fondos-color-y-look.md` — Mezclar dos colores con una expresión sin que salga gris (HSL)
+- **4.9** → `recetas/texto-y-tipografia.md` — Texto 3D extruido nativo
+- **4.11** → `recetas/texto-y-tipografia.md` — Contador numérico animado (sin plugins)
+- **4.14** → `recetas/texto-y-tipografia.md` — Resaltar palabras dentro de un texto
+- **4.25** → `recetas/texto-y-tipografia.md` — Subtítulos animados palabra a palabra (animadores de texto)
+- **4.26** → `recetas/texto-y-tipografia.md` — Texto "de terror" y "romántico"
+- **4.35** → `recetas/texto-y-tipografia.md` — Emojis en color para AE
+- **4.36** → `recetas/texto-y-tipografia.md` — Texto en onda (bandera) + texto 3D extruido falso
+- **4.49** → `recetas/texto-y-tipografia.md` — Texto que aparece por palabras o por líneas (selector de expresión)
+- **4.64** → `recetas/texto-y-tipografia.md` — Créditos de director elegantes ("DIRIGIDO POR …")
+- **4.73** → `recetas/texto-y-tipografia.md` — HUD de interfaz con Source Text por expresión
+- **4.86** → `recetas/texto-y-tipografia.md` — Texto que se escribe con keys de RETENCIÓN (máquina de escribir sin expresiones)
+- **4.87** → `recetas/texto-y-tipografia.md` — Letras que aparecen cuando algo pasa por encima (evento leído de otra capa)
+- **4.5** → `recetas/animacion-y-curvas.md` — Aparición con rebote (pop) por keyframes
+- **4.31** → `recetas/animacion-y-curvas.md` — Aparición en escalera de una precomp ya hecha
+- **4.43** → `recetas/animacion-y-curvas.md` — Keyframe continuo y corte de acción por script (Tanda 02)
+- **4.77** → `recetas/animacion-y-curvas.md` — El "pique": rebote con posición unificada y el gráfico de velocidad (Tanda 03 · 02, medido)
+- **4.78** → `recetas/animacion-y-curvas.md` — Letras que reciben el golpe: aplastado y relleno (Tanda 03 · 02, medido)
+- **4.79** → `recetas/animacion-y-curvas.md` — Entrada en escalera "con fuerza" y zoom lento (Tanda 03 · 02, medido)
+- **4.81** → `recetas/animacion-y-curvas.md` — Las curvas de Flow del usuario, por script
+- **4.83** → `recetas/animacion-y-curvas.md` — Enseñar la velocidad en un render: eco + puntos de fotograma + gráfico dibujado (Tanda 03 · 03)
+- **4.84** → `recetas/animacion-y-curvas.md` — Rebote con gravedad exacta: una parábola por tramo (Tanda 03 · 03)
+- **4.85** → `recetas/animacion-y-curvas.md` — Entrar, salir y lanzar sin "frenazos falsos" (Tanda 03 · 03)
+- **4.4** → `recetas/camara-y-3d.md` — Modelos 3D nativos (sin plugins)
+- **4.7** → `recetas/camara-y-3d.md` — Cámara 2D con nulo que re-equilibra (clase 02)
+- **4.21** → `recetas/camara-y-3d.md` — Cámara 3D: gran angular + profundidad de campo
+- **4.30** → `recetas/camara-y-3d.md` — Libro o cuaderno que se abre (3D nativo)
+- **4.32** → `recetas/camara-y-3d.md` — Rig de cámara 3D "un nulo = un movimiento" (clase 11)
+- **4.33** → `recetas/camara-y-3d.md` — "Motion blur" falso con el motor `ADBE Calder` (Advanced 3D, AE 2026)
+- **4.34** → `recetas/camara-y-3d.md` — Cámara 2D con nulo FOCO + zoom out sutil por elemento
+- **4.56** → `recetas/camara-y-3d.md` — Escena 3D "real" con planos texturizados (proyecto propio del faro, 30/09/2026)
+- **4.57** → `recetas/camara-y-3d.md` — Cilindro de tiras (faro, torre, columna, depósito)
+- **4.58** → `recetas/camara-y-3d.md` — Carteles que miran a la cámara (billboards)
+- **4.59** → `recetas/camara-y-3d.md` — Profundidad de campo que se lee (y no mata el render)
+- **4.60** → `recetas/camara-y-3d.md` — Haz de faro volumétrico que barre la escena
+- **4.63** → `recetas/camara-y-3d.md` — Reflejo de la luna en el agua
+- **4.68** → `recetas/camara-y-3d.md` — Cámara de presentación: zoom rápido + bajada que revela (clase 12)
+- **4.106** → `recetas/camara-y-3d.md` — Movimiento de cámara A → B con un nulo, diseñando primero el plano final (Tanda 04 · 01)
+- **4.107** → `recetas/camara-y-3d.md` — La cámara en pisos: un movimiento por nulo, solapados, con alabeo, revelado desde muy cerca y desenfoque a mano (Tanda 04 · 02)
+- **4.108** → `recetas/camara-y-3d.md` — Pieza explicativa con cámara: un nulo por movimiento, colas que no paran, cortes en el pico y montaje por motores (Tanda 04 · 04)
+- **4.109** → `recetas/camara-y-3d.md` — Escena 2.5D que llama la atención: imágenes preparadas, capas en Z, un punto de interés y dos nulos solapados (Tanda 04 · 03)
+- **4.110** → `recetas/camara-y-3d.md` — Cámara que viaja de escena en escena sin parar: un nodo, cadena de nulos, "Center In View" y corte en el pico (Tanda 04 · 05)
+- **4.111** → `recetas/camara-y-3d.md` — Novedades de AE 2026 por script: mallas, sombras de luces y desenfoque en Advanced 3D, y fuentes variables (Tanda 05 · 01)
+- **4.2** → `recetas/luz-glow-y-plugins.md` — Líneas de energía (conectar A con B)
+- **4.3** → `recetas/luz-glow-y-plugins.md` — Bokeh / partículas con profundidad
+- **4.39** → `recetas/luz-glow-y-plugins.md` — Deep Glow 2 (plugin de pago, instalado) — valores probados
+- **4.40** → `recetas/luz-glow-y-plugins.md` — Shadow Studio 3 (plugin de pago) — sombra larga que se difumina
+- **4.41** → `recetas/luz-glow-y-plugins.md` — Crate's Godrays y Sapphire (plugins de pago) — recetas rápidas
+- **4.42** → `recetas/luz-glow-y-plugins.md` — Optical Flares (plugin de pago, licenciado) — destello de sol realista
+- **4.45** → `recetas/luz-glow-y-plugins.md` — Luz que recorre el borde de un panel
+- **4.46** → `recetas/luz-glow-y-plugins.md` — Halo de luz detrás de un panel o botón (la luz "derramada")
+- **4.47** → `recetas/luz-glow-y-plugins.md` — Destello de transición (Deep Glow Transition)
+- **4.61** → `recetas/luz-glow-y-plugins.md` — Cortocircuito (parpadeo, arcos, chispas y muerte de una luz)
+- **4.62** → `recetas/luz-glow-y-plugins.md` — La pantalla se apaga como un televisor viejo
+- **4.65** → `recetas/luz-glow-y-plugins.md` — Panel UI oscuro con borde de luz "premium" (clase 12, "Mira cómo edito")
+- **4.10** → `recetas/ui-y-producto-digital.md` — Iconos de persona de cristal (glass)
+- **4.44** → `recetas/ui-y-producto-digital.md` — Onda con repeater (fondo del anuncio Glass Health)
+- **4.48** → `recetas/ui-y-producto-digital.md` — Logo 3D de cristal o cromo
+- **4.50** → `recetas/ui-y-producto-digital.md` — Degradado que viaja con la capa (Ramp y 4-Color en capas que se mueven)
+- **4.51** → `recetas/ui-y-producto-digital.md` — Rueda de paneles ("ruleta", lo que el profe hace con React)
+- **4.52** → `recetas/ui-y-producto-digital.md` — Panel inclinado: resolver la cámara a partir de lo que se ve
+- **4.53** → `recetas/ui-y-producto-digital.md` — Onda de audio neón procedural
+- **4.67** → `recetas/ui-y-producto-digital.md` — Montones de tarjetas ("10 vídeos") que aparecen en escalera (clase 12)
+- **4.54** → `recetas/replicar-y-medir.md` — Método para replicar un anuncio "literalmente igual" (medir, no adivinar)
+- **4.55** → `recetas/replicar-y-medir.md` — Réplica v2: lo que hace que una réplica "se parezca de verdad" (lecciones del rehecho de Glass Health)
+- **4.69** → `recetas/replicar-y-medir.md` — Replicar desde una grabación de pantalla (lecciones de la clase 12)
+- **4.82** → `recetas/replicar-y-medir.md` — Medir un rebote de la referencia (método de la Tanda 03 · 02) — solo si hace falta
+- **4.15** → `recetas/expresiones-y-control.md` — Librería de script
+- **4.23** → `recetas/expresiones-y-control.md` — Animar un efecto que no se puede animar
+- **4.24** → `recetas/expresiones-y-control.md` — Antes/Después con la misma precomp
+- **4.38** → `recetas/expresiones-y-control.md` — Trayectorias, gráficos y "papel cebolla" por expresión
+- **4.70** → `recetas/expresiones-y-control.md` — Expresiones: lo esencial (Tanda 03 · 01, clase de conceptos)
+- **4.71** → `recetas/expresiones-y-control.md` — Capa CONTROL = panel de mando de toda la animación
+- **4.72** → `recetas/expresiones-y-control.md` — Globo de puntos que "se infecta" (CC Sphere + Barrido de degradado)
+- **4.74** → `recetas/expresiones-y-control.md` — Glitch digital gobernado por UN deslizador
+- **4.76** → `recetas/expresiones-y-control.md` — Sonido sincronizado con las curvas de AE (síntesis con numpy)
+- **4.80** → `recetas/mates-y-composicion.md` — Reflejo en el suelo sin plugins (el VC Reflect de la clase, nativo)
+- **4.88** → `recetas/mates-y-composicion.md` — Mates: qué tipo usar y para qué (Tanda 03 · 04 "Why YOU Need Mattes")
+- **4.89** → `recetas/mates-y-composicion.md` — Texto como ventana: "Stranger Things" y al revés (Tanda 03 · 04)
+- **4.90** → `recetas/mates-y-composicion.md` — Revelado con tinta sin vídeo de stock (Tanda 03 · 04)
+- **4.91** → `recetas/mates-y-composicion.md` — Mates de "detalle": brillo que recorre un texto, texto que sale de detrás de una línea y Set Matte (Tanda 03 · 04)
+- **4.92** → `recetas/video-real-y-vfx.md` — Recortar al artista sobre verde por script y pre-renderizarlo (Tanda 03 · 05 · lo que en la clase es el Roto Brush)
+- **4.93** → `recetas/video-real-y-vfx.md` — Brillo detrás del artista (Tanda 03 · 05)
+- **4.94** → `recetas/video-real-y-vfx.md` — Zooms "tac, tac" con S_BlurMoCurves (el "Blur More Curves" de la clase)
+- **4.95** → `recetas/video-real-y-vfx.md` — Fondo infinito y su continuidad (Tanda 03 · 05)
+- **4.96** → `recetas/video-real-y-vfx.md` — Cara fija: estabilizar al artista y zoom "bum" a la cabeza (Tanda 03 · 05)
+- **4.98** → `recetas/video-real-y-vfx.md` — Eco fantasma y clones (Tanda 03 · 05)
+- **4.99** → `recetas/video-real-y-vfx.md` — Shakes y flashes en los golpes (Tanda 03 · 05)
+- **4.100** → `recetas/video-real-y-vfx.md` — Transiciones con el artista: al revés, teletransporte, entrar y salir, giro, meterse en un objeto (Tanda 03 · 05)
+- **4.97** → `recetas/element-3d-y-producto.md` — Texto 3D dorado por script (Tanda 03 · 05 · el Element 3D de la clase)
+- **4.101** → `recetas/element-3d-y-producto.md` — Título 3D con Element: escena una vez con clics, preset y después todo por script (Tanda 03 · 06 "TITULO")
+- **4.102** → `recetas/element-3d-y-producto.md` — Modelo 3D de Sketchfab dentro de Element (Tanda 03 · 07)
+- **4.103** → `recetas/element-3d-y-producto.md` — Pantalla de un aparato = una comp de AE (y se puede animar)
+- **4.104** → `recetas/element-3d-y-producto.md` — Cámaras "de verdad" para un producto: macro, giro y caída (Tanda 03 · 07)
+- **4.105** → `recetas/element-3d-y-producto.md` — Render de Element: calidad y tiempo (medido en la Tanda 03 · 07)
+
+Además, escritas a mano (no se regeneran): `recetas/recetas-del-informe.md` — 14 recetas cortas de un informe externo (logo extruido, rótulo que se ajusta, tipografía cinética, transiciones, partículas, neón, infografías, fondos en bucle, alertas para OBS con alfa, producto GLB, parallax, visualizador de audio), sin probar aquí.

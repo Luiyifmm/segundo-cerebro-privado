@@ -1,0 +1,320 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.9570000000000007,
+   "fin": 2.4380000000000006,
+   "texto": "te pasar si sentadillas?",
+   "especial": "sentadillas",
+   "dur": 2.2880000000000003
+  },
+  {
+   "n": 2,
+   "ini": 3.245000000000001,
+   "fin": 3.405000000000001,
+   "texto": "No.",
+   "especial": "No",
+   "dur": 1.0749999999999993
+  },
+  {
+   "n": 3,
+   "ini": 4.32,
+   "fin": 7.1030000000000015,
+   "texto": "Estas piernas son de un ciclista de pista profesional,",
+   "especial": "profesional",
+   "dur": 3.2029999999999994
+  },
+  {
+   "n": 4,
+   "ini": 7.523,
+   "fin": 8.564,
+   "texto": "Robert Forzman.",
+   "especial": "Forzman",
+   "dur": 1.961000000000002
+  },
+  {
+   "n": 5,
+   "ini": 9.484000000000002,
+   "fin": 11.305999999999997,
+   "texto": "y cada vez que digo que hagas entadillas",
+   "especial": "entadillas",
+   "dur": 2.221999999999994
+  },
+  {
+   "n": 6,
+   "ini": 11.705999999999996,
+   "fin": 12.506999999999998,
+   "texto": "alguien me dice",
+   "especial": "dice",
+   "dur": 1.5210000000000008
+  },
+  {
+   "n": 7,
+   "ini": 13.226999999999997,
+   "fin": 13.546999999999997,
+   "texto": "paso",
+   "especial": "paso",
+   "dur": 1.1409999999999982
+  },
+  {
+   "n": 8,
+   "ini": 14.367999999999995,
+   "fin": 14.908000000000001,
+   "texto": "mejor",
+   "especial": "mejor",
+   "dur": 1.7700000000000031
+  },
+  {
+   "n": 9,
+   "ini": 16.137999999999998,
+   "fin": 18.439999999999998,
+   "texto": "paso que me pongo grande subo peor",
+   "especial": "subo peor",
+   "dur": 2.777000000000001
+  },
+  {
+   "n": 10,
+   "ini": 18.915,
+   "fin": 20.055999999999997,
+   "texto": "mira yo era muy delgado",
+   "especial": "delgado",
+   "dur": 1.8589999999999947
+  },
+  {
+   "n": 11,
+   "ini": 20.773999999999994,
+   "fin": 22.955000000000005,
+   "texto": "Y ganar músculo me ha costado montón de trabajo",
+   "especial": "trabajo",
+   "dur": 2.4819999999999993
+  },
+  {
+   "n": 12,
+   "ini": 23.255999999999993,
+   "fin": 25.077000000000005,
+   "texto": "aún así sigo compitiendo en descenso.",
+   "especial": "descenso",
+   "dur": 2.445999999999998
+  },
+  {
+   "n": 13,
+   "ini": 25.70199999999999,
+   "fin": 28.46399999999999,
+   "texto": "Para tener unas piernas como esa hace falta muchos",
+   "especial": "muchos",
+   "dur": 2.8220000000000027
+  },
+  {
+   "n": 14,
+   "ini": 28.523999999999994,
+   "fin": 30.205999999999996,
+   "texto": "años entrenando solo para eso.",
+   "especial": "eso",
+   "dur": 1.7620000000000005
+  },
+  {
+   "n": 15,
+   "ini": 30.285999999999994,
+   "fin": 31.166999999999994,
+   "texto": "Comiendo muchísimo",
+   "especial": "muchísimo",
+   "dur": 1.36099999999999
+  },
+  {
+   "n": 16,
+   "ini": 31.646999999999984,
+   "fin": 32.687999999999995,
+   "texto": "una genética especial.",
+   "especial": "especial",
+   "dur": 1.5159999999999911
+  },
+  {
+   "n": 17,
+   "ini": 33.162999999999975,
+   "fin": 34.90399999999999,
+   "texto": "Tú vas a hacer solo dos días de fuerza",
+   "especial": "fuerza",
+   "dur": 1.801000000000002
+  },
+  {
+   "n": 18,
+   "ini": 34.96399999999998,
+   "fin": 35.40499999999998,
+   "texto": "la semana.",
+   "especial": "semana",
+   "dur": 1.0389999999999873
+  },
+  {
+   "n": 19,
+   "ini": 36.002999999999965,
+   "fin": 38.403999999999975,
+   "texto": "comiendo para bajar el porcentaje de grasa corporal",
+   "especial": "corporal",
+   "dur": 3.2949999999999875
+  },
+  {
+   "n": 20,
+   "ini": 39.29799999999995,
+   "fin": 40.538999999999966,
+   "texto": "montando el fin de",
+   "especial": "fin",
+   "dur": 2.2910000000000252
+  },
+  {
+   "n": 21,
+   "ini": 41.58899999999998,
+   "fin": 43.28999999999997,
+   "texto": "no te vas a despertar un día con esas",
+   "especial": "esas",
+   "dur": 1.820999999999998
+  },
+  {
+   "n": 22,
+   "ini": 43.409999999999975,
+   "fin": 43.84999999999997,
+   "texto": "piernas",
+   "especial": "piernas",
+   "dur": 1.0169999999999675
+  },
+  {
+   "n": 23,
+   "ini": 44.42699999999994,
+   "fin": 45.887999999999955,
+   "texto": "Lo que si vas a tener es más fuerza",
+   "especial": "fuerza",
+   "dur": 1.521000000000015
+  },
+  {
+   "n": 24,
+   "ini": 45.94799999999996,
+   "fin": 47.02899999999995,
+   "texto": "para empujar el pedal.",
+   "especial": "pedal",
+   "dur": 1.625
+  },
+  {
+   "n": 25,
+   "ini": 47.57299999999996,
+   "fin": 48.853999999999935,
+   "texto": "Más aguanten las subidas",
+   "especial": "subidas",
+   "dur": 2.0509999999999593
+  },
+  {
+   "n": 26,
+   "ini": 49.62399999999992,
+   "fin": 50.964999999999925,
+   "texto": "un cuerpo que aguanta mejor las",
+   "especial": "aguanta mejor",
+   "dur": 2.336999999999989
+  },
+  {
+   "n": 27,
+   "ini": 51.960999999999906,
+   "fin": 54.14199999999992,
+   "texto": "Las pesas no te van convertir en un velocista",
+   "especial": "velocista",
+   "dur": 2.2220000000000084
+  },
+  {
+   "n": 28,
+   "ini": 54.182999999999915,
+   "fin": 54.662999999999904,
+   "texto": "de pista.",
+   "especial": "pista",
+   "dur": 0.8389999999999986
+  },
+  {
+   "n": 29,
+   "ini": 55.02199999999991,
+   "fin": 57.2629999999999,
+   "texto": "te van a un ciclista más fuerte que sube",
+   "especial": "sube",
+   "dur": 2.3009999999999877
+  },
+  {
+   "n": 30,
+   "ini": 57.3229999999999,
+   "fin": 58.52399999999992,
+   "texto": "mejor se ve mejor",
+   "especial": "ve mejor",
+   "dur": 2.0819999999999936
+  },
+  {
+   "n": 31,
+   "ini": 59.404999999999895,
+   "fin": 62.666999999999895,
+   "texto": "si quieres entrenar fuerza sin miedo a ponerte grande",
+   "especial": "grande",
+   "dur": 3.461999999999989
+  },
+  {
+   "n": 32,
+   "ini": 62.866999999999884,
+   "fin": 63.70799999999989,
+   "texto": "ni a subir peor",
+   "especial": "subir peor",
+   "dur": 1.6689999999999756
+  },
+  {
+   "n": 33,
+   "ini": 64.53599999999986,
+   "fin": 67.00599999999983,
+   "texto": "Sígueme, porque aquí te enseño hacerlo como ciclista,",
+   "especial": "ciclista",
+   "dur": 2.8909999999999627
+  },
+  {
+   "n": 34,
+   "ini": 67.42699999999982,
+   "fin": 68.49099999999984,
+   "texto": "no como culturista.",
+   "especial": "culturista",
+   "dur": 1.0640000000000214
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Marca · Camilo Arias",
+   "c": [
+    "#C6FF00",
+    "#FF5A36",
+    "#F1F4E6",
+    "#14160D"
+   ]
+  },
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F19D74",
+    "#864627",
+    "#F4EBE6",
+    "#16100D"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F1749F",
+    "#862748",
+    "#F4E6EB",
+    "#160D10"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

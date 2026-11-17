@@ -1,0 +1,1 @@
+(function(){var n=[];for(var p=0;p<app.projects.numProjects;p++)n.push(app.projects[p].name);return JSON.stringify({abiertos:n,activo:app.project.name,sec:app.project.activeSequence?app.project.activeSequence.name:null});})()

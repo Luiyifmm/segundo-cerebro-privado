@@ -1,0 +1,288 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 1.378,
+   "fin": 1.978,
+   "texto": "Tres, dos,",
+   "especial": "Tres dos",
+   "dur": 1.881
+  },
+  {
+   "n": 2,
+   "ini": 3.259,
+   "fin": 3.859,
+   "texto": "queso para fundir.",
+   "especial": "fundir",
+   "dur": 0.8000000000000003
+  },
+  {
+   "n": 3,
+   "ini": 4.059,
+   "fin": 4.779,
+   "texto": "el que dice engorda?",
+   "especial": "engorda",
+   "dur": 1.221
+  },
+  {
+   "n": 4,
+   "ini": 5.28,
+   "fin": 5.8,
+   "texto": "Sí, y está.",
+   "especial": "está",
+   "dur": 0.96
+  },
+  {
+   "n": 5,
+   "ini": 6.24,
+   "fin": 7.421,
+   "texto": "Engorda.",
+   "especial": "Engorda",
+   "dur": 1.221
+  },
+  {
+   "n": 6,
+   "ini": 7.461,
+   "fin": 7.701,
+   "texto": "Vale.",
+   "especial": "Vale",
+   "dur": 0.5399999999999991
+  },
+  {
+   "n": 7,
+   "ini": 8.001,
+   "fin": 8.741,
+   "texto": "¿Queso para fundir?",
+   "especial": "fundir",
+   "dur": 1.08
+  },
+  {
+   "n": 8,
+   "ini": 9.081,
+   "fin": 9.501,
+   "texto": "Engorda.",
+   "especial": "Engorda",
+   "dur": 0.5400000000000009
+  },
+  {
+   "n": 9,
+   "ini": 9.621,
+   "fin": 11.162,
+   "texto": "Literalmente tiene todo menos queso.",
+   "especial": "menos queso",
+   "dur": 4.821999999999999
+  },
+  {
+   "n": 10,
+   "ini": 14.443,
+   "fin": 15.164,
+   "texto": "Queso mental,",
+   "especial": "mental",
+   "dur": 1.5210000000000008
+  },
+  {
+   "n": 11,
+   "ini": 15.964,
+   "fin": 16.444,
+   "texto": "engorda.",
+   "especial": "engorda",
+   "dur": 1.2810000000000006
+  },
+  {
+   "n": 12,
+   "ini": 17.245,
+   "fin": 17.905,
+   "texto": "utiliza?",
+   "especial": "utiliza",
+   "dur": 1.5199999999999996
+  },
+  {
+   "n": 13,
+   "ini": 18.765,
+   "fin": 19.866,
+   "texto": "¿Te pasar cantidad?",
+   "especial": "cantidad",
+   "dur": 3.5820000000000007
+  },
+  {
+   "n": 14,
+   "ini": 22.347,
+   "fin": 22.747,
+   "texto": "mental?",
+   "especial": "mental",
+   "dur": 0.7799999999999976
+  },
+  {
+   "n": 15,
+   "ini": 23.127,
+   "fin": 23.687,
+   "texto": "También engorda.",
+   "especial": "engorda",
+   "dur": 0.5800000000000018
+  },
+  {
+   "n": 16,
+   "ini": 23.707,
+   "fin": 25.048,
+   "texto": "Te sueles pasar mucho las cantidades.",
+   "especial": "cantidades",
+   "dur": 3.0410000000000004
+  },
+  {
+   "n": 17,
+   "ini": 26.748,
+   "fin": 27.349,
+   "texto": "eso a vivir?",
+   "especial": "vivir",
+   "dur": 0.6209999999999987
+  },
+  {
+   "n": 18,
+   "ini": 27.369,
+   "fin": 27.809,
+   "texto": "El perfecto",
+   "especial": "perfecto",
+   "dur": 1.1600000000000001
+  },
+  {
+   "n": 19,
+   "ini": 28.529,
+   "fin": 29.55,
+   "texto": "para tus snacks,",
+   "especial": "snacks",
+   "dur": 1.5010000000000012
+  },
+  {
+   "n": 20,
+   "ini": 30.03,
+   "fin": 30.63,
+   "texto": "adelgazas.",
+   "especial": "adelgazas",
+   "dur": 9.012
+  },
+  {
+   "n": 21,
+   "ini": 39.042,
+   "fin": 39.403,
+   "texto": "repítelo.",
+   "especial": "repítelo",
+   "dur": 1.0019999999999953
+  },
+  {
+   "n": 22,
+   "ini": 40.044,
+   "fin": 40.746,
+   "texto": "Que eso va a vivir.",
+   "especial": "vivir",
+   "dur": 1.0220000000000056
+  },
+  {
+   "n": 23,
+   "ini": 41.066,
+   "fin": 41.527,
+   "texto": "Adelgaza.",
+   "especial": "Adelgaza",
+   "dur": 0.5609999999999999
+  },
+  {
+   "n": 24,
+   "ini": 41.627,
+   "fin": 42.409,
+   "texto": "Tiene no, ver.",
+   "especial": "ver",
+   "dur": 1.1430000000000007
+  },
+  {
+   "n": 25,
+   "ini": 42.77,
+   "fin": 43.711,
+   "texto": "Muy bueno para snacks.",
+   "especial": "snacks",
+   "dur": 1.2219999999999942
+  },
+  {
+   "n": 26,
+   "ini": 43.992,
+   "fin": 44.413,
+   "texto": "Y tienen...",
+   "especial": "tienen",
+   "dur": 0.6410000000000053
+  },
+  {
+   "n": 27,
+   "ini": 44.633,
+   "fin": 44.894,
+   "texto": "y a ver.",
+   "especial": "ver",
+   "dur": 0.681999999999995
+  },
+  {
+   "n": 28,
+   "ini": 45.315,
+   "fin": 45.615,
+   "texto": "Ya está.",
+   "especial": "Ya está",
+   "dur": 0.5609999999999999
+  },
+  {
+   "n": 29,
+   "ini": 45.876,
+   "fin": 46.918,
+   "texto": "No, pero también crece una cosa.",
+   "especial": "cosa",
+   "dur": 1.8430000000000035
+  },
+  {
+   "n": 30,
+   "ini": 47.719,
+   "fin": 49.042,
+   "texto": "Y alto contenido, ver.",
+   "especial": "contenido ver",
+   "dur": 1.3230000000000004
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Verde · del plano",
+   "c": [
+    "#BEF174",
+    "#608627",
+    "#EFF4E6",
+    "#13160D"
+   ]
+  },
+  {
+   "nombre": "Turquesa · del plano",
+   "c": [
+    "#74F1CE",
+    "#27866B",
+    "#E6F4F0",
+    "#0D1614"
+   ]
+  },
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F1A374",
+    "#864B27",
+    "#F4EBE6",
+    "#16110D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

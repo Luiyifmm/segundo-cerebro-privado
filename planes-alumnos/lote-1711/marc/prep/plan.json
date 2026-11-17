@@ -1,0 +1,407 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 12.194,
+   "fin": 14.116,
+   "texto": "una espalda te mando abdominales,",
+   "especial": "abdominales",
+   "dur": 2.501999999999999
+  },
+  {
+   "n": 2,
+   "ini": 14.696,
+   "fin": 14.937,
+   "texto": "vale,",
+   "especial": "vale",
+   "dur": 0.8410000000000011
+  },
+  {
+   "n": 3,
+   "ini": 15.537,
+   "fin": 15.717,
+   "texto": "pero",
+   "especial": "pero",
+   "dur": 6.705999999999998
+  },
+  {
+   "n": 4,
+   "ini": 22.243,
+   "fin": 23.203,
+   "texto": "Fortalecer abdominal",
+   "especial": "abdominal",
+   "dur": 1.421000000000003
+  },
+  {
+   "n": 5,
+   "ini": 23.664,
+   "fin": 23.984,
+   "texto": "ayuda,",
+   "especial": "ayuda",
+   "dur": 0.820999999999998
+  },
+  {
+   "n": 6,
+   "ini": 24.485,
+   "fin": 24.965,
+   "texto": "problema es",
+   "especial": "problema",
+   "dur": 1.120000000000001
+  },
+  {
+   "n": 7,
+   "ini": 25.605,
+   "fin": 25.866,
+   "texto": "como lo",
+   "especial": "como",
+   "dur": 14.465999999999998
+  },
+  {
+   "n": 8,
+   "ini": 40.071,
+   "fin": 41.874,
+   "texto": "acero en cogimientos te molesta la espalda o el",
+   "especial": "espalda",
+   "dur": 1.8230000000000004
+  },
+  {
+   "n": 9,
+   "ini": 41.894,
+   "fin": 42.175,
+   "texto": "cuello,",
+   "especial": "cuello",
+   "dur": 0.6820000000000022
+  },
+  {
+   "n": 10,
+   "ini": 42.576,
+   "fin": 43.478,
+   "texto": "hay opciones mejores.",
+   "especial": "mejores",
+   "dur": 27.202000000000005
+  },
+  {
+   "n": 11,
+   "ini": 69.778,
+   "fin": 71.46,
+   "texto": "muerto si tal y como oyes",
+   "especial": "como oyes",
+   "dur": 2.3629999999999995
+  },
+  {
+   "n": 12,
+   "ini": 72.141,
+   "fin": 74.204,
+   "texto": "tumbate al suelo boca arriba mira que tu lumbar",
+   "especial": "lumbar",
+   "dur": 2.262999999999991
+  },
+  {
+   "n": 13,
+   "ini": 74.404,
+   "fin": 76.787,
+   "texto": "no esté despegado del suelo engancha la que esté",
+   "especial": "esté",
+   "dur": 2.463000000000008
+  },
+  {
+   "n": 14,
+   "ini": 76.867,
+   "fin": 78.409,
+   "texto": "completamente contacto con éste",
+   "especial": "éste",
+   "dur": 2.1029999999999944
+  },
+  {
+   "n": 15,
+   "ini": 78.97,
+   "fin": 81.232,
+   "texto": "eleva tus brazos hacia techo trata de llevar las",
+   "especial": "llevar",
+   "dur": 2.8230000000000075
+  },
+  {
+   "n": 16,
+   "ini": 81.793,
+   "fin": 85.578,
+   "texto": "hacia los codos apretando muy fuerte abdomen sin despegar",
+   "especial": "despegar",
+   "dur": 3.8249999999999886
+  },
+  {
+   "n": 17,
+   "ini": 85.618,
+   "fin": 85.658,
+   "texto": "la",
+   "especial": "la",
+   "dur": 19.772000000000006
+  },
+  {
+   "n": 18,
+   "ini": 105.39,
+   "fin": 105.41,
+   "texto": "3",
+   "especial": "3",
+   "dur": 25.227999999999994
+  },
+  {
+   "n": 19,
+   "ini": 130.618,
+   "fin": 132.579,
+   "texto": "La plancha lateral con rodillas dobladas.",
+   "especial": "dobladas",
+   "dur": 2.201999999999998
+  },
+  {
+   "n": 20,
+   "ini": 132.82,
+   "fin": 133.86,
+   "texto": "Haremos que las rodillas,",
+   "especial": "rodillas",
+   "dur": 1.3000000000000114
+  },
+  {
+   "n": 21,
+   "ini": 134.12,
+   "fin": 135.801,
+   "texto": "cadera los hombros, estén alineados",
+   "especial": "alineados",
+   "dur": 2.3220000000000027
+  },
+  {
+   "n": 22,
+   "ini": 136.442,
+   "fin": 138.203,
+   "texto": "ahí levantaremos cadera suelo.",
+   "especial": "cadera suelo",
+   "dur": 2.2009999999999934
+  },
+  {
+   "n": 23,
+   "ini": 138.643,
+   "fin": 139.104,
+   "texto": "Tratamos de",
+   "especial": "Tratamos",
+   "dur": 0.9209999999999923
+  },
+  {
+   "n": 24,
+   "ini": 139.564,
+   "fin": 142.526,
+   "texto": "esta posición 10 segundos luego cambiamos de lado.",
+   "especial": "lado",
+   "dur": 54.56
+  },
+  {
+   "n": 25,
+   "ini": 194.124,
+   "fin": 194.504,
+   "texto": "tampoco",
+   "especial": "tampoco",
+   "dur": 3.522999999999996
+  },
+  {
+   "n": 26,
+   "ini": 197.647,
+   "fin": 198.127,
+   "texto": "no tiene que",
+   "especial": "tiene",
+   "dur": 1.5010000000000048
+  },
+  {
+   "n": 27,
+   "ini": 199.148,
+   "fin": 200.649,
+   "texto": "doblarse más o más fuerte",
+   "especial": "fuerte",
+   "dur": 2.141999999999996
+  },
+  {
+   "n": 28,
+   "ini": 201.29,
+   "fin": 201.83,
+   "texto": "simplemente",
+   "especial": "simplemente",
+   "dur": 0.9410000000000025
+  },
+  {
+   "n": 29,
+   "ini": 202.231,
+   "fin": 202.571,
+   "texto": "tiene que",
+   "especial": "tiene",
+   "dur": 0.8600000000000136
+  },
+  {
+   "n": 30,
+   "ini": 203.091,
+   "fin": 203.592,
+   "texto": "aguantarte",
+   "especial": "aguantarte",
+   "dur": 0.8810000000000002
+  },
+  {
+   "n": 31,
+   "ini": 203.972,
+   "fin": 204.232,
+   "texto": "mejor",
+   "especial": "mejor",
+   "dur": 0.6409999999999911
+  },
+  {
+   "n": 32,
+   "ini": 204.613,
+   "fin": 207.115,
+   "texto": "hacer la función principal que tiene este que es",
+   "especial": "tiene este",
+   "dur": 2.5420000000000016
+  },
+  {
+   "n": 33,
+   "ini": 207.155,
+   "fin": 210.578,
+   "texto": "la función estructural es decir aguantar estructura de cuerpo",
+   "especial": "cuerpo",
+   "dur": 12.189999999999998
+  },
+  {
+   "n": 34,
+   "ini": 219.345,
+   "fin": 219.645,
+   "texto": "y si te",
+   "especial": "te",
+   "dur": 1.561000000000007
+  },
+  {
+   "n": 35,
+   "ini": 220.906,
+   "fin": 221.586,
+   "texto": "Pero no sabes qué",
+   "especial": "sabes qué",
+   "dur": 1.120999999999981
+  },
+  {
+   "n": 36,
+   "ini": 222.027,
+   "fin": 223.408,
+   "texto": "te conviene en ti específicamente,",
+   "especial": "específicamente",
+   "dur": 1.4010000000000105
+  },
+  {
+   "n": 37,
+   "ini": 223.428,
+   "fin": 225.029,
+   "texto": "escríbeme dolor",
+   "especial": "escríbeme dolor",
+   "dur": 2.1210000000000093
+  },
+  {
+   "n": 38,
+   "ini": 225.549,
+   "fin": 226.369,
+   "texto": "y miro si puedo",
+   "especial": "puedo",
+   "dur": 1.4209999999999923
+  },
+  {
+   "n": 39,
+   "ini": 226.97,
+   "fin": 229.311,
+   "texto": "con tu caso, si puedo hacerlo te lo diré.",
+   "especial": "diré",
+   "dur": 9.765999999999991
+  },
+  {
+   "n": 40,
+   "ini": 236.736,
+   "fin": 238.937,
+   "texto": "Si te la espalda y no sabes qué ejercicios",
+   "especial": "ejercicios",
+   "dur": 2.261000000000024
+  },
+  {
+   "n": 41,
+   "ini": 238.997,
+   "fin": 240.058,
+   "texto": "son los que te conviene ti,",
+   "especial": "conviene",
+   "dur": 1.5009999999999764
+  },
+  {
+   "n": 42,
+   "ini": 240.498,
+   "fin": 241.499,
+   "texto": "escríbeme dolor",
+   "especial": "escríbeme dolor",
+   "dur": 1.5010000000000048
+  },
+  {
+   "n": 43,
+   "ini": 241.999,
+   "fin": 242.78,
+   "texto": "y miro tu caso,",
+   "especial": "tu caso",
+   "dur": 1.0010000000000048
+  },
+  {
+   "n": 44,
+   "ini": 243.0,
+   "fin": 244.04,
+   "texto": "si que puedo ayudarte,",
+   "especial": "ayudarte",
+   "dur": 1.4410000000000025
+  },
+  {
+   "n": 45,
+   "ini": 244.441,
+   "fin": 245.681,
+   "texto": "perfecto, si que no,",
+   "especial": "perfecto",
+   "dur": 1.6210000000000093
+  },
+  {
+   "n": 46,
+   "ini": 246.062,
+   "fin": 246.502,
+   "texto": "te lo diré.",
+   "especial": "diré",
+   "dur": 0.4399999999999977
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F18774",
+    "#863627",
+    "#F4E8E6",
+    "#160F0D"
+   ]
+  },
+  {
+   "nombre": "Verde · del plano",
+   "c": [
+    "#C8F174",
+    "#678627",
+    "#F0F4E6",
+    "#13160D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

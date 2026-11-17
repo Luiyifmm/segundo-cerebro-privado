@@ -1,0 +1,405 @@
+{
+ "intro": {
+  "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/in/intro.wav",
+  "cut": 51.5,
+  "fade_s": 0.8,
+  "drop_at": 53.45514416016078,
+  "gain_db": -4,
+  "voices": [
+   {
+    "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/FRASE2.wav",
+    "t": 46.75,
+    "gain_db": 2,
+    "duck_db": -13,
+    "dur": 5.387
+   }
+  ],
+  "fx": []
+ },
+ "songs": [
+  {
+   "id": "14",
+   "start": 26.6101,
+   "end": 100.9952,
+   "impact": "03_069",
+   "impact_db": -12,
+   "in": "rise"
+  },
+  {
+   "id": "13",
+   "start": 237.4821,
+   "end": 311.3332,
+   "in": "blend"
+  },
+  {
+   "id": "12",
+   "start": 29.4893,
+   "end": 94.7142,
+   "riser": "02_056",
+   "in": "blend",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/M01g.wav",
+     "dur": 2.163,
+     "end_before_out": "riser",
+     "gain_db": -3,
+     "duck_db": -7,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "23",
+   "start": 31.138,
+   "end": 112.7793,
+   "impact": "03_075",
+   "impact_db": -11,
+   "in": "riser"
+  },
+  {
+   "id": "01",
+   "start": 17.1712,
+   "end": 91.5215,
+   "impact": "04_085",
+   "impact_db": -10,
+   "gain_db": -0.5,
+   "in": "cut"
+  },
+  {
+   "id": "28",
+   "start": 123.9133,
+   "end": 191.0306,
+   "impact": "04_087",
+   "impact_db": -13,
+   "in": "filter"
+  },
+  {
+   "id": "02",
+   "start": 0.4992,
+   "end": 77.7404,
+   "in": "echo"
+  },
+  {
+   "id": "07",
+   "start": 129.5906,
+   "end": 191.8549,
+   "impact": "04_084",
+   "impact_db": -12,
+   "riser": "02_061",
+   "in": "spin",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/M02g.wav",
+     "dur": 1.823,
+     "end_before_out": "riser",
+     "gain_db": 0,
+     "duck_db": -10,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "26",
+   "start": 30.0931,
+   "end": 95.2134,
+   "impact": "03_069",
+   "impact_db": -11,
+   "in": "riser"
+  },
+  {
+   "id": "27",
+   "start": 8.4521,
+   "end": 130.1362,
+   "impact": "04_087",
+   "impact_db": -13,
+   "in": "filter"
+  },
+  {
+   "id": "19",
+   "start": 55.4493,
+   "end": 154.3779,
+   "in": "echo"
+  },
+  {
+   "id": "16",
+   "start": 62.4617,
+   "end": 139.2617,
+   "impact": "03_075",
+   "impact_db": -12,
+   "in": "cut",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/M03g.wav",
+     "dur": 2.402,
+     "end_before_out": "riser",
+     "gain_db": -1,
+     "duck_db": -10,
+     "carve": 8
+    },
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V07g.wav",
+     "dur": 2.074,
+     "after_in": 0.35,
+     "gain_db": -1,
+     "duck_db": -9,
+     "carve": 6
+    }
+   ]
+  },
+  {
+   "id": "35",
+   "start": 32.299,
+   "end": 103.1198,
+   "impact": "03_069",
+   "impact_db": -11,
+   "in": "riser"
+  },
+  {
+   "id": "09",
+   "start": 132.5163,
+   "end": 201.0848,
+   "in": "echo"
+  },
+  {
+   "id": "03",
+   "start": 9.7176,
+   "end": 86.8775,
+   "impact": "03_072",
+   "impact_db": -12,
+   "in": "cut"
+  },
+  {
+   "id": "15",
+   "start": 98.6616,
+   "end": 159.9855,
+   "impact": "03_072",
+   "impact_db": -12,
+   "in": "spin"
+  },
+  {
+   "id": "11",
+   "start": 71.3201,
+   "end": 151.4754,
+   "riser": "02_056",
+   "in": "echo",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/M04g.wav",
+     "dur": 2.679,
+     "end_before_out": "riser",
+     "gain_db": -3,
+     "duck_db": -7,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "30",
+   "start": 9.1487,
+   "end": 83.3364,
+   "impact": "03_075",
+   "impact_db": -11,
+   "in": "riser"
+  },
+  {
+   "id": "33",
+   "start": 45.4531,
+   "end": 127.9187,
+   "impact": "03_075",
+   "impact_db": -9,
+   "in": "cut"
+  },
+  {
+   "id": "36",
+   "start": 17.8097,
+   "end": 93.2513,
+   "impact": "04_084",
+   "impact_db": -12,
+   "in": "filter"
+  },
+  {
+   "id": "31",
+   "start": 39.2649,
+   "end": 104.2692,
+   "in": "echo",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/M05g.wav",
+     "dur": 2.945,
+     "end_before_out": "riser",
+     "gain_db": 0,
+     "duck_db": -7,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "34",
+   "start": 28.2006,
+   "end": 102.3303,
+   "impact": "03_069",
+   "impact_db": -10,
+   "echo_db": -3,
+   "sec_gain": [
+    [
+     90.3,
+     102.5,
+     -2
+    ]
+   ],
+   "in": "riser"
+  },
+  {
+   "id": "32",
+   "start": 0.418,
+   "end": 73.8859,
+   "in": "echo"
+  },
+  {
+   "id": "05",
+   "start": 150.7672,
+   "end": 233.3257,
+   "impact": "03_075",
+   "impact_db": -12,
+   "in": "cut",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V07g.wav",
+     "dur": 2.074,
+     "end_before_out": "beat",
+     "gain_db": -3,
+     "duck_db": -10,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "04",
+   "start": 90.1166,
+   "end": 171.8973,
+   "impact": "04_087",
+   "impact_db": -13,
+   "in": "filter"
+  },
+  {
+   "id": "18",
+   "start": 37.9298,
+   "end": 115.2987,
+   "in": "echo",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V06g.wav",
+     "dur": 4.203,
+     "end_before_out": "riser",
+     "gain_db": -1,
+     "duck_db": -7,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "start": 131.9938,
+   "end": 206.5415,
+   "impact": "03_072",
+   "impact_db": -12,
+   "in": "riser"
+  },
+  {
+   "id": "22",
+   "start": 33.6109,
+   "end": 98.9518,
+   "impact": "04_087",
+   "impact_db": -13,
+   "riser": "02_061",
+   "riser_db": -14,
+   "in": "spin"
+  },
+  {
+   "id": "24",
+   "start": 27.1093,
+   "end": 106.3126,
+   "impact": "03_075",
+   "impact_db": -11,
+   "in": "riser",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V07g.wav",
+     "dur": 2.074,
+     "end_before_out": "beat",
+     "gain_db": -3,
+     "duck_db": -10,
+     "carve": 0
+    }
+   ]
+  },
+  {
+   "id": "06",
+   "start": 85.194,
+   "end": 164.6179,
+   "impact": "04_084",
+   "impact_db": -12,
+   "in": "cut"
+  },
+  {
+   "id": "29",
+   "start": 40.0893,
+   "end": 120.9295,
+   "sec_gain": [
+    [
+     70.4,
+     85.4,
+     -3
+    ]
+   ],
+   "in": "echo"
+  },
+  {
+   "id": "20",
+   "start": 150.3608,
+   "end": 230.6206,
+   "impact": "04_087",
+   "impact_db": -13,
+   "riser": "02_064",
+   "riser_db": -9,
+   "in": "filter",
+   "voices": [
+    {
+     "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V08g.wav",
+     "dur": 1.045,
+     "end_before_out": 3.0,
+     "gain_db": 0,
+     "duck_db": -10,
+     "carve": 8
+    }
+   ]
+  },
+  {
+   "id": "25",
+   "start": 206.0423,
+   "end": 266.7624,
+   "impact": "03_069",
+   "impact_db": -9,
+   "in": "riser"
+  },
+  {
+   "id": "21",
+   "start": 74.1065,
+   "end": 142.6982,
+   "in": "echo"
+  }
+ ],
+ "ending": "echo",
+ "end_impact": "03_069",
+ "end_impact_db": -4,
+ "end_voices": [
+  {
+   "file": "/Users/luiyi/Videos-Remotion/proyectos/prede-el-party/vox/proc/V07g.wav",
+   "after_out": 0.3,
+   "gain_db": -1,
+   "dur": 2.074
+  }
+ ],
+ "end_tail": 4.5,
+ "duck_db": -7
+}

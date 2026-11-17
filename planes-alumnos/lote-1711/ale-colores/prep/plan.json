@@ -1,0 +1,158 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 4.378,
+   "fin": 7.4,
+   "texto": "El rojo ayuda a mantener la presión arterial saludable.",
+   "especial": "saludable",
+   "dur": 8.886
+  },
+  {
+   "n": 2,
+   "ini": 13.264,
+   "fin": 13.324,
+   "texto": "El",
+   "especial": "El",
+   "dur": 16.392
+  },
+  {
+   "n": 3,
+   "ini": 29.656,
+   "fin": 30.977,
+   "texto": "El rojo ayuda a mantener la presión",
+   "especial": "presión",
+   "dur": 2.122
+  },
+  {
+   "n": 4,
+   "ini": 31.778,
+   "fin": 32.118,
+   "texto": "arterial.",
+   "especial": "arterial",
+   "dur": 2.0
+  },
+  {
+   "n": 5,
+   "ini": 33.778,
+   "fin": 35.58,
+   "texto": "mantener la presión arterial saludable.",
+   "especial": "saludable",
+   "dur": 2.661999999999999
+  },
+  {
+   "n": 6,
+   "ini": 36.44,
+   "fin": 38.642,
+   "texto": "El rojo ayuda a mantener la presión arterial saludable.",
+   "especial": "saludable",
+   "dur": 6.825000000000003
+  },
+  {
+   "n": 7,
+   "ini": 43.265,
+   "fin": 44.406,
+   "texto": "No, se me perdió.",
+   "especial": "perdió",
+   "dur": 9.807000000000002
+  },
+  {
+   "n": 8,
+   "ini": 53.072,
+   "fin": 55.153,
+   "texto": "El verde ayuda niveles buenos de colesterol.",
+   "especial": "colesterol",
+   "dur": 6.964999999999996
+  },
+  {
+   "n": 9,
+   "ini": 60.037,
+   "fin": 61.758,
+   "texto": "En la naranja, apoya al azul intestinal.",
+   "especial": "intestinal",
+   "dur": 7.360999999999997
+  },
+  {
+   "n": 10,
+   "ini": 67.398,
+   "fin": 68.838,
+   "texto": "El morado ayuda a mantener buenos.",
+   "especial": "buenos",
+   "dur": 5.921999999999997
+  },
+  {
+   "n": 11,
+   "ini": 73.32,
+   "fin": 74.48,
+   "texto": "ayuda mantener niveles buenos.",
+   "especial": "buenos",
+   "dur": 3.061000000000007
+  },
+  {
+   "n": 12,
+   "ini": 76.381,
+   "fin": 77.461,
+   "texto": "ayuda mantener niveles buenos.",
+   "especial": "buenos",
+   "dur": 4.400999999999996
+  },
+  {
+   "n": 13,
+   "ini": 80.782,
+   "fin": 80.802,
+   "texto": "a",
+   "especial": "a",
+   "dur": 10.503
+  },
+  {
+   "n": 14,
+   "ini": 91.285,
+   "fin": 91.465,
+   "texto": "morado",
+   "especial": "morado",
+   "dur": 5.929000000000002
+  },
+  {
+   "n": 15,
+   "ini": 97.214,
+   "fin": 99.117,
+   "texto": "Y si quieres más sobre pérdida de nutrición,",
+   "especial": "nutrición",
+   "dur": 2.1029999999999944
+  },
+  {
+   "n": 16,
+   "ini": 99.317,
+   "fin": 100.218,
+   "texto": "sigales Martín Finde.",
+   "especial": "Martín Finde",
+   "dur": 0.9010000000000105
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F19B74",
+    "#864527",
+    "#F4EAE6",
+    "#16100D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

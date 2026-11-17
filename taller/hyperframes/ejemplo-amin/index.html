@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"Nyght";src:url("NyghtSerif-LightItalic.otf")}
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+.t{position:absolute;opacity:0;color:#fff;text-shadow:0 6px 22px rgba(0,0,0,.55)}
+#linea{left:150px;top:1180px;font:700 64px -apple-system,"SF Pro Display",Helvetica,sans-serif;letter-spacing:-1px}
+#clave{left:150px;top:1240px;font:400 150px "Nyght",serif;color:#1E8BFF;text-shadow:0 0 26px rgba(30,138,255,.45),0 8px 24px rgba(0,0,0,.5)}
+#chapa{left:780px;top:1080px;width:140px;height:140px;border-radius:70px;background:#1E8BFF;display:flex;align-items:center;justify-content:center;font:800 64px -apple-system,sans-serif;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+#flecha{position:absolute;left:560px;top:1130px;width:240px;height:160px;overflow:visible}
+#flecha path{fill:none;stroke:#fff;stroke-width:9;stroke-linecap:round;opacity:0}
+#cifra{left:0;right:0;top:700px;text-align:center;font:900 220px -apple-system,sans-serif;letter-spacing:-6px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="4">
+<div id="cifra" class="t clip" data-start="0" data-duration="4">10 H</div>
+<div id="linea" class="t clip" data-start="0" data-duration="4">tu tiempo es</div>
+<div id="clave" class="t clip" data-start="0" data-duration="4">libertad</div>
+<div id="chapa" class="t clip" data-start="0" data-duration="4">✓</div>
+<svg id="flecha" viewBox="0 0 240 160"><path id="trazo" d="M10 140 C 80 20, 160 20, 225 70 M225 70 L 195 62 M225 70 L 212 42"/></svg>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+casa.slam(tl,"#cifra",0.15); casa.riseOut(tl,"#cifra",1.2);
+casa.riseIn(tl,"#linea",1.6,{tam:64}); casa.riseIn(tl,"#clave",1.85,{tam:150});
+casa.drawOn(tl,document.getElementById("trazo"),2.3,0.45); casa.pop(tl,"#chapa",2.8);
+casa.float(tl,"#clave",2.4,3.6,5);
+tl.to(["#linea","#clave","#chapa","#flecha path"],{opacity:0,y:-18,duration:0.35,ease:"power2.in"},3.6);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

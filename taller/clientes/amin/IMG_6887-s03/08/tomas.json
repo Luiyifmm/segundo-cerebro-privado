@@ -1,0 +1,146 @@
+{
+ "bruto": "/Users/luiyi/Videos-Remotion/clientes/amin/IMG_6887-s03/s03_desde_785.651.wav",
+ "palabras": "/Users/luiyi/Videos-Remotion/voz/salida-whisperx/s03_desde_785.651.verificada.json",
+ "bloques": [
+  {
+   "id": "G",
+   "tramos": [
+    [
+     10.13,
+     12.009
+    ]
+   ],
+   "clave": "MESES"
+  },
+  {
+   "id": "p1",
+   "tramos": [
+    [
+     16.61,
+     18.131
+    ]
+   ],
+   "clave": "PORNO"
+  },
+  {
+   "id": "p2",
+   "tramos": [
+    [
+     42.79,
+     43.966
+    ]
+   ],
+   "clave": "MÓVIL"
+  },
+  {
+   "id": "p3",
+   "tramos": [
+    [
+     59.28,
+     61.079
+    ]
+   ],
+   "clave": "MENTOR"
+  },
+  {
+   "id": "p4",
+   "tramos": [
+    [
+     73.77,
+     76.966
+    ]
+   ],
+   "clave": "METAS"
+  },
+  {
+   "id": "p5",
+   "tramos": [
+    [
+     83.67,
+     85.09
+    ]
+   ],
+   "clave": "GRUPO"
+  },
+  {
+   "id": "p6a",
+   "tramos": [
+    [
+     90.28,
+     91.276
+    ]
+   ],
+   "clave": null
+  },
+  {
+   "id": "p6b",
+   "tramos": [
+    [
+     91.34,
+     93.597
+    ]
+   ],
+   "clave": "99 %"
+  },
+  {
+   "id": "p7",
+   "tramos": [
+    [
+     97.7,
+     102.382
+    ]
+   ],
+   "clave": "VENDER"
+  },
+  {
+   "id": "p8",
+   "tramos": [
+    [
+     103.22,
+     108.006
+    ]
+   ],
+   "clave": "CARO"
+  },
+  {
+   "id": "p9",
+   "tramos": [
+    [
+     116.85,
+     119.275
+    ]
+   ],
+   "clave": "LOCO"
+  },
+  {
+   "id": "p10",
+   "tramos": [
+    [
+     124.86,
+     126.097
+    ]
+   ],
+   "clave": "MIEDO"
+  },
+  {
+   "id": "D",
+   "tramos": [
+    [
+     133.76,
+     137.861
+    ]
+   ],
+   "clave": "HORAS POR DINERO"
+  },
+  {
+   "id": "CTA",
+   "tramos": [
+    [
+     142.67,
+     151.077
+    ]
+   ],
+   "clave": "PLAN"
+  }
+ ]
+}

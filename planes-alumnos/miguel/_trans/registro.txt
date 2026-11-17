@@ -1,0 +1,8 @@
+2026-11-15 14:51:13 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/miguel/_trans/Miguel - mochila de partido (SDR).palabras.json", "idioma": "es", "palabras": 108, "sin_tiempo": 0, "texto": "Llevo jugando al fútbol toda mi vida. Y esto no falla nunca en mi mochila. Primero, un plátano. Me lo como una hora antes. Energía rápida y no me pesa. Segundo, dátiles para descanso o justo antes de salir al partido. Tercero, agua con aminoacidos esenciales. Porque en Marbella, sea la estación que sea, sudamos hasta parados. Y ahora, lo que no me llevo. Nada que no haya probado antes, el día de partido no es día para experimentos. Pero ojo, lo que te digo es solo la guinda, si no comemos bien durante la semana, ni la hora es antes del partido, el plátano no te salva.", "s_carga": 0.5, "s_transcripcion": 7.8, "s_alineado": 2.1, "s_total": 10.5}
+Miguel - mochila de partido (SDR).palabras.json contra Miguel - mochila de partido (SDR).mp4: 108 palabras
+  voz principal ≈ -6 dB (umbral -30 dB) · ruido ≈ -75 dB
+  principal 108 · voz baja 0 · sin voz 0 · sin tiempo 0 · FIABLES 101 (94 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/miguel/_trans/Miguel - mochila de partido (SDR).verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

@@ -1,0 +1,20 @@
+// Opción B: subtítulos en estilo fino (plantilla "Subtitulo Amin fino v1"), editables. Los v10 y sus copias de glow se desactivan, no se borran.
+(function () { app.enableQE(); var r = { hecho: [], errores: [], pistas: [] }, i, t, k, T = 254016000000, S = "/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/", M = "/Users/luiyi/Videos-Remotion/clientes/_plantillas/Subtitulo Amin fino v1.mogrt", B = null;
+  for (i = 0; i < app.project.sequences.numSequences; i++) if (app.project.sequences[i].name === "AMIN_1010_01 - B motion graphics nuevos") B = app.project.sequences[i]; if (!B) return "sin secuencia B";
+  app.project.openSequence(B.sequenceID);
+  function seg(s) { var x = new Time(); x.seconds = s; return x; }
+  // pista con más subtítulos v10 = la principal
+  var best = -1, bn = 0; for (t = 0; t < B.videoTracks.numTracks; t++) { var n = 0, oc = 0; for (i = 0; i < B.videoTracks[t].clips.numItems; i++) { var c = B.videoTracks[t].clips[i]; if (c.end.seconds > 66 && c.start.seconds < 108.3) { oc++; if (c.name.indexOf("Subtitulo Amin v10") === 0) n++; } } r.pistas.push((t + 1) + ":" + B.videoTracks[t].name + ":" + oc); if (n > bn) { bn = n; best = t; } }
+  var libre = -1; for (t = best - 1; t >= 9; t--) { var o2 = 0; for (i = 0; i < B.videoTracks[t].clips.numItems; i++) { var c2 = B.videoTracks[t].clips[i]; if (c2.end.seconds > 66 && c2.start.seconds < 108.3) o2++; } if (o2 === 0) { libre = t; break; } }
+  if (best < 0 || libre < 0) return JSON.stringify(r);
+  var lista = []; for (i = 0; i < B.videoTracks[best].clips.numItems; i++) { var s = B.videoTracks[best].clips[i]; if (s.name.indexOf("Subtitulo Amin v10") !== 0 || s.start.seconds < 66 || s.start.seconds > 108.3 || s.disabled) continue; var mg = s.getMGTComponent(), lin = "", cla = ""; for (k = 0; k < mg.properties.numItems; k++) { var p = mg.properties[k]; try { var v = p.getValue(); if (typeof v === "string" && v.indexOf("textEditValue") >= 0) { var tx = JSON.parse(v).textEditValue; if (/clave/i.test(p.displayName)) cla = tx; else lin = tx; } } catch (e) {} } lista.push([s.start.seconds, s.end.seconds, lin, cla]); }
+  lista.sort(function (a, b) { return a[0] - b[0]; });
+  var tr = B.videoTracks[libre], hechos = 0;
+  for (k = 0; k < lista.length; k++) { var L = lista[k], antes = tr.clips.numItems; B.importMGT(M, String(Math.round(L[0] * T)), libre, 0); var nc = null; for (i = 0; i < tr.clips.numItems; i++) if (Math.abs(tr.clips[i].start.seconds - L[0]) < 0.03) nc = tr.clips[i]; if (!nc) { r.errores.push("no entra en " + L[0].toFixed(2)); continue; }
+    nc.end = seg(L[1]); try { nc.outPoint = seg(nc.inPoint.seconds + (L[1] - L[0])); } catch (e) {}
+    var m2 = nc.getMGTComponent(); for (i = 0; i < m2.properties.numItems; i++) { var q2 = m2.properties[i]; try { var v2 = q2.getValue(); if (typeof v2 === "string" && v2.indexOf("textEditValue") >= 0) { var o = JSON.parse(v2); o.textEditValue = /clave/i.test(q2.displayName) ? (L[3].replace(/^\s+|\s+$/g, "") || " ") : (L[2].replace(/^\s+|\s+$/g, "") || " "); q2.setValue(JSON.stringify(o), true); } } catch (e) { r.errores.push("texto " + e); } }
+    nc.name = "fino: " + (L[2] + " " + L[3]).replace(/^\s+|\s+$/g, "").substr(0, 28); hechos++; }
+  r.hecho.push("subtitulos finos creados: " + hechos + " de " + lista.length + " en pista " + (libre + 1));
+  var nd = 0; if (hechos === lista.length) { for (t = 0; t < B.videoTracks.numTracks; t++) { if (t === libre) continue; for (i = 0; i < B.videoTracks[t].clips.numItems; i++) { var d = B.videoTracks[t].clips[i]; if (d.start.seconds >= 66 && d.start.seconds < 108.3 && !d.disabled && d.getMGTComponent() && /^(Subtitulo Amin v1|glow:)/.test(d.name)) { d.disabled = true; nd++; } } } r.hecho.push("subtitulos antiguos desactivados: " + nd); }
+  var q = qe.project.getActiveSequence(), ts = [69.6, 70.5, 73.9, 77.6, 85.2, 91.0, 92.2, 106.9, 107.9]; for (i = 0; i < ts.length; i++) { B.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, S + "bs-" + i); }
+  return JSON.stringify(r); })();

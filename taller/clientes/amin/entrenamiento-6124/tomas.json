@@ -1,0 +1,15 @@
+{"bruto":"/Users/luiyi/EDICION/1 CLIENTES/AMIN/BRUTOS/PENDIENTES/IMG_6124.MOV",
+ "palabras":"/Users/luiyi/Videos-Remotion/voz/salida-whisperx/IMG_6124.verificada.json",
+ "bloques":[
+  {"id":"gancho","tramos":[[47.02,47.58],[53.52,53.96]],"clave":"pobre","marca":null},
+  {"id":"pregunta","tramos":[[59.37,60.79]],"clave":"una","marca":null},
+  {"id":"respuesta","tramos":[[99.36,101.16],[108.08,108.62]],"clave":"Atento","marca":null},
+  {"id":"c1","tramos":[[127.81,129.75]],"clave":"foco","marca":"reloj"},
+  {"id":"c2","tramos":[[136.75,138.40],[144.48,145.76]],"clave":"cartera","marca":"cartera"},
+  {"id":"c3","tramos":[[150.59,152.45],[157.16,158.54]],"clave":"proyectos","marca":"cabeza"},
+  {"id":"c4","tramos":[[165.91,168.73],[179.74,182.43],[188.03,190.41]],"clave":"arrastrado","marca":null},
+  {"id":"m1","tramos":[[196.62,198.56]],"clave":"ahora mismo","marca":null},
+  {"id":"m2","tramos":[[227.00,228.80]],"clave":"imperio","marca":null},
+  {"id":"m3","tramos":[[233.18,235.14],[248.10,250.06],[250.82,251.74]],"clave":"compartirlo","marca":null},
+  {"id":"cta","tramos":[[260.38,260.75],[261.38,262.19]],"clave":"vida","marca":null}
+ ]}

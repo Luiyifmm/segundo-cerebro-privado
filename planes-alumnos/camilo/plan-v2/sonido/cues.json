@@ -1,0 +1,531 @@
+{
+ "video": "/private/tmp/claude-501/-Users-luiyi-EDICION/e56e3b49-fb3b-4484-a3bc-33ed251ac751/scratchpad/camilo/video_voz.mp4",
+ "keep_audio": "auto",
+ "cues": [
+  {
+   "t": 0.03,
+   "label": "sub_drop",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/04 Bajos y drops/Sub Bass Drop 1.wav",
+   "role": "sub_drop"
+  },
+  {
+   "t": 0.06,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Whoosh Deep Short.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 0.62,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/07 Pops, brillos y acentos/Smooth Pop.wav",
+   "role": "ui"
+  },
+  {
+   "t": 1.0,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/07 Pops, brillos y acentos/Premium And Smooth Pop.wav",
+   "role": "ui"
+  },
+  {
+   "t": 1.8,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -4,
+   "pitch": 0,
+   "highpass": 150,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/03 Impactos y golpes/Impact Normal.mp3",
+   "role": "hit"
+  },
+  {
+   "t": 3.25,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "highpass": 150,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/03 Impactos y golpes/BOOM IMPACT (23).wav",
+   "role": "hit"
+  },
+  {
+   "t": 4.08,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Simple Whoosh.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 4.33,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -5,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Cinematic Fast Whoosh.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 4.6,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/07 Pops, brillos y acentos/Smooth Pop.wav",
+   "role": "ui"
+  },
+  {
+   "t": 5.05,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Whoosh Deep Light 2.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 5.52,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -3,
+   "pitch": 0,
+   "highpass": 150,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/03 Impactos y golpes/Impact Normal.mp3",
+   "role": "hit"
+  },
+  {
+   "t": 5.5,
+   "label": "pop",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0,
+   "pitch": 0,
+   "role": "click",
+   "id": 102
+  },
+  {
+   "t": 7.45,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Woosh Effect 6.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 8.04,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/07 Pops, brillos y acentos/Premium And Smooth Pop.wav",
+   "role": "ui"
+  },
+  {
+   "t": 9.4,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": -1,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Swoosh.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 12.13,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 102
+  },
+  {
+   "t": 13.25,
+   "label": "click",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0.0,
+   "role": "click",
+   "id": 124,
+   "pitch": 0
+  },
+  {
+   "t": 17.14,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "role": "pop",
+   "id": 122,
+   "pitch": 0
+  },
+  {
+   "t": 18.2,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -4,
+   "pitch": 0,
+   "highpass": 250,
+   "role": "hit",
+   "id": 807
+  },
+  {
+   "t": 18.75,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/SCH - Whoosh Fast - 2.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 19.31,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 104
+  },
+  {
+   "t": 20.87,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 612
+  },
+  {
+   "t": 24.64,
+   "label": "click",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0.0,
+   "role": "click",
+   "id": 117,
+   "pitch": 0
+  },
+  {
+   "t": 25.45,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": -2,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/whoosh_01 - Swosh swoosh whoosh air sound free high .mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 25.72,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 560
+  },
+  {
+   "t": 25.95,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 2,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/SFX- Swoosh05.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 28.54,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 589
+  },
+  {
+   "t": 30.73,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 563
+  },
+  {
+   "t": 31.85,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -4,
+   "pitch": 0,
+   "highpass": 250,
+   "role": "hit",
+   "id": 252
+  },
+  {
+   "t": 33.18,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": -3,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/Cinematic Fast Normal Whoosh.wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 34.1,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "role": "pop",
+   "id": 605,
+   "pitch": 0
+  },
+  {
+   "t": 36.58,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 104
+  },
+  {
+   "t": 39.32,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 559
+  },
+  {
+   "t": 41.45,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": 1,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/whoosh_04 - Swipe Whoosh.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 43.11,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -3,
+   "pitch": 0,
+   "highpass": 250,
+   "role": "hit",
+   "id": 263
+  },
+  {
+   "t": 44.2,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": -1,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/VS_Short Whoosh 3.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 45.65,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 126
+  },
+  {
+   "t": 47.79,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 99
+  },
+  {
+   "t": 50.2,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 113
+  },
+  {
+   "t": 51.8,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/01 Whooshes y transiciones/whoosh_05 - Swoosh 15 Windy.mp3",
+   "role": "whoosh"
+  },
+  {
+   "t": 54.4,
+   "label": "whoosh",
+   "_g": 1.0,
+   "gain_db": -2.0,
+   "pitch": -2,
+   "file": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido/06 Interfaz y clics/Ui Glitch, Flicker, Text  (2).wav",
+   "role": "whoosh"
+  },
+  {
+   "t": 55.62,
+   "label": "whoosh",
+   "id": 339,
+   "gain_db": -5
+  },
+  {
+   "t": 55.66,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -1,
+   "pitch": 0,
+   "highpass": 250,
+   "role": "hit",
+   "id": 260
+  },
+  {
+   "t": 60.25,
+   "label": "click",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0.0,
+   "role": "click",
+   "id": 613,
+   "pitch": 0
+  },
+  {
+   "t": 62.22,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "role": "pop",
+   "id": 564,
+   "pitch": 0
+  },
+  {
+   "t": 63.47,
+   "label": "click",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0.0,
+   "role": "click",
+   "id": 117,
+   "pitch": 0
+  },
+  {
+   "t": 64.56,
+   "label": "pop",
+   "_g": 1.0,
+   "gain_db": 0.0,
+   "pitch": 0,
+   "role": "pop",
+   "id": 560
+  },
+  {
+   "t": 65.3,
+   "label": "click",
+   "_g": 1.0,
+   "same_source": true,
+   "gain_db": 0.0,
+   "role": "click",
+   "id": 127,
+   "pitch": 0
+  },
+  {
+   "t": 67.99,
+   "label": "hit",
+   "_g": 1.0,
+   "gain_db": -4,
+   "pitch": 0,
+   "highpass": 250,
+   "role": "hit",
+   "id": 799
+  }
+ ],
+ "_draft": {
+  "source": "/private/tmp/claude-501/-Users-luiyi-EDICION/e56e3b49-fb3b-4484-a3bc-33ed251ac751/scratchpad/camilo/sfx/eventos.json",
+  "events": 50,
+  "thinned": 0,
+  "thinned_by_kind": {},
+  "fused": 0,
+  "routed": {
+   "drop": 2,
+   "whoosh": 14,
+   "pop": 20,
+   "hit": 8,
+   "click": 6
+  },
+  "unmapped": {},
+  "sync": {
+   "verdict": "ok",
+   "total": 10,
+   "matched": 8,
+   "median_offset_s": 0.033,
+   "within_tol": 0.7,
+   "within_after_shift": 0.7,
+   "quarters": [
+    {
+     "from": 0.0,
+     "to": 5.5,
+     "median_offset_s": 0.003,
+     "n": 2
+    },
+    {
+     "from": 18.2,
+     "to": 31.8,
+     "median_offset_s": 0.033,
+     "n": 2
+    },
+    {
+     "from": 43.1,
+     "to": 55.7,
+     "median_offset_s": 0.04,
+     "n": 2
+    },
+    {
+     "from": 55.7,
+     "to": 68.0,
+     "median_offset_s": 0.043,
+     "n": 2
+    }
+   ],
+   "drift": false
+  },
+  "stems": null,
+  "voice": null,
+  "retimed": null,
+  "baked": {
+   "share": 0.2,
+   "chance": 0.13,
+   "at_db": 6.25,
+   "shifted_db": 5.54,
+   "quiet": 0.17
+  },
+  "baked_strong": false,
+  "keep_audio_decision": null,
+  "declared": 50,
+  "voiced": 50,
+  "clamped_quiet": 0,
+  "layer_lufs": null,
+  "base_kind": null,
+  "screen_rec": false,
+  "music_ref": [],
+  "reference_layer": [],
+  "typing_runs": [],
+  "first_event_t": 0.03,
+  "time_map": null,
+  "unlisted_synth_onsets": [],
+  "kinds_user": null
+ }
+}

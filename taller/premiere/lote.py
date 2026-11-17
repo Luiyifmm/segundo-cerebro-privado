@@ -1,0 +1,12 @@
+# Uso: python3 lote.py <cliente> <ID> "<bandeja>"   → escribe un .jsx listo en el scratchpad y lo imprime
+import json,sys,os
+S="/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad"; H=os.path.expanduser("~")
+cli,rid,bandeja=sys.argv[1:4]
+bd=json.load(open(H+"/Videos-Remotion/sistema/reels.json"))["reels"]; r=next(x for x in bd if x["id"]==rid); d=r["dir"]
+P={"amin":{"plantilla":"Subtitulo Amin v10","ajustes":{"props":{"Tamano (50 = normal, 100 = doble)":67.89,"Altura (50 = normal, mas = sube)":50,"Duracion de la entrada (fotogramas)":6,"Animacion de entrada":True,"Sombra":True,"Sombra: opacidad (0 a 100)":100,"Sombra: difuminado":38,"Sombra: distancia":16,"Glow de la palabra clave (0 = sin glow, 50 = normal)":0,"Alinear a la izquierda":True},"posCon":[0.5,0.4375],"posSin":[0.5,0.4661]},"colorClave":[30,138,255],"colorGris":None,"proy":"AMIN - LOTE 11 OCT.prproj"},
+   "eric":{"plantilla":"Subtitulo Eric v2","ajustes":{"props":{"Tamano (50 = normal, 100 = doble)":52.2,"Altura (50 = normal, mas = sube)":50,"Duracion de la entrada (fotogramas)":6,"Animacion de entrada":True,"Sombra":True,"Sombra: opacidad (0 a 100)":100,"Sombra: difuminado":34,"Sombra: distancia":18,"Alinear a la izquierda":True},"posCon":[0.5,0.3909],"posSin":[0.5,0.3909]},"colorClave":[255,87,0],"colorGris":None,"proy":"ERIC - LOTE 11 OCT.prproj"},
+   "natalia":{"plantilla":"Subtitulo Eric v2","ajustes":{"props":{"Tamano (50 = normal, 100 = doble)":52.2,"Altura (50 = normal, mas = sube)":50,"Duracion de la entrada (fotogramas)":6,"Animacion de entrada":True,"Sombra":True,"Sombra: opacidad (0 a 100)":100,"Sombra: difuminado":34,"Sombra: distancia":18,"Alinear a la izquierda":True},"posCon":[0.5,0.3909],"posSin":[0.5,0.3909]},"colorClave":[0,255,4],"colorGris":[255,45,45],"proy":"NATALIA - LOTE 11 OCT.prproj"}}[cli]
+px=json.load(open(f"{d}/{rid}.proxies.json")) if os.path.exists(f"{d}/{rid}.proxies.json") else {}
+cfg={"proyecto":P["proy"],"ruta":H+"/EDICION/3 PROYECTOS/Lotes de edición/"+P["proy"],"bin":bandeja,"id":rid,"titulo":r["titulo"],"xml":r["xml"],"plantilla":H+"/Videos-Remotion/clientes/_plantillas/"+P["plantilla"]+".mogrt","ajustes":P["ajustes"],"colorClave":P["colorClave"],"colorGris":P["colorGris"],
+     "subs":json.load(open(f"{d}/{rid}.subs.json")),"marcadores":json.load(open(f"{d}/{rid}.marcadores.json")),"proxies":px}
+out=f"{S}/lote-{rid}.jsx"; open(out,"w").write(open(H+"/Videos-Remotion/premiere/lote-reel.jsx").read().replace("__CFG__",json.dumps(cfg,ensure_ascii=False))); print(out)

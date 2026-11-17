@@ -1,0 +1,66 @@
+[
+ {
+  "bloque": "gancho",
+  "entrada": 17.56,
+  "salida": 22.12,
+  "t_montaje": 0.0,
+  "clave": "peor",
+  "marca": "E3 título detrás + E1 tarjetas"
+ },
+ {
+  "bloque": "tipo1",
+  "entrada": 29.51,
+  "salida": 32.51,
+  "t_montaje": 4.56,
+  "clave": "manipuladora",
+  "marca": null
+ },
+ {
+  "bloque": "tipo1",
+  "entrada": 37.64,
+  "salida": 39.5,
+  "t_montaje": 7.56,
+  "clave": "manipuladora",
+  "marca": null
+ },
+ {
+  "bloque": "quinto",
+  "entrada": 133.2,
+  "salida": 134.68,
+  "t_montaje": 9.42,
+  "clave": "peor",
+  "marca": "E2 impacto en 'peor'"
+ },
+ {
+  "bloque": "cajero",
+  "entrada": 134.992,
+  "salida": 136.06,
+  "t_montaje": 10.9,
+  "clave": "cajero",
+  "marca": null
+ },
+ {
+  "bloque": "cajero",
+  "entrada": 141.74,
+  "salida": 144.71,
+  "t_montaje": 11.968,
+  "clave": "cajero",
+  "marca": null
+ },
+ {
+  "bloque": "moraleja",
+  "entrada": 198.85,
+  "salida": 203.35,
+  "t_montaje": 14.938,
+  "clave": "energía",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 247.4,
+  "salida": 249.4,
+  "t_montaje": 19.438,
+  "clave": "vida",
+  "marca": null
+ }
+]

@@ -1,0 +1,27 @@
+{
+  "libraries": [
+    {
+      "name": "Recursos de edicion (Drive)",
+      "path": "/Users/luiyi/EDICION/2 MATERIALES DE EDICION/Efectos de sonido/RECURSOS DE EDICIÓN (en Drive)/EFECTOS DE SONIDO",
+      "tier": "main"
+    },
+    {
+      "name": "Motionix",
+      "path": "/Users/luiyi/EDICION/2 MATERIALES DE EDICION/Efectos de sonido/Sound Effects By Motionix ",
+      "tier": "extra"
+    },
+    {
+      "name": "Openverse CC0",
+      "path": "/Users/luiyi/EDICION/2 MATERIALES DE EDICION/Efectos de sonido/Openverse CC0",
+      "tier": "extra"
+    }
+  ],
+  "uisfx": {
+    "path": "vendor/node_modules/uisfx",
+    "default_pack": "studio"
+  },
+  "skip_dir_names": [
+    "_mister horse previews"
+  ],
+  "index_path": "library_index.json"
+}

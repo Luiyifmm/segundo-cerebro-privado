@@ -1,0 +1,521 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1010_06",
+ "secuencia": "AMIN_1010_06 - corte 3",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1010_06/AMIN_1010_06 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 272.6,
+ "duracionCorte": 35.8,
+ "frases": 63,
+ "dentro": 16,
+ "fuera": 49,
+ "cortes": 21,
+ "segundosDeProceso": 1,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1,
+   "clip": "IMG_6124.MOV",
+   "texto": "Ahora tienes que aguarte."
+  },
+  {
+   "n": 2,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "Acuérdate ahora de lo del silencio, ¿vale?"
+  },
+  {
+   "n": 3,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 1.5,
+   "clip": "IMG_6124.MOV",
+   "texto": "No, no, no, no, no."
+  },
+  {
+   "n": 4,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6124.MOV",
+   "texto": "Aguárdalo del silencio."
+  },
+  {
+   "n": 5,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 5.9,
+   "clip": "IMG_6124.MOV",
+   "texto": "Sabes, yo hablo, hablo, me callo para que no se me ve hablando y luego pues digo la respuesta,"
+  },
+  {
+   "n": 6,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿vale?"
+  },
+  {
+   "n": 7,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 4.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "Así Luis él tiene para poder cortar y poder sacar bien la toma o lo que sea"
+  },
+  {
+   "n": 8,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "entonces"
+  },
+  {
+   "n": 9,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 5.6,
+   "clip": "IMG_6124.MOV",
+   "texto": "vale entonces a partir del segundo tres me lo vas a decir uno dos y tres dímelo"
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "tener novia"
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.5,
+   "clip": "IMG_6124.MOV",
+   "texto": "de pobre mediocrity no de pobre"
+  },
+  {
+   "n": 12,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "pero porque si todo mundo quiere una"
+  },
+  {
+   "n": 13,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 4,
+   "clip": "IMG_6124.MOV",
+   "texto": "cuando yo pero me tienes que decir la respuesta, la pregunta y la respuesta siempre."
+  },
+  {
+   "n": 14,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.1,
+   "clip": "IMG_6124.MOV",
+   "texto": "Bro, el tío, utiliza un poco la cabeza, hermano."
+  },
+  {
+   "n": 15,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6124.MOV",
+   "texto": "Javi."
+  },
+  {
+   "n": 16,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 1.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "Bro, me tienes que decir ..."
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 2,
+   "clip": "IMG_6124.MOV",
+   "texto": "Hermanos, escúchame, me tienes que decir ..."
+  },
+  {
+   "n": 18,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.5,
+   "clip": "IMG_6124.MOV",
+   "texto": "La pregunta y la respuesta."
+  },
+  {
+   "n": 19,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "Y yo me quedo sin enci, una vez que ya he dicho la respuesta, ya me he podido decir la siguiente pregunta."
+  },
+  {
+   "n": 20,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 5.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "Pero no me puedes decir la pregunta y justo después la respuesta porque no puedo guardar la silencia y Luis no puede cortarla."
+  },
+  {
+   "n": 21,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Dime la respuesta, por favor."
+  },
+  {
+   "n": 22,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6124.MOV",
+   "texto": "Y por eso casi todo el mundo está arruinado."
+  },
+  {
+   "n": 23,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.6,
+   "clip": "IMG_6124.MOV",
+   "texto": "Atento."
+  },
+  {
+   "n": 24,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "Adentro."
+  },
+  {
+   "n": 25,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "Tener novia te quita tu tiempo y tu foco."
+  },
+  {
+   "n": 26,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "El que has dicho, ¿puedes repetirlo?"
+  },
+  {
+   "n": 27,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.2,
+   "clip": "IMG_6124.MOV",
+   "texto": "Tener novia te quita"
+  },
+  {
+   "n": 28,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.6,
+   "clip": "IMG_6124.MOV",
+   "texto": "tu tiempo y tu foco"
+  },
+  {
+   "n": 29,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "dime"
+  },
+  {
+   "n": 30,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6124.MOV",
+   "texto": "tener novia te cuesta dinero"
+  },
+  {
+   "n": 31,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.1,
+   "clip": "IMG_6124.MOV",
+   "texto": "tener novia te cuesta dinero ¿qué más?"
+  },
+  {
+   "n": 32,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "te vacía la cartera"
+  },
+  {
+   "n": 33,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "te vacía la cartera El ennoche no ha dado para que se diga que está."
+  },
+  {
+   "n": 34,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.4,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Te va a hacer la cartela?"
+  },
+  {
+   "n": 35,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.1,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Te le no te da dolores para tener novia?"
+  },
+  {
+   "n": 36,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Tener novia te da dolores de cabeza?"
+  },
+  {
+   "n": 37,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿No tienes poco para tus proyectos?"
+  },
+  {
+   "n": 38,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿No tienes horas para tus proyectos?"
+  },
+  {
+   "n": 39,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 4.9,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros?"
+  },
+  {
+   "n": 40,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros?"
+  },
+  {
+   "n": 41,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros?"
+  },
+  {
+   "n": 42,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros?"
+  },
+  {
+   "n": 43,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros?"
+  },
+  {
+   "n": 44,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.1,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿Y gastarte dinero que no tienes en restaurantes caros."
+  },
+  {
+   "n": 45,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Para ver si tienes suerte."
+  },
+  {
+   "n": 46,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6124.MOV",
+   "texto": "Para ver si tienes suerte y mendigar un poquito de intimidad."
+  },
+  {
+   "n": 47,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.6,
+   "clip": "IMG_6124.MOV",
+   "texto": "Y eso es de perdedor arrastrado."
+  },
+  {
+   "n": 48,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Y eso es de perdedor arrastrado."
+  },
+  {
+   "n": 49,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.1,
+   "clip": "IMG_6124.MOV",
+   "texto": "Olvídate de buscar mujeres ahora mismo."
+  },
+  {
+   "n": 50,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 0.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Espera, espera, espera, bro, ¿de qué te crees que soy aquí en una discográfica para acordar métodos?"
+  },
+  {
+   "n": 51,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 4.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Espera, espera, espera, espera, bro, ¿de qué te crees que soy aquí en una discográfica para acordarme de todo?"
+  },
+  {
+   "n": 52,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.5,
+   "clip": "IMG_6124.MOV",
+   "texto": "Dime frases por frases, cabrón."
+  },
+  {
+   "n": 53,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Espérate, un ganador primero construye su imperio, ¿no?"
+  },
+  {
+   "n": 54,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Un ganador primero construye su imperio."
+  },
+  {
+   "n": 55,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Un ganador primero construye su imperio."
+  },
+  {
+   "n": 56,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 2.2,
+   "clip": "IMG_6124.MOV",
+   "texto": "Y solo cuando está en la cima ..."
+  },
+  {
+   "n": 57,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "¿A una mujer qué?"
+  },
+  {
+   "n": 58,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6124.MOV",
+   "texto": "Busca a una mujer de valor Busca a una mujer de valor para compartirlo."
+  },
+  {
+   "n": 59,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.8,
+   "clip": "IMG_6124.MOV",
+   "texto": "Sí, para mejorar tu vida."
+  },
+  {
+   "n": 60,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "Sígueme para mejorar tu vida."
+  },
+  {
+   "n": 61,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "A ver, espérate."
+  },
+  {
+   "n": 62,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.6,
+   "clip": "IMG_6124.MOV",
+   "texto": "Sígueme para mejorar tu vida."
+  },
+  {
+   "n": 63,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.7,
+   "clip": "IMG_6124.MOV",
+   "texto": "Sígueme para ser un ganador."
+  }
+ ]
+}

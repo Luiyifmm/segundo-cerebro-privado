@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 6887-13 · GRÁFICO 2 (integrado en la pared, Amin visible; 9,977–16,35 s de la propuesta). Tipo 2: ingresos mientras haces otra cosa.
+     «Número dos» → el 2. «Lo que vendes por internet» → un móvil; las ventas llegan solas mientras la sartén cocina («mientras haces
+     otra cosa… como cocinar»). Desenlace: la última venta llega en «cocinar». Sin cifras (Amin no dice ninguna).
+     Fondo transparente; nada en la cara ni en la franja de subtítulos. Tiempos locales = propuesta − 9,977. -->
+<style>
+@font-face{font-family:"Nyght";src:url("NyghtSerif-LightItalic.otf")}
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif;color:#fff}
+.e{position:absolute;opacity:0}
+#num{left:84px;top:255px;font-family:"Nyght";font-size:250px;line-height:1;color:#F5C542;text-shadow:0 0 34px rgba(245,197,66,.45),0 10px 24px rgba(0,0,0,.6)}
+#movil{left:70px;top:560px;width:270px;height:500px;border-radius:44px;background:#0E1420;border:6px solid #E9EEF5;box-shadow:0 20px 40px rgba(0,0,0,.55)}
+#movil .notch{position:absolute;left:95px;top:14px;width:80px;height:16px;border-radius:8px;background:#E9EEF5;opacity:.85}
+.nt{position:absolute;left:16px;width:226px;height:78px;border-radius:18px;background:rgba(255,255,255,.96);color:#111;opacity:0;display:flex;align-items:center;box-shadow:0 6px 14px rgba(0,0,0,.3)}
+.nt i{display:block;width:44px;height:44px;margin:0 12px 0 12px;border-radius:12px;background:#F5C542;position:relative}
+.nt i:after{content:"";position:absolute;left:12px;top:9px;width:12px;height:21px;border:solid #111;border-width:0 5px 5px 0;transform:rotate(45deg)}
+.nt span{font-size:25px;font-weight:800;letter-spacing:-.3px}
+#sarten{left:340px;top:265px;width:300px;height:228px;filter:drop-shadow(0 12px 22px rgba(0,0,0,.55))}
+#vapor path{fill:none;stroke:#fff;stroke-width:7;stroke-linecap:round;opacity:0}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="6.4">
+<div id="num" class="e clip" data-start="0" data-duration="6.4">2</div>
+<div id="movil" class="e clip" data-start="0" data-duration="6.4"><div class="notch"></div>
+ <div id="n1" class="nt" style="top:50px"><i></i><span>Nueva venta</span></div>
+ <div id="n2" class="nt" style="top:140px"><i></i><span>Nueva venta</span></div>
+ <div id="n3" class="nt" style="top:230px"><i></i><span>Nueva venta</span></div>
+ <div id="n4" class="nt" style="top:320px"><i></i><span>Nueva venta</span></div></div>
+<svg id="sarten" class="e clip" data-start="0" data-duration="6.4" viewBox="0 0 250 190">
+ <g id="vapor"><path id="v1" d="M70 92 C55 72 85 60 70 38"/><path id="v2" d="M110 92 C95 70 125 58 110 30"/><path id="v3" d="M150 92 C135 72 165 60 150 38"/></g>
+ <ellipse cx="110" cy="130" rx="92" ry="30" fill="#2B2F36"/><ellipse cx="110" cy="122" rx="92" ry="30" fill="#4A505A"/><ellipse cx="110" cy="122" rx="74" ry="21" fill="#1B1E23"/>
+ <rect x="196" y="112" width="52" height="16" rx="8" fill="#2B2F36"/></svg>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}), A=0.05;
+casa.slam(tl,"#num",0.408-A);                         // «dos.»
+casa.riseIn(tl,"#movil",2.882-A,{tam:120});            // «Lo que vendes por internet»
+[["#n1",3.603],["#n2",4.443],["#n3",5.004],["#n4",5.789]].forEach(([n,t])=>casa.pop(tl,n,t-A));  // internet · haces · cosa · cocinar
+casa.pop(tl,"#sarten",4.043-A);                        // «mientras haces otra cosa»
+["v1","v2","v3"].forEach((v,i)=>casa.drawOn(tl,document.getElementById(v),5.529+i*0.08,0.45));   // «Como cocinar»
+casa.float(tl,"#sarten",4.2,6.4,5);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

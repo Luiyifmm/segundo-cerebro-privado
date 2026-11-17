@@ -1,0 +1,61 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01     Así se viste a la mujer que solo quieren para una noche y así se viste a la mujer que quieren para toda la vida.
+02     A esta solo la quieren para una cosa, ya sabes para qué.
+03 [x] A esta la respetan.   ← toma repetida
+04 [x] Gracias.   ← quitada a mano
+05 [x] A ésta la respetan.   ← toma repetida
+06     A ésta la respetan.
+07 [x] A ella la buscan para divertirse y perder el tiempo.   ← toma repetida
+08     A ella la buscan para divertirse y perder el tiempo.
+09 [x] Y con ella para prosperar la vida entera.   ← toma repetida
+10     Y con ella para prosperar la vida entera.
+11 [x] La ven como una sociedad que dejen para costumir un producto de la vida.   ← quitada a mano
+12 [x] La ven como una ...   ← frase sin terminar
+13 [x] La ven como una ...   ← frase sin terminar
+14 [x] la ven como una asocia y la dirigen para prosperar un pro ...   ← frase sin terminar
+15 [x] y la dirigen para prosperar un proyecto real.   ← quitada a mano
+16 [x] Y la eligen para construir un proyecto real.   ← quitada a mano
+17 [x] La regla es cruel pero innegable.   ← toma repetida
+18 [x] ¿Qué?   ← quitada a mano
+19 [x] La regla es cruel pero innegable.   ← toma repetida
+20     La regla es cruel pero innegable.
+21 [x] Atrás exactamente lo que proyectas.   ← toma repetida
+22     Atrás exactamente lo que proyectas.
+23     Como esa dentro, esa fuera.
+24 [x] La forma en cómo representas al mundo.   ← toma repetida
+25     La forma en la que representas al mundo?
+26 [x] ¿Dicta cómo ...?   ← frase sin terminar
+27 [x] ¿Dicta qué?   ← quitada a mano
+28     ¿Dicta cómo te van a tratar y cómo te van a valorar?
+29 [x] Sigue.   ← ruido (palabra repetida)
+30 [x] Sigue.   ← ruido (palabra repetida)
+31 [x] Sigue.   ← ruido (palabra repetida)
+32 [x] Sigue.   ← ruido (palabra repetida)
+33 [x] Sigue.   ← ruido (palabra repetida)
+34 [x] Sigue.   ← ruido (palabra repetida)
+35 [x] Sigue.   ← ruido (palabra repetida)
+36 [x] Sigue.   ← ruido (palabra repetida)
+37 [x] Sigue.   ← ruido (palabra repetida)
+38 [x] Sigue.   ← ruido (palabra repetida)
+39 [x] Sigue.   ← ruido (palabra repetida)
+40 [x] Sigue.   ← ruido (palabra repetida)
+41 [x] Sigue.   ← ruido (palabra repetida)
+42 [x] Sigue.   ← ruido (palabra repetida)
+43 [x] Sigue.   ← ruido (palabra repetida)
+44 [x] Sigue.   ← ruido (palabra repetida)
+45 [x] Sigue.   ← ruido (palabra repetida)
+46 [x] Sigue.   ← ruido (palabra repetida)
+47 [x] Sigue.   ← ruido (palabra repetida)
+48 [x] Sigue.   ← ruido (palabra repetida)
+49 [x] Sigue.   ← ruido (palabra repetida)
+50 [x] Sigue.   ← ruido (palabra repetida)
+51 [x] Sigue.   ← ruido (palabra repetida)
+52 [x] Sigue.   ← ruido (palabra repetida)
+53 [x] Sigue.   ← ruido (palabra repetida)
+54 [x] Sígueme ...   ← frase sin terminar
+55     Sígueme para mejorar tu vida.
+56 [x] ¿Así es?   ← quitada a mano
+57 [x] Sí, ¿no?   ← quitada a mano
+58 [x] Number one, listo.   ← quitada a mano
+59 [x] A ver ...   ← frase sin terminar

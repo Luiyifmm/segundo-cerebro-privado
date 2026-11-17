@@ -1,0 +1,10 @@
+2026-11-16 21:45:57 - whisperx.asr - INFO - No language specified, language will be detected for each audio file (increases inference time)
+2026-11-16 21:45:57 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+2026-11-16 21:46:03 - whisperx.asr - INFO - Detected language: es (0.96) in first 30s of audio
+{"salida": "/Users/luiyi/Videos-Remotion/voz/salida-whisperx/merca_bruto.palabras.json", "idioma": "es", "palabras": 93, "sin_tiempo": 0, "texto": "Tres, dos, uno. Queso para fundir. ¿Pero el qué dice? ¿Engorda? Sí, ya está. Engorda. Vale. Queso para fundir. Engorda. Literalmente tiene de todo menos queso. Queso mental. Engorda. ¿Y qué dice? Te sueles pasar de cantidad. Queso mental. También engorda. Te sueles pasar mucho las cantidades. Queso para vivir. Perfecto para tus snacks. Adelgaza. Queso Bobby Bell. Vale, repítelo. Queso Bobby Bell. Adelgaza. Tiene muy... No, a ver. Muy bueno para tus snacks. Y tiene... Y a ver. Ya está. No, pero también quiero decir una cosa. Y alto contenido... A ver.", "s_carga": 0.7, "s_transcripcion": 34.2, "s_alineado": 2.1, "s_total": 37.0}
+merca_bruto.palabras.json contra merca_bruto.mov: 93 palabras
+  voz principal ≈ -18 dB (umbral -36 dB) · ruido ≈ -38 dB
+  principal 93 · voz baja 0 · sin voz 0 · sin tiempo 0 · FIABLES 77 (83 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/Videos-Remotion/voz/salida-whisperx/merca_bruto.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

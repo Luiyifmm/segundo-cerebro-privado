@@ -1,0 +1,281 @@
+[
+ {
+  "t": 0.5,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f0.50_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   723.1,
+   1428.7,
+   1277.0,
+   1982.7
+  ],
+  "silueta": [
+   0.0,
+   1140.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1340,
+     500,
+     2012,
+     1332
+    ],
+    "puntos": -0.87,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 80 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 3.22,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f3.22_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   697.6,
+   1322.6,
+   1314.0,
+   1939.0
+  ],
+  "silueta": [
+   0.0,
+   1035.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1420,
+     900,
+     2008,
+     1628
+    ],
+    "puntos": -0.44,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 70 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 5.43,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f5.43_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   744.6,
+   1413.1,
+   1291.9,
+   1960.4
+  ],
+  "silueta": [
+   0.0,
+   1140.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1340,
+     500,
+     2012,
+     1332
+    ],
+    "puntos": -0.85,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 80 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 8.22,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f8.22_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   662.9,
+   1355.8,
+   1277.7,
+   1970.6
+  ],
+  "silueta": [
+   0.0,
+   1050.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1380,
+     940,
+     1968,
+     1668
+    ],
+    "puntos": -0.44,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 70 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 10.21,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f10.21_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   753.5,
+   1408.8,
+   1313.4,
+   1968.7
+  ],
+  "silueta": [
+   0.0,
+   1140.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1420,
+     980,
+     2008,
+     1708
+    ],
+    "puntos": -0.43,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 70 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 14.87,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f14.87_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   679.6,
+   1349.0,
+   1295.9,
+   1965.4
+  ],
+  "silueta": [
+   0.0,
+   1035.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1380,
+     940,
+     1968,
+     1668
+    ],
+    "puntos": -0.44,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 70 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 17.41,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f17.41_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   740.0,
+   1408.4,
+   1288.5,
+   1956.9
+  ],
+  "silueta": [
+   0.0,
+   1140.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1380,
+     980,
+     1968,
+     1708
+    ],
+    "puntos": -0.42,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 70 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 20.78,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f20.78_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   623.4,
+   1371.6,
+   1206.4,
+   1954.6
+  ],
+  "silueta": [
+   0.0,
+   1035.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1300,
+     900,
+     1972,
+     1732
+    ],
+    "puntos": -0.54,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 80 % para caber"
+   }
+  ]
+ },
+ {
+  "t": 23.93,
+  "img": "/var/folders/r2/xtlh421s0mbg66c21hzqzfxw0000gn/T/componer-ekgq_fqb/f23.93_0.png",
+  "w": 2160,
+  "h": 3840,
+  "cara": [
+   726.7,
+   1426.7,
+   1271.5,
+   1971.5
+  ],
+  "silueta": [
+   0.0,
+   1140.0,
+   2148.8,
+   3825.0
+  ],
+  "gesto": null,
+  "propuestas": [
+   {
+    "caja": [
+     1340,
+     500,
+     2012,
+     1332
+    ],
+    "puntos": -0.86,
+    "motivo": "REVISAR (sin gesto fiable): composición equilibrada junto a la cabeza; tarjeta al 80 % para caber"
+   }
+  ]
+ }
+]

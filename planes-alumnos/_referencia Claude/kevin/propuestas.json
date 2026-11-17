@@ -1,0 +1,152 @@
+[
+ {
+  "n": 1,
+  "tipo": "A-roll + texto",
+  "texto": "Sin texto nuestro: su bruto ya trae subtítulos (aviso del panel). Solo abre ampliado y enfoca (c001).",
+  "especial": "el lunes empiezo"
+ },
+ {
+  "n": 2,
+  "tipo": "A-roll + texto",
+  "texto": "Golpe grave en «disciplina» y un zoom corto. Nada escrito encima.",
+  "especial": "disciplina"
+ },
+ {
+  "n": 3,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Aparece arriba un anillo con 6 puntos: el «bucle» hecho forma (c012 + c008: la metáfora al pie de la letra). Se queda todo el vídeo.",
+  "especial": "bucle"
+ },
+ {
+  "n": 4,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "El anillo termina de dibujarse; barrido ascendente.",
+  "especial": "seis pasos"
+ },
+ {
+  "n": 5,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Se enciende el punto 1 en su azul; pop.",
+  "especial": "Uno"
+ },
+ {
+  "n": 6,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Sigue el 1.",
+  "especial": "espejo"
+ },
+ {
+  "n": 7,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Sigue el 1.",
+  "especial": "va en serio"
+ },
+ {
+  "n": 8,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Punto 2; pop.",
+  "especial": "Dos"
+ },
+ {
+  "n": 9,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Dos píldoras junto a él: «6 días de gym» y «cero caprichos» (c019: pautas concretas).",
+  "especial": "seis días"
+ },
+ {
+  "n": 10,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Se quedan las píldoras.",
+  "especial": "cero caprichos"
+ },
+ {
+  "n": 11,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Punto 3; pop.",
+  "especial": "Tres"
+ },
+ {
+  "n": 12,
+  "tipo": "Montaje de b-roll",
+  "texto": "Tres planos de 0,5 s: cena, oficina, mal día (c010: una enumeración rápida pide una imagen por palabra). Archivo con licencia o suyo.",
+  "especial": "una cena"
+ },
+ {
+  "n": 13,
+  "tipo": "Montaje de b-roll",
+  "texto": "Último plano del montaje.",
+  "especial": "mal día"
+ },
+ {
+  "n": 14,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Punto 4; golpe en «liado».",
+  "especial": "ya la he liado"
+ },
+ {
+  "n": 15,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Punto 5.",
+  "especial": "Cinco"
+ },
+ {
+  "n": 16,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Sigue el 5.",
+  "especial": "todo"
+ },
+ {
+  "n": 17,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Punto 6.",
+  "especial": "Seis"
+ },
+ {
+  "n": 18,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "El anillo gira una vuelta y vuelve a encender el 1: se VE el bucle.",
+  "especial": "vuelta a empezar"
+ },
+ {
+  "n": 19,
+  "tipo": "Elemento fijo de progreso",
+  "texto": "Sigue girando despacio.",
+  "especial": "constantemente"
+ },
+ {
+  "n": 20,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "El anillo crece al centro con los 6 puntos numerados. Pregunta sola arriba.",
+  "especial": "el fallo"
+ },
+ {
+  "n": 21,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "El 5 se marca en rojo con «?» : lo que cree todo el mundo.",
+  "especial": "número 5"
+ },
+ {
+  "n": 22,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "El rojo salta del 5 al 2: misma composición, cambia un solo punto.",
+  "especial": "en el"
+ },
+ {
+  "n": 23,
+  "tipo": "Pantalla completa: metáfora",
+  "texto": "El 2 queda en rojo y grande: «plan perfecto» tachado.",
+  "especial": "no existen"
+ },
+ {
+  "n": 24,
+  "tipo": "A-roll + texto",
+  "texto": "Vuelta a Kevin para el CTA.",
+  "especial": "salir del bucle"
+ },
+ {
+  "n": 25,
+  "tipo": "Caja de palabra",
+  "texto": "«BUCLE» entre comillas, enorme, en su azul: la palabra exacta que hay que comentar.",
+  "especial": "bucle"
+ }
+]

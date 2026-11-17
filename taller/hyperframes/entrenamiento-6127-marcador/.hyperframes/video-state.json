@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "historyId": "db1adfc5-7a2b-4686-aa1c-e150cf88d540",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/db1adfc5-7a2b-4686-aa1c-e150cf88d540/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "172c58b4cc42b98757d4e0713a9f0672ea6edf66f358202a5cf04fdf95ad3d03",
+      "content": "/Users/luiyi/.cache/hyperframes/history/db1adfc5-7a2b-4686-aa1c-e150cf88d540/blobs/17/172c58b4cc42b98757d4e0713a9f0672ea6edf66f358202a5cf04fdf95ad3d03"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "c2c9f8e0-70b8-4e4d-8b1e-f15e95596507",
+      "completedAt": 1794025027737,
+      "output": "/tmp/hf-render.kZfzCe/bruto.mov",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

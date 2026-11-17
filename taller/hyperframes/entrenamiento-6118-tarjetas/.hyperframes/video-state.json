@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "historyId": "a0b73c94-69ab-4cc6-b916-6473394bf16e",
+  "currentRevision": "32009cbb-1025-48b6-bbd3-e2f62f838b38",
+  "pendingChanges": false,
+  "files": {
+    "index.html": {
+      "hash": "5d907afe7a06accb813b36ee7ce66f51038582ecfccdb59f012679f90bc981a9",
+      "content": "/Users/luiyi/.cache/hyperframes/history/a0b73c94-69ab-4cc6-b916-6473394bf16e/blobs/5d/5d907afe7a06accb813b36ee7ce66f51038582ecfccdb59f012679f90bc981a9"
+    },
+    "noche.jpg": {
+      "hash": "5a0d83124aacc7e51e315b6f9f5c5943041ff9ab2fd32964aaa2884d23ac76e6",
+      "content": "/Users/luiyi/.cache/hyperframes/history/a0b73c94-69ab-4cc6-b916-6473394bf16e/blobs/5a/5a0d83124aacc7e51e315b6f9f5c5943041ff9ab2fd32964aaa2884d23ac76e6"
+    },
+    "vida.jpg": {
+      "hash": "0dd9bbea29be4b8c6d8333003fc86d22fe0ab014847a37d021b868871dadc8a5",
+      "content": "/Users/luiyi/.cache/hyperframes/history/a0b73c94-69ab-4cc6-b916-6473394bf16e/blobs/0d/0dd9bbea29be4b8c6d8333003fc86d22fe0ab014847a37d021b868871dadc8a5"
+    }
+  },
+  "revisions": {
+    "32009cbb-1025-48b6-bbd3-e2f62f838b38": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794092145720,
+      "endedAt": 1794092145720,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/a0b73c94-69ab-4cc6-b916-6473394bf16e/blobs/39/3984f866ba0ef8b795b67bbf39a9b4d8dc05df7c6cd463abb55a82757d4e7fbe",
+          "after": "/Users/luiyi/.cache/hyperframes/history/a0b73c94-69ab-4cc6-b916-6473394bf16e/blobs/5d/5d907afe7a06accb813b36ee7ce66f51038582ecfccdb59f012679f90bc981a9"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b7c5ccc4-32a3-4afd-8fe0-6c87cea6ff4c",
+      "completedAt": 1794092176082,
+      "output": "/tmp/hf-render.t7qzsh/bruto.mov",
+      "status": "completed",
+      "revision": "32009cbb-1025-48b6-bbd3-e2f62f838b38"
+    },
+    "retainedRevisions": [
+      "32009cbb-1025-48b6-bbd3-e2f62f838b38"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

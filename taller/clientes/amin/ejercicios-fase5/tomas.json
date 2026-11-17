@@ -1,0 +1,11 @@
+{"bruto":"/Users/luiyi/EDICION/1 CLIENTES/AMIN/BRUTOS/PENDIENTES/Proxies/IMG_6123_Proxy.mp4",
+ "palabras":"/Users/luiyi/Videos-Remotion/voz/salida-whisperx/IMG_6123.verificada.json",
+ "nota":"Ejercicios fase 5 (estudio Invisible). Proxy 720p: el bruto IMG_6123.MOV ya no está en local.",
+ "bloques":[
+  {"id":"gancho","tramos":[[17.84,22.11]],"clave":"peor","marca":"E3 título detrás + E1 tarjetas"},
+  {"id":"tipo1","tramos":[[29.71,32.48],[37.71,39.47]],"clave":"manipuladora","marca":null},
+  {"id":"quinto","tramos":[[133.28,134.64]],"clave":"peor","marca":"E2 impacto en 'peor'"},
+  {"id":"cajero","tramos":[[135.10,135.90],[141.81,144.67]],"clave":"cajero","marca":null},
+  {"id":"moraleja","tramos":[[198.90,203.34]],"clave":"energía","marca":null},
+  {"id":"cta","tramos":[[247.85,249.39]],"clave":"vida","marca":null}
+ ]}

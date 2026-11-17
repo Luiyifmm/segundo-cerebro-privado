@@ -1,0 +1,92 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01 [x] No, no, no,   ← ruido (palabra repetida)
+02 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+03 [x] no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,   ← ruido (palabra repetida)
+04 [x] no, no,   ← ruido (palabra repetida)
+05 [x] un poco a mi formato, no te preocupes dímelo y lo adapté   ← quitada a mano
+06 [x] no no dímelo y luego a lo mejor tú me puedes poder grabar yo el audio lo que sea sabes dilo dilo   ← quitada a mano
+07     ver a gente bailando TikTok?
+08 [x] Siguiente.   ← quitada a mano
+09 [x] Te voy a subir el nombre, señor Javier.   ← quitada a mano
+10 [x] ¿Habla?   ← quitada a mano
+11 [x] ¿Habla ahora?   ← quitada a mano
+12 [x] Vale, pero acércate un poco el micro porque te tengo puesto a tope hermano y no te entiendo.   ← quitada a mano
+13 [x] Entonces intenta vocalizar y acércate el micro.   ← quitada a mano
+14 [x] Sí ahora mejor.   ← quitada a mano
+15     Fardar del Lamborghini.
+16     Ni logo, aumento.
+17 [x] Next.   ← quitada a mano
+18 [x] Ni lo que aumenta.   ← quitada a mano
+19 [x] Next.   ← quitada a mano
+20 [x] Tener el último iPhone de pobre.   ← quitada a mano
+21     Tener el último iPhone
+22     de pobre.
+23 [x] Cocinar para ti.   ← toma repetida
+24 [x] Cocinar para mi.   ← quitada a mano
+25 [x] Cocinar para ti.   ← toma repetida
+26     Cocinar para ti.
+27     oO eres pobre o muy rico?
+28     ¿Pagar a medias con tu novia?
+29 [x] ¿Triste y de mediocre?   ← toma repetida
+30     triste y de mediocre
+31     comprarte un coche de pobre casi siempre el que has dicho
+32 [x] que perdón   ← quitada a mano
+33     de pobre casi siempre, pero de rico si sabes comprarlo.
+34 [x] Comprar una casa para vivir, de pobre.   ← quitada a mano
+35     Comprarte una casa para vivir.
+36     De pobre.
+37 [x] ¿Y si es para ti me explícete?   ← toma repetida
+38 [x] ¿Y si es para ti me explícete?   ← toma repetida
+39 [x] ¿Y si es para ti me explícete?   ← toma repetida
+40 [x] ¿Y si es para ti me explícete?   ← toma repetida
+41 [x] ¿Y si es para ti me explícete?   ← toma repetida
+42 [x] ¿Y si es para ti me explícete?   ← toma repetida
+43 [x] ¿Y si es para ti me explícete?   ← quitada a mano
+44 [x] Y si es para ti me pregunto ...   ← frase sin terminar
+45 [x] Y si es para invertir en ella.   ← toma repetida
+46 [x] De rico.   ← ruido (palabra repetida)
+47     Y si es para invertir en ella.
+48     De rico.
+49 [x] Muy rico.   ← quitada a mano
+50 [x] Llevar ropa con logos.   ← toma repetida
+51 [x] De pobre.   ← ruido (palabra repetida)
+52     Llevar ropa con logos?
+53 [x] ¿De pobre   ← ruido (palabra repetida)
+54     mediocre?
+55     ¿Y llevar ropa simple?
+56     ¿De rico?
+57 [x] ¿De dejar dinero en el banco?   ← quitada a mano
+58 [x] ¿De pobre?   ← ruido (palabra repetida)
+59 [x] ¿De pobre?   ← ruido (palabra repetida)
+60 [x] ¿De pobre mediocre?   ← toma repetida
+61 [x] ¿De pobre mediocre?   ← toma repetida
+62 [x] ¿De pobre mediocre?   ← toma repetida
+63 [x] ¿De pobre mediocre?   ← toma repetida
+64 [x] ¿De pobre mediocre?   ← toma repetida
+65 [x] ¿De pobre mediocre?   ← quitada a mano
+66 [x] ¿ en el banco?   ← toma repetida
+67 [x] De pobre.   ← ruido (palabra repetida)
+68 [x] Te arruina.   ← quitada a mano
+69 [x] Por favor, cállate cuando deje yo el silencio porque lo estoy dejando para que Luis pueda cortar el audio, pero a mí se me vea como callado, ¿sabes?   ← quitada a mano
+70 [x] Entonces, vale, pues, vuelve a decirme el último ejemplo de pobre qué?   ← quitada a mano
+71     Dejar el dinero en el banco.
+72     De pobre porque da ruina.
+73 [x] Que se hagan continuamente.   ← quitada a mano
+74     Quejarse continuamente.
+75 [x] ¿Y qué ha dicho?   ← quitada a mano
+76     De miserable.
+77 [x] ¿Gastan qué?   ← quitada a mano
+78 [x] Los pobres gastan dinero para ...   ← frase sin terminar
+79     los pobres gastan dinero para aparentar.
+80 [x] ¿Qué más?   ← quitada a mano
+81     Los ricos invierten en conocimiento que les hará ganar mucho más dinero.
+82 [x] No, ahora ya no hace falta que diga de silencio, Javi.   ← quitada a mano
+83 [x] Lo que pasa es que si respondo a las preguntas, pues tengo que dejar el hueco.   ← quitada a mano
+84 [x] Ahora ya no hace falta que deje silencio.   ← quitada a mano
+85 [x] Si quieres aprender,   ← toma repetida
+86     si quieres aprender una habilidad online para poder ganar dinero y vivir la vida que quieres, comenta Rico.
+87 [x] Repítamelo todo entonces de nuevo, de la parte del CTA.   ← quitada a mano
+88 [x] Si quieres aprender una   ← quitada a mano
+89 [x] para ganar dinero online y vivir la vida que quieres?   ← quitada a mano
+90 [x] Comenta rico en los comentarios.   ← quitada a mano

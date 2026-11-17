@@ -1,0 +1,8 @@
+2026-11-16 21:32:49 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/ale-mercadona/prep/_trans/bruto.palabras.json", "idioma": "es", "palabras": 106, "sin_tiempo": 0, "texto": "Tres, dos, uno, queso para fundir. ¿Pero el que dice engorda? Sí, y ya está. Engorda. Vale. ¿Queso para fundir? Engorda. Literalmente tiene todo menos queso. Tocura. ¿Gordozo? Queso mental, engorda. ¿Qué se utiliza? ¿Qué eso va a vivir? ¿Te sueles pasar de cantidad? ¿Queso mental? También engorda. Te sueles pasar mucho las cantidades. ¿Qué eso va a vivir? El perfecto para tus snacks, adelgazas. Que eso va a vivir. Vale, repítelo. Que eso va a vivir. Adelgaza. Tiene muy... no, a ver. Muy bueno para estos snacks. Y tienen... y a ver. Ya está. No, pero también crece una cosa. Y alto contenido, a ver.", "s_carga": 0.5, "s_transcripcion": 10.4, "s_alineado": 2.3, "s_total": 13.2}
+bruto.palabras.json contra bruto.mov: 106 palabras
+  voz principal ≈ -18 dB (umbral -36 dB) · ruido ≈ -38 dB
+  principal 104 · voz baja 0 · sin voz 2 · sin tiempo 0 · FIABLES 79 (75 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/ale-mercadona/prep/_trans/bruto.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

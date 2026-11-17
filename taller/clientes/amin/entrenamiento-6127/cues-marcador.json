@@ -1,0 +1,54 @@
+{
+ "tramo": "montaje v1 (audio re-transcrito con WhisperX)",
+ "eventos": [
+  {
+   "id": "N0",
+   "tipo": "N",
+   "palabra": "niñato,",
+   "t_palabra": 1.743,
+   "score": 0.56
+  },
+  {
+   "id": "N1",
+   "tipo": "N",
+   "palabra": "perdedor,",
+   "t_palabra": 4.185,
+   "score": 0.954
+  },
+  {
+   "id": "N2",
+   "tipo": "N",
+   "palabra": "estúpido,",
+   "t_palabra": 7.288,
+   "score": 0.804
+  },
+  {
+   "id": "H3",
+   "tipo": "H",
+   "palabra": "maduro,",
+   "t_palabra": 10.65,
+   "score": 0.9
+  },
+  {
+   "id": "H4",
+   "tipo": "H",
+   "palabra": "valores,",
+   "t_palabra": 13.933,
+   "score": 0.857
+  },
+  {
+   "id": "H5",
+   "tipo": "H",
+   "palabra": "alto",
+   "t_palabra": 16.955,
+   "score": 0.418
+  },
+  {
+   "id": "FIN6",
+   "tipo": "FIN",
+   "palabra": "alto",
+   "t_palabra": 20.157,
+   "score": 0.8
+  }
+ ]
+}

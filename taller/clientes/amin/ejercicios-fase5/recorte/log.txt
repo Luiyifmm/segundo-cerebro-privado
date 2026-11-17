@@ -1,0 +1,5 @@
+30 fotogramas, 14.3 fps60 fotogramas, 14.8 fps90 fotogramas, 14.8 fps120 fotogramas, 14.7 fps
+Máscara lista: 137 fotogramas en 9 s
+Compuesto: /Users/luiyi/Videos-Remotion/clientes/amin/ejercicios-fase5/recorte/gancho.mp4
+Con transparencia: /Users/luiyi/Videos-Remotion/clientes/amin/ejercicios-fase5/recorte/gancho-alfa.mov
+node recortar.js  $D/recorte/negro.jpg $D/recorte/gancho --inicio 17.56  4.56  77.68s user 2.23s system 543% cpu 14.710 total

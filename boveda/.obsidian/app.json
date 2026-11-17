@@ -1,0 +1,13 @@
+{
+  "userIgnoreFilters": [
+    "5 TALLER (código y herramientas)/",
+    "6 EXPORTACIONES DEL MÉTODO/",
+    "9 ARCHIVO (no se carga)/",
+    "1 REFERENCIAS/Analizadas por Claude/2026-11-14 estilo minimal podcast/desgloses/",
+    "node_modules/",
+    "/\\.(mp4|mov|wav|mp3|svg|aep|log|vtt)$/"
+  ],
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./ejemplos"
+}

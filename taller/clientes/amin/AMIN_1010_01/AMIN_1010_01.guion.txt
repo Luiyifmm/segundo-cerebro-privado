@@ -1,0 +1,27 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01     sacar sobre saliente en la escuela es de muy de mediocre
+02     Pero ¿qué cuesta apresar atención en class?
+03     No se me ha hecho estar.
+04     ¿Puede ser señal de un futuro exitoso?
+05     ¿Obedecer sin rechistar?
+06     cumplir todas las normas sin rechistar?
+07     Muy de rico no parece, incluso diría que es de mediocre.
+08 [x] las reglas es de ganador para siempre.   ← toma repetida
+09     Cuestionar las reglas es de ganador para siempre.
+10     Poner a los demás siempre por delante es un bien y medio creme.
+11     los demás siempre por delante es de mediocre.
+12     Hacer de ti absoluta prioridad es de éxito?
+13     Aspirar a un sueldo.
+14     Aspirar a un
+15     libre es de exit.
+16     la escuela nunca para
+17 [x] La escuela no te programa para ser.   ← toma repetida
+18     La escuela no te educa para ser un empleado.
+19     La escuela no te educa para ser rico.
+20 [x] La escuela te programa para ser un empleado obediente.   ← toma repetida
+21     La escuela te programa para ser un empleado obediente.
+22     Si quieres ser libre de verdad, sin algún momento de tu vida quieres ser libre de verdad,
+23 [x] tienes que romper con la programación mental que ya tienes.   ← toma repetida
+24     Tienes que romper con la programación mental que ya tienes.
+25     Sígueme para que la rompamos juntos.

@@ -1,0 +1,352 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.118,
+   "fin": 0.838,
+   "texto": "Si te sientes hinchada,",
+   "especial": "hinchada",
+   "dur": 0.9800000000000001
+  },
+  {
+   "n": 2,
+   "ini": 1.098,
+   "fin": 1.919,
+   "texto": "te tomes nada todavía.",
+   "especial": "todavía",
+   "dur": 1.0409999999999997
+  },
+  {
+   "n": 3,
+   "ini": 2.139,
+   "fin": 3.139,
+   "texto": "Primero, revisa tus hábitos.",
+   "especial": "hábitos",
+   "dur": 1.4400000000000004
+  },
+  {
+   "n": 4,
+   "ini": 3.579,
+   "fin": 4.159,
+   "texto": "Una cliente mía de",
+   "especial": "cliente mía",
+   "dur": 1.02
+  },
+  {
+   "n": 5,
+   "ini": 4.599,
+   "fin": 4.76,
+   "texto": "años",
+   "especial": "años",
+   "dur": 0.6209999999999996
+  },
+  {
+   "n": 6,
+   "ini": 5.22,
+   "fin": 6.84,
+   "texto": "escribió porque siempre sentía hinchada.",
+   "especial": "hinchada",
+   "dur": 1.96
+  },
+  {
+   "n": 7,
+   "ini": 7.18,
+   "fin": 8.181,
+   "texto": "En sus primeros días,",
+   "especial": "primeros días",
+   "dur": 1.3810000000000002
+  },
+  {
+   "n": 8,
+   "ini": 8.561,
+   "fin": 10.902,
+   "texto": "bajo 4 kilos, entre grasa y retención de líquidos,",
+   "especial": "líquidos",
+   "dur": 2.7010000000000005
+  },
+  {
+   "n": 9,
+   "ini": 11.262,
+   "fin": 12.442,
+   "texto": "y dejó de tener hinchado,",
+   "especial": "hinchado",
+   "dur": 1.42
+  },
+  {
+   "n": 10,
+   "ini": 12.682,
+   "fin": 13.102,
+   "texto": "sin pastillas",
+   "especial": "pastillas",
+   "dur": 1.1210000000000004
+  },
+  {
+   "n": 11,
+   "ini": 13.803,
+   "fin": 14.563,
+   "texto": "es lo que mire con ella?",
+   "especial": "ella",
+   "dur": 1.1399999999999988
+  },
+  {
+   "n": 12,
+   "ini": 14.943,
+   "fin": 17.444,
+   "texto": "Primero, los ultraprocesados la saque se reclaman durante el",
+   "especial": "durante",
+   "dur": 2.520999999999999
+  },
+  {
+   "n": 13,
+   "ini": 17.464,
+   "fin": 17.604,
+   "texto": "día",
+   "especial": "día",
+   "dur": 0.5
+  },
+  {
+   "n": 14,
+   "ini": 17.964,
+   "fin": 18.604,
+   "texto": "sin darse cuenta.",
+   "especial": "cuenta",
+   "dur": 0.9800000000000004
+  },
+  {
+   "n": 15,
+   "ini": 18.944,
+   "fin": 21.065,
+   "texto": "Segundo, ¿cuánta agua bebía de verdad a del día?",
+   "especial": "día",
+   "dur": 2.5410000000000004
+  },
+  {
+   "n": 16,
+   "ini": 21.485,
+   "fin": 22.205,
+   "texto": "Spoiler, muy",
+   "especial": "Spoiler muy",
+   "dur": 1.3810000000000002
+  },
+  {
+   "n": 17,
+   "ini": 22.866,
+   "fin": 23.926,
+   "texto": "tercero, ¿qué es lo que más cambió?",
+   "especial": "cambió",
+   "dur": 1.4600000000000009
+  },
+  {
+   "n": 18,
+   "ini": 24.326,
+   "fin": 26.387,
+   "texto": "dejo saltarse comidas para luego llegar la cena con",
+   "especial": "cena",
+   "dur": 2.0809999999999995
+  },
+  {
+   "n": 19,
+   "ini": 26.407,
+   "fin": 27.008,
+   "texto": "un hambre tremenda.",
+   "especial": "tremenda",
+   "dur": 0.7609999999999992
+  },
+  {
+   "n": 20,
+   "ini": 27.168,
+   "fin": 27.909,
+   "texto": "con estas tres cosas",
+   "especial": "tres cosas",
+   "dur": 1.2010000000000005
+  },
+  {
+   "n": 21,
+   "ini": 28.369,
+   "fin": 29.57,
+   "texto": "mejorar sus hábitos de alimentación,",
+   "especial": "alimentación",
+   "dur": 1.5809999999999995
+  },
+  {
+   "n": 22,
+   "ini": 29.95,
+   "fin": 30.851,
+   "texto": "empezó a verse mucho mejor",
+   "especial": "mucho mejor",
+   "dur": 1.2609999999999992
+  },
+  {
+   "n": 23,
+   "ini": 31.211,
+   "fin": 32.111,
+   "texto": "recuperar su confianza.",
+   "especial": "confianza",
+   "dur": 1.1409999999999982
+  },
+  {
+   "n": 24,
+   "ini": 32.352,
+   "fin": 32.652,
+   "texto": "Eso sí,",
+   "especial": "Eso",
+   "dur": 0.9600000000000009
+  },
+  {
+   "n": 25,
+   "ini": 33.312,
+   "fin": 34.793,
+   "texto": "si la no se va o te molesta mucho,",
+   "especial": "molesta mucho",
+   "dur": 1.821000000000005
+  },
+  {
+   "n": 26,
+   "ini": 35.133,
+   "fin": 35.674,
+   "texto": "ve a tu médico,",
+   "especial": "médico",
+   "dur": 1.0409999999999968
+  },
+  {
+   "n": 27,
+   "ini": 36.174,
+   "fin": 38.356,
+   "texto": "por delante, porque puedes tener otros problemas digestivos",
+   "especial": "digestivos",
+   "dur": 2.5420000000000016
+  },
+  {
+   "n": 28,
+   "ini": 38.716,
+   "fin": 41.118,
+   "texto": "como una clientamía consigo que poco a poco estamos",
+   "especial": "estamos",
+   "dur": 2.442
+  },
+  {
+   "n": 29,
+   "ini": 41.158,
+   "fin": 41.498,
+   "texto": "mejorando.",
+   "especial": "mejorando",
+   "dur": 0.8799999999999955
+  },
+  {
+   "n": 30,
+   "ini": 42.038,
+   "fin": 42.378,
+   "texto": "Muchas veces",
+   "especial": "Muchas veces",
+   "dur": 0.7610000000000028
+  },
+  {
+   "n": 31,
+   "ini": 42.799,
+   "fin": 44.08,
+   "texto": "no a la con un botel de suplementos,",
+   "especial": "suplementos",
+   "dur": 1.9209999999999994
+  },
+  {
+   "n": 32,
+   "ini": 44.72,
+   "fin": 46.641,
+   "texto": "a cambiando pequeños hábitos que puedes mantener tu día",
+   "especial": "tu día",
+   "dur": 2.0009999999999977
+  },
+  {
+   "n": 33,
+   "ini": 46.721,
+   "fin": 46.882,
+   "texto": "día.",
+   "especial": "día",
+   "dur": 0.5810000000000031
+  },
+  {
+   "n": 34,
+   "ini": 47.302,
+   "fin": 47.702,
+   "texto": "Si te sientes",
+   "especial": "sientes",
+   "dur": 0.759999999999998
+  },
+  {
+   "n": 35,
+   "ini": 48.062,
+   "fin": 48.703,
+   "texto": "sabes por empezar,",
+   "especial": "empezar",
+   "dur": 1.041000000000004
+  },
+  {
+   "n": 36,
+   "ini": 49.103,
+   "fin": 50.284,
+   "texto": "esquíeme, rébate mensaje",
+   "especial": "mensaje",
+   "dur": 1.5409999999999968
+  },
+  {
+   "n": 37,
+   "ini": 50.644,
+   "fin": 50.864,
+   "texto": "te mando",
+   "especial": "mando",
+   "dur": 0.6009999999999991
+  },
+  {
+   "n": 38,
+   "ini": 51.245,
+   "fin": 53.226,
+   "texto": "para cambiar hábitos poco a poco de manera sostenible.",
+   "especial": "sostenible",
+   "dur": 1.9810000000000016
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Dorado · del plano",
+   "c": [
+    "#F1C074",
+    "#866127",
+    "#F4EFE6",
+    "#16130D"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F1748E",
+    "#86273B",
+    "#F4E6E9",
+    "#160D0F"
+   ]
+  },
+  {
+   "nombre": "Rosa · del plano",
+   "c": [
+    "#DB74F1",
+    "#752786",
+    "#F2E6F4",
+    "#150D16"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

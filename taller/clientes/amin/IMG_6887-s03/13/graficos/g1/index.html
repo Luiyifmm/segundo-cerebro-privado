@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 6887-13 · GRÁFICO 1 (pantalla completa, 4,505–7,39 s de la propuesta). Tipo 1: dinero por tu tiempo.
+     El título DINERO POR TU TIEMPO es un TÍTULO explicativo (decisión del usuario, 09-11): Amin no lo dice, por eso va como
+     cabecera, sin comillas y con otra tipografía que los subtítulos. Acción y desenlace: el reloj gira y cada vuelta deja una
+     moneda; en «no trabajas» el reloj se para y en «no cobras» se rompe la flecha que une tiempo y dinero.
+     Franja 1050–1330 px libre para los subtítulos v12. Tiempos locales = tiempo de la propuesta − 4,505. Base: piloto 02. -->
+<style>
+@font-face{font-family:"Nyght";src:url("NyghtSerif-LightItalic.otf")}
+html,body{margin:0;background:#0F0D0B}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif;color:#fff;
+ background:radial-gradient(900px 700px at 85% 8%,#3A2C1E 0%,#1A1511 45%,#0F0D0B 100%)}
+.e{position:absolute;opacity:0}
+#num{left:90px;top:230px;font-family:"Nyght";font-size:330px;line-height:1;color:#F5C542;text-shadow:0 0 40px rgba(245,197,66,.35)}
+#t1{left:96px;top:640px;font-size:112px;font-weight:900;letter-spacing:2px;line-height:1}
+#t2{left:96px;top:765px;font-size:112px;font-weight:900;letter-spacing:2px;line-height:1}
+#t2 b{color:#F5C542}
+#raya{position:absolute;left:96px;top:600px;width:120px;height:8px;background:#F5C542;opacity:0;transform-origin:left center}
+#reloj{left:110px;top:1370px;width:300px;height:300px;filter:drop-shadow(0 14px 26px rgba(0,0,0,.55))}
+#flecha{position:absolute;left:420px;top:1470px;width:280px;height:100px;overflow:visible}
+#flecha path{fill:none;stroke:#fff;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;opacity:0}
+#pila{position:absolute;left:730px;top:1380px;width:240px;height:280px}
+.mon{position:absolute;left:20px;width:200px;height:60px;opacity:0}
+.mon svg{width:200px;height:60px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5))}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="2.9">
+<div id="num" class="e clip" data-start="0" data-duration="2.9">1</div>
+<div id="raya"></div>
+<div id="t1" class="e clip" data-start="0" data-duration="2.9">DINERO POR</div>
+<div id="t2" class="e clip" data-start="0" data-duration="2.9">TU <b>TIEMPO</b></div>
+<svg id="reloj" class="e clip" data-start="0" data-duration="2.9" viewBox="0 0 260 260">
+ <circle id="esfera" cx="130" cy="130" r="112" fill="#2A2F37"/><circle cx="130" cy="130" r="112" fill="none" stroke="#fff" stroke-width="12"/>
+ <g stroke="#fff" stroke-width="8" stroke-linecap="round"><path d="M130 34v18M130 208v18M34 130h18M208 130h18"/></g>
+ <path id="aguja" d="M130 130 L130 58" stroke="#F5C542" stroke-width="12" stroke-linecap="round"/>
+ <path d="M130 130 L172 150" stroke="#fff" stroke-width="12" stroke-linecap="round"/><circle cx="130" cy="130" r="11" fill="#fff"/></svg>
+<svg id="flecha" viewBox="0 0 280 100"><path id="fa" d="M20 50 L140 50"/><path id="fb" d="M140 50 L250 50 M250 50 L222 28 M250 50 L222 72"/></svg>
+<div id="pila">
+ <div id="m1" class="mon clip" data-start="0" data-duration="2.9" style="top:210px"><svg viewBox="0 0 200 60"><ellipse cx="100" cy="34" rx="96" ry="24" fill="#C9A227"/><ellipse cx="100" cy="26" rx="96" ry="24" fill="#F2C94C"/><ellipse cx="100" cy="26" rx="70" ry="15" fill="none" stroke="#C9A227" stroke-width="5"/></svg></div>
+ <div id="m2" class="mon clip" data-start="0" data-duration="2.9" style="top:170px"><svg viewBox="0 0 200 60"><ellipse cx="100" cy="34" rx="96" ry="24" fill="#C9A227"/><ellipse cx="100" cy="26" rx="96" ry="24" fill="#F2C94C"/><ellipse cx="100" cy="26" rx="70" ry="15" fill="none" stroke="#C9A227" stroke-width="5"/></svg></div>
+ <div id="m3" class="mon clip" data-start="0" data-duration="2.9" style="top:130px"><svg viewBox="0 0 200 60"><ellipse cx="100" cy="34" rx="96" ry="24" fill="#C9A227"/><ellipse cx="100" cy="26" rx="96" ry="24" fill="#F2C94C"/><ellipse cx="100" cy="26" rx="70" ry="15" fill="none" stroke="#C9A227" stroke-width="5"/></svg></div>
+</div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}), A=0.05;
+// «Uno.» 0,193
+casa.slam(tl,"#num",0.193-A);
+tl.fromTo("#raya",{opacity:1,scaleX:0},{scaleX:1,duration:0.35,ease:"power3.out"},0.25);
+casa.riseIn(tl,"#t1",0.28,{tam:112}); casa.riseIn(tl,"#t2",0.36,{tam:112});
+// intercambio: el reloj gira y cada vuelta deja una moneda
+casa.pop(tl,"#reloj",0.42);
+casa.drawOn(tl,document.getElementById("fa"),0.52,0.18); casa.drawOn(tl,document.getElementById("fb"),0.66,0.2);
+tl.fromTo("#aguja",{rotation:0,svgOrigin:"130 130"},{rotation:330,duration:0.9,ease:"none",immediateRender:false},0.5);
+[["#m1",0.70],["#m2",0.95],["#m3",1.20]].forEach(([m,t])=>{tl.fromTo(m,{opacity:1,y:-120},{y:0,duration:0.22,ease:"power2.in",immediateRender:false},t);tl.to(m,{y:-6,duration:0.06,yoyo:true,repeat:1},t+0.22);});
+// «trabajas,» termina 1,398: el reloj se para y se apaga
+tl.to("#aguja",{stroke:"#9AA0A8",duration:0.25},1.40);
+tl.to("#esfera",{fill:"#4A4F57",duration:0.25,ease:"power2.out"},1.40);
+tl.to("#reloj",{opacity:0.75,duration:0.25},1.40);
+// «no cobras» 1,739–2,239: la flecha se rompe y la pila deja de crecer
+tl.to("#fa,#fb",{stroke:"#5B5F66",duration:0.15},1.70);
+tl.to("#fa",{x:-26,y:14,rotation:-8,svgOrigin:"80 50",duration:0.3,ease:"power2.out"},1.94-A);
+tl.to("#fb",{x:26,y:14,rotation:8,svgOrigin:"195 50",duration:0.3,ease:"power2.out"},1.94-A);
+tl.to(".mon",{opacity:0.45,duration:0.3},1.94);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

@@ -1,0 +1,42 @@
+{
+ "c-00.jpg": {
+  "url": "https://live.staticflickr.com/4512/23928917488_0171084f21_b.jpg",
+  "pagina": "https://www.flickr.com/photos/38587132@N02/23928917488",
+  "autor": "cuboulder",
+  "licencia": "cc0",
+  "w": 1024,
+  "h": 693
+ },
+ "c-01.jpg": {
+  "url": "https://live.staticflickr.com/65535/52974106101_2fd3c68926_b.jpg",
+  "pagina": "https://www.flickr.com/photos/198537127@N06/52974106101",
+  "autor": "userpilot1",
+  "licencia": "by",
+  "w": 1024,
+  "h": 694
+ },
+ "c-02.jpg": {
+  "url": "https://live.staticflickr.com/65535/52974479600_815ea8ac04_b.jpg",
+  "pagina": "https://www.flickr.com/photos/198537127@N06/52974479600",
+  "autor": "userpilot1",
+  "licencia": "by",
+  "w": 1024,
+  "h": 683
+ },
+ "c-03.jpg": {
+  "url": "https://live.staticflickr.com/3772/9445408230_d3ffdbb864_b.jpg",
+  "pagina": "https://www.flickr.com/photos/50826080@N00/9445408230",
+  "autor": "SFB579 Namaste",
+  "licencia": "by",
+  "w": 1024,
+  "h": 600
+ },
+ "c-04.jpg": {
+  "url": "https://live.staticflickr.com/3239/3116628621_e5bf51efdd_b.jpg",
+  "pagina": "https://www.flickr.com/photos/29099219@N08/3116628621",
+  "autor": "Black Rock Photo",
+  "licencia": "by",
+  "w": 1024,
+  "h": 838
+ }
+}

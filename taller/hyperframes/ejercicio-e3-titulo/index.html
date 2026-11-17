@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Ejercicio 3 (fase 5) · integración metraje + gráfico: título "5 tipos" DETRÁS de Amin.
+     En Premiere: V1 bruto (150 %) · V2 este título · V3 Amin recortado (gancho-alfa.mov, 100 %).
+     Principios del estudio Invisible: revelado por carácter con desenfoque 10→0 y 2 f de retraso (rig TextEvo medido),
+     un solo efecto y después limpio; sale antes de que entre el siguiente gráfico. Código propio. -->
+<style>
+@font-face{font-family:SFP;src:url(SF-Pro.ttf)}@font-face{font-family:Nyght;src:url(NyghtSerif-LightItalic.otf)}
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+#t{position:absolute;left:0;right:0;top:520px;text-align:center;white-space:nowrap;line-height:1}
+.c{display:inline-block;opacity:0}
+.n{font-family:SFP;font-weight:800;font-size:300px;color:#1E8BFF;letter-spacing:-6px;margin-right:26px}
+.w{font-family:Nyght;font-size:250px;color:#0B0F19;letter-spacing:-4px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="4.56">
+<div id="t" class="clip" data-start="0" data-duration="4.56"><span class="c n">5</span><span class="c w">t</span><span class="c w">i</span><span class="c w">p</span><span class="c w">o</span><span class="c w">s</span></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}),F=1/30,A=0.05, T0=0.28-A /* "5" */, TOUT=2.42 /* tras "tiempo", antes de "la quinta" (2,88) */;
+const cs=document.querySelectorAll('.c');
+cs.forEach((c,i)=>{const t=T0+i*2*F;                       // 2 fotogramas por letra
+  tl.set(c,{opacity:0,filter:'blur(10px)',y:18},0);
+  tl.to(c,{opacity:1,filter:'blur(0px)',y:0,duration:8*F,ease:'power3.out'},t);});
+tl.fromTo('#t',{scale:1},{scale:1.035,duration:TOUT-T0,ease:'none'},T0);   // deriva lenta (≈1,7 %/s, como el empuje medido)
+cs.forEach((c,i)=>tl.to(c,{opacity:0,filter:'blur(8px)',y:-10,duration:0.28,ease:'power2.in'},TOUT+i*F));
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

@@ -1,0 +1,239 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.158,
+   "fin": 2.0,
+   "texto": "carne de vacuno dos veces a la semana",
+   "especial": "semana",
+   "dur": 2.362
+  },
+  {
+   "n": 2,
+   "ini": 2.52,
+   "fin": 2.781,
+   "texto": "huevo",
+   "especial": "huevo",
+   "dur": 0.661
+  },
+  {
+   "n": 3,
+   "ini": 3.181,
+   "fin": 3.721,
+   "texto": "todos los días",
+   "especial": "días",
+   "dur": 0.9009999999999998
+  },
+  {
+   "n": 4,
+   "ini": 4.082,
+   "fin": 4.362,
+   "texto": "frutas",
+   "especial": "frutas",
+   "dur": 0.7810000000000006
+  },
+  {
+   "n": 5,
+   "ini": 4.863,
+   "fin": 6.264,
+   "texto": "todos los días queso blanco",
+   "especial": "blanco",
+   "dur": 1.8609999999999998
+  },
+  {
+   "n": 6,
+   "ini": 6.724,
+   "fin": 8.346,
+   "texto": "una vez a la semana aceite de oliva",
+   "especial": "oliva",
+   "dur": 2.042
+  },
+  {
+   "n": 7,
+   "ini": 8.766,
+   "fin": 9.327,
+   "texto": "todos los días",
+   "especial": "días",
+   "dur": 0.9610000000000003
+  },
+  {
+   "n": 8,
+   "ini": 9.727,
+   "fin": 9.947,
+   "texto": "vino",
+   "especial": "vino",
+   "dur": 0.6009999999999991
+  },
+  {
+   "n": 9,
+   "ini": 10.328,
+   "fin": 10.868,
+   "texto": "una vez al mes",
+   "especial": "mes",
+   "dur": 0.9210000000000012
+  },
+  {
+   "n": 10,
+   "ini": 11.249,
+   "fin": 11.569,
+   "texto": "arroz",
+   "especial": "arroz",
+   "dur": 0.7799999999999994
+  },
+  {
+   "n": 11,
+   "ini": 12.029,
+   "fin": 13.611,
+   "texto": "dos veces a la semana vegetales",
+   "especial": "vegetales",
+   "dur": 2.0020000000000007
+  },
+  {
+   "n": 12,
+   "ini": 14.031,
+   "fin": 14.572,
+   "texto": "todos los días",
+   "especial": "días",
+   "dur": 0.9009999999999998
+  },
+  {
+   "n": 13,
+   "ini": 14.932,
+   "fin": 15.393,
+   "texto": "aguacate",
+   "especial": "aguacate",
+   "dur": 1.2009999999999987
+  },
+  {
+   "n": 14,
+   "ini": 16.133,
+   "fin": 17.755,
+   "texto": "todos los días ultra procesado",
+   "especial": "procesado",
+   "dur": 2.0420000000000016
+  },
+  {
+   "n": 15,
+   "ini": 18.175,
+   "fin": 18.776,
+   "texto": "una vez al mes",
+   "especial": "mes",
+   "dur": 0.9609999999999985
+  },
+  {
+   "n": 16,
+   "ini": 19.136,
+   "fin": 20.818,
+   "texto": "agua todas las veces que puedas en el día",
+   "especial": "día",
+   "dur": 1.9819999999999993
+  },
+  {
+   "n": 17,
+   "ini": 21.118,
+   "fin": 21.418,
+   "texto": "pizza",
+   "especial": "pizza",
+   "dur": 0.8410000000000011
+  },
+  {
+   "n": 18,
+   "ini": 21.959,
+   "fin": 22.98,
+   "texto": "una vez al mes postre",
+   "especial": "postre",
+   "dur": 1.4810000000000016
+  },
+  {
+   "n": 19,
+   "ini": 23.44,
+   "fin": 25.042,
+   "texto": "una vez a la semana pechuga de pollo",
+   "especial": "pollo",
+   "dur": 1.985999999999997
+  },
+  {
+   "n": 20,
+   "ini": 25.426,
+   "fin": 25.867,
+   "texto": "todos los días.",
+   "especial": "días",
+   "dur": 0.5810000000000031
+  },
+  {
+   "n": 21,
+   "ini": 26.007,
+   "fin": 26.869,
+   "texto": "Y si quieres perder ayer",
+   "especial": "perder ayer",
+   "dur": 1.3019999999999996
+  },
+  {
+   "n": 22,
+   "ini": 27.309,
+   "fin": 28.471,
+   "texto": "ocupada, no seguirme.",
+   "especial": "seguirme",
+   "dur": 1.2620000000000005
+  },
+  {
+   "n": 23,
+   "ini": 28.571,
+   "fin": 30.334,
+   "texto": "Y ya les intentado varias veces y no podido,",
+   "especial": "podido",
+   "dur": 1.7829999999999977
+  },
+  {
+   "n": 24,
+   "ini": 30.354,
+   "fin": 31.115,
+   "texto": "te recomiendo muchísimo",
+   "especial": "muchísimo",
+   "dur": 1.2220000000000013
+  },
+  {
+   "n": 25,
+   "ini": 31.576,
+   "fin": 32.498,
+   "texto": "funulario miografía.",
+   "especial": "miografía",
+   "dur": 0.921999999999997
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F19974",
+    "#864427",
+    "#F4EAE6",
+    "#16100D"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F17498",
+    "#862743",
+    "#F4E6EA",
+    "#160D10"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

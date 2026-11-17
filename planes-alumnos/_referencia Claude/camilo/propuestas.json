@@ -1,0 +1,206 @@
+[
+ {
+  "n": 1,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Gancho. Foto del velocista en la pared con caja en el muslo y «¿TE PONDRÁS ASÍ?» (c028: enseña el miedo antes de desmentirlo; lo pide su guion). Nombre abajo a la izquierda (c023). Abre ampliado (c001).",
+  "especial": "sentadillas?"
+ },
+ {
+  "n": 2,
+  "tipo": "A-roll + texto",
+  "texto": "«No.» enorme en su rojo, solo, con el golpe grave que ya hay (c025). La etiqueta de la foto pasa a «SPOILER: NO».",
+  "especial": "No."
+ },
+ {
+  "n": 3,
+  "tipo": "Demostración sobre el cuerpo",
+  "texto": "La foto llena la pantalla; caja de selección en el muslo (c017: señala de qué parte se habla). Es la recompensa literal del gancho. Crédito de la foto abajo.",
+  "especial": "ciclista de pista"
+ },
+ {
+  "n": 4,
+  "tipo": "Demostración sobre el cuerpo",
+  "texto": "Sigue la foto; entra su nombre abajo a la izquierda, 150 ms antes de decirlo (c023).",
+  "especial": "Robert Förstemann"
+ },
+ {
+  "n": 5,
+  "tipo": "A-roll + texto",
+  "texto": "Vuelta a Cami. Subtítulo de dos tamaños (c024). Respira tras la pantalla completa.",
+  "especial": "sentadillas"
+ },
+ {
+  "n": 6,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue A-roll.",
+  "especial": "me dice"
+ },
+ {
+  "n": 7,
+  "tipo": "A-roll + texto",
+  "texto": "«paso» parece resto de otra toma: propongo quitarlo en el corte. Sin gráfico.",
+  "especial": "paso"
+ },
+ {
+  "n": 8,
+  "tipo": "A-roll + texto",
+  "texto": "«mejor» suelto: mismo caso, propongo quitarlo.",
+  "especial": "mejor"
+ },
+ {
+  "n": 9,
+  "tipo": "A-roll con tarjeta",
+  "texto": "La objeción dentro de una burbuja de comentario junto a él, con «grande» en rojo: es lo que «alguien me dice», así que se enseña como un comentario. Rompe 9 s seguidos de persona sola.",
+  "especial": "grande"
+ },
+ {
+  "n": 10,
+  "tipo": "Comparación",
+  "texto": "Lado a lado: foto de Cami delgado (FALTA, pedírsela) (c014). Mientras no llegue: A-roll.",
+  "especial": "muy delgado"
+ },
+ {
+  "n": 11,
+  "tipo": "Comparación",
+  "texto": "Entra al lado la foto de ahora (FALTA). Etiqueta «años de trabajo». El antes y después es su prueba personal.",
+  "especial": "ganar músculo"
+ },
+ {
+  "n": 12,
+  "tipo": "B-roll con texto",
+  "texto": "B-roll suyo en descenso (FALTA) con el texto abajo (c022: pone imagen a «sigo compitiendo»).",
+  "especial": "descenso"
+ },
+ {
+  "n": 13,
+  "tipo": "Pantalla completa: lista",
+  "texto": "Vuelve la foto del velocista, pequeña, arriba; debajo se prepara una lista de 3 (c011).",
+  "especial": "piernas como esa"
+ },
+ {
+  "n": 14,
+  "tipo": "Pantalla completa: lista",
+  "texto": "Píldora 1 en rojo: «años solo para eso». Un pop por píldora.",
+  "especial": "años"
+ },
+ {
+  "n": 15,
+  "tipo": "Pantalla completa: lista",
+  "texto": "Píldora 2: «comer muchísimo».",
+  "especial": "muchísimo"
+ },
+ {
+  "n": 16,
+  "tipo": "Pantalla completa: lista",
+  "texto": "Píldora 3: «genética especial». Las tres en rojo: es lo que NO va a hacer el espectador.",
+  "especial": "genética"
+ },
+ {
+  "n": 17,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Misma lista, ahora en lima y sobre Cami: píldora «2 días de fuerza» (c019). Misma forma, color contrario: se ve la diferencia.",
+  "especial": "dos días"
+ },
+ {
+  "n": 18,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Se queda la píldora.",
+  "especial": "a la semana"
+ },
+ {
+  "n": 19,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Píldora 2 lima: «bajar grasa».",
+  "especial": "grasa"
+ },
+ {
+  "n": 20,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Píldora 3 lima: «montar el finde».",
+  "especial": "el finde"
+ },
+ {
+  "n": 21,
+  "tipo": "A-roll + texto",
+  "texto": "Zoom lento. Vuelve la tarjeta del velocista del gancho, ahora tachada: repite el motivo visual.",
+  "especial": "esas"
+ },
+ {
+  "n": 22,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue; «piernas» cae con golpe.",
+  "especial": "piernas"
+ },
+ {
+  "n": 23,
+  "tipo": "B-roll con texto",
+  "texto": "B-roll pedaleando (FALTA). Arriba, elemento fijo de 3 beneficios (c012); se enciende el 1.",
+  "especial": "más fuerza"
+ },
+ {
+  "n": 24,
+  "tipo": "B-roll con texto",
+  "texto": "Sigue el b-roll.",
+  "especial": "el pedal"
+ },
+ {
+  "n": 25,
+  "tipo": "B-roll con texto",
+  "texto": "B-roll en subida (FALTA); se enciende el 2.",
+  "especial": "subidas"
+ },
+ {
+  "n": 26,
+  "tipo": "B-roll con texto",
+  "texto": "B-roll de descenso o caída (FALTA); se enciende el 3.",
+  "especial": "caídas"
+ },
+ {
+  "n": 27,
+  "tipo": "A-roll + texto",
+  "texto": "Moraleja en A-roll (c026). «velocista» en rojo.",
+  "especial": "velocista"
+ },
+ {
+  "n": 28,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "de pista"
+ },
+ {
+  "n": 29,
+  "tipo": "A-roll + texto",
+  "texto": "«más fuerte» en lima, grande.",
+  "especial": "más fuerte"
+ },
+ {
+  "n": 30,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue; sin gráfico.",
+  "especial": "se ve mejor"
+ },
+ {
+  "n": 31,
+  "tipo": "A-roll con tarjeta",
+  "texto": "CTA. Botón «Seguir» flotando a la altura del pecho, que se pulsa al decir «sígueme» (línea 33): el CTA es seguir, así que se enseña el botón.",
+  "especial": "sin miedo"
+ },
+ {
+  "n": 32,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "subir peor"
+ },
+ {
+  "n": 33,
+  "tipo": "Caja de palabra",
+  "texto": "«CICLISTA» en caja lima (c021).",
+  "especial": "ciclista"
+ },
+ {
+  "n": 34,
+  "tipo": "Caja de palabra",
+  "texto": "«culturista» pequeño y tachado al lado. Cierre con la misma idea del gancho.",
+  "especial": "culturista"
+ }
+]

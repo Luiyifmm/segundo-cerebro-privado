@@ -1,0 +1,212 @@
+[
+ {
+  "texto": "¿Lunes?",
+  "inicio": 0.3,
+  "fin": 0.75,
+  "score": 0.5
+ },
+ {
+  "texto": "Nada",
+  "inicio": 1.15,
+  "fin": 1.35,
+  "score": 0.5
+ },
+ {
+  "texto": "de",
+  "inicio": 1.38,
+  "fin": 1.46,
+  "score": 0.5
+ },
+ {
+  "texto": "pan.",
+  "inicio": 1.5,
+  "fin": 1.9,
+  "score": 0.5
+ },
+ {
+  "texto": "¿Martes?",
+  "inicio": 2.472,
+  "fin": 2.873,
+  "score": 0.82
+ },
+ {
+  "texto": "nada",
+  "inicio": 3.093,
+  "fin": 3.273,
+  "score": 0.707
+ },
+ {
+  "texto": "de",
+  "inicio": 3.313,
+  "fin": 3.353,
+  "score": 0.698
+ },
+ {
+  "texto": "chocolate.",
+  "inicio": 3.373,
+  "fin": 4.455,
+  "score": 0.626
+ },
+ {
+  "texto": "¿Cómo",
+  "inicio": 4.475,
+  "fin": 4.595,
+  "score": 0.494
+ },
+ {
+  "texto": "me",
+  "inicio": 4.615,
+  "fin": 4.655,
+  "score": 0.012
+ },
+ {
+  "texto": "voy",
+  "inicio": 4.675,
+  "fin": 4.755,
+  "score": 0.225
+ },
+ {
+  "texto": "a",
+  "inicio": 4.815,
+  "fin": 4.835,
+  "score": 0.587
+ },
+ {
+  "texto": "poner?",
+  "inicio": 4.895,
+  "fin": 5.696,
+  "score": 0.91
+ },
+ {
+  "texto": "¿Miércoles?",
+  "inicio": 6.597,
+  "fin": 6.977,
+  "score": 0.792
+ },
+ {
+  "texto": "nada",
+  "inicio": 7.158,
+  "fin": 7.258,
+  "score": 0.492
+ },
+ {
+  "texto": "de",
+  "inicio": 7.278,
+  "fin": 7.358,
+  "score": 0.894
+ },
+ {
+  "texto": "salir",
+  "inicio": 7.398,
+  "fin": 7.598,
+  "score": 0.536
+ },
+ {
+  "texto": "a",
+  "inicio": 7.618,
+  "fin": 7.638,
+  "score": 0.379
+ },
+ {
+  "texto": "cenar",
+  "inicio": 7.678,
+  "fin": 7.878,
+  "score": 0.789
+ },
+ {
+  "texto": "fuera",
+  "inicio": 7.938,
+  "fin": 8.099,
+  "score": 0.857
+ },
+ {
+  "texto": "con",
+  "inicio": 8.179,
+  "fin": 8.279,
+  "score": 0.959
+ },
+ {
+  "texto": "amigos.",
+  "inicio": 8.299,
+  "fin": 8.579,
+  "score": 0.842
+ },
+ {
+  "texto": "Les",
+  "inicio": 9.02,
+  "fin": 9.12,
+  "score": 0.688
+ },
+ {
+  "texto": "digo",
+  "inicio": 9.16,
+  "fin": 9.3,
+  "score": 0.832
+ },
+ {
+  "texto": "que",
+  "inicio": 9.32,
+  "fin": 9.4,
+  "score": 0.748
+ },
+ {
+  "texto": "no.",
+  "inicio": 9.42,
+  "fin": 10.321,
+  "score": 0.741
+ },
+ {
+  "texto": "¿Jueves?",
+  "inicio": 10.361,
+  "fin": 10.722,
+  "score": 0.872
+ },
+ {
+  "texto": "manzana",
+  "inicio": 11.102,
+  "fin": 11.462,
+  "score": 0.957
+ },
+ {
+  "texto": "para",
+  "inicio": 11.522,
+  "fin": 11.643,
+  "score": 0.778
+ },
+ {
+  "texto": "cenar.",
+  "inicio": 11.703,
+  "fin": 11.963,
+  "score": 0.76
+ },
+ {
+  "texto": "Muy",
+  "inicio": 12.544,
+  "fin": 12.644,
+  "score": 0.857
+ },
+ {
+  "texto": "bien.",
+  "inicio": 12.684,
+  "fin": 12.824,
+  "score": 0.837
+ },
+ {
+  "texto": "¿Pero",
+  "inicio": 17.25,
+  "fin": 17.44,
+  "score": 0.918
+ },
+ {
+  "texto": "qué",
+  "inicio": 17.449,
+  "fin": 17.589,
+  "score": 0.529
+ },
+ {
+  "texto": "haces?",
+  "inicio": 17.629,
+  "fin": 18.01,
+  "score": 0.7
+ }
+]

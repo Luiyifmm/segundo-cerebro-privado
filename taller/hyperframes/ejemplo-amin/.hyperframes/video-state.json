@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "historyId": "c8d17b7c-ee34-483b-a0a1-c3616afb751a",
+  "currentRevision": "2e489f32-bf39-4e3f-b76a-d71249276cdc",
+  "pendingChanges": false,
+  "files": {
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "442b272a973b7981731537f426a06800b42e722f98a6f8f516f8957ae35d5e78",
+      "content": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/44/442b272a973b7981731537f426a06800b42e722f98a6f8f516f8957ae35d5e78"
+    },
+    "NyghtSerif-LightItalic.otf": {
+      "hash": "816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4",
+      "content": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/81/816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4"
+    }
+  },
+  "revisions": {
+    "2e489f32-bf39-4e3f-b76a-d71249276cdc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794019955806,
+      "endedAt": 1794019955812,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/69/69ac22e0924cffe2c07fca1def16249d9320a71d1adc3fe8c66d7fde0904f672",
+          "after": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/44/442b272a973b7981731537f426a06800b42e722f98a6f8f516f8957ae35d5e78"
+        },
+        "NyghtSerif-LightItalic.otf": {
+          "before": null,
+          "after": "/Users/luiyi/.cache/hyperframes/history/c8d17b7c-ee34-483b-a0a1-c3616afb751a/blobs/81/816f82afdc9f1da95abb41d5e9b6e0757000b93168a613755ddd1a83a58205a4"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a1363596-7d43-4697-a1e1-9c27b5c7a523",
+      "completedAt": 1794020054019,
+      "output": "/tmp/hf-render.CL0l9a/bruto.mov",
+      "status": "completed",
+      "revision": "2e489f32-bf39-4e3f-b76a-d71249276cdc"
+    },
+    "retainedRevisions": [
+      "2e489f32-bf39-4e3f-b76a-d71249276cdc"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

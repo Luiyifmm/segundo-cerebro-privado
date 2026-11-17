@@ -1,0 +1,1 @@
+(function(){app.enableQE();var l=qe.project.getVideoEffectList(),o=[];for(var i=0;i<l.length;i++){var n=String(l[i]);if(/tin|color|relleno|fill|cambiar|reempl|matiz|lumetri|colorear/i.test(n))o.push(n);}return o.join(" | ");})();

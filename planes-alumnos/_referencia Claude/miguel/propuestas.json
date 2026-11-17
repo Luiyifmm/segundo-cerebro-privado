@@ -1,0 +1,140 @@
+[
+ {
+  "n": 1,
+  "tipo": "A-roll + texto",
+  "texto": "Gancho. Nombre «Miguel Santos» abajo a la izquierda (c023). Abre ampliado (c001). Subtítulo en su rojo con neón, como pide.",
+  "especial": "toda mi vida"
+ },
+ {
+  "n": 2,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Recorte de una mochila junto a él. Arriba, elemento fijo: 3 huecos vacíos (c012: el espectador sabe que vienen tres cosas).",
+  "especial": "mi mochila"
+ },
+ {
+  "n": 3,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Recorte de un plátano con etiqueta; se llena el hueco 1; pop.",
+  "especial": "un plátano"
+ },
+ {
+  "n": 4,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Píldora «1 h antes» junto al plátano (c019).",
+  "especial": "una hora antes"
+ },
+ {
+  "n": 5,
+  "tipo": "A-roll + texto",
+  "texto": "Dos palabras en su verde. Respira.",
+  "especial": "Energía rápida"
+ },
+ {
+  "n": 6,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "no me pesa"
+ },
+ {
+  "n": 7,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Recorte de dátiles; hueco 2; píldora «descanso».",
+  "especial": "dátiles"
+ },
+ {
+  "n": 8,
+  "tipo": "B-roll con texto",
+  "texto": "B-roll suyo en el vestuario o saliendo al campo (FALTA, pedírselo) (c022).",
+  "especial": "salir al partido"
+ },
+ {
+  "n": 9,
+  "tipo": "A-roll con tarjeta",
+  "texto": "«Tercero»: se prepara el hueco 3.",
+  "especial": "Tercero"
+ },
+ {
+  "n": 10,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Recorte de la botella; hueco 3 lleno. Los tres a la vista.",
+  "especial": "aminoácidos"
+ },
+ {
+  "n": 11,
+  "tipo": "A-roll + texto",
+  "texto": "Sin gráfico: es el toque de humor.",
+  "especial": "Marbella"
+ },
+ {
+  "n": 12,
+  "tipo": "A-roll + texto",
+  "texto": "«sudamos parados» grande.",
+  "especial": "sudamos parados"
+ },
+ {
+  "n": 13,
+  "tipo": "A-roll + texto",
+  "texto": "El whoosh que ya hay marca el cambio de bloque.",
+  "especial": "Y ahora"
+ },
+ {
+  "n": 14,
+  "tipo": "Caja de palabra",
+  "texto": "«NO» en caja roja (c021). Los 3 huecos de arriba se apagan.",
+  "especial": "no llevo"
+ },
+ {
+  "n": 15,
+  "tipo": "A-roll + texto",
+  "texto": "«Nada» enorme y solo, con golpe (c025).",
+  "especial": "Nada"
+ },
+ {
+  "n": 16,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "probado antes"
+ },
+ {
+  "n": 17,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "día de partido"
+ },
+ {
+  "n": 18,
+  "tipo": "A-roll con tarjeta",
+  "texto": "Icono de matraz en círculo rojo que se tacha: señal de prohibido para «experimentos».",
+  "especial": "experimentos"
+ },
+ {
+  "n": 19,
+  "tipo": "A-roll + texto",
+  "texto": "Giro: ding y golpe grave.",
+  "especial": "Pero ojo"
+ },
+ {
+  "n": 20,
+  "tipo": "A-roll + texto",
+  "texto": "Sigue.",
+  "especial": "la guinda"
+ },
+ {
+  "n": 21,
+  "tipo": "Comparación",
+  "texto": "Tira de 7 días frente a un punto «1 h»: la semana pesa más que la última hora.",
+  "especial": "durante la semana"
+ },
+ {
+  "n": 22,
+  "tipo": "Comparación",
+  "texto": "Se queda la comparación.",
+  "especial": "la hora antes"
+ },
+ {
+  "n": 23,
+  "tipo": "A-roll + texto",
+  "texto": "Cierre en Miguel. Vuelve el plátano del principio, tachado: cierra con el recurso del gancho.",
+  "especial": "no te salva"
+ }
+]

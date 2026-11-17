@@ -1,0 +1,8 @@
+{"tramo":"IMG_6887_1.mp4 (edición final del usuario) 16,0–21,5 s",
+ "palabras_fuente":"voz/salida/amin-final-tiempo.palabras.json (Whisper small, re-transcrito sobre la edición final)",
+ "nota":"v2 se sincronizó con la transcripción del BRUTO, que en 20–26 s era la voz de apuntador (Amin en silencio). v3 usa su voz real.",
+ "eventos":[{"id":"reloj","palabra":"tiempo","t_palabra":2.46},
+            {"id":"moneda","palabra":"dinero","t_palabra":2.82},
+            {"id":"igual","palabra":"dinero (cifra)","t_palabra":2.96},
+            {"id":"portatil","palabra":"entrenador","t_palabra":3.28},
+            {"id":"x100","palabra":"online","t_palabra":4.04}]}

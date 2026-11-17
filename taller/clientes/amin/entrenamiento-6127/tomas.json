@@ -1,0 +1,167 @@
+{
+ "bruto": "/Users/luiyi/EDICION/1 CLIENTES/AMIN/BRUTOS/HECHOS/IMG_6127.MOV",
+ "palabras": "/Users/luiyi/Videos-Remotion/voz/salida-whisperx/IMG_6127.verificada.json",
+ "bloques": [
+  {
+   "id": "gancho",
+   "tramos": [
+    [
+     53.18,
+     55.32
+    ]
+   ],
+   "clave": "niñato",
+   "marca": null
+  },
+  {
+   "id": "c1",
+   "tramos": [
+    [
+     63.76,
+     65.34
+    ],
+    [
+     65.96,
+     66.54
+    ]
+   ],
+   "clave": "perdedor",
+   "marca": "N"
+  },
+  {
+   "id": "c2",
+   "tramos": [
+    [
+     128.0,
+     129.61
+    ],
+    [
+     130.23,
+     131.47
+    ]
+   ],
+   "clave": "estúpido",
+   "marca": "N"
+  },
+  {
+   "id": "c3",
+   "tramos": [
+    [
+     150.9,
+     152.8
+    ],
+    [
+     157.41,
+     158.19
+    ]
+   ],
+   "clave": "maduro",
+   "marca": "H"
+  },
+  {
+   "id": "c4",
+   "tramos": [
+    [
+     170.57,
+     172.49
+    ],
+    [
+     173.17,
+     174.25
+    ]
+   ],
+   "clave": "valores",
+   "marca": "H"
+  },
+  {
+   "id": "c5",
+   "tramos": [
+    [
+     254.36,
+     256.22
+    ],
+    [
+     258.14,
+     258.84
+    ]
+   ],
+   "clave": "alto valor",
+   "marca": "H"
+  },
+  {
+   "id": "m1",
+   "tramos": [
+    [
+     299.47,
+     302.69
+    ]
+   ],
+   "clave": "alto valor",
+   "marca": "FIN"
+  },
+  {
+   "id": "m2",
+   "tramos": [
+    [
+     319.93,
+     321.39
+    ],
+    [
+     322.21,
+     324.15
+    ]
+   ],
+   "clave": "niñato",
+   "marca": null
+  },
+  {
+   "id": "m3",
+   "tramos": [
+    [
+     329.89,
+     331.35
+    ],
+    [
+     340.26,
+     343.0
+    ],
+    [
+     346.78,
+     349.44
+    ]
+   ],
+   "clave": "rey",
+   "marca": null
+  },
+  {
+   "id": "cierre",
+   "tramos": [
+    [
+     360.19,
+     360.57
+    ],
+    [
+     361.09,
+     363.07
+    ]
+   ],
+   "clave": "imperio",
+   "marca": null
+  },
+  {
+   "id": "cta",
+   "tramos": [
+    [
+     367.28,
+     369.94
+    ],
+    [
+     371.6,
+     373.5
+    ]
+   ],
+   "clave": "vida",
+   "marca": null
+  }
+ ]
+}

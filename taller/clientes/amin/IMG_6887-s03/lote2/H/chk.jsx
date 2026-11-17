@@ -1,0 +1,1 @@
+(function(){app.enableQE();var B=app.project.activeSequence,q=qe.project.getActiveSequence();B.setPlayerPosition(String(Math.round(42.89*254016000000)));try{q.exportFramePNG(q.CTI.timecode,"/Users/luiyi/Videos-Remotion/clientes/amin/IMG_6887-s03/lote2/H/chk");return "render ok";}catch(e){return "RENDER ERROR "+e;}})();

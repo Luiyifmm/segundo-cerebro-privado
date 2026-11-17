@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- 6887-13 · GRÁFICO 3b (integrado, Amin visible; 25,84–27,394 s). Remate del tipo 3: «como entrenador online».
+     El móvil del entrenador online con los meses cobrados (eco del calendario del gráfico 3). Sin texto que repita el subtítulo.
+     Tiempos locales = propuesta − 25,84. -->
+<style>
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif;color:#fff}
+.e{position:absolute;opacity:0}
+#tarjeta{left:70px;top:330px;width:300px;height:430px;border-radius:40px;background:#0E1420;border:6px solid #E9EEF5;box-shadow:0 20px 40px rgba(0,0,0,.55)}
+#pesa{position:absolute;left:70px;top:40px;width:148px;height:90px}
+.f{position:absolute;left:24px;width:240px;height:64px;border-radius:16px;background:rgba(255,255,255,.96);color:#111;opacity:0;display:flex;align-items:center;justify-content:space-between;padding:0 14px;box-sizing:border-box}
+.f span{font-size:27px;font-weight:800;letter-spacing:1px}
+.f i{display:block;width:38px;height:38px;border-radius:19px;background:#F5C542;position:relative}
+.f i:after{content:"";position:absolute;left:12px;top:6px;width:10px;height:18px;border:solid #111;border-width:0 5px 5px 0;transform:rotate(45deg)}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="1.56">
+<div id="tarjeta" class="e clip" data-start="0" data-duration="1.56">
+ <svg id="pesa" viewBox="0 0 148 90"><rect x="6" y="20" width="22" height="50" rx="6" fill="#F5C542"/><rect x="30" y="10" width="22" height="70" rx="6" fill="#F5C542"/><rect x="52" y="38" width="44" height="14" rx="5" fill="#E9EEF5"/><rect x="96" y="10" width="22" height="70" rx="6" fill="#F5C542"/><rect x="120" y="20" width="22" height="50" rx="6" fill="#F5C542"/></svg>
+ <div id="f1" class="f" style="top:160px"><span>ENE</span><i></i></div>
+ <div id="f2" class="f" style="top:240px"><span>FEB</span><i></i></div>
+ <div id="f3" class="f" style="top:320px"><span>MAR</span><i></i></div></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}), A=0.05;
+casa.riseIn(tl,"#tarjeta",0.192-A,{tam:120});   // «entrenador»
+[["#f1",0.45],["#f2",0.62],["#f3",0.79]].forEach(([f,t])=>casa.pop(tl,f,t));  // «online»
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

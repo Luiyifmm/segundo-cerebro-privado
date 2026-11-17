@@ -1,0 +1,489 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1008_01",
+ "secuencia": "AMIN_1008_01 - corte 9",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1008_01/AMIN_1008_01 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 138.2,
+ "duracionCorte": 28.3,
+ "frases": 59,
+ "dentro": 11,
+ "fuera": 50,
+ "cortes": 14,
+ "segundosDeProceso": 0,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4.9,
+   "clip": "IMG_6118.MOV",
+   "texto": "Así se viste a la mujer que solo quieren para una noche y así se viste a la mujer que quieren para toda la vida."
+  },
+  {
+   "n": 2,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "A esta solo la quieren para una cosa, ya sabes para qué."
+  },
+  {
+   "n": 3,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.4,
+   "clip": "IMG_6118.MOV",
+   "texto": "A esta la respetan."
+  },
+  {
+   "n": 4,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Gracias."
+  },
+  {
+   "n": 5,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.4,
+   "clip": "IMG_6118.MOV",
+   "texto": "A ésta la respetan."
+  },
+  {
+   "n": 6,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.1,
+   "clip": "IMG_6118.MOV",
+   "texto": "A ésta la respetan."
+  },
+  {
+   "n": 7,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3,
+   "clip": "IMG_6118.MOV",
+   "texto": "A ella la buscan para divertirse y perder el tiempo."
+  },
+  {
+   "n": 8,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.7,
+   "clip": "IMG_6118.MOV",
+   "texto": "A ella la buscan para divertirse y perder el tiempo."
+  },
+  {
+   "n": 9,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "Y con ella para prosperar la vida entera."
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.1,
+   "clip": "IMG_6118.MOV",
+   "texto": "Y con ella para prosperar la vida entera."
+  },
+  {
+   "n": 11,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 3.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "La ven como una sociedad que dejen para costumir un producto de la vida."
+  },
+  {
+   "n": 12,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 0.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "La ven como una ..."
+  },
+  {
+   "n": 13,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "La ven como una ..."
+  },
+  {
+   "n": 14,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 3,
+   "clip": "IMG_6118.MOV",
+   "texto": "la ven como una asocia y la dirigen para prosperar un pro ..."
+  },
+  {
+   "n": 15,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "y la dirigen para prosperar un proyecto real."
+  },
+  {
+   "n": 16,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 2.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "Y la eligen para construir un proyecto real."
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.6,
+   "clip": "IMG_6118.MOV",
+   "texto": "La regla es cruel pero innegable."
+  },
+  {
+   "n": 18,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.4,
+   "clip": "IMG_6118.MOV",
+   "texto": "¿Qué?"
+  },
+  {
+   "n": 19,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.1,
+   "clip": "IMG_6118.MOV",
+   "texto": "La regla es cruel pero innegable."
+  },
+  {
+   "n": 20,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6118.MOV",
+   "texto": "La regla es cruel pero innegable."
+  },
+  {
+   "n": 21,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.2,
+   "clip": "IMG_6118.MOV",
+   "texto": "Atrás exactamente lo que proyectas."
+  },
+  {
+   "n": 22,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.5,
+   "clip": "IMG_6118.MOV",
+   "texto": "Atrás exactamente lo que proyectas."
+  },
+  {
+   "n": 23,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6118.MOV",
+   "texto": "Como esa dentro, esa fuera."
+  },
+  {
+   "n": 24,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 2.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "La forma en cómo representas al mundo."
+  },
+  {
+   "n": 25,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.7,
+   "clip": "IMG_6118.MOV",
+   "texto": "La forma en la que representas al mundo?"
+  },
+  {
+   "n": 26,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 1.2,
+   "clip": "IMG_6118.MOV",
+   "texto": "¿Dicta cómo ...?"
+  },
+  {
+   "n": 27,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.6,
+   "clip": "IMG_6118.MOV",
+   "texto": "¿Dicta qué?"
+  },
+  {
+   "n": 28,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.4,
+   "clip": "IMG_6118.MOV",
+   "texto": "¿Dicta cómo te van a tratar y cómo te van a valorar?"
+  },
+  {
+   "n": 29,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 30,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.7,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 31,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.5,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 32,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.4,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 33,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 34,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 35,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 36,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 37,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 38,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 39,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 40,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 41,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 42,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 43,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 44,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 45,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 46,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 47,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 48,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 49,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 50,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 51,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 52,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 53,
+   "dentro": false,
+   "motivo": "ruido (palabra repetida)",
+   "seg": 0.8,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sigue."
+  },
+  {
+   "n": 54,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 0.6,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sígueme ..."
+  },
+  {
+   "n": 55,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.6,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sígueme para mejorar tu vida."
+  },
+  {
+   "n": 56,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6118.MOV",
+   "texto": "¿Así es?"
+  },
+  {
+   "n": 57,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 0.5,
+   "clip": "IMG_6118.MOV",
+   "texto": "Sí, ¿no?"
+  },
+  {
+   "n": 58,
+   "dentro": false,
+   "motivo": "quitada a mano",
+   "seg": 1.1,
+   "clip": "IMG_6118.MOV",
+   "texto": "Number one, listo."
+  },
+  {
+   "n": 59,
+   "dentro": false,
+   "motivo": "frase sin terminar",
+   "seg": 0.3,
+   "clip": "IMG_6118.MOV",
+   "texto": "A ver ..."
+  }
+ ]
+}

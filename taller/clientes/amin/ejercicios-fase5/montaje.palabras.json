@@ -1,0 +1,550 @@
+[
+{
+"texto": "5",
+"inicio": 0.281,
+"fin": 0.321,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "tipo",
+"inicio": 0.361,
+"fin": 0.542,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "de",
+"inicio": 0.562,
+"fin": 0.662,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "mujeres",
+"inicio": 0.722,
+"fin": 1.022,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "con",
+"inicio": 1.082,
+"fin": 1.182,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "las",
+"inicio": 1.202,
+"fin": 1.282,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "que",
+"inicio": 1.322,
+"fin": 1.402,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "no",
+"inicio": 1.463,
+"fin": 1.543,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "puedes",
+"inicio": 1.603,
+"fin": 1.803,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "perder",
+"inicio": 1.863,
+"fin": 2.123,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "tu",
+"inicio": 2.163,
+"fin": 2.243,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "tiempo",
+"inicio": 2.283,
+"fin": 2.504,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "la",
+"inicio": 2.884,
+"fin": 2.964,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "quinta",
+"inicio": 3.044,
+"fin": 3.365,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "es",
+"inicio": 3.405,
+"fin": 3.505,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "la",
+"inicio": 3.545,
+"fin": 3.605,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "peor",
+"inicio": 3.665,
+"fin": 3.865,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "y",
+"inicio": 3.905,
+"fin": 3.945,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "con",
+"inicio": 3.985,
+"fin": 4.105,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "diferencia",
+"inicio": 4.145,
+"fin": 4.546,
+"fiable": true,
+"bloque": "gancho"
+},
+{
+"texto": "Primero,",
+"inicio": 4.76,
+"fin": 5.0,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "la",
+"inicio": 5.32,
+"fin": 5.4,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "que",
+"inicio": 5.44,
+"fin": 5.52,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "utiliza",
+"inicio": 5.58,
+"fin": 6.0,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "la",
+"inicio": 6.06,
+"fin": 6.12,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "intimidad",
+"inicio": 6.16,
+"fin": 6.561,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "como",
+"inicio": 6.621,
+"fin": 6.781,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "premio",
+"inicio": 6.881,
+"fin": 7.141,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "o",
+"inicio": 7.161,
+"fin": 7.181,
+"fiable": false,
+"bloque": "tipo1"
+},
+{
+"texto": "castigo.",
+"inicio": 7.24,
+"fin": 7.5,
+"fiable": false,
+"bloque": "tipo1",
+"nota": "añadida a mano: WhisperX la alargó; fin por nivel medido 32,45 s del bruto"
+},
+{
+"texto": "Es",
+"inicio": 7.632,
+"fin": 7.732,
+"fiable": false,
+"bloque": "tipo1"
+},
+{
+"texto": "una",
+"inicio": 7.752,
+"fin": 7.852,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "manipuladora",
+"inicio": 7.892,
+"fin": 8.533,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "y",
+"inicio": 8.773,
+"fin": 8.833,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "no",
+"inicio": 8.913,
+"fin": 8.993,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "te",
+"inicio": 9.053,
+"fin": 9.113,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "ama.",
+"inicio": 9.193,
+"fin": 9.393,
+"fiable": true,
+"bloque": "tipo1"
+},
+{
+"texto": "Y",
+"inicio": 9.501,
+"fin": 9.561,
+"fiable": true,
+"bloque": "quinto"
+},
+{
+"texto": "por",
+"inicio": 9.621,
+"fin": 9.721,
+"fiable": true,
+"bloque": "quinto"
+},
+{
+"texto": "quinto,",
+"inicio": 9.781,
+"fin": 10.442,
+"fiable": true,
+"bloque": "quinto"
+},
+{
+"texto": "la",
+"inicio": 10.462,
+"fin": 10.542,
+"fiable": true,
+"bloque": "quinto"
+},
+{
+"texto": "peor.",
+"inicio": 10.622,
+"fin": 10.862,
+"fiable": true,
+"bloque": "quinto"
+},
+{
+"texto": "La",
+"inicio": 11.01,
+"fin": 11.07,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "que",
+"inicio": 11.11,
+"fin": 11.19,
+"fiable": false,
+"bloque": "cajero"
+},
+{
+"texto": "solo",
+"inicio": 11.25,
+"fin": 11.43,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "pide",
+"inicio": 11.49,
+"fin": 11.67,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "y",
+"inicio": 11.71,
+"fin": 11.75,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "gasta.",
+"inicio": 11.76,
+"fin": 11.95,
+"fiable": false,
+"bloque": "cajero",
+"nota": "añadida a mano (WhisperX la alargó)"
+},
+{
+"texto": "Te",
+"inicio": 12.033,
+"fin": 12.113,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "ve",
+"inicio": 12.133,
+"fin": 12.233,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "como",
+"inicio": 12.273,
+"fin": 12.393,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "su",
+"inicio": 12.453,
+"fin": 12.533,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "cajero",
+"inicio": 12.573,
+"fin": 12.813,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "automático",
+"inicio": 12.833,
+"fin": 13.353,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "y",
+"inicio": 13.373,
+"fin": 13.393,
+"fiable": false,
+"bloque": "cajero"
+},
+{
+"texto": "no",
+"inicio": 13.914,
+"fin": 14.054,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "como",
+"inicio": 14.194,
+"fin": 14.374,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "su",
+"inicio": 14.454,
+"fin": 14.554,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "hombre.",
+"inicio": 14.594,
+"fin": 14.894,
+"fiable": true,
+"bloque": "cajero"
+},
+{
+"texto": "Ganador",
+"inicio": 14.986,
+"fin": 15.367,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "no",
+"inicio": 15.827,
+"fin": 15.907,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "pierde",
+"inicio": 15.987,
+"fin": 16.267,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "ni",
+"inicio": 16.327,
+"fin": 16.427,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "un",
+"inicio": 16.507,
+"fin": 16.607,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "segundo",
+"inicio": 16.667,
+"fin": 17.007,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "de",
+"inicio": 17.047,
+"fin": 17.107,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "energía",
+"inicio": 17.147,
+"fin": 17.568,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "aguantando",
+"inicio": 17.588,
+"fin": 18.448,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "a",
+"inicio": 18.468,
+"fin": 18.488,
+"fiable": false,
+"bloque": "moraleja"
+},
+{
+"texto": "mujeres",
+"inicio": 18.548,
+"fin": 18.868,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "que",
+"inicio": 18.908,
+"fin": 18.988,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "le",
+"inicio": 19.028,
+"fin": 19.088,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "restan.",
+"inicio": 19.168,
+"fin": 19.428,
+"fiable": true,
+"bloque": "moraleja"
+},
+{
+"texto": "Sígueme",
+"inicio": 19.884,
+"fin": 20.265,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "para",
+"inicio": 20.625,
+"fin": 20.766,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "mejorar",
+"inicio": 20.826,
+"fin": 21.086,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "tu",
+"inicio": 21.126,
+"fin": 21.207,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "vida.",
+"inicio": 21.247,
+"fin": 21.427,
+"fiable": true,
+"bloque": "cta"
+}
+]

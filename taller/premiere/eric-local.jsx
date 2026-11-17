@@ -1,0 +1,3 @@
+(function () { var r = { ok: [], errores: [] }, L = "/Users/luiyi/Videos-Remotion/clientes/eric/entrada/te quita el hambre/";
+  function rec(bin) { for (var i = 0; i < bin.children.numItems; i++) { var c = bin.children[i]; if (c.type === 2) { rec(c); continue; } if (c.name === "IMG_1113.MOV" || c.name === "IMG_1114.MOV") { var p = ""; try { p = c.getMediaPath(); } catch (e) {} if (p.indexOf("GoogleDrive") < 0) { r.ok.push(c.name + " ya local"); continue; } try { if (c.changeMediaPath(L + c.name, true)) r.ok.push(c.name + " -> " + c.getMediaPath()); else r.errores.push("no enlaza " + c.name); } catch (e2) { r.errores.push(c.name + " " + e2); } } } }
+  rec(app.project.rootItem); app.project.save(); return JSON.stringify(r); })();

@@ -1,0 +1,65 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01 [x] Ahora tienes que aguarte.   ← quitada a mano
+02 [x] Acuérdate ahora de lo del silencio, ¿vale?   ← quitada a mano
+03 [x] No, no, no, no, no.   ← ruido (palabra repetida)
+04 [x] Aguárdalo del silencio.   ← quitada a mano
+05 [x] Sabes, yo hablo, hablo, me callo para que no se me ve hablando y luego pues digo la respuesta,   ← quitada a mano
+06 [x] ¿vale?   ← quitada a mano
+07 [x] Así Luis él tiene para poder cortar y poder sacar bien la toma o lo que sea   ← quitada a mano
+08 [x] entonces   ← quitada a mano
+09 [x] vale entonces a partir del segundo tres me lo vas a decir uno dos y tres dímelo   ← quitada a mano
+10     tener novia
+11     de pobre mediocrity no de pobre
+12     pero porque si todo mundo quiere una
+13 [x] cuando yo pero me tienes que decir la respuesta, la pregunta y la respuesta siempre.   ← quitada a mano
+14 [x] Bro, el tío, utiliza un poco la cabeza, hermano.   ← quitada a mano
+15 [x] Javi.   ← quitada a mano
+16 [x] Bro, me tienes que decir ...   ← frase sin terminar
+17 [x] Hermanos, escúchame, me tienes que decir ...   ← frase sin terminar
+18 [x] La pregunta y la respuesta.   ← toma repetida
+19 [x] Y yo me quedo sin enci, una vez que ya he dicho la respuesta, ya me he podido decir la siguiente pregunta.   ← quitada a mano
+20 [x] Pero no me puedes decir la pregunta y justo después la respuesta porque no puedo guardar la silencia y Luis no puede cortarla.   ← quitada a mano
+21 [x] Dime la respuesta, por favor.   ← quitada a mano
+22     Y por eso casi todo el mundo está arruinado.
+23 [x] Atento.   ← quitada a mano
+24 [x] Adentro.   ← quitada a mano
+25     Tener novia te quita tu tiempo y tu foco.
+26 [x] El que has dicho, ¿puedes repetirlo?   ← quitada a mano
+27 [x] Tener novia te quita   ← quitada a mano
+28 [x] tu tiempo y tu foco   ← quitada a mano
+29 [x] dime   ← quitada a mano
+30     tener novia te cuesta dinero
+31 [x] tener novia te cuesta dinero ¿qué más?   ← quitada a mano
+32     te vacía la cartera
+33 [x] te vacía la cartera El ennoche no ha dado para que se diga que está.   ← quitada a mano
+34 [x] ¿Te va a hacer la cartela?   ← quitada a mano
+35 [x] ¿Te le no te da dolores para tener novia?   ← quitada a mano
+36     ¿Tener novia te da dolores de cabeza?
+37 [x] ¿No tienes poco para tus proyectos?   ← quitada a mano
+38     ¿No tienes horas para tus proyectos?
+39 [x] ¿Y gastarte dinero que no tienes en restaurantes caros?   ← toma repetida
+40 [x] ¿Y gastarte dinero que no tienes en restaurantes caros?   ← toma repetida
+41 [x] ¿Y gastarte dinero que no tienes en restaurantes caros?   ← toma repetida
+42 [x] ¿Y gastarte dinero que no tienes en restaurantes caros?   ← toma repetida
+43 [x] ¿Y gastarte dinero que no tienes en restaurantes caros?   ← toma repetida
+44     ¿Y gastarte dinero que no tienes en restaurantes caros.
+45 [x] Para ver si tienes suerte.   ← toma repetida
+46     Para ver si tienes suerte y mendigar un poquito de intimidad.
+47 [x] Y eso es de perdedor arrastrado.   ← toma repetida
+48     Y eso es de perdedor arrastrado.
+49     Olvídate de buscar mujeres ahora mismo.
+50 [x] Espera, espera, espera, bro, ¿de qué te crees que soy aquí en una discográfica para acordar métodos?   ← toma repetida
+51 [x] Espera, espera, espera, espera, bro, ¿de qué te crees que soy aquí en una discográfica para acordarme de todo?   ← quitada a mano
+52 [x] Dime frases por frases, cabrón.   ← quitada a mano
+53 [x] Espérate, un ganador primero construye su imperio, ¿no?   ← quitada a mano
+54 [x] Un ganador primero construye su imperio.   ← toma repetida
+55     Un ganador primero construye su imperio.
+56 [x] Y solo cuando está en la cima ...   ← frase sin terminar
+57 [x] ¿A una mujer qué?   ← quitada a mano
+58     Busca a una mujer de valor Busca a una mujer de valor para compartirlo.
+59 [x] Sí, para mejorar tu vida.   ← quitada a mano
+60 [x] Sígueme para mejorar tu vida.   ← toma repetida
+61 [x] A ver, espérate.   ← quitada a mano
+62     Sígueme para mejorar tu vida.
+63 [x] Sígueme para ser un ganador.   ← quitada a mano

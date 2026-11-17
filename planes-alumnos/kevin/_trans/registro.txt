@@ -1,0 +1,8 @@
+2026-11-15 14:50:53 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/kevin/_trans/Kevin - el lunes empiezo.palabras.json", "idioma": "es", "palabras": 147, "sin_tiempo": 0, "texto": "Si has dicho el lunes empiezo más de tres veces, escucha esto, no te falta disciplina. Lo que te pasa tiene nombre y es bucle y te lo voy a decir en seis pasos. Uno, ves una foto, te miras al espejo y dices, esta vez va en serio. Dos, te haces el plan perfecto, vas seis días a gimnasio, cumples a rajatabla y cero caprichos. Tres, llega la vida real. Una cena, una mala semana o un mal día. Cuatro, ya la he liado. Cinco, lo pierdes, empiezas a comer y lo recuperas todo. Y seis, pasan tres semanas, Y vuelta a empezar, así, constantemente. ¿Y dónde está el fallo? Todo el mundo dice que en el número 5, pero la verdad es que en el 2, los planes perfectos no existen. Si quieres salir del bucle de una vez por todas, comenta la palabra bucle.", "s_carga": 0.6, "s_transcripcion": 8.8, "s_alineado": 2.5, "s_total": 11.8}
+Kevin - el lunes empiezo.palabras.json contra Kevin - el lunes empiezo.mp4: 147 palabras
+  voz principal ≈ -13 dB (umbral -31 dB) · ruido ≈ -31 dB
+  principal 146 · voz baja 0 · sin voz 1 · sin tiempo 0 · FIABLES 133 (90 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/kevin/_trans/Kevin - el lunes empiezo.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

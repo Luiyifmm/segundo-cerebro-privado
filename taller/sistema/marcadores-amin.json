@@ -1,0 +1,380 @@
+[
+ {
+  "a": 57,
+  "b": 57,
+  "n": "▶ VÍDEO 2 · 5 tipos de mujeres",
+  "c": "Bruto entero (253 s), sin cortar nada.",
+  "col": 5
+ },
+ {
+  "a": 74.74,
+  "b": 77.43,
+  "n": "MOTION GRAPHIC: título: 5 tipos de mujeres con las que no puedes perder tu tiempo",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 86.74,
+  "b": 91.63,
+  "n": "MOTION GRAPHIC: 1 · usa la intimidad como premio o castigo",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 112.42,
+  "b": 120.67,
+  "n": "MOTION GRAPHIC: 2 · nunca acepta que se equivoca ni pide perdón",
+  "c": "3 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 144.98,
+  "b": 148.15,
+  "n": "MOTION GRAPHIC: 3 · necesita mantener a su ganado de amiguitos",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 173.48,
+  "b": 176.11,
+  "n": "MOTION GRAPHIC: 4 · no te respeta, no te valora, no te apoya (red flag)",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 190.3,
+  "b": 193.15,
+  "n": "MOTION GRAPHIC: 5 · la peor: solo pide y gasta (cajero automático)",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 255.94,
+  "b": 271.83,
+  "n": "MOTION GRAPHIC: frase: un ganador no pierde ni un segundo con mujeres que le restan",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 297.9,
+  "b": 300.79,
+  "n": "MOTION GRAPHIC: invierte todo su tiempo en construir riqueza",
+  "c": "3 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 304.9,
+  "b": 307.31,
+  "n": "CIERRE: seguir @aminbusinesss",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 340,
+  "b": 340,
+  "n": "▶ VÍDEO 3 · Pobre vs rico: esto y esto",
+  "c": "Bruto entero (160 s), sin cortar nada.",
+  "col": 5
+ },
+ {
+  "a": 352.3,
+  "b": 353.4,
+  "n": "IMAGEN derecha: mujer del pobre",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 353.4,
+  "b": 355.35,
+  "n": "IMAGEN izquierda: mujer del rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 368.96,
+  "b": 371.18,
+  "n": "IMAGEN derecha: fin de semana del pobre",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 371.18,
+  "b": 374.43,
+  "n": "IMAGEN izquierda: fin de semana del rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 379.78,
+  "b": 381.94,
+  "n": "IMAGEN derecha: interior de la casa del pobre",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 381.94,
+  "b": 384.31,
+  "n": "IMAGEN izquierda: interior de la casa del rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 388.22,
+  "b": 391.1,
+  "n": "IMAGEN derecha: lo que bebe el pobre",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 391.1,
+  "b": 397.89,
+  "n": "IMAGEN izquierda: lo que bebe el rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 398.02,
+  "b": 399.96,
+  "n": "IMAGEN derecha: lo que escucha el pobre",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 399.96,
+  "b": 401.15,
+  "n": "IMAGEN izquierda: lo que escucha el rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 441.14,
+  "b": 444.36,
+  "n": "IMAGEN derecha: cómo se viste el pobre",
+  "c": "3 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 444.36,
+  "b": 446.57,
+  "n": "IMAGEN izquierda: cómo se viste el rico",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 458.92,
+  "b": 464.15,
+  "n": "MOTION GRAPHIC: el éxito no depende de lo que tengas, sino de tu mentalidad",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 484.5,
+  "b": 492.07,
+  "n": "CIERRE: comenta RICO + seguir @aminbusinesss",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 530,
+  "b": 530,
+  "n": "▶ VÍDEO 4 · De pobre o de rico (preguntas)",
+  "c": "Bruto entero (350 s), sin cortar nada.",
+  "col": 5
+ },
+ {
+  "a": 574.74,
+  "b": 577.15,
+  "n": "IMAGEN derecha: ver a gente bailando en TikTok (de pobre)",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 607.88,
+  "b": 609.55,
+  "n": "IMAGEN centro: fardar del Lamborghini (ni lo uno ni lo otro)",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 623.26,
+  "b": 629.35,
+  "n": "IMAGEN derecha: tener el último iPhone (de pobre)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 634.12,
+  "b": 635.47,
+  "n": "IMAGEN centro: cocinar para ti (o eres pobre o muy rico)",
+  "c": "3 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 641.68,
+  "b": 644.47,
+  "n": "IMAGEN derecha: pagar a medias con tu novia (triste y de mediocre)",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 679.98,
+  "b": 686.17,
+  "n": "IMAGEN derecha: comprarte un coche (de pobre casi siempre; de rico si sabes comprarlo)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 691.22,
+  "b": 693.07,
+  "n": "IMAGEN derecha: comprarte una casa para vivir (de pobre)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 701.96,
+  "b": 704.87,
+  "n": "IMAGEN izquierda: casa para invertir en ella (de rico)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 712.02,
+  "b": 715.23,
+  "n": "IMAGEN derecha: llevar ropa con logos (de pobre)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 718.72,
+  "b": 720.91,
+  "n": "IMAGEN izquierda: llevar ropa simple (de rico)",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 759.94,
+  "b": 762.15,
+  "n": "IMAGEN derecha: dejar el dinero en el banco (de pobre: te arruina)",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 777.36,
+  "b": 778.65,
+  "n": "IMAGEN derecha: quejarse continuamente (de miserable)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 802.66,
+  "b": 804.59,
+  "n": "MOTION GRAPHIC: los pobres gastan dinero para aparentar",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 817.42,
+  "b": 826.15,
+  "n": "MOTION GRAPHIC: los ricos invierten en conocimiento que les hará ganar más",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 844.52,
+  "b": 855.51,
+  "n": "CIERRE: comenta RICO + seguir @aminbusinesss",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 910,
+  "b": 910,
+  "n": "▶ VÍDEO 5 · Tener novia es de pobre",
+  "c": "Bruto entero (273 s), sin cortar nada.",
+  "col": 5
+ },
+ {
+  "a": 960.96,
+  "b": 964.09,
+  "n": "IMAGEN derecha: tener novia (de pobre)",
+  "c": "2 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 1030.1,
+  "b": 1038.23,
+  "n": "MOTION GRAPHIC: lista: te quita tu tiempo y tu foco",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 1046.86,
+  "b": 1050.15,
+  "n": "MOTION GRAPHIC: lista: te cuesta dinero",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 1058.3,
+  "b": 1060.09,
+  "n": "MOTION GRAPHIC: lista: te vacía la cartera",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 1060.3,
+  "b": 1064.41,
+  "n": "MOTION GRAPHIC: lista: te da dolores de cabeza",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 1066.98,
+  "b": 1069.11,
+  "n": "MOTION GRAPHIC: lista: no tienes horas para tus proyectos",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 1075.96,
+  "b": 1083.69,
+  "n": "IMAGEN derecha: gastar en restaurantes caros lo que no tienes",
+  "c": "6 tomas; marcada la última.",
+  "col": 1
+ },
+ {
+  "a": 1089.86,
+  "b": 1093.59,
+  "n": "IMAGEN derecha: mendigar un poquito de intimidad",
+  "c": "",
+  "col": 1
+ },
+ {
+  "a": 1098.08,
+  "b": 1100.47,
+  "n": "MOTION GRAPHIC: frase: eso es de perdedor arrastrado",
+  "c": "2 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 1135.5,
+  "b": 1139.19,
+  "n": "MOTION GRAPHIC: un ganador primero construye su imperio",
+  "c": "3 tomas; marcada la última.",
+  "col": 3
+ },
+ {
+  "a": 1158.14,
+  "b": 1162.15,
+  "n": "MOTION GRAPHIC: y solo en la cima busca una mujer de valor para compartirlo",
+  "c": "",
+  "col": 3
+ },
+ {
+  "a": 1175.88,
+  "b": 1177.79,
+  "n": "CIERRE: seguir @aminbusinesss",
+  "c": "3 tomas; marcada la última.",
+  "col": 3
+ }
+]

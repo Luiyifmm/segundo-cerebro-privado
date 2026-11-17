@@ -1,0 +1,4 @@
+(function(){app.enableQE();var s=app.project.activeSequence,o=[];if(s.name!="IMG_6887")return "activa "+s.name;
+var n=["Tinta","Tinte","Resplandor de VR"];for(var i=0;i<n.length;i++)o.push(n[i]+"="+(qe.project.getVideoEffectByName(n[i])?"si":"no"));
+var v25=s.videoTracks[24];for(var c=0;c<v25.clips.numItems;c++){var cl=v25.clips[c];if(cl.start.seconds<=22.73&&cl.end.seconds>22.73)o.push("V25 sesion: "+cl.start.seconds.toFixed(3)+"-"+cl.end.seconds.toFixed(3));if(cl.start.seconds<=25.96&&cl.end.seconds>25.96)o.push("V25 tiempo: "+cl.start.seconds.toFixed(3)+"-"+cl.end.seconds.toFixed(3));if(cl.start.seconds<=34.0&&cl.end.seconds>34.0)o.push("V25 libre: "+cl.start.seconds.toFixed(3)+"-"+cl.end.seconds.toFixed(3));if(cl.start.seconds<=35.69&&cl.end.seconds>35.69)o.push("V25 dinero: "+cl.start.seconds.toFixed(3)+"-"+cl.end.seconds.toFixed(3));}
+o.push("pistas V="+s.videoTracks.numTracks);return o.join(" | ");})();

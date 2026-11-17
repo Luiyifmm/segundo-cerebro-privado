@@ -1,0 +1,4 @@
+(function () { app.enableQE(); var seq = app.project.activeSequence, q = qe.project.getActiveSequence(), T = 254016000000, ts = [2.3, 2.8, 3.7, 9.0, 10.5, 11.0, 11.9], r = {};
+  for (var i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/natb-" + i); }
+  var c0 = seq.videoTracks[0].clips[0], l = []; for (var k = 0; k < c0.components.numItems; k++) if (c0.components[k].displayName === "Color de Lumetri") for (var j = 0; j < c0.components[k].properties.numItems; j++) { var p = c0.components[k].properties[j]; if (/nfo|itidez|harp|Enfo|Satur|Intens|Pel/i.test(p.displayName)) l.push(j + ":" + p.displayName); }
+  r.lum = l; r.fps = seq.timebase; return JSON.stringify(r); })();

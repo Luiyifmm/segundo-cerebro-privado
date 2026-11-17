@@ -1,0 +1,182 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjrnsx6smtzgb5f",
+ "titulo_salida": "Alessandro - colores de los alimentos",
+ "bruto": "bruto.mov",
+ "palabras": "palabras2.json",
+ "tramos": [
+  [
+   36.3,
+   38.55
+  ],
+  [
+   52.95,
+   55.0
+  ],
+  [
+   59.92,
+   61.75
+  ],
+  [
+   67.3,
+   69.45
+  ],
+  [
+   72.45,
+   72.7
+  ],
+  [
+   72.7,
+   74.95
+  ],
+  [
+   102.8,
+   105.9
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "usuario": "@alessmartin.fitness",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat"
+ },
+ "cara_y": 0.36,
+ "colores": {
+  "rojo": "#FF3B30",
+  "verde": "#34C759",
+  "naranja": "#FF9500",
+  "morado": "#C77DFF",
+  "amarillo": "#FFCC00"
+ },
+ "sub_y": 1480,
+ "transiciones": [
+  2.25,
+  4.3,
+  6.13,
+  8.53,
+  10.78
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 0.0,
+   "t1": 1.3,
+   "y": 120,
+   "linea1": "Come de todos los colores",
+   "linea2": "5 COLORES",
+   "col": "bueno"
+  },
+  {
+   "tipo": "color",
+   "t0": 0.7,
+   "t1": 2.2,
+   "nombre": "Rojo",
+   "col": "#FF3B30",
+   "texto": "Presión arterial saludable",
+   "emojis": [
+    "🍓",
+    "🍉",
+    "🍅",
+    "🍒",
+    "🌶️"
+   ],
+   "y": 70
+  },
+  {
+   "tipo": "color",
+   "t0": 2.25,
+   "t1": 4.25,
+   "nombre": "Verde",
+   "col": "#34C759",
+   "texto": "Colesterol en niveles buenos",
+   "emojis": [
+    "🍏",
+    "🥑",
+    "🥒",
+    "🥬",
+    "🥦",
+    "🫛"
+   ],
+   "y": 70
+  },
+  {
+   "tipo": "color",
+   "t0": 4.3,
+   "t1": 6.08,
+   "nombre": "Naranja",
+   "col": "#FF9500",
+   "texto": "Salud intestinal",
+   "emojis": [
+    "🥕",
+    "🍊",
+    "🍑",
+    "🎃",
+    "🍠"
+   ],
+   "y": 70
+  },
+  {
+   "tipo": "color",
+   "t0": 6.13,
+   "t1": 8.51,
+   "nombre": "Morado",
+   "col": "#AF52DE",
+   "texto": "Azúcar en sangre estable",
+   "emojis": [
+    "🍇",
+    "🫐",
+    "🍆"
+   ],
+   "y": 70
+  },
+  {
+   "tipo": "color",
+   "t0": 8.53,
+   "t1": 10.73,
+   "nombre": "Amarillo",
+   "col": "#FFCC00",
+   "texto": "Náuseas y dolor de estómago",
+   "emojis": [
+    "🍌",
+    "🍋",
+    "🫚",
+    "🥔",
+    "🍵"
+   ],
+   "y": 70
+  },
+  {
+   "tipo": "cta",
+   "t0": 12.82,
+   "t_clic": 12.98,
+   "y": 160,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "@0.00|El rojo ayuda a mantener",
+  "la *%rojo%presión arterial saludable.*",
+  "@2.25|El verde ayuda a niveles",
+  "*%verde%buenos de colesterol.*",
+  "@4.30|El naranja apoya",
+  "la *%naranja%salud intestinal.*",
+  "@6.13|El morado ayuda a mantener",
+  "niveles buenos de *%morado%azúcar en sangre.*",
+  "@8.53|El amarillo te ayuda con síntomas",
+  "como *%amarillo%náuseas o dolor estomacal.*",
+  "@10.78|Y si quieres saber más",
+  "sobre *pérdida de grasa y nutrición,*",
+  "*sígueme.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
+ "musica_desde": 0
+}

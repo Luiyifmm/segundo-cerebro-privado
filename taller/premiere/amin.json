@@ -1,0 +1,1313 @@
+[
+ {
+  "nombre": "Secuencia anidada 01",
+  "pistas": [
+   {
+    "uid": "cec18d23-542d-4e4a-b053-926fae3d97a7",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 0,
+      "fin": 2.333,
+      "entrada": 7.167,
+      "salida": 9.5
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 2.333,
+      "fin": 4.733,
+      "entrada": 9.9,
+      "salida": 12.3
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 4.733,
+      "fin": 7.6,
+      "entrada": 20.334,
+      "salida": 23.2
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 7.6,
+      "fin": 8.833,
+      "entrada": 27.734,
+      "salida": 28.967
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 8.833,
+      "fin": 11.533,
+      "entrada": 33.934,
+      "salida": 36.634
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 11.533,
+      "fin": 13.5,
+      "entrada": 40.367,
+      "salida": 42.334
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "nombre": "Secuencia anidada 02",
+  "pistas": [
+   {
+    "uid": "3a8eebc9-a13f-4082-81bf-a7de687875fe",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 0,
+      "fin": 1.967,
+      "entrada": 105.168,
+      "salida": 107.135
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 1.967,
+      "fin": 4.767,
+      "entrada": 118.568,
+      "salida": 121.368
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "nombre": "IMG_6118_Sub_01",
+  "pistas": [
+   {
+    "uid": "b1187db6-08a9-4754-9a75-321e7da9600e",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 13.5,
+      "fin": 15.467,
+      "entrada": 76.168,
+      "salida": 78.134
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 15.467,
+      "fin": 17.9,
+      "entrada": 82.334,
+      "salida": 84.768
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 17.9,
+      "fin": 18.867,
+      "entrada": 89.134,
+      "salida": 90.101
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 18.867,
+      "fin": 19.7,
+      "entrada": 90.501,
+      "salida": 91.334
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 24.467,
+      "fin": 26.067,
+      "entrada": 129.335,
+      "salida": 130.935
+     }
+    ]
+   },
+   {
+    "uid": "584f0f3c-3873-42ad-aea8-f408afafb2ed",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 0,
+      "fin": 2.333,
+      "entrada": 7.167,
+      "salida": 9.5
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 2.333,
+      "fin": 5.067,
+      "entrada": 9.9,
+      "salida": 12.633
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 7.6,
+      "fin": 9.3,
+      "entrada": 27.734,
+      "salida": 29.434
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 11.533,
+      "fin": 13.967,
+      "entrada": 40.367,
+      "salida": 42.8
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 15.434,
+      "fin": 18.534,
+      "entrada": 82.301,
+      "salida": 85.401
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 19.7,
+      "fin": 21.7,
+      "entrada": 105.168,
+      "salida": 107.168
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 24.467,
+      "fin": 26.067,
+      "entrada": 129.335,
+      "salida": 130.935
+     }
+    ]
+   },
+   {
+    "uid": "a167fd82-e3a2-4f07-9277-c30002b4e18f",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 4.733,
+      "fin": 7.933,
+      "entrada": 20.334,
+      "salida": 23.534
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 8.833,
+      "fin": 12.067,
+      "entrada": 33.934,
+      "salida": 37.167
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 13.5,
+      "fin": 15.967,
+      "entrada": 76.168,
+      "salida": 78.634
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 17.9,
+      "fin": 18.867,
+      "entrada": 89.134,
+      "salida": 90.101
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 18.867,
+      "fin": 19.767,
+      "entrada": 90.501,
+      "salida": 91.401
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 21.667,
+      "fin": 24.534,
+      "entrada": 118.568,
+      "salida": 121.435
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "nombre": "IMG_6118",
+  "pistas": [
+   {
+    "uid": "342c276a-73ba-410e-9dcc-7c1c27af78c7",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 0,
+      "fin": 2.333,
+      "entrada": 7.167,
+      "salida": 9.5
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 2.333,
+      "fin": 4.733,
+      "entrada": 9.9,
+      "salida": 12.3
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 4.733,
+      "fin": 7.6,
+      "entrada": 20.334,
+      "salida": 23.2
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 7.6,
+      "fin": 8.833,
+      "entrada": 27.734,
+      "salida": 28.967
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 8.833,
+      "fin": 11.533,
+      "entrada": 33.934,
+      "salida": 36.634
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 11.533,
+      "fin": 13.5,
+      "entrada": 40.367,
+      "salida": 42.334
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 13.5,
+      "fin": 15.467,
+      "entrada": 76.168,
+      "salida": 78.134
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 15.467,
+      "fin": 17.9,
+      "entrada": 82.334,
+      "salida": 84.768
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 17.9,
+      "fin": 18.867,
+      "entrada": 89.134,
+      "salida": 90.101
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 18.867,
+      "fin": 19.7,
+      "entrada": 90.501,
+      "salida": 91.334
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 19.7,
+      "fin": 21.667,
+      "entrada": 105.168,
+      "salida": 107.135
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 21.667,
+      "fin": 24.467,
+      "entrada": 118.568,
+      "salida": 121.368
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 24.467,
+      "fin": 26.067,
+      "entrada": 129.335,
+      "salida": 130.935
+     }
+    ]
+   },
+   {
+    "uid": "3cca90e1-ddb6-4f31-bc44-4bbbfd596b05",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Degradado a negro subtítulos.png",
+      "inicio": 0,
+      "fin": 13.5,
+      "entrada": 3599.973,
+      "salida": 3613.473
+     }
+    ]
+   },
+   {
+    "uid": "06c95bfd-6f2c-437c-bab7-d01e058bd164",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "arrow_175340_071026.png",
+      "inicio": 4.733,
+      "fin": 8.833,
+      "entrada": 3600.073,
+      "salida": 3604.173
+     },
+     {
+      "nombre": "arrow_180343_071026.png",
+      "inicio": 8.867,
+      "fin": 13.5,
+      "entrada": 3599.973,
+      "salida": 3604.606
+     },
+     {
+      "nombre": "From Klickpin.com- 96 Stunning Wedding Aisle Ideas-pin-id-308778118224910066.mp4",
+      "inicio": 15.4,
+      "fin": 19.667,
+      "entrada": 0,
+      "salida": 4.267
+     },
+     {
+      "nombre": "image.jpeg",
+      "inicio": 19.7,
+      "fin": 22.2,
+      "entrada": 3599.973,
+      "salida": 3602.473
+     },
+     {
+      "nombre": "arrow_212807_071026.png",
+      "inicio": 22.2,
+      "fin": 23.367,
+      "entrada": 3599.973,
+      "salida": 3601.14
+     },
+     {
+      "nombre": "arrow_212854_071026.png",
+      "inicio": 23.367,
+      "fin": 24.467,
+      "entrada": 3599.973,
+      "salida": 3601.073
+     }
+    ]
+   },
+   {
+    "uid": "8c8bcc63-6ff9-4ee9-92d1-cb7ab33cf4f0",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "arrow_174854_071026.png",
+      "inicio": 2.3,
+      "fin": 4.633,
+      "entrada": 3602.273,
+      "salida": 3604.606
+     },
+     {
+      "nombre": "arrow_180040_071026.png",
+      "inicio": 7.7,
+      "fin": 8.833,
+      "entrada": 3600.206,
+      "salida": 3601.34
+     },
+     {
+      "nombre": "arrow_180555_071026.png",
+      "inicio": 11.567,
+      "fin": 13.5,
+      "entrada": 3599.973,
+      "salida": 3601.906
+     },
+     {
+      "nombre": "Grabación de pantalla 2026-10-07 a la(s) 7.23.27 p.m..mov",
+      "inicio": 17.9,
+      "fin": 19.1,
+      "entrada": 9.6,
+      "salida": 10.8
+     },
+     {
+      "nombre": "Grabación de pantalla 2026-10-07 a la(s) 7.23.27 p.m..mov",
+      "inicio": 19.1,
+      "fin": 19.7,
+      "entrada": 10.8,
+      "salida": 11.4
+     },
+     {
+      "nombre": "Secuencia anidada 02",
+      "inicio": 19.7,
+      "fin": 24.467,
+      "entrada": 0,
+      "salida": 4.767
+     }
+    ]
+   },
+   {
+    "uid": "7a2b6f7a-7b0c-4575-91a0-5606254e6249",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "arrow_175718_071026.png",
+      "inicio": 0,
+      "fin": 4.633,
+      "entrada": 3602.24,
+      "salida": 3606.873
+     },
+     {
+      "nombre": "Secuencia anidada 02",
+      "inicio": 19.7,
+      "fin": 24.467,
+      "entrada": 0,
+      "salida": 4.767
+     }
+    ]
+   },
+   {
+    "uid": "9288a316-9c3c-469d-a404-e75ec7b06c99",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Secuencia anidada 01",
+      "inicio": 0,
+      "fin": 13.5,
+      "entrada": 0,
+      "salida": 13.5
+     },
+     {
+      "nombre": "OVERLAY 1.mp4",
+      "inicio": 15.4,
+      "fin": 19.7,
+      "entrada": 0,
+      "salida": 4.3
+     }
+    ]
+   },
+   {
+    "uid": "ae940f25-3c86-4c2a-b34a-e856ab3246f4",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Gráfico",
+      "inicio": 10.433,
+      "fin": 11.567,
+      "entrada": 3599.74,
+      "salida": 3600.873
+     },
+     {
+      "nombre": "super 8 frame.png",
+      "inicio": 15.4,
+      "fin": 19.7,
+      "entrada": 3599.973,
+      "salida": 3604.273
+     }
+    ]
+   },
+   {
+    "uid": "8c8c2b54-5a8c-423c-a44e-e4bdc024505a",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Gráfico",
+      "inicio": 0,
+      "fin": 0.733,
+      "entrada": 3599.973,
+      "salida": 3600.706
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 0.733,
+      "fin": 1.167,
+      "entrada": 3599.973,
+      "salida": 3600.406
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 1.167,
+      "fin": 1.7,
+      "entrada": 3599.973,
+      "salida": 3600.506
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 1.7,
+      "fin": 1.933,
+      "entrada": 3599.973,
+      "salida": 3600.206
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 1.933,
+      "fin": 2.3,
+      "entrada": 3599.973,
+      "salida": 3600.34
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 2.3,
+      "fin": 2.7,
+      "entrada": 3599.973,
+      "salida": 3600.373
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 2.7,
+      "fin": 3.067,
+      "entrada": 3599.973,
+      "salida": 3600.34
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 3.067,
+      "fin": 3.5,
+      "entrada": 3599.973,
+      "salida": 3600.406
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 3.5,
+      "fin": 3.933,
+      "entrada": 3599.973,
+      "salida": 3600.406
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 3.933,
+      "fin": 5.033,
+      "entrada": 3599.973,
+      "salida": 3601.073
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 5.033,
+      "fin": 5.667,
+      "entrada": 3599.973,
+      "salida": 3600.606
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 5.667,
+      "fin": 6.133,
+      "entrada": 3599.973,
+      "salida": 3600.44
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 6.133,
+      "fin": 6.467,
+      "entrada": 3599.973,
+      "salida": 3600.306
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 6.467,
+      "fin": 6.833,
+      "entrada": 3599.973,
+      "salida": 3600.34
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 6.833,
+      "fin": 7.333,
+      "entrada": 3599.973,
+      "salida": 3600.473
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 7.333,
+      "fin": 7.6,
+      "entrada": 3599.973,
+      "salida": 3600.24
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 7.6,
+      "fin": 8.033,
+      "entrada": 3600.24,
+      "salida": 3600.673
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 8.033,
+      "fin": 8.833,
+      "entrada": 3599.973,
+      "salida": 3600.773
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 8.833,
+      "fin": 9.333,
+      "entrada": 3600.773,
+      "salida": 3601.273
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 9.333,
+      "fin": 9.767,
+      "entrada": 3599.973,
+      "salida": 3600.406
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 9.767,
+      "fin": 9.967,
+      "entrada": 3599.973,
+      "salida": 3600.173
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 10.433,
+      "fin": 11.567,
+      "entrada": 3599.74,
+      "salida": 3600.873
+     },
+     {
+      "nombre": "?",
+      "inicio": 10.433,
+      "fin": 10.667,
+      "entrada": null,
+      "salida": null
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 11.567,
+      "fin": 12.233,
+      "entrada": 3599.973,
+      "salida": 3600.64
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 12.233,
+      "fin": 12.467,
+      "entrada": 3599.973,
+      "salida": 3600.206
+     },
+     {
+      "nombre": "Texto Premium Animado",
+      "inicio": 12.467,
+      "fin": 13.5,
+      "entrada": 0,
+      "salida": 1.033
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 13.5,
+      "fin": 14.867,
+      "entrada": 3599.54,
+      "salida": 3600.906
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 14.867,
+      "fin": 15.4,
+      "entrada": 3599.973,
+      "salida": 3600.506
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 16.3,
+      "fin": 17.9,
+      "entrada": 3599.873,
+      "salida": 3601.473
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 17.9,
+      "fin": 19.7,
+      "entrada": 3599.973,
+      "salida": 3601.773
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 19.7,
+      "fin": 20.367,
+      "entrada": 3599.64,
+      "salida": 3600.306
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 20.367,
+      "fin": 20.6,
+      "entrada": 3599.973,
+      "salida": 3600.206
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 20.6,
+      "fin": 20.734,
+      "entrada": 3599.973,
+      "salida": 3600.106
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 20.734,
+      "fin": 21.3,
+      "entrada": 3599.773,
+      "salida": 3600.34
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 21.3,
+      "fin": 21.734,
+      "entrada": 3600.34,
+      "salida": 3600.773
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 21.734,
+      "fin": 22.3,
+      "entrada": 3600.173,
+      "salida": 3600.74
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 22.3,
+      "fin": 22.567,
+      "entrada": 3599.973,
+      "salida": 3600.24
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 22.567,
+      "fin": 23.4,
+      "entrada": 3599.973,
+      "salida": 3600.806
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 23.4,
+      "fin": 23.934,
+      "entrada": 3599.973,
+      "salida": 3600.506
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 23.934,
+      "fin": 24.234,
+      "entrada": 3599.973,
+      "salida": 3600.273
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 24.234,
+      "fin": 24.467,
+      "entrada": 3600.273,
+      "salida": 3600.506
+     }
+    ]
+   },
+   {
+    "uid": "e5e338bb-e15a-476a-be26-0ea4287be3b5",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Gráfico",
+      "inicio": 4.2,
+      "fin": 5.067,
+      "entrada": 3599.606,
+      "salida": 3600.473
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 9.767,
+      "fin": 11.567,
+      "entrada": 3599.773,
+      "salida": 3601.573
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 13.9,
+      "fin": 14.867,
+      "entrada": 3599.606,
+      "salida": 3600.573
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 14.867,
+      "fin": 15.4,
+      "entrada": 3599.606,
+      "salida": 3600.14
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 16.667,
+      "fin": 17.9,
+      "entrada": 3599.373,
+      "salida": 3600.606
+     },
+     {
+      "nombre": "Animación Regular",
+      "inicio": 18,
+      "fin": 19.7,
+      "entrada": 3600.006,
+      "salida": 3601.706
+     },
+     {
+      "nombre": "Texto Premium Animado",
+      "inicio": 25.134,
+      "fin": 26.067,
+      "entrada": 0,
+      "salida": 0.933
+     }
+    ]
+   },
+   {
+    "uid": "6f899b55-fee7-4189-b90c-2f9a38c4c517",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Animación Regular",
+      "inicio": 16.834,
+      "fin": 17.9,
+      "entrada": 3600.006,
+      "salida": 3601.073
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 18.4,
+      "fin": 19.7,
+      "entrada": 3599.973,
+      "salida": 3601.273
+     },
+     {
+      "nombre": "Texto Premium Animado",
+      "inicio": 24.467,
+      "fin": 26.067,
+      "entrada": 0,
+      "salida": 1.6
+     }
+    ]
+   },
+   {
+    "uid": "965ca662-7824-422f-888c-058a50284c3b",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Capa de ajuste",
+      "inicio": 0,
+      "fin": 5.067,
+      "entrada": 3599.94,
+      "salida": 3605.006
+     },
+     {
+      "nombre": "Capa de ajuste",
+      "inicio": 6.333,
+      "fin": 8.033,
+      "entrada": 3599.94,
+      "salida": 3601.64
+     },
+     {
+      "nombre": "Capa de ajuste",
+      "inicio": 9.167,
+      "fin": 10.867,
+      "entrada": 3599.94,
+      "salida": 3601.64
+     },
+     {
+      "nombre": "Animación Regular",
+      "inicio": 15.4,
+      "fin": 17.9,
+      "entrada": 3600.006,
+      "salida": 3602.506
+     },
+     {
+      "nombre": "Animación Regular",
+      "inicio": 18.5,
+      "fin": 19.7,
+      "entrada": 3600.006,
+      "salida": 3601.206
+     },
+     {
+      "nombre": "Gráfico",
+      "inicio": 19.7,
+      "fin": 24.467,
+      "entrada": 3599.973,
+      "salida": 3604.74
+     }
+    ]
+   },
+   {
+    "uid": "c40a5e53-d3c2-4000-ad9c-7d310c5007d2",
+    "tipo": "VideoClipTrack",
+    "clips": [
+     {
+      "nombre": "Capa de ajuste",
+      "inicio": 13.5,
+      "fin": 17.9,
+      "entrada": 3599.94,
+      "salida": 3604.34
+     },
+     {
+      "nombre": "Capa de ajuste",
+      "inicio": 24.267,
+      "fin": 26.1,
+      "entrada": 3599.94,
+      "salida": 3601.773
+     }
+    ]
+   },
+   {
+    "uid": "d755b7dc-e681-4443-9a4e-6ccb22ec97d3",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 0,
+      "fin": 2.333,
+      "entrada": 7.167,
+      "salida": 9.5
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 2.333,
+      "fin": 5.067,
+      "entrada": 9.9,
+      "salida": 12.633
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 7.6,
+      "fin": 9.3,
+      "entrada": 27.734,
+      "salida": 29.434
+     },
+     {
+      "nombre": "Lighter Double Click 02.wav",
+      "inicio": 9.933,
+      "fin": 10.2,
+      "entrada": 0,
+      "salida": 0.267
+     },
+     {
+      "nombre": "Lighter Double Click 02.wav",
+      "inicio": 10.367,
+      "fin": 10.633,
+      "entrada": 0,
+      "salida": 0.267
+     },
+     {
+      "nombre": "Lighter Double Click 02.wav",
+      "inicio": 10.733,
+      "fin": 11,
+      "entrada": 0,
+      "salida": 0.267
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 11.533,
+      "fin": 13.967,
+      "entrada": 40.367,
+      "salida": 42.8
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 14.067,
+      "fin": 14.267,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 14.967,
+      "fin": 15.167,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 15.434,
+      "fin": 18.534,
+      "entrada": 82.301,
+      "salida": 85.401
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 18.534,
+      "fin": 18.734,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 19.7,
+      "fin": 21.7,
+      "entrada": 105.168,
+      "salida": 107.168
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 24.467,
+      "fin": 26.067,
+      "entrada": 129.335,
+      "salida": 130.935
+     }
+    ]
+   },
+   {
+    "uid": "800df0cd-90b5-4474-8759-0138b4c46d87",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 2.3,
+      "fin": 2.5,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Cam shutter.wav",
+      "inicio": 4.267,
+      "fin": 5.133,
+      "entrada": 0,
+      "salida": 0.867
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 6.333,
+      "fin": 7.2,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 7.6,
+      "fin": 7.8,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 9.1,
+      "fin": 9.967,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 11.367,
+      "fin": 11.567,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 12.233,
+      "fin": 13.1,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "Woosh Effect 3.wav",
+      "inicio": 13.467,
+      "fin": 15.667,
+      "entrada": 0.9,
+      "salida": 3.1
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 15.667,
+      "fin": 16.534,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 16.9,
+      "fin": 17.1,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 17.9,
+      "fin": 18.1,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 18.1,
+      "fin": 18.967,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 24.467,
+      "fin": 24.667,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 25.167,
+      "fin": 25.367,
+      "entrada": 0,
+      "salida": 0.2
+     }
+    ]
+   },
+   {
+    "uid": "a6da9b92-d845-4519-ace8-5225205cb55e",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "Woosh Effect 3.wav",
+      "inicio": 0,
+      "fin": 2.2,
+      "entrada": 0.9,
+      "salida": 3.1
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 4.733,
+      "fin": 7.933,
+      "entrada": 20.334,
+      "salida": 23.534
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 8.833,
+      "fin": 12.067,
+      "entrada": 33.934,
+      "salida": 37.167
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 13.5,
+      "fin": 15.967,
+      "entrada": 76.168,
+      "salida": 78.634
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 16.434,
+      "fin": 16.634,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 16.9,
+      "fin": 17.767,
+      "entrada": 0.733,
+      "salida": 1.6
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 17.9,
+      "fin": 18.867,
+      "entrada": 89.134,
+      "salida": 90.101
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 18.867,
+      "fin": 19.767,
+      "entrada": 90.501,
+      "salida": 91.401
+     },
+     {
+      "nombre": "IMG_6118.MOV",
+      "inicio": 21.667,
+      "fin": 24.534,
+      "entrada": 118.568,
+      "salida": 121.435
+     }
+    ]
+   },
+   {
+    "uid": "52aa4d2a-f399-4675-b312-0a1a701bb1d5",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "Sharp Riser.wav",
+      "inicio": 0,
+      "fin": 1.133,
+      "entrada": 1.167,
+      "salida": 2.3
+     },
+     {
+      "nombre": "Camera Shutter Click 01.wav",
+      "inicio": 4.733,
+      "fin": 4.933,
+      "entrada": 0,
+      "salida": 0.2
+     },
+     {
+      "nombre": "Woosh Effect 2.wav",
+      "inicio": 18.567,
+      "fin": 19.434,
+      "entrada": 0.733,
+      "salida": 1.6
+     }
+    ]
+   },
+   {
+    "uid": "1157fbaf-1cf9-4a86-a29a-2c6bb1e2cac1",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "BASS DROP (10).wav",
+      "inicio": 6.467,
+      "fin": 8.833,
+      "entrada": 0,
+      "salida": 2.367
+     },
+     {
+      "nombre": "?",
+      "inicio": 6.467,
+      "fin": 8.833,
+      "entrada": null,
+      "salida": null
+     },
+     {
+      "nombre": "Sharp Riser.wav",
+      "inicio": 17.3,
+      "fin": 19.6,
+      "entrada": 0,
+      "salida": 2.3
+     }
+    ]
+   },
+   {
+    "uid": "c618d7c4-5afc-4e74-9e70-16b192273736",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "OVERLAY 1.mp4",
+      "inicio": 15.4,
+      "fin": 19.7,
+      "entrada": 0,
+      "salida": 4.3
+     }
+    ]
+   },
+   {
+    "uid": "b98667d6-815b-48f8-b7ce-ed7ba5d617cd",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "BOOM IMPACT (23).wav",
+      "inicio": 18.967,
+      "fin": 26.067,
+      "entrada": 0,
+      "salida": 7.1
+     },
+     {
+      "nombre": "BOOM IMPACT (23).wav",
+      "inicio": 26.067,
+      "fin": 26.1,
+      "entrada": 7.133,
+      "salida": 7.167
+     }
+    ]
+   },
+   {
+    "uid": "4add8ddc-b4ad-4b06-8566-166961378956",
+    "tipo": "AudioClipTrack",
+    "clips": [
+     {
+      "nombre": "Caleb Arredondo - Feeling Blue.mp3",
+      "inicio": 0,
+      "fin": 26.067,
+      "entrada": 0,
+      "salida": 26.067
+     }
+    ]
+   }
+  ]
+ }
+]

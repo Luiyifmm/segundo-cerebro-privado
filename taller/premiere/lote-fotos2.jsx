@@ -1,0 +1,3 @@
+(function () { app.enableQE(); var L = __L__, T = 254016000000, S = "/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/", n = 0, x, j; app.setEnableProxies(1);
+  for (x = 0; x < L.length; x++) for (j = 0; j < app.project.sequences.numSequences; j++) { var s = app.project.sequences[j]; if (s.name.indexOf(L[x][0]) !== 0) continue; app.project.openSequence(s.sequenceID); var q = qe.project.getActiveSequence(); for (var i = 0; i < L[x][1].length; i++) { s.setPlayerPosition(String(Math.round(L[x][1][i] * T))); q.exportFramePNG(q.CTI.timecode, S + "lf-" + (n < 10 ? "0" : "") + n); n++; } s.setPlayerPosition("0"); }
+  return "fotos " + n + " proxies " + app.getEnableProxies(); })();

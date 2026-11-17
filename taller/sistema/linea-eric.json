@@ -1,0 +1,544 @@
+[
+ {
+  "id": "ERIC_1011_01",
+  "titulo": "Si comes menos (si te mueves más)",
+  "fuentes": [
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031930_C556.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031931_C557.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031931_C558.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031932_C559.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031933_C560.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032017_C593.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032017_C594.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032018_C595.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032019_C596.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032020_C597.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032024_C598.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032025_C601.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032029_C603.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /IMG_1087.MOV"
+  ],
+  "dur": 240.189,
+  "piezas": [
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031930_C556.mov",
+    "a": 0,
+    "b": 6.458,
+    "t": 0.0
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031931_C557.mov",
+    "a": 0,
+    "b": 29.625,
+    "t": 6.458
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031931_C558.mov",
+    "a": 0,
+    "b": 40.5,
+    "t": 36.083
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031932_C559.mov",
+    "a": 0,
+    "b": 10.833,
+    "t": 76.583
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10031933_C560.mov",
+    "a": 0,
+    "b": 8.75,
+    "t": 87.416
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032017_C593.mov",
+    "a": 0,
+    "b": 8.792,
+    "t": 96.166
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032017_C594.mov",
+    "a": 0,
+    "b": 4.583,
+    "t": 104.958
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032018_C595.mov",
+    "a": 0,
+    "b": 11.417,
+    "t": 109.541
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032019_C596.mov",
+    "a": 0,
+    "b": 15.625,
+    "t": 120.958
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032020_C597.mov",
+    "a": 0,
+    "b": 23.083,
+    "t": 136.583
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032024_C598.mov",
+    "a": 0,
+    "b": 11.083,
+    "t": 159.666
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032025_C601.mov",
+    "a": 0,
+    "b": 29.708,
+    "t": 170.749
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /A001_10032029_C603.mov",
+    "a": 0,
+    "b": 19.0,
+    "t": 200.457
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/si te mueves mas /IMG_1087.MOV",
+    "a": 0,
+    "b": 20.732,
+    "t": 219.457
+   }
+  ],
+  "marcadores": [
+   {
+    "t": 0.0,
+    "n": "TOMA: A001_10031930_C556.mov",
+    "c": "6.5 s",
+    "col": 4
+   },
+   {
+    "t": 6.458,
+    "n": "TOMA: A001_10031931_C557.mov",
+    "c": "29.6 s",
+    "col": 4
+   },
+   {
+    "t": 36.083,
+    "n": "TOMA: A001_10031931_C558.mov",
+    "c": "40.5 s",
+    "col": 4
+   },
+   {
+    "t": 76.583,
+    "n": "TOMA: A001_10031932_C559.mov",
+    "c": "10.8 s",
+    "col": 4
+   },
+   {
+    "t": 87.416,
+    "n": "TOMA: A001_10031933_C560.mov",
+    "c": "8.8 s",
+    "col": 4
+   },
+   {
+    "t": 96.166,
+    "n": "TOMA: A001_10032017_C593.mov",
+    "c": "8.8 s",
+    "col": 4
+   },
+   {
+    "t": 104.958,
+    "n": "TOMA: A001_10032017_C594.mov",
+    "c": "4.6 s",
+    "col": 4
+   },
+   {
+    "t": 109.541,
+    "n": "TOMA: A001_10032018_C595.mov",
+    "c": "11.4 s",
+    "col": 4
+   },
+   {
+    "t": 120.958,
+    "n": "TOMA: A001_10032019_C596.mov",
+    "c": "15.6 s",
+    "col": 4
+   },
+   {
+    "t": 136.583,
+    "n": "TOMA: A001_10032020_C597.mov",
+    "c": "23.1 s",
+    "col": 4
+   },
+   {
+    "t": 159.666,
+    "n": "TOMA: A001_10032024_C598.mov",
+    "c": "11.1 s",
+    "col": 4
+   },
+   {
+    "t": 170.749,
+    "n": "TOMA: A001_10032025_C601.mov",
+    "c": "29.7 s",
+    "col": 4
+   },
+   {
+    "t": 200.457,
+    "n": "TOMA: A001_10032029_C603.mov",
+    "c": "19.0 s",
+    "col": 4
+   },
+   {
+    "t": 219.457,
+    "n": "TOMA: IMG_1087.MOV",
+    "c": "20.7 s",
+    "col": 4
+   }
+  ],
+  "resumen": "Bruto de 240 s; quedan 240 s (tomas enteras, sin recortar: no llevan voz)."
+ },
+ {
+  "id": "ERIC_1011_02",
+  "titulo": "Perder grasa sin perder músculo",
+  "fuentes": [
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271318_C410.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C411.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C412.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C413.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271320_C414.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271320_C415.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C416.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C417.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C418.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271328_C422.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271330_C423.mov"
+  ],
+  "dur": 231.171,
+  "piezas": [
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271318_C410.mov",
+    "a": 0,
+    "b": 12.167,
+    "t": 0.0
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C411.mov",
+    "a": 0,
+    "b": 9.667,
+    "t": 12.167
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C412.mov",
+    "a": 0,
+    "b": 4.875,
+    "t": 21.834
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271319_C413.mov",
+    "a": 0,
+    "b": 5.75,
+    "t": 26.709
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271320_C414.mov",
+    "a": 0,
+    "b": 9.792,
+    "t": 32.459
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271320_C415.mov",
+    "a": 0,
+    "b": 16.458,
+    "t": 42.251
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C416.mov",
+    "a": 0,
+    "b": 3.958,
+    "t": 58.709
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C417.mov",
+    "a": 0,
+    "b": 4.667,
+    "t": 62.667
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271321_C418.mov",
+    "a": 0,
+    "b": 8.333,
+    "t": 67.334
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271328_C422.mov",
+    "a": 0,
+    "b": 79.585,
+    "t": 75.667
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/gana o pierdes musculo /A001_09271330_C423.mov",
+    "a": 0,
+    "b": 75.919,
+    "t": 155.252
+   }
+  ],
+  "marcadores": [
+   {
+    "t": 0.0,
+    "n": "TOMA: A001_09271318_C410.mov",
+    "c": "12.2 s",
+    "col": 4
+   },
+   {
+    "t": 12.167,
+    "n": "TOMA: A001_09271319_C411.mov",
+    "c": "9.7 s",
+    "col": 4
+   },
+   {
+    "t": 21.834,
+    "n": "TOMA: A001_09271319_C412.mov",
+    "c": "4.9 s",
+    "col": 4
+   },
+   {
+    "t": 26.709,
+    "n": "TOMA: A001_09271319_C413.mov",
+    "c": "5.8 s",
+    "col": 4
+   },
+   {
+    "t": 32.459,
+    "n": "TOMA: A001_09271320_C414.mov",
+    "c": "9.8 s",
+    "col": 4
+   },
+   {
+    "t": 42.251,
+    "n": "TOMA: A001_09271320_C415.mov",
+    "c": "16.5 s",
+    "col": 4
+   },
+   {
+    "t": 58.709,
+    "n": "TOMA: A001_09271321_C416.mov",
+    "c": "4.0 s",
+    "col": 4
+   },
+   {
+    "t": 62.667,
+    "n": "TOMA: A001_09271321_C417.mov",
+    "c": "4.7 s",
+    "col": 4
+   },
+   {
+    "t": 67.334,
+    "n": "TOMA: A001_09271321_C418.mov",
+    "c": "8.3 s",
+    "col": 4
+   },
+   {
+    "t": 75.667,
+    "n": "TOMA: A001_09271328_C422.mov",
+    "c": "79.6 s",
+    "col": 4
+   },
+   {
+    "t": 155.252,
+    "n": "TOMA: A001_09271330_C423.mov",
+    "c": "75.9 s",
+    "col": 4
+   }
+  ],
+  "resumen": "Bruto de 231 s; quedan 231 s (tomas enteras, sin recortar: no llevan voz)."
+ },
+ {
+  "id": "ERIC_1011_03",
+  "titulo": "KFC en casa (receta)",
+  "fuentes": [
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1134.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1135.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1136.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1137.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1138.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1139.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1140.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1141.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1142.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1143.MOV",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1144.MOV"
+  ],
+  "dur": 1802.771,
+  "piezas": [
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1134.MOV",
+    "a": 0,
+    "b": 122.192,
+    "t": 0.0
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1135.MOV",
+    "a": 0,
+    "b": 39.265,
+    "t": 122.192
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1136.MOV",
+    "a": 0,
+    "b": 91.727,
+    "t": 161.457
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1137.MOV",
+    "a": 0,
+    "b": 876.345,
+    "t": 253.184
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1138.MOV",
+    "a": 0,
+    "b": 48.595,
+    "t": 1129.529
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1139.MOV",
+    "a": 0,
+    "b": 4.332,
+    "t": 1178.124
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1140.MOV",
+    "a": 0,
+    "b": 10.932,
+    "t": 1182.456
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1141.MOV",
+    "a": 0,
+    "b": 342.813,
+    "t": 1193.388
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1142.MOV",
+    "a": 0,
+    "b": 245.085,
+    "t": 1536.201
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1143.MOV",
+    "a": 0,
+    "b": 3.07,
+    "t": 1781.286
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/KFC/IMG_1144.MOV",
+    "a": 0,
+    "b": 18.415,
+    "t": 1784.356
+   }
+  ],
+  "marcadores": [
+   {
+    "t": 0.0,
+    "n": "TOMA: IMG_1134.MOV",
+    "c": "122.2 s",
+    "col": 4
+   },
+   {
+    "t": 122.192,
+    "n": "TOMA: IMG_1135.MOV",
+    "c": "39.3 s",
+    "col": 4
+   },
+   {
+    "t": 161.457,
+    "n": "TOMA: IMG_1136.MOV",
+    "c": "91.7 s",
+    "col": 4
+   },
+   {
+    "t": 253.184,
+    "n": "TOMA: IMG_1137.MOV",
+    "c": "876.3 s",
+    "col": 4
+   },
+   {
+    "t": 1129.529,
+    "n": "TOMA: IMG_1138.MOV",
+    "c": "48.6 s",
+    "col": 4
+   },
+   {
+    "t": 1178.124,
+    "n": "TOMA: IMG_1139.MOV",
+    "c": "4.3 s",
+    "col": 4
+   },
+   {
+    "t": 1182.456,
+    "n": "TOMA: IMG_1140.MOV",
+    "c": "10.9 s",
+    "col": 4
+   },
+   {
+    "t": 1193.388,
+    "n": "TOMA: IMG_1141.MOV",
+    "c": "342.8 s",
+    "col": 4
+   },
+   {
+    "t": 1536.201,
+    "n": "TOMA: IMG_1142.MOV",
+    "c": "245.1 s",
+    "col": 4
+   },
+   {
+    "t": 1781.286,
+    "n": "TOMA: IMG_1143.MOV",
+    "c": "3.1 s",
+    "col": 4
+   },
+   {
+    "t": 1784.356,
+    "n": "TOMA: IMG_1144.MOV",
+    "c": "18.4 s",
+    "col": 4
+   }
+  ],
+  "resumen": "Bruto de 1803 s; quedan 1803 s (tomas enteras, sin recortar: no llevan voz)."
+ },
+ {
+  "id": "ERIC_1011_04",
+  "titulo": "Pequeños detalles que te harán perder grasa",
+  "fuentes": [
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/pequeños detalles que te haran perder grasas /A001_10011259_C482.mov",
+   "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/pequeños detalles que te haran perder grasas /A001_10011307_C484.mov"
+  ],
+  "dur": 697.548,
+  "piezas": [
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/pequeños detalles que te haran perder grasas /A001_10011259_C482.mov",
+    "a": 0,
+    "b": 111.202,
+    "t": 0.0
+   },
+   {
+    "f": "/Users/luiyi/EDICION/1 CLIENTES/ERIC/BRUTOS/PENDIENTES/pequeños detalles que te haran perder grasas /A001_10011307_C484.mov",
+    "a": 0,
+    "b": 586.346,
+    "t": 111.202
+   }
+  ],
+  "marcadores": [
+   {
+    "t": 0.0,
+    "n": "TOMA: A001_10011259_C482.mov",
+    "c": "111.2 s",
+    "col": 4
+   },
+   {
+    "t": 111.202,
+    "n": "TOMA: A001_10011307_C484.mov",
+    "c": "586.3 s",
+    "col": 4
+   }
+  ],
+  "resumen": "Bruto de 698 s; quedan 698 s (tomas enteras, sin recortar: no llevan voz)."
+ }
+]

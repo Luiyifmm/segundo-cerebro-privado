@@ -1,0 +1,241 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.2469999999999999,
+   "fin": 1.7880000000000003,
+   "texto": "Llevo jugando al fútbol toda mi vida.",
+   "especial": "vida",
+   "dur": 1.8810000000000002
+  },
+  {
+   "n": 2,
+   "ini": 2.128,
+   "fin": 3.708,
+   "texto": "Y esto no falla nunca en mi mochila.",
+   "especial": "mochila",
+   "dur": 1.8339999999999996
+  },
+  {
+   "n": 3,
+   "ini": 3.9619999999999997,
+   "fin": 5.090000000000002,
+   "texto": "Primero, un plátano.",
+   "especial": "plátano",
+   "dur": 1.4780000000000015
+  },
+  {
+   "n": 4,
+   "ini": 5.440000000000001,
+   "fin": 6.466000000000001,
+   "texto": "Me lo como una hora antes.",
+   "especial": "hora antes",
+   "dur": 1.221
+  },
+  {
+   "n": 5,
+   "ini": 6.661000000000001,
+   "fin": 7.461000000000002,
+   "texto": "Energía rápida",
+   "especial": "rápida",
+   "dur": 1.6400000000000006
+  },
+  {
+   "n": 6,
+   "ini": 8.301000000000002,
+   "fin": 8.782,
+   "texto": "no me pesa.",
+   "especial": "pesa",
+   "dur": 0.7579999999999991
+  },
+  {
+   "n": 7,
+   "ini": 9.059000000000001,
+   "fin": 10.853000000000005,
+   "texto": "Segundo, dátiles para descanso",
+   "especial": "descanso",
+   "dur": 2.294000000000004
+  },
+  {
+   "n": 8,
+   "ini": 11.353000000000005,
+   "fin": 12.833000000000002,
+   "texto": "o justo antes de salir partido.",
+   "especial": "partido",
+   "dur": 1.713999999999995
+  },
+  {
+   "n": 9,
+   "ini": 13.067,
+   "fin": 13.447,
+   "texto": "Tercero,",
+   "especial": "Tercero",
+   "dur": 1.4009999999999998
+  },
+  {
+   "n": 10,
+   "ini": 14.468,
+   "fin": 16.296,
+   "texto": "agua con aminoacidos esenciales.",
+   "especial": "esenciales",
+   "dur": 2.408999999999999
+  },
+  {
+   "n": 11,
+   "ini": 16.877,
+   "fin": 18.597,
+   "texto": "Porque en Marbella, sea la estación que sea,",
+   "especial": "sea",
+   "dur": 1.8539999999999992
+  },
+  {
+   "n": 12,
+   "ini": 18.730999999999998,
+   "fin": 19.650000000000002,
+   "texto": "sudamos parados.",
+   "especial": "parados",
+   "dur": 1.3740000000000094
+  },
+  {
+   "n": 13,
+   "ini": 20.105000000000008,
+   "fin": 20.465000000000007,
+   "texto": "Y ahora,",
+   "especial": "ahora",
+   "dur": 0.840999999999994
+  },
+  {
+   "n": 14,
+   "ini": 20.946,
+   "fin": 21.586000000000002,
+   "texto": "lo que no llevo.",
+   "especial": "llevo",
+   "dur": 1.0360000000000085
+  },
+  {
+   "n": 15,
+   "ini": 21.98200000000001,
+   "fin": 22.22300000000001,
+   "texto": "Nada",
+   "especial": "Nada",
+   "dur": 0.7419999999999973
+  },
+  {
+   "n": 16,
+   "ini": 22.724000000000007,
+   "fin": 23.685000000000006,
+   "texto": "que haya probado antes,",
+   "especial": "probado antes",
+   "dur": 1.1950000000000003
+  },
+  {
+   "n": 17,
+   "ini": 23.919000000000008,
+   "fin": 24.740000000000006,
+   "texto": "el día partido",
+   "especial": "partido",
+   "dur": 1.4420000000000002
+  },
+  {
+   "n": 18,
+   "ini": 25.361000000000008,
+   "fin": 26.523000000000007,
+   "texto": "no es día para experimentos.",
+   "especial": "experimentos",
+   "dur": 1.666000000000004
+  },
+  {
+   "n": 19,
+   "ini": 27.02700000000001,
+   "fin": 28.33600000000001,
+   "texto": "Pero ojo, lo que te digo",
+   "especial": "digo",
+   "dur": 1.7489999999999952
+  },
+  {
+   "n": 20,
+   "ini": 28.776000000000007,
+   "fin": 29.518000000000004,
+   "texto": "es solo la guinda,",
+   "especial": "guinda",
+   "dur": 0.8919999999999959
+  },
+  {
+   "n": 21,
+   "ini": 29.668000000000003,
+   "fin": 31.21100000000001,
+   "texto": "si no comemos bien durante la semana,",
+   "especial": "semana",
+   "dur": 2.0630000000000024
+  },
+  {
+   "n": 22,
+   "ini": 31.731000000000005,
+   "fin": 33.07300000000001,
+   "texto": "ni la hora antes del partido,",
+   "especial": "partido",
+   "dur": 1.7830000000000048
+  },
+  {
+   "n": 23,
+   "ini": 33.51400000000001,
+   "fin": 34.536,
+   "texto": "el plátano no te salva.",
+   "especial": "salva",
+   "dur": 1.0219999999999914
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Marca · Miguel Santos",
+   "c": [
+    "#34C759",
+    "#FF3B30",
+    "#E6F4EA",
+    "#0D1610"
+   ]
+  },
+  {
+   "nombre": "Azul · del plano",
+   "c": [
+    "#74A7F1",
+    "#274E86",
+    "#E6ECF4",
+    "#0D1116"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F18874",
+    "#863727",
+    "#F4E8E6",
+    "#160F0D"
+   ]
+  },
+  {
+   "nombre": "Dorado · del plano",
+   "c": [
+    "#F1DD74",
+    "#867727",
+    "#F4F2E6",
+    "#16150D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

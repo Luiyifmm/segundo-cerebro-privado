@@ -1,0 +1,31 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01 [x] Vamos con el siguiente.   ← quitada a mano
+02 [x] My jeans.   ← quitada a mano
+03     Esta es la mujer del pobre y esta es la mujer del rico.
+04 [x] Pero a tu momento espérate Javi que va a pasar una noche.   ← quitada a mano
+05 [x] No me preocupes, está grabando por mí.   ← toma repetida
+06 [x] ¿El qué?   ← quitada a mano
+07 [x] Muy bueno.   ← ruido (palabra repetida)
+08 [x] Este es el fin de semana del pobre.   ← toma repetida
+09 [x] No me preocupes, está grabando por mí.   ← quitada a mano
+10 [x] ¿El qué?   ← quitada a mano
+11 [x] Muy bueno.   ← ruido (palabra repetida)
+12 [x] Muy bueno.   ← ruido (palabra repetida)
+13 [x] Muy bueno.   ← ruido (palabra repetida)
+14     Este es el fin de semana del pop Este es el fin de semana del pobre y este es el fin de semana del rico.
+15     Este es el interior de la casa del pobre y este es el interior de la casa del rico.
+16     Esto es lo que bebe el pobre y esto es lo que bebe el rico.
+17     Esto es lo que escucha el pobre y esto es lo que escucha rico.
+18 [x] de la.   ← quitada a mano
+19 [x] Así es como se viste los pobres y así es como se viste los ricos   ← toma repetida
+20 [x] esperate esperate esperate que no lo he dicho mirando la cámara y así es como se viste los pobres y así es como se viste los ricos   ← quitada a mano
+21 [x] no pasa pasa no hay problema no no problema no problema   ← quitada a mano
+22     así es como se viste los pobres y así es como se viste los ricos.
+23 [x] ¿Qué más queda?   ← quitada a mano
+24 [x] El éxito no depende de lo que tengas, sino de tu mentalidad.   ← toma repetida
+25     El éxito no depende de lo que tengas, sino de tu mentalidad.
+26 [x] de la vida.   ← quitada a mano
+27 [x] ¿Comenta rico y qué?   ← toma repetida
+28 [x] Comenta habilidad y te voy a enseñar.   ← toma repetida
+29     Comenta rico y te voy a enseñar una habilidad con la que escapar del sistema y vivir la vida que realmente quieres.

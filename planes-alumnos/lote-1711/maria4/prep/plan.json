@@ -1,0 +1,392 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 3.203,
+   "fin": 3.743,
+   "texto": "Dependienta,",
+   "especial": "Dependienta",
+   "dur": 1.4200000000000004
+  },
+  {
+   "n": 2,
+   "ini": 4.623,
+   "fin": 5.823,
+   "texto": "mes por la bailando.",
+   "especial": "bailando",
+   "dur": 3.8809999999999993
+  },
+  {
+   "n": 3,
+   "ini": 8.504,
+   "fin": 9.684,
+   "texto": "cómo bajaste kilos",
+   "especial": "bajaste kilos",
+   "dur": 1.58
+  },
+  {
+   "n": 4,
+   "ini": 10.084,
+   "fin": 10.285,
+   "texto": "vida?",
+   "especial": "vida",
+   "dur": 1.0410000000000004
+  },
+  {
+   "n": 5,
+   "ini": 11.125,
+   "fin": 11.825,
+   "texto": "Pues siendo mamá,",
+   "especial": "siendo mamá",
+   "dur": 1.0999999999999996
+  },
+  {
+   "n": 6,
+   "ini": 12.225,
+   "fin": 13.345,
+   "texto": "dejando de matarme entrenar.",
+   "especial": "entrenar",
+   "dur": 3.3810000000000002
+  },
+  {
+   "n": 7,
+   "ini": 15.606,
+   "fin": 16.046,
+   "texto": "de entrenar?",
+   "especial": "entrenar",
+   "dur": 1.200000000000001
+  },
+  {
+   "n": 8,
+   "ini": 16.806,
+   "fin": 16.966,
+   "texto": "No,",
+   "especial": "No",
+   "dur": 0.7210000000000001
+  },
+  {
+   "n": 9,
+   "ini": 17.527,
+   "fin": 19.087,
+   "texto": "dejando de matarme que no es lo mismo.",
+   "especial": "mismo",
+   "dur": 3.401
+  },
+  {
+   "n": 10,
+   "ini": 20.928,
+   "fin": 21.268,
+   "texto": "¿Entonces",
+   "especial": "Entonces",
+   "dur": 1.8599999999999994
+  },
+  {
+   "n": 11,
+   "ini": 22.788,
+   "fin": 23.248,
+   "texto": "Muy simple,",
+   "especial": "simple",
+   "dur": 0.879999999999999
+  },
+  {
+   "n": 12,
+   "ini": 23.668,
+   "fin": 25.049,
+   "texto": "caminar 40 minutos al día,",
+   "especial": "día",
+   "dur": 1.7609999999999992
+  },
+  {
+   "n": 13,
+   "ini": 25.429,
+   "fin": 28.43,
+   "texto": "comer proteína verdura, cenar ligero apagar el móvil a",
+   "especial": "móvil",
+   "dur": 3.021000000000001
+  },
+  {
+   "n": 14,
+   "ini": 28.45,
+   "fin": 29.31,
+   "texto": "las nueve para dormir.",
+   "especial": "dormir",
+   "dur": 2.815999999999999
+  },
+  {
+   "n": 15,
+   "ini": 31.266,
+   "fin": 31.686,
+   "texto": "¿Y ya?",
+   "especial": "ya",
+   "dur": 1.7010000000000005
+  },
+  {
+   "n": 16,
+   "ini": 32.967,
+   "fin": 33.827,
+   "texto": "Y en un mes,",
+   "especial": "mes",
+   "dur": 0.8800000000000026
+  },
+  {
+   "n": 17,
+   "ini": 33.847,
+   "fin": 34.548,
+   "texto": "seis kilómetros.",
+   "especial": "kilómetros",
+   "dur": 2.961999999999996
+  },
+  {
+   "n": 18,
+   "ini": 36.809,
+   "fin": 37.009,
+   "texto": "ahora?",
+   "especial": "ahora",
+   "dur": 1.4010000000000034
+  },
+  {
+   "n": 19,
+   "ini": 38.21,
+   "fin": 38.51,
+   "texto": "ahora?",
+   "especial": "ahora",
+   "dur": 0.8200000000000003
+  },
+  {
+   "n": 20,
+   "ini": 39.03,
+   "fin": 40.331,
+   "texto": "Ahora, tres en semana,",
+   "especial": "semana",
+   "dur": 1.320999999999998
+  },
+  {
+   "n": 21,
+   "ini": 40.351,
+   "fin": 41.112,
+   "texto": "glúteo,",
+   "especial": "glúteo",
+   "dur": 1.2010000000000005
+  },
+  {
+   "n": 22,
+   "ini": 41.552,
+   "fin": 43.713,
+   "texto": "cenar ligero, hacer cardio,",
+   "especial": "cardio",
+   "dur": 2.6409999999999982
+  },
+  {
+   "n": 23,
+   "ini": 44.193,
+   "fin": 45.374,
+   "texto": "entrenar...",
+   "especial": "entrenar",
+   "dur": 2.081000000000003
+  },
+  {
+   "n": 24,
+   "ini": 46.274,
+   "fin": 46.474,
+   "texto": "ahora?",
+   "especial": "ahora",
+   "dur": 1.2209999999999965
+  },
+  {
+   "n": 25,
+   "ini": 47.495,
+   "fin": 47.775,
+   "texto": "Ahora,",
+   "especial": "Ahora",
+   "dur": 0.8010000000000019
+  },
+  {
+   "n": 26,
+   "ini": 48.296,
+   "fin": 50.357,
+   "texto": "ahora, tres veces glúteo a la semana,",
+   "especial": "semana",
+   "dur": 2.081000000000003
+  },
+  {
+   "n": 27,
+   "ini": 50.377,
+   "fin": 51.337,
+   "texto": "cardio,",
+   "especial": "cardio",
+   "dur": 1.3399999999999963
+  },
+  {
+   "n": 28,
+   "ini": 51.717,
+   "fin": 54.359,
+   "texto": "alcohol, cero azúcar cada semana,",
+   "especial": "semana",
+   "dur": 2.661999999999999
+  },
+  {
+   "n": 29,
+   "ini": 54.379,
+   "fin": 56.24,
+   "texto": "acompaño mujeres como yo",
+   "especial": "mujeres como",
+   "dur": 2.261000000000003
+  },
+  {
+   "n": 30,
+   "ini": 56.64,
+   "fin": 57.481,
+   "texto": "a conseguir lo mismo.",
+   "especial": "mismo",
+   "dur": 2.4819999999999993
+  },
+  {
+   "n": 31,
+   "ini": 59.122,
+   "fin": 59.622,
+   "texto": "¿Mujeres como",
+   "especial": "Mujeres como",
+   "dur": 1.7239999999999966
+  },
+  {
+   "n": 32,
+   "ini": 60.846,
+   "fin": 61.446,
+   "texto": "exactamente igual",
+   "especial": "exactamente igual",
+   "dur": 1.341000000000001
+  },
+  {
+   "n": 33,
+   "ini": 62.187,
+   "fin": 65.108,
+   "texto": "mamás con niño sin tiempo con trabajo",
+   "especial": "trabajo",
+   "dur": 5.561999999999998
+  },
+  {
+   "n": 34,
+   "ini": 67.749,
+   "fin": 71.27,
+   "texto": "pues mamás con niño sin tiempo con trabajo",
+   "especial": "trabajo",
+   "dur": 4.122
+  },
+  {
+   "n": 35,
+   "ini": 71.871,
+   "fin": 72.591,
+   "texto": "exactamente igual",
+   "especial": "exactamente igual",
+   "dur": 1.960000000000008
+  },
+  {
+   "n": 36,
+   "ini": 73.831,
+   "fin": 73.871,
+   "texto": "es",
+   "especial": "es",
+   "dur": 0.7609999999999957
+  },
+  {
+   "n": 37,
+   "ini": 74.592,
+   "fin": 77.713,
+   "texto": "cosa no necesitas tener una vida perfecta de hecho",
+   "especial": "hecho",
+   "dur": 3.7210000000000036
+  },
+  {
+   "n": 38,
+   "ini": 78.313,
+   "fin": 78.993,
+   "texto": "tampoco tenía",
+   "especial": "tampoco tenía",
+   "dur": 1.0409999999999968
+  },
+  {
+   "n": 39,
+   "ini": 79.354,
+   "fin": 81.094,
+   "texto": "lo que necesita es tener un plan",
+   "especial": "plan",
+   "dur": 2.1400000000000006
+  },
+  {
+   "n": 40,
+   "ini": 81.494,
+   "fin": 82.715,
+   "texto": "que se adapte en la vida que",
+   "especial": "vida",
+   "dur": 3.4420000000000073
+  },
+  {
+   "n": 41,
+   "ini": 84.936,
+   "fin": 86.997,
+   "texto": "si yo pude con esa vida tú también puedes",
+   "especial": "puedes",
+   "dur": 2.080999999999989
+  },
+  {
+   "n": 42,
+   "ini": 87.017,
+   "fin": 89.878,
+   "texto": "con la tuya escríbeme cambio por mensaje privado",
+   "especial": "privado",
+   "dur": 3.771000000000001
+  },
+  {
+   "n": 43,
+   "ini": 90.788,
+   "fin": 91.032,
+   "texto": "empieza",
+   "especial": "empieza",
+   "dur": 0.24399999999999977
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F1A774",
+    "#864E27",
+    "#F4ECE6",
+    "#16110D"
+   ]
+  },
+  {
+   "nombre": "Verde · del plano",
+   "c": [
+    "#C3F174",
+    "#648627",
+    "#EFF4E6",
+    "#13160D"
+   ]
+  },
+  {
+   "nombre": "Turquesa · del plano",
+   "c": [
+    "#74F1C4",
+    "#278664",
+    "#E6F4EF",
+    "#0D1613"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

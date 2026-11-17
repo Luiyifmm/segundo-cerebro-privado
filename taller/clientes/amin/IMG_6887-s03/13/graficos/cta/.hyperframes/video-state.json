@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "historyId": "a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb",
+  "currentRevision": "1ef06e41-1030-4be0-987f-73d317f32e5b",
+  "pendingChanges": false,
+  "files": {
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "7e939ac79a9a8850dccbd88d7b46b6674fa28136b6dfe406cf4772fbcdebf14b",
+      "content": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/7e/7e939ac79a9a8850dccbd88d7b46b6674fa28136b6dfe406cf4772fbcdebf14b"
+    }
+  },
+  "revisions": {
+    "e12d9e85-b8fa-44a9-b50a-73e8ef088c6c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794220652910,
+      "endedAt": 1794220652911,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/d7/d77c3a1c4a72545549c461facc4bcf5640274531a9c3b9974c96f8e21f463997",
+          "after": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/9b/9b07eea5fb2b2188978236d864706ce45d73595633aca81f966e91f1d7026dd7"
+        }
+      }
+    },
+    "1ef06e41-1030-4be0-987f-73d317f32e5b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794222563095,
+      "endedAt": 1794222563095,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/9b/9b07eea5fb2b2188978236d864706ce45d73595633aca81f966e91f1d7026dd7",
+          "after": "/Users/luiyi/.cache/hyperframes/history/a5a704cf-1ac4-4a62-9fdf-b528ab35dfbb/blobs/7e/7e939ac79a9a8850dccbd88d7b46b6674fa28136b6dfe406cf4772fbcdebf14b"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9cb57d3a-2f99-478e-8478-aa97bf99f619",
+      "completedAt": 1794222568407,
+      "output": "/tmp/hf-render.2Tctx9/bruto.mov",
+      "status": "completed",
+      "revision": "1ef06e41-1030-4be0-987f-73d317f32e5b"
+    },
+    "retainedRevisions": [
+      "1ef06e41-1030-4be0-987f-73d317f32e5b",
+      "e12d9e85-b8fa-44a9-b50a-73e8ef088c6c"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,1 @@
+var s=app.project.activeSequence,tr=s.videoTracks[0],o=[];for(var c=0;c<tr.clips.numItems;c++){var cl=tr.clips[c];if(cl.start.seconds<41)o.push(cl.start.seconds.toFixed(3)+" "+cl.end.seconds.toFixed(3)+" "+cl.inPoint.seconds.toFixed(3)+" "+(c==0?cl.projectItem.getMediaPath():""));}o.join("\n");

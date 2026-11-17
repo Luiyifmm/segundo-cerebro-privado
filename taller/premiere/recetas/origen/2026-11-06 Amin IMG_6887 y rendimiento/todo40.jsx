@@ -1,0 +1,3 @@
+(function(){var s=app.project.activeSequence,o=[];for(var t=1;t<s.videoTracks.numTracks;t++){var T=s.videoTracks[t];for(var c=0;c<T.clips.numItems;c++){var cl=T.clips[c];if(cl.start.seconds<40&&cl.name!="Gráfico")o.push("V"+(t+1)+" "+cl.start.seconds.toFixed(2)+"-"+cl.end.seconds.toFixed(2)+" "+cl.name+(cl.disabled?" OFF":""));}}
+for(var t=0;t<s.audioTracks.numTracks;t++){var T=s.audioTracks[t];for(var c=0;c<T.clips.numItems;c++){var cl=T.clips[c];if(cl.start.seconds<40&&cl.name.indexOf("IMG_6887")<0)o.push("A"+(t+1)+" "+cl.start.seconds.toFixed(2)+"-"+cl.end.seconds.toFixed(2)+" "+cl.name);}}
+o.push("A tracks "+s.audioTracks.numTracks);return o.join(" | ");})();

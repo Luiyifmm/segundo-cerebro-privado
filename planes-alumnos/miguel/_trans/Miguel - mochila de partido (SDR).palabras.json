@@ -1,0 +1,650 @@
+[
+{
+"texto": "Llevo",
+"inicio": 7.414,
+"fin": 7.614,
+"score": 0.808
+},
+{
+"texto": "jugando",
+"inicio": 7.674,
+"fin": 7.954,
+"score": 0.793
+},
+{
+"texto": "al",
+"inicio": 7.994,
+"fin": 8.054,
+"score": 0.951
+},
+{
+"texto": "fútbol",
+"inicio": 8.094,
+"fin": 8.414,
+"score": 0.573
+},
+{
+"texto": "toda",
+"inicio": 8.434,
+"fin": 8.595,
+"score": 0.88
+},
+{
+"texto": "mi",
+"inicio": 8.635,
+"fin": 8.695,
+"score": 0.998
+},
+{
+"texto": "vida.",
+"inicio": 8.735,
+"fin": 8.955,
+"score": 0.903
+},
+{
+"texto": "Y",
+"inicio": 9.295,
+"fin": 9.335,
+"score": 0.996
+},
+{
+"texto": "esto",
+"inicio": 9.375,
+"fin": 9.535,
+"score": 0.946
+},
+{
+"texto": "no",
+"inicio": 9.595,
+"fin": 9.675,
+"score": 0.82
+},
+{
+"texto": "falla",
+"inicio": 9.735,
+"fin": 9.935,
+"score": 0.939
+},
+{
+"texto": "nunca",
+"inicio": 9.975,
+"fin": 10.255,
+"score": 0.837
+},
+{
+"texto": "en",
+"inicio": 10.315,
+"fin": 10.355,
+"score": 0.62
+},
+{
+"texto": "mi",
+"inicio": 10.395,
+"fin": 10.475,
+"score": 0.941
+},
+{
+"texto": "mochila.",
+"inicio": 10.495,
+"fin": 10.875,
+"score": 0.869
+},
+{
+"texto": "Primero,",
+"inicio": 11.796,
+"fin": 12.116,
+"score": 0.96
+},
+{
+"texto": "un",
+"inicio": 13.577,
+"fin": 13.657,
+"score": 0.98
+},
+{
+"texto": "plátano.",
+"inicio": 13.697,
+"fin": 14.057,
+"score": 0.932
+},
+{
+"texto": "Me",
+"inicio": 14.557,
+"fin": 14.597,
+"score": 0.996
+},
+{
+"texto": "lo",
+"inicio": 14.657,
+"fin": 14.737,
+"score": 0.978
+},
+{
+"texto": "como",
+"inicio": 14.777,
+"fin": 14.977,
+"score": 0.796
+},
+{
+"texto": "una",
+"inicio": 15.037,
+"fin": 15.117,
+"score": 0.923
+},
+{
+"texto": "hora",
+"inicio": 15.177,
+"fin": 15.317,
+"score": 0.772
+},
+{
+"texto": "antes.",
+"inicio": 15.357,
+"fin": 15.597,
+"score": 0.716
+},
+{
+"texto": "Energía",
+"inicio": 16.178,
+"fin": 16.558,
+"score": 0.753
+},
+{
+"texto": "rápida",
+"inicio": 16.658,
+"fin": 16.978,
+"score": 0.846
+},
+{
+"texto": "y",
+"inicio": 16.998,
+"fin": 17.018,
+"score": 0.003
+},
+{
+"texto": "no",
+"inicio": 17.818,
+"fin": 17.878,
+"score": 0.916
+},
+{
+"texto": "me",
+"inicio": 17.918,
+"fin": 17.998,
+"score": 0.76
+},
+{
+"texto": "pesa.",
+"inicio": 18.038,
+"fin": 18.299,
+"score": 0.935
+},
+{
+"texto": "Segundo,",
+"inicio": 19.159,
+"fin": 19.539,
+"score": 0.942
+},
+{
+"texto": "dátiles",
+"inicio": 20.479,
+"fin": 20.86,
+"score": 0.808
+},
+{
+"texto": "para",
+"inicio": 21.22,
+"fin": 21.4,
+"score": 0.759
+},
+{
+"texto": "descanso",
+"inicio": 21.44,
+"fin": 21.92,
+"score": 0.8
+},
+{
+"texto": "o",
+"inicio": 22.42,
+"fin": 22.46,
+"score": 0.62
+},
+{
+"texto": "justo",
+"inicio": 22.56,
+"fin": 22.8,
+"score": 0.995
+},
+{
+"texto": "antes",
+"inicio": 22.86,
+"fin": 23.041,
+"score": 0.785
+},
+{
+"texto": "de",
+"inicio": 23.081,
+"fin": 23.141,
+"score": 0.772
+},
+{
+"texto": "salir",
+"inicio": 23.201,
+"fin": 23.441,
+"score": 0.888
+},
+{
+"texto": "al",
+"inicio": 23.461,
+"fin": 23.501,
+"score": 0.002
+},
+{
+"texto": "partido.",
+"inicio": 23.541,
+"fin": 23.901,
+"score": 0.952
+},
+{
+"texto": "Tercero,",
+"inicio": 24.901,
+"fin": 25.281,
+"score": 0.962
+},
+{
+"texto": "agua",
+"inicio": 26.302,
+"fin": 26.642,
+"score": 0.923
+},
+{
+"texto": "con",
+"inicio": 28.283,
+"fin": 28.403,
+"score": 0.982
+},
+{
+"texto": "aminoacidos",
+"inicio": 28.463,
+"fin": 29.043,
+"score": 0.639
+},
+{
+"texto": "esenciales.",
+"inicio": 29.103,
+"fin": 29.563,
+"score": 0.929
+},
+{
+"texto": "Porque",
+"inicio": 30.144,
+"fin": 30.384,
+"score": 0.712
+},
+{
+"texto": "en",
+"inicio": 30.404,
+"fin": 30.464,
+"score": 0.932
+},
+{
+"texto": "Marbella,",
+"inicio": 30.504,
+"fin": 30.904,
+"score": 0.788
+},
+{
+"texto": "sea",
+"inicio": 30.944,
+"fin": 31.044,
+"score": 0.819
+},
+{
+"texto": "la",
+"inicio": 31.084,
+"fin": 31.144,
+"score": 0.688
+},
+{
+"texto": "estación",
+"inicio": 31.164,
+"fin": 31.464,
+"score": 0.666
+},
+{
+"texto": "que",
+"inicio": 31.524,
+"fin": 31.604,
+"score": 0.951
+},
+{
+"texto": "sea,",
+"inicio": 31.664,
+"fin": 31.864,
+"score": 0.907
+},
+{
+"texto": "sudamos",
+"inicio": 32.364,
+"fin": 32.705,
+"score": 0.986
+},
+{
+"texto": "hasta",
+"inicio": 32.725,
+"fin": 32.965,
+"score": 0.429
+},
+{
+"texto": "parados.",
+"inicio": 33.025,
+"fin": 33.325,
+"score": 0.84
+},
+{
+"texto": "Y",
+"inicio": 34.505,
+"fin": 34.565,
+"score": 0.922
+},
+{
+"texto": "ahora,",
+"inicio": 34.625,
+"fin": 34.865,
+"score": 0.983
+},
+{
+"texto": "lo",
+"inicio": 35.346,
+"fin": 35.406,
+"score": 0.779
+},
+{
+"texto": "que",
+"inicio": 35.446,
+"fin": 35.526,
+"score": 0.851
+},
+{
+"texto": "no",
+"inicio": 35.546,
+"fin": 35.606,
+"score": 0.83
+},
+{
+"texto": "me",
+"inicio": 35.626,
+"fin": 35.686,
+"score": 0.163
+},
+{
+"texto": "llevo.",
+"inicio": 35.726,
+"fin": 35.986,
+"score": 0.839
+},
+{
+"texto": "Nada",
+"inicio": 37.682,
+"fin": 37.923,
+"score": 0.859
+},
+{
+"texto": "que",
+"inicio": 38.424,
+"fin": 38.504,
+"score": 0.851
+},
+{
+"texto": "no",
+"inicio": 38.524,
+"fin": 38.584,
+"score": 0.498
+},
+{
+"texto": "haya",
+"inicio": 38.624,
+"fin": 38.744,
+"score": 0.821
+},
+{
+"texto": "probado",
+"inicio": 38.784,
+"fin": 39.105,
+"score": 0.854
+},
+{
+"texto": "antes,",
+"inicio": 39.185,
+"fin": 39.385,
+"score": 0.815
+},
+{
+"texto": "el",
+"inicio": 39.786,
+"fin": 39.866,
+"score": 0.84
+},
+{
+"texto": "día",
+"inicio": 39.926,
+"fin": 40.046,
+"score": 0.808
+},
+{
+"texto": "de",
+"inicio": 40.106,
+"fin": 40.206,
+"score": 0.489
+},
+{
+"texto": "partido",
+"inicio": 40.266,
+"fin": 40.607,
+"score": 0.871
+},
+{
+"texto": "no",
+"inicio": 41.228,
+"fin": 41.288,
+"score": 0.938
+},
+{
+"texto": "es",
+"inicio": 41.328,
+"fin": 41.408,
+"score": 0.807
+},
+{
+"texto": "día",
+"inicio": 41.448,
+"fin": 41.628,
+"score": 0.855
+},
+{
+"texto": "para",
+"inicio": 41.668,
+"fin": 41.809,
+"score": 0.925
+},
+{
+"texto": "experimentos.",
+"inicio": 41.829,
+"fin": 42.39,
+"score": 0.801
+},
+{
+"texto": "Pero",
+"inicio": 43.511,
+"fin": 43.712,
+"score": 0.886
+},
+{
+"texto": "ojo,",
+"inicio": 43.792,
+"fin": 44.012,
+"score": 0.914
+},
+{
+"texto": "lo",
+"inicio": 44.593,
+"fin": 44.653,
+"score": 0.861
+},
+{
+"texto": "que",
+"inicio": 44.693,
+"fin": 44.773,
+"score": 0.842
+},
+{
+"texto": "te",
+"inicio": 44.813,
+"fin": 44.893,
+"score": 0.819
+},
+{
+"texto": "digo",
+"inicio": 44.954,
+"fin": 45.154,
+"score": 0.858
+},
+{
+"texto": "es",
+"inicio": 45.594,
+"fin": 45.675,
+"score": 0.9
+},
+{
+"texto": "solo",
+"inicio": 45.715,
+"fin": 45.895,
+"score": 0.857
+},
+{
+"texto": "la",
+"inicio": 45.955,
+"fin": 46.015,
+"score": 0.764
+},
+{
+"texto": "guinda,",
+"inicio": 46.075,
+"fin": 46.336,
+"score": 0.819
+},
+{
+"texto": "si",
+"inicio": 46.736,
+"fin": 46.816,
+"score": 0.988
+},
+{
+"texto": "no",
+"inicio": 46.856,
+"fin": 46.937,
+"score": 0.668
+},
+{
+"texto": "comemos",
+"inicio": 46.997,
+"fin": 47.317,
+"score": 0.822
+},
+{
+"texto": "bien",
+"inicio": 47.357,
+"fin": 47.497,
+"score": 0.623
+},
+{
+"texto": "durante",
+"inicio": 47.537,
+"fin": 47.798,
+"score": 0.857
+},
+{
+"texto": "la",
+"inicio": 47.858,
+"fin": 47.918,
+"score": 0.945
+},
+{
+"texto": "semana,",
+"inicio": 47.978,
+"fin": 48.279,
+"score": 0.828
+},
+{
+"texto": "ni",
+"inicio": 48.799,
+"fin": 48.88,
+"score": 0.836
+},
+{
+"texto": "la",
+"inicio": 48.92,
+"fin": 49.0,
+"score": 0.837
+},
+{
+"texto": "hora",
+"inicio": 49.08,
+"fin": 49.24,
+"score": 0.986
+},
+{
+"texto": "es",
+"inicio": 49.26,
+"fin": 49.3,
+"score": 0.001
+},
+{
+"texto": "antes",
+"inicio": 49.38,
+"fin": 49.601,
+"score": 0.722
+},
+{
+"texto": "del",
+"inicio": 49.621,
+"fin": 49.741,
+"score": 0.613
+},
+{
+"texto": "partido,",
+"inicio": 49.801,
+"fin": 50.141,
+"score": 0.978
+},
+{
+"texto": "el",
+"inicio": 50.582,
+"fin": 50.682,
+"score": 0.803
+},
+{
+"texto": "plátano",
+"inicio": 50.762,
+"fin": 51.083,
+"score": 0.918
+},
+{
+"texto": "no",
+"inicio": 51.123,
+"fin": 51.203,
+"score": 0.95
+},
+{
+"texto": "te",
+"inicio": 51.243,
+"fin": 51.303,
+"score": 0.873
+},
+{
+"texto": "salva.",
+"inicio": 51.343,
+"fin": 51.604,
+"score": 0.68
+}
+]

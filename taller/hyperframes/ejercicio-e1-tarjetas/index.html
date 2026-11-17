@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Ejercicio 1 (fase 5) · animación y composición: tira de 5 tarjetas sobre la pared, encima de la cabeza (nada tapa la cara).
+     Entra en "la quinta" (2,88) y en "PEOR" (3,67) la 5.ª se enciende en azul y las demás bajan al 35 %.
+     Medidas del estudio Invisible aplicadas: escalonado 2 f · destello 4 f (Deep Glow 9,9→0,08 en 0,167 s) ·
+     desplazamiento con curva exponencial de salida (el carrusel hace el 38 % del recorrido en el primer 7,5 % del tiempo) ·
+     radio de esquina 9,2 % del ancho · contorno blanco fino. Sin texto: el subtítulo ya lo dice (regla aprobada 07-11). Código propio. -->
+<style>
+@font-face{font-family:SFP;src:url(SF-Pro.ttf)}
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+#tira{position:absolute;left:0;top:410px;width:1080px;height:270px}
+.k{position:absolute;top:0;width:152px;height:270px;border-radius:14px;background:rgba(11,15,25,.9);border:2px solid rgba(255,255,255,.85);
+   box-sizing:border-box;opacity:0;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 16px 34px rgba(0,0,0,.25)}
+.k b{font-family:SFP;font-weight:800;font-size:110px;color:#fff;letter-spacing:-3px}
+.k i{position:absolute;inset:0;background:#fff;opacity:0}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="4.56">
+<div id="tira" class="clip" data-start="0" data-duration="4.56"></div>
+</div>
+<script>
+const tira=document.getElementById('tira'),W=152,G=38,X0=(1080-(5*W+4*G))/2;
+for(let i=0;i<5;i++){const k=document.createElement('div');k.className='k';k.id='k'+i;k.style.left=(X0+i*(W+G))+'px';k.innerHTML='<b>'+(i+1)+'</b><i></i>';tira.appendChild(k);}
+const tl=gsap.timeline({paused:true}),F=1/30,A=0.05,T=2.88-A,PEOR=3.67-A,OUT=4.30;
+tl.fromTo('#tira',{x:620},{x:0,duration:1.5,ease:'expo.out'},T);
+for(let i=0;i<5;i++){const t=T+i*2*F;                                         // escalonado de 2 f
+  tl.set('#k'+i,{opacity:1},t);
+  tl.fromTo('#k'+i+' i',{opacity:.85},{opacity:0,duration:4*F,ease:'power2.out'},t);   // destello de 4 f
+  tl.fromTo('#k'+i,{boxShadow:'0 0 60px rgba(255,255,255,.9)'},{boxShadow:'0 16px 34px rgba(0,0,0,.25)',duration:5*F,ease:'power2.out'},t);}
+tl.to(['#k0','#k1','#k2','#k3'],{opacity:.35,duration:0.2,ease:'power2.out'},PEOR);
+tl.to('#k4',{backgroundColor:'#1E8BFF',borderColor:'#ffffff',duration:2*F},PEOR);
+tl.fromTo('#k4',{scale:0.9},{scale:1.1,duration:3*F,ease:'power2.out',immediateRender:false},PEOR);
+tl.to('#k4',{scale:1,duration:F,ease:'none'},PEOR+3*F);
+tl.fromTo('#k4 i',{opacity:.9},{opacity:0,duration:4*F,ease:'power2.out',immediateRender:false},PEOR);
+for(let i=0;i<5;i++) tl.to('#k'+i,{y:-16,opacity:0,duration:0.22,ease:'power2.in'},OUT+i*F);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

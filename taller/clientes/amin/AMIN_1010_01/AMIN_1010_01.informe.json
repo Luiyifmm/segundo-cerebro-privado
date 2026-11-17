@@ -1,0 +1,217 @@
+{
+ "cliente": "amin",
+ "nombre": "AMIN_1010_01",
+ "secuencia": "AMIN_1010_01 - corte 1",
+ "xml": "/Users/luiyi/Videos-Remotion/clientes/amin/AMIN_1010_01/AMIN_1010_01 - primer corte.xml",
+ "clipsBrutos": 1,
+ "formato": "2160x3840 a 30.00 fps",
+ "duracionBruto": 222.6,
+ "duracionCorte": 54.1,
+ "frases": 25,
+ "dentro": 21,
+ "fuera": 5,
+ "cortes": 25,
+ "segundosDeProceso": 22,
+ "guion": [
+  {
+   "n": 1,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3,
+   "clip": "IMG_6130.MOV",
+   "texto": "sacar sobre saliente en la escuela es de muy de mediocre"
+  },
+  {
+   "n": 2,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.1,
+   "clip": "IMG_6130.MOV",
+   "texto": "Pero ¿qué cuesta apresar atención en class?"
+  },
+  {
+   "n": 3,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "No se me ha hecho estar."
+  },
+  {
+   "n": 4,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "¿Puede ser señal de un futuro exitoso?"
+  },
+  {
+   "n": 5,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "¿Obedecer sin rechistar?"
+  },
+  {
+   "n": 6,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3,
+   "clip": "IMG_6130.MOV",
+   "texto": "cumplir todas las normas sin rechistar?"
+  },
+  {
+   "n": 7,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "Muy de rico no parece, incluso diría que es de mediocre."
+  },
+  {
+   "n": 8,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.2,
+   "clip": "IMG_6130.MOV",
+   "texto": "las reglas es de ganador para siempre."
+  },
+  {
+   "n": 9,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "Cuestionar las reglas es de ganador para siempre."
+  },
+  {
+   "n": 10,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.5,
+   "clip": "IMG_6130.MOV",
+   "texto": "Poner a los demás siempre por delante es un bien y medio creme."
+  },
+  {
+   "n": 11,
+   "dentro": true,
+   "motivo": null,
+   "seg": 4,
+   "clip": "IMG_6130.MOV",
+   "texto": "los demás siempre por delante es de mediocre."
+  },
+  {
+   "n": 12,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "Hacer de ti absoluta prioridad es de éxito?"
+  },
+  {
+   "n": 13,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1.6,
+   "clip": "IMG_6130.MOV",
+   "texto": "Aspirar a un sueldo."
+  },
+  {
+   "n": 14,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2,
+   "clip": "IMG_6130.MOV",
+   "texto": "Aspirar a un"
+  },
+  {
+   "n": 15,
+   "dentro": true,
+   "motivo": null,
+   "seg": 0.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "libre es de exit."
+  },
+  {
+   "n": 16,
+   "dentro": true,
+   "motivo": null,
+   "seg": 1,
+   "clip": "IMG_6130.MOV",
+   "texto": "la escuela nunca para"
+  },
+  {
+   "n": 17,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 1.9,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te programa para ser."
+  },
+  {
+   "n": 18,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.2,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te educa para ser un empleado."
+  },
+  {
+   "n": 19,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela no te educa para ser rico."
+  },
+  {
+   "n": 20,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela te programa para ser un empleado obediente."
+  },
+  {
+   "n": 21,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.4,
+   "clip": "IMG_6130.MOV",
+   "texto": "La escuela te programa para ser un empleado obediente."
+  },
+  {
+   "n": 22,
+   "dentro": true,
+   "motivo": null,
+   "seg": 5.7,
+   "clip": "IMG_6130.MOV",
+   "texto": "Si quieres ser libre de verdad, sin algún momento de tu vida quieres ser libre de verdad,"
+  },
+  {
+   "n": 23,
+   "dentro": false,
+   "motivo": "toma repetida",
+   "seg": 3.8,
+   "clip": "IMG_6130.MOV",
+   "texto": "tienes que romper con la programación mental que ya tienes."
+  },
+  {
+   "n": 24,
+   "dentro": true,
+   "motivo": null,
+   "seg": 3.7,
+   "clip": "IMG_6130.MOV",
+   "texto": "Tienes que romper con la programación mental que ya tienes."
+  },
+  {
+   "n": 25,
+   "dentro": true,
+   "motivo": null,
+   "seg": 2.3,
+   "clip": "IMG_6130.MOV",
+   "texto": "Sígueme para que la rompamos juntos."
+  }
+ ]
+}

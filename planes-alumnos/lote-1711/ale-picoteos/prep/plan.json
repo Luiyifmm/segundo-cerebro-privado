@@ -1,0 +1,288 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.706,
+   "fin": 1.447,
+   "texto": "Te ayudar a",
+   "especial": "ayudar",
+   "dur": 1.161
+  },
+  {
+   "n": 2,
+   "ini": 1.867,
+   "fin": 3.768,
+   "texto": "porque son muy poco calóricas puedes comer en gran",
+   "especial": "gran",
+   "dur": 1.9409999999999998
+  },
+  {
+   "n": 3,
+   "ini": 3.808,
+   "fin": 4.108,
+   "texto": "cantidad.",
+   "especial": "cantidad",
+   "dur": 0.9199999999999999
+  },
+  {
+   "n": 4,
+   "ini": 4.728,
+   "fin": 5.008,
+   "texto": "secos.",
+   "especial": "secos",
+   "dur": 0.6400000000000006
+  },
+  {
+   "n": 5,
+   "ini": 5.368,
+   "fin": 7.549,
+   "texto": "Son gracias saludables muy importantes para tus hormonas,",
+   "especial": "hormonas",
+   "dur": 2.3809999999999993
+  },
+  {
+   "n": 6,
+   "ini": 7.749,
+   "fin": 9.15,
+   "texto": "pero si pasas con la cantidad,",
+   "especial": "cantidad",
+   "dur": 2.0409999999999995
+  },
+  {
+   "n": 7,
+   "ini": 9.79,
+   "fin": 10.351,
+   "texto": "ayudan a engordar.",
+   "especial": "engordar",
+   "dur": 0.7810000000000006
+  },
+  {
+   "n": 8,
+   "ini": 10.571,
+   "fin": 11.411,
+   "texto": "Galletas digestives.",
+   "especial": "digestives",
+   "dur": 1.2400000000000002
+  },
+  {
+   "n": 9,
+   "ini": 11.811,
+   "fin": 12.491,
+   "texto": "van a ayudar engordar,",
+   "especial": "engordar",
+   "dur": 0.7609999999999992
+  },
+  {
+   "n": 10,
+   "ini": 12.572,
+   "fin": 13.612,
+   "texto": "son muy muy calóricas.",
+   "especial": "calóricas",
+   "dur": 1.3800000000000008
+  },
+  {
+   "n": 11,
+   "ini": 13.952,
+   "fin": 14.953,
+   "texto": "Tortitas con chocolate.",
+   "especial": "chocolate",
+   "dur": 1.2609999999999992
+  },
+  {
+   "n": 12,
+   "ini": 15.213,
+   "fin": 16.013,
+   "texto": "Te van a ayudar engordar,",
+   "especial": "engordar",
+   "dur": 0.8600000000000012
+  },
+  {
+   "n": 13,
+   "ini": 16.073,
+   "fin": 18.294,
+   "texto": "son muy calóricas si quieres algo mejor las recomiendo",
+   "especial": "recomiendo",
+   "dur": 2.280999999999999
+  },
+  {
+   "n": 14,
+   "ini": 18.354,
+   "fin": 19.295,
+   "texto": "cambiar por las de legumbre.",
+   "especial": "legumbre",
+   "dur": 1.2609999999999992
+  },
+  {
+   "n": 15,
+   "ini": 19.615,
+   "fin": 20.035,
+   "texto": "Sandía.",
+   "especial": "Sandía",
+   "dur": 0.9200000000000017
+  },
+  {
+   "n": 16,
+   "ini": 20.535,
+   "fin": 21.135,
+   "texto": "ayuda a adelgazar.",
+   "especial": "adelgazar",
+   "dur": 0.7600000000000016
+  },
+  {
+   "n": 17,
+   "ini": 21.295,
+   "fin": 21.576,
+   "texto": "Para mí",
+   "especial": "mí",
+   "dur": 0.7209999999999965
+  },
+  {
+   "n": 18,
+   "ini": 22.016,
+   "fin": 23.356,
+   "texto": "fruta para picotear tiene tan solo",
+   "especial": "tan solo",
+   "dur": 2.121000000000002
+  },
+  {
+   "n": 19,
+   "ini": 24.137,
+   "fin": 24.817,
+   "texto": "cada los 100 gramos.",
+   "especial": "gramos",
+   "dur": 0.9199999999999982
+  },
+  {
+   "n": 20,
+   "ini": 25.057,
+   "fin": 25.577,
+   "texto": "Pepinillo.",
+   "especial": "Pepinillo",
+   "dur": 0.9000000000000021
+  },
+  {
+   "n": 21,
+   "ini": 25.957,
+   "fin": 26.998,
+   "texto": "Ayuda a adelgazar, clarísimo.",
+   "especial": "clarísimo",
+   "dur": 1.8419999999999987
+  },
+  {
+   "n": 22,
+   "ini": 27.799,
+   "fin": 28.339,
+   "texto": "mango.",
+   "especial": "mango",
+   "dur": 0.7010000000000005
+  },
+  {
+   "n": 23,
+   "ini": 28.5,
+   "fin": 28.94,
+   "texto": "a adelgazar.",
+   "especial": "adelgazar",
+   "dur": 0.5199999999999996
+  },
+  {
+   "n": 24,
+   "ini": 29.02,
+   "fin": 30.382,
+   "texto": "Sobre todo recomiendo mucho para",
+   "especial": "recomiendo mucho",
+   "dur": 1.8230000000000004
+  },
+  {
+   "n": 25,
+   "ini": 30.843,
+   "fin": 31.804,
+   "texto": "antojo de dulce en el postre.",
+   "especial": "postre",
+   "dur": 1.2420000000000009
+  },
+  {
+   "n": 26,
+   "ini": 32.085,
+   "fin": 32.666,
+   "texto": "¿Y a que otros",
+   "especial": "otros",
+   "dur": 1.0210000000000008
+  },
+  {
+   "n": 27,
+   "ini": 33.106,
+   "fin": 34.248,
+   "texto": "puedo comer para perder peso?",
+   "especial": "perder peso",
+   "dur": 1.4819999999999993
+  },
+  {
+   "n": 28,
+   "ini": 34.588,
+   "fin": 36.511,
+   "texto": "Pues quieres saber los comenta la palabra picoteo te",
+   "especial": "picoteo",
+   "dur": 1.9429999999999978
+  },
+  {
+   "n": 29,
+   "ini": 36.531,
+   "fin": 38.634,
+   "texto": "envío una lista con los mejores picotes de mercadona",
+   "especial": "mercadona",
+   "dur": 2.183
+  },
+  {
+   "n": 30,
+   "ini": 38.714,
+   "fin": 40.076,
+   "texto": "para perder más de 10 kilos menos de 90",
+   "especial": "kilos menos",
+   "dur": 1.3620000000000019
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Turquesa · del plano",
+   "c": [
+    "#74F1DD",
+    "#278677",
+    "#E6F4F2",
+    "#0D1615"
+   ]
+  },
+  {
+   "nombre": "Naranja · del plano",
+   "c": [
+    "#F19A74",
+    "#864427",
+    "#F4EAE6",
+    "#16100D"
+   ]
+  },
+  {
+   "nombre": "Azul · del plano",
+   "c": [
+    "#7488F1",
+    "#273786",
+    "#E6E8F4",
+    "#0D0F16"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

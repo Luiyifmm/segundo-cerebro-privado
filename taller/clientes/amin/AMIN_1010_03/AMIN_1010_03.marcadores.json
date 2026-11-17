@@ -1,0 +1,47 @@
+[
+ {
+  "t": 0.19,
+  "nombre": "Esta es la mujer del pobre y esta es la mujer del rico.",
+  "tipo": "gancho"
+ },
+ {
+  "t": 2.6,
+  "nombre": "Este es el fin de semana del pop Este es el fin de semana del pobre y ",
+  "tipo": "frase"
+ },
+ {
+  "t": 5.51,
+  "nombre": "Este es el interior de la casa del pobre y este es el interior de la c",
+  "tipo": "frase"
+ },
+ {
+  "t": 9.07,
+  "nombre": "Esto es lo que bebe el pobre y esto es lo que bebe el rico.",
+  "tipo": "frase"
+ },
+ {
+  "t": 11.74,
+  "nombre": "Esto es lo que escucha el pobre y esto es lo que escucha rico.",
+  "tipo": "frase"
+ },
+ {
+  "t": 14,
+  "nombre": "así es como se viste los pobres y así es como se viste los ricos.",
+  "tipo": "frase"
+ },
+ {
+  "t": 16.93,
+  "nombre": "El éxito no depende de lo",
+  "tipo": "frase"
+ },
+ {
+  "t": 20,
+  "nombre": "que tengas, sino de tu mentalidad.",
+  "tipo": "frase"
+ },
+ {
+  "t": 21.97,
+  "nombre": "Comenta rico y te voy a enseñar una habilidad con la que escapar del s",
+  "tipo": "cta"
+ }
+]

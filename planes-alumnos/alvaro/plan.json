@@ -1,0 +1,126 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.55,
+   "fin": 0.79,
+   "texto": "¿Lunes?",
+   "especial": "Lunes",
+   "dur": 0.29999999999999993
+  },
+  {
+   "n": 2,
+   "ini": 0.85,
+   "fin": 1.851,
+   "texto": "Nada de pan.",
+   "especial": "pan",
+   "dur": 1.021
+  },
+  {
+   "n": 3,
+   "ini": 1.871,
+   "fin": 3.093,
+   "texto": "¿Martes?",
+   "especial": "Martes",
+   "dur": 1.4620000000000002
+  },
+  {
+   "n": 4,
+   "ini": 3.333,
+   "fin": 4.074,
+   "texto": "Nada de chocolate.",
+   "especial": "chocolate",
+   "dur": 1.4409999999999998
+  },
+  {
+   "n": 5,
+   "ini": 4.774,
+   "fin": 5.655,
+   "texto": "¿Cómo me voy a poner?",
+   "especial": "poner",
+   "dur": 0.9009999999999998
+  },
+  {
+   "n": 6,
+   "ini": 5.675,
+   "fin": 6.957,
+   "texto": "¿Miércoles?",
+   "especial": "Miércoles",
+   "dur": 1.4619999999999997
+  },
+  {
+   "n": 7,
+   "ini": 7.137,
+   "fin": 8.578,
+   "texto": "Nada de salir a cenar afuera con amigos.",
+   "especial": "amigos",
+   "dur": 2.3419999999999996
+  },
+  {
+   "n": 8,
+   "ini": 9.479,
+   "fin": 10.08,
+   "texto": "Les digo que no.",
+   "especial": "Les digo",
+   "dur": 1.3820000000000014
+  },
+  {
+   "n": 9,
+   "ini": 10.861,
+   "fin": 11.261,
+   "texto": "¿Jueves?",
+   "especial": "Jueves",
+   "dur": 0.7999999999999989
+  },
+  {
+   "n": 10,
+   "ini": 11.661,
+   "fin": 12.562,
+   "texto": "Manzana para cenar.",
+   "especial": "cenar",
+   "dur": 2.1020000000000003
+  },
+  {
+   "n": 11,
+   "ini": 13.763,
+   "fin": 14.044,
+   "texto": "Muy bien.",
+   "especial": "Muy bien",
+   "dur": 0.30100000000000016
+  },
+  {
+   "n": 12,
+   "ini": 14.064,
+   "fin": 16.106,
+   "texto": "¿Pero qué haces?",
+   "especial": "qué haces",
+   "dur": 2.0420000000000016
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Marca · Álvaro Cabrera",
+   "c": [
+    "#3A86FF",
+    "#FF5F57",
+    "#E6ECF4",
+    "#0D1116"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

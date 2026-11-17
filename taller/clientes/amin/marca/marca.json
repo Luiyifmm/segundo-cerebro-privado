@@ -1,0 +1,166 @@
+{
+  "cliente": "Amin",
+  "instagram": "@aminbusinesss",
+  "color_principal": "#1E6BFF",
+  "color_principal_confirmado": false,
+  "formato": "2160x3840",
+  "subtitulos": {
+    "fuente": "SF Pro Bold",
+    "palabra_activa": "caja azul",
+    "max_palabras_por_linea": 3,
+    "color": "blanco",
+    "bloques": 47,
+    "segundos_por_bloque": 0.74,
+    "palabras_por_bloque": "1 a 3"
+  },
+  "plantilla": null,
+  "voz_lufs": -15,
+  "comparativas": {
+    "malo": "derecha",
+    "bueno": "izquierda",
+    "nota": "confirmado por el usuario el 2026-10-08"
+  },
+  "origen": "Amin.prproj › IMG_6118",
+  "duracion_ejemplo_s": 26.1,
+  "fuentes_en_el_proyecto": [
+    "SFPro-Bold"
+  ],
+  "plantillas_de_texto": [
+    {
+      "nombre": "Animación Regular",
+      "usos": 4,
+      "momentos": [
+        18,
+        16.8,
+        15.4,
+        18.5
+      ]
+    },
+    {
+      "nombre": "Texto Premium Animado",
+      "usos": 3,
+      "momentos": [
+        12.5,
+        25.1,
+        24.5
+      ]
+    }
+  ],
+  "capas_de_ajuste": 5,
+  "sfx": [
+    {
+      "nombre": "Camera Shutter Click 01.wav",
+      "usos": 12,
+      "momentos": [
+        14.1,
+        15,
+        18.5,
+        2.3,
+        7.6,
+        11.4,
+        16.9,
+        17.9
+      ]
+    },
+    {
+      "nombre": "Woosh Effect 2.wav",
+      "usos": 7,
+      "momentos": [
+        6.3,
+        9.1,
+        12.2,
+        15.7,
+        18.1,
+        16.9,
+        18.6
+      ]
+    },
+    {
+      "nombre": "Lighter Double Click 02.wav",
+      "usos": 3,
+      "momentos": [
+        9.9,
+        10.4,
+        10.7
+      ]
+    },
+    {
+      "nombre": "Woosh Effect 3.wav",
+      "usos": 2,
+      "momentos": [
+        13.5,
+        0
+      ]
+    },
+    {
+      "nombre": "Sharp Riser.wav",
+      "usos": 2,
+      "momentos": [
+        0,
+        17.3
+      ]
+    },
+    {
+      "nombre": "BOOM IMPACT (23).wav",
+      "usos": 2,
+      "momentos": [
+        19,
+        26.1
+      ]
+    },
+    {
+      "nombre": "Cam shutter.wav",
+      "usos": 1,
+      "momentos": [
+        4.3
+      ]
+    },
+    {
+      "nombre": "BASS DROP (10).wav",
+      "usos": 1,
+      "momentos": [
+        6.5
+      ]
+    }
+  ],
+  "musica": [
+    {
+      "nombre": "Caleb Arredondo - Feeling Blue.mp3",
+      "usos": 1,
+      "momentos": [
+        0
+      ]
+    }
+  ],
+  "overlays": [
+    "Degradado a negro subtítulos.png",
+    "OVERLAY 1.mp4",
+    "super 8 frame.png",
+    "overlay_seguir_ig_aminbusinesss.mov"
+  ],
+  "ritmo": {
+    "efectos_de_sonido_por_10s": 11.5
+  },
+  "guia": {
+    "idea": "Autoridad sobria",
+    "paleta": {
+      "negro": "#0B0D10",
+      "blanco": "#F3F1EC",
+      "acento": "#1E8BFF"
+    },
+    "fuentes": {
+      "texto": "SF Pro Bold",
+      "clave": "Nyght Serif Dark Italic"
+    },
+    "sfx_por_10s": "4-6",
+    "cierre": "Sígueme para mejorar tu vida + @aminbusinesss",
+    "reglas": [
+      "bueno izquierda en color con borde azul, malo derecha en gris",
+      "imágenes siempre en tarjeta 22px con borde blanco",
+      "sin rojo",
+      "máx 2 líneas por subtítulo"
+    ],
+    "estado": "propuesta de Claude 2026-10-08, pendiente de aprobación del usuario"
+  },
+  "nota_trials": "Las alternativas (pantalla partida, estudio cálido, etc.) son formatos para Trial Reels, no el formato de marca de Amin (dicho por el usuario el 2026-10-09)"
+}

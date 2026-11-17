@@ -1,0 +1,1 @@
+(function () { var n = "__N__", i; for (i = 0; i < app.projects.numProjects; i++) if (app.projects[i].name === n) { try { app.projects[i].closeDocument(0, 0); return "cerrado"; } catch (e) { return "error " + e; } } return "no estaba abierto"; })();

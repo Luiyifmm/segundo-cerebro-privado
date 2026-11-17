@@ -1,0 +1,241 @@
+#!/usr/bin/env node
+// Control de reels: entrada de material, primer corte, tiempo, entrega con control de calidad y panel.
+// Un reel = una carpeta clientes/<cliente>/<ID>/ (ID = CLIENTE_MMDD_nn) con uno o varios clips en bruto.
+const fs = require("fs"), path = require("path"), os = require("os");
+const { spawnSync } = require("child_process");
+// REEL_RAIZ permite probar sobre una copia sin tocar los datos reales.
+const RAIZ = process.env.REEL_RAIZ ? path.resolve(process.env.REEL_RAIZ) : path.join(os.homedir(), "Videos-Remotion");
+const BD = path.join(RAIZ, "sistema", "reels.json"), PANEL = path.join(RAIZ, "sistema", "panel.html");
+// ESTADO.md de cada trabajo, en la bóveda (Obsidian). REEL_BOVEDA permite probar sin tocar la real.
+const ESTADOS_DIR = process.env.REEL_BOVEDA ? path.resolve(process.env.REEL_BOVEDA) : path.join(os.homedir(), "EDICION", "0 CLAUDE EDITOR", "7 TRABAJOS EN CURSO");
+const estadoDe = (r) => path.join(ESTADOS_DIR, `${r.id}.md`);
+const crearEstado = (r) => {
+  const f = estadoDe(r); if (fs.existsSync(f)) return f;
+  fs.mkdirSync(ESTADOS_DIR, { recursive: true });
+  const d = new Date(), hoy = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  // ESTADO desde la plantilla de la bóveda (08-11-2026, fase 8B.2: modo, bitácora y bloque de traspaso). Sin plantilla, el texto de antes.
+  const paso = r.estado === "pendiente" ? "ingesta → dirección creativa" : r.estado;
+  const plantillaE = path.join(ESTADOS_DIR, "_PLANTILLA ESTADO.md");
+  if (fs.existsSync(plantillaE)) {
+    const t = fs.readFileSync(plantillaE, "utf8")
+      .replaceAll("<ID o nombre>", r.id).replaceAll("<ID>", r.id).replace("<título>", r.titulo).replace("AAAA-MM-DD", hoy)
+      .replace(/^cliente: .*$/m, `cliente: ${r.cliente}`)
+      .replace(/^\*\*Paso actual:\*\* .*$/m, `**Paso actual:** ${paso}`)
+      .replace(/^\*\*Brief creativo:\*\* .*$/m, `**Brief creativo:** [[${r.id} · BRIEF]] · estado: propuesta (no se monta hasta que lo apruebe el usuario)`)
+      .replace(/^\*\*Dónde está:\*\* .*$/m, `**Dónde está:** carpeta \`${r.dir}\` · brutos: ${r.fuentes.length}`)
+      .replace("- **Etapa siguiente:** ", "- **Etapa siguiente:** dirección creativa")
+      .replace("- (paso — qué se hizo — pistas o archivos)", `- ${hoy} — registrado con reel.js`);
+    fs.writeFileSync(f, t);
+  } else
+  fs.writeFileSync(f, `---\ntipo: estado\ntrabajo: ${r.id}\ncliente: ${r.cliente}\nactualizado: ${hoy}\n---\n# ${r.id} · ${r.titulo}\n\n**Paso actual:** ${paso}\n**Brief creativo:** [[${r.id} · BRIEF]] · estado: propuesta (no se monta hasta que lo apruebe el usuario)\n**Dónde está:** carpeta \`${r.dir}\` · brutos: ${r.fuentes.length}\n**Alcance:** (marcadores | edición completa)\n\n## Hecho\n- ${hoy} — registrado con reel.js\n\n## Decisiones (y por qué)\n- \n\n## Falta\n- \n\n## No comprobado / riesgos\n- \n\n## Correcciones del usuario en este vídeo\n- \n`);
+  // BRIEF CREATIVO desde la plantilla de la bóveda (07-11-2026): se rellena y se debate ANTES de montar.
+  const plantilla = path.join(ESTADOS_DIR, "_PLANTILLA BRIEF CREATIVO.md"), brief = path.join(ESTADOS_DIR, `${r.id} · BRIEF.md`);
+  if (fs.existsSync(plantilla) && !fs.existsSync(brief))
+    fs.writeFileSync(brief, fs.readFileSync(plantilla, "utf8").replaceAll("<ID o nombre>", r.id).replaceAll("<ID>", r.id).replace("AAAA-MM-DD", hoy));
+  return f;
+};
+const NODE = process.execPath, PUENTE = "/tmp/premiere-mcp-bridge";
+const CLIENTES = { amin: 2 }; // clientes ACTIVOS y reels por día
+// Clientes antiguos (06-11-2026): sus reels siguen en reels.json pero no se registran, no se cortan en lote ni salen en el panel.
+const ARCHIVADOS = ["eric", "natalia"];
+const OBJETIVO_MIN = 90;
+const ESTADOS = ["pendiente", "cortado", "editando", "cambios", "entregado"];
+const VIDEO = /\.(mov|mp4|m4v|mxf)$/i;
+const bd = fs.existsSync(BD) ? JSON.parse(fs.readFileSync(BD)) : { reels: [] };
+const ahora = () => new Date().toISOString();
+const min = (r) => r.sesiones.reduce((s, x) => s + (new Date(x.fin || Date.now()) - new Date(x.ini)) / 60000, 0);
+const cerrar = () => bd.reels.forEach((r) => r.sesiones.forEach((s) => (s.fin ||= ahora())));
+const guardar = () => fs.writeFileSync(BD, JSON.stringify(bd, null, 1));
+const fallo = (m) => { console.error(m); process.exit(1); };
+const videosDe = (p) => (fs.statSync(p).isDirectory() ? fs.readdirSync(p, { recursive: true }).filter((f) => VIDEO.test(f) && !path.basename(f).startsWith(".")).sort().map((f) => path.join(p, f)) : VIDEO.test(p) ? [p] : []);
+const buscar = (q) => {
+  if (!q) fallo("Falta decir qué reel");
+  const k = q.toLowerCase().replace(/\s+/g, "");
+  const vivos = bd.reels.filter((r) => r.estado !== "entregado");
+  const coincide = (r) => [r.id, r.titulo, r.cliente + r.id.split("_").pop(), r.cliente + +r.id.split("_").pop()].some((x) => x && x.toLowerCase().replace(/\s+/g, "").includes(k));
+  const l = vivos.filter(coincide).concat(bd.reels.filter((r) => r.estado === "entregado" && coincide(r)));
+  if (!l.length) fallo(`No encuentro el reel "${q}". Activos: ${vivos.filter((r) => CLIENTES[r.cliente]).map((r) => r.id).join(", ") || "ninguno"}`);
+  return l[0];
+};
+
+// --- Entrada de material ---
+const nuevo = (cliente, origen, titulo) => {
+  if (!CLIENTES[cliente]) fallo("Clientes: " + Object.keys(CLIENTES).join(", "));
+  origen = path.resolve(origen); const origenInicial = origen;
+  if (!fs.existsSync(origen)) fallo("No existe: " + origen);
+  const d = new Date(), mmdd = String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
+  const pref = `${cliente.toUpperCase()}_${mmdd}_`;
+  const n = Math.max(0, ...bd.reels.filter((r) => r.id.startsWith(pref)).map((r) => +r.id.slice(pref.length))) + 1;
+  const id = pref + String(n).padStart(2, "0"), dir = path.join(RAIZ, "clientes", cliente, id);
+  fs.mkdirSync(path.join(dir, "export"), { recursive: true });
+  if (/\.zip$/i.test(origen)) { const b = path.join(dir, "bruto"); spawnSync("/usr/bin/unzip", ["-q", "-o", origen, "-d", b]); origen = b; }
+  const fuentes = videosDe(origen);
+  if (!fuentes.length) { fs.rmSync(dir, { recursive: true }); fallo("No hay vídeos en " + origen); }
+  if (bd.reels.some((r) => r.fuentes.some((f) => fuentes.includes(f)))) { fs.rmSync(dir, { recursive: true }); return null; }
+  const r = { id, cliente, origen: origenInicial, titulo: titulo || path.parse(origen).name.replace(/-\d{8}T\d+Z.*$/, ""), dir, fuentes, estado: "pendiente", creado: ahora(), sesiones: [], mejoras: [], version: 1 };
+  bd.reels.push(r);
+  try { crearEstado(r); } catch (e) { console.error("No se pudo crear el ESTADO: " + e.message); }
+  console.log(`Nuevo reel ${id} (${fuentes.length} clip${fuentes.length > 1 ? "s" : ""}): ${r.titulo}`);
+  return r;
+};
+const sincronizar = () => {
+  for (const c of Object.keys(CLIENTES)) {
+    const ent = path.join(RAIZ, "clientes", c, "entrada");
+    if (!fs.existsSync(ent)) continue;
+    for (const f of fs.readdirSync(ent).filter((f) => !f.startsWith("."))) { const p = path.join(ent, f); if (fs.statSync(p).isDirectory() || VIDEO.test(f) || /\.zip$/i.test(f)) { try { nuevo(c, p); } catch (e) { console.error(e.message); } } }
+  }
+};
+
+// --- Premiere (si el panel MCP Bridge está abierto) ---
+const premiere = (xml, secuencia) => {
+  try {
+    const hb = JSON.parse(fs.readFileSync(path.join(PUENTE, "bridge-heartbeat.json"))).t;
+    if (Date.now() - hb > 20000) return "panel de Premiere cerrado: importa el XML a mano";
+    const id = "reel" + Date.now(), bin = secuencia.split(" - ")[0], script = `(function(){var r=app.project.rootItem,b=null;for(var i=0;i<r.children.numItems;i++)if(r.children[i].name==${JSON.stringify(bin)}&&r.children[i].type==2)b=r.children[i];if(!b)b=r.createBin(${JSON.stringify(bin)});app.project.importFiles([${JSON.stringify(xml)}],true,b,false);var s=app.project.sequences,t=null;for(var i=0;i<s.numSequences;i++)if(s[i].name==${JSON.stringify(secuencia)})t=s[i];if(t)app.project.openSequence(t.sequenceID);return (t?"abierta":"importada")+" en "+app.project.name;})()`;
+    fs.writeFileSync(path.join(PUENTE, `command-${id}.json.part`), JSON.stringify({ id, script }));
+    fs.renameSync(path.join(PUENTE, `command-${id}.json.part`), path.join(PUENTE, `command-${id}.json`));
+    const resp = path.join(PUENTE, `response-${id}.json`);
+    for (let i = 0; i < 90 && !fs.existsSync(resp); i++) spawnSync("/bin/sleep", ["1"]);
+    if (!fs.existsSync(resp)) return "Premiere no respondió: importa el XML a mano";
+    const r = JSON.parse(fs.readFileSync(resp)); fs.rmSync(resp);
+    return r.success ? "secuencia " + r.result + " en Premiere" : "error en Premiere: " + JSON.stringify(r).slice(0, 120);
+  } catch (e) { return "panel de Premiere no disponible: importa el XML a mano"; }
+};
+
+// --- Primer corte ---
+const cortar = (r, extra = []) => {
+  const p = spawnSync(NODE, [path.join(RAIZ, "voz", "primer-corte.js"), "--salida", r.dir, "--nombre", r.id, "--cliente", r.cliente, ...r.fuentes, ...extra], { cwd: path.join(RAIZ, "voz"), maxBuffer: 1e8 });
+  const inf = path.join(r.dir, r.id + ".informe.json");
+  if (p.status !== 0 || !fs.existsSync(inf)) { console.error(p.stderr.toString().slice(-600)); fallo("Falló el corte de " + r.id); }
+  const j = JSON.parse(fs.readFileSync(inf));
+  Object.assign(r, { corte: { bruto: j.duracionBruto, seg: j.duracionCorte, frases: j.frases, dentro: j.dentro, proceso: j.segundosDeProceso }, guion: j.guion, xml: j.xml });
+  if (r.estado === "pendiente") r.estado = "cortado";
+  guardar();
+  r.secuencia = j.secuencia;
+  console.log(`${r.id}: bruto ${j.duracionBruto}s → corte ${j.duracionCorte}s (${j.dentro} de ${j.frases} frases, ${j.cortes} cortes)`);
+  console.log(fs.readFileSync(path.join(r.dir, r.id + ".guion.txt"), "utf8"));
+};
+
+// --- Entrega con control de calidad ---
+const entregar = (r, archivo) => {
+  const exp = path.join(r.dir, "export");
+  if (!archivo) { const l = fs.existsSync(exp) ? fs.readdirSync(exp).filter((f) => VIDEO.test(f)).map((f) => path.join(exp, f)).sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs) : []; archivo = l[0]; }
+  if (!archivo || !fs.existsSync(archivo)) fallo(`No encuentro el vídeo exportado. Expórtalo a: ${exp}`);
+  const q = JSON.parse(spawnSync(NODE, [path.join(RAIZ, "voz", "qc.js"), archivo]).stdout.toString());
+  r.qc = { veredicto: q.veredicto, duracion: q.duracion, lufs: q.volumenLUFS, fallos: q.fallos, avisos: q.avisos };
+  console.log(`Control de calidad: ${q.veredicto}` + [...q.fallos, ...q.avisos].map((x) => "\n  - " + x).join(""));
+  if (q.veredicto === "BLOQUEADO") { guardar(); fallo("No se entrega hasta corregir los fallos."); }
+  const dest = path.join(RAIZ, "clientes", r.cliente, "entregado", `${r.id}_v${r.version}${path.extname(archivo).toLowerCase()}`);
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.copyFileSync(archivo, dest);
+  cerrar(); r.estado = "entregado"; r.entregado = ahora(); r.archivo = dest;
+  console.log(`Entregado: ${dest} · tiempo total ${Math.round(min(r))} min`);
+};
+
+const [orden, ...a] = process.argv.slice(2);
+// Sin orden (o "ayuda") solo se muestra la ayuda: nada se registra ni se escribe.
+// Registrar material exige una orden explícita: "nuevo" (un archivo o carpeta) o "sincronizar" (todo lo de clientes/*/entrada/).
+const AYUDA = `Uso: node sistema/reel.js <orden>
+
+Solo leen (no cambian datos):
+  ayuda                          esta ayuda (también sin orden)
+  descargas [días]               material de ~/Downloads que aún no es un reel
+  abrir <reel>                   importa el corte del reel en Premiere (panel MCP Bridge)
+  panel                          regenera sistema/panel.html con los datos actuales
+
+Cambian datos (sistema/reels.json):
+  nuevo <cliente> <archivo|carpeta|zip> [título]   registra un reel
+  sincronizar                    registra todo lo que haya en clientes/*/entrada/
+  cortar [reel]                  primer corte (sin reel: todos los pendientes)
+  quitar <reel> 3,7 | recuperar <reel> 4
+  copiar <reel> [título]         otro reel sobre el mismo bruto
+  titulo <reel> <texto> | estado <reel> <estado> | mejora <reel> <texto>
+  empezar <reel> | parar         cronómetro
+  entregar [reel] [archivo]      control de calidad y copia a entregado/
+  cambios <reel> <texto>         cambios del cliente (sube la versión)
+  borrar <reel>                  lo quita del panel (los archivos no se tocan)
+  retomar <reel>                 muestra su ESTADO.md (lo crea si falta)
+
+Clientes: ${Object.keys(CLIENTES).join(", ")}`;
+const ORDENES = ["nuevo", "sincronizar", "cortar", "quitar", "recuperar", "abrir", "descargas", "copiar", "titulo", "empezar", "parar", "entregar", "cambios", "estado", "mejora", "borrar", "panel", "retomar"];
+const SOLO_LECTURA = new Set(["descargas", "abrir", "retomar"]);
+if (!orden || ["ayuda", "-h", "--help", "help"].includes(orden)) { console.log(AYUDA); process.exit(0); }
+if (!ORDENES.includes(orden)) { console.error(`Orden desconocida: "${orden}"\n\n` + AYUDA); process.exit(1); }
+if (orden === "sincronizar") { const antes = bd.reels.length; sincronizar(); console.log(bd.reels.length - antes ? `Registrados ${bd.reels.length - antes} reels nuevos.` : "Nada nuevo en clientes/*/entrada/."); }
+if (orden === "nuevo") { if (!nuevo(a[0], a[1], a.slice(2).join(" ") || undefined)) console.log("Ese material ya estaba registrado."); }
+else if (orden === "cortar") { const l = a[0] ? [buscar(a[0])] : bd.reels.filter((r) => r.estado === "pendiente" && CLIENTES[r.cliente]); if (!l.length) console.log("No hay reels pendientes de cortar."); guardar(); l.forEach((r) => cortar(r)); }
+else if (orden === "quitar" || orden === "recuperar") { const r = buscar(a[0]); cortar(r, ["--" + orden, a.slice(1).join(",").replace(/[^\d,-]/g, "")]); }
+else if (orden === "abrir") { const r = buscar(a[0]); if (!r.xml) fallo("Ese reel aún no está cortado"); console.log(r.id + ": " + premiere(r.xml, r.secuencia)); }
+else if (orden === "descargas") {
+  // Material nuevo en Descargas que aún no es ningún reel (lo asigna quien lo lee: el nombre no siempre dice el cliente)
+  const D = path.join(os.homedir(), "Downloads"), usados = new Set(bd.reels.flatMap((x) => x.fuentes)), desde = Date.now() - (+a[0] || 7) * 864e5;
+  for (const f of fs.readdirSync(D).filter((f) => !f.startsWith("."))) { const p = path.join(D, f), st = fs.statSync(p);
+    if (st.mtimeMs < desde) continue;
+    if (/\.zip$/i.test(f)) { const l = spawnSync("/usr/bin/unzip", ["-Z1", p]).stdout.toString().split("\n").filter((x) => VIDEO.test(x)); if (l.length && !bd.reels.some((x) => x.origen === p) && !fs.existsSync(p.replace(/-\d{8}T\d+Z.*$/, "")) ) console.log(`ZIP  ${l.length} clips  ${p}`); continue; }
+    let vs = []; try { vs = st.isDirectory() ? videosDe(p) : VIDEO.test(f) ? [p] : []; } catch (e) {}
+    const libres = vs.filter((v) => !usados.has(v));
+    if (libres.length) console.log(`${st.isDirectory() ? "CARPETA" : "ARCHIVO"}  ${libres.length} sin registrar de ${vs.length}  ${p}${st.isDirectory() ? "\n" + libres.map((v) => "    " + path.basename(v)).join("\n") : ""}`);
+  }
+}
+else if (orden === "copiar") { const o = buscar(a[0]); const pref = o.id.slice(0, o.id.lastIndexOf("_") + 1); const n = Math.max(...bd.reels.filter((x) => x.id.startsWith(pref)).map((x) => +x.id.slice(pref.length))) + 1; const id = pref + String(n).padStart(2, "0"), dir = path.join(path.dirname(o.dir), id);
+  fs.mkdirSync(path.join(dir, "export"), { recursive: true }); if (fs.existsSync(path.join(o.dir, ".cache"))) fs.cpSync(path.join(o.dir, ".cache"), path.join(dir, ".cache"), { recursive: true });
+  const r2 = { id, cliente: o.cliente, titulo: a.slice(1).join(" ") || o.titulo + " (2)", dir, fuentes: o.fuentes, estado: "pendiente", creado: ahora(), sesiones: [], mejoras: [], version: 1 }; bd.reels.push(r2); console.log("Nuevo reel " + id + " con el mismo bruto que " + o.id); guardar(); cortar(r2); }
+else if (orden === "titulo") { const r = buscar(a[0]); r.titulo = a.slice(1).join(" "); }
+else if (orden === "empezar") { cerrar(); const r = buscar(a[0]); r.sesiones.push({ ini: ahora() }); if (r.estado !== "cambios") r.estado = "editando"; console.log("En marcha: " + r.id); }
+else if (orden === "parar") { cerrar(); console.log("Reloj parado"); }
+else if (orden === "entregar") { const r = a[0] ? buscar(a[0]) : bd.reels.find((r) => r.sesiones.some((s) => !s.fin)); if (!r) fallo("Di qué reel entregas"); entregar(r, a[1]); }
+else if (orden === "cambios") { const r = buscar(a[0]); r.estado = "cambios"; r.version++; r.cambios = [...(r.cambios || []), a.slice(1).join(" ")]; console.log(`${r.id}: cambios del cliente apuntados (irá como v${r.version})`); }
+else if (orden === "estado") { const r = buscar(a[0]); if (!ESTADOS.includes(a[1])) fallo("Estados: " + ESTADOS.join(", ")); r.estado = a[1]; }
+else if (orden === "mejora") { const r = buscar(a[0]); r.mejoras.push(a.slice(1).join(" ")); }
+else if (orden === "borrar") { const r = buscar(a[0]); bd.reels.splice(bd.reels.indexOf(r), 1); console.log("Quitado del panel: " + r.id + " (los archivos no se tocan)"); }
+else if (orden === "retomar") { const r = buscar(a[0]); const f = crearEstado(r); console.log(f + "\n\n" + fs.readFileSync(f, "utf8")); }
+// (las órdenes desconocidas ya se rechazaron arriba, antes de escribir nada)
+if (SOLO_LECTURA.has(orden)) process.exit(0); // ni reels.json ni panel
+if (orden !== "panel") guardar();
+
+// --- Panel --- (solo clientes activos)
+const vivos = bd.reels.filter((r) => CLIENTES[r.cliente]);
+const esc = (s) => String(s ?? "").replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]);
+const hm = (m) => (m >= 60 ? Math.floor(m / 60) + " h " + String(Math.round(m % 60)).padStart(2, "0") + " min" : Math.round(m) + " min");
+const hoy = new Date().toDateString(), semana = Date.now() - 7 * 864e5;
+const entHoy = vivos.filter((r) => r.entregado && new Date(r.entregado).toDateString() === hoy);
+const minHoy = vivos.reduce((s, r) => s + r.sesiones.filter((x) => new Date(x.ini).toDateString() === hoy).reduce((t, x) => t + (new Date(x.fin || Date.now()) - new Date(x.ini)) / 60000, 0), 0);
+const meta = Object.values(CLIENTES).reduce((a, b) => a + b, 0);
+const activo = vivos.find((r) => r.sesiones.some((s) => !s.fin));
+const de = (e) => vivos.filter((r) => r.estado === e);
+const TIT = { pendiente: "Por cortar", cortado: "Listo para editar", editando: "En edición", cambios: "Cambios del cliente", entregado: "Entregado (7 días)" };
+const corto = (r) => r.id.split("_").slice(1).join("_");
+const tarjeta = (r) => { const m = min(r);
+  return `<div class="t${r === activo ? " act" : ""}"><div class="fila"><b>${esc(r.titulo)}</b><span class="c ${r.cliente}">${r.cliente}</span></div><div class="id">${r.id}${r.version > 1 ? " · v" + r.version : ""} · ${r.fuentes.length} clip${r.fuentes.length > 1 ? "s" : ""}</div>${r.corte ? `<div class="m">Corte: ${r.corte.seg}s de ${r.corte.bruto}s</div>` : ""}${m ? `<div class="m ${m > OBJETIVO_MIN ? "mal" : "bien"}">Tiempo: ${hm(m)}</div>` : ""}${r.qc ? `<div class="m ${r.qc.veredicto === "APROBADO" ? "bien" : "mal"}">Calidad: ${r.qc.veredicto}${[...r.qc.fallos, ...r.qc.avisos].map((x) => "<br>· " + esc(x)).join("")}</div>` : ""}${(r.cambios || []).map((x) => `<div class="n">Cliente: ${esc(x)}</div>`).join("")}${r.mejoras.map((x) => `<div class="n">↳ ${esc(x)}</div>`).join("")}${r.guion && r.estado !== "entregado" ? `<details><summary>Guion (${r.corte.dentro} de ${r.corte.frases} frases)</summary>${r.guion.map((g) => `<div class="g${g.dentro ? "" : " x"}"><i>${g.n}</i>${esc(g.texto)}</div>`).join("")}<div class="n">Para cambiarlo: «en ${r.cliente} ${+r.id.split("_").pop()} quita 3 y 7» o «recupera 4».</div></details>` : ""}</div>`; };
+const cols = ESTADOS.map((e) => { const l = vivos.filter((r) => r.estado === e && (e !== "entregado" || new Date(r.entregado) > semana)); return `<section><h2>${TIT[e]} <i>${l.length}</i></h2>${l.map(tarjeta).join("") || '<p class="v">—</p>'}</section>`; }).join("");
+const pasos = [];
+if (activo) pasos.push(`Estás con <b>${esc(activo.titulo)}</b> (${hm(min(activo))}). Al exportar a su carpeta <code>export</code>, di «entrega».`);
+de("cambios").forEach((r) => pasos.push(`Cambios del cliente en <b>${esc(r.titulo)}</b>: ${esc((r.cambios || []).slice(-1)[0] || "")}`));
+if (de("pendiente").length) pasos.push(`Hay ${de("pendiente").length} reel(es) por cortar: di «procesa los de hoy» y sigue con otra cosa.`);
+de("cortado").forEach((r) => pasos.push(`Editar <b>${esc(r.titulo)}</b> <span class="c ${r.cliente}">${r.cliente}</span>: di «empiezo ${r.cliente} ${+r.id.split("_").pop()}».`));
+if (!pasos.length) pasos.push(entHoy.length >= meta ? "Día cerrado: los reels de hoy están entregados." : "Sin material: deja los brutos en la carpeta <code>entrada</code> del cliente o dime dónde están.");
+const porCliente = Object.keys(CLIENTES).map((c) => { const l = vivos.filter((r) => r.cliente === c && r.entregado && new Date(r.entregado) > semana); const med = l.length ? l.reduce((s, r) => s + min(r), 0) / l.length : 0; const h = entHoy.filter((r) => r.cliente === c).length; return `<tr><td><span class="c ${c}">${c}</span></td><td>${h} / ${CLIENTES[c]}</td><td>${l.length}</td><td class="${med > OBJETIVO_MIN ? "mal" : "bien"}">${l.length ? hm(med) : "—"}</td></tr>`; }).join("");
+const mejoras = vivos.flatMap((r) => r.mejoras.map((m) => `<li><b>${esc(r.titulo)}</b> — ${esc(m)}</li>`)).slice(-12).reverse().join("") || '<li class="v">Al terminar un reel dime qué mejorarías y lo apunto aquí.</li>';
+fs.writeFileSync(PANEL, `<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="120"><title>Panel de reels</title><style>
+:root{--f:#0d1117;--p:#161b22;--b:#30363d;--t:#e6edf3;--s:#8b949e;--az:#1E6BFF;--ok:#3fb950;--ko:#f0883e}
+*{box-sizing:border-box}body{margin:0;padding:24px;background:var(--f);color:var(--t);font:15px/1.45 -apple-system,"Helvetica Neue",Arial,sans-serif}
+h1{margin:0 0 4px;font-size:24px}h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--s);margin:0 0 10px}h2 i{font-style:normal;background:var(--b);color:var(--t);border-radius:10px;padding:1px 8px;margin-left:4px}
+.sub{color:var(--s);margin-bottom:20px}.k{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}.k div{background:var(--p);border:1px solid var(--b);border-radius:12px;padding:14px 16px;overflow-wrap:anywhere}.k b{display:block;font-size:24px}.k span{color:var(--s);font-size:13px}
+.crono{display:flex;gap:28px;align-items:center;background:#0f2a18;border:1px solid var(--ok);border-radius:14px;padding:18px 24px;margin-bottom:14px}.crono.off{background:var(--p);border-color:var(--b)}.crono span{color:var(--s);font-size:13px;text-transform:uppercase;letter-spacing:.06em}.crono b{display:block;font:600 56px/1 ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}.crono .quien{flex:1}.crono strong{display:block;font-size:20px}.crono em{font-style:normal;color:var(--s);font-size:13px}.crono p{margin:0;color:var(--s)}.barra{height:8px;background:var(--b);border-radius:6px;margin:10px 0 4px;overflow:hidden}.barra i{display:block;height:100%;width:0}.crono small{color:var(--s)}
+.ahora{background:#10203f;border:1px solid var(--az);border-radius:12px;padding:14px 18px;margin-bottom:22px}.ahora ol{margin:0;padding-left:20px}.ahora li{margin:4px 0}code{background:var(--b);border-radius:5px;padding:1px 6px;font-size:13px}
+.col{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:24px}section{background:var(--p);border:1px solid var(--b);border-radius:12px;padding:14px;min-height:120px}
+.t{background:var(--f);border:1px solid var(--b);border-radius:10px;padding:10px 12px;margin-bottom:8px;overflow-wrap:anywhere}.t.act{border-color:var(--az);box-shadow:0 0 0 1px var(--az)}.fila{display:flex;gap:8px;justify-content:space-between;align-items:flex-start}.id{color:var(--s);font-size:12px}
+.c{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding:1px 8px;border-radius:10px;background:var(--b);white-space:nowrap}.c.amin{background:#12306e}.c.eric{background:#3b2a63}.c.natalia{background:#5a2440}
+.m{font-size:13px;margin-top:4px}.bien{color:var(--ok)}.mal{color:var(--ko)}.n{font-size:13px;color:var(--s);margin-top:4px}.v{color:var(--s);margin:0}
+details{margin-top:8px;font-size:13px}summary{cursor:pointer;color:var(--s)}.g{display:flex;gap:8px;padding:3px 0;border-top:1px solid var(--b)}.g i{font-style:normal;color:var(--s);min-width:20px;text-align:right}.g.x{color:var(--s);text-decoration:line-through}
+.flujo{min-height:0;margin-bottom:24px}.pasos{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.pasos div{background:var(--f);border:1px solid var(--b);border-radius:10px;padding:10px}.pasos b{display:block}.pasos span{display:block;font-size:13px;color:var(--s);margin:4px 0}.pasos i{font-style:normal;font-size:12px;color:var(--az)}@media(max-width:1000px){.pasos{grid-template-columns:1fr 1fr}}
+.dos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:7px 6px;border-bottom:1px solid var(--b)}th{color:var(--s);font-weight:500;font-size:13px}ul{margin:0;padding-left:18px}li{margin-bottom:6px}
+@media(max-width:1000px){.col,.dos,.k{grid-template-columns:1fr 1fr}}@media(max-width:560px){.col,.dos,.k{grid-template-columns:1fr}}
+</style><h1>Panel de reels</h1><div class="sub">Actualizado ${new Date().toLocaleString("es-ES")} · objetivo ${OBJETIVO_MIN} min por reel</div>
+<div class="k"><div><b>${entHoy.length} / ${meta}</b><span>entregados hoy</span></div><div><b>${hm(minHoy)}</b><span>editando hoy</span></div><div><b>${de("cortado").length}</b><span>listos para editar</span></div><div><b>${activo ? esc(corto(activo)) : "—"}</b><span>${activo ? "en marcha: " + hm(min(activo)) : "ningún reel en marcha"}</span></div></div>
+${(() => { const ab = activo && activo.sesiones.find((s) => !s.fin); if (!ab) return '<div class="crono off"><div><span>Cronómetro</span><b>00:00:00</b></div><p>Ningún reel en marcha. Dime «empiezo amin 3» (o el que sea) y arranca.</p></div>'; const previo = activo.sesiones.filter((s) => s.fin).reduce((x, s) => x + (new Date(s.fin) - new Date(s.ini)), 0); return `<div class="crono" id="crono" data-ini="${ab.ini}" data-previo="${previo}" data-obj="${OBJETIVO_MIN}"><div><span>Editando ahora</span><b id="reloj">00:00:00</b></div><div class="quien"><strong>${esc(activo.titulo)}</strong><em>${activo.id} · <span class="c ${activo.cliente}">${activo.cliente}</span></em><div class="barra"><i id="barra"></i></div><small id="resto"></small></div></div><script>(function(){var c=document.getElementById("crono"),ini=new Date(c.dataset.ini).getTime(),prev=+c.dataset.previo,obj=+c.dataset.obj*60000;function p(n){return (n<10?"0":"")+n}function tic(){var ms=prev+Date.now()-ini,s=Math.floor(ms/1000);document.getElementById("reloj").textContent=p(Math.floor(s/3600))+":"+p(Math.floor(s%3600/60))+":"+p(s%60);var f=Math.min(1,ms/obj);var b=document.getElementById("barra");b.style.width=(f*100)+"%";b.style.background=ms>obj?"#f0883e":"#3fb950";document.getElementById("resto").textContent=ms>obj?"Te pasas "+Math.round((ms-obj)/60000)+" min del objetivo de "+(obj/60000)+" min":"Quedan "+Math.round((obj-ms)/60000)+" min del objetivo de "+(obj/60000)+" min";document.title=document.getElementById("reloj").textContent+" · "+c.querySelector("strong").textContent}tic();setInterval(tic,1000)})();</script>`; })()}
+<div class="ahora"><h2>Qué toca ahora</h2><ol>${pasos.map((p) => `<li>${p}</li>`).join("")}</ol></div>
+<div class="col">${cols}</div>
+<section class="flujo"><h2>El flujo de cada reel (objetivo ${OBJETIVO_MIN} min)</h2><div class="pasos">${[["1 Entrada", "Tú: «llegó material de…»", "1 min"], ["2 Corte", "Yo: quito pausas, repetidas y tomas malas", "sin ti"], ["3 Guion", "Tú: lees el guion numerado y corriges", "5 min"], ["4 Montaje", "Tú en Premiere: orden, imágenes, ritmo, música", "40 min"], ["5 Marca", "Yo: subtítulos y gráficos de la plantilla", "sin ti"], ["6 Entrega", "Tú exportas a export · yo reviso calidad", "10 min"], ["7 Cierre", "Tú: una frase de qué mejorar", "1 min"]].map((p) => `<div><b>${p[0]}</b><span>${p[1]}</span><i>${p[2]}</i></div>`).join("")}</div></section>
+<div class="dos"><section><h2>Por cliente</h2><table><tr><th>Cliente</th><th>Hoy</th><th>7 días</th><th>Media por reel</th></tr>${porCliente}</table></section><section><h2>Qué mejorar</h2><ul>${mejoras}</ul></section><section><h2>Cómo se usa (me lo escribes)</h2><ul><li>«Llegó material de Natalia en Descargas»</li><li>«Procesa los de hoy»</li><li>«En amin 1 quita 3 y 7» · «recupera 4»</li><li>«Empiezo amin 1» · «paro»</li><li>«Entrega» (tras exportar a <code>export</code>)</li><li>«Natalia 1: el cliente pide cambiar…»</li><li>«Apunta que mejoraría…»</li></ul></section></div></html>`);
+if (orden === "panel") console.log("Panel: " + PANEL);

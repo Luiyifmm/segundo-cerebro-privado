@@ -1,0 +1,222 @@
+{
+ "alumno": "Álvaro Cabrera",
+ "video_id": "mwjpzvk8434piive",
+ "titulo_salida": "Álvaro - comer esto o esto",
+ "bruto": "bruto.mp4",
+ "palabras": "prep/palabras.json",
+ "hdr": true,
+ "tramos": [
+  [
+   0.0,
+   34.95
+  ]
+ ],
+ "marca": {
+  "nombre": "Álvaro Cabrera",
+  "inicial": "Á",
+  "usuario": "@alvarocabrerafitness",
+  "rol": "Hábitos sin dietas raras",
+  "bueno": "#A259FF",
+  "malo": "#FF5F57",
+  "clave_font": "sequel"
+ },
+ "cara_y": 0.3,
+ "sub_y": 1600,
+ "degradado_desde": 0.66,
+ "zooms": [
+  [
+   10.62,
+   11.9,
+   1.1
+  ],
+  [
+   20.12,
+   20.9,
+   1.08
+  ],
+  [
+   29.43,
+   29.98,
+   1.12
+  ],
+  [
+   31.3,
+   32.25,
+   1.1
+  ]
+ ],
+ "transiciones": [
+  23.55,
+  26.62,
+  32.3
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 0.1,
+   "t1": 2.95,
+   "y": 90,
+   "linea1": "¿Qué prefieres comer un año?",
+   "linea2": "¿ESTO… O ESTO?",
+   "col": "bueno"
+  },
+  {
+   "tipo": "pill",
+   "t0": 3.67,
+   "t1": 11.9,
+   "x": 800,
+   "y": 1090,
+   "emoji": "🥱",
+   "texto": "La de siempre",
+   "col": "crema",
+   "tam": 34
+  },
+  {
+   "tipo": "titulo",
+   "t0": 6.03,
+   "t1": 7.05,
+   "y": 90,
+   "linea1": "Lo aguantas…",
+   "linea2": "1 SEMANA",
+   "col": "malo"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 7.07,
+   "t1": 8.0,
+   "y": 90,
+   "linea1": "Lo aguantas…",
+   "linea2": "2 SEMANAS",
+   "col": "malo"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 8.05,
+   "t1": 9.75,
+   "y": 90,
+   "linea1": "con mucha suerte…",
+   "linea2": "3 SEMANAS",
+   "col": "malo"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 10.62,
+   "t1": 12.2,
+   "y": 90,
+   "linea1": "Y luego…",
+   "linea2": "VUELVES AL DE ANTES",
+   "col": "malo"
+  },
+  {
+   "tipo": "pill",
+   "t0": 12.54,
+   "t1": 16.0,
+   "x": 280,
+   "y": 1090,
+   "emoji": "😋",
+   "texto": "Rico y rápido",
+   "col": "bueno",
+   "tam": 34
+  },
+  {
+   "tipo": "pildoras",
+   "t1": 23.5,
+   "y": 80,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 19.82,
+     "texto": "Comer menos y peor",
+     "marca": "no"
+    },
+    {
+     "t": 22.08,
+     "texto": "Algo que te apetezca repetir",
+     "marca": "si"
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "t0": 23.64,
+   "t1": 26.55,
+   "y": 90,
+   "linea1": "El plato perfecto",
+   "linea2": "NO SIRVE DE NADA",
+   "col": "malo"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 25.64,
+   "t1": 26.55,
+   "x": 860,
+   "y": 720,
+   "lado": 220,
+   "emoji": "🔟",
+   "texto": "Día 10",
+   "marca": "no"
+  },
+  {
+   "tipo": "pildoras",
+   "t1": 31.0,
+   "y": 80,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 28.07,
+     "texto": "La más estricta",
+     "marca": "no"
+    },
+    {
+     "t": 29.2,
+     "texto": "La que puedes mantener",
+     "marca": "si"
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "t0": 32.7,
+   "t_clic": 32.95,
+   "y": 120,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "¿Qué prefieres comer durante *un año?*",
+  "*Esto… o esto?*",
+  "Este es el plato que todo el mundo",
+  "te pone cuando pides *una dieta.*",
+  "Lo aguantas *una semana,*",
+  "puede que *dos,*",
+  "o con mucha suerte, *tres.*",
+  "Y luego, ¿qué pasa?",
+  "Que lo dejas y *!vuelves al de antes.*",
+  "Ahora mira *este.*",
+  "Está *rico,*",
+  "te sacia y se hace *en minutos.*",
+  "Y la mayoría de las veces,",
+  "por no decir *absolutamente todas,*",
+  "lo que te ayuda realmente",
+  "no es *!comer menos y peor.*",
+  "Lo que te ayuda es comer algo",
+  "que te apetezca *repetir.*",
+  "Porque el plato perfecto",
+  "no te sirve *!de nada*",
+  "si lo abandonas *!al décimo día.*",
+  "La mejor dieta no es *!la más estricta,*",
+  "es la que puedes *mantener,*",
+  "porque si odias lo que comes,",
+  "el *!rebote está asegurado.*",
+  "*Sígueme* para más platos",
+  "que no te hagan *odiar la dieta.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "phoenix-1901-instrumental-hq.mp3",
+ "musica_desde": 0
+}

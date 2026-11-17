@@ -1,0 +1,317 @@
+# Trampas de After Effects por script (ExtendScript) — probadas
+
+> Parte de la skill **after-effects-editor**. Generado del CEREBRO (la base de conocimiento de las clases, 29/09–02/10/2026). Las rutas de proyectos de ejemplo (`Tanda…/…`) son del PC del autor: no vienen en la skill.
+
+## 5. After Effects por script (ExtendScript): trampas conocidas
+
+- ⭐ **Los motores 3D y su nombre por script** (`comp.renderer`). Probado el 01/10/2026 con una comp de prueba por motor. **Antes este archivo tenía los nombres al revés**: lo que llamaba "Classic 3D" (`ADBE Calder`) es el Advanced 3D.
+
+  | Por script | En AE | Efectos en texto o forma 3D | Motion blur en capas 3D | Profundidad de campo | Modelos .glb | Opciones de cámara ocultas |
+  |---|---|---|---|---|---|---|
+  | `"ADBE Advanced 3d"` | **Classic 3D** | sí | **sí** | sí, suave | no se ven | Focus Area Width, Near/Far Blur Level |
+  | `"ADBE Calder"` | **Advanced 3D** | **no** | **no** (error "not supported") | **sí, fuerte** | **sí** | Blur Level, todo el iris y los brillos |
+  | `"ADBE Ernst"` | Cinema 4D | no en formas (son extruibles); sí en capas planas | no | no (todo oculto) | no se ven | toda la profundidad de campo |
+
+  - **Para un movimiento de cámara con motion blur, Classic 3D** (`"ADBE Advanced 3d"`). Para modelos .glb o un desenfoque fuerte, Advanced 3D (`"ADBE Calder"`). Para extruir, Cinema 4D (`"ADBE Ernst"`).
+- ES3: sin `let/const`, sin funciones flecha, sin JSON. **Nunca** `alert/confirm/prompt` (congela AE).
+- **Tras `addProperty` en un grupo de forma, las referencias previas a propiedades hermanas quedan inválidas.** Hay que volver a buscarlas por matchName.
+- **Los colores de degradado de las capas de forma no se pueden cambiar por script** (NO_VALUE). Se usa el efecto Gradient Ramp.
+- **Emparentar por script compensa la transformación** (el hijo puede quedar al 333 %). Hay que fijar escala y posición locales **después** de `parent =`.
+- **Gaussian Blur 2026:** "Repeat Edge Pixels" viene activado por defecto; en capas de forma recorta el desenfoque.
+- Puntos de efecto en capas de forma (p. ej., el Ramp): van en las **mismas coordenadas que el trazado** de la forma. El contenido en coordenadas negativas **no** se recorta con efectos (comprobado en la clase 11).
+- Texto centrado de verdad: `r = capa.sourceRectAtTime(0,false)` y el punto de anclaje en `[r.left+r.width/2, r.top+r.height/2]`.
+- Texto en párrafo: `comp.layers.addBoxText([ancho, alto], texto)`. Su posición es el centro de la caja.
+- Guías de composición (tercios y centro): `comp.addGuide(1, x)` para verticales y `comp.addGuide(0, y)` para horizontales.
+- Render: **una secuencia TIFF hacia una ruta con tildes falló** (error 784). Renderizar a una ruta sin tildes y mover el archivo después. El H.264 va bien.
+- Las previsualizaciones con grano o ruido salen en PNG de más de 8 MB: convertirlas a JPG para revisarlas.
+- **Gradient Ramp reemplaza el color de TODA la capa** (respeta el alfa): los detalles de otro color van en capas separadas.
+- **Banding** en degradados oscuros: proyecto a **16 bpc** (`app.project.bitsPerChannel = 16`) + Ramp Scatter 30–40 + grano 2,5–3 %.
+- Texto extruido: solo con el renderizador Cinema 4D (`ADBE Ernst`). Con `"ADBE Advanced 3d"` (Classic 3D): "property is hidden".
+- `layer.moveTo()` no existe (es para propiedades): usar `moveBefore / moveAfter / moveToBeginning / moveToEnd`.
+- **Profundidad de campo:** con `"ADBE Advanced 3d"` (Classic 3D) es muy suave; con **`"ADBE Calder"` (Advanced 3D) desenfoca fuerte** (misma apertura; prueba del 01/10/2026).
+- **Fractal Noise como humo:** teñirlo con Tint, brillo −45 y al 10–15 %, o lava la imagen.
+- Las formas creadas con `box()` están en coordenadas de comp: si se anima la posición de la capa, animar el **desplazamiento** ([0,0] = sitio original).
+- **Verificar fuentes:** tras `doc.font = "PS-Name"` releer `doc.font`; si devuelve otra, la fuente falta (AE la sustituye en silencio).
+- `$.evalFile(archivo)` devuelve el valor de la **última expresión** del archivo; un `return` a nivel superior da error.
+- Fuentes del pack marcadas **"FONTSPRING DEMO" (Integral CF) y "Test" (Söhne)** = versiones de prueba, **no comerciales**.
+- **Luz paralela:** la difusión de sombra está oculta (sombras duras). Para sombras suaves: Spot o Point.
+- Renderizador Cinema 4D: **las formas también se extruyen**; las formas 3D planas proyectan sombra con "Casts Shadows"; los efectos en capas planas 3D sí se ven (como textura), en capas extruidas no.
+- "Can not call setValue() on a property with keyframes": colocar la capa **antes** de animarla (o usar `setValueAtKey`).
+- PowerShell del entorno: rutas con "(intro)" o "\07" pueden disparar un falso "Remove-Item blocked". Usar `Join-Path` / `-LiteralPath` y comandos más simples.
+- **Elementos que "salen de detrás":** ocultarlos (opacidad 0 con key HOLD) hasta su instante de salida; si no, se ven flotando antes de que aparezca lo que los tapa.
+- **Orden de grupos en capas de forma:** el grupo 1 se dibuja ENCIMA; `addProperty` añade al final (debajo). Reordenar con `grupo.moveTo(n)`.
+- **Capas 3D de dos caras:** AE muestra la misma imagen (espejada) por detrás; para una cara trasera distinta, poner otra capa emparentada a +1 px en Z local.
+- **Render del renderizador Cinema 4D ≈ 1,6 s por fotograma (1080p)** con texto y formas extruidas y sombras: calcular el tiempo antes. Para corregir un tramo, renderizar solo ese tramo (área de trabajo) y empalmarlo con ffmpeg (trim + concat).
+- **No duplicar una precomp 3D pesada** (p. ej. 3 copias para la separación RGB): se calcula 3 veces (el reel de 26 s tardó +20 min). Mejor: **pre-renderizar la escena 3D** a un archivo intermedio y aplicar el look sobre el vídeo, o hacer la separación RGB con **una sola copia + una capa de ajuste** (Shift Channels sobre duplicados de capa de ajuste), o bajar la calidad de DOF de la cámara.
+- **Los efectos generadores (Grid, Fractal Noise, Ramp…) llenan toda la capa:** sobre una capa de forma no se recortan a la forma. Usar un sólido + Corner Pin, una máscara o un mate.
+- Orden de capas por script: `moveBefore(x)` = encima de x, `moveAfter(x)` = debajo de x. Revisar siempre con una vista previa.
+- `comp.layers.add(precomp)` + `layer.replaceSource(otraComp, false)` cambia el contenido y mantiene transformaciones y efectos. Sirve para variantes BIEN/MAL.
+- **Añadir un grupo nuevo a una capa de forma invalida las variables de los grupos anteriores:** hay que rellenar (fill/stroke) cada grupo justo al crearlo.
+- Rotación 2D de una capa: `ADBE Rotate Z` (no existe "ADBE Rotation").
+- **Modelos glTF/glb:** AE los auto-escala (p. ej., 839 %). Poner la escala a mano y orientar con Rotate X/Y. Para inclinar el resultado, rotar la **precomp** en 2D (Rotate Z del modelo gira en su propio espacio).
+- **AE 2026 · motor `ADBE Calder` (Advanced 3D):**
+  - **Los efectos NO se ven en capas de TEXTO ni de FORMA en 3D** (rasterizado continuo, no se puede apagar). En sólidos, footage y precomps 3D sí. → Meter el texto o la forma con sus efectos en una **precomp** y hacer 3D la precomp.
+  - **No deja activar el desenfoque de movimiento** en capas 3D ("Motion blur is not supported by the current composition renderer"). → Motion blur falso (receta 4.33), o el motor Classic 3D si no hace falta nada de Calder.
+  - La cámara tiene el **"Blur Level" oculto** (se queda en 100 %). Leer ciertos valores de cámara o de capas 3D emparentadas da "invalid numeric result": usar `try/catch` o `valueAtTime`.
+- `final`, `int`, `char`, `long`, `short`, `class`, `const`, `enum`, `static`, `goto`… son **palabras reservadas en ES3**: no usarlas como nombres de función o variable ("Illegal use of reserved word").
+- **MCP de AE (desde el 30/09/2026: github.com/23d1/after-effects-mcp).**
+  - Cada orden se guarda como .jsx y se lanza con `AfterFX.exe -r`. El resultado vuelve por un archivo. No hay panel en AE.
+  - El script va envuelto en una función, así que **hace falta `return`** para devolver un valor (con `$.evalFile(...)`, `return $.evalFile(...)`).
+  - Los datos entran por `args` y llegan como la variable `ARGS`. Con `undoLabel`, todo se deshace con un Ctrl+Z.
+  - **Una orden a la vez.** Una ventana modal en AE (aviso, plugin, "¿guardar?") hace que todas las órdenes den timeout.
+  - `ae_save_frame` sirve para ver un fotograma: el fondo de la comp sale transparente.
+  - `ae_render` falla si el archivo existe, salvo con `overwrite: true`.
+  - **Tildes y ñ:** probado en AE 26.5, lee bien los .jsx en UTF-8 con BOM y sin él, tanto con `-r` como con `$.evalFile`. Aun así, los textos y las rutas conviene pasarlos por `args`.
+  - Si algo falla, `npm run doctor` en la carpeta del MCP dice qué paso se rompe.
+  - El MCP anterior ("Claude Bridge", de LiamcKerr) está desinstalado; hay copia en `after-effects-mcp (viejo)`.
+- **SVG:** AE 26.5 lo importa de forma nativa. `new ImportOptions(archivo).canImportAs(...)` da sí para FOOTAGE y COMP_CROPPED_LAYERS, y no para COMP (probado el 30/09/2026, sin importar nada). Para trazados editables por script, `svgShape()` de `glass_lib.jsx` con los `d` sacados de la web.
+- `pop()` y `rise()` de la librería son para capas 2D. En 3D, la escala y la posición llevan 3 valores.
+- Parentar con `parentKeep()` pone la escala local a 100: en emojis escalados, guardar su escala antes y reponerla después.
+- **Roughen Edges:** Border `-0002`, Edge Sharpness `-0003`, Scale `-0005` (mínimo 10). Edge Color es `-0010`.
+- Un falso positivo de PowerShell ("Remove-Item on system path '//'") salta con cadenas que contienen `//`. → Hacer los parches de texto con un `.py`.
+- **Plugins que abren ventanas bloquean AE** (el puente deja de responder hasta que alguien la cierre). Pasó con **Optical Flares** (alerta de licencia).
+  - Probar cada plugin nuevo **solo y aparte** antes de meterlo en un proyecto.
+  - Si AE no responde, pedir al usuario que cierre la ventana: no se puede controlar la pantalla.
+- Los plugins de Plugin Everything muestran en sus parámetros el texto "Unlicensed, click 'Register'…". Para detectar licencias por script, buscar `licen|regist|trial|serial` en `effect.property(k).name`. Pero **la prueba real es renderizar** y mirar si hay marca de agua.
+- **Tanda 02 (AE 26.5):**
+  - **Extrusión (Geometry Options) solo por script con el renderizador Cinema 4D.** **`"ADBE Advanced 3d"` (que es el Classic 3D) + extrusión + luz de entorno cerró AE** al previsualizar. Lo estable: C4D + capa con `environmentLayer = true`.
+  - **Precomp 3D con "contraer transformaciones" que solo tiene capas 2D:** no se inclina con el motor `"ADBE Calder"` (el de las escenas de Glass Health; la rotación X no se ve). Desactivar el contraer.
+  - **Puntos de Ramp y 4-Color en capas de forma o texto que se mueven:** van en coordenadas de la comp → `toComp([x, y])` (receta 4.50). Esto matiza la nota de arriba: vale para capas quietas.
+  - **Time Remap:** borrar todas sus keys lo oculta ("property is hidden"). Crear primero las keys nuevas y después quitar las viejas, o congelar con la expresión `2.5`.
+  - **La opacidad no se hereda por parentesco** (un nulo al 0 % no oculta a sus hijos): animarla en cada capa.
+  - **Velocidades de keys 1D con signo** (receta 4.43).
+  - **Área de trabajo:** `workAreaStart` redondea al fotograma más cercano de una forma poco predecible (97/30 → 96). Asignar y **leer** el resultado; si falla, sumar 0,2–0,4 fotogramas.
+  - Quitar todas las keys de opacidad deja el último valor (p. ej., 0): poner 100 a mano.
+  - **Estilos mezclados en un texto:** `textDocument.characterRange(a, b)` funciona (fuente o color por rango).
+  - Tras `effect.moveTo(n)` o tras añadir otra propiedad al mismo grupo, la variable del efecto o del rectángulo queda inválida: volver a buscarla.
+  - Leer propiedades de capas con muchas keys en un script largo a veces da "invalid numeric result": envolver en `try/catch` y convertir con `String(p.value)`.
+  - `ae_render` con una ruta con tildes (H.264) funcionó bien; ffmpeg también, llamado desde Python (en PowerShell 5.1 las tildes en argumentos pueden fallar).
+- **Rehecho v2 de Glass Health (30/09/2026):**
+  - ⛔ **Bucle infinito que colgó AE:** `while (pos.numKeys) pos.removeKey(1)` sobre una Posición **con dimensiones separadas**. `numKeys` cuenta las keys de X, pero `removeKey` no borra nada.
+    - Se tuvo que cerrar AE a la fuerza y reabrir el proyecto (estaba guardado del script anterior).
+    - Regla: con dimensiones separadas, trabajar sobre `ADBE Position_0/_1`; y poner **siempre un tope** a los `while` (`n++ < 200`).
+  - **No llamar `keys` (ni otro nombre de la librería) a una función propia:** las declaraciones de función se "suben" arriba y luego `$.evalFile(librería)` las pisa. Usar `var kf2 = function…`.
+  - **`setTemporalEaseAtKey` quita la interpolación HOLD:** poner las retenciones **al final**.
+  - **Render desfasado:** tras borrar y recrear keys, a veces el render sigue usando la animación vieja. "Tocar" las keys con `p.setValueAtKey(k, p.keyValue(k))`.
+  - Una **capa de forma duplicada** (`duplicate()`) con trazados por expresión no se renderizaba: crearla de nuevo con `addShape()`.
+  - **Gaussian Blur en una precomp grande escalada** (2100 px al 50 %) **no hacía nada**, ni con 40. **Box Blur sí.** Comprobar siempre que un desenfoque se ve.
+  - Los **puntos de efecto** (Ramp) en capas de texto o forma están en **coordenadas de la comp**: poner los valores de la comp directamente (no `fromComp`). `toComp` solo si se parte de coordenadas de la capa.
+  - **Deep Glow con exposición 0 sigue brillando:** para apagarlo, **Mix** (`PEDG2-0082`) a 0.
+  - El renderizador **C4D oculta Transparency e Index of Refraction** ("property is hidden"): nada de cristal transparente real.
+  - **Área de trabajo:** 375/30 se quedaba en 374 → asignar `(f + 0,4)/30` y leerla.
+  - Si el puente no responde durante minutos con la CPU al 100 % y la memoria creciendo, es un **bucle del script** (no un diálogo). Guardar el proyecto al final de **cada** script evita perder trabajo.
+- **Proyecto propio del faro (30/09/2026):**
+  - ⛔ **Máscara con calado grande en un sólido enorme:** 30000×3000 con calado 2000 pasó de 3,5 s a más de 2 min por fotograma. Usar un sólido pequeño escalado, con calado proporcional (3000×300 al 2400 %, calado 200).
+  - **Medir el tiempo por fotograma después de cada bloque de capas.** Una sola capa puede multiplicarlo por 30.
+  - **Luz recién creada:** después de cambiar `lightType`, emparentarla dio "property is hidden". Mejor no emparentar: posición y orientación por expresión (`toWorld` + `lookAt`).
+  - **Emparentar por script también cambia la Orientación:** tras `parent =`, poner Orientation, Rotate X/Y/Z, Scale y Position a mano.
+  - **Una capa 2D en medio de capas 3D parte el render en grupos:** lo de encima siempre tapa lo de debajo. Útil para reflejos y fondos.
+  - El efecto **Offset repite la textura** (la envuelve): en texturas que no se repiten, usar Turbulent Displace u otro temblor.
+  - **`ae_save_frame` en paralelo:** dos a la vez devolvieron el mismo archivo. Una orden a la vez, también para mirar.
+  - **`ae_render` de más de 30 min:** Claude Code corta la llamada (1800 s sin respuesta), pero AE sigue renderizando. No mandar órdenes a AE: vigilar el archivo (primero un `.m4v` temporal de 0 MB, al final el `.mp4`).
+  - **Render a media resolución por script:** `rqItem.setSettings({"Resolution": "Half"})` después de `applyTemplate("Best Settings")`. Aquí fue ~4 veces más rápido que a resolución completa.
+  - **Deep Glow en una capa de ajuste sobre toda la escena:** en el faro puse umbral 0,55 creyendo que era 55 %, pero **va en %**: 0,55 es casi sin umbral (corregido en la clase 12). Lo que evitó que se lavaran la niebla y el cielo fue la exposición baja (0,25). Para que solo brille lo más claro, subir el umbral a 50–80.
+  - El agua con textura oscura **que recibe luces** queda negra: agua y cielo, sin luces y con la luz en la textura.
+  - Las **luces de AE en un cilindro de tiras** marcan cada faceta: luz horneada en la textura y tiras sin luces.
+  - **Destellos de tamaño fijo en el mundo** tapan la pantalla al acercarse: el tamaño va ∝ distancia a la cámara.
+  - **CC Particle Systems II:** Birth Rate de 1–3 ya es mucho; 26 = explosión blanca.
+- **Clase 12 "Mira cómo edito" (30/09/2026):**
+  - **Deep Glow 2:** el umbral (`-0020`) y su suavizado (`-0021`) van en **%**: 79 % = 79.
+    - Tinte: Tint Mode `-0043` = 2 (monocolor), Color `-0042`, Tint Strength `-0044` (0–100).
+  - **Degradado de 4 colores, modelo exacto (medido con `sampleImage`):** color = Σ wᵢ·cᵢ / Σ wᵢ, con **wᵢ = 1/(dᵢ² + fusión²)^1,1**. Error < 1 nivel con fusión 100–2000.
+    - Con fusión alta, ni junto a un punto se llega a su color.
+    - Los puntos pueden ir fuera de la capa.
+    - Modo de fusión `ADBE 4ColorGradient-0014`: 1 Ninguno, 2 Normal, 4 Añadir, **5 Multiplicar**, 6 Trama, 11 Sobreexponer color, 12 Subexponer color, 16 Diferencia.
+  - **CC Vignette (ángulo 45°, cuadro 4K): factor de luz según la distancia al centro** (0 / 270 / 540 / 810 / 1050 / 1440 / 1860 / 2140 px):
+    - 100 → 1,00 / 0,99 / 0,97 / 0,94 / 0,90 / 0,83 / 0,74 / 0,68;
+    - 144 → 1,00 / 0,99 / 0,96 / 0,91 / 0,86 / 0,76 / 0,63 / 0,54;
+    - 200 → 1,00 / 0,98 / 0,95 / 0,88 / 0,81 / 0,66 / 0,48 / 0,36;
+    - 260 → 1,00 / 0,98 / 0,93 / 0,85 / 0,75 / 0,56 / 0,33 / 0,17;
+    - 300 → 1,00 / 0,98 / 0,92 / 0,82 / 0,71 / 0,49 / 0,22 / 0,04.
+    - Es circular (no sigue la forma 16:9). Parámetros: Amount `CS Vignette-0001`, Angle of View `-0002`, Center `-0003`, Pin Highlights `-0005`.
+  - **CC Light Sweep:**
+    - Direction desde la vertical (+ = "/"); Shape 2 Smooth / 3 Sharp;
+    - la luz cae a la mitad a ±0,58·Width;
+    - Light Color `-0008` va con 4 valores ([r, g, b, 1]);
+    - un color cálido en la luz la **apaga** (se pierde el azul): mejor luz blanca + tinte en el Deep Glow.
+  - **CC RepeTile:** Blend Borders (`-0006`) va de 0 a 1. Con un degradado, las copias hacen costura: mejor una capa más grande.
+  - **Medir cómo se comporta un efecto:** comp de prueba + capa de texto cuya expresión de Source Text devuelve `thisComp.layer("x").sampleImage([x,y],[r,r],true,time)`. Se lee `.value.text` por script, sin renderizar a disco. Con esto se midieron la viñeta, los modos y el degradado.
+  - **Una orden larga (reconstruir + renderizar) tras muchos renders**, con AE a 22 GB, acabó con ventanas de error y AE cerrado.
+    - Prevención: `app.purge(PurgeTarget.ALL_CACHES)`, reconstruir y renderizar en órdenes separadas.
+    - Si AE se bloquea con una ventana, **pedir al usuario que LEA el texto antes de cerrarla** (no la podemos ver).
+  - **Render de 4K sin problemas (2 min para 6 s)** con `Best Settings` a resolución completa. A media resolución (`setSettings({"Resolution":"Half"})`) los trazos finos pierden el brillo.
+  - `app.fonts.allFonts` (AE 2026) da todas las fuentes agrupadas por familia (`postScriptName`, `styleName`): útil para comprobar si hay una fuente (Nexa-Heavy, Nexa-Bold…).
+- **Tanda 03 · 01 Expresiones, "La IA dominará el mundo" (30/09/2026):**
+  - ⚠️ **Barrido de degradado (Gradient Wipe): Completion (`-0001`) y Softness (`-0002`) van de 0 a 1 con `setValue`, pero en %** (0–100) **dentro de una expresión.**
+    - `setValue(4)` dio "out of range 0 to 1". Después dividí las expresiones entre 100 y todo se quedó en 0,009.
+    - Gradient Layer `-0003` = **índice** de la capa: ponerlo al final, cuando ya no se añaden capas (los índices cambian).
+    - Placement `-0004` = 3 (estirar); Invert `-0005`.
+    - La capa del degradado puede estar **apagada** (ojo cerrado) y sigue sirviendo.
+  - **CC Sphere:**
+    - Parámetros: Rot X `-0002`, Rot Y `-0003`, Radius `-0006`, Offset `-0007`, Render `-0008` (1 Full, 2 Outside, 3 Inside), Light Intensity `-0010`, Light Height `-0012`, Light Direction `-0013`, Ambient `-0016`, Diffuse `-0017`, Specular `-0018`, Metal `-0020`.
+    - **Ry = −longitud y Rx = −latitud** ponen ese punto del mapa de frente.
+  - **Capa de forma: poner la expresión del tamaño de la elipse ANTES de `fill()`/`stroke()`** en ese grupo. Después, la variable da "Object is invalid".
+  - **Mate por script:** `capa.setTrackMatte(mate, TrackMatteType.ALPHA_INVERTED)` (AE 2023+). La capa mate puede quedar apagada.
+  - **`File.name` viene codificado** (`%20`): para buscar un item importado por su nombre, usar `File.displayName`.
+  - **Una comp creada por script salió con la fase del obturador en 0.** Poner `shutterAngle = 180; shutterPhase = −90` (desenfoque centrado).
+  - **`linear()` con colores mezcla en RGB** (el medio sale gris): receta 4.75.
+  - **S_DigitalDamage** daña un poco aunque la intensidad sea 0. Para apagarlo, la opacidad del efecto por expresión (`fxOpacity()` de la librería).
+  - **Revisión de expresiones de todo el proyecto:** recorrer propiedades, `valueAtTime(t, false)` en 2 tiempos y leer `expressionError`. Aquí: 227 expresiones, 0 errores.
+  - **Audio en el H.264 de AE:** decodificado con ffmpeg va ~21 ms detrás (retardo del AAC, 1024 muestras). Imperceptible; no corregirlo.
+  - **Nombres PostScript:** `Gotham-Black`, `CascadiaMono-Regular`, `CascadiaMonoRoman-SemiBold`.
+  - **Parámetros usados:**
+    - Deep Glow exposición `PEDG2-0018`;
+    - Turbulent Displace: cantidad `-0002`, tamaño `-0003`, complejidad `-0005`, evolución `-0006`;
+    - Tint cantidad `-0003`; Exposure2 exposición `-0003`;
+    - Box Blur2 radio `-0001`, repetir bordes `-0004`;
+    - Grid (comprobado): ancla `-0001`, Size From `-0002` (3 = ancho y alto), ancho `-0004`, alto `-0005`, borde `-0006`, Invert Grid `-0011`, color `-0012`, opacidad `-0013`, modo `-0014`.
+      - Celda 46 + borde 42 + Invert Grid = **retícula de puntos de 4 px**.
+- **Tanda 03 · 02 "Dominando las curvas" (30/09/2026):**
+  - **Create Shapes from Text por script:** la comp abierta en el visor, SOLO la capa de texto seleccionada y `app.executeCommand(app.findMenuCommandId("Create Shapes from Text"))` (id 3781 en AE 26.5).
+    - Deja "<texto> Outlines" con un grupo por carácter. Cada grupo lleva **Stroke 1 encendido y Fill 1 APAGADO**; las letras con varios contornos llevan además Merge Paths.
+    - La capa de texto queda oculta.
+    - Separar en capas: `separarLetras()` de ae_lib (duplicar y borrar los otros grupos).
+  - `sourceRectAtTime(0, false)` **no incluye el trazo**. Las letras redondas (C, O) bajan 0,2 unidades de la capa por debajo de la base: con el ancla "abajo", quedan 2 px más bajas.
+  - **Keys en tiempo negativo:** se pueden (`setValueAtTime(-1/30, …)`) e interpolan bien. Sirve para una entrada que "ya venía" antes del primer fotograma.
+  - **Tiradores espaciales de una cumbre:** dependen del sentido del movimiento. De derecha a izquierda van al revés (entra +x, sale −x). Con el signo mal, el ajuste da basura (57 px de error).
+  - **Instalar una fuente que el usuario ya tiene** (con su permiso), desde AE, que corre fuera del aislamiento de la consola:
+    - `File.copy` del .ttf a `%LOCALAPPDATA%\Microsoft\Windows\Fonts`;
+    - `system.callSystem('cmd /c reg add "HKCU\…\Fonts" /v "Nombre (TrueType)" /d "ruta" /f')`;
+    - AE la ve al momento en `app.fonts.allFonts`, sin reiniciar.
+    - `system.callSystem` no devuelve la salida del comando: comprobar después.
+  - **Emojis en nombres de archivo** (vídeos de YouTube): PowerShell 5.1 los rompe. Buscar el archivo con `glob` en Python y pasar la ruta con `subprocess`.
+  - **Falso "Remove-Item blocked"** también con código Python dentro de PowerShell que usa `Path / "carpeta" / …`: escribir el .py con la herramienta de archivos y ejecutarlo.
+  - **VC Reflect** (Video Copilot, gratis) **no está instalado**. Receta nativa: 4.80.
+  - **El H.264 de AE sale SIN etiqueta de color** (ffprobe: `color_space=unknown`). ffmpeg lo convierte a RGB como BT.601 y los colores saturados salen cambiados: el #FF0042 da R = 232 en vez de 255. Parece que el color está mal cuando no lo está. Leerlo con `-vf scale=in_color_matrix=bt709:out_color_matrix=bt709`. `comparar_video.py` ya lo hace solo con los vídeos HD sin etiqueta.
+  - **Aplastar una capa que gira alrededor de su centro:** no tocar su ancla. Se aplasta en el **Transform del grupo** de la forma ("ADBE Vector Transform Group": ancla y posición del grupo en la base de la letra, keys en "ADBE Vector Scale" [100, y]).
+  - **Una expresión que nombra una capa que aún no existe nace con error** ("Expression disabled", aviso amarillo en AE aunque luego funcione): crear primero la capa nombrada y después las expresiones.
+- **Tanda 03 · 03 "Domina los Keyframes" (30/09/2026):**
+  - **Echo en una capa que se mueve por Transformar no deja estela** (los efectos van antes del movimiento). El eco va en una **capa de ajuste** encima. Parámetros por índice: 1 Echo Time (s), 2 copias, 3 intensidad inicial, 4 caída, 5 operador (5 = Composite In Back).
+  - **Las funciones de una librería cargada con `$.evalFile` DENTRO de otro script** (p. ej. dentro de `construir.jsx`) no se ven desde el script del MCP que lo lanzó ("Function compNom is undefined"). Si hace falta usarlas después, volver a cargar las librerías en el script de fuera.
+  - **No se puede borrar una capa bloqueada** ("Layer is locked"): `vaciar()` la desbloquea antes de `remove()`.
+  - `p.setRovingAtKey(k, true)` funciona con keys lineales. En la primera y la última key no se puede.
+  - Tipos de interpolación por script: **6612 = LINEAR, 6613 = BEZIER** (y HOLD), con `keyInInterpolationType(k)` / `keyOutInterpolationType(k)`.
+  - **Gotham no tiene los símbolos ◆ ⧗**: salen vacíos. ■ y ● sí.
+  - Una capa de texto de 1 letra con el ancla en la base: `r = sourceRectAtTime(0,false)` → ancla `[r.left + r.width/2, r.top + r.height]`.
+  - **Emparentar a un nulo y LUEGO poner las keys** en coordenadas locales (x − 910, y − 490 para un nulo de ancla 50,50 en 960,540). Si se emparenta con keys ya puestas, AE las compensa con el padre en el instante actual.
+- **Tanda 03 · 04 "Mattes" (30/09/2026):**
+  - **Segoe UI Emoji es vectorial (COLR):** con Pillow, `ImageFont.truetype("seguiemj.ttf", 800)` + `embedded_color=True` sale nítido a cualquier tamaño. Hay que dibujarlo con margen (lienzo 1,8× y posición 0,4×) o se cortan las antenas y las puntas. A 109 px y ampliado sale borroso.
+  - **Máscara de una capa de metraje escalada:** va en coordenadas de la CAPA. Para cortar la comp en x = 960: `cx + (x − 960)/escala` desde el centro del metraje (ancla en el centro). Si la escala está animada alrededor del centro, la línea central no se mueve.
+  - **`ADBE Set Matte3`:** el parámetro de capa guarda la capa, no el número (al añadir capas encima, su valor sube solo: 2 → 6 → 7).
+  - **Una capa de forma con Trim Paths:** después de `stroke()`, la variable del recorte ya no vale. Volver a buscarla con `getTrim(g)`.
+  - **Tint (`ADBE Tint`) con sus valores por defecto** = blanco y negro. Más seguro por script que Hue/Saturation, cuyos índices no están comprobados.
+- **Tanda 03 · 05 "EDITS" (30/09–01/10/2026):**
+  - **Una palabra reservada como clave de objeto** (`{in: 1, out: 2}`) no deja ni ejecutar el script. Además abre una **ventana modal** ("Illegal use of reserved word") que bloquea AE hasta que el usuario pulsa OK. Usar `{entra:…, sale:…}` o claves entre comillas.
+  - **Niveles (`ADBE Easy Levels2`):** Input White y Gamma tienen `canVaryOverTime = false` por script. Para animarlo: valores fijos + keys en la **opacidad del efecto** (`fxOpacity()` de ae_lib).
+  - **Estirar en negativo (stretch −100, el Ctrl+Alt+R) da la vuelta también a las keys de la capa:** el parpadeo y el movimiento aparecían en otro sitio. Clip al revés = **Time Remap** (`capaAlReves()` de edits_lib).
+  - **Motores 3D en AE 26.5** (`comp.renderers`):
+    - `"ADBE Advanced 3d"` (= Classic 3D): sale plano; la profundidad de extrusión da "propiedad oculta" por script;
+    - `"ADBE Calder"` (= Advanced 3D): extruye, pero sin luz ni bisel;
+    - `"ADBE Ernst"` (Cinema 4D): extrusión + bisel + materiales + luces, **con fondo transparente**. La profundidad solo se puede poner con este motor activo.
+  - **Grupos 3D de una capa de texto:** `ADBE Extrsn Options Group` (Extrsn Depth, Bevel Styles, Bevel Depth…) y `ADBE Material Options Group` (Metal, Reflection, Glossiness, Fresnel…). La luz de entorno: `LightType.ENVIRONMENT` con su fuente en `ADBE Light Env Atom`.
+  - **S_BlurMoCurves:** `-0050` Center XY, `-0051` **Z Dist** (distancia: < 1 acerca), `-0052` Rotate, `-0055` Shutter Duration.
+  - **S_Shake:** `-0050` Amplitude (multiplicador: 1 = X 192 px / Y 96 px), `-0051` Frequency, `-0054` Motion Blur.
+  - **S_Rays:** `-0050` centro, `-0051` largo, `-0052` brillo, `-0053` color, `-0056` umbral, `-0068` Source Opacity.
+  - **Deep Glow 2:** `-0082` Mix es animable (pulsos 0 → 30 → 0).
+  - **Keylight 906**, por número: `-0004` Screen Colour, `-0005` Gain, `-0006` Balance, `-0010` Pre-blur, `-0012` Clip Black, `-0013` Clip White, `-0015` Shrink/Grow, `-0016` Softness, `-0002` View (5 = Screen Matte, 11 = Final Result).
+  - **Matte Choker:** los "Gray Level Softness" (3 y 6) van de 0 a 1, no en %.
+  - **Tras añadir otro efecto, la variable de un efecto anterior de la misma capa puede quedar inválida** ("Object is invalid"). Leer sus valores antes, o volver a buscarlo por matchName.
+  - **`comp.saveFrameToPng(segundos, File)`** existe y es lo más rápido para revisar varios fotogramas o variantes en una sola orden (`ver_fotogramas.jsx`).
+  - **Un .mov que ya está en el proyecto no se puede sobrescribir** con un render: se renderiza con otro nombre y `item.replace(File)`.
+  - **Footage con alfa importado por script:** `item.mainSource.guessAlphaMode()`. AlphaMode: 5412 = STRAIGHT, 5413 = IGNORE, 5414 = PREMULTIPLIED.
+  - **Un render lanzado por el MCP bloquea AE y Windows pone "(No responde)" en el título.** El usuario creyó que se había colgado y cerró AE. Antes de un render de más de 1 minuto: medir 1 segundo de prueba y avisar de cuántos minutos va a tardar.
+  - **`hoja_video.py` con clips 4K a 60 fps tarda muchísimo** (lee el vídeo entero a 4K). Para hojas de clips largos: `hoja_rapida.py` (reduce dentro de ffmpeg).
+  - **ffmpeg desde un .mov de AE copia una pista de capítulos** al MP4 ("data"). Quitarla con `-map 0:v:0 -map 0:a:0 -map_chapters -1 -map_metadata -1`.
+  - **`Set-Content -Encoding utf8` de PowerShell 5.1 escribe BOM**, y `float()` en Python falla con "﻿". Para archivos que leen otras herramientas: `[IO.File]::WriteAllText(ruta, texto, (New-Object System.Text.UTF8Encoding($false)))`.
+- **Tanda 03 · 06 "TITULO" (01/10/2026) — Element y control de pantalla:**
+  - **Render propio con la cola por script: borrar antes el archivo de salida** (`new File(ruta).remove()`). Si existe, AE abre "already exists. Overwrite?" y el MCP se queda 30 min sin respuesta. Con control de pantalla se ve y se pulsa OK.
+  - **Lista de parámetros de Element:** más de 2400 líneas (no cabe en una respuesta del MCP). Guardada en `Referencia - Element 3D (parametros).txt`; buscar ahí con Grep.
+  - Una propiedad con keys no acepta `setValue`: el script que repite un paso debe borrar antes las keys (`P(id)` de `02_animacion.jsx`).
+  - **Control de pantalla:**
+    - las coordenadas de un clic son las de la ÚLTIMA captura: tras `switch_display`, hacer una captura nueva antes de hacer clic;
+    - las capturas al 0,6 dan coordenadas en el marco completo (1456 × 819);
+    - escribir con `type` puede usar el portapapeles del usuario: avisarle de que lo que tuviera copiado se sustituyó.
+  - **Seleccionar efectos por script** (`efecto.selected = true`) sirve para luego usar un menú con clics (Save Animation Preset).
+- **Tanda 03 · 07 "Anuncio de celular 3D" (01/10/2026):**
+  - **`comp.layers.addCamera(nombre, centro)`** deja la cámara en [0, 0, −1500] con el punto de interés en el centro: **mira de lado**. Mejor `autoOrient = NO_AUTO_ORIENT` + nulo (4.104).
+  - **Element oculta parámetros según el modo** (el *shutter* con el motion blur "de la comp", las muestras de AO ray-traced con SSAO…).
+    - `setValue` da "the property or a parent property is hidden".
+    - Hay que poner el modo, **terminar el script** y cambiar el resto en otra llamada. `03_tomas.jsx` usa `pon()` con try y avisa de los que no pudo.
+  - **`super` también es palabra reservada** (como `in`): de clave en ARGS abrió el modal "Unable to execute script at line 827. Illegal use of reserved word" (la 827 es del envoltorio del MCP). AE se quedó parado hasta pulsar OK.
+  - **`saveFrameToPng` escribe asíncrono:** esperar a que existan los PNG antes de leerlos. La primera hoja salió sin los 3 últimos fotogramas.
+  - Una textura de Element hecha con una comp sale **volteada**: UV Repeat (1, −1) (4.103).
+  - Con control de pantalla, en Element los números se editan con clic + Ctrl+A + escribir + Enter. Los selectores de capa del canal de textura están en la flechita a la izquierda de "Load Texture".
+- **Tanda 04 · 01 "Camera Movement" y prueba de una intro (01/10/2026):**
+  - ⭐ **Nombres de los motores 3D:** `"ADBE Advanced 3d"` = Classic 3D y `"ADBE Calder"` = Advanced 3D (tabla al principio de esta sección).
+  - **`saveFrameToPng` a una carpeta que no existe:** no da error en el script. Después sale **una ventana "The file … could not be found" por fotograma** (12 ventanas) y AE se queda bloqueado. Crear antes la carpeta y comprobarla (`new Folder(dir).exists`).
+  - **Una orden que da timeout porque AE está ocupado se ejecuta igual más tarde.** Mirar `ae_status` antes de repetirla. La prueba de motores se ejecutó sola minutos después: guardó un proyecto y abrió otro.
+  - **Render metido en un script largo:** al terminar, AE se quedó con una ventana escondida detrás de "Executing Script" y ni el usuario la pudo cerrar. Hubo que cerrarlo a la fuerza (con su permiso; llevaba ~10 h abierto y 25 GB de memoria). Renderizar con `ae_render`, una comp por orden. Si AE lleva muchas horas y mucha memoria, reiniciarlo antes de renderizar.
+  - `ae_save_frame` con el tiempo como texto entre comillas (`"\"149f\""`) da "NaN is not a number": pasar segundos (4.95).
+  - **Classic 3D ordena las capas por su centro:** un elemento pequeño delante de un panel grande y relleno puede desaparecer detrás. Solución: paneles solo con contorno, o el panel y lo que lleva encima juntos en una precomp plana.
+  - **Una capa 2D (también una de ajuste) entre capas 3D parte el render en grupos.** Las capas de ajuste, arriba del todo.
+  - **Bandas en un degradado de fondo oscuro:** Ramp Scatter 60–80 + grano 3.
+  - **CC Sphere dibuja dentro de los límites de la capa:** con un radio mayor que la mitad del alto de la capa, la esfera sale recortada.
+  - **Escenas repartidas en Z (estaciones de una cámara):** separarlas más que la distancia de la cámara, o la escena anterior queda delante del objetivo, enorme y borrosa en el borde del cuadro.
+- **Tanda 04 · 02 "MASTER 3D Camera" (01/10/2026):**
+  - ⚠️ **Contraer transformaciones en una precomp 3D (con capas 2D dentro) en Classic 3D:** la precomp salió a ~0,4 de su tamaño y en otro sitio, con el mismo motor dentro y fuera. Sin contraer, perfecta. Para que siga nítida de cerca: construirla al doble o al triple.
+  - **Cámara de 2 nodos colgada de un nulo:** hereda la rotación Z del nulo (alabeo). Su *Point of Interest* (`"ADBE Anchor Point"` de la cámara) va en el espacio del padre.
+  - **`ae_render` sin la carpeta de salida:** AE se quedó con el aviso "Undo group mismatch, will attempt to fix" y el render no llegó a la cola. Crear la carpeta `render` antes del primer render.
+  - **Comps de 60 fps:** `revisar_video.py` da los tiempos como si fueran 30 fps (dividir entre 2). `teclas_lib.jsx` trabaja a 30 fps: para 60, `comp60()` y `s60()` de `camara_lib.jsx`.
+  - Fuentes: **`AppleGaramond-Italic`** y `AppleGaramond-BoldItalic` (serif cursiva elegante, del pack de Solazzo). Iconos: **`SegoeUISymbol`** tiene ✂ (U+2702) en negro.
+- **Tanda 04 · 04 "Motion Graphics designer" (01/10/2026):**
+  - ⚠️ **Valores de menús que no se adivinan** (probados en una comp aparte, una imagen por valor):
+    - CC Page Turn *Controls* (`-0008`): **2 = Bottom Right Corner**; con 5 se dobla la de abajo a la izquierda;
+    - CC RepeTile *Tiling* (`-0005`): **4 = Unfold** (espejo sin costuras); 1 = Repeat con costuras;
+    - antes de usar un menú desplegable de un efecto por script, probar sus valores así.
+  - **Motor Cinema 4D, relieves sobre una cara extruida:** la cara de atrás de un disco de grosor 36 quedó a Z ≈ 46. Un relieve a Z 37 no se veía (dentro del disco) y a 46 salían rayas. Poner cada relieve a Z = grosor + 10 + su propia profundidad.
+  - **CC Force Motion Blur sobre una escena de Cinema 4D:** 133 s por segundo de vídeo con 10 muestras. Medir 1 s antes y avisar.
+  - **Texto pegado a la cara de atrás de algo que gira:** asoma al revés por el borde antes del giro. Opacidad 0 hasta que el giro pasa de 90° (buscar ese instante con `valueAtTime`) y 100 desde ahí, en HOLD.
+  - **CC Page Turn: *Back Page* trae por defecto la propia capa** (valor = su índice), no "None".
+  - **Matchnames:**
+    - CC Page Turn: Fold Position `-0001`, Fold Radius `-0003`, Light Direction `-0004`, Back Page `-0005`, Paper Color `-0006`, Render `-0007`, Controls `-0008`, Back Opacity `-0009`;
+    - Bezier Warp (`ADBE BEZMESH`): Bottom Right Vertex `-0007`;
+    - CC RepeTile: Expand Right/Left/Down/Up `-0001`…`-0004`;
+    - CC Force Motion Blur: muestras `-0001`;
+    - Fractal Noise: contraste `-0004`, escala `-0010` (mínimo 10);
+    - Fast Box Blur = `ADBE Box Blur2`.
+  - **Voces de Windows:** las "Desktop" (Helena) se usan con System.Speech. Las **OneCore** (Pablo, Laura, Helena) suenan mejor y se usan por WinRT (`voz_onecore.ps1`). El .ps1, solo en ASCII: los textos con tildes van en un .ssml en UTF-8.
+  - **Un .mov que una comp usa como footage no se puede sobrescribir con un render:** quitarlo antes del proyecto (`item.remove()`) y volver a importarlo después.
+- **Tanda 04 · 03 "eye-catching 3D Scenes" (01/10/2026):**
+  - ⚠️ **Lumetri: las ruedas de color (`-0047 Wheels`) y las curvas (`-0039 RGB Curve`) son datos internos y NO se pueden tocar por script.** Lo mismo pasa con el efecto Curves (`ADBE CurvesCustom`).
+    - Sí se pueden: Contraste `-0012`, Saturación `-0020`, Exposición `-0011`, Luces/Sombras `-0013`/`-0014`.
+    - Sustitutos: **Color Balance (`ADBE Color Balance 2`)** con sombras R/G/B `-0001…-0003`, medios `-0004…-0006`, luces `-0007…-0009` y conservar luminosidad `-0010`; y el Contraste de Lumetri como curva en S.
+  - ⚠️ **VR Chromatic Aberrations** (`Mettle SkyBox Chromatic Aberrat`):
+    - parámetros: Aberration Red/Green/Blue `-0004…-0006` (por defecto −10 / 0 / 10) y Falloff Distance `-0007`;
+    - deja una **raya azul de ~5 px arriba y abajo**, porque fuera del cuadro no hay imagen. Arreglo: un **Transform (`ADBE Geometry2`, `-0003` = 101,2) al final de la pila**, con la máscara de bordes;
+    - a ±5 hace un arcoíris en lo blanco del borde. Usar ±2.
+  - Radial Blur (`ADBE Radial Blur`): Amount `-0001`, Center `-0002` (en píxeles de la capa), Type `-0003` (1 = Spin, el de por defecto), Antialiasing `-0004` (2 = alto).
+  - **Hue/Saturation** (`ADBE HUE SATURATION`): Master Hue `-0004`, Saturation `-0005`, Lightness `-0006`.
+  - **Escaneos de Sketchfab:**
+    - vienen en trozos de 65 000 vértices con color por vértice y sin texturas;
+    - si la parte de arriba está rota (un "plato"), en Blender: unir, soldar (`remove_doubles`), cortar (`bisect_plane`) y **tapar con una cúpula sobre la envolvente convexa del corte**;
+    - `holes_fill` no hace nada si el borde del corte no forma un aro cerrado (probado: 486 aristas abiertas y 0 caras).
+  - **Footage que se vuelve a renderizar fuera de AE** (Blender): `item.mainSource.reload()` al reconstruir. Si no, AE sigue con la versión vieja.
+  - **Capa de texto, el ancla arriba a la izquierda de lo que se ve:** `sourceRectAtTime(0, false)` → `[r.left, r.top]`. Para un ancho dado: tamaño = 200 · ancho / ancho medido a 200.
+  - ⚠️ **PowerShell:** meter código Python o rutas con `'\'` dentro de un *here-string* hizo saltar el bloqueo "Remove-Item on system path … is blocked" (sin ningún Remove-Item). Escribir el script en un `.py` con la herramienta de escribir y ejecutarlo.
+  - **Sketchfab:** la descarga necesita la sesión del usuario (su Chrome, pestaña nueva y cerrarla después). La API de búsqueda da el peso del GLB sin sesión: `api.sketchfab.com/v3/search?type=models&q=…&downloadable=true&licenses=by`.
+  - **Pexels:** la página de la foto da el tamaño en `__NEXT_DATA__`. Un HEAD a `images.pexels.com/photos/ID/pexels-photo-ID.jpeg` da el peso sin descargar.
+- **Tanda 04 · 05 "Smooth 3D Camera" (01/10/2026):**
+  - ⚠️ **Poner el `inPoint` DESPUÉS del `outPoint` mueve también el `outPoint`** (la capa conserva su duración). Pasó con capas cortadas por los dos lados: líneas que debían morir a 3,2 s seguían vivas hasta 4,6–4,9 s. **Primero `inPoint`, luego `outPoint`**, y comprobarlo leyendo los dos.
+  - **Fill** (`ADBE Fill`): el color es `ADBE Fill-0002`. Sirve para animar el color de un sólido sin tocar su fuente.
+  - **Expresiones sobre capas de forma, por índice:** `L.content(1).content(1).size` es el tamaño del primer Rectangle Path del primer grupo. No depende de nombres como "Rectangle Path 1", que cambian con el idioma.
+  - **Saber si una capa de otra comp está viva en una expresión:** `var L = comp("X").layer("Y"); time >= L.inPoint && time < L.outPoint`. `active` no sirve para las capas que hacen de mate: según su definición, exige el ojo encendido, y los mates lo tienen apagado.
+  - **Trim Paths mide longitud, no tiempo.** Para dibujar un camino al ritmo de algo que se mueve, se calcula al montar una tabla con la fracción recorrida en cada fotograma y el End la lee por expresión.
+  - **Un mate 3D sirve para capas 2D:** un círculo 3D en Z (Classic 3D) como mate alfa invertido de un sólido 2D funciona. AE usa el mate tal como lo ve la cámara.
+  - **Texto que aparece letra a letra:** animador `ADBE Text Animator` + `ADBE Text Opacity` = 0 + selector `ADBE Text Selector` con `ADBE Text Percent Start` 0 → 100. Añadir el animador y **volver a pedirlo por índice** antes de añadirle el selector (las referencias quedan inválidas).
+- **Tanda 05 · 01 "Novedades de AE 2026" (02/10/2026):**
+  - ⚠️ **`addParametricMesh(nombre, tipo)`: primero el NOMBRE y luego `ParametricMeshType.X`.** Al revés da "parameter 2 … is not an unsigned integer"; sin argumentos, "requires 2 parameters".
+  - ⚠️ **`addVariableFontAxis(tag)` se llama en el grupo de propiedades del animador** (`ADBE Text Animator Properties`). En la capa da un error interno ("attempt to find parent of root (layer) stream"). `canAddProperty("ADBE Text VF Axis 1")` dice false y `addProperty` falla. El comando de menú *Variable Font Axes* (10746) no añade nada por script.
+  - **El animador trae TODAS sus propiedades escondidas** (también los 8 ejes): las que no se han añadido dan "property … is hidden" al ponerles valor. Para encontrar la añadida, probar `setValue(value)` dentro de un `try`.
+  - ⚠️ **Máscara de un efecto por script** (`ADBE Effect Built In Params` → `ADBE Effect Mask Parade` → `addProperty("ADBE Effect Mask")` → `ADBE Effect Path Stream Ref` = 1): se crea y se lee 1, pero **el efecto siguió en toda la capa** (Camera Lens Blur y Gaussian Blur, en la vista y en un render). Hasta saber por qué: a mano, o copia de la capa con el efecto y la máscara en Añadir.
+  - **Una capa de malla tiene cientos de propiedades** (estilos de capa y los grupos ocultos de los otros tipos). Recorrerla entera para revisar expresiones dejó a AE sin responder un rato. Revisar solo las propiedades que llevan expresión (en las mallas, el giro).
+  - **`saveFrameToPng` es asíncrono:** no sirve para medir lo que tarda un fotograma (da 0 s). Medir con un render de 1 s y la hora antes y después.
+  - **La luz paralela no tiene cono y su difusión de sombra está oculta** (`setValue` da "hidden"): la sombra sale algo dura. Para sombras blandas, un foco.
+  - ⚠️ **Varios `? :` seguidos SIN paréntesis se evalúan mal en ExtendScript** (de izquierda a derecha). `a ? "x" : b ? "y" : "z"` dio "z" con a verdadero: la cámara y los textos salieron como "ajuste" en el mapa del proyecto. **Usar if/else**, o paréntesis en cada ternario anidado: `a ? "x" : (b ? "y" : "z")`.
+  - **Al reconstruir por script se acumulan sólidos y nulos sin usar** en el proyecto: `vaciar()` borra las capas, pero no sus elementos. Limpiar con `app.project.removeUnusedFootage()`: en la prueba quitó 20 elementos (17 sueltos y 3 carpetas vacías). Lo hace `organizar_proyecto.jsx` con `limpiarSinUso:true`.
+  - **El render de Advanced 3D no es idéntico entre dos renders si cambia la escena** (muestreo del desenfoque y de las sombras): solo en un hilo de borde (máx. 20 niveles). Al comparar versiones, mirar la diferencia por zonas, no exigir 0.
+

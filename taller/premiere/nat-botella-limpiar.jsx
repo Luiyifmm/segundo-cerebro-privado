@@ -1,0 +1,7 @@
+// NATALIA_1010_01: quita de la copia de fondo el efecto que entró con error (no era el desenfoque gaussiano) y comprueba el resultado.
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { quitados: [], quedan: [] }, i, k, t, T = 254016000000; if (app.project.name !== "NATALIA EDICION.prproj" || seq.name !== "NATALIA_1010_01 - Reaccion a los pasos") return "proyecto o secuencia inesperados";
+  var vF = -1; for (t = 0; t < seq.videoTracks.numTracks; t++) if (seq.videoTracks[t].name === "REACCION") vF = t; if (vF < 0) return "sin pista";
+  var q = qe.project.getActiveSequence(), qt = q.getVideoTrackAt(vF); for (k = 0; k < qt.numItems; k++) { var qi = qt.getItemAt(k); if (!qi || qi.type !== "Clip") continue; for (var n = qi.numComponents - 1; n >= 0; n--) { var cp = qi.getComponentAt(n), nom = cp ? String(cp.name) : ""; if (/desenfoque|blur|error/i.test(nom)) { try { cp.remove(); r.quitados.push(nom); } catch (x) { r.quitados.push("fallo " + nom); } } } }
+  var c = seq.videoTracks[vF].clips[0]; for (k = 0; k < c.components.numItems; k++) r.quedan.push(c.components[k].displayName);
+  var ts = [5.0, 14.8]; for (i = 0; i < ts.length; i++) { seq.setPlayerPosition(String(Math.round(ts[i] * T))); q.exportFramePNG(q.CTI.timecode, "/private/tmp/claude-501/-Users-luiyi/ee0e846e-677a-48a5-82b2-eed5c985a811/scratchpad/natt-" + i); }
+  return JSON.stringify(r); })();

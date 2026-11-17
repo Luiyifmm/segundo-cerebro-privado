@@ -1,0 +1,19 @@
+{
+  "libraries": [
+    {
+      "name": "editing luiyi pack",
+      "path": "/Users/luiyi/EDICION/editing luiyi pack/Efectos de sonido",
+      "tier": "main"
+    }
+  ],
+  "uisfx": {
+    "path": "vendor/node_modules/uisfx",
+    "default_pack": "studio"
+  },
+  "skip_dir_names": [
+    "_mister horse previews",
+    "00 FAVORITOS",
+    "_Licencias"
+  ],
+  "index_path": "library_index.json"
+}

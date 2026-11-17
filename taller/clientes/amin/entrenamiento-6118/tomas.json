@@ -1,0 +1,17 @@
+{"bruto":"/Users/luiyi/Library/CloudStorage/GoogleDrive-luiscarlosmercadoleon@gmail.com/Mi unidad/RAW/CORTOS/Octubre/IMG_6118.MOV",
+ "palabras":"/Users/luiyi/Videos-Remotion/voz/salida-whisperx/IMG_6118.verificada.json",
+ "nota":"Entrenamiento ronda 2 (fase 5). Bruto en Drive, solo lectura. Fines medidos por nivel: 'qué' 23,15 · 'A ella' arranca 33,9 · 'innegable' 78,0.",
+ "bloques":[
+  {"id":"gancho-noche","tramos":[[7.33,9.47]],"clave":"una noche","marca":"tarjeta NOCHE (derecha)"},
+  {"id":"gancho-vida","tramos":[[9.95,12.35]],"clave":"toda la vida","marca":"tarjeta VIDA (izquierda)"},
+  {"id":"una-cosa","tramos":[[20.52,22.26],[22.54,23.15]],"clave":"una cosa","marca":"NOCHE"},
+  {"id":"respetan","tramos":[[27.82,28.72]],"clave":"respetan","marca":"VIDA"},
+  {"id":"divertirse","tramos":[[33.88,36.55]],"clave":"perder el tiempo","marca":"NOCHE"},
+  {"id":"prosperar","tramos":[[40.41,42.34]],"clave":"la vida entera","marca":"VIDA"},
+  {"id":"socia","tramos":[[50.72,51.70],[63.47,65.43]],"clave":"proyecto real","marca":"VIDA"},
+  {"id":"regla","tramos":[[76.25,78.02]],"clave":"innegable","marca":"limpio, plano cerrado"},
+  {"id":"atraes","tramos":[[82.47,84.72]],"clave":"proyectas","marca":"golpe de impacto"},
+  {"id":"adentro","tramos":[[89.02,91.32]],"clave":"afuera","marca":null},
+  {"id":"forma","tramos":[[105.32,107.20],[118.67,121.45]],"clave":"valorar","marca":null},
+  {"id":"cta","tramos":[[129.42,131.02]],"clave":"tu vida","marca":null}
+ ]}

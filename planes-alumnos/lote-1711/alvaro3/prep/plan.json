@@ -1,0 +1,255 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 1.191,
+   "fin": 1.431,
+   "texto": "un año?",
+   "especial": "año",
+   "dur": 0.5799999999999998
+  },
+  {
+   "n": 2,
+   "ini": 1.771,
+   "fin": 1.971,
+   "texto": "Esto",
+   "especial": "Esto",
+   "dur": 0.7000000000000002
+  },
+  {
+   "n": 3,
+   "ini": 2.471,
+   "fin": 2.792,
+   "texto": "o esto.",
+   "especial": "esto",
+   "dur": 0.8809999999999998
+  },
+  {
+   "n": 4,
+   "ini": 3.352,
+   "fin": 4.072,
+   "texto": "Este el plato que",
+   "especial": "plato",
+   "dur": 1.1410000000000005
+  },
+  {
+   "n": 5,
+   "ini": 4.493,
+   "fin": 5.573,
+   "texto": "te pone cuando una dieta.",
+   "especial": "dieta",
+   "dur": 1.54
+  },
+  {
+   "n": 6,
+   "ini": 6.033,
+   "fin": 7.594,
+   "texto": "aguantas una semana, puede que dos,",
+   "especial": "dos",
+   "dur": 1.9419999999999993
+  },
+  {
+   "n": 7,
+   "ini": 7.975,
+   "fin": 8.375,
+   "texto": "o con mucha",
+   "especial": "mucha",
+   "dur": 1.0999999999999996
+  },
+  {
+   "n": 8,
+   "ini": 9.075,
+   "fin": 9.275,
+   "texto": "tres.",
+   "especial": "tres",
+   "dur": 0.9410000000000007
+  },
+  {
+   "n": 9,
+   "ini": 10.016,
+   "fin": 10.356,
+   "texto": "¿qué pasa?",
+   "especial": "qué pasa",
+   "dur": 0.5999999999999996
+  },
+  {
+   "n": 10,
+   "ini": 10.616,
+   "fin": 11.897,
+   "texto": "Que lo dejas y vuelves al de antes.",
+   "especial": "antes",
+   "dur": 1.721
+  },
+  {
+   "n": 11,
+   "ini": 12.337,
+   "fin": 12.978,
+   "texto": "Ahora mira este.",
+   "especial": "mira este",
+   "dur": 1.1010000000000009
+  },
+  {
+   "n": 12,
+   "ini": 13.438,
+   "fin": 13.878,
+   "texto": "Está rico,",
+   "especial": "Está rico",
+   "dur": 0.8399999999999999
+  },
+  {
+   "n": 13,
+   "ini": 14.278,
+   "fin": 15.639,
+   "texto": "te sacen y se hacen minutos.",
+   "especial": "minutos",
+   "dur": 1.8819999999999997
+  },
+  {
+   "n": 14,
+   "ini": 16.16,
+   "fin": 17.06,
+   "texto": "Y la mayoría de las veces,",
+   "especial": "veces",
+   "dur": 1.0
+  },
+  {
+   "n": 15,
+   "ini": 17.16,
+   "fin": 18.281,
+   "texto": "por no decir absolutamente todas,",
+   "especial": "absolutamente todas",
+   "dur": 1.5410000000000004
+  },
+  {
+   "n": 16,
+   "ini": 18.701,
+   "fin": 20.322,
+   "texto": "lo que te ayuda realmente no es comer menos",
+   "especial": "comer menos",
+   "dur": 1.8610000000000007
+  },
+  {
+   "n": 17,
+   "ini": 20.562,
+   "fin": 20.802,
+   "texto": "peor.",
+   "especial": "peor",
+   "dur": 0.6809999999999974
+  },
+  {
+   "n": 18,
+   "ini": 21.243,
+   "fin": 22.463,
+   "texto": "Lo que ayuda es comer algo que te",
+   "especial": "comer algo",
+   "dur": 1.581000000000003
+  },
+  {
+   "n": 19,
+   "ini": 22.824,
+   "fin": 23.124,
+   "texto": "repetir.",
+   "especial": "repetir",
+   "dur": 0.8199999999999967
+  },
+  {
+   "n": 20,
+   "ini": 23.644,
+   "fin": 25.245,
+   "texto": "Porque el plato perfecto no te de nada",
+   "especial": "nada",
+   "dur": 2.0010000000000012
+  },
+  {
+   "n": 21,
+   "ini": 25.645,
+   "fin": 26.506,
+   "texto": "abandonas al décimo día.",
+   "especial": "décimo día",
+   "dur": 1.4450000000000003
+  },
+  {
+   "n": 22,
+   "ini": 27.09,
+   "fin": 28.533,
+   "texto": "La mejor dieta no es la más estricta,",
+   "especial": "estricta",
+   "dur": 1.9250000000000007
+  },
+  {
+   "n": 23,
+   "ini": 29.015,
+   "fin": 29.736,
+   "texto": "la que puedes mantener,",
+   "especial": "mantener",
+   "dur": 0.9819999999999993
+  },
+  {
+   "n": 24,
+   "ini": 29.997,
+   "fin": 30.959,
+   "texto": "porque si lo comes,",
+   "especial": "comes",
+   "dur": 1.2020000000000017
+  },
+  {
+   "n": 25,
+   "ini": 31.199,
+   "fin": 32.182,
+   "texto": "el rebote está asegurado.",
+   "especial": "asegurado",
+   "dur": 1.5839999999999996
+  },
+  {
+   "n": 26,
+   "ini": 32.783,
+   "fin": 33.926,
+   "texto": "Y sígueme para más platos",
+   "especial": "platos",
+   "dur": 1.6839999999999975
+  },
+  {
+   "n": 27,
+   "ini": 34.467,
+   "fin": 34.707,
+   "texto": "odiar la",
+   "especial": "odiar",
+   "dur": 0.240000000000002
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Dorado · del plano",
+   "c": [
+    "#F1D874",
+    "#867327",
+    "#F4F1E6",
+    "#16150D"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F18774",
+    "#863627",
+    "#F4E8E6",
+    "#160F0D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

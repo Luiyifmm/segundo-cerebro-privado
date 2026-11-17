@@ -1,0 +1,188 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjrr7jwxwqckdzy",
+ "titulo_salida": "Alessandro - picoteos de Mercadona",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tramos": [
+  [
+   0.0,
+   0.66
+  ],
+  [
+   2.02,
+   4.25
+  ],
+  [
+   4.4,
+   40.45
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "usuario": "@alessmartin.fitness",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat"
+ },
+ "cara_y": 0.36,
+ "sub_y": 990,
+ "degradado_desde": 0.55,
+ "degradado_fuerza": 200,
+ "elementos": [
+  {
+   "tipo": "columnas",
+   "t0": 0.0,
+   "t1": 30.44,
+   "y": 1260,
+   "alto": 620,
+   "y_flota": 330,
+   "lado_flota": 230,
+   "lado_item": 150,
+   "celda": 265,
+   "titulo": "Picoteos de Mercadona: ¿adelgaza o engorda?",
+   "rodeo_x": 540,
+   "rodeo_y": 700,
+   "cabeceras": [
+    "TE AYUDA A ADELGAZAR",
+    "TE AYUDA A ENGORDAR"
+   ],
+   "col_cab": [
+    "bueno",
+    "malo"
+   ],
+   "items": [
+    {
+     "t": 0.07,
+     "t_col": 0.99,
+     "col": 0,
+     "texto": "Palomitas",
+     "img": "../_fotos-mercadona/palomitas.jpg",
+     "largo": "Palomitas caseras"
+    },
+    {
+     "t": 2.94,
+     "t_col": 8.28,
+     "col": 1,
+     "texto": "Frutos secos*",
+     "img": "../_fotos-mercadona/frutos-secos.jpg",
+     "largo": "Frutos secos"
+    },
+    {
+     "t": 9.06,
+     "t_col": 10.44,
+     "col": 1,
+     "texto": "Digestive",
+     "img": "../_fotos-mercadona/digestive.jpg",
+     "largo": "Galletas Digestive"
+    },
+    {
+     "t": 12.44,
+     "t_col": 13.96,
+     "col": 1,
+     "texto": "Tortitas choco",
+     "img": "../_fotos-mercadona/tortitas-chocolate.jpg",
+     "largo": "Tortitas con chocolate"
+    },
+    {
+     "t": 18.1,
+     "t_col": 19.03,
+     "col": 0,
+     "texto": "Sandía",
+     "emoji": "🍉"
+    },
+    {
+     "t": 23.55,
+     "t_col": 24.45,
+     "col": 0,
+     "texto": "Pepinillos",
+     "img": "../_fotos-mercadona/pepinillos.jpg"
+    },
+    {
+     "t": 25.83,
+     "t_col": 26.85,
+     "col": 0,
+     "texto": "Helado mango",
+     "img": "../_fotos-mercadona/helado-mango.jpg",
+     "largo": "Helado de mango"
+    }
+   ]
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 16.46,
+   "t1": 17.94,
+   "x": 540,
+   "y": 330,
+   "lado": 300,
+   "img": "../_fotos-mercadona/tortitas-legumbres.jpg",
+   "texto": "Mejor: de legumbre",
+   "marca": "si",
+   "blanca": true
+  },
+  {
+   "tipo": "pill",
+   "t0": 33.76,
+   "t1": 99,
+   "y": 600,
+   "emoji": "💬",
+   "texto": "Comenta PICOTEO",
+   "col": "bueno"
+  },
+  {
+   "tipo": "cta",
+   "t0": 33.76,
+   "y": 300,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "Palomitas caseras.",
+  "Son muy *poco calóricas*",
+  "y puedes comer *en gran cantidad.*",
+  "Frutos secos.",
+  "Son grasas *saludables*",
+  "y muy importantes *para tus hormonas,*",
+  "pero si te pasas *!con la cantidad,*",
+  "te ayudan *!a engordar.*",
+  "Galletas Digestive.",
+  "Te van a ayudar *!a engordar,*",
+  "son muy, muy *!calóricas.*",
+  "Tortitas con chocolate.",
+  "Te van a ayudar *!a engordar,*",
+  "son muy *!calóricas*",
+  "y si quieres algo mejor,",
+  "te recomiendo cambiarlas *por las de legumbre.*",
+  "Sandía.",
+  "Te ayuda *a adelgazar.*",
+  "Para mí, la mejor fruta *para picotear:*",
+  "tiene tan solo *30 calorías*",
+  "cada *100 gramos.*",
+  "Pepinillo.",
+  "Ayuda a adelgazar, *clarísimo.*",
+  "Helado de mango.",
+  "Ayuda *a adelgazar.*",
+  "Sobre todo lo recomiendo mucho",
+  "para cuando tienes un *antojo de dulce*",
+  "en el *postre.*",
+  "¿Y qué otros snacks",
+  "puedo comer para *perder peso?*",
+  "Pues si quieres saberlos,",
+  "comenta la palabra *PICOTEO*",
+  "y te envío una lista",
+  "con los *mejores picoteos de Mercadona*",
+  "para perder *más de 10 kilos*",
+  "en menos de *90 días.*"
+ ],
+ "sin_subs": [],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
+ "musica_desde": 0
+}

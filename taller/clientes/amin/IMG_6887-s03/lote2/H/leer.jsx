@@ -1,0 +1,2 @@
+(function(){var N="6887-H No estar pelado · corte (Claude)",p=app.project,s=null;for(var i=0;i<p.sequences.numSequences;i++)if(p.sequences[i].name==N)s=p.sequences[i];if(!s)return "ERROR";
+var v=s.videoTracks[0],o=[];for(var k=0;k<v.clips.numItems;k++){var c=v.clips[k];o.push([+c.start.seconds.toFixed(4),+c.end.seconds.toFixed(4),+c.inPoint.seconds.toFixed(4)]);}return JSON.stringify(o);})();

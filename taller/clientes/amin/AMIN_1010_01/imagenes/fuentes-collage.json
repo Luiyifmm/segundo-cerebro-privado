@@ -1,0 +1,52 @@
+{
+ "nino": {
+  "url": "https://live.staticflickr.com/5654/20667746949_471764380f_b.jpg",
+  "pagina": "https://www.flickr.com/photos/33227787@N05/20667746949",
+  "lic": "by",
+  "autor": "r.nial.bradshaw",
+  "titulo": "150824-girl-school-first-day.jpg",
+  "w": 635,
+  "h": 1024
+ },
+ "venda": {
+  "url": "https://live.staticflickr.com/3070/2960556197_7610242669_b.jpg",
+  "pagina": "https://www.flickr.com/photos/12148520@N00/2960556197",
+  "lic": "by",
+  "autor": "Gastev",
+  "titulo": "Venus blindfolded",
+  "w": 1024,
+  "h": 685
+ },
+ "escuela": {
+  "titulo": "File:Old Farm Schoolhouse, Bloomfield, CT (Exterior Front) July 2024.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Old_Farm_Schoolhouse%2C_Bloomfield%2C_CT_%28Exterior_Front%29_July_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Old_Farm_Schoolhouse,_Bloomfield,_CT_(Exterior_Front)_July_2024.jpg",
+  "lic": "CC BY-SA 4.0",
+  "w": 4032,
+  "h": 3024
+ },
+ "jefe": {
+  "titulo": "File:J. H. Chassaing, Member of the 1st class of Inheritance.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/J._H._Chassaing%2C_Member_of_the_1st_class_of_Inheritance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "pagina": "https://commons.wikimedia.org/wiki/File:J._H._Chassaing,_Member_of_the_1st_class_of_Inheritance.jpg",
+  "lic": "Public domain",
+  "w": 3747,
+  "h": 5750
+ },
+ "empleado": {
+  "titulo": "File:Henry Remzi (Union veteran).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Henry_Remzi_%28Union_veteran%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Henry_Remzi_(Union_veteran).jpg",
+  "lic": "Public domain",
+  "w": 2093,
+  "h": 2985
+ },
+ "rodillas": {
+  "titulo": "File:George Smith - Man Kneeling - B1977.14.5360 - Yale Center for British Art.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/George_Smith_-_Man_Kneeling_-_B1977.14.5360_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "pagina": "https://commons.wikimedia.org/wiki/File:George_Smith_-_Man_Kneeling_-_B1977.14.5360_-_Yale_Center_for_British_Art.jpg",
+  "lic": "CC0",
+  "w": 1356,
+  "h": 1920
+ }
+}

@@ -1,0 +1,14 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01 [x] Dios es mi Dios.   ← quitada a mano
+02 [x] Que hermana.   ← quitada a mano
+03     Esta de aquí es la mujer del pobre y esta de aquí es la mujer de rico.
+04     Esto es lo que le gusta al pobre y esto es lo que el rico disfruta.
+05     Este de aquí es el fin de semana del pobre y este es el fin de semana de rico.
+06     Esto es lo que escucha el pobre y esto es lo que escucha el rico.
+07     Este es el interior de la casa del pobre y este es el interior de la casa del rico.
+08     Así se ha visto un pobre y así se ha visto un rico.
+09     La riqueza no se trata de lo que tiene, sino es como piensas.
+10     Es la programación mental que inculcaron de ti desde pequeño.
+11     Si tu quieres ser una persona rica y exitosa, tienes que eliminar esa programación mental de poca abundancia y de pobre para convertirte en una persona de éxito y abundancia.
+12     Si quieres empezar con eso puedes seguir aquí.

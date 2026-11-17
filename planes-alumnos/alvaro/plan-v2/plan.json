@@ -1,0 +1,153 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.3,
+   "fin": 0.75,
+   "texto": "¿Lunes?",
+   "especial": "Lunes",
+   "dur": 0.8499999999999999
+  },
+  {
+   "n": 2,
+   "ini": 1.15,
+   "fin": 1.9,
+   "texto": "Nada de pan.",
+   "especial": "pan",
+   "dur": 1.322
+  },
+  {
+   "n": 3,
+   "ini": 2.472,
+   "fin": 2.873,
+   "texto": "¿Martes?",
+   "especial": "Martes",
+   "dur": 0.621
+  },
+  {
+   "n": 4,
+   "ini": 3.093,
+   "fin": 4.455,
+   "texto": "nada de chocolate.",
+   "especial": "chocolate",
+   "dur": 1.3819999999999997
+  },
+  {
+   "n": 5,
+   "ini": 4.475,
+   "fin": 5.696,
+   "texto": "¿Cómo me voy a poner?",
+   "especial": "poner",
+   "dur": 2.1220000000000008
+  },
+  {
+   "n": 6,
+   "ini": 6.597,
+   "fin": 6.977,
+   "texto": "¿Miércoles?",
+   "especial": "Miércoles",
+   "dur": 0.5609999999999999
+  },
+  {
+   "n": 7,
+   "ini": 7.158,
+   "fin": 8.579,
+   "texto": "nada de salir a cenar fuera con amigos.",
+   "especial": "amigos",
+   "dur": 1.8619999999999992
+  },
+  {
+   "n": 8,
+   "ini": 9.02,
+   "fin": 10.321,
+   "texto": "Les digo que no.",
+   "especial": "Les digo",
+   "dur": 1.341000000000001
+  },
+  {
+   "n": 9,
+   "ini": 10.361,
+   "fin": 10.722,
+   "texto": "¿Jueves?",
+   "especial": "Jueves",
+   "dur": 0.7409999999999997
+  },
+  {
+   "n": 10,
+   "ini": 11.102,
+   "fin": 11.963,
+   "texto": "manzana para cenar.",
+   "especial": "cenar",
+   "dur": 1.4420000000000002
+  },
+  {
+   "n": 11,
+   "ini": 12.544,
+   "fin": 12.824,
+   "texto": "Muy bien.",
+   "especial": "Muy bien",
+   "dur": 4.7059999999999995
+  },
+  {
+   "n": 12,
+   "ini": 17.25,
+   "fin": 18.01,
+   "texto": "¿Pero qué haces?",
+   "especial": "qué haces",
+   "dur": 0.7600000000000016
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Marca · Álvaro",
+   "c": [
+    "#3A86FF",
+    "#FF5F57",
+    "#E6ECF4",
+    "#0D1116"
+   ]
+  },
+  {
+   "nombre": "Dorado · del plano",
+   "c": [
+    "#F1C474",
+    "#866427",
+    "#F4EFE6",
+    "#16130D"
+   ]
+  },
+  {
+   "nombre": "Azul · del plano",
+   "c": [
+    "#74A5F1",
+    "#274D86",
+    "#E6ECF4",
+    "#0D1116"
+   ]
+  },
+  {
+   "nombre": "Verde · del plano",
+   "c": [
+    "#BFF174",
+    "#608627",
+    "#EFF4E6",
+    "#13160D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

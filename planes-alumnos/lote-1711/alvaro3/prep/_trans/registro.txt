@@ -1,0 +1,8 @@
+2026-11-16 21:34:50 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/alvaro3/prep/_trans/bruto.palabras.json", "idioma": "es", "palabras": 142, "sin_tiempo": 0, "texto": "¿Qué prefieres como tener un año? Esto o esto. Este es el plato que todo el mundo te pone cuando pidas una dieta. Lo aguantas una semana, puede que dos, o con mucha suerte, tres. Y luego ¿qué pasa? Que lo dejas y vuelves al de antes. Ahora mira este. Está rico, te sacen y se hacen minutos. Y la mayoría de las veces, por no decir absolutamente todas, lo que te ayuda realmente no es comer menos y peor. Lo que te ayuda es comer algo que te apetezca a repetir. Porque el plato perfecto no te existe de nada si la abandonas al décimo día. La mejor dieta no es la más estricta, es la que puedes mantener, porque si dieras lo que comes, el rebote está asegurado. Y sígueme para más platos que no te hagan odiar la dieta.", "s_carga": 0.5, "s_transcripcion": 9.4, "s_alineado": 1.6, "s_total": 11.4}
+bruto.palabras.json contra bruto.mp4: 142 palabras
+  voz principal ≈ -4 dB (umbral -22 dB) · ruido ≈ -29 dB
+  principal 142 · voz baja 0 · sin voz 0 · sin tiempo 0 · FIABLES 114 (80 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/alvaro3/prep/_trans/bruto.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

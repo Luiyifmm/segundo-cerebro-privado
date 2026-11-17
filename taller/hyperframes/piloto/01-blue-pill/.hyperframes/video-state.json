@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "historyId": "1ae4d32b-1dba-40a1-a0dc-f32dfd0bb004",
+  "currentRevision": "2eab1550-873b-4a4e-92d0-102ca0ada3a6",
+  "pendingChanges": false,
+  "files": {
+    "animaciones-casa.js": {
+      "hash": "f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85",
+      "content": "/Users/luiyi/.cache/hyperframes/history/1ae4d32b-1dba-40a1-a0dc-f32dfd0bb004/blobs/f6/f69ce2331e7e67ea6de7920c41741b072d1d7b588e7b22473dab34f207392a85"
+    },
+    "index.html": {
+      "hash": "1fb95726459b1fe73c93d05ea793a22a762412a52cfb33ed8831dede1a08b5f6",
+      "content": "/Users/luiyi/.cache/hyperframes/history/1ae4d32b-1dba-40a1-a0dc-f32dfd0bb004/blobs/1f/1fb95726459b1fe73c93d05ea793a22a762412a52cfb33ed8831dede1a08b5f6"
+    }
+  },
+  "revisions": {
+    "2eab1550-873b-4a4e-92d0-102ca0ada3a6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794021927621,
+      "endedAt": 1794021927621,
+      "files": {
+        "index.html": {
+          "before": "/Users/luiyi/.cache/hyperframes/history/1ae4d32b-1dba-40a1-a0dc-f32dfd0bb004/blobs/9e/9e946f0d44d84e0b3280b05cf1608bc021978dc8b63fb7615c09686dd1478f67",
+          "after": "/Users/luiyi/.cache/hyperframes/history/1ae4d32b-1dba-40a1-a0dc-f32dfd0bb004/blobs/1f/1fb95726459b1fe73c93d05ea793a22a762412a52cfb33ed8831dede1a08b5f6"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "c0a53b7d-6a05-44e2-b1f2-4615c4d885db",
+      "completedAt": 1794021934304,
+      "output": "/tmp/hf-render.4DrtOA/bruto.mov",
+      "status": "completed",
+      "revision": "2eab1550-873b-4a4e-92d0-102ca0ada3a6"
+    },
+    "retainedRevisions": [
+      "2eab1550-873b-4a4e-92d0-102ca0ada3a6"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

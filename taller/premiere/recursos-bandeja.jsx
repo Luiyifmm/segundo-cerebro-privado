@@ -1,0 +1,5 @@
+// Bandeja de recursos de edición del cliente dentro del proyecto de lote (regla del usuario: al empezar un vídeo, recursos en bandeja).
+(function () { var G = __G__, N = "__N__", NOMBRE = "__B__", i, k, r = []; if (app.project.name !== N) return "activa " + N;
+  var root = app.project.rootItem, bin = null; for (i = 0; i < root.children.numItems; i++) if (root.children[i].type === 2 && root.children[i].name === NOMBRE) bin = root.children[i]; if (!bin) bin = root.createBin(NOMBRE);
+  for (k in G) { var sub = null; for (i = 0; i < bin.children.numItems; i++) if (bin.children[i].type === 2 && bin.children[i].name === k) sub = bin.children[i]; if (!sub) sub = bin.createBin(k); var ya = {}; for (i = 0; i < sub.children.numItems; i++) { try { ya[sub.children[i].getMediaPath()] = 1; } catch (e) {} } var f = []; for (i = 0; i < G[k].length; i++) if (!ya[G[k][i]]) f.push(G[k][i]); if (f.length) app.project.importFiles(f, true, sub, false); r.push(k + ": " + sub.children.numItems); }
+  app.project.save(); return r.join(" | "); })();

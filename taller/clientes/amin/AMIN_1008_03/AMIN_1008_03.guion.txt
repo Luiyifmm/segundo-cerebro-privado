@@ -1,0 +1,23 @@
+Guion numerado. [x] = fuera del corte. Para cambiarlo: "quita 3, 7" o "recupera 4".
+
+01     Por aquí en pantalla te voy a dejar a la mujer de niñato que sale de fiesta y la mujer del hombre cuando sale.
+02     la mujer de niñato cuando entrena y esta es la mujer del hombre cuando entrena.
+03 [x] cuando sabe.   ← quitada a mano
+04     Tolerar las falta de respeto es de inniñato inmaduro.
+05     establecer límites estrictos desde hombre de alto valor?
+06 [x] ¿Es de hombre de verdad?   ← quitada a mano
+07     Tu mujer es tu proyección exacta.
+08 [x] Si solo atraes a niñas inmaduras,   ← toma repetida
+09     si solo atraes a niñas inmaduras o mediocres,
+10     probablemente el problema no son ellas.
+11     El problema eres tú que crees
+12     que sigues actuando como un niño.
+13 [x] Un hombre de verdad,   ← toma repetida
+14     un hombre de verdad se enfoca
+15     primero en subir su propio valor,
+16 [x] construir un imperio y después   ← toma repetida
+17     construir un imperio y después dominarse a sí mismo.
+18 [x] Si quieres aprender a hacer eso,   ← toma repetida
+19 [x] sígueme.   ← quitada a mano
+20     Si quieres aprender a cómo hacer eso con una habilidad online,
+21     sígueme.

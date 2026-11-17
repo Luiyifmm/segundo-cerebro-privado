@@ -1,0 +1,5 @@
+// La cresta del riser del gancho tapaba «seis meses» (margen 6 dB en la banda de voz): empieza en 0,13 (cresta en 1,86, «Ponte») a −15 dB.
+(function(){var p=app.project;for(var i=0;i<p.sequences.numSequences;i++)if(p.sequences[i].name=="6887-08 · JORDAN A completo v1")p.openSequence(p.sequences[i].sequenceID);
+var s=p.activeSequence,o="";function seg(x){var y=new Time();y.seconds=x;return y;}function vol(c,db){for(var k=0;k<c.components.numItems;k++)if(c.components[k].displayName=="Volumen")c.components[k].properties[1].setValue(Math.pow(10,(db-15)/20),true);}
+for(var t=0;t<s.audioTracks.numTracks;t++){var tr=s.audioTracks[t];for(var j=0;j<tr.clips.numItems;j++){var c=tr.clips[j];if(c.name=="SFX2 riser gancho"){var d=c.end.seconds-c.start.seconds;c.end=seg(0.13+d);c.start=seg(0.13);vol(c,-15);o=c.start.seconds.toFixed(2)+"-"+c.end.seconds.toFixed(2)+" in "+c.inPoint.seconds.toFixed(2);}}}
+p.save();for(var i=0;i<p.sequences.numSequences;i++)if(p.sequences[i].name=="6887-08 · propuesta Claude v1")p.openSequence(p.sequences[i].sequenceID);return "riser "+o;})();

@@ -1,0 +1,46 @@
+ok /private/tmp/claude-501/lote-1711/marc/video_voz.mp4
+hoja /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/marc/hoja.jpg
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+24 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/marc/eventos.json --video /private/tmp/claude-501/lote-1711/marc/
+checking the cue list against the picture (frame analysis of the render) ...
+sync: 100% of the declared wipes and hits sit on a picture change (median offset +17 ms): the list belongs to this render
+NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
+24 cues from 24 events (0 dropped from runs faster than 14/s, 0 fused)
+declared 24 events: 24 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: whoosh=8, pop=8, hit=6, drop=1, click=1
+routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (3), look at their frames:
+    11.80s  burst   strength 0.75  
+    37.40s  burst   strength 1.00  
+    44.13s  burst   strength 1.00  
+-> /private/tmp/claude-501/lote-1711/marc/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/marc/sfx/cues.json --out /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 --voice-safe --sfx-trim-
+level: 10 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 0.00s; --no-level-roles keeps the peaks equal)
+SFX under speech (normal): 3.2 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 24 (24 library, 0 uisfx), 24 distinct files
+WARN 2 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.00s (20 ms); cues 2-3 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+video: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -27.1 LUFS, final -15.8 LUFS, true peak -3.7 dBTP
+report: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+th deep ducks by about 24 dB in speech: check the LUFS of *_sfx_ducked.wav before you use it)
+3. low end: 'sub_drop' at 0.02s piles onto the bass already there (-32 dB); lower it 24 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+
+Listen to these 4 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'whoosh': 5 sound(s) on top of the voice, +8.0 dB against it; also 'hit' at 0.00s: brought 6 dB up to the perceived level of its role. Listen for: is every word still understood? / a thin recording lifted that far can turn harsh: is it clean?
+  2.    5.68s  'whoosh': 1 sound(s) on top of the voice, +4.2 dB against it. Listen for: is every word still understood?
+  3.   26.25s  'pop': its peak sits -14 ms from the moment; its attack was moved 249 ms so that it lands on the moment. Listen for: does it feel early or late against the picture? / does the lead-in still read as part of the sound?
+  4.   37.23s  'whoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v copy -af loudnorm=I=-14:T
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v1 lote (sin música).mp4 -13.9 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 50.100 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/low-mileage-hold-you-ncs-release.mp3 -af afade=t=in:d=0.3,afade=t=out:st=48.100:d=2 -ar 48000 
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/marc/mus_cruda.wav -filter_complex [1:a]volume=-10.20dB[m];[0:a][m]amix
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/marc/mezcla_con_musica.wav -map 0:v -map 1:a -c:v copy -af loudnorm=I=-14:T
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v1 lote (música).mp4 -13.9 LUFS

@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- PILOTO 02 v3 · Gráfico explicativo con números y objetos, sincronizado con la voz REAL de Amin en la edición final
+     ("…y dejar de cambiar tu TIEMPO por DINERO como ENTRENADOR ONLINE…", IMG_6887_1 16,0–21,5 s).
+     Idea: el cambio de modelo en dos líneas. Arriba lo que vende hoy (1 h → 30 €, un reloj que se cambia por una moneda);
+     debajo lo que propone (un programa online → ×100). Cada objeto llega en su palabra (−0,05 s). Tiempos en cues.json. -->
+<style>
+html,body{margin:0;background:transparent}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:-apple-system,"SF Pro Display",Helvetica,sans-serif;color:#fff}
+.e{position:absolute;opacity:0;text-shadow:0 8px 26px rgba(0,0,0,.65)}
+.ic{filter:drop-shadow(0 10px 22px rgba(0,0,0,.6))}
+#reloj{left:150px;top:285px;width:120px;height:120px}
+#h1{left:285px;top:300px;font-size:84px;font-weight:900;letter-spacing:-3px}
+#flecha1{position:absolute;left:470px;top:322px;width:120px;height:60px;overflow:visible}
+#flecha1 path,#flecha2 path{fill:none;stroke:#fff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;opacity:0;filter:drop-shadow(0 5px 12px rgba(0,0,0,.6))}
+#moneda{left:600px;top:290px;width:110px;height:110px}
+#eur{left:720px;top:300px;font-size:84px;font-weight:900;letter-spacing:-3px}
+#portatil{left:150px;top:450px;width:130px;height:100px}
+#prog{left:295px;top:458px;font-size:60px;font-weight:800;letter-spacing:-2px;color:#CFE5FF}
+#flecha2{position:absolute;left:600px;top:470px;width:110px;height:60px;overflow:visible}
+#x100{left:720px;top:440px;font-size:104px;font-weight:900;letter-spacing:-4px;color:#1E8BFF;text-shadow:0 0 30px rgba(30,139,255,.6),0 8px 26px rgba(0,0,0,.6)}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="animaciones-casa.js"></script></head>
+<body><div id="root" data-composition-id="root" data-width="1080" data-height="1920" data-start="0" data-duration="5.5">
+<svg id="reloj" class="e ic clip" data-start="0" data-duration="5.5" viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="#1E8BFF"/><circle cx="60" cy="60" r="50" fill="none" stroke="#fff" stroke-width="7"/><path id="aguja" d="M60 60 L60 24" stroke="#fff" stroke-width="8" stroke-linecap="round"/><path d="M60 60 L84 70" stroke="#fff" stroke-width="8" stroke-linecap="round"/></svg>
+<div id="h1" class="e clip" data-start="0" data-duration="5.5">1 h</div>
+<svg id="flecha1" viewBox="0 0 120 60"><path id="tr1" d="M5 30 L105 30 M105 30 L85 16 M105 30 L85 44"/></svg>
+<svg id="moneda" class="e ic clip" data-start="0" data-duration="5.5" viewBox="0 0 110 110"><circle cx="55" cy="55" r="48" fill="#F2C94C"/><circle cx="55" cy="55" r="38" fill="none" stroke="#C9A227" stroke-width="5"/><text x="55" y="73" text-anchor="middle" font-size="52" font-weight="900" fill="#8A6A00" font-family="-apple-system,sans-serif">€</text></svg>
+<div id="eur" class="e clip" data-start="0" data-duration="5.5">30 €</div>
+<svg id="portatil" class="e ic clip" data-start="0" data-duration="5.5" viewBox="0 0 130 100"><rect x="18" y="8" width="94" height="62" rx="8" fill="#fff"/><rect x="26" y="16" width="78" height="46" rx="4" fill="#1E8BFF"/><path d="M4 78 H126 L118 90 H12 Z" fill="#fff"/></svg>
+<div id="prog" class="e clip" data-start="0" data-duration="5.5">online</div>
+<svg id="flecha2" viewBox="0 0 110 60"><path id="tr2" d="M5 30 L95 30 M95 30 L75 16 M95 30 L75 44"/></svg>
+<div id="x100" class="e clip" data-start="0" data-duration="5.5">×100</div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true}), A=0.05;
+casa.pop(tl,"#reloj",2.46-A); casa.riseIn(tl,"#h1",2.46-A,{tam:84});
+tl.fromTo("#aguja",{rotation:0,svgOrigin:"60 60"},{rotation:300,duration:2.2,ease:"power1.inOut",immediateRender:false},2.5);
+casa.drawOn(tl,document.getElementById("tr1"),2.62,0.2);
+casa.pop(tl,"#moneda",2.82-A);
+casa.slam(tl,"#eur",2.96-A);
+casa.pop(tl,"#portatil",3.28-A); casa.riseIn(tl,"#prog",3.28-A,{tam:60});
+casa.drawOn(tl,document.getElementById("tr2"),3.75,0.22);
+casa.slam(tl,"#x100",4.04-A);
+tl.to(["#reloj","#h1","#tr1","#moneda","#eur","#portatil","#prog","#tr2","#x100"],{opacity:0,y:-18,duration:0.35,ease:"power2.in",stagger:0.02},5.0);
+window.__timelines=window.__timelines||{};window.__timelines["root"]=tl;
+</script></body></html>

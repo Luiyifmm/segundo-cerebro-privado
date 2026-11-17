@@ -1,0 +1,122 @@
+[
+ {
+  "bloque": "gancho-noche",
+  "entrada": 7.17,
+  "salida": 9.48,
+  "t_montaje": 0.0,
+  "clave": "una noche",
+  "marca": "tarjeta NOCHE (derecha)"
+ },
+ {
+  "bloque": "gancho-vida",
+  "entrada": 9.868,
+  "salida": 12.36,
+  "t_montaje": 2.31,
+  "clave": "toda la vida",
+  "marca": "tarjeta VIDA (izquierda)"
+ },
+ {
+  "bloque": "una-cosa",
+  "entrada": 20.4,
+  "salida": 22.27,
+  "t_montaje": 4.802,
+  "clave": "una cosa",
+  "marca": null
+ },
+ {
+  "bloque": "una-cosa",
+  "entrada": 22.446,
+  "salida": 23.21,
+  "t_montaje": 6.672,
+  "clave": "una cosa",
+  "marca": "NOCHE"
+ },
+ {
+  "bloque": "respetan",
+  "entrada": 27.72,
+  "salida": 28.73,
+  "t_montaje": 7.436,
+  "clave": "respetan",
+  "marca": "VIDA"
+ },
+ {
+  "bloque": "divertirse",
+  "entrada": 33.82,
+  "salida": 36.56,
+  "t_montaje": 8.446,
+  "clave": "perder el tiempo",
+  "marca": "NOCHE"
+ },
+ {
+  "bloque": "prosperar",
+  "entrada": 40.29,
+  "salida": 42.35,
+  "t_montaje": 11.186,
+  "clave": "la vida entera",
+  "marca": "VIDA"
+ },
+ {
+  "bloque": "socia",
+  "entrada": 50.57,
+  "salida": 51.86,
+  "t_montaje": 13.246,
+  "clave": "proyecto real",
+  "marca": null
+ },
+ {
+  "bloque": "socia",
+  "entrada": 63.42,
+  "salida": 65.46,
+  "t_montaje": 14.536,
+  "clave": "proyecto real",
+  "marca": "VIDA"
+ },
+ {
+  "bloque": "regla",
+  "entrada": 76.2,
+  "salida": 78.09,
+  "t_montaje": 16.576,
+  "clave": "innegable",
+  "marca": "limpio, plano cerrado"
+ },
+ {
+  "bloque": "atraes",
+  "entrada": 82.3,
+  "salida": 84.76,
+  "t_montaje": 18.466,
+  "clave": "proyectas",
+  "marca": "golpe de impacto"
+ },
+ {
+  "bloque": "adentro",
+  "entrada": 88.93,
+  "salida": 91.36,
+  "t_montaje": 20.926,
+  "clave": "afuera",
+  "marca": null
+ },
+ {
+  "bloque": "forma",
+  "entrada": 105.27,
+  "salida": 107.22,
+  "t_montaje": 23.356,
+  "clave": "valorar",
+  "marca": null
+ },
+ {
+  "bloque": "forma",
+  "entrada": 118.45,
+  "salida": 121.46,
+  "t_montaje": 25.306,
+  "clave": "valorar",
+  "marca": null
+ },
+ {
+  "bloque": "cta",
+  "entrada": 129.37,
+  "salida": 131.03,
+  "t_montaje": 28.316,
+  "clave": "tu vida",
+  "marca": null
+ }
+]

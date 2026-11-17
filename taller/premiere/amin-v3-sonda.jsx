@@ -1,0 +1,6 @@
+(function () { app.enableQE(); var seq = app.project.activeSequence, r = { mot: [], fx: [], efectos: [], pistas: [] }, i, k, t;
+  var q = qe.project.getActiveSequence();
+  var noms = ["Resplandor alfa", "Alpha Glow", "Resplandor Alfa", "Sombra paralela", "Recortar"]; for (i = 0; i < noms.length; i++) { var e = null; try { e = qe.project.getVideoEffectByName(noms[i]); } catch (x) {} r.efectos.push([noms[i], e ? String(e.name) : null]); }
+  for (t = 0; t < seq.videoTracks.numTracks; t++) { var tr = seq.videoTracks[t]; r.pistas.push([t, tr.name, tr.clips.numItems]); for (i = 0; i < tr.clips.numItems; i++) { var c = tr.clips[i]; if (c.name.indexOf("arrow_025507") === 0 && !r.mot.length) for (k = 0; k < c.components.numItems; k++) if (c.components[k].matchName === "AE.ADBE Motion") for (var p = 0; p < c.components[k].properties.numItems; p++) r.mot.push(p + ":" + c.components[k].properties[p].displayName);
+    var g = c.getMGTComponent(); if (g && Math.abs(c.start.seconds - 66) < 0.01 && Math.abs(c.end.seconds - 100.6) < 0.05) { var l = []; for (k = 0; k < c.components.numItems; k++) l.push(c.components[k].displayName + "|" + c.components[k].matchName); r.fx.push([t, i, l]); } } }
+  return JSON.stringify(r); })();

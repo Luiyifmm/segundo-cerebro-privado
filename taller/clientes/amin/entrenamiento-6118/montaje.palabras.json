@@ -1,0 +1,795 @@
+[
+{
+"texto": "Así",
+"inicio": 0.156,
+"fin": 0.296,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "se",
+"inicio": 0.356,
+"fin": 0.436,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "viste",
+"inicio": 0.456,
+"fin": 0.616,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "a",
+"inicio": 0.676,
+"fin": 0.696,
+"fiable": false,
+"bloque": "gancho-noche"
+},
+{
+"texto": "la",
+"inicio": 0.716,
+"fin": 0.776,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "mujer",
+"inicio": 0.816,
+"fin": 0.997,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "que",
+"inicio": 1.037,
+"fin": 1.117,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "solo",
+"inicio": 1.177,
+"fin": 1.337,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "quieren",
+"inicio": 1.397,
+"fin": 1.617,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "para",
+"inicio": 1.697,
+"fin": 1.837,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "una",
+"inicio": 1.877,
+"fin": 1.977,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "noche.",
+"inicio": 2.037,
+"fin": 2.298,
+"fiable": true,
+"bloque": "gancho-noche"
+},
+{
+"texto": "Y",
+"inicio": 2.39,
+"fin": 2.45,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "así",
+"inicio": 2.49,
+"fin": 2.65,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "se",
+"inicio": 2.71,
+"fin": 2.81,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "viste",
+"inicio": 2.87,
+"fin": 3.09,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "a",
+"inicio": 3.11,
+"fin": 3.13,
+"fiable": false,
+"bloque": "gancho-vida"
+},
+{
+"texto": "la",
+"inicio": 3.15,
+"fin": 3.19,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "mujer",
+"inicio": 3.25,
+"fin": 3.471,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "que",
+"inicio": 3.511,
+"fin": 3.591,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "quieren",
+"inicio": 3.651,
+"fin": 3.871,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "para",
+"inicio": 3.971,
+"fin": 4.131,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "toda",
+"inicio": 4.231,
+"fin": 4.411,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "la",
+"inicio": 4.471,
+"fin": 4.531,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "vida.",
+"inicio": 4.571,
+"fin": 4.791,
+"fiable": true,
+"bloque": "gancho-vida"
+},
+{
+"texto": "A",
+"inicio": 4.917,
+"fin": 5.017,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "esta",
+"inicio": 5.077,
+"fin": 5.297,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "solo",
+"inicio": 5.457,
+"fin": 5.658,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "la",
+"inicio": 5.698,
+"fin": 5.778,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "quieren",
+"inicio": 5.818,
+"fin": 6.018,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "para",
+"inicio": 6.098,
+"fin": 6.238,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "una",
+"inicio": 6.258,
+"fin": 6.378,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "cosa.",
+"inicio": 6.438,
+"fin": 6.658,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "Ya",
+"inicio": 6.762,
+"fin": 6.862,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "sabes",
+"inicio": 6.903,
+"fin": 7.103,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "para",
+"inicio": 7.143,
+"fin": 7.283,
+"fiable": true,
+"bloque": "una-cosa"
+},
+{
+"texto": "qué.",
+"inicio": 7.343,
+"fin": 7.436,
+"fiable": false,
+"bloque": "una-cosa"
+},
+{
+"texto": "A",
+"inicio": 7.536,
+"fin": 7.596,
+"fiable": true,
+"bloque": "respetan"
+},
+{
+"texto": "esta",
+"inicio": 7.676,
+"fin": 7.856,
+"fiable": true,
+"bloque": "respetan"
+},
+{
+"texto": "la",
+"inicio": 7.896,
+"fin": 7.956,
+"fiable": true,
+"bloque": "respetan"
+},
+{
+"texto": "respetan.",
+"inicio": 8.016,
+"fin": 8.437,
+"fiable": true,
+"bloque": "respetan"
+},
+{
+"texto": "A",
+"inicio": 8.576,
+"fin": 8.676,
+"fiable": false,
+"bloque": "divertirse",
+"nota": "a mano, por nivel medido"
+},
+{
+"texto": "ella",
+"inicio": 8.686,
+"fin": 9.006,
+"fiable": false,
+"bloque": "divertirse",
+"nota": "a mano"
+},
+{
+"texto": "la",
+"inicio": 9.03,
+"fin": 9.091,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "buscan",
+"inicio": 9.131,
+"fin": 9.431,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "para",
+"inicio": 9.471,
+"fin": 9.631,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "divertirse",
+"inicio": 9.671,
+"fin": 10.271,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "y",
+"inicio": 10.311,
+"fin": 10.351,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "perder",
+"inicio": 10.451,
+"fin": 10.732,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "el",
+"inicio": 10.792,
+"fin": 10.852,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "tiempo.",
+"inicio": 10.932,
+"fin": 11.172,
+"fiable": true,
+"bloque": "divertirse"
+},
+{
+"texto": "y",
+"inicio": 11.31,
+"fin": 11.39,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "con",
+"inicio": 11.45,
+"fin": 11.57,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "ella",
+"inicio": 11.63,
+"fin": 11.83,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "para",
+"inicio": 11.91,
+"fin": 12.03,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "prosperar",
+"inicio": 12.13,
+"fin": 12.551,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "la",
+"inicio": 12.611,
+"fin": 12.671,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "vida",
+"inicio": 12.711,
+"fin": 12.871,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "entera.",
+"inicio": 12.911,
+"fin": 13.231,
+"fiable": true,
+"bloque": "prosperar"
+},
+{
+"texto": "la",
+"inicio": 13.395,
+"fin": 13.475,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "ven",
+"inicio": 13.515,
+"fin": 13.635,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "como",
+"inicio": 13.675,
+"fin": 13.815,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "una",
+"inicio": 13.855,
+"fin": 13.975,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "asocia",
+"inicio": 13.995,
+"fin": 14.355,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "y",
+"inicio": 14.375,
+"fin": 14.395,
+"fiable": false,
+"bloque": "socia"
+},
+{
+"texto": "la",
+"inicio": 14.601,
+"fin": 14.661,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "eligen",
+"inicio": 14.701,
+"fin": 15.041,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "para",
+"inicio": 15.121,
+"fin": 15.261,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "construir",
+"inicio": 15.361,
+"fin": 15.742,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "un",
+"inicio": 15.822,
+"fin": 15.862,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "proyecto",
+"inicio": 15.902,
+"fin": 16.262,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "real.",
+"inicio": 16.362,
+"fin": 16.542,
+"fiable": true,
+"bloque": "socia"
+},
+{
+"texto": "La",
+"inicio": 16.625,
+"fin": 16.705,
+"fiable": true,
+"bloque": "regla"
+},
+{
+"texto": "regla",
+"inicio": 16.805,
+"fin": 17.045,
+"fiable": true,
+"bloque": "regla"
+},
+{
+"texto": "es",
+"inicio": 17.105,
+"fin": 17.186,
+"fiable": true,
+"bloque": "regla"
+},
+{
+"texto": "cruel",
+"inicio": 17.266,
+"fin": 17.626,
+"fiable": true,
+"bloque": "regla"
+},
+{
+"texto": "pero",
+"inicio": 17.706,
+"fin": 17.986,
+"fiable": true,
+"bloque": "regla"
+},
+{
+"texto": "innegable.",
+"inicio": 18.026,
+"fin": 18.466,
+"fiable": false,
+"bloque": "regla"
+},
+{
+"texto": "Atraes",
+"inicio": 18.639,
+"fin": 19.02,
+"fiable": true,
+"bloque": "atraes"
+},
+{
+"texto": "exactamente",
+"inicio": 19.28,
+"fin": 20.02,
+"fiable": true,
+"bloque": "atraes"
+},
+{
+"texto": "lo",
+"inicio": 20.08,
+"fin": 20.16,
+"fiable": true,
+"bloque": "atraes"
+},
+{
+"texto": "que",
+"inicio": 20.2,
+"fin": 20.3,
+"fiable": true,
+"bloque": "atraes"
+},
+{
+"texto": "proyectas.",
+"inicio": 20.36,
+"fin": 20.881,
+"fiable": true,
+"bloque": "atraes"
+},
+{
+"texto": "Como",
+"inicio": 21.014,
+"fin": 21.214,
+"fiable": true,
+"bloque": "adentro"
+},
+{
+"texto": "esa",
+"inicio": 21.314,
+"fin": 21.474,
+"fiable": true,
+"bloque": "adentro"
+},
+{
+"texto": "dentro,",
+"inicio": 21.514,
+"fin": 21.914,
+"fiable": true,
+"bloque": "adentro"
+},
+{
+"texto": "esa",
+"inicio": 22.815,
+"fin": 22.995,
+"fiable": true,
+"bloque": "adentro"
+},
+{
+"texto": "fuera.",
+"inicio": 23.075,
+"fin": 23.315,
+"fiable": true,
+"bloque": "adentro"
+},
+{
+"texto": "La",
+"inicio": 23.402,
+"fin": 23.482,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "forma",
+"inicio": 23.562,
+"fin": 23.782,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "en",
+"inicio": 23.802,
+"fin": 23.862,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "la",
+"inicio": 23.902,
+"fin": 23.983,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "que",
+"inicio": 24.043,
+"fin": 24.143,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "representas",
+"inicio": 24.203,
+"fin": 24.743,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "al",
+"inicio": 24.783,
+"fin": 24.863,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "mundo.",
+"inicio": 24.923,
+"fin": 25.284,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "Dicta",
+"inicio": 25.523,
+"fin": 25.783,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "cómo",
+"inicio": 25.943,
+"fin": 26.143,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "te",
+"inicio": 26.184,
+"fin": 26.244,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "van",
+"inicio": 26.284,
+"fin": 26.384,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "a",
+"inicio": 26.424,
+"fin": 26.444,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "tratar",
+"inicio": 26.504,
+"fin": 26.784,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "y",
+"inicio": 26.804,
+"fin": 26.824,
+"fiable": false,
+"bloque": "forma"
+},
+{
+"texto": "cómo",
+"inicio": 27.425,
+"fin": 27.625,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "te",
+"inicio": 27.685,
+"fin": 27.765,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "van",
+"inicio": 27.785,
+"fin": 27.885,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "a",
+"inicio": 27.925,
+"fin": 27.945,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "valorar.",
+"inicio": 27.985,
+"fin": 28.305,
+"fiable": true,
+"bloque": "forma"
+},
+{
+"texto": "Sígueme",
+"inicio": 28.362,
+"fin": 28.742,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "para",
+"inicio": 29.162,
+"fin": 29.323,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "mejorar",
+"inicio": 29.363,
+"fin": 29.643,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "tu",
+"inicio": 29.683,
+"fin": 29.763,
+"fiable": true,
+"bloque": "cta"
+},
+{
+"texto": "vida.",
+"inicio": 29.783,
+"fin": 29.963,
+"fiable": true,
+"bloque": "cta"
+}
+]

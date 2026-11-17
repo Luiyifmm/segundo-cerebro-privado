@@ -1,0 +1,216 @@
+# Herramientas propias (carpeta `scripts/` de la skill)
+
+> **Versión pública:** no van `transcribir_videos.py`, `tiempos_palabras.py` ni `generar_texturas_ciudad.py` (usaban programas y carpetas del PC del autor). Para los tiempos por palabra, usar Whisper (por ejemplo `faster-whisper` con `word_timestamps=True`), instalándolo con permiso del usuario.
+
+> Parte de la skill **after-effects-editor**. Generado del CEREBRO (la base de conocimiento de las clases, 29/09–02/10/2026). Las rutas de proyectos de ejemplo (`Tanda…/…`) son del PC del autor: no vienen en la skill.
+
+## 5b. Herramientas propias (en `scripts/`)
+
+- `ae_lib.jsx`: librería de funciones para construir escenas por script.
+- `extraer_paleta.py`: paleta dominante de una referencia (HEX + %).
+- `tiempos_palabras.py` (*no va en la versión pública*): tiempos por palabra de WAVs con Whisper large-v3 → `tiempos.json`. Alternativa: `faster-whisper` con `word_timestamps=True`.
+- `generar_locuciones_TTS.ps1`: locuciones en español con la voz local de Windows (Helena). **Guardar en UTF-8 con BOM.**
+- SFX sintetizados con ffmpeg (pop, whoosh, impacto, ding): comandos en `APRENDIZAJE - 10 Timing.md`.
+- `generar_emojis.py`: emojis de Windows **en color** a PNG, con tonos de piel y ZWJ. Uso: `python generar_emojis.py carpeta 512 cara=👩🏽 cerebro=🧠 …`. Necesita Pillow + fontTools.
+- **Para replicar un vídeo de referencia (Tanda 02, receta 4.54):**
+  - `hoja_ref.py`: hojas de fotogramas numerados.
+  - `rastrear_rot.py`: rastrea un elemento plano (posición + ángulo + escala) fotograma a fotograma.
+    - Uso: `python rastrear_rot.py carpeta_fotogramas plantilla x0 y0 x1 y1 "f1,f2,…" ang_min ang_max [esc_min esc_max]`.
+    - La plantilla es un número de fotograma o `img:ruta.png`.
+  - `ajuste_multi.py` (+ `curvas_ae.py`, `ajuste_ease.py`): ajusta keys de AE (tiempo, valor, velocidad, influencias) a una curva medida. Entrada: un JSON con los datos y las keys.
+  - `ajuste_rapido.py`: versión rápida para 3 keys (modo "giro" o "continuo").
+  - `comparar_video.py`: hoja ORIGINAL | RÉPLICA. Uso: `python comparar_video.py ref.mp4 mio.mp4 salida.jpg offset f1 f2 …`.
+  - `muestras.py`: compara colores en puntos concretos entre la referencia y la réplica.
+  - **Añadidas en el rehecho v2:**
+    - `comparar_region.py`: región a tamaño real (1:1) en varios fotogramas; con `BOOST=1` aclara las sombras.
+    - `lineas_hp.py`: solo las líneas finas (paso alto), para comparar la geometría de ondas.
+    - `banda_onda.py`: banda de una onda por columnas (arriba, abajo y hebras).
+    - `luz_fondo.py`: luz del fondo por zonas, con máscara.
+    - `energia_lineas.py`: contraste de líneas y luz por regiones.
+    - `colores_region.py`: color medio y del 3 % más claro por región.
+    - `nitidez.py`: brillo y energía de bordes (desenfoque o halo).
+    - `caja_brillante.py`: caja de lo que brilla (sigue títulos y logos).
+    - `medir_logo6.py` / `medir_logo12.py`: tamaño de un logo que crece.
+    - `elipse_anillo.py`: orientación de un objeto 3D por la elipse de su silueta.
+    - `medir_frase.py` + `tira_frase.py`: palabras y objeto de una frase, fotograma a fotograma.
+    - `color_texto12.py`: degradado de un título a lo largo de x.
+    - `suavidad.py`: temblor de un movimiento rastreado.
+    - `saltos.py`: saltos entre fotogramas que el original no tiene.
+    - `altura_onda.py`: altura de una onda por franjas.
+    - `entorno_estudio.py`: mapa de entorno de estudio para cristal o cromo (C4D).
+- Scripts completos de la réplica de Glass Health: `Tanda 02…/_material/scripts (réplica)/` (`glass_lib.jsx` + un script por escena).
+- **Añadidas en el proyecto del faro (30/09/2026):**
+  - `revisar_video.py`: revisa un render. Da los saltos entre fotogramas seguidos (mediana y los 25 mayores, con su segundo) y hojas de fotogramas cada N s. Uso: `python revisar_video.py video.mp4 carpeta [cada_s]`.
+  - `escena3d_lib.jsx`: `plano()` (capa 3D con textura: posición, ancla, escala, giro, luces, modo) y `cartelY()` (mira a la cámara en Y). Se carga después de `ae_lib.jsx`.
+  - `generar_texturas_ciudad.py` (*no va en la versión pública*): generador de texturas procedurales:
+    - ruido fractal `fbm` con celdas anisótropas;
+    - fachadas en ruinas (ventanas, persianas, grafitis, musgo, grietas, borde roto y derrumbe);
+    - cilindros desenrollados con luz horneada y cortados en tiras;
+    - cielo nocturno, luna, nubes, agua, suelo de calle;
+    - carteles, farolas, escombros, rocas, haz de luz, niebla y reflejo de luna.
+  - Proyecto completo de ejemplo: `Proyectos propios/01 Faro en la ciudad abandonada/` (scripts del 00 al 08 + `NOTAS`).
+- **Añadidas en la clase 12 "Mira cómo edito" (30/09/2026):**
+  - `velocidad_reproduccion.py`: ¿a qué velocidad iba la referencia dentro de una grabación de pantalla? (fotogramas repetidos → fotogramas nuevos por segundo). Uso: `python velocidad_reproduccion.py grabacion.mp4 t_ini t_fin x0,y0,x1,y1`.
+  - `recortes_ui.py`: recorta y amplía zonas de la interfaz de AE de un tutorial en varios instantes, para leer los valores exactos del profe. Uso: `python recortes_ui.py video.mp4 salida.jpg efectos "05:31,05:59"`. Zonas: efectos, props, flow, timeline, visor, toolbar, izq_tl, regla o `x0,y0,x1,y1`.
+  - `degradado4_modelo.py`: modelo exacto del Degradado de 4 colores de AE (`campo()`) y ajuste de 4 puntos + grises + fusión a unas medidas (CSV x,y,valor).
+  - `ajustar_curva2keys.py`: ajusta 2 claves de AE (inicio, duración, influencias de salida y entrada) a una curva medida (CSV t,valor).
+  - Scripts de medida de la réplica (plantillas: cambiar rutas y tiempos) en `Tanda 01…/12 Mira como edito/_material/scripts/medidas/`:
+    - `comparar.py`: rejilla de luz 5×7 + colores en puntos;
+    - `medir_borde.py`, `luz_borde_movimiento.py`, `tiras_borde*.py`: luz del canto de un panel y su movimiento;
+    - `perfil_fondo.py`, `fondo_necesario.py`, `vineta_coherente.py`, `ajustar_fondo2.py`: fondo sin viñeta y su degradado;
+    - `corregir_panel.py`: corrige los 4 colores de un degradado con la diferencia medida;
+    - `comparar_tiempos.py`, `comparar_bajada.py`, `medir_fichas2.py`, `medir_iconos.py`: movimiento frente al original;
+    - `hoja_comparacion.py`: hoja ORIGINAL | RÉPLICA con el tiempo corregido (0,8x y rebobinado).
+  - Proyecto completo: `Tanda 01…/12 Mira como edito/_material/scripts/` (`calendario_lib.jsx`, `02_fondo.jsx`, `03_panel.jsx`, `04_escena.jsx`, `construir.jsx`, `parametros.json`, `probar_borde.jsx` y `probar_brillos.jsx` para afinar al vuelo).
+- **Añadidas en la Tanda 03 · 01 Expresiones (30/09/2026):**
+  - `sfx_lib.py`: síntesis de efectos de sonido con numpy, sin librerías de audio (receta 4.76).
+    - **Sonidos listos:** latido, tecla, whoosh, carga, boom, golpe (normal o grande), impacto, ping, alerta, chirp_ui, pulso, brillo_letras y glitch_digital.
+    - **Utilidades:** `curva()` para seguir una curva exportada de AE e `instantes_acelerando()`.
+    - **Clase `Mezcla`:** `poner(señal, segundo, ganancia, paneo, reverb)` y `guardar()`, que hace la reverb, el nivelador, el fundido y el limitador, y devuelve el RMS por segundo.
+    - Prueba: `python sfx_lib.py prueba.wav`.
+  - `espectrograma.py`: espectrograma + forma de onda con las marcas del mapa de eventos, para revisar un sonido sin oírlo. Uso: `python espectrograma.py sonido.wav "mapa del sonido.txt" salida.png`.
+  - **Proyecto completo de ejemplo:** `Tanda 03…/01 Expresiones (La IA dominara el mundo)/_material/scripts/`:
+    - `ia_lib.jsx`, `construir.jsx` y `parametros.json`;
+    - pasos `01_preparar` (comps + capa CONTROL), `02_mapa` (barridos, red y ciudades), `03_nucleo`, `04_escena` (globo, cámara, glitch y grado), `05_hud` (HUD y título) y `06_sonido`;
+    - `generar_mapas.py` (mapas desde la NASA), `sonido.py` y `curvas_para_sonido.json`.
+- **Añadidas en la Tanda 03 · 02 "Dominando las curvas" (30/09/2026):**
+  - `ajuste_posicion_ae.py`: ajusta keys de **posición unificada** a una trayectoria medida (receta 4.77).
+    - Modelo exacto de AE: trayecto Bézier + gráfico de velocidad + media en el obturador de 180°.
+    - Config JSON: medidas [fr, x, y] y las keys, con tiradores "cero", "horizontal" o "libre" y lo que se deja libre (x, y, fr, h, velocidades, influencias).
+    - Probado: reproduce el salto A→C de la clase (1,64 px).
+    - Uso: `python ajuste_posicion_ae.py config.json salida.json`.
+  - `comparar_video.py`: ahora lee el tamaño de cada vídeo y sirve para **verticales** (1080×1920).
+  - `ae_lib.jsx`, funciones nuevas:
+    - `claveEase(prop, k, velIn, inflIn, velOut, inflOut)`;
+    - `flowCurva(prop, k, [x1, y1, x2, y2])`: curvas de Flow, receta 4.81;
+    - `anclarEn(capa, fx, fy)`: ancla en un punto de la caja sin mover la capa;
+    - `separarLetras(comp, capaFormas)`.
+  - **Scripts de medida del proyecto** (plantillas) en `Tanda 03…/02 Dominando las curvas/_material/scripts/medidas/`:
+    - `rastreo_f.py`: componentes conexas;
+    - `afinar_f.py` y `afinar_final.py`: NCC con semillas de giro y la fuente real;
+    - `letras2.py` y `aplastado3.py`: aplastado por la parte de abajo;
+    - `entrada_global.py`: kimógrafo + ajuste global de una entrada en escalera;
+    - `zoom2.py` y `geo_tiempo.py`: zoom global y su centro;
+    - `fondo.py` y `reflejo.py`: fondo radial y caída del reflejo;
+    - `ajuste_saltos*.py`, `ajuste_giro*.py` y `ajuste_escala.py`: keys de la F;
+    - `comparar_fr.py`: ORIGINAL | RÉPLICA | DIFERENCIA de un fotograma.
+- **Añadidas en la Tanda 03 · 03 "Domina los Keyframes" (30/09/2026):**
+  - `teclas_lib.jsx` (se carga después de `ae_lib.jsx`): ayudas para **enseñar animación**.
+    - `capaIcono(comp, nombre, tipoIzq, tipoDer, r, color, pos)`: figura con la forma del icono de la key ("lin", "bez", "hold", "auto").
+    - `capaBola(comp, nombre, radio, cLuz, cSombra, pos)`: pelota con volumen (sólido + máscara + Ramp radial).
+    - `ponerKeys(prop, [{f, v, vIn, iIn, vOut, iOut, lin, hold}])`: keys con curvas en una línea (fotogramas; las retenciones, al final).
+    - `tiradores(prop, [[inT, outT, continua] | null])`: los tiradores del trayecto.
+    - `puntosFotograma(comp, capa, f0, f1, color)`: los puntitos del trayecto en el render.
+    - `eco(comp, copias, caída)`: la estela.
+    - `grafVelocidad(comp, capa, f0, f1, [x, y, w, h], color)`: gráfico de velocidad con su cabezal.
+    - `nuevaComp`, `fondoOscuro`, `rotulo`, `nota`, `cabecera`.
+  - `hoja_video.py`: hoja de fotogramas de un render para revisarlo a ojo (lee los H.264 de AE como BT.709). Uso: `python hoja_video.py video.mp4 salida.jpg f1 f2 … [--ancho=480]`.
+  - Proyecto de ejemplo: `Tanda 03…/03 Domina los Keyframes/_material/scripts/` (`construir.jsx` + pasos 02–12).
+- **Añadidas en la Tanda 03 · 04 "Mattes" (30/09/2026):**
+  - `silueta_png.py`: un emoji de Windows (en color, vectorial) a PNG con transparencia, para mates de alfa sin caras reales. Uso: `python silueta_png.py salida.png [emoji] [tamaño]`. Por defecto, 🦋 a 800 px.
+  - `mates_lib.jsx` (después de `ae_lib.jsx` y `teclas_lib.jsx`), en `scripts/` como plantilla (cambia las rutas de texturas e imágenes del principio por las tuyas):
+    - `textura(nombre)` e `importar(ruta)`: importar una sola vez;
+    - `metraje(comp)`: el cielo con acercamiento lento, como un plano de vídeo;
+    - `silueta()`;
+    - `ponerMate(escena, mate, tipo)`;
+    - `barrasTexto(comp)`;
+    - `etiqueta(comp, texto, pos)`;
+    - `miniMate(comp, fuente, texto, pos)`.
+  - Proyecto de ejemplo: `Tanda 03…/04 Mattes/_material/scripts/` (`construir.jsx` + pasos 02–09).
+- **Añadidas en la Tanda 03 · 05 "EDITS" (01/10/2026):**
+  - `edits_lib.jsx` (después de `ae_lib.jsx` y `teclas_lib.jsx`), copia del proyecto como plantilla: los "presets" del videoclip.
+    - `keylight(capa, quien, {gain, balance, clipNegro, clipBlanco, preblur, encoge, calado, vista})`;
+    - `fuente1080(quien)` y `compArtista(quien, nombre, conNucleo, opciones)`: recorte completo (receta 4.92);
+    - `capaClip(comp, "@bailarina" | "bokeh"…, desdeSeg, f0, durFr, velocidad, nombre)`: un tramo de clip, con cámara lenta;
+    - `capaAlReves(comp, quien, tClip, vel, f0, durFr, nombre)`: el Ctrl+Alt+R con Time Remap;
+    - `keysFlow(prop, [[f, v], …], CURVA.x)` y las 4 curvas `CURVA.lentoRapidoLento / rapidoLento / lentoRapido / rapidoLentoRapido`;
+    - `ajuste(comp, nombre, f0, f1)`: capa de ajuste con su duración;
+    - `TOMAS` + `compToma(n)`: el montaje por tomas.
+  - `rastrear_cabeza.py`: rastrea la cabeza en un recorte con alfa (la parte más alta de la silueta), suavizado y muestreado por fotograma de la comp. Uso: `python rastrear_cabeza.py recorte.mov t0 velocidad n_fotogramas salida.json`.
+  - `agujeros_alfa.py`: ¿el recorte tiene agujeros? Porcentaje del interior del cuerpo con alfa < 0,98 / 0,8 / 0,5 + el alfa como imagen. Uso: `python agujeros_alfa.py recorte.mov t salida.png`.
+  - `comparar_zona.py`: la misma zona de varias PNG, ampliada ×2–3 lado a lado (para ver texturas o bordes).
+  - `mosaico_png.py`: varias PNG en una hoja con su nombre. `--fondo=0` las pone sobre negro, como el montaje.
+  - `hoja_rapida.py`: hoja de un clip a N fotogramas por segundo, reducida dentro de ffmpeg. Sirve para clips 4K largos.
+  - `fotos_rejilla.py`: fotogramas de un clip en segundos dados, con rejilla cada 100 px (en medida 1920) para leer posiciones (manos, objetos).
+  - `fotos_video.py`: fotogramas exactos (número a 30 fps) de un render, en hoja de 2 columnas.
+  - `ver_fotogramas.jsx`: guarda PNG de una comp en varios fotogramas con `saveFrameToPng` (`$.global.VER = {comp, fs, dir, pre}`).
+  - Proyecto de ejemplo: `Tanda 03…/05 EDITS (videoclip)/_material/scripts/` (`construir.jsx` + pasos 01–13 + `musica.py`).
+- **Añadidas en la Tanda 03 · 07 "Anuncio de celular 3D" (01/10/2026):**
+  - `glb_a_obj.py` (Blender sin ventana): modelo GLB/GLTF (Sketchfab) → OBJ + MTL + PNG para Element, con renombrado opcional de materiales y dos vistas de prueba (receta 4.102). Uso: `blender.exe -b --python glb_a_obj.py -- modelo.glb carpeta [nombres.json]`.
+  - `espectrograma.py`: ahora salta las líneas del mapa que no empiezan por un número (el título del mapa ya no lo rompe).
+  - Proyecto de ejemplo: `Tanda 03…/07 Anuncio de celular 3D (Element)/_material/scripts/`:
+    - `pantalla.py`: el chat con teclado en español, en capas PNG + `diseno.json` con las posiciones;
+    - `construir.jsx` + pasos `01_pantalla` (animación de escribir, enviar y recibir), `02_escena`, `03_tomas` (3 cámaras con nulo, parámetros por ARGS) y `04_final` (calidad + sonido);
+    - `sonido.py`.
+- **Añadidas en la Tanda 04 · 01 "Camera Movement" (01/10/2026):**
+  - `masters_a_mp4.py`: pasa los "* master.mov" de una carpeta render (plantilla *High Quality* de `ae_render`) a H.264 1080p de 50 Mbps, sin la pista de datos y con color BT.709. Uso: `python masters_a_mp4.py "carpeta render"`.
+  - Proyecto de ejemplo: `Tanda 04…/01 Camera Movement (2 min)/_material/scripts/`:
+    - `00_prueba_motores.jsx`: una comp por motor 3D con un desenfoque en una forma 3D, motion blur y profundidad de campo;
+    - `01_escena.jsx`: la cámara A → B con nulo, diseñada desde el plano final (receta 4.106);
+    - `02_comparacion.jsx`: la lámina con y sin profundidad, la vista desde arriba y la curva;
+    - `construir.jsx`.
+- **Añadidas en la Tanda 04 · 02 "MASTER 3D Camera" (01/10/2026):**
+  - `camara_lib.jsx` (después de `ae_lib.jsx` y `teclas_lib.jsx`):
+    - `comp60(nombre, w, h, durSeg, carpeta)` y `s60(f)`: comps a 60 fps;
+    - las 3 curvas del profe entre la key k y la k+1: `curvaEntrada`, `montanaSuave` y `ganaYPierde`; y `ponSalida` / `ponLlegada` para tocar un solo lado;
+    - `aparecerLetras(capa, t0, retrasoFr, durFr)`: texto letra a letra como el preset *Type Array*;
+    - `punto(comp, nombre, línea1, línea2, {pos, rotZ, tam, t0, marcador})`: 2 líneas + subrayador en Oscurecer colgados de un nulo 3D con un deslizador "Desenfoque".
+  - `tira_video.py`: tira de recortes de un vídeo a N fotogramas por segundo en una zona del cuadro, para ver a velocidad real lo que el profe reproduce en su visor. Uso: `python tira_video.py video.mp4 salida.jpg t_ini t_fin fps ancho cols x0 y0 x1 y1`.
+  - Proyecto de ejemplo: `Tanda 04…/02 MASTER 3D Camera/_material/scripts/` (`construir.jsx` + `01_caja_iconos.jsx`, `02_escena.jsx`, `03_lamina.jsx`).
+- **Añadidas en la Tanda 04 · 04 "Motion Graphics designer" (01/10/2026):**
+  - `camara_lib.jsx`: ahora con `movConCola(prop, t0, v0, t1, t2, v2, frac, inflSal, inflCont, inflFin)`, el movimiento con pico y cola que frena siempre (receta 4.108).
+  - `voz_onecore.ps1`: locución con las voces OneCore de Windows (Pablo, Laura, Helena) desde un SSML (pausas con `<break>`, velocidad con `<prosody rate>`). Uso: `powershell -ExecutionPolicy Bypass -File voz_onecore.ps1 -ssml guion.ssml -wav salida.wav -voz Pablo`. Después, Whisper para los tiempos de cada palabra.
+  - Proyecto de ejemplo: `Tanda 04…/04 Motion Graphics designer (guia completa)/_material/scripts/`:
+    - `pieza_lib.jsx`: reloj, pósit, tarjeta, cajas con iconos, camino y bandera;
+    - `texturas.py`: la pizarra;
+    - pasos `01_elementos` a `05_lamina`.
+- **Añadidas en la Tanda 04 · 03 "eye-catching 3D Scenes" (01/10/2026):**
+  - `quitar_cielo.py`: quita un cielo azul de una foto de paisaje con una llave G−B y desmezcla el borde, sin ribete. Uso: `python quitar_cielo.py foto.jpg salida.png [T0] [T1] [margen]`.
+  - `iconos_png.py`: iconos blancos en PNG de 512 px desde Segoe Fluent Icons; trae la lista de códigos tipo "herramientas de AE". Uso: `python iconos_png.py carpeta "01 seleccion:F8AF" "09 texto:T" …`.
+  - `tabla_glifos.py`: hojas con todos los glifos de una fuente de iconos y su código, sin fontTools.
+  - `blender_estatua_png.py` (Blender sin ventana):
+    - estatua escaneada → PNG transparente en mármol con luz de día;
+    - opciones de corte + cúpula, sol y relleno, aspecto AgX y zoom para revisar detalles;
+    - 1800×4000 en 35 s.
+  - `inspeccionar_glb.py` (Blender sin ventana): `info.json` (trozos, alturas, color por vértice, texturas) y 4 vistas ortográficas para saber hacia dónde mira el modelo y cuántas piezas trae.
+  - `comparar_color_zonas.py`: color medio por zonas de dos imágenes (la del profe recortada del visor) para igualar el etalonaje con números.
+  - `bordes_cuadro.py`: recortes al 100 % de esquinas y bordes de un fotograma, para ver artefactos en el borde.
+  - Proyecto de ejemplo: `Tanda 04…/03 Eye-catching 3D Scenes/_material/scripts/`:
+    - `construir.jsx` + `01_escena.jsx` (capas, cámara, iconos que entran tarde, preparar imágenes);
+    - `02_efectos.jsx` (color, bordes y franja del horizonte);
+    - `03_lamina.jsx` (vista de lado a escala y curvas);
+    - `render_estatua.py`, `render_arbol.py`, `prado_sin_cielo.py` e `iconos.py`.
+- **Añadidas en la Tanda 04 · 05 "Smooth 3D Camera" (01/10/2026):**
+  - `hojas_resumen.py`: hojas de fotogramas de un vídeo largo (una cada N s, con su tiempo), para recorrer una clase de una hora antes de estudiarla a fondo. Uso: `python hojas_resumen.py "patrón.mp4" carpeta [cada_seg] [por_hoja] [cols] [ancho]`.
+  - `comparar_momentos.py`: hoja ORIGINAL | RÉPLICA por momentos equivalentes, aunque los tiempos no coincidan; vale para vertical u horizontal. Uso: `python comparar_momentos.py su_clip.mp4 mi.mp4 salida.jpg "t_suyo:t_mio:etiqueta" … [--ancho=200]`.
+  - `master_a_mp4_audio.py`: un master de AE → MP4 H.264 50 Mbps **con su audio** (AAC 320k) si lo trae, BT.709, sin la pista de capítulos. Uso: `python master_a_mp4_audio.py "x master.mov"`.
+  - Proyecto de ejemplo: `Tanda 04…/05 Smooth 3D Camera Animation/_material/scripts/`:
+    - `01_pieza.jsx`: `camEn()`, `delante()` (Center In View) y `pantalla()`; líneas que se enganchan; barrido con mate cerca de la cámara; el 0 que gira; el corte medido en el pico;
+    - `02_lamina.jsx`: vista de arriba a escala, cadena de nulos y gráfico de velocidad, todo leído de la pieza;
+    - `medir_cero.py` (geometría de una cifra), `colores.py` y `clip_referencia.py` (recortar su pieza de la grabación a 540×960).
+- **Añadidas en la Tanda 05 · 01 "Novedades de AE 2026" (02/10/2026):**
+  - `buscar_matchnames.py`: busca nombres internos (matchNames) dentro de los .dll de AE, solo leyendo, en ASCII y UTF-16. Sirve para lo que no está documentado (así salió `ADBE Text VF Axis 1…8`). Uso: `python buscar_matchnames.py "ADBE Text [A-Za-z0-9 ]+"` (tarda ~1 min).
+  - `perfil_color.py`: color por filas en unas columnas de un PNG (dónde está el horizonte, qué color tiene el suelo). Uso: `python perfil_color.py imagen.png "120,1800" "200,420,10"`.
+  - Proyecto de ejemplo: `Tanda 05…/01 Novedades de AE 2026/_material/scripts/`:
+    - `00_sondeo.jsx` a `00_sondeo6.jsx`: cómo se prueba una función nueva (métodos con `reflect`, enums, árbol de propiedades de una capa);
+    - `01_pieza.jsx`: mallas, luces con sombras, cámara con nulo FOCO y textos con ejes variables.
+- **Añadidas al crear la skill "after-effects-editor" (02/10/2026), por las 3 reglas de oro del usuario:**
+  - `optimizar_visibles.jsx` (regla 2: solo vive lo que se ve):
+    - mide fotograma a fotograma cuándo se ve cada capa: caja proyectada con `toComp`, opacidad, escala y cámara. Usa un nulo sonda con expresiones que se borra al acabar;
+    - recorta la entrada y la salida (+1 fotograma) e informa de lo que nunca se ve y de los huecos largos;
+    - no toca cámaras, luces, nulos, ajustes, mates, capas usadas por efectos o expresiones, ni capas 3D que dan sombra, salvo en los tramos con opacidad o escala 0;
+    - uso: `$.global.OPT = {comp, aplicar:false|true, paso:2, margen:60, margenFr:1, borrarInvisibles:false}`.
+  - `organizar_proyecto.jsx` (regla 3):
+    - carpetas fijas: 01 FINAL, 02 ESCENAS, 03 PRECOMPS, 04 MEDIOS (Imágenes, Vídeos, Audio, 3D), 05 SÓLIDOS y 99 PRUEBAS;
+    - colores de etiqueta por tipo de capa y aviso de los nombres poco claros;
+    - uso: `$.global.ORG = {aplicar, colores}`.
+  - `mapa_proyecto.jsx` (regla 3): escribe `MAPA DEL PROYECTO.md` junto al .aep con la comp final, cada texto (comp → capa → contenido), cada archivo con su ruta y dónde se usa, los controles, las propiedades esenciales, los marcadores y las capas de cada comp. Solo lee el proyecto.
+  - `volcar_propiedades.jsx`: árbol de propiedades (nombre = matchName : valor) de una capa, métodos con `reflect` y búsqueda de efectos instalados por palabra. Uso: `$.global.VOL = {comp, capa, prof, efectos}`.
+  - **Probados el 02/10/2026** en la pieza de la Tanda 05 · 01:
+    - `optimizar_visibles` recortó las 5 mallas hasta su entrada (antes estaban a escala 0) y los títulos hasta su fundido: 11,8 s de capa ahorrados;
+    - no tocó la cámara, las luces, el nulo FOCO ni el grano;
+    - la imagen quedó igual: idéntica a los 5 s, y a los 2,1 s solo ruido de muestreo en los bordes;
+    - `organizar_proyecto` ordenó las carpetas, coloreó 35 capas y limpió 20 elementos sin usar;
+    - `mapa_proyecto` sacó 15 textos con su comp y su tramo; tenía el fallo de los ternarios encadenados (sección 5), ya arreglado;
+    - `volcar_propiedades` dio 135 líneas de la malla y encontró los 5 efectos de partículas.
+

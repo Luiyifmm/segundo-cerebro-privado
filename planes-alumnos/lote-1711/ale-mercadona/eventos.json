@@ -1,0 +1,58 @@
+[
+ {
+  "t": 0.0,
+  "type": "whoosh"
+ },
+ {
+  "t": 0.0,
+  "type": "swoosh"
+ },
+ {
+  "t": 0.02,
+  "type": "sub_drop"
+ },
+ {
+  "t": 0.05,
+  "type": "hit"
+ },
+ {
+  "t": 0.09,
+  "type": "pop"
+ },
+ {
+  "t": 1.13,
+  "type": "tick"
+ },
+ {
+  "t": 2.9099999999999997,
+  "type": "whoosh"
+ },
+ {
+  "t": 3.13,
+  "type": "pop"
+ },
+ {
+  "t": 4.21,
+  "type": "tick"
+ },
+ {
+  "t": 5.91,
+  "type": "whoosh"
+ },
+ {
+  "t": 6.13,
+  "type": "pop"
+ },
+ {
+  "t": 9.51,
+  "type": "tick"
+ },
+ {
+  "t": 9.88,
+  "type": "swoosh"
+ },
+ {
+  "t": 10.48,
+  "type": "click"
+ }
+]
