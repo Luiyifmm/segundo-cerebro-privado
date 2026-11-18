@@ -1,0 +1,1 @@
+Origen: github.com/affaan-m/ECC skills/manim-video @ 3f14a10 (MIT), copiada el 2026-11-17 sin hooks. Ver bóveda: 4 ENTRENAMIENTO/ECC · qué se instaló y cómo usarlo.md
