@@ -1,0 +1,198 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjrnsx6smtzgb5f",
+ "titulo_salida": "Alessandro - colores de los alimentos",
+ "bruto": "bruto.mov",
+ "palabras": "palabras2.json",
+ "tramos": [
+  [
+   36.3,
+   38.7
+  ],
+  [
+   52.95,
+   55.21
+  ],
+  [
+   59.92,
+   61.82
+  ],
+  [
+   67.3,
+   69.45
+  ],
+  [
+   72.45,
+   74.95
+  ],
+  [
+   102.8,
+   105.9
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "usuario": "@alessmartin.fitness",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
+ },
+ "cara_y": 0.36,
+ "colores": {
+  "rojo": "#FF3B30",
+  "verde": "#34C759",
+  "naranja": "#FF9500",
+  "morado": "#C77DFF",
+  "amarillo": "#FFCC00"
+ },
+ "sub_y": 1180,
+ "transiciones": [
+  52.95,
+  59.92,
+  67.3,
+  72.7,
+  102.8
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 36.3,
+   "t1": 37.0,
+   "y": 250,
+   "linea1": "Come de todos los colores",
+   "linea2": "5 COLORES",
+   "col": "bueno"
+  },
+  {
+   "tipo": "color",
+   "t0": 37.0,
+   "t1": 38.5,
+   "nombre": "Rojo",
+   "col": "#FF3B30",
+   "texto": "Presión arterial saludable",
+   "emojis": [
+    "🍓",
+    "🍉",
+    "🍅",
+    "🍒",
+    "🌶️"
+   ],
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-rojo.cut.png"
+  },
+  {
+   "tipo": "color",
+   "t0": 52.95,
+   "t1": 54.95,
+   "nombre": "Verde",
+   "col": "#34C759",
+   "texto": "Colesterol en niveles buenos",
+   "emojis": [
+    "🍏",
+    "🥑",
+    "🥒",
+    "🥬",
+    "🥦",
+    "🫛"
+   ],
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-verde.cut.png"
+  },
+  {
+   "tipo": "color",
+   "t0": 59.92,
+   "t1": 61.7,
+   "nombre": "Naranja",
+   "col": "#FF9500",
+   "texto": "Salud intestinal",
+   "emojis": [
+    "🥕",
+    "🍊",
+    "🍑",
+    "🎃",
+    "🍠"
+   ],
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-naranja.cut.png"
+  },
+  {
+   "tipo": "color",
+   "t0": 67.3,
+   "t1": 72.68,
+   "nombre": "Morado",
+   "col": "#AF52DE",
+   "texto": "Azúcar en sangre estable",
+   "emojis": [
+    "🍇",
+    "🫐",
+    "🍆"
+   ],
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-morado.cut.png"
+  },
+  {
+   "tipo": "color",
+   "t0": 72.7,
+   "t1": 74.9,
+   "nombre": "Amarillo",
+   "col": "#FFCC00",
+   "texto": "Náuseas y dolor de estómago",
+   "emojis": [
+    "🍌",
+    "🍋",
+    "🫚",
+    "🥔",
+    "🍵"
+   ],
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-blanco.cut.png"
+  },
+  {
+   "tipo": "cta",
+   "t0": 104.84,
+   "t_clic": 105.0,
+   "y": 250,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "@36.30|El rojo ayuda a mantener",
+  "la *%rojo%presión arterial saludable.*",
+  "@52.95|El verde ayuda a niveles",
+  "*%verde%buenos de colesterol.*",
+  "@59.92|El naranja apoya",
+  "la *%naranja%salud intestinal.*",
+  "@67.30|El morado ayuda a mantener",
+  "niveles buenos de *%morado%azúcar en sangre.*",
+  "@72.70|El amarillo te ayuda con síntomas",
+  "como *%amarillo%náuseas o dolor estomacal.*",
+  "@102.80|Y si quieres saber más",
+  "sobre *pérdida de grasa y nutrición,*",
+  "*sígueme.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 36.32,
+   "type": "sub_drop"
+  }
+ ],
+ "zooms": [],
+ "sin_subs": [],
+ "tiempos": "bruto",
+ "version": "v2",
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3",
+   "desde": 0,
+   "t0": 0
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
+}

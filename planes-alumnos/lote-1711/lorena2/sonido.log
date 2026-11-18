@@ -8,6 +8,8 @@ NOTE: could not hear the synthesized layer in the render's audio (a music or voi
 declared 15 events: 15 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
 routed: tick=7, whoosh=4, drop=1, hit=1, pop=1, click=1
 routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, tick -> library:click, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (1), look at their frames:
+    11.63s  cut     strength 0.65  
 -> /private/tmp/claude-501/lote-1711/lorena2/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/lorena2/sfx/cues.json --out /private/tmp/claude-501/lote-1711/lorena2/sfx/video_sfx.mp4 --sfx-trim-db 0
 level: 3 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 12.20s; --no-level-roles keeps the peaks equal)
@@ -37,4 +39,4 @@ Still to judge by eye on review.png: character fit (each sound suits its picture
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena2/mus_0.wav.g.wav -t 15.000 /private/tmp/claude-501/lote-1711/lorena2/mus_cruda.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena2/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/lorena2/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena2/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/lorena2/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados elevaciones - v2 lote (música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados elevaciones - v3 lote (música).mp4 -14.0 LUFS

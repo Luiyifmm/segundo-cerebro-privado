@@ -30,45 +30,40 @@
    "tipo": "tarjeta",
    "suelta": true,
    "desenfoca": true,
-   "grid": true,
+   "grid": false,
    "claro": true,
-   "t0": 0.1,
-   "t1": 4.4,
    "x": 540,
-   "y": 720,
-   "lado": 560,
-   "emoji": "👤",
-   "texto": "Cada día que no publicas…",
-   "tam": 66,
-   "orbita": [
+   "y": 820,
+   "lado": 500,
+   "circulo": "#D4AF37",
+   "t0": 0.1,
+   "t1": 4.45,
+   "emoji": "⚖️",
+   "texto_arriba": "Cada día que no publicas…",
+   "texto_abajo": "otro abogado se lleva al cliente",
+   "t_abajo": 1.8,
+   "tam_abajo": 64,
+   "col": "malo",
+   "gira": [
     {
-     "emoji": "⚖️",
-     "texto": "Tú: sin publicar",
-     "x": 260,
-     "y": 1290,
-     "lado": 230,
-     "t": 1.2,
-     "tam": 40
-    },
-    {
-     "emoji": "🏛️",
-     "texto": "Otro abogado se lo lleva",
-     "x": 800,
-     "y": 1290,
-     "lado": 230,
-     "t": 2.4,
-     "tam": 40
+     "emoji": "👤",
+     "r": 330,
+     "vel": 1.0,
+     "lado": 120,
+     "t": 1.5,
+     "fase": 0,
+     "texto": "Cliente"
     }
    ]
   },
   {
    "tipo": "calendario",
    "desenfoca": true,
-   "grid": true,
+   "grid": false,
    "claro": true,
    "t0": 4.45,
    "t1": 11.6,
-   "y": 640,
+   "y": 760,
    "ancho": 860,
    "dias": 14,
    "emoji": "📲",
@@ -82,8 +77,8 @@
      "emoji": "📝",
      "texto": "Un post hoy",
      "x": 320,
-     "y": 1240,
-     "lado": 230,
+     "y": 1260,
+     "lado": 200,
      "t": 8.5,
      "tam": 40
     },
@@ -91,8 +86,8 @@
      "emoji": "📝",
      "texto": "Otro mañana",
      "x": 760,
-     "y": 1240,
-     "lado": 230,
+     "y": 1260,
+     "lado": 200,
      "t": 9.6,
      "tam": 40
     }
@@ -102,14 +97,14 @@
    "tipo": "texto",
    "t0": 11.8,
    "t1": 15.0,
-   "y": 1250,
+   "y": 1300,
    "lineas": [
     "Así se construye",
     "*un despacho que se ve*"
    ],
    "paso": 0.45,
-   "tam": 56,
-   "tam_esp": 76
+   "tam": 62,
+   "tam_esp": 88
   },
   {
    "tipo": "cta",
@@ -127,5 +122,22 @@
  ],
  "musica": "golden-hour-piano-version.mp3",
  "musica_desde": 0,
- "version": "v2"
+ "version": "v3",
+ "mg_esquinas": [
+  {
+   "img": "../_flow/v3/balanza.cut.png",
+   "pos": "si"
+  },
+  {
+   "emoji": "⭐",
+   "pos": "id",
+   "blur": 7
+  },
+  {
+   "emoji": "✨",
+   "pos": "ii",
+   "blur": 6
+  }
+ ],
+ "mg_deco": "formas"
 }

@@ -22,7 +22,7 @@
    69.45
   ],
   [
-   72.45,
+   72.72,
    74.95
   ],
   [
@@ -121,7 +121,7 @@
   {
    "tipo": "color",
    "t0": 67.3,
-   "t1": 72.68,
+   "t1": 69.45,
    "nombre": "Morado",
    "col": "#AF52DE",
    "texto": "Azúcar en sangre estable",
@@ -135,9 +135,9 @@
   },
   {
    "tipo": "color",
-   "t0": 72.7,
+   "t0": 72.72,
    "t1": 74.9,
-   "nombre": "Amarillo",
+   "nombre": "Digestión",
    "col": "#FFCC00",
    "texto": "Náuseas y dolor de estómago",
    "emojis": [
@@ -180,9 +180,14 @@
   }
  ],
  "zooms": [],
- "sin_subs": [],
+ "sin_subs": [
+  [
+   72.72,
+   74.95
+  ]
+ ],
  "tiempos": "bruto",
- "version": "v2",
+ "version": "v3",
  "musicas": [
   {
    "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3",

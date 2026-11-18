@@ -33,10 +33,10 @@ Still to judge by eye on review.png: character fit (each sound suits its picture
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v2 lote (sin música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v3 lote (sin música).mp4 -14.0 LUFS
 > ffmpeg -v error -nostdin -y -ss 20 -t 13.767 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3 -af afade=t=in:d=0.3,afade=t=out:st=11.767:d=2 -ar
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/mus_0.wav -af volume=-8.40dB,adelay=0|0 /private/tmp/claude-501/lote-1711/ale-mercadona/mus_0.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/mus_0.wav.g.wav -t 13.767 /private/tmp/claude-501/lote-1711/ale-mercadona/mus_cruda.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-mercadona/mus_cruda.wav -filter_complex [1:a]volume=0.00dB
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-mercadona/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-mercadona/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v2 lote (música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v3 lote (música).mp4 -14.0 LUFS

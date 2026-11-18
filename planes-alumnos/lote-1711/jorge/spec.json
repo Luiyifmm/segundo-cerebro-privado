@@ -62,7 +62,7 @@
   "foto": "../_perfiles/robledojorge8.jpg"
  },
  "cara_y": 0.25,
- "sub_y": 1180,
+ "sub_y": 1220,
  "degradado": true,
  "degradado_desde": 0.52,
  "degradado_fuerza": 235,
@@ -149,77 +149,106 @@
  ],
  "elementos": [
   {
-   "tipo": "tarjeta",
-   "t0": 1.06,
+   "tipo": "rotulo",
+   "t0": 0.5,
    "t1": 3.55,
-   "x": 250,
-   "y": 600,
-   "lado": 280,
-   "texto": "Dieta",
-   "detras": true,
-   "emoji": "📋"
+   "piezas": [
+    {
+     "t": 0.52,
+     "texto": "Hoy en día, una dieta y un entreno",
+     "x": 540,
+     "y": 1190,
+     "fuente": "sf_med",
+     "tam": 46
+    },
+    {
+     "t": 2.48,
+     "texto": "GRATIS",
+     "x": 540,
+     "y": 1290,
+     "fuente": "marca",
+     "tam": 110,
+     "caja": "#FFD60A",
+     "col": "#111111",
+     "mayus": true
+    },
+    {
+     "t": 2.94,
+     "texto": "en internet",
+     "x": 540,
+     "y": 1405,
+     "fuente": "playfair",
+     "tam": 66
+    }
+   ]
   },
   {
-   "tipo": "tarjeta",
-   "t0": 1.62,
-   "t1": 3.55,
-   "x": 830,
-   "y": 600,
-   "lado": 280,
-   "texto": "Entreno",
-   "detras": true,
-   "emoji": "🏋️"
-  },
-  {
-   "tipo": "pill",
-   "t0": 2.48,
-   "t1": 3.55,
-   "y": 300,
-   "emoji": "🌐",
-   "texto": "Gratis en internet",
-   "col": "bueno"
-  },
-  {
-   "tipo": "mensaje",
-   "t0": 4.95,
-   "t1": 13.6,
-   "y": 860,
-   "de": "Tú",
-   "sub": "a ChatGPT",
-   "emoji": "🙋‍♂️",
-   "texto": "Te cuento mi vida y mi objetivo: hazme una dieta y un entreno.",
-   "escribiendo": 0.5,
-   "ancho": 840
-  },
-  {
-   "tipo": "mensaje",
-   "t0": 7.71,
-   "t1": 13.6,
-   "y": 1210,
-   "de": "ChatGPT",
-   "sub": "respondiendo",
+   "tipo": "dm",
+   "t0": 4.6,
+   "t1": 9.85,
+   "y": 1560,
    "emoji": "🤖",
-   "texto": "Aquí tienes tu plan de dieta y entrenamiento personalizado.",
-   "escribiendo": 1.2,
-   "ancho": 840
-  },
-  {
-   "tipo": "tarjeta",
-   "t0": 18.86,
-   "t1": 23.15,
-   "x": 830,
-   "y": 560,
-   "lado": 260,
-   "texto": "Estancado",
-   "detras": true,
-   "emoji": "📉"
-  },
-  {
-   "tipo": "pildoras",
-   "ui": true,
-   "t1": 23.15,
-   "y": 960,
    "items": [
+    {
+     "t": 4.95,
+     "de": "yo",
+     "texto": "Te cuento mi vida y mi objetivo"
+    },
+    {
+     "t": 7.71,
+     "de": "yo",
+     "texto": "Hazme una dieta y un entreno"
+    },
+    {
+     "t": 9.0,
+     "texto": "Aquí tienes tu plan completo."
+    }
+   ]
+  },
+  {
+   "tipo": "rotulo",
+   "t0": 9.9,
+   "t1": 13.45,
+   "piezas": [
+    {
+     "t": 9.91,
+     "texto": "seguramente",
+     "x": 540,
+     "y": 1190,
+     "fuente": "sf_med",
+     "tam": 46
+    },
+    {
+     "t": 10.39,
+     "texto": "MEJOR",
+     "x": 540,
+     "y": 1290,
+     "fuente": "marca",
+     "tam": 120,
+     "col": "#FFD60A",
+     "mayus": true
+    },
+    {
+     "t": 10.59,
+     "texto": "que la mayoría de entrenadores",
+     "x": 540,
+     "y": 1400,
+     "fuente": "playfair",
+     "tam": 56
+    }
+   ]
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/bascula.png",
+   "t0": 17.02,
+   "t1": 23.2,
+   "tinte": "#FFD60A",
+   "tinte_desde": 0.55,
+   "tinte_fuerza": 150,
+   "grano": 9,
+   "vineta": 170,
+   "etiquetas": [
     {
      "t": 18.14,
      "texto": "¿Qué cambiar?",
@@ -235,40 +264,66 @@
      "texto": "¿Cuál es la solución?",
      "emoji": "🧩"
     }
+   ],
+   "y_etiquetas": 1200
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/plan-confuso.png",
+   "t0": 28.56,
+   "t1": 35.0,
+   "tinte": "#FFD60A",
+   "tinte_desde": 0.55,
+   "tinte_fuerza": 150,
+   "grano": 9,
+   "vineta": 170,
+   "sentido": -1,
+   "texto_grande": {
+    "t": 28.82,
+    "texto": "¿Quién te ajusta?",
+    "y": 1330,
+    "tam": 96
+   }
+  },
+  {
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 37.3,
+   "t1": 41.15,
+   "x": 540,
+   "y": 860,
+   "lado": 520,
+   "emoji": "❤️",
+   "circulo": "#FFD60A",
+   "texto_arriba": "El factor humano",
+   "texto_abajo": "tu cuerpo no es una máquina",
+   "t_abajo": 1.6,
+   "tam_abajo": 78,
+   "col": "malo",
+   "gira": [
+    {
+     "emoji": "🤖",
+     "r": 360,
+     "vel": 1.1,
+     "lado": 150,
+     "t": 38.9
+    }
    ]
   },
   {
-   "tipo": "tarjeta",
-   "t0": 37.43,
-   "t1": 41.15,
-   "x": 820,
-   "y": 560,
-   "lado": 280,
-   "texto": "Factor humano",
-   "detras": true,
-   "emoji": "❤️",
-   "marca": "si",
-   "t_marca": 37.65
-  },
-  {
-   "tipo": "tarjeta",
-   "t0": 39.17,
-   "t1": 41.15,
-   "x": 260,
-   "y": 560,
-   "lado": 280,
-   "texto": "ChatGPT",
-   "detras": true,
-   "emoji": "🤖",
-   "marca": "no",
-   "t_marca": 39.53
-  },
-  {
-   "tipo": "pildoras",
-   "ui": true,
-   "t1": 48.45,
-   "y": 960,
-   "items": [
+   "tipo": "broll",
+   "img": "../_flow/v3/entrenador-corrige.png",
+   "t0": 43.77,
+   "t1": 48.5,
+   "tinte": "#FFD60A",
+   "tinte_desde": 0.55,
+   "tinte_fuerza": 150,
+   "grano": 9,
+   "vineta": 170,
+   "etiquetas": [
     {
      "t": 43.77,
      "texto": "¿Quién revisa?",
@@ -284,25 +339,104 @@
      "texto": "¿Quién nota cómo estás?",
      "emoji": "🫶"
     }
+   ],
+   "y_etiquetas": 1200
+  },
+  {
+   "tipo": "rotulo",
+   "t0": 48.6,
+   "t1": 50.95,
+   "piezas": [
+    {
+     "t": 49.49,
+     "texto": "yo no me limito a",
+     "x": 540,
+     "y": 1190,
+     "fuente": "sf_med",
+     "tam": 50
+    },
+    {
+     "t": 50.15,
+     "texto": "ENTREGAR TU PLAN",
+     "x": 540,
+     "y": 1290,
+     "fuente": "marca",
+     "tam": 96,
+     "caja": "#FFD60A",
+     "col": "#111111",
+     "mayus": true
+    }
    ]
   },
   {
-   "tipo": "titulo",
-   "t0": 57.5,
-   "t1": 61.6,
-   "y": 250,
-   "linea1": "Conmigo",
-   "linea2": "RESULTADOS QUE DURAN",
-   "col": "bueno"
+   "tipo": "broll",
+   "img": "../_flow/v3/entrenador-tablet.png",
+   "t0": 57.4,
+   "t1": 61.65,
+   "tinte": "#FFD60A",
+   "tinte_desde": 0.55,
+   "tinte_fuerza": 150,
+   "grano": 9,
+   "vineta": 170,
+   "texto_grande": {
+    "t": 58.3,
+    "texto": "Resultados que duran",
+    "arriba": "Conmigo",
+    "y": 1330,
+    "tam": 90
+   }
   },
   {
-   "tipo": "titulo",
-   "t0": 63.42,
-   "t1": 68.9,
-   "y": 250,
-   "linea1": "Conmigo",
-   "linea2": "APRENDES A HACERLO SOLO",
-   "col": "bueno"
+   "tipo": "broll",
+   "img": "../_flow/v3/cocina-sola.png",
+   "t0": 63.3,
+   "t1": 69.42,
+   "tinte": "#FFD60A",
+   "tinte_desde": 0.55,
+   "tinte_fuerza": 150,
+   "grano": 9,
+   "vineta": 170,
+   "sentido": -1,
+   "texto_grande": {
+    "t": 64.6,
+    "texto": "Aprendes a hacerlo solo",
+    "arriba": "Conmigo",
+    "y": 1330,
+    "tam": 84
+   }
+  },
+  {
+   "tipo": "rotulo",
+   "t0": 69.43,
+   "t1": 72.7,
+   "piezas": [
+    {
+     "t": 69.43,
+     "texto": "De eso trata",
+     "x": 540,
+     "y": 1190,
+     "fuente": "sf_med",
+     "tam": 50
+    },
+    {
+     "t": 69.99,
+     "texto": "UNA ASESORÍA",
+     "x": 540,
+     "y": 1290,
+     "fuente": "marca",
+     "tam": 110,
+     "col": "#FFD60A",
+     "mayus": true
+    },
+    {
+     "t": 71.13,
+     "texto": "no un plan y una dieta",
+     "x": 540,
+     "y": 1400,
+     "fuente": "playfair",
+     "tam": 58
+    }
+   ]
   },
   {
    "tipo": "cta",
@@ -316,19 +450,47 @@
   84
  ],
  "subs_ancho": 840,
- "version": "v2",
+ "version": "v3",
  "sin_subs": [
   [
-   4.95,
+   0.4,
+   3.6
+  ],
+  [
+   4.6,
    13.75
   ],
   [
-   18.14,
+   17.02,
    23.2
   ],
   [
+   28.56,
+   35.05
+  ],
+  [
+   37.3,
+   41.2
+  ],
+  [
    43.77,
-   48.45
+   48.5
+  ],
+  [
+   48.6,
+   50.95
+  ],
+  [
+   57.4,
+   61.65
+  ],
+  [
+   63.3,
+   69.42
+  ],
+  [
+   69.43,
+   72.7
   ]
  ],
  "eventos_extra": [
@@ -338,23 +500,42 @@
    "len": 1.2
   },
   {
-   "t": 12.9,
+   "t": 16.3,
    "type": "riser",
-   "len": 0.8
+   "len": 0.7
   },
   {
-   "t": 39.17,
-   "type": "hit",
-   "g": 0.8
+   "t": 36.7,
+   "type": "riser",
+   "len": 0.6
   },
   {
    "t": 48.63,
-   "type": "hit",
-   "g": 0.7
+   "type": "hit"
+  },
+  {
+   "t": 56.8,
+   "type": "riser",
+   "len": 0.6
+  },
+  {
+   "t": 9.0,
+   "type": "chime"
   }
  ],
  "gancho": {
   "zoom_out": true,
   "sonido": false
- }
+ },
+ "mg_esquinas": [
+  {
+   "img": "../_flow/v3/mancuerna.cut.png",
+   "pos": "si"
+  },
+  {
+   "img": "../_flow/nuevas/plato-dieta.cut.png",
+   "pos": "id"
+  }
+ ],
+ "mg_deco": "objetos"
 }

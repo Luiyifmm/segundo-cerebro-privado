@@ -1,0 +1,399 @@
+{
+ "alumno": "María Morales García",
+ "video_id": "mwif2pvezkk5quo0",
+ "titulo_salida": "María - entrevista en la calle",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tramos": [
+  [
+   1.15,
+   2.85
+  ],
+  [
+   3.1,
+   5.88
+  ],
+  [
+   8.35,
+   10.55
+  ],
+  [
+   11.02,
+   13.41
+  ],
+  [
+   15.1,
+   16.11
+  ],
+  [
+   16.62,
+   19.25
+  ],
+  [
+   20.8,
+   21.83
+  ],
+  [
+   22.7,
+   29.55
+  ],
+  [
+   31.22,
+   31.75
+  ],
+  [
+   32.88,
+   34.61
+  ],
+  [
+   46.05,
+   46.53
+  ],
+  [
+   48.15,
+   57.65
+  ],
+  [
+   59.05,
+   59.82
+  ],
+  [
+   67.9,
+   73.15
+  ],
+  [
+   74.95,
+   82.95
+  ],
+  [
+   84.85,
+   91.5
+  ]
+ ],
+ "marca": {
+  "nombre": "María Morales",
+  "inicial": "M",
+  "usuario": "@mariadmoraless",
+  "rol": "Mamá fitness · entrenadora",
+  "bueno": "#F2A07B",
+  "malo": "#D64545",
+  "clave_font": "playfair",
+  "mayusculas": false,
+  "foto": "../_perfiles/mariadmoraless.jpg"
+ },
+ "cara_y": 0.3,
+ "degradado_desde": 0.52,
+ "degradado_fuerza": 235,
+ "sombra": 255,
+ "sombra_blur": 9,
+ "sub_y": 1180,
+ "pregunta_quien": "Amiga",
+ "degradado": true,
+ "zooms": [
+  [
+   76.33,
+   77.25,
+   1.08
+  ],
+  [
+   80.89,
+   81.45,
+   1.1
+  ],
+  [
+   88.58,
+   89.6,
+   1.08
+  ],
+  [
+   55.5,
+   56.3,
+   1.12
+  ]
+ ],
+ "elementos": [
+  {
+   "tipo": "broll",
+   "img": "../_flow/maria-dependienta.png",
+   "t0": 3.15,
+   "t1": 5.88,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "etiquetas": [
+    {
+     "t": 3.2,
+     "texto": "Dependienta",
+     "emoji": "🛍️"
+    },
+    {
+     "t": 3.76,
+     "texto": "600 € al mes",
+     "emoji": "💶"
+    },
+    {
+     "t": 5.22,
+     "texto": "Bailando de noche",
+     "emoji": "💃"
+    }
+   ],
+   "y_etiquetas": 1230
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/maria-caminando.png",
+   "t0": 23.6,
+   "t1": 25.65,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/maria-cocinando.png",
+   "t0": 25.65,
+   "t1": 29.55,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "sentido": -1
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 29.5,
+   "y": 1100,
+   "items": [
+    {
+     "t": 23.67,
+     "texto": "Caminar 40 min",
+     "emoji": "🚶‍♀️"
+    },
+    {
+     "t": 25.73,
+     "texto": "Proteína y verdura",
+     "emoji": "🍗"
+    },
+    {
+     "t": 26.63,
+     "texto": "Cenar ligero",
+     "emoji": "🌙"
+    },
+    {
+     "t": 27.55,
+     "texto": "Móvil fuera a las 9",
+     "emoji": "📵"
+    }
+   ]
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/maria-hipthrust.png",
+   "t0": 48.66,
+   "t1": 53.45,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "etiquetas": [
+    {
+     "t": 49.32,
+     "texto": "Glúteo 3× semana",
+     "emoji": "🍑"
+    },
+    {
+     "t": 50.38,
+     "texto": "Cardio",
+     "emoji": "🏃‍♀️"
+    },
+    {
+     "t": 51.5,
+     "texto": "Cero alcohol",
+     "emoji": "🚫"
+    },
+    {
+     "t": 52.48,
+     "texto": "Cero azúcar",
+     "emoji": "🍬"
+    }
+   ],
+   "y_etiquetas": 1100
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/mama-sin-tiempo.png",
+   "t0": 67.9,
+   "t1": 71.85,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "etiquetas": [
+    {
+     "t": 67.95,
+     "texto": "Mamás con niños",
+     "emoji": "👶"
+    },
+    {
+     "t": 69.67,
+     "texto": "Sin tiempo",
+     "emoji": "⏱️"
+    },
+    {
+     "t": 70.63,
+     "texto": "Con trabajo",
+     "emoji": "💼"
+    }
+   ],
+   "y_etiquetas": 1230,
+   "grano": 12,
+   "vineta": 190,
+   "desat": 0.3
+  },
+  {
+   "tipo": "pildoras",
+   "t1": 13.2,
+   "y": 1330,
+   "lado": "der",
+   "tam": 40,
+   "items": [
+    {
+     "t": 11.54,
+     "texto": "Siendo mamá",
+     "emoji": "👶"
+    },
+    {
+     "t": 12.66,
+     "texto": "Sin matarse a entrenar",
+     "emoji": "🙅‍♀️"
+    }
+   ],
+   "ui": true
+  },
+  {
+   "tipo": "titulo",
+   "t0": 1.2,
+   "t1": 2.75,
+   "y": 1000,
+   "linea1": "De dependienta con 600 € a…",
+   "linea2": "−15 kg siendo mamá",
+   "col": "bueno"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 33.85,
+   "t1": 34.4,
+   "x": 780,
+   "y": 760,
+   "lado": 300,
+   "emoji": "📉",
+   "texto": "−6 kg en 1 mes",
+   "blanca": true
+  },
+  {
+   "tipo": "cta",
+   "t0": 85.1,
+   "t_clic": 88.58,
+   "y": 980,
+   "boton": "Mensaje",
+   "boton_hecho": "CAMBIO ✓"
+  }
+ ],
+ "frases": [
+  "?@1.15|¿A qué te dedicabas antes de esto?",
+  "@3.10|*Dependienta,*",
+  "*600 euros* al mes",
+  "y por la noche, *bailando.*",
+  "?@8.35|¿Y cómo bajaste 15 kilos con esa vida?",
+  "@11.02|Pues siendo *mamá,*",
+  "dejando de *!matarme* a entrenar.",
+  "?@15.10|¿Dejando de entrenar?",
+  "@16.62|No, dejando de *!matarme,*",
+  "que *no es lo mismo.*",
+  "?@20.80|¿Entonces qué hacías?",
+  "@22.70|Muy *simple:*",
+  "caminar *40 minutos* al día,",
+  "comer *proteína y verdura,*",
+  "cenar *ligero*",
+  "y apagar el móvil *a las nueve*",
+  "para *dormir.*",
+  "?@31.22|¿Y ya?",
+  "@32.88|Y en un mes, *seis kilos menos.*",
+  "?@46.05|¿Y ahora?",
+  "@48.15|Ahora, tres veces *glúteo* a la semana,",
+  "*cardio,*",
+  "*cero alcohol,*",
+  "*cero azúcar*",
+  "y cada semana *acompaño*",
+  "a *mujeres como yo*",
+  "a conseguir *lo mismo.*",
+  "?@59.05|¿Mujeres como tú?",
+  "@67.90|*Mamás* con niño,",
+  "*sin tiempo,*",
+  "*con trabajo,*",
+  "exactamente igual que *estaba yo.*",
+  "@74.95|No necesitas tener",
+  "una *vida perfecta.*",
+  "De hecho, yo *tampoco la tenía.*",
+  "Lo que necesitas es tener *un plan*",
+  "que se adapte a *la vida que tienes.*",
+  "@84.85|Si yo pude *con esa vida,*",
+  "tú también puedes *con la tuya.*",
+  "Escríbeme *CAMBIO*",
+  "por *mensaje privado*",
+  "y vemos por dónde *empiezas tú.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  },
+  {
+   "t": 4.95,
+   "type": "riser",
+   "len": 0.9,
+   "g": 0.5
+  },
+  {
+   "t": 28.8,
+   "type": "riser",
+   "len": 0.75,
+   "g": 0.5
+  },
+  {
+   "t": 56.9,
+   "type": "riser",
+   "len": 0.75,
+   "g": 0.5
+  },
+  {
+   "t": 55.52,
+   "type": "hit"
+  }
+ ],
+ "musica": "ardie-son-infinite-circles-no-backing-vocals.mp3",
+ "musica_desde": 0,
+ "transiciones": [],
+ "sin_subs": [
+  [
+   3.15,
+   5.88
+  ],
+  [
+   23.6,
+   29.55
+  ],
+  [
+   48.66,
+   53.45
+  ],
+  [
+   67.9,
+   71.85
+  ]
+ ],
+ "tiempos": "bruto",
+ "version": "v2",
+ "pregunta_xy": [
+  540,
+  300
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
+}

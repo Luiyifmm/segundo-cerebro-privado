@@ -47,8 +47,8 @@
    "lado_flota": 230,
    "lado_item": 170,
    "celda": 240,
-   "rodeo_x": 540,
-   "rodeo_y": 700,
+   "rodeo_x": 1000,
+   "rodeo_y": 600,
    "titulo": "Quesos de Mercadona: ¿engorda o adelgaza?",
    "cabeceras": [
     "ADELGAZA",
@@ -124,7 +124,7 @@
   ]
  ],
  "tiempos": "bruto",
- "version": "v2",
+ "version": "v3",
  "musicas": [
   {
    "archivo": "~/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3",

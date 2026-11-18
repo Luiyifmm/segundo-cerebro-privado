@@ -8,6 +8,8 @@ NOTE: could not hear the synthesized layer in the render's audio (a music or voi
 declared 33 events: 33 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
 routed: pop=12, whoosh=7, tick=7, riser=4, hit=2, click=1
 routes: click -> library:click, hit -> library:hit, pop -> library:pop, riser -> library:riser, tick -> library:click, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (1), look at their frames:
+    41.60s  burst   strength 1.00  
 -> /private/tmp/claude-501/lote-1711/carlos10/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/carlos10/sfx/cues.json --out /private/tmp/claude-501/lote-1711/carlos10/sfx/video_sfx.mp4 --voice-safe --s
 level: 5 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest -3.7 dB at 21.08s; --no-level-roles keeps the peaks equal)
@@ -34,10 +36,10 @@ Still to judge by eye on review.png: character fit (each sound suits its picture
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/carlos10/mezcla_sin_musica.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/carlos10/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v2 lote (sin música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v3 lote (sin música).mp4 -14.0 LUFS
 > ffmpeg -v error -nostdin -y -ss 0 -t 56.934 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/divkid-parisian-funk.mp3 -af afade=t=in:d=0.3,afade=t=out:st=54.934:d=2 -ar 48000 -ac 2 /priva
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/mus_0.wav -af volume=-9.40dB,adelay=0|0 /private/tmp/claude-501/lote-1711/carlos10/mus_0.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/mus_0.wav.g.wav -t 56.934 /private/tmp/claude-501/lote-1711/carlos10/mus_cruda.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/carlos10/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/carlos10/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/carlos10/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v2 lote (música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v3 lote (música).mp4 -14.0 LUFS

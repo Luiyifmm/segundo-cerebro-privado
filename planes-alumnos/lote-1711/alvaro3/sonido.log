@@ -1,47 +1,51 @@
 > /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
-37 eventos
+40 eventos
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/alvaro3/eventos.json --video /private/tmp/claude-501/lote-1711/al
 checking the cue list against the picture (frame analysis of the render) ...
-sync: 67% of the declared wipes and hits sit on a picture change (median offset +83 ms): the list belongs to this render
+WARN sync: only 50% of the declared wipes and hits sit on a picture change (2 of 4 are even within 0.6 s). This list was probably written for another cut of the film (before a re-time or voice fit). Use the render it was made for, or take the moments from the picture: find_moments.py
 NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
-37 cues from 37 events (0 dropped from runs faster than 14/s, 0 fused)
-declared 37 events: 37 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
-routed: tick=14, whoosh=7, pop=6, click=5, hit=2, riser=2, drop=1
+retime: skipped, the list does not belong to this render (its times are not the times of this cut)
+VERDICT: the cue list and this render come from different cuts of the film. The cues below keep the list's times and will land off the picture; get the render the list was written for, apply a constant --shift, or take the moments from the picture (find_moments.py).
+40 cues from 40 events (0 dropped from runs faster than 14/s, 0 fused)
+declared 40 events: 40 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: tick=14, whoosh=7, click=7, pop=6, hit=3, riser=2, drop=1
 routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, riser -> library:riser, tick -> library:click, whoosh -> library:whoosh
-picture moments with no sound within 150 ms (2), look at their frames:
-     3.67s  settle  strength 0.69  
-     6.40s  settle  strength 0.66  
+picture moments with no sound within 150 ms (3), look at their frames:
+     9.80s  burst   strength 0.97  
+    16.10s  burst   strength 1.00  
+    27.10s  burst   strength 0.98  
 -> /private/tmp/claude-501/lote-1711/alvaro3/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/alvaro3/sfx/cues.json --out /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 --voice-safe --sfx
-mono: 2 sound(s) have channels in opposite phase (they would lose 6+ dB on a phone speaker or vanish): each plays its louder channel on both sides (25.65s KF - UI Click - 1.mp3 r=-0.97; 29.20s KF - UI Click - 7.mp3 r=-0.91; --no-mono-fix keeps them as recorded, mono=false on a cue keeps that one)
-level: 5 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest -3.7 dB at 23.43s; --no-level-roles keeps the peaks equal)
-SFX under speech (normal): 1.9 dB off the SFX energy on average over the whole film (mean power, not gated)
-cues: 37 (37 library, 0 uisfx), 34 distinct files
-WARN cues 22-28: a run of 7 click sounds, 75 ms apart from 25.50s (typing or ticks are fine if intended, otherwise thin the run)
+mono: 2 sound(s) have channels in opposite phase (they would lose 6+ dB on a phone speaker or vanish): each plays its louder channel on both sides (19.82s KF - UI Click - 7.mp3 r=-0.91; 29.20s KF - UI Click - 4.mp3 r=-0.34; --no-mono-fix keeps them as recorded, mono=false on a cue keeps that one)
+level: 7 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 0.05s; --no-level-roles keeps the peaks equal)
+SFX under speech (normal): 2.7 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 40 (40 library, 0 uisfx), 37 distinct files
+WARN cues 25-31: a run of 7 click sounds, 75 ms apart from 25.50s (typing or ticks are fine if intended, otherwise thin the run)
 WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
 video: /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4
 sfx track: /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
-loudness: sfx -26.9 LUFS, final -15.7 LUFS, true peak -4.7 dBTP
+loudness: sfx -26.3 LUFS, final -15.7 LUFS, true peak -3.4 dBTP
 report: /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx_cue_report.md
 resolved cues: /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
-hey cannot be heard. The ducking took them out: --voice-depth light (or normal), or a higher gain_db on those
-2. low end: 'sub_drop' at 0.02s piles onto the bass already there (-27 dB); lower it 19 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+r drop its sub layer
+3. low end: 'hit' at 26.07s piles onto the bass already there (-20 dB); lower it 6 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
 
-Listen to these 4 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
-  1.    0.00s  'whoosh': the first sound of the film: the hook; also 'sub_drop' at 0.02s: the highest peak of the film (-10 dBFS before the master). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is it big without hurting on headphones, and does the music under it pump?
+Listen to these 5 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.05s  'hit': brought 6 dB up to the perceived level of its role; also 'whoosh' at 0.00s: the first sound of the film: the hook. Listen for: a thin recording lifted that far can turn harsh: is it clean? / does it land with the picture at once, and is it clearly there under the music or the voice?
   2.    5.30s  'riser': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
-  3.   25.40s  the busiest two seconds (12 sounds). Listen for: is every sound still distinct, or does it turn to mud?
-  4.   28.07s  'click': its attack was moved 303 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
+  3.    9.10s  'tick': 1 sound(s) on top of the voice, -2.4 dB against it. Listen for: is every word still understood?
+  4.   25.40s  the busiest two seconds (12 sounds). Listen for: is every sound still distinct, or does it turn to mud?
+  5.   28.07s  'click': its attack was moved 303 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
   (--listen-out FILE.wav cuts them into one file of the film's own sound)
 
 Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/alvaro3/mezcla_sin_musica.wav
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro3/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v copy -af loudnorm=I
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v2 lote (sin música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro3/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v3 lote (sin música).mp4 -14.0 LUFS
 > ffmpeg -v error -nostdin -y -ss 0 -t 34.934 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/phoenix-1901-instrumental-hq.mp3 -af afade=t=in:d=0.3,afade=t=out:st=32.934:d=2 -ar 48000 -ac 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/mus_0.wav -af volume=-8.50dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alvaro3/mus_0.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/mus_0.wav.g.wav -t 34.934 /private/tmp/claude-501/lote-1711/alvaro3/mus_cruda.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alvaro3/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro3/mezcla_con_musica.wav -map 0:v -map 1:a -c:v copy -af loudnorm=I
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v2 lote (música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro3/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro3/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v3 lote (música).mp4 -14.0 LUFS

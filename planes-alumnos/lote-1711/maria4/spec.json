@@ -116,7 +116,7 @@
    "tipo": "broll",
    "img": "../_flow/maria-dependienta.png",
    "t0": 3.15,
-   "t1": 5.88,
+   "t1": 4.92,
    "tinte": "#F2A07B",
    "tinte_desde": 0.48,
    "etiquetas": [
@@ -129,90 +129,98 @@
      "t": 3.76,
      "texto": "600 € al mes",
      "emoji": "💶"
-    },
-    {
-     "t": 5.22,
-     "texto": "Bailando de noche",
-     "emoji": "💃"
     }
    ],
    "y_etiquetas": 1230
   },
   {
    "tipo": "broll",
+   "img": "../_flow/v3/maria-discoteca.png",
+   "t0": 4.92,
+   "t1": 5.88,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "etiquetas": [
+    {
+     "t": 5.22,
+     "texto": "Bailando de noche",
+     "emoji": "💃"
+    }
+   ],
+   "y_etiquetas": 1230,
+   "golpe": false
+  },
+  {
+   "tipo": "broll",
    "img": "../_flow/maria-caminando.png",
    "t0": 23.6,
-   "t1": 25.65,
+   "t1": 25.4,
    "tinte": "#F2A07B",
    "tinte_desde": 0.48
   },
   {
    "tipo": "broll",
    "img": "../_flow/maria-cocinando.png",
-   "t0": 25.65,
-   "t1": 29.55,
+   "t0": 25.4,
+   "t1": 26.6,
    "tinte": "#F2A07B",
    "tinte_desde": 0.48,
    "sentido": -1
   },
   {
-   "tipo": "pildoras",
-   "ui": true,
-   "t1": 29.5,
-   "y": 1100,
-   "items": [
-    {
-     "t": 23.67,
-     "texto": "Caminar 40 min",
-     "emoji": "🚶‍♀️"
-    },
-    {
-     "t": 25.73,
-     "texto": "Proteína y verdura",
-     "emoji": "🍗"
-    },
-    {
-     "t": 26.63,
-     "texto": "Cenar ligero",
-     "emoji": "🌙"
-    },
-    {
-     "t": 27.55,
-     "texto": "Móvil fuera a las 9",
-     "emoji": "📵"
-    }
-   ]
+   "tipo": "broll",
+   "img": "../_flow/v3/cena-noche.png",
+   "t0": 26.6,
+   "t1": 27.5,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "golpe": false
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/maria-durmiendo.png",
+   "t0": 27.5,
+   "t1": 29.55,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "golpe": false,
+   "sentido": -1
   },
   {
    "tipo": "broll",
    "img": "../_flow/maria-hipthrust.png",
    "t0": 48.66,
+   "t1": 50.38,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/maria-cardio.png",
+   "t0": 50.38,
+   "t1": 51.5,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "golpe": false
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/maria-sin-alcohol.png",
+   "t0": 51.5,
+   "t1": 52.48,
+   "tinte": "#F2A07B",
+   "tinte_desde": 0.48,
+   "golpe": false,
+   "sentido": -1
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/maria-sin-azucar.png",
+   "t0": 52.48,
    "t1": 53.45,
    "tinte": "#F2A07B",
    "tinte_desde": 0.48,
-   "etiquetas": [
-    {
-     "t": 49.32,
-     "texto": "Glúteo 3× semana",
-     "emoji": "🍑"
-    },
-    {
-     "t": 50.38,
-     "texto": "Cardio",
-     "emoji": "🏃‍♀️"
-    },
-    {
-     "t": 51.5,
-     "texto": "Cero alcohol",
-     "emoji": "🚫"
-    },
-    {
-     "t": 52.48,
-     "texto": "Cero azúcar",
-     "emoji": "🍬"
-    }
-   ],
-   "y_etiquetas": 1100
+   "golpe": false
   },
   {
    "tipo": "broll",
@@ -244,6 +252,86 @@
    "desat": 0.3
   },
   {
+   "tipo": "cartel",
+   "t0": 32.97,
+   "t1": 33.84,
+   "fondo": "#F2A07B",
+   "col": "blanco",
+   "texto": "Y en un mes",
+   "tam": 150,
+   "fuente": "marca",
+   "mayus": false
+  },
+  {
+   "tipo": "cartel",
+   "t0": 33.84,
+   "t1": 34.61,
+   "fondo": "blanco",
+   "col": "#F2A07B",
+   "texto": "−6 kg",
+   "tam": 260,
+   "fuente": "marca",
+   "mayus": false,
+   "subrayado": "#1F7A8C",
+   "t_sub": 34.0
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 29.5,
+   "y": 1100,
+   "items": [
+    {
+     "t": 23.67,
+     "texto": "Caminar 40 min",
+     "emoji": "🚶‍♀️"
+    },
+    {
+     "t": 25.73,
+     "texto": "Proteína y verdura",
+     "emoji": "🍗"
+    },
+    {
+     "t": 26.63,
+     "texto": "Cenar ligero",
+     "emoji": "🌙"
+    },
+    {
+     "t": 27.55,
+     "texto": "Móvil fuera a las 9",
+     "emoji": "📵"
+    }
+   ]
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 53.4,
+   "y": 1100,
+   "items": [
+    {
+     "t": 49.32,
+     "texto": "Glúteo 3× semana",
+     "emoji": "🍑"
+    },
+    {
+     "t": 50.38,
+     "texto": "Cardio",
+     "emoji": "🏃‍♀️"
+    },
+    {
+     "t": 51.5,
+     "texto": "Cero alcohol",
+     "emoji": "🚫"
+    },
+    {
+     "t": 52.48,
+     "texto": "Cero azúcar",
+     "emoji": "🍬"
+    }
+   ]
+  },
+  {
    "tipo": "pildoras",
    "t1": 13.2,
    "y": 1330,
@@ -271,17 +359,6 @@
    "linea1": "De dependienta con 600 € a…",
    "linea2": "−15 kg siendo mamá",
    "col": "bueno"
-  },
-  {
-   "tipo": "tarjeta",
-   "t0": 33.85,
-   "t1": 34.4,
-   "x": 780,
-   "y": 760,
-   "lado": 300,
-   "emoji": "📉",
-   "texto": "−6 kg en 1 mes",
-   "blanca": true
   },
   {
    "tipo": "cta",
@@ -362,10 +439,13 @@
   {
    "t": 55.52,
    "type": "hit"
+  },
+  {
+   "t": 76.6,
+   "type": "riser",
+   "len": 0.7
   }
  ],
- "musica": "ardie-son-infinite-circles-no-backing-vocals.mp3",
- "musica_desde": 0,
  "transiciones": [],
  "sin_subs": [
   [
@@ -383,10 +463,14 @@
   [
    67.9,
    71.85
+  ],
+  [
+   32.97,
+   34.61
   ]
  ],
  "tiempos": "bruto",
- "version": "v2",
+ "version": "v3",
  "pregunta_xy": [
   540,
   300
@@ -395,5 +479,18 @@
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "musicas": [
+  {
+   "archivo": "ardie-son-infinite-circles-no-backing-vocals.mp3",
+   "desde": 0,
+   "t0": 0,
+   "cruce": 1.2
+  },
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Way Back Home - Simon Herody.mp3",
+   "desde": 0,
+   "t0": 79.35
+  }
+ ]
 }

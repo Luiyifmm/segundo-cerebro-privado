@@ -5,7 +5,7 @@
 | hook | 10.0 | first sound at 0.00s |
 | sync | 9.1 | 9/10 sounds on their frame (peaks, arrivals, or first onsets for clicks) |
 | coverage | n/a | 21 cues for 21 declared events (the list is the reference; runs and clusters are thinned on purpose) |
-| pacing | 9.0 | 7.7 weighted events per 10 s, longest silence 2.2 s |
+| pacing | 9.0 | 7.8 weighted events per 10 s, longest silence 2.2 s |
 | variety | 10.0 | 14 source recordings, 14 families in 14 sounds (runs and interface sounds not counted) |
 | hierarchy | 8.3 | 5.7 dB between the loud and the quiet sounds |
 | headroom | 10.0 | true peak -4.8 dBTP |
@@ -26,8 +26,8 @@ Three worst problems, fix only these, re-render, run again:
 Listen to these 4 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
   1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (6 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?
   2.    2.40s  'swoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
-  3.    9.11s  'pop': its attack was moved 249 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
-  4.   13.41s  'click': its peak sits -34 ms from the moment; the highest peak of the film (-9 dBFS before the master). Listen for: does it feel early or late against the picture? / is it big without hurting on headphones, and does the music under it pump?
+  3.    8.86s  'pop': its attack was moved 249 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
+  4.   13.14s  'click': its peak sits -34 ms from the moment; the highest peak of the film (-9 dBFS before the master). Listen for: does it feel early or late against the picture? / is it big without hurting on headphones, and does the music under it pump?
   (--listen-out FILE.wav cuts them into one file of the film's own sound)
 
 Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).

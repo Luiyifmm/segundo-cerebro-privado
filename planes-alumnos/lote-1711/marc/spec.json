@@ -6,7 +6,7 @@
  "palabras": "palabras2.json",
  "tramos": [
   [
-   10.6,
+   11.7,
    16.4
   ],
   [
@@ -114,30 +114,67 @@
   {
    "tipo": "broll",
    "img": "../_flow/hombre-espalda.png",
-   "t0": 10.65,
-   "t1": 14.1,
+   "t0": 11.7,
+   "t1": 12.86,
    "vineta": 170,
-   "grano": 8
+   "grano": 8,
+   "golpe": false
   },
   {
-   "tipo": "titulo",
-   "t0": 10.65,
-   "t1": 16.3,
-   "y": 250,
-   "linea1": "¿Te duele la espalda?",
-   "linea2": "NO HAGAS ESTOS",
-   "col": "malo"
+   "tipo": "flecha",
+   "t0": 11.85,
+   "t1": 12.86,
+   "desde": [
+    610,
+    1090
+   ],
+   "hasta": [
+    380,
+    690
+   ],
+   "curva": 0.25,
+   "texto": "¿te *duele*?",
+   "fuente": "mano",
+   "tam": 110,
+   "x_texto": 400,
+   "y_texto": 580,
+   "t_texto": 12.15
   },
   {
-   "tipo": "tarjeta",
-   "t0": 15.75,
+   "tipo": "broll",
+   "img": "../_flow/v3/crunch-medico.png",
+   "t0": 12.86,
+   "t1": 14.65,
+   "vineta": 170,
+   "grano": 8,
+   "sentido": -1
+  },
+  {
+   "tipo": "rotulo",
+   "t0": 14.71,
    "t1": 16.35,
-   "x": 540,
-   "y": 560,
-   "lado": 240,
-   "emoji": "🙅‍♂️",
-   "texto": "Crunch",
-   "marca": "no"
+   "piezas": [
+    {
+     "t": 14.71,
+     "texto": "Vale, pero",
+     "x": 540,
+     "y": 400,
+     "fuente": "sf_bold",
+     "tam": 54
+    },
+    {
+     "t": 15.75,
+     "texto": "NO A ESTOS",
+     "x": 540,
+     "y": 500,
+     "fuente": "marca",
+     "tam": 104,
+     "caja": "blanco",
+     "col": "malo",
+     "mayus": true,
+     "sombra": false
+    }
+   ]
   },
   {
    "tipo": "titulo",
@@ -162,17 +199,8 @@
    "t0": 104.85,
    "t1": 113.0,
    "y": 250,
-   "linea1": "Ejercicio 2",
+   "linea1": "Ejercicio 2 · 5 s por lado",
    "linea2": "BIRD DOG",
-   "col": "bueno"
-  },
-  {
-   "tipo": "pill",
-   "t0": 111.4,
-   "t1": 113.0,
-   "y": 520,
-   "emoji": "⏱️",
-   "texto": "5 s por lado",
    "col": "bueno"
   },
   {
@@ -180,17 +208,8 @@
    "t0": 129.15,
    "t1": 142.7,
    "y": 250,
-   "linea1": "Ejercicio 3",
+   "linea1": "Ejercicio 3 · 10 s por lado",
    "linea2": "PLANCHA LATERAL",
-   "col": "bueno"
-  },
-  {
-   "tipo": "pill",
-   "t0": 140.36,
-   "t1": 142.7,
-   "y": 520,
-   "emoji": "⏱️",
-   "texto": "10 s y cambias",
    "col": "bueno"
   },
   {
@@ -217,7 +236,9 @@
      "texto": "Lumbar protegida",
      "marca": "si"
     }
-   ]
+   ],
+   "x": 720,
+   "tam": 36
   },
   {
    "tipo": "pildoras",
@@ -235,7 +256,9 @@
      "texto": "Espalda estable",
      "marca": "si"
     }
-   ]
+   ],
+   "x": 720,
+   "tam": 36
   },
   {
    "tipo": "pildoras",
@@ -250,10 +273,12 @@
     },
     {
      "t": 130.75,
-     "texto": "Sin tensión en el cuello",
+     "texto": "Cuello sin tensión",
      "marca": "si"
     }
-   ]
+   ],
+   "x": 720,
+   "tam": 36
   }
  ],
  "frases": [
@@ -293,19 +318,25 @@
  ],
  "eventos_extra": [
   {
-   "t": 10.62,
-   "type": "sub_drop"
-  },
-  {
-   "t": 10.65,
-   "type": "hit"
+   "t": 11.72,
+   "type": "hit",
+   "g": 0.7
   }
  ],
  "musica": "low-mileage-hold-you-ncs-release.mp3",
  "musica_desde": 0,
- "sin_subs": [],
+ "sin_subs": [
+  [
+   11.7,
+   12.86
+  ],
+  [
+   14.71,
+   16.4
+  ]
+ ],
  "tiempos": "bruto",
- "version": "v2",
+ "version": "v3",
  "subs_tam": [
   44,
   84

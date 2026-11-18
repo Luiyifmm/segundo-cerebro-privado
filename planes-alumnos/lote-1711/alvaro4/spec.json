@@ -70,14 +70,26 @@
    "t_marca": 1.44
   },
   {
-   "tipo": "mensaje",
+   "tipo": "dm",
    "t0": 3.6,
    "t1": 7.15,
-   "y": 250,
-   "de": "Clienta · 27 años",
-   "sub": "Mensaje nuevo",
-   "texto": "Oye… siempre me siento hinchada. ¿Me puedes ayudar?",
-   "escribiendo": 0.6
+   "y": 1480,
+   "emoji": "👩",
+   "items": [
+    {
+     "t": 4.2,
+     "texto": "Oye…"
+    },
+    {
+     "t": 5.3,
+     "texto": "siempre me siento hinchada"
+    },
+    {
+     "t": 6.5,
+     "texto": "¿me puedes ayudar?"
+    }
+   ],
+   "escribiendo": 0.45
   },
   {
    "tipo": "broll",
@@ -114,9 +126,9 @@
    "x": 290,
    "y": 560,
    "lado": 380,
-   "img": "../_flow/ultraprocesados-bolleria.png",
    "texto": "Bollería",
-   "detras": true
+   "detras": true,
+   "emoji": "🍩"
   },
   {
    "tipo": "tarjeta",
@@ -127,7 +139,7 @@
    "lado": 340,
    "texto": "Snacks",
    "detras": true,
-   "img": "../_flow/ultraprocesados-patatas.png"
+   "emoji": "🍟"
   },
   {
    "tipo": "tarjeta",
@@ -136,11 +148,11 @@
    "x": 790,
    "y": 560,
    "lado": 380,
-   "img": "../_flow/agua.png",
    "texto": "Agua",
    "marca": "no",
    "t_marca": 22.11,
-   "detras": true
+   "detras": true,
+   "emoji": "💧"
   },
   {
    "tipo": "broll",
@@ -321,7 +333,7 @@
    "len": 0.7
   }
  ],
- "version": "v2",
+ "version": "v3",
  "tiempos": "bruto",
  "sin_subs": [
   [
@@ -335,6 +347,10 @@
   [
    33.4,
    38.62
+  ],
+  [
+   3.6,
+   7.15
   ]
  ],
  "musicas": [

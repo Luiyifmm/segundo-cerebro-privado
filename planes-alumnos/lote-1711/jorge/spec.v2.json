@@ -1,0 +1,360 @@
+{
+ "alumno": "Jorge Robledo",
+ "video_id": "mwkk9hgwdyuo0mq0",
+ "titulo_salida": "Jorge - mi trabajo va más lejos de una dieta",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tiempos": "bruto",
+ "tramos": [
+  [
+   0.4,
+   3.55
+  ],
+  [
+   3.65,
+   13.75
+  ],
+  [
+   16.9,
+   23.2
+  ],
+  [
+   28.45,
+   35.05
+  ],
+  [
+   35.05,
+   41.2
+  ],
+  [
+   43.7,
+   45.84
+  ],
+  [
+   47.1,
+   48.9
+  ],
+  [
+   49.4,
+   50.9
+  ],
+  [
+   57.4,
+   61.65
+  ],
+  [
+   63.3,
+   69.42
+  ],
+  [
+   69.42,
+   72.7
+  ]
+ ],
+ "marca": {
+  "nombre": "Jorge Robledo",
+  "inicial": "J",
+  "usuario": "@robledojorge8",
+  "rol": "Entrenador · asesoría 1 a 1",
+  "bueno": "#FFD60A",
+  "malo": "#FF4D4D",
+  "clave_font": "poppins",
+  "foto": "../_perfiles/robledojorge8.jpg"
+ },
+ "cara_y": 0.25,
+ "sub_y": 1180,
+ "degradado": true,
+ "degradado_desde": 0.52,
+ "degradado_fuerza": 235,
+ "sombra": 255,
+ "sombra_blur": 9,
+ "zooms": [
+  [
+   0.4,
+   3.55,
+   1.08
+  ],
+  [
+   16.9,
+   19.4,
+   1.1
+  ],
+  [
+   38.39,
+   41.15,
+   1.08
+  ],
+  [
+   48.6,
+   50.9,
+   1.12
+  ],
+  [
+   69.43,
+   72.7,
+   1.08
+  ]
+ ],
+ "transiciones": [
+  16.9,
+  28.45,
+  57.4
+ ],
+ "musica": "connor-price-haviah-mighty-koren-trendsetter-instr.mp3",
+ "musica_desde": 0,
+ "frases": [
+  "@0.52|Hoy en día una dieta",
+  "y un plan de entrenamiento",
+  "lo encuentras *gratis en internet.*",
+  "@3.73|O, simplemente,",
+  "le echas *GPT,*",
+  "le cuentas tu vida,",
+  "le cuentas tus necesidades, tu objetivo,",
+  "y te va a hacer una dieta y un entrenamiento",
+  "seguramente *mejor que la mayoría*",
+  "de entrenadores o nutricionistas",
+  "que encuentres por ahí.",
+  "@17.02|Pero, *¿quién te dice qué cambiar*",
+  "cuando te estancas?",
+  "¿Y por qué *te estás estancando?*",
+  "¿Y cuál es *la solución?*",
+  "¿Quién te dice eso?",
+  "@28.56|¿Quién te ajusta",
+  "tu entrenamiento y alimentación",
+  "cuando *!no estás progresando?*",
+  "O cuando las cosas no van",
+  "como tienen que ir,",
+  "porque no siempre va a ir *todo fenomenal.*",
+  "@35.01|¿Y quién *te acompaña*",
+  "cuando entra *el factor humano* en juego?",
+  "Y resulta que tu cuerpo",
+  "*!no es una máquina,*",
+  "como lo planifica el ChatGPT.",
+  "@43.77|¿Quién *revisa?*",
+  "¿Quién *te escucha?*",
+  "¿Quién *nota cómo estás?*",
+  "@47.19|¿Quién *se da cuenta* de estas cosas?",
+  "@48.63|Porque yo *no me limito*",
+  "a entregar tu plan.",
+  "@57.50|Conmigo vas a encontrar",
+  "*unos resultados*",
+  "que puedas sostener y mantener",
+  "en el tiempo *para siempre.*",
+  "@63.42|Conmigo vas a encontrar",
+  "*un acompañamiento y una enseñanza*",
+  "que puedas mantener y sostener",
+  "en el tiempo *por ti solo o sola.*",
+  "@69.43|De eso trata *una asesoría conmigo.*",
+  "*!No* entregarte un plan y una dieta."
+ ],
+ "elementos": [
+  {
+   "tipo": "tarjeta",
+   "t0": 1.06,
+   "t1": 3.55,
+   "x": 250,
+   "y": 600,
+   "lado": 280,
+   "texto": "Dieta",
+   "detras": true,
+   "emoji": "📋"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 1.62,
+   "t1": 3.55,
+   "x": 830,
+   "y": 600,
+   "lado": 280,
+   "texto": "Entreno",
+   "detras": true,
+   "emoji": "🏋️"
+  },
+  {
+   "tipo": "pill",
+   "t0": 2.48,
+   "t1": 3.55,
+   "y": 300,
+   "emoji": "🌐",
+   "texto": "Gratis en internet",
+   "col": "bueno"
+  },
+  {
+   "tipo": "mensaje",
+   "t0": 4.95,
+   "t1": 13.6,
+   "y": 860,
+   "de": "Tú",
+   "sub": "a ChatGPT",
+   "emoji": "🙋‍♂️",
+   "texto": "Te cuento mi vida y mi objetivo: hazme una dieta y un entreno.",
+   "escribiendo": 0.5,
+   "ancho": 840
+  },
+  {
+   "tipo": "mensaje",
+   "t0": 7.71,
+   "t1": 13.6,
+   "y": 1210,
+   "de": "ChatGPT",
+   "sub": "respondiendo",
+   "emoji": "🤖",
+   "texto": "Aquí tienes tu plan de dieta y entrenamiento personalizado.",
+   "escribiendo": 1.2,
+   "ancho": 840
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 18.86,
+   "t1": 23.15,
+   "x": 830,
+   "y": 560,
+   "lado": 260,
+   "texto": "Estancado",
+   "detras": true,
+   "emoji": "📉"
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 23.15,
+   "y": 960,
+   "items": [
+    {
+     "t": 18.14,
+     "texto": "¿Qué cambiar?",
+     "emoji": "🔄"
+    },
+    {
+     "t": 20.02,
+     "texto": "¿Por qué te estancas?",
+     "emoji": "🤔"
+    },
+    {
+     "t": 21.34,
+     "texto": "¿Cuál es la solución?",
+     "emoji": "🧩"
+    }
+   ]
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 37.43,
+   "t1": 41.15,
+   "x": 820,
+   "y": 560,
+   "lado": 280,
+   "texto": "Factor humano",
+   "detras": true,
+   "emoji": "❤️",
+   "marca": "si",
+   "t_marca": 37.65
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 39.17,
+   "t1": 41.15,
+   "x": 260,
+   "y": 560,
+   "lado": 280,
+   "texto": "ChatGPT",
+   "detras": true,
+   "emoji": "🤖",
+   "marca": "no",
+   "t_marca": 39.53
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 48.45,
+   "y": 960,
+   "items": [
+    {
+     "t": 43.77,
+     "texto": "¿Quién revisa?",
+     "emoji": "👀"
+    },
+    {
+     "t": 44.27,
+     "texto": "¿Quién te escucha?",
+     "emoji": "👂"
+    },
+    {
+     "t": 44.83,
+     "texto": "¿Quién nota cómo estás?",
+     "emoji": "🫶"
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "t0": 57.5,
+   "t1": 61.6,
+   "y": 250,
+   "linea1": "Conmigo",
+   "linea2": "RESULTADOS QUE DURAN",
+   "col": "bueno"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 63.42,
+   "t1": 68.9,
+   "y": 250,
+   "linea1": "Conmigo",
+   "linea2": "APRENDES A HACERLO SOLO",
+   "col": "bueno"
+  },
+  {
+   "tipo": "cta",
+   "t0": 69.45,
+   "t_clic": 71.2,
+   "y": 250
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840,
+ "version": "v2",
+ "sin_subs": [
+  [
+   4.95,
+   13.75
+  ],
+  [
+   18.14,
+   23.2
+  ],
+  [
+   43.77,
+   48.45
+  ]
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 1.2
+  },
+  {
+   "t": 12.9,
+   "type": "riser",
+   "len": 0.8
+  },
+  {
+   "t": 39.17,
+   "type": "hit",
+   "g": 0.8
+  },
+  {
+   "t": 48.63,
+   "type": "hit",
+   "g": 0.7
+  }
+ ],
+ "gancho": {
+  "zoom_out": true,
+  "sonido": false
+ }
+}

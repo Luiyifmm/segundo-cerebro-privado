@@ -8,15 +8,15 @@
 | pacing | 7.3 | 2.3 weighted events per 10 s, longest silence 6.9 s |
 | variety | 10.0 | 12 source recordings, 11 families in 12 sounds (runs and interface sounds not counted) |
 | hierarchy | 10.0 | 17.9 dB between the loud and the quiet sounds |
-| headroom | 10.0 | true peak -5.0 dBTP |
+| headroom | 10.0 | true peak -4.9 dBTP |
 | loudness | 10.0 | final -16.1 LUFS (the author's own balance is kept) |
-| balance | 10.0 | median event peak -9 dB vs the original around it, big sounds +4 dB (whole-track gap +14 LU) (8 event(s) on speech left to the speech axis) |
-| audibility | 5.8 | 6 of 20 sounds sit more than 30 dB under the film's own sound in the mix (median -17 dB, after the ducking) |
+| balance | 10.0 | median event peak -11 dB vs the original around it, big sounds +4 dB (whole-track gap +14 LU) (10 event(s) on speech left to the speech axis) |
+| audibility | 5.6 | 6 of 19 sounds sit more than 30 dB under the film's own sound in the mix (median -21 dB, after the ducking) |
 | speech | 10.0 | 0 sound(s) in 0 moment(s) are within 3 dB of the voice or above it (0 above) even after ducking |
 | low_end | 7.0 | 2 heavy sound(s) on top of existing bass |
 | mono | 10.0 | the SFX track loses 0.0 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 20 sounds lose more than 6 dB; the film loses 0.0 LU in mono against 0.0 LU for the original (+0.0 added) |
 
-**FIX**: lowest axis 5.8 (every axis must reach 8; ok to show)
+**FIX**: lowest axis 5.6 (every axis must reach 8; ok to show)
 
 Three worst problems, fix only these, re-render, run again:
 1. audibility: 6 sounds (click) are 30+ dB under the film's own sound in the mix: they cannot be heard. The ducking took them out: --voice-depth light (or normal), or a higher gain_db on those

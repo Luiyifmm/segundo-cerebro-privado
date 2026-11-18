@@ -1,0 +1,229 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjr0dgk3rrbwxc3",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tramos": [
+  [
+   0.0,
+   32.55
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat",
+  "usuario": "@alessmartin.fitness",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
+ },
+ "cara_y": 0.36,
+ "sub_y": 1150,
+ "sin_subs": [
+  [
+   0,
+   25.95
+  ]
+ ],
+ "zooms": [
+  [
+   26.37,
+   27.7,
+   1.1
+  ],
+  [
+   30.84,
+   31.55,
+   1.1
+  ]
+ ],
+ "elementos": [
+  {
+   "tipo": "columnas",
+   "t0": 0.0,
+   "t1": 25.95,
+   "y": 1000,
+   "alto": 580,
+   "y_flota": 300,
+   "cabeceras": [
+    "A LA SEMANA",
+    "TODOS LOS DÍAS",
+    "1 VEZ AL MES"
+   ],
+   "col_cab": [
+    "crema",
+    "bueno",
+    "malo"
+   ],
+   "items": [
+    {
+     "t": 0.16,
+     "t_col": 1.1,
+     "col": 0,
+     "emoji": "🥩",
+     "texto": "Vacuno 2×",
+     "largo": "Carne de vacuno",
+     "img": "../_flow/nuevas/vacuno.cut.png"
+    },
+    {
+     "t": 2.52,
+     "t_col": 3.18,
+     "col": 1,
+     "emoji": "🍳",
+     "texto": "Huevo",
+     "img": "../_flow/nuevas/huevos.cut.png"
+    },
+    {
+     "t": 4.08,
+     "t_col": 4.86,
+     "col": 1,
+     "emoji": "🍓",
+     "texto": "Fruta",
+     "largo": "Frutas",
+     "img": "../_flow/nuevas/manzana.cut.png"
+    },
+    {
+     "t": 5.74,
+     "t_col": 6.72,
+     "col": 0,
+     "emoji": "🧀",
+     "texto": "Queso blanco",
+     "img": "../_flow/nuevas/queso-blanco.cut.png"
+    },
+    {
+     "t": 7.72,
+     "t_col": 8.77,
+     "col": 1,
+     "emoji": "🫒",
+     "texto": "Aceite oliva",
+     "largo": "Aceite de oliva",
+     "img": "../_flow/nuevas/aceite.cut.png"
+    },
+    {
+     "t": 9.73,
+     "t_col": 10.33,
+     "col": 2,
+     "emoji": "🍷",
+     "texto": "Vino",
+     "img": "../_flow/nuevas/vino.cut.png"
+    },
+    {
+     "t": 11.25,
+     "t_col": 12.03,
+     "col": 0,
+     "emoji": "🍚",
+     "texto": "Arroz 2×",
+     "largo": "Arroz",
+     "img": "../_flow/nuevas/arroz.cut.png"
+    },
+    {
+     "t": 13.17,
+     "t_col": 14.03,
+     "col": 1,
+     "emoji": "🥦",
+     "texto": "Verdura",
+     "largo": "Vegetales",
+     "img": "../_flow/nuevas/brocoli.cut.png"
+    },
+    {
+     "t": 14.93,
+     "t_col": 16.13,
+     "col": 1,
+     "emoji": "🥑",
+     "texto": "Aguacate",
+     "img": "../_flow/nuevas/aguacate.cut.png"
+    },
+    {
+     "t": 16.73,
+     "t_col": 18.18,
+     "col": 2,
+     "emoji": "🍟",
+     "texto": "Procesado",
+     "largo": "Ultraprocesado",
+     "img": "../_flow/nuevas/salchichas.cut.png"
+    },
+    {
+     "t": 19.14,
+     "t_col": 19.66,
+     "col": 1,
+     "emoji": "💧",
+     "texto": "Agua",
+     "img": "../_flow/agua.png"
+    },
+    {
+     "t": 21.12,
+     "t_col": 21.96,
+     "col": 2,
+     "emoji": "🍕",
+     "texto": "Pizza",
+     "img": "../_flow/nuevas/pizza.cut.png"
+    },
+    {
+     "t": 22.66,
+     "t_col": 23.44,
+     "col": 0,
+     "emoji": "🍰",
+     "texto": "Postre",
+     "img": "../_flow/nuevas/tarta.cut.png"
+    },
+    {
+     "t": 24.4,
+     "t_col": 25.43,
+     "col": 1,
+     "emoji": "🍗",
+     "texto": "Pollo",
+     "largo": "Pechuga de pollo",
+     "img": "../_flow/nuevas/pollo.cut.png"
+    }
+   ],
+   "celda": 138,
+   "lado_item": 96,
+   "lado_flota": 230,
+   "ancho": 870
+  },
+  {
+   "tipo": "cta",
+   "t0": 27.8,
+   "t_clic": 28.2,
+   "y": 250,
+   "usuario": "@alessmartin.fitness",
+   "sub": "Pérdida de grasa para mujeres",
+   "boton": "Seguir"
+  },
+  {
+   "tipo": "pill",
+   "t0": 31.45,
+   "y": 530,
+   "emoji": "📝",
+   "texto": "Formulario en mi bio"
+  }
+ ],
+ "frases": [
+  "Y si quieres *perder grasa*",
+  "y eres una *mujer ocupada,*",
+  "no dejes de *seguirme.*",
+  "Y si ya lo has intentado *varias veces*",
+  "y no has *podido,*",
+  "te recomiendo *muchísimo*",
+  "que rellenes el *formulario*",
+  "de *mi biografía.*"
+ ],
+ "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
+ "frases_desde": 25.95,
+ "titulo_salida": "Alessandro - qué comer y cada cuánto",
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica_desde": 0,
+ "version": "v2",
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
+}

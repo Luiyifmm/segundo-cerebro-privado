@@ -35,7 +35,15 @@ if S.get('tiempos') == 'bruto':          # el spec se escribe con los tiempos de
                 if k in it: it[k] = m_(it[k])
         if 'tiempos' in e: e['tiempos'] = [m_(x) for x in e['tiempos']]
         for it in e.get('etiquetas', []): it['t'] = m_(it['t'])
+        for it in e.get('piezas', []):
+            if 't' in it: it['t'] = m_(it['t'])
+        if 't_sub' in e: e['t_sub'] = m_(e['t_sub'])
+        for ln in e.get('texto_fondo', []):
+            if 't' in ln: ln['t'] = m_(ln['t'])
+        if 't_texto' in e: e['t_texto'] = m_(e['t_texto'])
         for it in e.get('orbita', []):
+            if 't' in it: it['t'] = m_(it['t'])
+        for it in e.get('gira', []):
             if 't' in it: it['t'] = m_(it['t'])
         if e.get('texto_grande'): e['texto_grande']['t'] = m_(e['texto_grande']['t'])
         if e.get('mover'): e['mover'][0] = m_(e['mover'][0])
@@ -45,7 +53,7 @@ if S.get('tiempos') == 'bruto':          # el spec se escribe con los tiempos de
             if isinstance(e.get('especial', {}).get(k), (int, float)): e['especial'][k] = m_(e['especial'][k])
     S['capas_sonido'] = [dict(x, t=m_(x['t'])) for x in S.get('capas_sonido', [])]
     S['musicas'] = [dict(x, t0=m_(x['t0'])) for x in S.get('musicas', [])]
-    S['zooms'] = [[m_(a), m_(b), z] for a, b, z in S.get('zooms', [])]
+    S['zooms'] = [[m_(zm[0]), m_(zm[1])] + list(zm[2:]) for zm in S.get('zooms', [])]
     S['transiciones'] = [m_(x) for x in S.get('transiciones', [])]
     S['sin_subs'] = [[m_(a), m_(b)] for a, b in S.get('sin_subs', [])]
     S['eventos_extra'] = [dict(x, t=m_(x['t'])) for x in S.get('eventos_extra', [])]
@@ -73,6 +81,8 @@ FU = {
     'montserrat': os.path.expanduser('~/Library/Fonts/Montserrat-Black.ttf'),
     'poppins': os.path.expanduser('~/Library/Fonts/Poppins-Black.ttf'),
     'playfair': os.path.expanduser('~/Videos-Remotion/video-editor/assets/fonts/PlayfairDisplay-Italic-VF.ttf'),
+    'mano': os.path.expanduser('~/Library/Fonts/PermanentMarker-Regular.ttf'),
+    'mano2': os.path.expanduser('~/Library/Fonts/ShadowsIntoLight-Regular.ttf'),
 }
 _f = {}
 def F(nombre, s):
@@ -218,6 +228,7 @@ def subtitulo(im, t, SUBS):
     for k, (t0, t1, filas) in enumerate(SUBS):
         if not (t0 - 0.02 <= t < t1): continue
         if any(a <= t < b for a, b in S.get('sin_subs', [])): return
+        if any(t0 < b <= t and a < t1 for a, b in S.get('sin_subs', [])): return   # v3 (pacing): un subtítulo que empezó antes de un b-roll no reaparece al volver
         if filas[0][3] == 'pregunta':
             txt = ' '.join(w for w, s, c, col in filas)
             px, py = S.get('pregunta_xy', [540, y])             # v2: la pregunta puede ir sobre la cabeza de quien la hace
@@ -234,16 +245,36 @@ def subtitulo(im, t, SUBS):
         rel = ' '.join(w for w, s, c, col in filas[:k0] if t >= s - 0.02)
         cl = [(w, s, col0) for w, s, c, col in filas[k0:] if t >= s - 0.02 or c]
         d = ImageDraw.Draw(im)
-        if rel:
+        todo = [(w, s_) for w, s_, c, col in filas[:k0]]
+        if rel and S.get('subs_palabra', True):            # v3 (referencias): cada palabra entra en su sitio con un pequeño deslizamiento y fundido
+            linea = ' '.join(w for w, s_ in todo); f, _ = ajusta(d, linea, 'sf_bold', S.get('subs_tam', [52, 118])[0], S.get('subs_ancho', 940))
+            x = 540 - d.textlength(linea, font=f) / 2; sp = d.textlength(' ', font=f)
+            sh = Image.new('L', im.size, 0); ds = ImageDraw.Draw(sh); l = Image.new('RGBA', im.size, (0, 0, 0, 0)); dl = ImageDraw.Draw(l)
+            for w, s_ in todo:
+                p = eo((t - s_ + 0.02) / 0.14); ww = d.textlength(w, font=f)
+                if p > 0:
+                    yy_ = y + 12 * (1 - p); ds.text((x, yy_), w, font=f, fill=int(S.get('sombra', 190) * p), anchor='lm')
+                    dl.text((x, yy_), w, font=f, fill=(255, 255, 255, int(255 * p)), anchor='lm')
+                x += ww + sp
+            im.paste(Image.new('RGB', im.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(S.get('sombra_blur', 12)))); im.paste(l, (0, 0), l)
+        elif rel:
             f, _ = ajusta(d, rel, 'sf_bold', S.get('subs_tam', [52, 118])[0], S.get('subs_ancho', 940)); sombra_texto(im, (540, y), rel, f); ImageDraw.Draw(im).text((540, y), rel, font=f, fill=COL['blanco'], anchor='mm')
         if cl and t >= cl[0][1] - 0.02:
-            txt = ' '.join(w for w, s, col in cl); txt = txt.upper() if MAYUS else txt
+            caja = cl[0][0].startswith('^'); cl = [(w.lstrip('^'), s_, c_) for w, s_, c_ in cl]
+            txt = ' '.join(w for w, s_, col in cl); txt = txt.upper() if MAYUS else txt
             col = COL[cl[0][2]]; te = cl[0][1]
             base_t = S.get('subs_tam', [52, 118])[1] if CLAVE_F != 'playfair' else int(S.get('subs_tam', [52, 118])[1] * 1.08)
-            tam = int(lerp(base_t * 1.25, base_t, eo((t - te) / 0.1)))
+            p = eo((t - te) / 0.16); tam = int(lerp(base_t * 1.12, base_t, p))
             f, tam = ajusta(d, txt, CLAVE_F, tam, S.get('subs_ancho', 960))
-            yy = y + (base_t * .78 if rel else 0)
-            sombra_texto(im, (540, yy), txt, f); ImageDraw.Draw(im).text((540, yy), txt, font=f, fill=col, anchor='mm')
+            yy = y + (base_t * .78 if rel else 0) + 10 * (1 - p)
+            if caja:                                            # v3: clave dentro de una caja del color de marca (referencia «So the TRUTH»)
+                tw = d.textlength(txt, font=f); bx = (540 - tw / 2 - 18, yy - tam * .62, 540 + tw / 2 + 18, yy + tam * .62)
+                ImageDraw.Draw(im).rounded_rectangle(bx, 10, fill=col); ImageDraw.Draw(im).text((540, yy), txt, font=f, fill=(255, 255, 255) if sum(col) < 560 else NEGRO, anchor='mm')
+            else:                                               # v3 (Luis): más sombra y un brillo suave del color de la clave para que se lea mejor
+                sombra_texto(im, (540, yy + 4), txt, f, fuerza=255, blur=S.get('sombra_blur', 12) + 6); sombra_texto(im, (540, yy), txt, f, fuerza=200, blur=5)
+                gl = Image.new('L', im.size, 0); ImageDraw.Draw(gl).text((540, yy), txt, font=f, fill=S.get('glow', 120), anchor='mm')
+                im.paste(Image.new('RGB', im.size, col), (0, 0), gl.filter(ImageFilter.GaussianBlur(16)))
+                ImageDraw.Draw(im).text((540, yy), txt, font=f, fill=col, anchor='mm')
         return
 
 # ---------------- elementos ----------------
@@ -271,20 +302,56 @@ def el_titulo(im, e, t):
 def el_tarjeta(im, e, t):
     """Tarjeta de cristal tipo Apple con emoji y etiqueta (imagen de fuera del vídeo, L9)."""
     q = ent(t, e['t0'], 0.22); s = sal(t, e['t1'], 0.18)
+    if e.get('desenfoca'):
+        ci, cf = contiguo(e)
+        if ci and t >= e['t0'] - 0.01: q = 1.0
+        if cf and t < e['t1'] + 0.01: s = 1.0
     if q <= 0 or s <= 0: return im
-    (x, y), L = pos(e), e.get('lado', 300); sc = bo((t - e['t0']) / 0.3)
+    (x, y), L = pos(e), e.get('lado', 300); sc = eo((t - e['t0']) / 0.4)   # v3: entrada suave, sin rebote
     def fn(c):
         Ls = int(L * (0.85 + 0.15 * sc)); bx = (x - Ls / 2, y - Ls / 2 + int(40 * (1 - s)), x + Ls / 2, y + Ls / 2 + int(40 * (1 - s)))
-        if e.get('suelta') and e.get('desenfoca'): fondo_mg(c, e.get('grid', False), e.get('claro', False))
-        if e.get('orbita'): orbita(c, e['orbita'], t, e['t0'], e.get('claro', False))
-        if e.get('suelta'):           # v2: motion graphic sin caja: emoji grande que flota + texto debajo (lo de «emoji de desayuno en el centro»)
-            bob = 10 * math.sin((t - e['t0']) * 3); lado = int(Ls * .8); em = visual(e, lado)
-            sh = Image.new('L', c.size, 0); sh.paste(em.split()[3], (int(x - lado / 2), int(y - lado / 2 + bob + 24))); c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(22)).point(lambda v: v * .55))
-            c.paste(em, (int(x - lado / 2), int(y - lado / 2 + bob)), em)
+        if e.get('suelta'):           # v3: motion graphic centrado como las referencias (fondo limpio, círculos, texto a dos niveles, órbitas suaves)
+            claro = e.get('claro', False); tl = t - e['t0']
+            if e.get('desenfoca'): fondo_mg(c, e.get('grid', False), claro)
+            est = deco_mg(c, t, e) if (claro and e.get('deco', True)) else None
+            sin_circ = est == 'objetos'          # con objetos en las esquinas, sin círculo de color (Luis 18-11)
+            if e.get('orbita'): orbita(c, e['orbita'], t, e['t0'], claro)
+            p = eo(tl / 0.45); lado = int(L * .8 * lerp(0.82, 1.0, p)); bob = 7 * math.sin(tl * 1.8); cy = y + 30 * (1 - p) + bob
+            gira = [it for it in e.get('gira', []) if t >= it.get('t', e['t0'])]
+            def pos_g(k, it):
+                g = it; a_ = g.get('fase', k * 2 * math.pi / max(1, len(gira))) + (t - it.get('t', e['t0'])) * g.get('vel', 0.9)
+                return x + g.get('r', 330) * math.cos(a_), cy + g.get('r', 330) * g.get('elipse', 0.32) * math.sin(a_), math.sin(a_)
+            def pinta_g(front):
+                for k, it in enumerate(gira):
+                    gx, gy, z = pos_g(k, it)
+                    if (z >= 0) != front: continue
+                    q_ = eo((t - it.get('t', e['t0'])) / 0.35); ld = max(8, int(it.get('lado', 130) * lerp(0.7, 1.08, (z + 1) / 2) * q_)); v = visual(it, ld)
+                    if not front: v = v.filter(ImageFilter.GaussianBlur(2.5)); v.putalpha(v.split()[3].point(lambda a: int(a * .8)))
+                    c.paste(v, (int(gx - ld / 2), int(gy - ld / 2)), v)
+                    if it.get('texto') and front: texto_capa(c, (gx, gy + ld / 2 + 28), it['texto'], 'sf_bold', 34, NEGRO if claro else (255, 255, 255), q_, sombra=not claro)
+            pinta_g(False)
+            if e.get('circulo') and not sin_circ:
+                R = int(lado * .62); l = Image.new('RGBA', c.size, (0, 0, 0, 0))
+                ImageDraw.Draw(l).ellipse((x - R, cy - R + 18, x + R, cy + R + 18), fill=(0, 0, 0, 60)); c.paste(l.filter(ImageFilter.GaussianBlur(26)), (0, 0), l.filter(ImageFilter.GaussianBlur(26)))
+                cc_ = colr(e['circulo']) if isinstance(e['circulo'], str) else COL['bueno']
+                gl = Image.new('L', c.size, 0); ImageDraw.Draw(gl).ellipse((x - R * 1.25, cy - R * 1.25, x + R * 1.25, cy + R * 1.25), fill=150)   # glow del círculo
+                c.paste(Image.new('RGB', c.size, cc_), (0, 0), gl.filter(ImageFilter.GaussianBlur(45)))
+                ImageDraw.Draw(c).ellipse((x - R, cy - R, x + R, cy + R), fill=cc_); lado = int(lado * .72)
+            em = visual(e, lado)
+            if not e.get('circulo') or sin_circ:
+                sh = Image.new('L', c.size, 0); sh.paste(em.split()[3], (int(x - lado / 2), int(cy - lado / 2 + 24))); c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(22)).point(lambda v: v * .45))
+            c.paste(em, (int(x - lado / 2), int(cy - lado / 2)), em)
+            pinta_g(True)
+            R0 = int(L * .8 * .62) if (e.get('circulo') and not sin_circ) else lado / 2
+            if e.get('texto_arriba'):
+                q_ = eo((tl - 0.15) / 0.3); texto_capa(c, (x, cy - R0 - 70 + 14 * (1 - q_)), e['texto_arriba'], 'sf_bold', e.get('tam_arriba', 56), NEGRO if claro else (255, 255, 255), q_, sombra=not claro)
+            if e.get('texto_abajo'):
+                q_ = eo((tl - e.get('t_abajo', 0.35)) / 0.3); tx = e['texto_abajo'].upper() if MAYUS and e.get('mayus', True) else e['texto_abajo']
+                texto_capa(c, (x, cy + R0 + 95 + 14 * (1 - q_)), tx, CLAVE_F, e.get('tam_abajo', 96), COL[e.get('col', 'bueno')], q_, sombra=not claro)
             if e.get('texto'):
-                d = ImageDraw.Draw(c); tx = e['texto']; f, tam = ajusta(d, tx, e.get('fuente', 'sf_bold'), e.get('tam', 64), 960)
-                if not e.get('claro'): sombra_texto(c, (x, y + lado / 2 + 70), tx, f)
-                ImageDraw.Draw(c).text((x, y + lado / 2 + 70), tx, font=f, fill=NEGRO if e.get('claro') else COL.get(e.get('col', 'blanco'), (255, 255, 255)), anchor='mm')
+                tx = e['texto']; q_ = eo((tl - 0.15) / 0.3)
+                texto_capa(c, (x, cy + lado / 2 + 70 + 12 * (1 - q_)), tx, e.get('fuente', 'sf_bold'), e.get('tam', 64), NEGRO if claro else COL.get(e.get('col', 'blanco'), (255, 255, 255)), q_, sombra=not claro)
+            if claro and e.get('deco', True): mg_post(c, t)
             return
         if e.get('blanca'): sombra_caja(c, bx, 56, fuerza=130, blur=22); ImageDraw.Draw(c).rounded_rectangle(bx, 56, fill=(250, 250, 250))
         else: cristal(c, bx, 56, claro=0.14, borde=180)
@@ -321,12 +388,12 @@ def el_columnas(im, e, t):
             if t < it['t']: continue
             hx_, hy_ = hueco(it); hy_ += dy
             if t < it['t_col']:                     # flotando arriba, grande, mientras lo nombra
-                p = bo((t - it['t']) / 0.28); lado = int(LF * (0.7 + 0.3 * p)); cx_, cy_ = 540, e.get('y_flota', 300); hw = max(170, LF // 2 + 40)
+                p = eo((t - it['t']) / 0.35); lado = int(LF * (0.7 + 0.3 * p)); cx_, cy_ = 540, e.get('y_flota', 300); hw = max(170, LF // 2 + 40)
                 bxf = (cx_ - hw, cy_ - LF * .8, cx_ + hw, cy_ + LF * .5 + 110); cristal(c, bxf, 48, claro=0.12, oscuro=0.25, borde=200, blur=26)
                 em = visual(it, lado); c.paste(em, (int(cx_ - lado / 2), int(cy_ - LF * .65 + (LF - lado) / 2)), em)
                 d = ImageDraw.Draw(c); f, _ = ajusta(d, it.get('largo', it['texto']), 'sf_bold', 40, 2 * hw - 30); d.text((cx_, cy_ + LF * .5 + 50), it.get('largo', it['texto']), font=f, fill=COL['blanco'], anchor='mm')
                 continue
-            p = eo((t - it['t_col']) / VUELO); y0f = e.get('y_flota', 300) - 25
+            p = (lambda u: u * u * (3 - 2 * u))(min(1, max(0, (t - it['t_col']) / (VUELO * 1.5)))); y0f = e.get('y_flota', 300) - 25
             kx = e.get('rodeo_x', 980) if abs(hx_ - 540) < 200 else hx_; ky = e.get('rodeo_y', 600)      # rodea la cara por el lado
             cx_ = (1 - p) ** 2 * 540 + 2 * (1 - p) * p * kx + p * p * hx_; cy_ = (1 - p) ** 2 * y0f + 2 * (1 - p) * p * ky + p * p * hy_; lado = int(lerp(LF, LI, p))
             em = visual(it, lado); c.paste(em, (int(cx_ - lado / 2), int(cy_ - lado / 2 + 30)), em)
@@ -341,7 +408,7 @@ def el_pildoras(im, e, t):
     s = sal(t, e['t1']); y = e.get('y', 250); lado = e.get('lado', 'der')
     if e.get('ui'):                       # v2: píldoras UI del mismo ancho, texto centrado; «mover» [t, y_nueva] las lleva a otra zona (p. ej. al degradado de un b-roll)
         if e.get('mover'): y = lerp(y, e['mover'][1], eo((t - e['mover'][0]) / 0.45))
-        c = im.copy(); pildoras_ui(c, e['items'], t, int(y), e.get('tam', 42)); return mezcla(im, c, s)
+        c = im.copy(); pildoras_ui(c, e['items'], t, int(y), e.get('tam', 42), cx=e.get('x', 540)); return mezcla(im, c, s)
     def fn(c):
         yy = y
         for it in e['items']:
@@ -470,12 +537,57 @@ def orbita(c, items, t, t0, claro=False):
     for k, it in enumerate(items):
         tk = it.get('t', t0 + 0.15 + k * 0.12)
         if t < tk: continue
-        p = bo((t - tk) / 0.3); lado = max(8, int(it.get('lado', 170) * (0.6 + 0.4 * p))); bob = 9 * math.sin((t - tk) * 2.6 + k)
+        p = eo((t - tk) / 0.45); lado = max(8, int(it.get('lado', 170) * (0.75 + 0.25 * p))); bob = 6 * math.sin((t - tk) * 1.6 + k)   # v3: más suave
         v = visual(it, lado); c.paste(v, (int(it['x'] - lado / 2), int(it['y'] - lado / 2 + bob)), v)
         if it.get('texto'):
             d = ImageDraw.Draw(c); f = F('sf_bold', it.get('tam', 34))
             if not claro: sombra_texto(c, (it['x'], it['y'] + lado / 2 + 30 + bob), it['texto'], f)
             ImageDraw.Draw(c).text((it['x'], it['y'] + lado / 2 + 30 + bob), it['texto'], font=f, fill=(40, 40, 46) if claro else (255, 255, 255), anchor='mm')
+
+_ESQ = {}
+def esquinas(c, t, items=None):
+    """Objetos del tema en las esquinas (pesas, plato…) en blanco y negro, desenfocados y saliendo por el borde (pedido de Luis 18-11)."""
+    items = items if items is not None else S.get('mg_esquinas', [])
+    sitios = {'si': (-20, 230, -18), 'sd': (1100, 300, 16), 'ii': (-10, 1700, 14), 'id': (1090, 1650, -12)}   # v3: casi fuera de cuadro
+    for k, it in enumerate(items[:2]):
+        clave = (json.dumps(it, sort_keys=True))
+        if clave not in _ESQ:
+            v = visual(it, it.get('lado', 760)).convert('RGBA'); a = v.split()[3]; g = v.convert('L').convert('RGB'); g.putalpha(a)
+            g = g.rotate(sitios[it.get('pos', 'si')][2], expand=True, resample=Image.BICUBIC).filter(ImageFilter.GaussianBlur(it.get('blur', 5)))
+            g.putalpha(g.split()[3].point(lambda x: int(x * it.get('alfa', 0.55)))); _ESQ[clave] = g
+        g = _ESQ[clave]; x, y, _ = sitios[it.get('pos', 'si')]; dx = 10 * math.sin(t * 0.5 + k); dy = 8 * math.cos(t * 0.4 + k)
+        c.paste(g, (int(x - g.size[0] / 2 + dx), int(y - g.size[1] / 2 + dy)), g)
+
+_TELA = None
+def tela(c):
+    """Textura de tela muy suave (trama fina) para el estilo «objetos»."""
+    global _TELA
+    if _TELA is None:
+        yy, xx = np.mgrid[0:H, 0:W]; rng = np.random.default_rng(3)
+        t_ = (np.sin(xx * 0.9) * np.sin(yy * 0.9) * 3 + np.sin((xx + yy) * 0.35) * 1.5 + rng.normal(0, 2.2, (H, W)))
+        _TELA = np.clip(t_ + 128, 0, 255).astype(np.uint8)
+    a = np.asarray(c, dtype=np.int16) + (_TELA.astype(np.int16)[..., None] - 128); c.paste(Image.fromarray(np.clip(a, 0, 255).astype(np.uint8)))
+def anillos(c, t):
+    """Formas minimalistas (referencia «If you had 200 followers»): dos anillos enormes en gris casi blanco entrando por dos esquinas."""
+    l = Image.new('L', (W, H), 0); d = ImageDraw.Draw(l)
+    for (cx, cy, R, g), k in zip([(-60, 120, 560, 150), (1180, 1820, 640, 170)], range(2)):
+        cx += 12 * math.sin(t * 0.3 + k); cy += 10 * math.cos(t * 0.25 + k)
+        d.ellipse((cx - R, cy - R, cx + R, cy + R), fill=255); d.ellipse((cx - R + g, cy - R + g, cx + R - g, cy + R - g), fill=0)
+    c.paste(Image.new('RGB', c.size, (236, 236, 239)), (0, 0), l.filter(ImageFilter.GaussianBlur(1.5)))
+def deco_mg(c, t, e):
+    """Decoración del fondo según S['mg_deco'] (o e['deco_estilo']): 'objetos' | 'formas' | 'circulos'."""
+    est = e.get('deco_estilo', S.get('mg_deco', 'formas'))
+    if est == 'objetos': tela(c); esquinas(c, t, e.get('esquinas'))
+    elif est == 'formas': anillos(c, t)
+    else: circulos(c, t, COL['bueno']); esquinas(c, t, e.get('esquinas'))
+    return est
+
+def pantalla_llena(x): return x['tipo'] in ('broll', 'post_ig', 'cartel') or (x.get('desenfoca') and x['tipo'] in ('tarjeta', 'calendario'))
+def contiguo(e):
+    """(llega_otra_al_entrar, sigue_otra_al_salir): entre dos pantallas completas seguidas, corte directo sin que asome la persona."""
+    els = S.get('elementos', [])
+    return (any(x is not e and pantalla_llena(x) and abs(x.get('t1', -9) - e['t0']) < 0.08 for x in els),
+            any(x is not e and pantalla_llena(x) and abs(x['t0'] - e.get('t1', -9)) < 0.08 for x in els))
 
 _BR = {}
 def broll_capas(ruta, margen=1.14):
@@ -515,6 +627,14 @@ def pinta_broll(e, t, size=(W, H)):
     zb = lerp(1.0, 1.0 + 0.06 * mov, p); zf = lerp(1.0, 1.0 + 0.13 * mov, p)
     q = ent(t, e['t0'], 0.28); zb *= lerp(1.16, 1.0, q); zf *= lerp(1.16, 1.0, q)       # entrada: golpe de zoom
     im = ventana(bg, zb, sent * lerp(-22, 22, p) * mov, lerp(10, -10, p) * mov, size)
+    for k, ln in enumerate(e.get('texto_fondo', [])):      # v3: letras detrás del sujeto, como parte del ambiente («sin hambre de / LOBO»)
+        q_ = eo((t - ln.get('t', e['t0'])) / 0.4)
+        if q_ > 0:
+            tx_ = ln['texto'].upper() if ln.get('mayus', True) else ln['texto']; fu_ = {'marca': CLAVE_F}.get(ln.get('fuente', 'marca'), ln.get('fuente', 'marca')); xy_ = (size[0] / 2, ln['y'] + 20 * (1 - q_))
+            if ln.get('glow'):
+                gl = Image.new('L', im.size, 0); f_, _ = ajusta(ImageDraw.Draw(gl), tx_, fu_, ln.get('tam', 150), 1040); ImageDraw.Draw(gl).text(xy_, tx_, font=f_, fill=int(200 * q_), anchor='mm')
+                im.paste(Image.new('RGB', im.size, colr(ln.get('col', 'blanco'))), (0, 0), gl.filter(ImageFilter.GaussianBlur(28)))
+            texto_capa(im, xy_, tx_, fu_, ln.get('tam', 150), colr(ln.get('col', 'blanco')), q_ * ln.get('opacidad', 0.85), ancho=1040)
     if fg is not None and e.get('parallax', True):
         l = ventana(fg, zf, -sent * lerp(-30, 30, p) * mov, 0, size); im.paste(l, (0, 0), l)
     if e.get('doc', True):
@@ -552,18 +672,18 @@ def el_broll(im, e, t):
         pildoras_ui(c, e['etiquetas'], t, e.get('y_etiquetas', 1430), e.get('tam_etiquetas', 42))
     return mezcla(im, c, s)
 
-def pildoras_ui(c, items, t, y, tam=42, ancho=None, alto=100, paso=122, oscuro=0.18):
+def pildoras_ui(c, items, t, y, tam=42, ancho=None, alto=100, paso=122, oscuro=0.18, cx=540):
     """Píldoras de cristal elegantes (UI de Apple) del MISMO ancho, texto centrado; entran una a una desde abajo."""
     d = ImageDraw.Draw(c); f = F('sf_bold', tam)
     ancho = ancho or max(d.textlength(it['texto'], font=f) for it in items) + (190 if any(it.get('emoji') or it.get('marca') for it in items) else 120)
     yy = y
     for it in items:
         if t < it['t']: yy += paso; continue
-        p = eo((t - it['t']) / 0.25); dy = int(36 * (1 - p)); bx = (540 - ancho / 2, yy + dy, 540 + ancho / 2, yy + dy + alto)
+        p = eo((t - it['t']) / 0.25); dy = int(36 * (1 - p)); bx = (cx - ancho / 2, yy + dy, cx + ancho / 2, yy + dy + alto)
         cc = c.copy(); cristal(cc, bx, alto // 2, claro=0.16, oscuro=oscuro, borde=210, blur=26); dd = ImageDraw.Draw(cc)
         if it.get('emoji'): em = emoji(it['emoji'], int(alto * .56)); cc.paste(em, (int(bx[0] + 28), int(yy + dy + alto * .22)), em)
         elif it.get('marca'): (visto if it['marca'] == 'si' else prohibido)(dd, bx[0] + 52, yy + dy + alto / 2, 24, 7, COL['bueno'] if it['marca'] == 'si' else COL['malo'])
-        dd.text((540, yy + dy + alto / 2), it['texto'], font=f, fill=(255, 255, 255), anchor='mm')
+        dd.text((cx, yy + dy + alto / 2), it['texto'], font=f, fill=(255, 255, 255), anchor='mm')
         c.paste(mezcla(c, cc, p)); yy += paso
 
 def el_mensaje(im, e, t):
@@ -598,11 +718,16 @@ def el_calendario(im, e, t):
     """Calendario de cristal (días como cuadrados, lo pidió Luis): en cada día va cayendo el mismo plato; un día especial
     (p. ej. el 10) recibe otra cosa (pizza) y un emoji que se ríe."""
     q = ent(t, e['t0'], 0.3); s = sal(t, e['t1'], 0.25)
+    if e.get('desenfoca'):
+        ci, cf = contiguo(e)
+        if ci and t >= e['t0'] - 0.01: q = 1.0
+        if cf and t < e['t1'] + 0.01: s = 1.0
     if q <= 0 or s <= 0: return im
     n = e.get('dias', 21); cols = 7; filas = math.ceil(n / cols); G = 12; AN = e.get('ancho', 1000); L = (AN - G * (cols - 1)) // cols; x0 = (W - AN) // 2; y0 = e.get('y', 300); claro = e.get('claro', False)
     t_a, t_b = e.get('t_llenar', [e['t0'] + 0.3, e['t0'] + 2.5]); esp = e.get('especial', {})
     def fn(c):
         if e.get('desenfoca'): fondo_mg(c, e.get('grid', True), claro)
+        if claro and e.get('deco', True): deco_mg(c, t, e)
         if e.get('orbita'): orbita(c, e['orbita'], t, e['t0'], claro)
         dy = int(-60 * (1 - q)); d = ImageDraw.Draw(c)
         if e.get('titulo'): pill(c, 540, y0 + dy - 70, e['titulo'], NEGRO, COL['blanco'], 'sf_bold', 38)
@@ -625,6 +750,7 @@ def el_calendario(im, e, t):
             if es and esp.get('emoji2') and t >= esp.get('t2', esp['t'] + 0.5):
                 p = bo((t - esp.get('t2', esp['t'] + 0.5)) / 0.3); lado = int(L * .55 * p) + 1; v = emoji(esp['emoji2'], lado)
                 c.paste(v, (int(bx[2] - lado * .6), int(bx[1] - lado * .4)), v)
+        if claro and e.get('deco', True): mg_post(c, t)
     return capa(im, fn, min(q, s))
 
 
@@ -649,9 +775,150 @@ def el_post_ig(im, e, t):
             em = emoji(ch, 44); em.putalpha(em.split()[3].point(lambda v: v * a // 255)); l.paste(em, (x0 + 30 + k * 70, yb - 24), em)
         dl.text((x0 + 30, yb + 62), e.get('likes', '1.248 Me gusta'), font=F('sf_bold', 30), fill=(20, 20, 20, a), anchor='lm')
         c.paste(l, (0, 0), l)
-    return mezcla(im, c, sal(t, e['t1'] - 0.18, 0.18))
+    sigue = any(x is not e and x['tipo'] in ('broll', 'post_ig') and abs(x['t0'] - e['t1']) < 0.08 for x in S.get('elementos', []))
+    return c if sigue else mezcla(im, c, sal(t, e['t1'] - 0.18, 0.18))
 
-TIPOS = {'post_ig': el_post_ig, 'broll': el_broll, 'mensaje': el_mensaje, 'calendario': el_calendario, 'color': el_color,'pill': el_pill, 'titulo': el_titulo, 'tarjeta': el_tarjeta, 'columnas': el_columnas, 'pildoras': el_pildoras, 'texto': el_texto, 'cta': el_cta}
+# ---------------- v3 (18-11, segunda auditoría de Luis) ----------------
+def mg_post(c, t, deco=True):
+    """Acabado de motion graphic de referencia: círculos de color de marca difuminados que salen por los bordes,
+    bordes desenfocados, textura (grano) y viñeta suave."""
+    if not deco: return
+    m = Image.new('L', c.size, 0); d = ImageDraw.Draw(m)
+    yy, xx = np.mgrid[0:H:8, 0:W:8]; r = np.sqrt(((xx - W / 2) / (W * .55)) ** 2 + ((yy - H / 2) / (H * .52)) ** 2)
+    borde = Image.fromarray((np.clip((r - 0.62) / 0.5, 0, 1) * 255).astype(np.uint8), 'L').resize(c.size, Image.BILINEAR)
+    c.paste(c.filter(ImageFilter.GaussianBlur(10)), (0, 0), borde)                       # bordes desenfocados
+    c.paste(Image.new('RGB', c.size, (40, 36, 48)), (0, 0), borde.point(lambda v: v * 60 // 255))   # viñeta (más marcada, pedido 18-11)
+    c.paste(grano(c, 6, int(t * FPS)))
+def circulos(c, t, col, claro=True):
+    """Tres círculos grandes y difuminados del color de marca que derivan despacio (decoración de borde)."""
+    l = Image.new('RGBA', (W // 4, H // 4), (0, 0, 0, 0)); d = ImageDraw.Draw(l)
+    for k, (cx, cy, R, a) in enumerate([(0.02, 0.10, 0.26, 70), (1.0, 0.55, 0.22, 60), (0.10, 0.93, 0.30, 55)]):
+        x = (cx + 0.02 * math.sin(t * 0.5 + k)) * W / 4; y = (cy + 0.015 * math.cos(t * 0.4 + k)) * H / 4; rr = R * W / 4
+        d.ellipse((x - rr, y - rr, x + rr, y + rr), fill=col + (a if claro else a // 2,))
+    l = l.filter(ImageFilter.GaussianBlur(10)).resize((W, H), Image.BILINEAR); c.paste(l, (0, 0), l)
+def texto_capa(c, xy, txt, fuente, tam, col, alpha=1.0, anchor='mm', sombra=False, ancho=980):
+    d = ImageDraw.Draw(c); f, tam = ajusta(d, txt, fuente, tam, ancho)
+    if sombra: sombra_texto(c, xy, txt, f, anchor=anchor)
+    l = Image.new('RGBA', c.size, (0, 0, 0, 0)); ImageDraw.Draw(l).text(xy, txt, font=f, fill=tuple(col) + (int(255 * alpha),), anchor=anchor); c.paste(l, (0, 0), l)
+    return tam
+def colr(x): return COL[x] if isinstance(x, str) and x in COL else (hx(x) if isinstance(x, str) else tuple(x))
+
+def el_rotulo(im, e, t):
+    """Rótulo compuesto (referencias: «and be / LIKE», «I'm gonna / systemize»): piezas de texto con su posición, alineación,
+    letra (sf_med, sf_bold, la de marca, playfair cursiva, mano), color y caja; cada una entra a su tiempo deslizando y fundiendo."""
+    if not (e['t0'] - 0.01 <= t < e['t1'] + 0.2): return im
+    s_ = sal(t, e['t1'], 0.2); c = im.copy(); d = ImageDraw.Draw(c)
+    for pz in e['piezas']:
+        tk = pz.get('t', e['t0'])
+        if t < tk: continue
+        p = eo((t - tk) / 0.22) * s_; fu = {'marca': CLAVE_F}.get(pz.get('fuente', 'sf_bold'), pz.get('fuente', 'sf_bold'))
+        txt = pz['texto'].upper() if pz.get('mayus') else pz['texto']; f, tam = ajusta(d, txt, fu, pz.get('tam', 60), pz.get('ancho', 900))
+        al = pz.get('align', 'centro'); anchor = {'izq': 'lm', 'der': 'rm', 'centro': 'mm'}[al]; x, y = pz['x'], pz['y'] + 18 * (1 - p)
+        col = colr(pz.get('col', 'blanco'))
+        if pz.get('caja'):
+            tw = d.textlength(txt, font=f); x0 = x - (tw / 2 if al == 'centro' else (tw if al == 'der' else 0))
+            bx = (x0 - 16, y - tam * .62, x0 + tw + 16, y + tam * .62); l = Image.new('RGBA', c.size, (0, 0, 0, 0))
+            ImageDraw.Draw(l).rounded_rectangle(bx, 10, fill=colr(pz['caja']) + (int(255 * p),)); c.paste(l, (0, 0), l)
+        elif pz.get('sombra', True):
+            sh = Image.new('L', c.size, 0); ImageDraw.Draw(sh).text((x, y), txt, font=f, fill=int(S.get('sombra', 190) * p), anchor=anchor)
+            c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(S.get('sombra_blur', 12))))
+        l = Image.new('RGBA', c.size, (0, 0, 0, 0)); ImageDraw.Draw(l).text((x, y), txt, font=f, fill=col + (int(255 * p),), anchor=anchor); c.paste(l, (0, 0), l)
+    return c
+
+def el_dm(im, e, t):
+    """Mensajes directos de Instagram: solo burbujas (sin tarjeta), «escribiendo…» antes de cada mensaje que llega,
+    cada burbuja sube y empuja a las anteriores."""
+    if not (e['t0'] - 0.01 <= t < e['t1'] + 0.2): return im
+    s_ = sal(t, e['t1'], 0.2); c = im.copy(); y_base = e.get('y', 1300); tam = e.get('tam', 42); f = F('sf_med', tam); d = ImageDraw.Draw(c)
+    visibles = []
+    for it in e['items']:
+        te = it['t'] - (e.get('escribiendo', 0.6) if it.get('de', 'ella') != 'yo' else 0)
+        if t < te: continue
+        escribiendo = t < it['t'] and it.get('de', 'ella') != 'yo'
+        lineas = []; ln = ''
+        for pal in it.get('texto', '').split():
+            if d.textlength((ln + ' ' + pal).strip(), font=f) > e.get('ancho', 640): lineas.append(ln); ln = pal
+            else: ln = (ln + ' ' + pal).strip()
+        lineas.append(ln); h = 40 + len(lineas) * int(tam * 1.25) if not escribiendo else 90
+        visibles.append((it, escribiendo, lineas, h, eo((t - te) / 0.25)))
+    y = y_base
+    for it, esc, lineas, h, p in reversed(visibles):
+        yo = it.get('de', 'ella') == 'yo'
+        w_ = 150 if esc else max(d.textlength(l, font=f) for l in lineas) + 60
+        x0 = (1000 - w_) if yo else 150; bx = (x0, y - h + 20 * (1 - p), x0 + w_, y + 20 * (1 - p))
+        a = int(255 * p * s_); l = Image.new('RGBA', c.size, (0, 0, 0, 0)); dl = ImageDraw.Draw(l)
+        sh = Image.new('L', c.size, 0); ImageDraw.Draw(sh).rounded_rectangle(bx, 38, fill=int(90 * p * s_)); c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 12), sh.filter(ImageFilter.GaussianBlur(16)))
+        if yo: dl.rounded_rectangle(bx, 38, fill=(124, 58, 237, a))
+        else: dl.rounded_rectangle(bx, 38, fill=(239, 239, 242, a))
+        if not yo:
+            dl.ellipse((70, bx[3] - 64, 130, bx[3] - 4), fill=COL['bueno'] + (a,))
+            em = emoji(e.get('emoji', '🙋‍♀️'), 40); em.putalpha(em.split()[3].point(lambda v: v * a // 255)); l.paste(em, (80, int(bx[3] - 54)), em)
+        if esc:
+            for k in range(3):
+                q_ = 0.5 + 0.5 * math.sin(t * 10 - k * 0.9); r = 9 + 3 * q_; cx = bx[0] + 42 + k * 34; cy = (bx[1] + bx[3]) / 2
+                dl.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(140, 140, 148, a))
+        else:
+            yy = bx[1] + 20 + tam * .62
+            for ln in lineas: dl.text((bx[0] + 30, yy), ln, font=f, fill=((255, 255, 255) if yo else (20, 20, 24)) + (a,), anchor='lm'); yy += int(tam * 1.25)
+        c.paste(l, (0, 0), l); y = bx[1] - 22
+    return c
+
+def el_foco(im, e, t):
+    """Cuadrado sobre un objeto (el móvil): fuera del cuadrado la imagen pasa a blanco y negro; el borde se dibuja solo."""
+    q = ent(t, e['t0'], 0.3); s_ = sal(t, e['t1'], 0.2)
+    if q <= 0 or s_ <= 0: return im
+    x0, y0, x1, y1 = e['caja']; g = im.convert('L').convert('RGB'); m = Image.new('L', im.size, int(255 * min(q, s_)))
+    ImageDraw.Draw(m).rounded_rectangle((x0, y0, x1, y1), 26, fill=0); c = im.copy(); c.paste(g, (0, 0), m)
+    per = 2 * ((x1 - x0) + (y1 - y0)); L = per * eo((t - e['t0']) / 0.5); d = ImageDraw.Draw(c); col = colr(e.get('col', 'blanco')); w = 7
+    tramos = [((x0, y0), (x1, y0)), ((x1, y0), (x1, y1)), ((x1, y1), (x0, y1)), ((x0, y1), (x0, y0))]
+    for (ax, ay), (bx_, by) in tramos:
+        lg = abs(bx_ - ax) + abs(by - ay)
+        if L <= 0: break
+        k = min(1, L / lg); d.line((ax, ay, ax + (bx_ - ax) * k, ay + (by - ay) * k), fill=col, width=w); L -= lg
+    return mezcla(im, c, s_) if s_ < 1 else c
+
+def el_cartel(im, e, t):
+    """Cartel a pantalla completa: fondo de color con textura de papel, texto grande y un subrayado de rotulador que se dibuja."""
+    if not (e['t0'] - 0.01 <= t < e['t1'] + 0.01): return im
+    fondo = colr(e.get('fondo', 'bueno')); c = Image.new('RGB', (W, H), fondo); p = eo((t - e['t0']) / 0.3)
+    n = np.random.default_rng(7).normal(0, 9, (H // 3, W // 3, 1)).repeat(3, 2)
+    c = Image.fromarray(np.clip(np.asarray(c, dtype=np.int16) + np.asarray(Image.fromarray(np.clip(n + 128, 0, 255).astype(np.uint8)).resize((W, H)), dtype=np.int16) - 128, 0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(c); fu = {'marca': CLAVE_F}.get(e.get('fuente', 'marca'), e.get('fuente', 'marca')); txt = e['texto'].upper() if e.get('mayus', True) else e['texto']
+    f, tam = ajusta(d, txt, fu, int(e.get('tam', 170) * lerp(1.08, 1.0, p)), 940); y = e.get('y', 900)
+    if e.get('arriba'): d.text((540, y - tam * .95), e['arriba'], font=F('sf_bold', e.get('tam_arriba', 54)), fill=colr(e.get('col_arriba', e.get('col', 'blanco'))), anchor='mm')
+    tw = d.textlength(txt, font=f)
+    if e.get('subrayado'):
+        q = eo((t - e.get('t_sub', e['t0'] + 0.35)) / 0.35)
+        if q > 0:
+            x0 = 540 - tw / 2 - 10; pts = [(x0 + (tw + 20) * k / 20 * q, y + tam * .55 + 6 * math.sin(k * 0.9)) for k in range(21)]
+            d.line(pts, fill=colr(e['subrayado']), width=int(tam * .16), joint='curve')
+    d.text((540, y), txt, font=f, fill=colr(e.get('col', 'blanco')), anchor='mm')
+    c.paste(grano(c, 5, int(t * FPS)))
+    return mezcla(im, c, min(1, (t - e['t0'] + 0.01) / 0.08))
+
+def el_flecha(im, e, t):
+    """Flecha dibujada a mano que sale de un punto (la zona roja de la espalda) y acaba en un texto con letra manuscrita."""
+    if not (e['t0'] - 0.01 <= t < e['t1'] + 0.2): return im
+    s_ = sal(t, e['t1'], 0.2); c = im.copy(); d = ImageDraw.Draw(c); (ax, ay), (bx_, by) = e['desde'], e['hasta']; k = e.get('curva', 0.25)
+    mx, my = (ax + bx_) / 2 + (by - ay) * k, (ay + by) / 2 - (bx_ - ax) * k; p = eo((t - e['t0']) / 0.45)
+    pts = [((1 - u) ** 2 * ax + 2 * (1 - u) * u * mx + u * u * bx_, (1 - u) ** 2 * ay + 2 * (1 - u) * u * my + u * u * by) for u in [p * i / 30 for i in range(31)]]
+    sh = Image.new('L', c.size, 0); ImageDraw.Draw(sh).line(pts, fill=160, width=12, joint='curve'); c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(6)))
+    d.line(pts, fill=(255, 255, 255), width=9, joint='curve')
+    if p > 0.95:
+        (x1, y1), (x2, y2) = pts[-2], pts[-1]; ang = math.atan2(y2 - y1, x2 - x1)
+        for da in (2.6, -2.6): d.line((x2, y2, x2 + 46 * math.cos(ang + da), y2 + 46 * math.sin(ang + da)), fill=(255, 255, 255), width=9)
+    tt = e.get('t_texto', e['t0'] + 0.4)
+    if t >= tt:
+        q = eo((t - tt) / 0.25); f = F(e.get('fuente', 'mano'), e.get('tam', 96)); x = e.get('x_texto', bx_); y = e.get('y_texto', by - 90)
+        partes = re.findall(r'\*[^*]+\*|[^*]+', e['texto']); tot = sum(d.textlength(pt.strip('*'), font=f) for pt in partes); xx = x - tot / 2
+        for pt in partes:
+            col = COL['malo'] if pt.startswith('*') else (255, 255, 255); tx = pt.strip('*')
+            sh = Image.new('L', c.size, 0); ImageDraw.Draw(sh).text((xx, y + 14 * (1 - q)), tx, font=f, fill=int(200 * q), anchor='lm'); c.paste(Image.new('RGB', c.size, (0, 0, 0)), (0, 0), sh.filter(ImageFilter.GaussianBlur(8)))
+            l = Image.new('RGBA', c.size, (0, 0, 0, 0)); ImageDraw.Draw(l).text((xx, y + 14 * (1 - q)), tx, font=f, fill=col + (int(255 * q),), anchor='lm'); c.paste(l, (0, 0), l)
+            xx += d.textlength(tx, font=f)
+    return mezcla(im, c, s_) if s_ < 1 else c
+
+TIPOS = {'rotulo': el_rotulo, 'dm': el_dm, 'foco': el_foco, 'cartel': el_cartel, 'flecha': el_flecha, 'post_ig': el_post_ig, 'broll': el_broll, 'mensaje': el_mensaje, 'calendario': el_calendario, 'color': el_color,'pill': el_pill, 'titulo': el_titulo, 'tarjeta': el_tarjeta, 'columnas': el_columnas, 'pildoras': el_pildoras, 'texto': el_texto, 'cta': el_cta}
 
 # ---------------- cuadro ----------------
 SUBS = None
@@ -665,8 +932,12 @@ def cuadro(f):
     z, blur, cx, cy = 1.0, 0, 0.5, S.get('cara_y', 0.40)
     if g.get('zoom_out', True) and f < 9:
         p = eo(f / 8); z = lerp(1.3, 1.0, p); blur = 11 * (1 - p)
-    for a, b, zz in S.get('zooms', []):
-        if a <= t < b: z = max(z, lerp(1.0, zz, eo((t - a) / 0.08)))
+    for zm in S.get('zooms', []):
+        a, b, zz = zm[:3]
+        if a <= t < b:
+            if len(zm) >= 5:                          # v3: «falso zoom» (Luis): reencuadre con su propio centro y entrada con desenfoque
+                z = zz; cx, cy = zm[3], zm[4]; blur = max(blur, 16 * (1 - eo((t - a) / 0.16)))
+            else: z = max(z, lerp(1.0, zz, eo((t - a) / 0.08)))
     for tt in S.get('transiciones', []):
         dt = t - tt
         if -0.12 <= dt < 0.12:
@@ -751,6 +1022,11 @@ def eventos():
             if e.get('golpe', True): ev.append({'t': e['t0'], 'type': 'hit', 'g': 0.6})
             ev += [{'t': it['t'], 'type': 'click'} for it in e.get('etiquetas', [])]
             if e.get('texto_grande'): ev.append({'t': e['texto_grande']['t'], 'type': 'pop'})
+        elif e['tipo'] == 'dm': ev += [{'t': it['t'], 'type': 'pop'} for it in e['items']]
+        elif e['tipo'] == 'rotulo': ev += [{'t': pz.get('t', e['t0']), 'type': 'click'} for pz in e['piezas'] if pz.get('caja') or pz.get('fuente') == 'marca']
+        elif e['tipo'] == 'cartel': ev.append({'t': e['t0'], 'type': 'hit'}); ev += ([{'t': e.get('t_sub', e['t0'] + 0.35), 'type': 'whoosh', 'len': 0.35}] if e.get('subrayado') else [])
+        elif e['tipo'] == 'flecha': ev.append({'t': e['t0'], 'type': 'whoosh', 'len': 0.45}); ev.append({'t': e.get('t_texto', e['t0'] + 0.4), 'type': 'pop'})
+        elif e['tipo'] == 'foco': ev.append({'t': e['t0'], 'type': 'whoosh', 'len': 0.4})
         elif e['tipo'] == 'post_ig': ev.append({'t': max(0, e['t0'] - 0.15), 'type': 'whoosh', 'len': 0.5}); ev.append({'t': e.get('t_zoom', e['t0'] + 1), 'type': 'whoosh', 'len': 0.8}); ev.append({'t': e.get('t_zoom', e['t0'] + 1) + 0.9, 'type': 'pop'})
         elif e['tipo'] == 'mensaje': ev.append({'t': e['t0'], 'type': 'pop'}); ev.append({'t': e['t0'] + e.get('escribiendo', 0.7), 'type': 'chime'})
         elif e['tipo'] == 'calendario':
@@ -761,7 +1037,8 @@ def eventos():
             ev.append({'t': e['t0'], 'type': 'swoosh'})
             if e.get('t_clic'): ev.append({'t': e['t_clic'], 'type': 'click'})
     ev += [{'t': max(0, tt - 0.12), 'type': 'whoosh'} for tt in S.get('transiciones', [])]
-    ev += [{'t': a, 'type': 'hit'} for a, b, z in S.get('zooms', []) if z >= 1.15 and b - a < 1.5]   # solo golpes de zoom cortos, no reencuadres
+    ev += [{'t': zm[0], 'type': 'hit'} for zm in S.get('zooms', []) if zm[2] >= 1.15 and zm[1] - zm[0] < 1.5 and len(zm) < 5]
+    ev += [{'t': max(0, zm[0] - 0.05), 'type': 'whoosh', 'len': 0.3} for zm in S.get('zooms', []) if len(zm) >= 5]   # solo golpes de zoom cortos, no reencuadres
     ev += S.get('eventos_extra', [])
     json.dump({'capas_sonido': S.get('capas_sonido', []), 'musicas': S.get('musicas', [])}, open(os.path.join(WORK, 'tiempos_v2.json'), 'w'), indent=1)
     ev = sorted(ev, key=lambda x: x['t']); json.dump(ev, open(os.path.join(AQUI, 'eventos.json'), 'w'), indent=1); print(len(ev), 'eventos')
@@ -819,5 +1096,41 @@ if __name__ == '__main__':
             par = sum([['%s/fr/b_%04d.jpg' % (WORK, f), '%s/sujeto/s_%04d.png' % (WORK, f)] for f in fs[k:k + 40]], [])
             subprocess.run([REC, '--lienzo'] + par, capture_output=True)
         print('sujeto', len(fs), 'fotogramas')
+    elif paso == 'caras':
+        # v3: «no le tapes la cara… son cosas básicas que no pueden fallar». Cada 0,25 s (fuera de pantallas completas):
+        # cara con Vision en el fotograma base -> misma transformación de zoom -> diferencia con el fotograma animado dentro de la cara.
+        def lleno(t):
+            for e in S.get('elementos', []):
+                if e['tipo'] in ('post_ig', 'cartel') or (e['tipo'] == 'broll' and e.get('modo') != 'ventana') or (e.get('desenfoca') and e['tipo'] in ('tarjeta', 'calendario')):
+                    if e['t0'] - 0.05 <= t < e.get('t1', e['t0']) + 0.25: return True
+            return False
+        def zp(f):
+            t = f / FPS; g = S.get('gancho', {}); z, blur = 1.0, 0
+            if g.get('zoom_out', True) and f < 9: return None
+            for zm in S.get('zooms', []):
+                if zm[0] <= t < zm[1]:
+                    if len(zm) >= 5: return None if t - zm[0] < 0.2 else ('c', zm[2], zm[3], zm[4])
+                    z = max(z, lerp(1.0, zm[2], eo((t - zm[0]) / 0.08)))
+            for tt in S.get('transiciones', []):
+                if abs(t - tt) < 0.15: return None
+            return z
+        fs = [f for f in range(0, N, int(FPS / 4)) if not lleno(f / FPS) and zp(f) is not None and os.path.exists('%s/an/a_%04d.jpg' % (WORK, f))]
+        out = subprocess.run([os.path.expanduser('~/Videos-Remotion/herramientas/composicion/sujeto')] + ['%s/fr/b_%04d.jpg' % (WORK, f) for f in fs], capture_output=True, text=True).stdout
+        malos = []
+        for f, ln in zip(fs, [l for l in out.splitlines() if l.startswith('{')]):
+            dd = json.loads(ln); cs = sorted(dd.get('caras', []), key=lambda c: -(c['caja'][2] - c['caja'][0]))
+            if not cs: continue
+            x0, y0, x1, y1 = cs[0]['caja']; z = zp(f); cx, cy = 0.5, S.get('cara_y', 0.40)
+            if isinstance(z, tuple): _, z, cx, cy = z
+            wz, hz = W / z, H / z; ox, oy = (W - wz) * cx, (H - hz) * cy; bx = [(x0 - ox) * z, (y0 - oy) * z, (x1 - ox) * z, (y1 - oy) * z]
+            b = Image.open('%s/fr/b_%04d.jpg' % (WORK, f)).convert('RGB')
+            if z > 1.001: b = zoom(b, z, cx, cy)
+            if S.get('degradado', True): degradado(b, S.get('degradado_desde', 0.60), S.get('degradado_fuerza', 170))
+            a_ = Image.open('%s/an/a_%04d.jpg' % (WORK, f)).convert('RGB'); bx = [int(max(0, bx[0])), int(max(0, bx[1])), int(min(W, bx[2])), int(min(H, bx[3]))]
+            df = np.abs(np.asarray(a_.crop(bx), dtype=np.int16) - np.asarray(b.crop(bx), dtype=np.int16)).mean()
+            if df > 22: malos.append((round(f / FPS, 2), round(float(df), 1), bx))
+        print('caras: %d fotogramas mirados, %d con la cara tapada' % (len(fs), len(malos)))
+        for m in malos: print('   t=%.2f s  diferencia %.0f  cara %s' % m)
+        json.dump(malos, open(os.path.join(AQUI, 'caras.json'), 'w'))
     elif paso == 'hoja': hoja()
     elif paso == 'eventos': eventos()

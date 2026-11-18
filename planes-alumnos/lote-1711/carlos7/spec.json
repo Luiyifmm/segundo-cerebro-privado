@@ -61,9 +61,18 @@
  "sub_y": 1150,
  "zooms": [
   [
-   0.7,
-   5.6,
-   1.08
+   0.75,
+   2.62,
+   1.4,
+   0.0,
+   0.25
+  ],
+  [
+   2.62,
+   3.38,
+   1.15,
+   0.0,
+   0.55
   ],
   [
    79.05,
@@ -99,6 +108,98 @@
  ],
  "elementos": [
   {
+   "tipo": "rotulo",
+   "detras": true,
+   "t0": 0.75,
+   "t1": 2.6,
+   "piezas": [
+    {
+     "t": 0.85,
+     "texto": "32",
+     "x": 160,
+     "y": 520,
+     "fuente": "marca",
+     "tam": 230,
+     "col": "bueno",
+     "sombra": false,
+     "ancho": 290
+    },
+    {
+     "t": 1.04,
+     "texto": "gramos",
+     "x": 160,
+     "y": 680,
+     "fuente": "sf_bold",
+     "tam": 64,
+     "col": "blanco",
+     "sombra": true,
+     "ancho": 290
+    }
+   ]
+  },
+  {
+   "tipo": "foco",
+   "t0": 2.62,
+   "t1": 3.38,
+   "caja": [
+    40,
+    790,
+    490,
+    1580
+   ],
+   "col": "bueno"
+  },
+  {
+   "tipo": "rotulo",
+   "t0": 2.62,
+   "t1": 3.38,
+   "piezas": [
+    {
+     "t": 2.62,
+     "texto": "32",
+     "x": 175,
+     "y": 450,
+     "fuente": "marca",
+     "tam": 200,
+     "col": "bueno",
+     "ancho": 300
+    },
+    {
+     "t": 2.62,
+     "texto": "gr",
+     "x": 905,
+     "y": 450,
+     "fuente": "marca",
+     "tam": 200,
+     "col": "bueno",
+     "ancho": 280
+    }
+   ]
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/v3/desmayo-gym.png",
+   "t0": 3.4,
+   "t1": 5.6,
+   "grano": 11,
+   "vineta": 190,
+   "desat": 0.3
+  },
+  {
+   "tipo": "dm",
+   "t0": 3.9,
+   "t1": 5.55,
+   "y": 1450,
+   "emoji": "😵",
+   "items": [
+    {
+     "t": 4.45,
+     "texto": "No desayuné…"
+    }
+   ],
+   "escribiendo": 0.4
+  },
+  {
    "tipo": "broll",
    "img": "../_flow/lobos-v3.png",
    "t0": 89.2,
@@ -106,27 +207,25 @@
    "doc": true,
    "vineta": 200,
    "grano": 10,
-   "texto_grande": {
-    "t": 89.74,
-    "texto": "sin hambre de lobo",
-    "y": 1450,
-    "col": "malo",
-    "tam": 84
-   },
-   "golpe": false
-  },
-  {
-   "tipo": "tarjeta",
-   "suelta": true,
-   "desenfoca": true,
-   "t0": 3.4,
-   "t1": 5.55,
-   "x": 540,
-   "y": 800,
-   "lado": 640,
-   "emoji": "🍳",
-   "texto": "¿Sin tiempo para desayunar?",
-   "tam": 84
+   "golpe": false,
+   "texto_fondo": [
+    {
+     "t": 89.4,
+     "texto": "sin hambre de",
+     "y": 520,
+     "tam": 96,
+     "opacidad": 0.75
+    },
+    {
+     "t": 89.74,
+     "texto": "LOBO",
+     "y": 720,
+     "tam": 300,
+     "opacidad": 0.9,
+     "col": "malo",
+     "glow": true
+    }
+   ]
   },
   {
    "tipo": "pill",
@@ -200,6 +299,10 @@
  ],
  "sin_subs": [
   [
+   0.7,
+   3.4
+  ],
+  [
    3.4,
    5.6
   ],
@@ -212,9 +315,7 @@
    90.85
   ]
  ],
- "musica": "divkid-parisian-funk.mp3",
- "musica_desde": 0,
- "version": "v2",
+ "version": "v3",
  "gancho": {
   "zoom_out": false,
   "sonido": false
@@ -257,5 +358,12 @@
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/(INSTRUMENTAL) Montagem Bandido.mp3",
+   "desde": 0,
+   "t0": 0
+  }
+ ]
 }

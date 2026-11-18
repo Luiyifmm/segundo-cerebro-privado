@@ -44,8 +44,8 @@
    "tipo": "columnas",
    "t0": 0.0,
    "t1": 25.95,
-   "y": 1000,
-   "alto": 580,
+   "y": 1090,
+   "alto": 490,
    "y_flota": 300,
    "cabeceras": [
     "A LA SEMANA",
@@ -178,8 +178,8 @@
      "img": "../_flow/nuevas/pollo.cut.png"
     }
    ],
-   "celda": 138,
-   "lado_item": 96,
+   "celda": 112,
+   "lado_item": 82,
    "lado_flota": 230,
    "ancho": 870
   },
@@ -220,7 +220,7 @@
   }
  ],
  "musica_desde": 0,
- "version": "v2",
+ "version": "v3",
  "subs_tam": [
   44,
   84

@@ -59,3 +59,11 @@ Ajustes: `subs_tam` [relleno, clave] y `subs_ancho` (referencias: [44, 84] y 840
 Imágenes: Google Flow en el navegador integrado (Nano Banana = 0 créditos). Para recortar: «pure green screen background, flat solid chroma green #00FF00, evenly lit, no gradient, no shadows». En el agente de Flow, Intro NO envía: pulsar el botón. Bajar a 768×1376 desde la URL firmada `flow-content.google/image/…` del visor (curl sin cookies).
 Fallos arreglados en el generador (estaban en v1): tiempos ≥ 99 s no se pasaban al montaje (ahora solo 99 exacto = «hasta el final»); `sin_subs` no ocultaba subtítulos que empezaban dentro del rango; frase anclada sin palabras transcritas duraba 0 s.
 Recetas aprendidas: ver `0 CLAUDE EDITOR/4 ENTRENAMIENTO/PROPUESTAS DE REGLAS.md` § 2026-11-18 (PENDIENTES de Luis).
+
+## v3 (18-11 tarde, segunda auditoría de Luis)
+- Paso nuevo `caras` (lo corre `render_v2.sh` al final): cara con Vision cada 0,25 s vs fotograma animado; avisa si algo la tapa. **0 avisos o no se entrega.**
+- `render_v2.sh` ahora hace base → sujeto (si hay «detras») → anim → hoja → sonido → caras.
+- Elementos nuevos: `rotulo` (piezas con x/y/align/fuente marca|playfair|mano|sf_med, caja, tiempos), `dm` (burbujas de Instagram, «escribiendo…»), `foco` (recuadro + resto en B/N), `cartel` (pantalla completa con textura y subrayado), `flecha` (a mano, texto manuscrito con *palabra* en rojo), `texto_fondo` en `broll` (letras detrás del sujeto), `detras: true` vale para cualquier elemento.
+- Motion graphic (`tarjeta` `suelta`+`claro`): `circulo` (con glow), `texto_arriba`/`texto_abajo` (dos niveles), `gira` (órbitas en elipse con profundidad), `mg_deco`: `objetos` (2 esquinas, `mg_esquinas` enormes en B/N desenfocados + textura de tela, sin círculo) | `formas` (anillos casi blancos) | `circulos`.
+- Subtítulos: palabras entran una a una (`subs_palabra`), claves con sombra fuerte + glow, `*^clave*` = clave en caja; pacing: no reaparecen tras un b-roll.
+- Flow: la imagen grande ya no se baja con curl (necesita sesión): se descarga desde la página (`=s2000`, una cada 5 s; si van seguidas se pierden) a Descargas y se mueve al lote.

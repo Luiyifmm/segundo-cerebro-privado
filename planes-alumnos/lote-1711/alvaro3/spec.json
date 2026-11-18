@@ -67,7 +67,7 @@
    "desenfoca": true,
    "grid": true,
    "t0": 3.35,
-   "t1": 5.92,
+   "t1": 5.97,
    "x": 540,
    "y": 820,
    "lado": 620,
@@ -151,16 +151,61 @@
      "lado": 130,
      "t": 9.07
     }
-   ]
+   ],
+   "especial": {
+    "dia": 21,
+    "t": 9.07,
+    "img": "platos/der.cut.png",
+    "emoji2": "🤮",
+    "t2": 9.25
+   }
   },
   {
-   "tipo": "titulo",
+   "tipo": "rotulo",
    "t0": 10.62,
-   "t1": 12.2,
-   "y": 250,
-   "linea1": "Y luego…",
-   "linea2": "VUELVES AL DE ANTES",
-   "col": "bueno"
+   "t1": 12.25,
+   "piezas": [
+    {
+     "t": 10.62,
+     "texto": "que lo dejas",
+     "x": 960,
+     "y": 880,
+     "align": "der",
+     "fuente": "sf_med",
+     "tam": 56
+    },
+    {
+     "t": 11.24,
+     "texto": "VUELVES",
+     "x": 540,
+     "y": 1000,
+     "fuente": "marca",
+     "tam": 120,
+     "caja": "#A259FF",
+     "col": "blanco",
+     "mayus": true
+    },
+    {
+     "t": 11.5,
+     "texto": "al de",
+     "x": 250,
+     "y": 1120,
+     "align": "izq",
+     "fuente": "playfair",
+     "tam": 72
+    },
+    {
+     "t": 11.68,
+     "texto": "ANTES",
+     "x": 430,
+     "y": 1120,
+     "align": "izq",
+     "fuente": "marca",
+     "tam": 84,
+     "col": "#A259FF",
+     "mayus": true
+    }
+   ]
   },
   {
    "tipo": "tarjeta",
@@ -345,7 +390,7 @@
  ],
  "musica": "phoenix-1901-instrumental-hq.mp3",
  "musica_desde": 0,
- "version": "v2",
+ "version": "v3",
  "tiempos": "bruto",
  "sin_subs": [
   [
@@ -363,11 +408,30 @@
   [
    12.34,
    16.05
+  ],
+  [
+   10.62,
+   12.25
   ]
  ],
  "subs_tam": [
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "mg_esquinas": [
+  {
+   "img": "../_flow/nuevas/brocoli.cut.png",
+   "pos": "si"
+  },
+  {
+   "img": "../_flow/nuevas/aguacate.cut.png",
+   "pos": "id"
+  },
+  {
+   "img": "../_flow/nuevas/arroz.cut.png",
+   "pos": "ii"
+  }
+ ],
+ "mg_deco": "formas"
 }

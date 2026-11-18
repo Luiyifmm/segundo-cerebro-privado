@@ -1,0 +1,140 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjr3evgnmlkk47l",
+ "titulo_salida": "Alessandro - Mercadona engorda o adelgaza",
+ "bruto": "bruto.mov",
+ "palabras": "palabras2.json",
+ "tramos": [
+  [
+   7.95,
+   11.22
+  ],
+  [
+   21.95,
+   25.11
+  ],
+  [
+   26.55,
+   33.9
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "usuario": "@alessmartin.fitness",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
+ },
+ "cara_y": 0.36,
+ "sub_y": 890,
+ "degradado_desde": 0.55,
+ "degradado_fuerza": 200,
+ "transiciones": [
+  21.95,
+  26.55
+ ],
+ "elementos": [
+  {
+   "tipo": "columnas",
+   "t0": 7.95,
+   "t1": 99,
+   "y": 1170,
+   "alto": 410,
+   "y_flota": 330,
+   "lado_flota": 230,
+   "lado_item": 170,
+   "celda": 240,
+   "rodeo_x": 540,
+   "rodeo_y": 700,
+   "titulo": "Quesos de Mercadona: ¿engorda o adelgaza?",
+   "cabeceras": [
+    "ADELGAZA",
+    "ENGORDA"
+   ],
+   "col_cab": [
+    "bueno",
+    "malo"
+   ],
+   "items": [
+    {
+     "t": 8.04,
+     "t_col": 9.08,
+     "col": 1,
+     "texto": "Para fundir",
+     "largo": "Queso para fundir",
+     "img": "../_fotos-mercadona/queso-fundir.jpg"
+    },
+    {
+     "t": 22.05,
+     "t_col": 23.13,
+     "col": 1,
+     "texto": "Emmental",
+     "largo": "Queso emmental",
+     "img": "../_fotos-mercadona/emmental.jpg"
+    },
+    {
+     "t": 26.65,
+     "t_col": 30.03,
+     "col": 0,
+     "texto": "Babybel",
+     "largo": "Mini Babybel",
+     "img": "../_fotos-mercadona/babybel.jpg"
+    }
+   ],
+   "ancho": 870
+  },
+  {
+   "tipo": "cta",
+   "t0": 30.9,
+   "t_clic": 32.2,
+   "y": 300,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "@7.95|Queso para fundir.",
+  "*!Engorda.*",
+  "Literalmente tiene de todo *!menos queso.*",
+  "@21.95|Queso emmental.",
+  "También *!engorda.*",
+  "Te sueles pasar mucho *!las cantidades.*",
+  "@26.55|Queso Babybel.",
+  "Perfecto *para tus snacks.*",
+  "*Adelgaza.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 7.97,
+   "type": "sub_drop"
+  },
+  {
+   "t": 30.9,
+   "type": "riser",
+   "len": 0.6
+  }
+ ],
+ "zooms": [],
+ "sin_subs": [
+  [
+   30.9,
+   33.9
+  ]
+ ],
+ "tiempos": "bruto",
+ "version": "v2",
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3",
+   "desde": 20,
+   "t0": 0
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
+}

@@ -33,53 +33,83 @@
    "t1": 4.4,
    "grano": 9,
    "vineta": 170,
-   "sentido": -1
+   "sentido": -1,
+   "tinte": "#0A0A0C",
+   "tinte_desde": 0.45,
+   "tinte_fuerza": 240
   },
   {
    "tipo": "texto",
    "t0": 0.15,
    "t1": 4.3,
-   "y": 1250,
+   "y": 1390,
    "lineas": [
     "El salto de abogado local",
     "*a referente*"
    ],
    "paso": 0.45,
-   "tam": 56,
-   "tam_esp": 76
+   "tam": 62,
+   "tam_esp": 88
   },
   {
    "tipo": "tarjeta",
    "suelta": true,
    "desenfoca": true,
-   "grid": true,
+   "grid": false,
    "claro": true,
-   "t0": 4.45,
-   "t1": 8.65,
    "x": 540,
-   "y": 720,
-   "lado": 560,
-   "emoji": "📈",
-   "texto": "No se da de un día para otro",
-   "tam": 66,
-   "orbita": [
+   "y": 820,
+   "lado": 500,
+   "circulo": "#D4AF37",
+   "t0": 4.45,
+   "t1": 6.6,
+   "emoji": "📅",
+   "texto_arriba": "No se da de",
+   "texto_abajo": "un día para otro",
+   "t_abajo": 0.5,
+   "tam_abajo": 92
+  },
+  {
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": false,
+   "claro": true,
+   "x": 540,
+   "y": 820,
+   "lado": 500,
+   "circulo": "#D4AF37",
+   "t0": 6.6,
+   "t1": 8.4,
+   "emoji": "💼",
+   "texto_arriba": "De abogado local…",
+   "texto_abajo": "a referente",
+   "t_abajo": 0.9,
+   "tam_abajo": 100,
+   "gira": [
     {
-     "emoji": "📍",
-     "texto": "Abogado local",
-     "x": 260,
-     "y": 1290,
-     "lado": 230,
-     "t": 5.0,
-     "tam": 40
+     "emoji": "⭐",
+     "r": 330,
+     "vel": 1.2,
+     "lado": 110,
+     "t": 6.9,
+     "fase": 0
     },
     {
      "emoji": "⭐",
-     "texto": "Referente",
-     "x": 820,
-     "y": 1290,
-     "lado": 230,
-     "t": 6.6,
-     "tam": 40
+     "r": 330,
+     "vel": 1.2,
+     "lado": 90,
+     "t": 7.0,
+     "fase": 2.1
+    },
+    {
+     "emoji": "⭐",
+     "r": 330,
+     "vel": 1.2,
+     "lado": 100,
+     "t": 7.1,
+     "fase": 4.2
     }
    ]
   },
@@ -87,43 +117,46 @@
    "tipo": "tarjeta",
    "suelta": true,
    "desenfoca": true,
-   "grid": true,
+   "grid": false,
    "claro": true,
+   "x": 540,
+   "y": 820,
+   "lado": 500,
+   "circulo": "#D4AF37",
    "t0": 8.4,
    "t1": 11.6,
-   "x": 540,
-   "y": 720,
-   "lado": 560,
    "emoji": "🧠",
-   "texto": "Se prepara con estrategia y contenido",
-   "tam": 66,
-   "orbita": [
+   "texto_arriba": "Se prepara con",
+   "texto_abajo": "estrategia y contenido",
+   "t_abajo": 0.4,
+   "tam_abajo": 80,
+   "gira": [
     {
      "emoji": "🎯",
-     "texto": "Estrategia",
-     "x": 230,
-     "y": 1290,
-     "lado": 230,
+     "r": 340,
+     "vel": 1.0,
+     "lado": 130,
      "t": 8.9,
-     "tam": 40
+     "fase": 0,
+     "texto": "Estrategia"
     },
     {
      "emoji": "🎬",
-     "texto": "Contenido",
-     "x": 540,
-     "y": 1290,
-     "lado": 230,
+     "r": 340,
+     "vel": 1.0,
+     "lado": 130,
      "t": 9.5,
-     "tam": 40
+     "fase": 2.1,
+     "texto": "Contenido"
     },
     {
      "emoji": "📅",
-     "texto": "Constancia",
-     "x": 850,
-     "y": 1290,
-     "lado": 230,
+     "r": 340,
+     "vel": 1.0,
+     "lado": 130,
      "t": 10.1,
-     "tam": 40
+     "fase": 4.2,
+     "texto": "Constancia"
     }
    ]
   },
@@ -131,14 +164,14 @@
    "tipo": "texto",
    "t0": 11.8,
    "t1": 15.0,
-   "y": 1250,
+   "y": 1390,
    "lineas": [
     "¿Damos el salto juntos?",
     "*Sígueme*"
    ],
    "paso": 0.45,
-   "tam": 56,
-   "tam_esp": 76
+   "tam": 62,
+   "tam_esp": 88
   },
   {
    "tipo": "cta",
@@ -156,5 +189,22 @@
  ],
  "musica": "golden-hour-piano-version.mp3",
  "musica_desde": 0,
- "version": "v2"
+ "version": "v3",
+ "mg_esquinas": [
+  {
+   "img": "../_flow/v3/balanza.cut.png",
+   "pos": "id"
+  },
+  {
+   "emoji": "⭐",
+   "pos": "si",
+   "blur": 7
+  },
+  {
+   "emoji": "✨",
+   "pos": "ii",
+   "blur": 6
+  }
+ ],
+ "mg_deco": "formas"
 }

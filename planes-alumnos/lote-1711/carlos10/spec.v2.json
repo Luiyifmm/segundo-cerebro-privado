@@ -1,0 +1,412 @@
+{
+ "alumno": "Carlos López Segura",
+ "video_id": "mwl5jrup90lrue1o",
+ "titulo_salida": "Carlos - 3 errores por los que no bajas la barriga",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tiempos": "bruto",
+ "tramos": [
+  [
+   1.15,
+   5.6
+  ],
+  [
+   7.7,
+   11.6
+  ],
+  [
+   12.0,
+   14.7
+  ],
+  [
+   16.7,
+   19.5
+  ],
+  [
+   19.75,
+   27.1
+  ],
+  [
+   30.05,
+   32.45
+  ],
+  [
+   35.35,
+   38.5
+  ],
+  [
+   39.55,
+   42.8
+  ],
+  [
+   43.45,
+   55.05
+  ],
+  [
+   55.1,
+   62.0
+  ],
+  [
+   62.95,
+   71.4
+  ]
+ ],
+ "marca": {
+  "nombre": "Carlos López",
+  "inicial": "C",
+  "usuario": "@carloslopseg",
+  "rol": "Entrenador · nutrición sin excusas",
+  "bueno": "#FFC233",
+  "malo": "#FF453A",
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/carloslopseg.jpg"
+ },
+ "cara_y": 0.3,
+ "sub_y": 1150,
+ "zooms": [
+  [
+   1.15,
+   5.6,
+   1.08
+  ],
+  [
+   16.8,
+   19.4,
+   1.12
+  ],
+  [
+   30.17,
+   32.4,
+   1.12
+  ],
+  [
+   43.56,
+   45.42,
+   1.12
+  ],
+  [
+   55.21,
+   61.9,
+   1.06
+  ]
+ ],
+ "transiciones": [
+  7.7,
+  16.7,
+  30.05,
+  43.45,
+  62.95
+ ],
+ "frases": [
+  "@1.29|¿Comes bien",
+  "y *!no bajas la barriga?*",
+  "No es tu genética,",
+  "son *estos tres errores.*",
+  "@7.84|Un cliente mío de 34 años",
+  "me decía lo mismo:",
+  "«Carlos, *yo como bien»*.",
+  "@12.14|Los quitamos",
+  "y bajó *20 kilos en 3 meses.*",
+  "@16.80|*Error número 1:*",
+  "comer sano",
+  "*!no es comer poco.*",
+  "@19.85|El aceite a chorro,",
+  "@21.11|puñado de frutos secos,",
+  "@22.61|el plato de arroz integral hasta arriba,",
+  "sí, todo muy sano",
+  "y *!todo suma.*",
+  "@30.17|*Error número 2:*",
+  "te quedas *!corto de proteína.*",
+  "@35.45|Comes,",
+  "a la hora tienes hambre otra vez",
+  "y *!acabas picando.*",
+  "@39.68|Y encima, si quieres",
+  "*mantener músculo* mientras bajas,",
+  "la necesitas.",
+  "@43.56|*El tercero,*",
+  "el que más gente frena.",
+  "@45.44|El viernes, *!cena.*",
+  "@47.57|El sábado, *!cañas.*",
+  "@49.03|El domingo, «total,",
+  "@50.81|ya el lunes comienzo».",
+  "@52.35|Y lo que habías conseguido",
+  "en toda una semana",
+  "*!se va en dos días.*",
+  "@55.21|La barriga *!no baja* por comer limpio,",
+  "la barriga baja",
+  "cuando *comes menos* de lo que necesitas",
+  "*los siete días* de la semana,",
+  "no los cuatro.",
+  "@63.05|Y si quieres saber",
+  "cuáles son *tus tres errores,*",
+  "escríbeme *CAMBIO* por mensaje",
+  "y me cuentas tu peso,",
+  "cómo entrenas y qué comes.",
+  "Y te lo digo *gratis.*"
+ ],
+ "elementos": [
+  {
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 3.99,
+   "t1": 5.55,
+   "x": 540,
+   "y": 760,
+   "lado": 380,
+   "emoji": "⚠️",
+   "texto": "3 errores que frenan tu barriga",
+   "tam": 58,
+   "orbita": [
+    {
+     "img": "../_flow/nuevas/aceite.cut.png",
+     "x": 220,
+     "y": 1260,
+     "lado": 210,
+     "t": 4.35
+    },
+    {
+     "img": "../_flow/nuevas/pollo.cut.png",
+     "x": 540,
+     "y": 1300,
+     "lado": 210,
+     "t": 4.6
+    },
+    {
+     "img": "../_flow/nuevas/pizza.cut.png",
+     "x": 860,
+     "y": 1260,
+     "lado": 210,
+     "t": 4.85
+    }
+   ]
+  },
+  {
+   "tipo": "pill",
+   "t0": 12.98,
+   "t1": 14.6,
+   "y": 950,
+   "emoji": "📉",
+   "texto": "−20 kg en 3 meses",
+   "col": "bueno"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 16.8,
+   "t1": 19.45,
+   "y": 250,
+   "linea1": "Error 1",
+   "linea2": "SANO ≠ POCO",
+   "col": "malo"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 19.97,
+   "t1": 22.55,
+   "x": 250,
+   "y": 420,
+   "lado": 260,
+   "texto": "Aceite a chorro",
+   "detras": true,
+   "img": "../_flow/nuevas/aceite.cut.png"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 21.11,
+   "t1": 27.0,
+   "x": 830,
+   "y": 420,
+   "lado": 260,
+   "texto": "Frutos secos a puñados",
+   "detras": true,
+   "img": "../_fotos-mercadona/frutos-secos.jpg"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 22.61,
+   "t1": 27.0,
+   "x": 250,
+   "y": 420,
+   "lado": 260,
+   "texto": "Arroz hasta arriba",
+   "detras": true,
+   "img": "../_flow/nuevas/arroz.cut.png"
+  },
+  {
+   "tipo": "pill",
+   "t0": 26.37,
+   "t1": 27.05,
+   "y": 950,
+   "emoji": "➕",
+   "texto": "Todo suma",
+   "col": "malo"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 30.17,
+   "t1": 32.4,
+   "y": 250,
+   "linea1": "Error 2",
+   "linea2": "POCA PROTEÍNA",
+   "col": "malo"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 31.51,
+   "t1": 38.45,
+   "x": 830,
+   "y": 420,
+   "lado": 260,
+   "texto": "Proteína",
+   "detras": true,
+   "img": "../_flow/nuevas/pollo.cut.png",
+   "marca": "no",
+   "t_marca": 31.6
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 37.66,
+   "t1": 38.45,
+   "x": 250,
+   "y": 420,
+   "lado": 260,
+   "texto": "Acabas picando",
+   "detras": true,
+   "emoji": "🍪"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 40.48,
+   "t1": 42.75,
+   "x": 830,
+   "y": 420,
+   "lado": 260,
+   "texto": "Mantener músculo",
+   "detras": true,
+   "emoji": "💪",
+   "marca": "si",
+   "t_marca": 40.82
+  },
+  {
+   "tipo": "titulo",
+   "t0": 43.56,
+   "t1": 45.4,
+   "y": 250,
+   "linea1": "Error 3",
+   "linea2": "EL FINDE",
+   "col": "malo"
+  },
+  {
+   "tipo": "calendario",
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 45.42,
+   "t1": 55.0,
+   "y": 760,
+   "ancho": 860,
+   "dias": 7,
+   "emoji": "🥗",
+   "titulo": "Tu semana",
+   "t_llenar": [
+    45.5,
+    45.95
+   ],
+   "por_dia": {
+    "5": {
+     "img": "../_flow/nuevas/pizza.cut.png",
+     "t": 46.12
+    },
+    "6": {
+     "emoji": "🍺",
+     "t": 47.69
+    },
+    "7": {
+     "emoji": "🛋️",
+     "t": 49.17
+    }
+   },
+   "orbita": [
+    {
+     "emoji": "✅",
+     "texto": "Lunes a jueves",
+     "x": 300,
+     "y": 1130,
+     "lado": 210,
+     "t": 45.6
+    },
+    {
+     "emoji": "❌",
+     "texto": "Se va en 2 días",
+     "x": 780,
+     "y": 1130,
+     "lado": 210,
+     "t": 54.05
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "t0": 63.1,
+   "t_clic": 66.1,
+   "y": 250,
+   "boton": "Mensaje",
+   "boton_hecho": "CAMBIO ✓"
+  }
+ ],
+ "musica": "divkid-parisian-funk.mp3",
+ "musica_desde": 0,
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840,
+ "version": "v2",
+ "sin_subs": [
+  [
+   3.99,
+   5.6
+  ],
+  [
+   45.42,
+   55.05
+  ]
+ ],
+ "eventos_extra": [
+  {
+   "t": 1.2,
+   "type": "riser",
+   "len": 1.5
+  },
+  {
+   "t": 16.2,
+   "type": "riser",
+   "len": 0.6
+  },
+  {
+   "t": 26.37,
+   "type": "hit",
+   "g": 0.8
+  },
+  {
+   "t": 29.6,
+   "type": "riser",
+   "len": 0.6
+  },
+  {
+   "t": 42.9,
+   "type": "riser",
+   "len": 0.6
+  },
+  {
+   "t": 54.05,
+   "type": "hit"
+  }
+ ],
+ "gancho": {
+  "zoom_out": true,
+  "sonido": false
+ }
+}

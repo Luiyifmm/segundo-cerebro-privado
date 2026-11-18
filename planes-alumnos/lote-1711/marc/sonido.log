@@ -1,47 +1,48 @@
 > /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
-28 eventos
+27 eventos
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/marc/eventos.json --video /private/tmp/claude-501/lote-1711/marc/
 checking the cue list against the picture (frame analysis of the render) ...
-sync: 100% of the declared wipes and hits sit on a picture change (median offset +17 ms): the list belongs to this render
+sync: 100% of the declared wipes and hits sit on a picture change (median offset +7 ms): the list belongs to this render
 NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
-fused: 3 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
-25 cues from 25 events (0 dropped from runs faster than 14/s, 3 fused)
-declared 28 events: 25 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
-routed: whoosh=8, pop=8, click=7, drop=1, hit=1
-routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, whoosh -> library:whoosh
+fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+26 cues from 26 events (0 dropped from runs faster than 14/s, 1 fused)
+declared 27 events: 26 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: whoosh=10, click=8, pop=5, hit=3
+routes: click -> library:click, hit -> library:hit, pop -> library:pop, whoosh -> library:whoosh
 picture moments with no sound within 150 ms (3), look at their frames:
-     3.37s  burst   strength 1.00  
-    38.07s  burst   strength 1.00  
-    44.80s  burst   strength 0.69  
+     2.80s  burst   strength 1.00  
+    36.97s  burst   strength 1.00  
+    43.70s  burst   strength 0.62  
 -> /private/tmp/claude-501/lote-1711/marc/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/marc/sfx/cues.json --out /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 --voice-safe --sfx-trim-
-level: 6 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +3.8 dB at 20.17s; --no-level-roles keeps the peaks equal)
-SFX under speech (normal): 2.8 dB off the SFX energy on average over the whole film (mean power, not gated)
-cues: 25 (25 library, 0 uisfx), 25 distinct files
+level: 8 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 0.02s; --no-level-roles keeps the peaks equal)
+SFX under speech (normal): 3.7 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 26 (26 library, 0 uisfx), 26 distinct files
 WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
 video: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4
 sfx track: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
-loudness: sfx -29.9 LUFS, final -15.8 LUFS, true peak -4.9 dBTP
+loudness: sfx -30.4 LUFS, final -15.9 LUFS, true peak -4.8 dBTP
 report: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_cue_report.md
 resolved cues: /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
-t the loudness of the sound it replaces and takes back a raise that is made on every cue
+ again:
+1. pacing: nothing happens between 10.15s and 19.07s (8.9 s)
+2. low end: 'hit x0.70' at 0.02s piles onto the bass already there (-25 dB); lower it 2 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+3. low end: 'hit' at 0.05s piles onto the bass already there (-25 dB); lower it 2 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
 
-Listen to these 5 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
-  1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (4 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?
-  2.    5.68s  'whoosh': 1 sound(s) on top of the voice, +4.2 dB against it. Listen for: is every word still understood?
-  3.   21.94s  'click': the highest peak of the film (-8 dBFS before the master). Listen for: is it big without hurting on headphones, and does the music under it pump?
-  4.   26.69s  'pop': its peak sits -14 ms from the moment; its attack was moved 249 ms so that it lands on the moment. Listen for: does it feel early or late against the picture? / does the lead-in still read as part of the sound?
-  5.   37.83s  'whoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
+Listen to these 3 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.02s  'hit x0.70': brought 6 dB up to the perceived level of its role; also 'whoosh' at 0.00s: the first sound of the film: the hook. Listen for: a thin recording lifted that far can turn harsh: is it clean? / does it land with the picture at once, and is it clearly there under the music or the voice?
+  2.   27.35s  'pop': its attack was moved 149 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
+  3.   43.43s  'whoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
   (--listen-out FILE.wav cuts them into one file of the film's own sound)
 
 Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxrate 
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v2 lote (sin música).mp4 -13.9 LUFS
-> ffmpeg -v error -nostdin -y -ss 0 -t 50.800 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/low-mileage-hold-you-ncs-release.mp3 -af afade=t=in:d=0.3,afade=t=out:st=48.800:d=2 -ar 48000 
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v3 lote (sin música).mp4 -13.9 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 49.860 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/low-mileage-hold-you-ncs-release.mp3 -af afade=t=in:d=0.3,afade=t=out:st=47.860:d=2 -ar 48000 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/mus_0.wav -af volume=-10.20dB,adelay=0|0 /private/tmp/claude-501/lote-1711/marc/mus_0.wav.g.wav
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/mus_0.wav.g.wav -t 50.800 /private/tmp/claude-501/lote-1711/marc/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/mus_0.wav.g.wav -t 49.860 /private/tmp/claude-501/lote-1711/marc/mus_cruda.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/marc/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]amix=i
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/marc/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/marc/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxrate 
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v2 lote (música).mp4 -13.9 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v3 lote (música).mp4 -13.9 LUFS

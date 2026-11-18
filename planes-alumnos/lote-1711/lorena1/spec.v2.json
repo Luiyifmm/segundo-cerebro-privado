@@ -1,0 +1,147 @@
+{
+ "alumno": "Lorena Castaño (Lore)",
+ "video_id": "mwcoumiq6zzm2a3y",
+ "titulo_salida": "Lorena - abogados thrusters",
+ "bruto": "bruto.mov",
+ "tramos": [
+  [
+   7.0,
+   22.0
+  ]
+ ],
+ "audio": "ninguno",
+ "marca": {
+  "nombre": "Lorena Castaño",
+  "inicial": "L",
+  "usuario": "@jlenlacedigital",
+  "rol": "Marketing digital para abogados",
+  "bueno": "#D4AF37",
+  "malo": "#C0392B",
+  "clave_font": "playfair",
+  "mayusculas": false,
+  "foto": "../_perfiles/jlenlacedigital.jpg"
+ },
+ "cara_y": 0.4,
+ "degradado_desde": 0.58,
+ "degradado_fuerza": 215,
+ "sombra": 240,
+ "elementos": [
+  {
+   "tipo": "post_ig",
+   "img": "../_flow/abogado-noche.png",
+   "t0": 0.0,
+   "t1": 4.4,
+   "t_zoom": 2.2,
+   "escala": 0.6,
+   "usuario": "@tu.despacho",
+   "inicial": "⚖",
+   "likes": "1.248 Me gusta",
+   "grano": 9,
+   "vineta": 170
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/estres-facturas.png",
+   "t0": 4.4,
+   "t1": 11.6,
+   "grano": 10,
+   "vineta": 180,
+   "desat": 0.3
+  },
+  {
+   "tipo": "texto",
+   "t0": 0.15,
+   "t1": 2.1,
+   "y": 1250,
+   "lineas": [
+    "Ser un excelente abogado",
+    "*no es suficiente*"
+   ],
+   "paso": 0.45,
+   "tam": 56,
+   "tam_esp": 76
+  },
+  {
+   "tipo": "texto",
+   "t0": 4.5,
+   "t1": 8.2,
+   "y": 1250,
+   "lineas": [
+    "Si quien te necesita",
+    "*no sabe que existes…*"
+   ],
+   "paso": 0.45,
+   "tam": 56,
+   "tam_esp": 76
+  },
+  {
+   "tipo": "mensaje",
+   "t0": 8.3,
+   "t1": 11.55,
+   "y": 300,
+   "de": "Nuevo mensaje",
+   "sub": "Vio tu publicación",
+   "emoji": "🙋",
+   "texto": "Hola, vi tu publicación. ¿Me puedes ayudar con mi caso?",
+   "escribiendo": 0.7
+  },
+  {
+   "tipo": "texto",
+   "t0": 8.5,
+   "t1": 11.5,
+   "y": 1250,
+   "lineas": [
+    "Cuando te ven,",
+    "*te escriben*"
+   ],
+   "paso": 0.45,
+   "tam": 56,
+   "tam_esp": 76
+  },
+  {
+   "tipo": "texto",
+   "t0": 11.8,
+   "t1": 15.0,
+   "y": 1250,
+   "lineas": [
+    "Entrena tu visibilidad",
+    "*como entrenas tu cuerpo*"
+   ],
+   "paso": 0.45,
+   "tam": 56,
+   "tam_esp": 76
+  },
+  {
+   "tipo": "cta",
+   "t0": 12.2,
+   "t_clic": 13.4,
+   "y": 260,
+   "boton": "Seguir"
+  }
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  },
+  {
+   "t": 7.5,
+   "type": "riser",
+   "len": 0.8
+  }
+ ],
+ "version": "v2",
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Hand Covers Bruise (HD) - From the Soundtrack to The Social Network.mp3",
+   "desde": 0,
+   "t0": 0,
+   "cruce": 1.2
+  },
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Golden Hour_ Piano Version.mp3",
+   "desde": 0,
+   "t0": 8.3
+  }
+ ]
+}

@@ -15,7 +15,7 @@
   ],
   [
    4.4,
-   40.45
+   40.66
   ]
  ],
  "marca": {
@@ -37,14 +37,14 @@
    "tipo": "columnas",
    "t0": 0.0,
    "t1": 31.95,
-   "y": 1180,
-   "alto": 400,
+   "y": 1110,
+   "alto": 470,
    "y_flota": 380,
    "lado_flota": 230,
-   "lado_item": 120,
-   "celda": 180,
-   "rodeo_x": 540,
-   "rodeo_y": 700,
+   "lado_item": 100,
+   "celda": 150,
+   "rodeo_x": 1000,
+   "rodeo_y": 600,
    "cabeceras": [
     "TE AYUDA A ADELGAZAR",
     "TE AYUDA A ENGORDAR"
@@ -187,7 +187,7 @@
  "zooms": [],
  "transiciones": [],
  "tiempos": "bruto",
- "version": "v2",
+ "version": "v3",
  "musicas": [
   {
    "archivo": "~/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3",

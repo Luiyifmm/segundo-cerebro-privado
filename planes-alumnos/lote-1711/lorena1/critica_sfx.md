@@ -3,15 +3,15 @@
 | axis | score | basis |
 |---|---|---|
 | hook | 10.0 | first sound at 0.00s |
-| sync | 10.0 | 10/10 sounds on their frame (peaks, arrivals, or first onsets for clicks) |
-| coverage | n/a | 16 cues for 17 declared events (the list is the reference; runs and clusters are thinned on purpose) |
-| pacing | 10.0 | 8.3 weighted events per 10 s, longest silence 2.7 s (the original audio fills the gaps it has sounds in) |
-| variety | 10.0 | 13 source recordings, 13 families in 13 sounds (runs and interface sounds not counted) |
-| hierarchy | 10.0 | 8.4 dB between the loud and the quiet sounds |
-| headroom | 10.0 | true peak -3.6 dBTP |
-| loudness | 5.0 | final -22.8 LUFS (the author's own balance is kept) |
-| balance | 10.0 | the original is silent around 16 of 16 sounds: nothing there to bury or to be buried by |
-| mono | 10.0 | the SFX track loses 0.1 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 16 sounds lose more than 6 dB; the film loses 0.5 LU in mono against 0.0 LU for the original (+0.5 added) |
+| sync | 10.0 | 13/13 sounds on their frame (peaks, arrivals, or first onsets for clicks) |
+| coverage | n/a | 17 cues for 18 declared events (the list is the reference; runs and clusters are thinned on purpose) |
+| pacing | 10.0 | 8.0 weighted events per 10 s, longest silence 2.4 s (the original audio fills the gaps it has sounds in) |
+| variety | 10.0 | 15 source recordings, 15 families in 15 sounds (runs and interface sounds not counted) |
+| hierarchy | 9.2 | 6.9 dB between the loud and the quiet sounds |
+| headroom | 10.0 | true peak -3.7 dBTP |
+| loudness | 5.0 | final -23.0 LUFS (the author's own balance is kept) |
+| balance | 10.0 | the original is silent around 17 of 17 sounds: nothing there to bury or to be buried by |
+| mono | 10.0 | the SFX track loses 0.1 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 17 sounds lose more than 6 dB; the film loses 0.4 LU in mono against 0.0 LU for the original (+0.4 added) |
 
 **FIX**: lowest axis 5.0 (every axis must reach 8; ok to show)
 

@@ -363,7 +363,7 @@
   84
  ],
  "subs_ancho": 840,
- "version": "v2",
+ "version": "v3",
  "sin_subs": [
   [
    3.99,
@@ -408,5 +408,16 @@
  "gancho": {
   "zoom_out": true,
   "sonido": false
- }
+ },
+ "mg_esquinas": [
+  {
+   "img": "../_flow/v3/mancuerna.cut.png",
+   "pos": "si"
+  },
+  {
+   "img": "../_flow/nuevas/plato-dieta.cut.png",
+   "pos": "id"
+  }
+ ],
+ "mg_deco": "objetos"
 }
