@@ -41,6 +41,24 @@ Entorno aislado nuevo: `~/Videos-Remotion/herramientas/entornos/ecc-taste` (nump
 | 72 agentes, 98 comandos, reglas de código | Son de programación (TDD, revisión de código, lenguajes). Llenarían cada sesión. | Coste de contexto |
 | Resto (≈280 skills: bases de datos, seguridad, DeFi, logística, Swift, ML…) | Fuera de la edición de vídeo. | — |
 
+## Archivado (17-11)
+- Copia completa: `~/Videos-Remotion/externos/ECC` (107 MB). En git: `externos/ECC` (14 MB, solo texto). No se carga en ninguna sesión.
+- Instalado después con el sí de Luis: paquete `tasteforge` en `entornos/ecc-taste` (`tasteforge export --events x.json` → `.fcpxml` + `.edl`; probado). **Ojo:** el FCPXML sale en 1920×1080 horizontal; para reels 9:16 hay que ajustarlo antes de importarlo.
+- Manim NO se pudo instalar: necesita la librería `cairo` del sistema, que solo se instala con Homebrew (no está en el Mac). Instalar Homebrew es un cambio de sistema: decisión de Luis.
+
+## PROPUESTA · aprendizaje continuo adaptado (idea de `continuous-learning-v2`)
+Lo bueno de ECC: cada corrección se guarda como **instinto** atómico (disparador → acción, evidencia, confianza 0,3–0,9) y los instintos repetidos se agrupan. Lo que no encaja: lo hace con hooks en cada acción, un agente de fondo que gasta tokens y **convierte instintos en skills sin preguntar**.
+Versión para nosotros (sin hooks, sin tokens):
+1. Fuente: las conversaciones que ya se guardan (`~/.claude/projects/*/*.jsonl`, las mismas que `chats_a_md.py`).
+2. Script `aprender-de-chats.py` (cero tokens): saca los mensajes de Luis que corrigen («no», «quita», «así no», «mejor…»), con el vídeo y la skill de ese momento.
+3. Cada corrección → instinto en `4 ENTRENAMIENTO/INSTINTOS/` con confianza: 0,3 la 1.ª vez, sube si se repite en otro vídeo, baja si Luis la contradice.
+4. Con confianza ≥ 0,7 → pasa a `PROPUESTAS DE REGLAS.md`. **Solo Luis la convierte en regla** (FICHA / Lecciones). Nunca se crean skills solas.
+5. `skill-stocktake` revisa después que las skills reflejen las reglas aprobadas.
+Estado: idea, sin construir. Se construye solo con el sí de Luis (fase nueva del plan).
+
+## Biblioteca de packs por estilo (aprobado como idea por Luis, 17-11)
+Un pack medido por cada **estilo de edición** (no mezclar): p. ej. «podcast minimal» (Dope Motions / Joseph), «premium cine», «comparaciones rápidas», «fitness talking head». Cada pack = color (LUT), ritmo de cortes, paleta, fotogramas y plates de SUS referencias. Propuesta de sitio: `8 BIBLIOTECA DE ESTILOS/packs/<estilo>/` + una línea en el índice de estilos; las referencias de cada pack salen de `1 REFERENCIAS/00 ÍNDICE…`. Siguiente paso: elegir 3–6 referencias por estilo y medir el primero.
+
 ## Pendiente
 - Decidir si se instala el paquete `tasteforge` (exportar FCPXML a Premiere) y Manim: dependencias nuevas, esperan el sí de Luis.
 - Primer pack real: por formato (p. ej. «podcast minimal» con las referencias de [[minimal-corto]]), y probar su LUT en Lumetri sobre una copia.
