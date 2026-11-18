@@ -36,6 +36,24 @@
   "fallos": []
  },
  {
+  "video": "carlos10",
+  "alumno": "Carlos López Segura",
+  "info": "56.9 s · -14.0 LUFS · TP -1.0",
+  "fallos": []
+ },
+ {
+  "video": "carlos7",
+  "alumno": "Carlos López Segura",
+  "info": "38.6 s · -14.0 LUFS · TP -0.9",
+  "fallos": []
+ },
+ {
+  "video": "jorge",
+  "alumno": "Jorge Robledo",
+  "info": "51.3 s · -14.0 LUFS · TP -1.0",
+  "fallos": []
+ },
+ {
   "video": "lorena1",
   "alumno": "Lorena Castaño (Lore)",
   "info": "15.0 s · -13.9 LUFS · TP -1.3",
@@ -56,7 +74,7 @@
  {
   "video": "marc",
   "alumno": "Marc Martínez García (Marc)",
-  "info": "50.1 s · -13.9 LUFS · TP -1.9",
+  "info": "50.1 s · -13.9 LUFS · TP -1.8",
   "fallos": []
  },
  {

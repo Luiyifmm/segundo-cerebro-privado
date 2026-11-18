@@ -1,0 +1,335 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.522,
+   "fin": 2.064,
+   "texto": "Hoy en día una dieta y un plan entrenamiento",
+   "especial": "entrenamiento",
+   "dur": 1.582
+  },
+  {
+   "n": 2,
+   "ini": 2.104,
+   "fin": 3.445,
+   "texto": "lo encuentras gratis en internet.",
+   "especial": "internet",
+   "dur": 1.621
+  },
+  {
+   "n": 3,
+   "ini": 3.725,
+   "fin": 4.927,
+   "texto": "O, mismalamente, echas GPT,",
+   "especial": "echas GPT",
+   "dur": 1.222
+  },
+  {
+   "n": 4,
+   "ini": 4.947,
+   "fin": 5.627,
+   "texto": "le cuentas tu vida,",
+   "especial": "tu vida",
+   "dur": 0.7000000000000002
+  },
+  {
+   "n": 5,
+   "ini": 5.647,
+   "fin": 6.669,
+   "texto": "le cuentas tus necesidades,",
+   "especial": "necesidades",
+   "dur": 1.2219999999999995
+  },
+  {
+   "n": 6,
+   "ini": 6.869,
+   "fin": 7.229,
+   "texto": "objetivo,",
+   "especial": "objetivo",
+   "dur": 0.8410000000000002
+  },
+  {
+   "n": 7,
+   "ini": 7.71,
+   "fin": 9.492,
+   "texto": "te a una dieta un entrenamiento",
+   "especial": "entrenamiento",
+   "dur": 2.202000000000001
+  },
+  {
+   "n": 8,
+   "ini": 9.912,
+   "fin": 11.714,
+   "texto": "seguramente mejor que la mayoría de entrenadores o",
+   "especial": "entrenadores",
+   "dur": 2.202
+  },
+  {
+   "n": 9,
+   "ini": 12.114,
+   "fin": 13.376,
+   "texto": "nutricionistas encuentres por",
+   "especial": "encuentres",
+   "dur": 4.904999999999998
+  },
+  {
+   "n": 10,
+   "ini": 17.019,
+   "fin": 19.342,
+   "texto": "Pero, ¿quién te dice que cambiar cuando te estancas?",
+   "especial": "estancas",
+   "dur": 2.343
+  },
+  {
+   "n": 11,
+   "ini": 19.362,
+   "fin": 21.044,
+   "texto": "¿Y por qué estás estancando?",
+   "especial": "estancando",
+   "dur": 1.7020000000000017
+  },
+  {
+   "n": 12,
+   "ini": 21.064,
+   "fin": 22.185,
+   "texto": "¿Y cuál es la solución?",
+   "especial": "solución",
+   "dur": 1.561
+  },
+  {
+   "n": 13,
+   "ini": 22.625,
+   "fin": 23.106,
+   "texto": "te dice eso?",
+   "especial": "dice eso",
+   "dur": 6.196999999999999
+  },
+  {
+   "n": 14,
+   "ini": 28.822,
+   "fin": 31.603,
+   "texto": "ajusta entrenamiento alimentación cuando no estás progresando?",
+   "especial": "progresando",
+   "dur": 3.0820000000000007
+  },
+  {
+   "n": 15,
+   "ini": 31.904,
+   "fin": 33.384,
+   "texto": "cuando las cosas no van como tienen que ir,",
+   "especial": "tienen",
+   "dur": 1.5000000000000036
+  },
+  {
+   "n": 16,
+   "ini": 33.404,
+   "fin": 34.985,
+   "texto": "porque no siempre va a ir todo fenomenal.",
+   "especial": "fenomenal",
+   "dur": 2.921999999999997
+  },
+  {
+   "n": 17,
+   "ini": 36.326,
+   "fin": 38.226,
+   "texto": "quién acompaña cuando entra factor humano en juego?",
+   "especial": "juego",
+   "dur": 2.0600000000000023
+  },
+  {
+   "n": 18,
+   "ini": 38.386,
+   "fin": 39.847,
+   "texto": "Y resulta que tu cuerpo no una máquina,",
+   "especial": "máquina",
+   "dur": 1.5009999999999977
+  },
+  {
+   "n": 19,
+   "ini": 39.887,
+   "fin": 41.148,
+   "texto": "como planifica el CGPT.",
+   "especial": "CGPT",
+   "dur": 3.881999999999998
+  },
+  {
+   "n": 20,
+   "ini": 43.769,
+   "fin": 44.249,
+   "texto": "quién revisa?",
+   "especial": "revisa",
+   "dur": 0.5
+  },
+  {
+   "n": 21,
+   "ini": 44.269,
+   "fin": 44.809,
+   "texto": "¿Quién te escucha?",
+   "especial": "escucha",
+   "dur": 0.5600000000000023
+  },
+  {
+   "n": 22,
+   "ini": 44.829,
+   "fin": 45.83,
+   "texto": "¿Quién nota cómo estás?",
+   "especial": "cómo estás",
+   "dur": 1.0210000000000008
+  },
+  {
+   "n": 23,
+   "ini": 45.85,
+   "fin": 46.45,
+   "texto": "¿Quién te debe?",
+   "especial": "debe",
+   "dur": 1.3399999999999963
+  },
+  {
+   "n": 24,
+   "ini": 47.19,
+   "fin": 48.411,
+   "texto": "¿Quién se cuenta estas cosas?",
+   "especial": "estas cosas",
+   "dur": 1.4410000000000025
+  },
+  {
+   "n": 25,
+   "ini": 48.631,
+   "fin": 48.831,
+   "texto": "Porque",
+   "especial": "Porque",
+   "dur": 0.8609999999999971
+  },
+  {
+   "n": 26,
+   "ini": 49.492,
+   "fin": 50.832,
+   "texto": "yo no me limito entregar tu plan.",
+   "especial": "tu plan",
+   "dur": 1.6400000000000006
+  },
+  {
+   "n": 27,
+   "ini": 51.132,
+   "fin": 51.873,
+   "texto": "Eso lo puedo hacer con el",
+   "especial": "puedo hacer",
+   "dur": 1.2210000000000036
+  },
+  {
+   "n": 28,
+   "ini": 52.353,
+   "fin": 53.253,
+   "texto": "como Internet, como bien te",
+   "especial": "como bien",
+   "dur": 1.3999999999999986
+  },
+  {
+   "n": 29,
+   "ini": 53.753,
+   "fin": 54.834,
+   "texto": "te lo hacer genial.",
+   "especial": "genial",
+   "dur": 3.7490000000000023
+  },
+  {
+   "n": 30,
+   "ini": 57.502,
+   "fin": 60.543,
+   "texto": "Conmigo encontrar unos resultados puedas sostener y mantener el",
+   "especial": "mantener",
+   "dur": 3.080999999999996
+  },
+  {
+   "n": 31,
+   "ini": 60.583,
+   "fin": 61.564,
+   "texto": "tiempo para siempre.",
+   "especial": "siempre",
+   "dur": 2.8419999999999987
+  },
+  {
+   "n": 32,
+   "ini": 63.425,
+   "fin": 66.986,
+   "texto": "Conmigo vas encontrar un acompañamiento una enseñanza puedas mantener",
+   "especial": "mantener",
+   "dur": 3.581000000000003
+  },
+  {
+   "n": 33,
+   "ini": 67.006,
+   "fin": 69.388,
+   "texto": "y sostener el tiempo por solo sola.",
+   "especial": "solo sola",
+   "dur": 2.421999999999997
+  },
+  {
+   "n": 34,
+   "ini": 69.428,
+   "fin": 70.728,
+   "texto": "De eso trata una tesoría conmigo.",
+   "especial": "conmigo",
+   "dur": 1.7000000000000028
+  },
+  {
+   "n": 35,
+   "ini": 71.128,
+   "fin": 72.609,
+   "texto": "No entregarte un plan una dieta.",
+   "especial": "dieta",
+   "dur": 2.2210000000000036
+  },
+  {
+   "n": 36,
+   "ini": 73.349,
+   "fin": 73.609,
+   "texto": "Y ala.",
+   "especial": "ala",
+   "dur": 0.8810000000000002
+  },
+  {
+   "n": 37,
+   "ini": 74.23,
+   "fin": 74.33,
+   "texto": "No.",
+   "especial": "No",
+   "dur": 0.09999999999999432
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F18174",
+    "#863127",
+    "#F4E8E6",
+    "#160E0D"
+   ]
+  },
+  {
+   "nombre": "Rosa · del plano",
+   "c": [
+    "#F174C5",
+    "#862765",
+    "#F4E6EF",
+    "#160D13"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}

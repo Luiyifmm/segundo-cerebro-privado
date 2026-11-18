@@ -576,6 +576,165 @@
     "Que el «queso para fundir» sea el rallado especial fundir (hay varios)."
    ],
    "video_local": "videos/ale-mercadona.mp4"
+  },
+  {
+   "clave": "carlos7",
+   "alumno": "Carlos López Segura",
+   "titulo": "#7 Desayuno proteico en 5 minutos",
+   "estado": "nuevo (17-11, tarde)",
+   "meta": "38,6 s (bruto 101 s, 10 tramos) · receta sin voz en medio · −14 LUFS · vídeo mwl5hdz83ens5cxh",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - desayuno proteico en 5 minutos - v1 lote (música).mp4",
+   "hoja": "carlos7/hoja.jpg",
+   "pedido": "Guion: gancho «X g de proteína en 5 minutos», receta paso a paso, plato terminado, moraleja y CTA. Su nota: lo grabó por clips porque se liaba; «si no queda natural lo repito sin problemas».",
+   "decisiones": [
+    {
+     "zona": "Formato",
+     "que": "Receta: gancho hablado → cocina en saltos cortos (claras, huevos, aplasta, especias, tostada) → plato y explicación.",
+     "porque": "75 s de cocina sin voz no se sostienen; cada paso en 2 s se entiende igual."
+    },
+    {
+     "zona": "Gancho",
+     "que": "«32 g de proteína · EN 5 MINUTOS» arriba mientras enseña el temporizador 05:00.",
+     "porque": "Es su número y su promesa; el temporizador ya está en el plano."
+    },
+    {
+     "zona": "Pasos",
+     "que": "Píldora amarilla por paso (🥚 Claras · 🍳 Huevos encima · 🥄 Aplasta y remueve · 🧂 Sal y especias · 🍞 Tostada).",
+     "porque": "Sin voz, la píldora hace de narrador. Sin cantidades: no las dice en el vídeo."
+    },
+    {
+     "zona": "Datos",
+     "que": "Píldoras «💪 32 g proteína» y «🔥 350 kcal» al decirlo con el plato.",
+     "porque": "Lo que el espectador quiere guardar."
+    },
+    {
+     "zona": "Marca",
+     "que": "No está en la tabla de marcas: propongo amarillo yema #FFC233 / rojo #FF453A, Montserrat.",
+     "porque": "Sale del plato (yema) y destaca sobre su cocina verde azulada."
+    },
+    {
+     "zona": "Música",
+     "que": "Parisian Funk (divkid) bajo la voz; en la cocina se oye el ambiente de la sartén.",
+     "porque": "Receta = ritmo alegre. Propuesta: elígela tú."
+    },
+    {
+     "zona": "Cierre",
+     "que": "@carloslopseg, botón «Seguir → Siguiendo» al decir «sígueme».",
+     "porque": "Su CTA."
+    }
+   ],
+   "no_verificado": [
+    "Sin oír (niveles medidos). Pico real −0,9 dB (límite −1): puede necesitar otra pasada de master.",
+    "La nota del alumno sobre grabar por clips: el resultado se ve natural en la hoja, pero decide tú si le pides repetirlo.",
+    "La marca de Carlos (no estaba definida)."
+   ],
+   "video_local": "videos/carlos7.mp4"
+  },
+  {
+   "clave": "carlos10",
+   "alumno": "Carlos López Segura",
+   "titulo": "#10 3 errores por los que no bajas la barriga",
+   "estado": "nuevo (17-11, tarde)",
+   "meta": "56,9 s (bruto 72 s, 11 tramos) · 2 localizaciones · −14 LUFS · vídeo mwl5jrup90lrue1o",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v1 lote (música).mp4",
+   "hoja": "carlos10/hoja.jpg",
+   "pedido": "Guion: 3 errores (comer sano ≠ poco, poca proteína, el finde), cliente de 34 años −20 kg, CTA «escríbeme CAMBIO». Misma nota: grabado por clips.",
+   "decisiones": [
+    {
+     "zona": "Corte",
+     "que": "Quitadas las pausas entre clips; se mantienen las 2 localizaciones (cocina y habitación) con transición.",
+     "porque": "Sus clips ya están elegidos; solo sobraba el aire."
+    },
+    {
+     "zona": "Gancho",
+     "que": "«¿Comes bien y no bajas barriga? · 3 ERRORES».",
+     "porque": "Pregunta + promesa numerada."
+    },
+    {
+     "zona": "Estructura",
+     "que": "Título rojo «Error 1 · SANO ≠ POCO», «Error 2 · POCA PROTEÍNA», «Error 3 · EL FINDE».",
+     "porque": "Que se vea en qué error está; se puede guardar."
+    },
+    {
+     "zona": "Listas",
+     "que": "Píldoras al nombrarlos: 🫒 aceite / 🥜 frutos secos / 🍚 arroz; y 🍕 viernes / 🍺 sábado / 🛋️ domingo.",
+     "porque": "Los ejemplos concretos son lo que se recuerda. En el pecho: no tapan la cara."
+    },
+    {
+     "zona": "Prueba",
+     "que": "Píldora «📉 −20 kg en 3 meses».",
+     "porque": "Su caso real da credibilidad."
+    },
+    {
+     "zona": "Subtítulos",
+     "que": "Literales; corregidos errores de la transcripción («aceite a chorro», «cena», «me decía», CAMBIO).",
+     "porque": "Se oye así."
+    },
+    {
+     "zona": "Cierre",
+     "que": "Botón «Mensaje → CAMBIO ✓» al decir «cambio».",
+     "porque": "Su palabra clave."
+    }
+   ],
+   "no_verificado": [
+    "Sin oír.",
+    "Dice «necesitan los siete días» (literal); subtitulado como «necesitas».",
+    "Música Parisian Funk, misma que en su #7: propuesta."
+   ],
+   "video_local": "videos/carlos10.mp4"
+  },
+  {
+   "clave": "jorge",
+   "alumno": "Jorge Robledo",
+   "titulo": "Mi trabajo va más lejos de una dieta y un entrenamiento",
+   "estado": "nuevo (17-11, tarde)",
+   "meta": "51,3 s (bruto 79 s, 11 tramos) · fondo claro · −14 LUFS · vídeo mwkk9hgwdyuo0mq0",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v1 lote (música).mp4",
+   "hoja": "jorge/hoja.jpg",
+   "pedido": "«Creo que me repito en algunas partes; si es así elimina las partes repetidas. Necesita cortes en las transiciones, todavía no ha empezado a hablar».",
+   "decisiones": [
+    {
+     "zona": "Repeticiones",
+     "que": "Quitado «Eso lo puede hacer ChatGPT o internet, como bien te he dicho. Y te lo va a hacer genial» (repite el arranque), «¿Quién te debe?» y el final «Y ala. No.» + pantalla de CapCut.",
+     "porque": "Lo pidió él; la idea ya está dicha al principio."
+    },
+    {
+     "zona": "Silencios",
+     "que": "Fuera las esperas de 3–5 s antes de hablar (13–17 s y 23–28 s del bruto) y la pausa dentro de «¿Y… quién revisa?».",
+     "porque": "Sus «transiciones sin hablar»."
+    },
+    {
+     "zona": "Se queda",
+     "que": "Las dos frases «Conmigo vas a encontrar…» (resultados / acompañamiento).",
+     "porque": "Parecen repetición pero son dos promesas distintas; marcadas con títulos «RESULTADOS QUE DURAN» y «APRENDES A HACERLO SOLO». Si las ves largas, quitar la 1.ª."
+    },
+    {
+     "zona": "Gancho",
+     "que": "«Una dieta y un entreno · GRATIS EN INTERNET» + tarjeta 🤖 ChatGPT.",
+     "porque": "Plantea el contraste que luego rompe."
+    },
+    {
+     "zona": "Preguntas",
+     "que": "Píldoras 👀 ¿Quién revisa? / 👂 ¿Quién te escucha? / 🫶 ¿Quién nota cómo estás?",
+     "porque": "El corazón del vídeo: lo que una IA no hace."
+    },
+    {
+     "zona": "Marca",
+     "que": "Su tabla: amarillo #FFD60A / rojo #FF4D4D, Poppins, música Trendsetter. Fondo blanco → degradado fuerte abajo para que se lean los subtítulos.",
+     "porque": "Lección del lote: fondo claro."
+    },
+    {
+     "zona": "Cierre",
+     "que": "@robledojorge8 «Seguir → Siguiendo» en «De eso trata una asesoría conmigo».",
+     "porque": "No dice CTA explícito; el cierre resume su servicio."
+    }
+   ],
+   "no_verificado": [
+    "Sin oír.",
+    "Él dice «ChatGPT» como «CGPT»: subtitulado «ChatGPT».",
+    "Si Jorge ya edita sus vídeos (tabla de marcas), puede que prefiera su propio estilo."
+   ],
+   "video_local": "videos/jorge.mp4"
   }
  ]
 }

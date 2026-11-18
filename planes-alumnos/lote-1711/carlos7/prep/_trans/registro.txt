@@ -1,0 +1,8 @@
+2026-11-17 20:52:23 - whisperx.vads.silero - INFO - Performing voice activity detection using Silero...
+Using cache found in /Users/luiyi/.cache/torch/hub/snakers4_silero-vad_master
+{"salida": "/Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/carlos7/prep/_trans/bruto.palabras.json", "idioma": "es", "palabras": 90, "sin_tiempo": 0, "texto": "32 gramos de proteína en 5 minutos para el que dice que no tiene tiempo a desayunar. 32 gramos de proteína a 350 calorías, eso es lo que le doy a mis clientes que curran temprano y me dicen que no le da la vida. Porque si empiezas el día con proteína, llegas a la comida sin hambre de lobo. No necesitas más tiempo para comer bien, necesitas 2 o 3 recetas rápidas que te sepa de memoria. Si curras y piensas que no tienes tiempo para comer bien, sígueme.", "s_carga": 0.9, "s_transcripcion": 10.0, "s_alineado": 1.5, "s_total": 12.4}
+bruto.palabras.json contra bruto.mov: 90 palabras
+  voz principal ≈ -42 dB (umbral -63 dB) · ruido ≈ -81 dB
+  principal 90 · voz baja 0 · sin voz 0 · sin tiempo 0 · FIABLES 80 (89 %)
+  Coherente con el audio. Solo las palabras FIABLES sirven para cortar o sincronizar.
+VERIFICADA: /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/carlos7/prep/_trans/bruto.verificada.json (código 0: 0 = coherente, 1 = NO corresponde a este audio)

@@ -1,0 +1,219 @@
+{
+ "alumno": "Jorge Robledo",
+ "video_id": "mwkk9hgwdyuo0mq0",
+ "titulo_salida": "Jorge - mi trabajo va más lejos de una dieta",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tiempos": "bruto",
+ "tramos": [
+  [
+   0.4,
+   3.55
+  ],
+  [
+   3.65,
+   13.75
+  ],
+  [
+   16.9,
+   23.2
+  ],
+  [
+   28.45,
+   35.05
+  ],
+  [
+   35.05,
+   41.2
+  ],
+  [
+   43.7,
+   45.8
+  ],
+  [
+   47.1,
+   48.9
+  ],
+  [
+   49.4,
+   50.9
+  ],
+  [
+   57.4,
+   61.65
+  ],
+  [
+   63.3,
+   69.42
+  ],
+  [
+   69.42,
+   72.7
+  ]
+ ],
+ "marca": {
+  "nombre": "Jorge Robledo",
+  "inicial": "J",
+  "usuario": "@robledojorge8",
+  "rol": "Entrenador · asesoría 1 a 1",
+  "bueno": "#FFD60A",
+  "malo": "#FF4D4D",
+  "clave_font": "poppins"
+ },
+ "cara_y": 0.25,
+ "sub_y": 1480,
+ "degradado": true,
+ "degradado_desde": 0.52,
+ "degradado_fuerza": 235,
+ "sombra": 255,
+ "sombra_blur": 9,
+ "zooms": [
+  [
+   0.4,
+   3.55,
+   1.08
+  ],
+  [
+   16.9,
+   19.4,
+   1.1
+  ],
+  [
+   38.39,
+   41.15,
+   1.08
+  ],
+  [
+   48.6,
+   50.9,
+   1.12
+  ],
+  [
+   69.43,
+   72.7,
+   1.08
+  ]
+ ],
+ "transiciones": [
+  16.9,
+  28.45,
+  57.4
+ ],
+ "musica": "connor-price-haviah-mighty-koren-trendsetter-instr.mp3",
+ "musica_desde": 0,
+ "frases": [
+  "@0.52|Hoy en día una dieta",
+  "y un plan de entrenamiento",
+  "lo encuentras *gratis en internet.*",
+  "@3.73|O, simplemente,",
+  "le echas *GPT,*",
+  "le cuentas tu vida,",
+  "le cuentas tus necesidades, tu objetivo,",
+  "y te va a hacer una dieta y un entrenamiento",
+  "seguramente *mejor que la mayoría*",
+  "de entrenadores o nutricionistas",
+  "que encuentres por ahí.",
+  "@17.02|Pero, *¿quién te dice qué cambiar*",
+  "cuando te estancas?",
+  "¿Y por qué *te estás estancando?*",
+  "¿Y cuál es *la solución?*",
+  "¿Quién te dice eso?",
+  "@28.56|¿Quién te ajusta",
+  "tu entrenamiento y alimentación",
+  "cuando *!no estás progresando?*",
+  "O cuando las cosas no van",
+  "como tienen que ir,",
+  "porque no siempre va a ir *todo fenomenal.*",
+  "@35.01|¿Y quién *te acompaña*",
+  "cuando entra *el factor humano* en juego?",
+  "Y resulta que tu cuerpo",
+  "*!no es una máquina,*",
+  "como lo planifica el ChatGPT.",
+  "@43.77|¿Quién *revisa?*",
+  "¿Quién *te escucha?*",
+  "¿Quién *nota cómo estás?*",
+  "@47.19|¿Quién *se da cuenta* de estas cosas?",
+  "@48.63|Porque yo *no me limito*",
+  "a entregar tu plan.",
+  "@57.50|Conmigo vas a encontrar",
+  "*unos resultados*",
+  "que puedas sostener y mantener",
+  "en el tiempo *para siempre.*",
+  "@63.42|Conmigo vas a encontrar",
+  "*un acompañamiento y una enseñanza*",
+  "que puedas mantener y sostener",
+  "en el tiempo *por ti solo o sola.*",
+  "@69.43|De eso trata *una asesoría conmigo.*",
+  "*!No* entregarte un plan y una dieta."
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 0.5,
+   "t1": 3.5,
+   "y": 120,
+   "linea1": "Una dieta y un entreno",
+   "linea2": "GRATIS EN INTERNET",
+   "col": "bueno"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 4.33,
+   "t1": 7.6,
+   "x": 540,
+   "y": 1250,
+   "lado": 240,
+   "emoji": "🤖",
+   "texto": "ChatGPT",
+   "marca": "si"
+  },
+  {
+   "tipo": "pildoras",
+   "t0": 43.77,
+   "t1": 48.45,
+   "y": 1020,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 43.77,
+     "emoji": "👀",
+     "texto": "¿Quién revisa?"
+    },
+    {
+     "t": 44.27,
+     "emoji": "👂",
+     "texto": "¿Quién te escucha?"
+    },
+    {
+     "t": 44.83,
+     "emoji": "🫶",
+     "texto": "¿Quién nota cómo estás?"
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "t0": 57.5,
+   "t1": 61.6,
+   "y": 120,
+   "linea1": "Conmigo",
+   "linea2": "RESULTADOS QUE DURAN",
+   "col": "bueno"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 63.42,
+   "t1": 68.9,
+   "y": 120,
+   "linea1": "Conmigo",
+   "linea2": "APRENDES A HACERLO SOLO",
+   "col": "bueno"
+  },
+  {
+   "tipo": "cta",
+   "t0": 69.45,
+   "t_clic": 71.2,
+   "y": 140
+  }
+ ]
+}

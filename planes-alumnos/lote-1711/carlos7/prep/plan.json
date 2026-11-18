@@ -1,0 +1,176 @@
+{
+ "filas": [
+  {
+   "n": 1,
+   "ini": 0.775,
+   "fin": 1.818,
+   "texto": "32 gramos de proteína",
+   "especial": "proteína",
+   "dur": 1.846
+  },
+  {
+   "n": 2,
+   "ini": 2.621,
+   "fin": 4.747,
+   "texto": "5 minutos para el que dice que no tiene",
+   "especial": "tiene",
+   "dur": 2.166
+  },
+  {
+   "n": 3,
+   "ini": 4.787,
+   "fin": 5.469,
+   "texto": "tiempo desayunar.",
+   "especial": "desayunar",
+   "dur": 74.62299999999999
+  },
+  {
+   "n": 4,
+   "ini": 79.41,
+   "fin": 80.231,
+   "texto": "gramos de proteína",
+   "especial": "proteína",
+   "dur": 1.7819999999999965
+  },
+  {
+   "n": 5,
+   "ini": 81.192,
+   "fin": 83.233,
+   "texto": "calorías, eso es lo que le doy a clientes",
+   "especial": "clientes",
+   "dur": 2.602000000000004
+  },
+  {
+   "n": 6,
+   "ini": 83.794,
+   "fin": 85.815,
+   "texto": "que curran temprano me dicen que no le da",
+   "especial": "dicen",
+   "dur": 2.081000000000003
+  },
+  {
+   "n": 7,
+   "ini": 85.875,
+   "fin": 86.195,
+   "texto": "la vida.",
+   "especial": "vida",
+   "dur": 0.8810000000000002
+  },
+  {
+   "n": 8,
+   "ini": 86.756,
+   "fin": 88.257,
+   "texto": "Porque si empiezas día con proteína,",
+   "especial": "proteína",
+   "dur": 1.5210000000000008
+  },
+  {
+   "n": 9,
+   "ini": 88.277,
+   "fin": 89.718,
+   "texto": "llegas la comida",
+   "especial": "comida",
+   "dur": 1.820999999999998
+  },
+  {
+   "n": 10,
+   "ini": 90.098,
+   "fin": 90.739,
+   "texto": "hambre de lobo.",
+   "especial": "lobo",
+   "dur": 1.5820000000000078
+  },
+  {
+   "n": 11,
+   "ini": 91.68,
+   "fin": 93.341,
+   "texto": "No necesitas más tiempo para comer bien,",
+   "especial": "comer bien",
+   "dur": 1.840999999999994
+  },
+  {
+   "n": 12,
+   "ini": 93.521,
+   "fin": 96.343,
+   "texto": "necesitas 2 o 3 recetas rápidas que te sepa",
+   "especial": "sepa",
+   "dur": 2.8419999999999987
+  },
+  {
+   "n": 13,
+   "ini": 96.363,
+   "fin": 96.864,
+   "texto": "de memoria.",
+   "especial": "memoria",
+   "dur": 1.301000000000002
+  },
+  {
+   "n": 14,
+   "ini": 97.664,
+   "fin": 99.866,
+   "texto": "Si curras y piensas que no tienes tiempo para",
+   "especial": "tiempo",
+   "dur": 2.2620000000000005
+  },
+  {
+   "n": 15,
+   "ini": 99.926,
+   "fin": 100.446,
+   "texto": "comer bien,",
+   "especial": "comer bien",
+   "dur": 0.9609999999999985
+  },
+  {
+   "n": 16,
+   "ini": 100.887,
+   "fin": 101.187,
+   "texto": "sígueme.",
+   "especial": "sígueme",
+   "dur": 0.29999999999999716
+  }
+ ],
+ "paletas": [
+  {
+   "nombre": "Turquesa · del plano",
+   "c": [
+    "#74F1C1",
+    "#278662",
+    "#E6F4EF",
+    "#0D1613"
+   ]
+  },
+  {
+   "nombre": "Rojo · del plano",
+   "c": [
+    "#F18374",
+    "#863227",
+    "#F4E8E6",
+    "#160E0D"
+   ]
+  },
+  {
+   "nombre": "Lima · del plano",
+   "c": [
+    "#E1F174",
+    "#7A8627",
+    "#F2F4E6",
+    "#15160D"
+   ]
+  },
+  {
+   "nombre": "Neutra (crema y negro)",
+   "c": [
+    "#F4EFE4",
+    "#8A8478",
+    "#F6F3EC",
+    "#14130F"
+   ]
+  }
+ ],
+ "letras": [
+  "Sans",
+  "Sans + serif",
+  "Serif",
+  "Sans + caligráfica"
+ ]
+}
