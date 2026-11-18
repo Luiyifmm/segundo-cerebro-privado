@@ -1,0 +1,9 @@
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx2
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v2 lote (sin música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 32.534 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/90mh-but-it-s-a-chill-lofi-type-beat.mp3 -af afade=t=in:d=0.3,afade=t=out:st=30.534:d=2 -ar 48
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav -af volume=-8.00dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav.g.wav -t 32.534 /private/tmp/claude-501/lote-1711/alessandro-col/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_cruda.wav -filter_complex [1:a]volume=0.00
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx2
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v2 lote (música).mp4 -14.0 LUFS

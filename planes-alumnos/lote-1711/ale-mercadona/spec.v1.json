@@ -1,0 +1,114 @@
+{
+ "alumno": "Alessandro Martin Afonso",
+ "video_id": "mwjr3evgnmlkk47l",
+ "titulo_salida": "Alessandro - Mercadona engorda o adelgaza",
+ "bruto": "bruto.mov",
+ "palabras": "palabras2.json",
+ "tramos": [
+  [
+   7.95,
+   10.98
+  ],
+  [
+   21.95,
+   24.95
+  ],
+  [
+   26.55,
+   31.4
+  ]
+ ],
+ "marca": {
+  "nombre": "Alessandro Martin",
+  "inicial": "A",
+  "usuario": "@alessmartin.fitness",
+  "rol": "Pérdida de grasa para mujeres",
+  "bueno": "#34C759",
+  "malo": "#FF3B30",
+  "clave_font": "montserrat"
+ },
+ "cara_y": 0.36,
+ "sub_y": 990,
+ "degradado_desde": 0.55,
+ "degradado_fuerza": 200,
+ "transiciones": [
+  3.03,
+  6.03
+ ],
+ "elementos": [
+  {
+   "tipo": "columnas",
+   "t0": 0.0,
+   "t1": 99,
+   "y": 1260,
+   "alto": 620,
+   "y_flota": 330,
+   "lado_flota": 230,
+   "lado_item": 210,
+   "celda": 300,
+   "rodeo_x": 540,
+   "rodeo_y": 700,
+   "titulo": "Quesos de Mercadona: ¿engorda o adelgaza?",
+   "cabeceras": [
+    "ADELGAZA",
+    "ENGORDA"
+   ],
+   "col_cab": [
+    "bueno",
+    "malo"
+   ],
+   "items": [
+    {
+     "t": 0.09,
+     "t_col": 1.13,
+     "col": 1,
+     "texto": "Para fundir",
+     "largo": "Queso para fundir",
+     "img": "../_fotos-mercadona/queso-fundir.jpg"
+    },
+    {
+     "t": 3.13,
+     "t_col": 4.21,
+     "col": 1,
+     "texto": "Emmental",
+     "largo": "Queso emmental",
+     "img": "../_fotos-mercadona/emmental.jpg"
+    },
+    {
+     "t": 6.13,
+     "t_col": 9.51,
+     "col": 0,
+     "texto": "Babybel",
+     "largo": "Mini Babybel",
+     "img": "../_fotos-mercadona/babybel.jpg"
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "t0": 9.88,
+   "t_clic": 10.48,
+   "y": 300,
+   "boton": "Seguir"
+  }
+ ],
+ "frases": [
+  "@0.00|Queso para fundir.",
+  "*!Engorda.*",
+  "Literalmente tiene de todo *!menos queso.*",
+  "@3.03|Queso emmental.",
+  "También *!engorda.*",
+  "Te sueles pasar mucho *!las cantidades.*",
+  "@6.03|Queso Babybel.",
+  "Perfecto *para tus snacks.*",
+  "*Adelgaza.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
+ "musica_desde": 0
+}

@@ -1,0 +1,46 @@
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+27 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/jorge/eventos.json --video /private/tmp/claude-501/lote-1711/jorg
+checking the cue list against the picture (frame analysis of the render) ...
+sync: cannot be verified (2 wipe/hit/thump events, 1 of them near a picture change). Static camera, small objects or too few structural events: look at the frames (look.py --at T) around the first events before you trust the times.
+NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
+27 cues from 27 events (0 dropped from runs faster than 14/s, 0 fused)
+declared 27 events: 27 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: pop=10, click=7, whoosh=4, riser=2, chime=2, hit=2
+routes: chime -> library:chime, click -> library:click, hit -> library:hit, pop -> library:pop, riser -> library:riser, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (4), look at their frames:
+     3.17s  burst   strength 1.00  
+    15.77s  burst   strength 0.89  
+    19.67s  burst   strength 0.92  
+    27.27s  burst   strength 1.00  
+-> /private/tmp/claude-501/lote-1711/jorge/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/jorge/sfx/cues.json --out /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx.mp4 --voice-safe --sfx-tri
+level: 3 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 48.11s; --no-level-roles keeps the peaks equal)
+SFX under speech (normal): 3.0 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 27 (27 library, 0 uisfx), 27 distinct files
+video: /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -30.3 LUFS, final -16.7 LUFS, true peak -5.0 dBTP
+report: /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+it x0.70' +5.5 dB vs the voice); lower them, shorten them, move into a pause (--voice-depth deep ducks by about 24 dB in speech: check the LUFS of *_sfx_ducked.wav before you use it)
+
+Listen to these 5 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'riser': the first sound of the film: the hook; its attack was moved 350 ms so that it lands on the moment. Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / does the lead-in still read as part of the sound?
+  2.   15.21s  'pop': its peak sits -14 ms from the moment. Listen for: does it feel early or late against the picture?
+  3.   19.43s  'whoosh': 1 sound(s) on top of the voice, +6.3 dB against it. Listen for: is every word still understood?
+  4.   32.37s  'click': the highest peak of the film (-8 dBFS before the master). Listen for: is it big without hurting on headphones, and does the music under it pump?
+  5.   48.11s  'swoosh': brought 6 dB up to the perceived level of its role. Listen for: a thin recording lifted that far can turn harsh: is it clean?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/jorge/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/jorge/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxrat
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v2 lote (sin música).mp4 -13.9 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 51.467 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/connor-price-haviah-mighty-koren-trendsetter-instr.mp3 -af afade=t=in:d=0.3,afade=t=out:st=49.
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/mus_0.wav -af volume=-8.20dB,adelay=0|0 /private/tmp/claude-501/lote-1711/jorge/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/mus_0.wav.g.wav -t 51.467 /private/tmp/claude-501/lote-1711/jorge/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/jorge/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]amix
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/jorge/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/jorge/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxrat
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v2 lote (música).mp4 -14.0 LUFS

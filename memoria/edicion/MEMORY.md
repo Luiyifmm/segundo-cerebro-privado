@@ -7,3 +7,6 @@
 - [Gustos de Luis (correcciones Álvaro)](gustos-luis-correcciones-alvaro.md) — gancho con zoom out + sonido, cortes J/L, tarjetas tipo Apple de Miro, música por emoción; no saltar paradas
 - [Subir vídeos al panel Trainer10x yo mismo](subir-videos-panel-trainer10x.md) — R2 + Neon con alumnos.json; subir deja «Para revisar», entregar se pregunta
 - [Lote alumnos sin tokens](lote-alumnos-sin-tokens.md) — convertir lo repetitivo en scripts; skill lote-alumnos
+- [Repo segundo cerebro en GitHub](repo-segundo-cerebro-github.md) — exportación del sistema local; entrada «PARA OTRA IA · EMPIEZA AQUÍ», índice de 383 referencias, 176 chats
+- [Google Flow para imágenes](google-flow-imagenes.md) — agente en navegador integrado, 0 créditos, «pure green screen», bajar por URL firmada
+- [Márgenes IG y subtítulos](margenes-instagram-y-subtitulos.md) — zona segura y 240–1580, x<975; subs pequeños al pecho como las favoritas

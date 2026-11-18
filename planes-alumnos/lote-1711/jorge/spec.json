@@ -28,7 +28,7 @@
   ],
   [
    43.7,
-   45.8
+   45.84
   ],
   [
    47.1,
@@ -58,10 +58,11 @@
   "rol": "Entrenador · asesoría 1 a 1",
   "bueno": "#FFD60A",
   "malo": "#FF4D4D",
-  "clave_font": "poppins"
+  "clave_font": "poppins",
+  "foto": "../_perfiles/robledojorge8.jpg"
  },
  "cara_y": 0.25,
- "sub_y": 1480,
+ "sub_y": 1180,
  "degradado": true,
  "degradado_desde": 0.52,
  "degradado_fuerza": 235,
@@ -148,46 +149,140 @@
  ],
  "elementos": [
   {
-   "tipo": "titulo",
-   "t0": 0.5,
-   "t1": 3.5,
-   "y": 120,
-   "linea1": "Una dieta y un entreno",
-   "linea2": "GRATIS EN INTERNET",
-   "col": "bueno"
+   "tipo": "tarjeta",
+   "t0": 1.06,
+   "t1": 3.55,
+   "x": 250,
+   "y": 600,
+   "lado": 280,
+   "texto": "Dieta",
+   "detras": true,
+   "emoji": "📋"
   },
   {
    "tipo": "tarjeta",
-   "t0": 4.33,
-   "t1": 7.6,
-   "x": 540,
-   "y": 1250,
-   "lado": 240,
+   "t0": 1.62,
+   "t1": 3.55,
+   "x": 830,
+   "y": 600,
+   "lado": 280,
+   "texto": "Entreno",
+   "detras": true,
+   "emoji": "🏋️"
+  },
+  {
+   "tipo": "pill",
+   "t0": 2.48,
+   "t1": 3.55,
+   "y": 300,
+   "emoji": "🌐",
+   "texto": "Gratis en internet",
+   "col": "bueno"
+  },
+  {
+   "tipo": "mensaje",
+   "t0": 4.95,
+   "t1": 13.6,
+   "y": 860,
+   "de": "Tú",
+   "sub": "a ChatGPT",
+   "emoji": "🙋‍♂️",
+   "texto": "Te cuento mi vida y mi objetivo: hazme una dieta y un entreno.",
+   "escribiendo": 0.5,
+   "ancho": 840
+  },
+  {
+   "tipo": "mensaje",
+   "t0": 7.71,
+   "t1": 13.6,
+   "y": 1210,
+   "de": "ChatGPT",
+   "sub": "respondiendo",
    "emoji": "🤖",
-   "texto": "ChatGPT",
-   "marca": "si"
+   "texto": "Aquí tienes tu plan de dieta y entrenamiento personalizado.",
+   "escribiendo": 1.2,
+   "ancho": 840
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 18.86,
+   "t1": 23.15,
+   "x": 830,
+   "y": 560,
+   "lado": 260,
+   "texto": "Estancado",
+   "detras": true,
+   "emoji": "📉"
   },
   {
    "tipo": "pildoras",
-   "t0": 43.77,
+   "ui": true,
+   "t1": 23.15,
+   "y": 960,
+   "items": [
+    {
+     "t": 18.14,
+     "texto": "¿Qué cambiar?",
+     "emoji": "🔄"
+    },
+    {
+     "t": 20.02,
+     "texto": "¿Por qué te estancas?",
+     "emoji": "🤔"
+    },
+    {
+     "t": 21.34,
+     "texto": "¿Cuál es la solución?",
+     "emoji": "🧩"
+    }
+   ]
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 37.43,
+   "t1": 41.15,
+   "x": 820,
+   "y": 560,
+   "lado": 280,
+   "texto": "Factor humano",
+   "detras": true,
+   "emoji": "❤️",
+   "marca": "si",
+   "t_marca": 37.65
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 39.17,
+   "t1": 41.15,
+   "x": 260,
+   "y": 560,
+   "lado": 280,
+   "texto": "ChatGPT",
+   "detras": true,
+   "emoji": "🤖",
+   "marca": "no",
+   "t_marca": 39.53
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
    "t1": 48.45,
-   "y": 1020,
-   "lado": "centro",
+   "y": 960,
    "items": [
     {
      "t": 43.77,
-     "emoji": "👀",
-     "texto": "¿Quién revisa?"
+     "texto": "¿Quién revisa?",
+     "emoji": "👀"
     },
     {
      "t": 44.27,
-     "emoji": "👂",
-     "texto": "¿Quién te escucha?"
+     "texto": "¿Quién te escucha?",
+     "emoji": "👂"
     },
     {
      "t": 44.83,
-     "emoji": "🫶",
-     "texto": "¿Quién nota cómo estás?"
+     "texto": "¿Quién nota cómo estás?",
+     "emoji": "🫶"
     }
    ]
   },
@@ -195,7 +290,7 @@
    "tipo": "titulo",
    "t0": 57.5,
    "t1": 61.6,
-   "y": 120,
+   "y": 250,
    "linea1": "Conmigo",
    "linea2": "RESULTADOS QUE DURAN",
    "col": "bueno"
@@ -204,7 +299,7 @@
    "tipo": "titulo",
    "t0": 63.42,
    "t1": 68.9,
-   "y": 120,
+   "y": 250,
    "linea1": "Conmigo",
    "linea2": "APRENDES A HACERLO SOLO",
    "col": "bueno"
@@ -213,7 +308,53 @@
    "tipo": "cta",
    "t0": 69.45,
    "t_clic": 71.2,
-   "y": 140
+   "y": 250
   }
- ]
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840,
+ "version": "v2",
+ "sin_subs": [
+  [
+   4.95,
+   13.75
+  ],
+  [
+   18.14,
+   23.2
+  ],
+  [
+   43.77,
+   48.45
+  ]
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 1.2
+  },
+  {
+   "t": 12.9,
+   "type": "riser",
+   "len": 0.8
+  },
+  {
+   "t": 39.17,
+   "type": "hit",
+   "g": 0.8
+  },
+  {
+   "t": 48.63,
+   "type": "hit",
+   "g": 0.7
+  }
+ ],
+ "gancho": {
+  "zoom_out": true,
+  "sonido": false
+ }
 }

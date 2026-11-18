@@ -1,0 +1,96 @@
+{
+ "alumno": "Lorena Castaño (Lore)",
+ "video_id": "mwcozthjfsdqm1sn",
+ "titulo_salida": "Lorena - abogados saltos",
+ "bruto": "bruto.mov",
+ "tramos": [
+  [
+   3.0,
+   18.0
+  ]
+ ],
+ "audio": "ninguno",
+ "marca": {
+  "nombre": "Lorena Castaño",
+  "inicial": "L",
+  "usuario": "@jlenlacedigital",
+  "rol": "Marketing digital para abogados",
+  "bueno": "#D4AF37",
+  "malo": "#C0392B",
+  "clave_font": "playfair",
+  "mayusculas": false
+ },
+ "cara_y": 0.4,
+ "degradado_desde": 0.58,
+ "degradado_fuerza": 215,
+ "sombra": 240,
+ "elementos": [
+  {
+   "tipo": "texto",
+   "t0": 0.15,
+   "t1": 4.3,
+   "y": 1520,
+   "lineas": [
+    "El salto de abogado local",
+    "*a referente*"
+   ],
+   "paso": 0.45,
+   "tam": 60,
+   "tam_esp": 100
+  },
+  {
+   "tipo": "texto",
+   "t0": 4.5,
+   "t1": 8.3,
+   "y": 1520,
+   "lineas": [
+    "no se da",
+    "*de un día para otro*"
+   ],
+   "paso": 0.45,
+   "tam": 60,
+   "tam_esp": 100
+  },
+  {
+   "tipo": "texto",
+   "t0": 8.5,
+   "t1": 11.6,
+   "y": 1520,
+   "lineas": [
+    "Se prepara con",
+    "*estrategia y contenido*"
+   ],
+   "paso": 0.45,
+   "tam": 60,
+   "tam_esp": 100
+  },
+  {
+   "tipo": "texto",
+   "t0": 11.8,
+   "t1": 15.0,
+   "y": 1520,
+   "lineas": [
+    "¿Damos el salto juntos?",
+    "*Sígueme*"
+   ],
+   "paso": 0.45,
+   "tam": 60,
+   "tam_esp": 100
+  },
+  {
+   "tipo": "cta",
+   "t0": 12.2,
+   "t_clic": 13.4,
+   "y": 1180,
+   "boton": "Seguir"
+  }
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "golden-hour-piano-version.mp3",
+ "musica_desde": 0
+}

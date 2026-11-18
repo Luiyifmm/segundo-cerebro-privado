@@ -1,0 +1,43 @@
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+21 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/ale-picoteos/eventos.json --video /private/tmp/claude-501/lote-17
+checking the cue list against the picture (frame analysis of the render) ...
+sync: cannot be verified (2 wipe/hit/thump events, 2 of them near a picture change). Static camera, small objects or too few structural events: look at the frames (look.py --at T) around the first events before you trust the times.
+NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
+fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+20 cues from 20 events (0 dropped from runs faster than 14/s, 1 fused)
+declared 21 events: 20 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: pop=9, tick=7, whoosh=2, drop=1, hit=1
+routes: drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, tick -> library:click, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (1), look at their frames:
+    30.57s  burst   strength 1.00  
+-> /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/cues.json --out /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx.mp4 --voice-
+SFX under speech (normal): 3.5 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 20 (20 library, 0 uisfx), 20 distinct files
+WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+video: /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -29.7 LUFS, final -16.1 LUFS, true peak -5.0 dBTP
+report: /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+nto the bass already there (-29 dB); lower it 22 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+3. low end: 'hit' at 0.05s piles onto the bass already there (-30 dB); lower it 23 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+
+Listen to these 3 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'whoosh': the first sound of the film: the hook; also 'sub_drop' at 0.02s: the highest peak of the film (-10 dBFS before the master). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is it big without hurting on headphones, and does the music under it pump?
+  2.   18.11s  'pop': its peak sits -14 ms from the moment; its attack was moved 249 ms so that it lands on the moment. Listen for: does it feel early or late against the picture? / does the lead-in still read as part of the sound?
+  3.   33.77s  'swoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/ale-picoteos/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-picoteos/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - picoteos de Mercadona - v2 lote (sin música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 38.934 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3 -af afade=t=in:d=0.3,afade=t=out:st=36.934:d=2 -ar 
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/mus_0.wav -af volume=-7.90dB,adelay=0|0 /private/tmp/claude-501/lote-1711/ale-picoteos/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/mus_0.wav.g.wav -t 38.934 /private/tmp/claude-501/lote-1711/ale-picoteos/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-picoteos/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-picoteos/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-picoteos/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - picoteos de Mercadona - v2 lote (música).mp4 -14.0 LUFS

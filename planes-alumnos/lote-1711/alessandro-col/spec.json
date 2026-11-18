@@ -16,10 +16,11 @@
   "bueno": "#34C759",
   "malo": "#FF3B30",
   "clave_font": "montserrat",
-  "usuario": "@alessmartin.fitness"
+  "usuario": "@alessmartin.fitness",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
  },
  "cara_y": 0.36,
- "sub_y": 1430,
+ "sub_y": 1150,
  "sin_subs": [
   [
    0,
@@ -43,10 +44,9 @@
    "tipo": "columnas",
    "t0": 0.0,
    "t1": 25.95,
-   "y": 1080,
-   "alto": 790,
+   "y": 1000,
+   "alto": 580,
    "y_flota": 300,
-   "titulo": "¿Cada cuánto lo comes?",
    "cabeceras": [
     "A LA SEMANA",
     "TODOS LOS DÍAS",
@@ -64,14 +64,16 @@
      "col": 0,
      "emoji": "🥩",
      "texto": "Vacuno 2×",
-     "largo": "Carne de vacuno"
+     "largo": "Carne de vacuno",
+     "img": "../_flow/nuevas/vacuno.cut.png"
     },
     {
      "t": 2.52,
      "t_col": 3.18,
      "col": 1,
      "emoji": "🍳",
-     "texto": "Huevo"
+     "texto": "Huevo",
+     "img": "../_flow/nuevas/huevos.cut.png"
     },
     {
      "t": 4.08,
@@ -79,14 +81,16 @@
      "col": 1,
      "emoji": "🍓",
      "texto": "Fruta",
-     "largo": "Frutas"
+     "largo": "Frutas",
+     "img": "../_flow/nuevas/manzana.cut.png"
     },
     {
      "t": 5.74,
      "t_col": 6.72,
      "col": 0,
      "emoji": "🧀",
-     "texto": "Queso blanco"
+     "texto": "Queso blanco",
+     "img": "../_flow/nuevas/queso-blanco.cut.png"
     },
     {
      "t": 7.72,
@@ -94,14 +98,16 @@
      "col": 1,
      "emoji": "🫒",
      "texto": "Aceite oliva",
-     "largo": "Aceite de oliva"
+     "largo": "Aceite de oliva",
+     "img": "../_flow/nuevas/aceite.cut.png"
     },
     {
      "t": 9.73,
      "t_col": 10.33,
      "col": 2,
      "emoji": "🍷",
-     "texto": "Vino"
+     "texto": "Vino",
+     "img": "../_flow/nuevas/vino.cut.png"
     },
     {
      "t": 11.25,
@@ -109,7 +115,8 @@
      "col": 0,
      "emoji": "🍚",
      "texto": "Arroz 2×",
-     "largo": "Arroz"
+     "largo": "Arroz",
+     "img": "../_flow/nuevas/arroz.cut.png"
     },
     {
      "t": 13.17,
@@ -117,14 +124,16 @@
      "col": 1,
      "emoji": "🥦",
      "texto": "Verdura",
-     "largo": "Vegetales"
+     "largo": "Vegetales",
+     "img": "../_flow/nuevas/brocoli.cut.png"
     },
     {
      "t": 14.93,
      "t_col": 16.13,
      "col": 1,
      "emoji": "🥑",
-     "texto": "Aguacate"
+     "texto": "Aguacate",
+     "img": "../_flow/nuevas/aguacate.cut.png"
     },
     {
      "t": 16.73,
@@ -132,28 +141,32 @@
      "col": 2,
      "emoji": "🍟",
      "texto": "Procesado",
-     "largo": "Ultraprocesado"
+     "largo": "Ultraprocesado",
+     "img": "../_flow/nuevas/salchichas.cut.png"
     },
     {
      "t": 19.14,
      "t_col": 19.66,
      "col": 1,
      "emoji": "💧",
-     "texto": "Agua"
+     "texto": "Agua",
+     "img": "../_flow/agua.png"
     },
     {
      "t": 21.12,
      "t_col": 21.96,
      "col": 2,
      "emoji": "🍕",
-     "texto": "Pizza"
+     "texto": "Pizza",
+     "img": "../_flow/nuevas/pizza.cut.png"
     },
     {
      "t": 22.66,
      "t_col": 23.44,
      "col": 0,
      "emoji": "🍰",
-     "texto": "Postre"
+     "texto": "Postre",
+     "img": "../_flow/nuevas/tarta.cut.png"
     },
     {
      "t": 24.4,
@@ -161,9 +174,14 @@
      "col": 1,
      "emoji": "🍗",
      "texto": "Pollo",
-     "largo": "Pechuga de pollo"
+     "largo": "Pechuga de pollo",
+     "img": "../_flow/nuevas/pollo.cut.png"
     }
-   ]
+   ],
+   "celda": 138,
+   "lado_item": 96,
+   "lado_flota": 230,
+   "ancho": 870
   },
   {
    "tipo": "cta",
@@ -201,5 +219,11 @@
    "type": "sub_drop"
   }
  ],
- "musica_desde": 0
+ "musica_desde": 0,
+ "version": "v2",
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
 }

@@ -7,15 +7,15 @@
  "tramos": [
   [
    36.3,
-   38.55
+   38.7
   ],
   [
    52.95,
-   55.0
+   55.21
   ],
   [
    59.92,
-   61.75
+   61.82
   ],
   [
    67.3,
@@ -23,10 +23,6 @@
   ],
   [
    72.45,
-   72.7
-  ],
-  [
-   72.7,
    74.95
   ],
   [
@@ -41,7 +37,8 @@
   "rol": "Pérdida de grasa para mujeres",
   "bueno": "#34C759",
   "malo": "#FF3B30",
-  "clave_font": "montserrat"
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
  },
  "cara_y": 0.36,
  "colores": {
@@ -51,28 +48,28 @@
   "morado": "#C77DFF",
   "amarillo": "#FFCC00"
  },
- "sub_y": 1480,
+ "sub_y": 1180,
  "transiciones": [
-  2.25,
-  4.3,
-  6.13,
-  8.53,
-  10.78
+  52.95,
+  59.92,
+  67.3,
+  72.7,
+  102.8
  ],
  "elementos": [
   {
    "tipo": "titulo",
-   "t0": 0.0,
-   "t1": 1.3,
-   "y": 120,
+   "t0": 36.3,
+   "t1": 37.0,
+   "y": 250,
    "linea1": "Come de todos los colores",
    "linea2": "5 COLORES",
    "col": "bueno"
   },
   {
    "tipo": "color",
-   "t0": 0.7,
-   "t1": 2.2,
+   "t0": 37.0,
+   "t1": 38.5,
    "nombre": "Rojo",
    "col": "#FF3B30",
    "texto": "Presión arterial saludable",
@@ -83,12 +80,13 @@
     "🍒",
     "🌶️"
    ],
-   "y": 70
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-rojo.cut.png"
   },
   {
    "tipo": "color",
-   "t0": 2.25,
-   "t1": 4.25,
+   "t0": 52.95,
+   "t1": 54.95,
    "nombre": "Verde",
    "col": "#34C759",
    "texto": "Colesterol en niveles buenos",
@@ -100,12 +98,13 @@
     "🥦",
     "🫛"
    ],
-   "y": 70
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-verde.cut.png"
   },
   {
    "tipo": "color",
-   "t0": 4.3,
-   "t1": 6.08,
+   "t0": 59.92,
+   "t1": 61.7,
    "nombre": "Naranja",
    "col": "#FF9500",
    "texto": "Salud intestinal",
@@ -116,12 +115,13 @@
     "🎃",
     "🍠"
    ],
-   "y": 70
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-naranja.cut.png"
   },
   {
    "tipo": "color",
-   "t0": 6.13,
-   "t1": 8.51,
+   "t0": 67.3,
+   "t1": 72.68,
    "nombre": "Morado",
    "col": "#AF52DE",
    "texto": "Azúcar en sangre estable",
@@ -130,12 +130,13 @@
     "🫐",
     "🍆"
    ],
-   "y": 70
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-morado.cut.png"
   },
   {
    "tipo": "color",
-   "t0": 8.53,
-   "t1": 10.73,
+   "t0": 72.7,
+   "t1": 74.9,
    "nombre": "Amarillo",
    "col": "#FFCC00",
    "texto": "Náuseas y dolor de estómago",
@@ -146,37 +147,52 @@
     "🥔",
     "🍵"
    ],
-   "y": 70
+   "y": 250,
+   "img": "../_flow/nuevas/grupo-blanco.cut.png"
   },
   {
    "tipo": "cta",
-   "t0": 12.82,
-   "t_clic": 12.98,
-   "y": 160,
+   "t0": 104.84,
+   "t_clic": 105.0,
+   "y": 250,
    "boton": "Seguir"
   }
  ],
  "frases": [
-  "@0.00|El rojo ayuda a mantener",
+  "@36.30|El rojo ayuda a mantener",
   "la *%rojo%presión arterial saludable.*",
-  "@2.25|El verde ayuda a niveles",
+  "@52.95|El verde ayuda a niveles",
   "*%verde%buenos de colesterol.*",
-  "@4.30|El naranja apoya",
+  "@59.92|El naranja apoya",
   "la *%naranja%salud intestinal.*",
-  "@6.13|El morado ayuda a mantener",
+  "@67.30|El morado ayuda a mantener",
   "niveles buenos de *%morado%azúcar en sangre.*",
-  "@8.53|El amarillo te ayuda con síntomas",
+  "@72.70|El amarillo te ayuda con síntomas",
   "como *%amarillo%náuseas o dolor estomacal.*",
-  "@10.78|Y si quieres saber más",
+  "@102.80|Y si quieres saber más",
   "sobre *pérdida de grasa y nutrición,*",
   "*sígueme.*"
  ],
  "eventos_extra": [
   {
-   "t": 0.02,
+   "t": 36.32,
    "type": "sub_drop"
   }
  ],
- "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
- "musica_desde": 0
+ "zooms": [],
+ "sin_subs": [],
+ "tiempos": "bruto",
+ "version": "v2",
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3",
+   "desde": 0,
+   "t0": 0
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
 }

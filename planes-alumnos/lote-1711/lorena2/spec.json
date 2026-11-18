@@ -18,7 +18,8 @@
   "bueno": "#D4AF37",
   "malo": "#C0392B",
   "clave_font": "playfair",
-  "mayusculas": false
+  "mayusculas": false,
+  "foto": "../_perfiles/jlenlacedigital.jpg"
  },
  "cara_y": 0.4,
  "degradado_desde": 0.58,
@@ -26,62 +27,95 @@
  "sombra": 240,
  "elementos": [
   {
-   "tipo": "texto",
-   "t0": 0.15,
-   "t1": 4.3,
-   "y": 1520,
-   "lineas": [
-    "Cada día que no publicas",
-    "*otro abogado se lleva al cliente*"
-   ],
-   "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 0.1,
+   "t1": 4.4,
+   "x": 540,
+   "y": 720,
+   "lado": 560,
+   "emoji": "👤",
+   "texto": "Cada día que no publicas…",
+   "tam": 66,
+   "orbita": [
+    {
+     "emoji": "⚖️",
+     "texto": "Tú: sin publicar",
+     "x": 260,
+     "y": 1290,
+     "lado": 230,
+     "t": 1.2,
+     "tam": 40
+    },
+    {
+     "emoji": "🏛️",
+     "texto": "Otro abogado se lo lleva",
+     "x": 800,
+     "y": 1290,
+     "lado": 230,
+     "t": 2.4,
+     "tam": 40
+    }
+   ]
   },
   {
-   "tipo": "texto",
-   "t0": 4.5,
-   "t1": 8.3,
-   "y": 1520,
-   "lineas": [
-    "La constancia",
-    "*también se entrena*"
-   ],
-   "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
-  },
-  {
-   "tipo": "texto",
-   "t0": 8.5,
+   "tipo": "calendario",
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 4.45,
    "t1": 11.6,
-   "y": 1520,
-   "lineas": [
-    "Un post hoy.",
-    "*Otro mañana.*"
+   "y": 640,
+   "ancho": 860,
+   "dias": 14,
+   "emoji": "📲",
+   "titulo": "La constancia también se entrena",
+   "t_llenar": [
+    4.9,
+    10.8
    ],
-   "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "orbita": [
+    {
+     "emoji": "📝",
+     "texto": "Un post hoy",
+     "x": 320,
+     "y": 1240,
+     "lado": 230,
+     "t": 8.5,
+     "tam": 40
+    },
+    {
+     "emoji": "📝",
+     "texto": "Otro mañana",
+     "x": 760,
+     "y": 1240,
+     "lado": 230,
+     "t": 9.6,
+     "tam": 40
+    }
+   ]
   },
   {
    "tipo": "texto",
    "t0": 11.8,
    "t1": 15.0,
-   "y": 1520,
+   "y": 1250,
    "lineas": [
     "Así se construye",
     "*un despacho que se ve*"
    ],
    "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "tam": 56,
+   "tam_esp": 76
   },
   {
    "tipo": "cta",
    "t0": 12.2,
    "t_clic": 13.4,
-   "y": 200,
+   "y": 260,
    "boton": "Seguir"
   }
  ],
@@ -92,5 +126,6 @@
   }
  ],
  "musica": "golden-hour-piano-version.mp3",
- "musica_desde": 0
+ "musica_desde": 0,
+ "version": "v2"
 }

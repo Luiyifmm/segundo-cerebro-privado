@@ -1,0 +1,48 @@
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+35 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/alessandro-col/eventos.json --video /private/tmp/claude-501/lote-
+checking the cue list against the picture (frame analysis of the render) ...
+sync: cannot be verified (2 wipe/hit/thump events, 2 of them near a picture change). Static camera, small objects or too few structural events: look at the frames (look.py --at T) around the first events before you trust the times.
+BAKED: the render's own audio has the declared sounds in it (onsets at 44% of the events vs 4% by chance, level at the events +10 dB vs +3 dB elsewhere): the synthesized layer is IN the audio.
+       there is music or voice under it and no usable stems. Real sounds on top would double the synthesized ones: ask for a render without the synthesized layer, or point base_audio at the project's own voice/music files (mix.py --base-audio).
+fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+34 cues from 34 events (0 dropped from runs faster than 14/s, 1 fused)
+declared 35 events: 34 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: pop=15, tick=14, whoosh=2, drop=1, hit=1, click=1
+routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, tick -> library:click, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (2), look at their frames:
+     0.47s  settle  strength 1.00  
+    26.00s  burst   strength 1.00  
+-> /private/tmp/claude-501/lote-1711/alessandro-col/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/alessandro-col/sfx/cues.json --out /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 --vo
+mono: 1 sound(s) have channels in opposite phase (they would lose 6+ dB on a phone speaker or vanish): each plays its louder channel on both sides (18.18s KF - UI Click - 1.mp3 r=-0.97; --no-mono-fix keeps them as recorded, mono=false on a cue keeps that one)
+SFX under speech (normal): 2.8 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 34 (34 library, 0 uisfx), 26 distinct files
+WARN the render's own audio contains the synthesized sounds this sheet replaces and is being KEPT: the new sounds will double them. Use base_audio (project stems), --base-audio, or --drop-original when that audio is only the synthesized layer.
+WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+video: /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -31.6 LUFS, final -16.5 LUFS, true peak -4.9 dBTP
+report: /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+ The ducking took them out: --voice-depth light (or normal), or a higher gain_db on those
+
+Listen to these 5 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'whoosh': the first sound of the film: the hook; also 'sub_drop' at 0.02s: the highest peak of the film (-10 dBFS before the master). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is it big without hurting on headphones, and does the music under it pump?
+  2.    9.73s  'pop': its peak sits -14 ms from the moment; its attack was moved 249 ms so that it lands on the moment. Listen for: does it feel early or late against the picture? / does the lead-in still read as part of the sound?
+  3.   14.93s  'pop': its peak sits -14 ms from the moment. Listen for: does it feel early or late against the picture?
+  4.   16.73s  'pop': 1 sound(s) on top of the voice, +6.0 dB against it. Listen for: is every word still understood?
+  5.   27.80s  'swoosh': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v copy 
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v2 lote (sin música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 32.534 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/90mh-but-it-s-a-chill-lofi-type-beat.mp3 -af afade=t=in:d=0.3,afade=t=out:st=30.534:d=2 -ar 48
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav -af volume=-8.00dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_0.wav.g.wav -t 32.534 /private/tmp/claude-501/lote-1711/alessandro-col/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alessandro-col/mus_cruda.wav -filter_complex [1:a]volume=0.00
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alessandro-col/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alessandro-col/mezcla_con_musica.wav -map 0:v -map 1:a -c:v copy 
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v2 lote (música).mp4 -14.0 LUFS

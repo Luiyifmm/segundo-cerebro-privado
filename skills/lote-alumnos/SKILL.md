@@ -44,3 +44,18 @@ Python de render: `~/Videos-Remotion/herramientas/entornos/whisperx/bin/python` 
 - Transcripción con frases repetidas en bucle o voz < −40 dB: repetir con `--modelo large-v3` (y `--ganancia`).
 - Un alumno que se contradice (palomitas «engordar porque son poco calóricas»): cortar la frase o preguntar, y decirlo en la auditoría.
 - Fotos de Mercadona sin navegador: NO es posible (su buscador va tras protección antibots). Seguir con el navegador integrado.
+
+## v2 (17/18-11, tras la auditoría de Luis) — herramientas y elementos nuevos
+Scripts nuevos en la carpeta del lote (`PLANES/lote-1711/`), todos sin tokens:
+- `cortes.py [carpeta…] [--arreglar]` → avisa de tramos que empiezan o terminan DENTRO de una palabra (Luis lo cazó 3 veces). Correr SIEMPRE antes de renderizar.
+- `margenes.py [carpeta…]` → cajas de cada elemento y de los subtítulos contra la zona segura de Reels (y 240–1580, x < 975). Correr SIEMPRE.
+- `muestra.py <carpeta> t1 t2 …` → pinta solo esos instantes (s del bruto) en una tira: probar antes de animar el vídeo entero.
+- `render_v2.sh <carpeta>` → anim + hoja + sonido seguidos (para lanzar en segundo plano y en cola).
+- `preparar_broll.py img…` (entorno ecc-taste) → capas para parallax: `.fg.png` (sujeto, Vision) y `.bg.png` (fondo con hueco rellenado).
+- `recorte_croma.py img…` (ecc-taste) → recorte de objetos de Flow sobre croma: Vision + clave verde solo en el borde → `.cut.png`.
+- `v1_a_bruto.py` → pasa un spec v1 (tiempos de montaje) a tiempos del bruto para rehacerlo.
+Elementos nuevos del spec: `broll` (imagen animada tipo AE: parallax 2.5D, empuje, grano, viñeta, `tinte` = degradado del color de marca, `texto_grande`, `etiquetas` = píldoras UI; `modo: ventana`), `post_ig` (imagen que se aleja hasta ser una publicación de Instagram), `mensaje` (chat con «escribiendo…»), `calendario` (`claro`, `por_dia`, `especial` con `emoji2`, `orbita`), `pildoras` con `ui: true` (mismo ancho, texto centrado) y `mover: [t, y]`, `tarjeta` con `suelta` + `desenfoca` + `grid` + `claro` + `orbita` (motion graphic centrado), `detras: true` (la persona recortada fotograma a fotograma queda delante: paso `sujeto`), CTA con `marca.foto`.
+Ajustes: `subs_tam` [relleno, clave] y `subs_ancho` (referencias: [44, 84] y 840, sub_y a la altura del pecho), `gancho: {zoom_out, sonido}`, `pregunta_xy`, `version` (nombre de salida), `musicas` (varias con cruce), `capas_sonido` (archivos concretos con t/dur/db/fades = J y L).
+Imágenes: Google Flow en el navegador integrado (Nano Banana = 0 créditos). Para recortar: «pure green screen background, flat solid chroma green #00FF00, evenly lit, no gradient, no shadows». En el agente de Flow, Intro NO envía: pulsar el botón. Bajar a 768×1376 desde la URL firmada `flow-content.google/image/…` del visor (curl sin cookies).
+Fallos arreglados en el generador (estaban en v1): tiempos ≥ 99 s no se pasaban al montaje (ahora solo 99 exacto = «hasta el final»); `sin_subs` no ocultaba subtítulos que empezaban dentro del rango; frase anclada sin palabras transcritas duraba 0 s.
+Recetas aprendidas: ver `0 CLAUDE EDITOR/4 ENTRENAMIENTO/PROPUESTAS DE REGLAS.md` § 2026-11-18 (PENDIENTES de Luis).

@@ -4,6 +4,16 @@
   "type": "whoosh"
  },
  {
+  "t": 0,
+  "type": "whoosh",
+  "len": 0.5
+ },
+ {
+  "t": 0.0,
+  "type": "hit",
+  "g": 0.6
+ },
+ {
   "t": 0.02,
   "type": "sub_drop"
  },
@@ -16,12 +26,12 @@
   "type": "swoosh"
  },
  {
-  "t": 4.5,
-  "type": "swoosh"
+  "t": 4.45,
+  "type": "pop"
  },
  {
-  "t": 8.5,
-  "type": "swoosh"
+  "t": 8.4,
+  "type": "pop"
  },
  {
   "t": 11.8,

@@ -19,7 +19,7 @@ for sp in sorted(glob.glob(os.path.join(L, '*', 'spec.json'))):
     S = json.load(open(sp)); d = os.path.dirname(sp); dur = sum(e - s for s, e in S['tramos'])
     tit = S.get('titulo_salida'); fallos = []; info = ''
     for var in (('música', 'sin música') if S.get('audio', 'voz') == 'voz' else ('música',)):
-        f = os.path.join(MEDIA, S['alumno'], f'{tit} - v1 lote ({var}).mp4')
+        f = os.path.join(MEDIA, S['alumno'], f"{tit} - {S.get('version', 'v1')} lote ({var}).mp4")
         if not os.path.exists(f): fallos.append(f'falta ({var})'); continue
         v, a, dd = sonda(f); lu, tp = medir(f); ng = negros(f)
         if (int(v.get('width', 0)), int(v.get('height', 0))) != (1080, 1920): fallos.append(f'{var}: tamaño {v.get("width")}x{v.get("height")}')
@@ -29,7 +29,9 @@ for sp in sorted(glob.glob(os.path.join(L, '*', 'spec.json'))):
         if var == 'música' and lu is not None and abs(lu + 14) > 0.6: fallos.append(f'{var}: {lu} LUFS')
         if tp is not None and tp > -0.9: fallos.append(f'{var}: pico real {tp} dBTP')
         if ng: fallos.append(f'{var}: negro en {", ".join(ng[:3])} s')
-        if var == 'música': info = f'{dd:.1f} s · {lu} LUFS · TP {tp}'
+        mb = os.path.getsize(f) / 1e6
+        if mb / max(dd, 1) > 1.9: fallos.append(f'{var}: pesa {mb:.0f} MB ({mb * 8 / max(dd, 1):.0f} Mbps)')
+        if var == 'música': info = f'{dd:.1f} s · {lu} LUFS · TP {tp} · {mb:.0f} MB'
     if not os.path.exists(os.path.join(d, 'hoja.jpg')): fallos.append('sin hoja.jpg')
     res.append({'video': os.path.basename(d), 'alumno': S['alumno'], 'info': info, 'fallos': fallos})
     print(('OK   ' if not fallos else 'FALLA'), f'{os.path.basename(d):16}', info, '| ' + '; '.join(fallos) if fallos else '')

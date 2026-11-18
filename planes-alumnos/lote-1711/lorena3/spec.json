@@ -18,7 +18,8 @@
   "bueno": "#D4AF37",
   "malo": "#C0392B",
   "clave_font": "playfair",
-  "mayusculas": false
+  "mayusculas": false,
+  "foto": "../_perfiles/jlenlacedigital.jpg"
  },
  "cara_y": 0.4,
  "degradado_desde": 0.58,
@@ -26,62 +27,124 @@
  "sombra": 240,
  "elementos": [
   {
+   "tipo": "broll",
+   "img": "../_flow/abogado-noche.png",
+   "t0": 0.0,
+   "t1": 4.4,
+   "grano": 9,
+   "vineta": 170,
+   "sentido": -1
+  },
+  {
    "tipo": "texto",
    "t0": 0.15,
    "t1": 4.3,
-   "y": 1520,
+   "y": 1250,
    "lineas": [
     "El salto de abogado local",
     "*a referente*"
    ],
    "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "tam": 56,
+   "tam_esp": 76
   },
   {
-   "tipo": "texto",
-   "t0": 4.5,
-   "t1": 8.3,
-   "y": 1520,
-   "lineas": [
-    "no se da",
-    "*de un día para otro*"
-   ],
-   "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 4.45,
+   "t1": 8.65,
+   "x": 540,
+   "y": 720,
+   "lado": 560,
+   "emoji": "📈",
+   "texto": "No se da de un día para otro",
+   "tam": 66,
+   "orbita": [
+    {
+     "emoji": "📍",
+     "texto": "Abogado local",
+     "x": 260,
+     "y": 1290,
+     "lado": 230,
+     "t": 5.0,
+     "tam": 40
+    },
+    {
+     "emoji": "⭐",
+     "texto": "Referente",
+     "x": 820,
+     "y": 1290,
+     "lado": 230,
+     "t": 6.6,
+     "tam": 40
+    }
+   ]
   },
   {
-   "tipo": "texto",
-   "t0": 8.5,
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "claro": true,
+   "t0": 8.4,
    "t1": 11.6,
-   "y": 1520,
-   "lineas": [
-    "Se prepara con",
-    "*estrategia y contenido*"
-   ],
-   "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "x": 540,
+   "y": 720,
+   "lado": 560,
+   "emoji": "🧠",
+   "texto": "Se prepara con estrategia y contenido",
+   "tam": 66,
+   "orbita": [
+    {
+     "emoji": "🎯",
+     "texto": "Estrategia",
+     "x": 230,
+     "y": 1290,
+     "lado": 230,
+     "t": 8.9,
+     "tam": 40
+    },
+    {
+     "emoji": "🎬",
+     "texto": "Contenido",
+     "x": 540,
+     "y": 1290,
+     "lado": 230,
+     "t": 9.5,
+     "tam": 40
+    },
+    {
+     "emoji": "📅",
+     "texto": "Constancia",
+     "x": 850,
+     "y": 1290,
+     "lado": 230,
+     "t": 10.1,
+     "tam": 40
+    }
+   ]
   },
   {
    "tipo": "texto",
    "t0": 11.8,
    "t1": 15.0,
-   "y": 1520,
+   "y": 1250,
    "lineas": [
     "¿Damos el salto juntos?",
     "*Sígueme*"
    ],
    "paso": 0.45,
-   "tam": 60,
-   "tam_esp": 100
+   "tam": 56,
+   "tam_esp": 76
   },
   {
    "tipo": "cta",
    "t0": 12.2,
    "t_clic": 13.4,
-   "y": 1180,
+   "y": 260,
    "boton": "Seguir"
   }
  ],
@@ -92,5 +155,6 @@
   }
  ],
  "musica": "golden-hour-piano-version.mp3",
- "musica_desde": 0
+ "musica_desde": 0,
+ "version": "v2"
 }

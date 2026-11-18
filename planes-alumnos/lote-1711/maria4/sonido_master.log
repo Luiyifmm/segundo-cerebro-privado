@@ -1,0 +1,9 @@
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/maria4/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/maria4/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxr
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/María Morales García/María - entrevista en la calle - v2 lote (sin música).mp4 -13.9 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 53.500 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/ardie-son-infinite-circles-no-backing-vocals.mp3 -af afade=t=in:d=0.3,afade=t=out:st=51.500:d=
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/mus_0.wav -af volume=-9.40dB,adelay=0|0 /private/tmp/claude-501/lote-1711/maria4/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/mus_0.wav.g.wav -t 53.500 /private/tmp/claude-501/lote-1711/maria4/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/maria4/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]am
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/maria4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/maria4/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -maxr
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/María Morales García/María - entrevista en la calle - v2 lote (música).mp4 -13.9 LUFS

@@ -1,0 +1,45 @@
+> /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
+17 eventos
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/lorena1/eventos.json --video /private/tmp/claude-501/lote-1711/lo
+checking the cue list against the picture (frame analysis of the render) ...
+sync: 100% of the declared wipes and hits sit on a picture change (median offset +0 ms): the list belongs to this render
+NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
+fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+16 cues from 16 events (0 dropped from runs faster than 14/s, 1 fused)
+declared 17 events: 16 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: whoosh=8, hit=2, pop=2, drop=1, riser=1, chime=1, click=1
+routes: chime -> library:chime, click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, riser -> library:riser, whoosh -> library:whoosh
+picture moments with no sound within 150 ms (1), look at their frames:
+    11.47s  burst   strength 1.00  
+-> /private/tmp/claude-501/lote-1711/lorena1/sfx/cues.json
+> python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/lorena1/sfx/cues.json --out /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx.mp4 --sfx-trim-db 0
+level: 6 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +3.8 dB at 4.50s; --no-level-roles keeps the peaks equal)
+cues: 16 (16 library, 0 uisfx), 16 distinct files
+WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+video: /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx.mp4
+sfx track: /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
+loudness: sfx -22.8 LUFS, final -22.8 LUFS, true peak -3.6 dBTP
+report: /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx_cue_report.md
+resolved cues: /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
+e to bury or to be buried by |
+| mono | 10.0 | the SFX track loses 0.1 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 16 sounds lose more than 6 dB; the film loses 0.5 LU in mono against 0.0 LU for the original (+0.5 added) |
+
+**FIX**: lowest axis 5.0 (every axis must reach 8; ok to show)
+
+Listen to these 3 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (4 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?
+  2.    7.50s  'riser': its attack was moved 350 ms so that it lands on the moment; the quietest by perceived loudness among the sounds that are not ticks. Listen for: does the lead-in still read as part of the sound? / can it be heard at all?
+  3.   13.40s  'click': the highest peak of the film (-5 dBFS before the master). Listen for: is it big without hurting on headphones, and does the music under it pump?
+  (--listen-out FILE.wav cuts them into one file of the film's own sound)
+
+Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
+
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/lorena1/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -ss 0 -t 9.500 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Hand Covers Bruise (HD) - From the Soundtrack to The Social Network.mp3 -af afade=t=
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/mus_0.wav -af volume=18.10dB,adelay=0|0 /private/tmp/claude-501/lote-1711/lorena1/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -ss 0 -t 6.700 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Golden Hour_ Piano Version.mp3 -af afade=t=in:d=1.2,afade=t=out:st=4.700:d=2 -ar 480
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/mus_1.wav -af volume=5.20dB,adelay=8300|8300 /private/tmp/claude-501/lote-1711/lorena1/mus_1.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/mus_0.wav.g.wav -i /private/tmp/claude-501/lote-1711/lorena1/mus_1.wav.g.wav -filter_complex [0:a][1:a]amix=inputs=2:normalize=
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/lorena1/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena1/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/lorena1/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados thrusters - v2 lote (música).mp4 -14.0 LUFS

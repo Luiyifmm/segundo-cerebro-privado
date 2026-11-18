@@ -1,0 +1,238 @@
+{
+ "alumno": "Álvaro Cabrera",
+ "video_id": "mwjouppp1f7pmdon",
+ "titulo_salida": "Álvaro - si te sientes hinchada",
+ "bruto": "bruto.mp4",
+ "palabras": "prep/palabras.json",
+ "hdr": true,
+ "tramos": [
+  [
+   0.0,
+   32.95
+  ],
+  [
+   33.25,
+   38.62
+  ],
+  [
+   42.0,
+   52.98
+  ]
+ ],
+ "marca": {
+  "nombre": "Álvaro Cabrera",
+  "inicial": "Á",
+  "usuario": "@alvarocabrerafitness",
+  "rol": "Hábitos sin dietas raras",
+  "bueno": "#A259FF",
+  "malo": "#FF5F57",
+  "clave_font": "sequel"
+ },
+ "cara_y": 0.3,
+ "sub_y": 1450,
+ "zooms": [
+  [
+   22.11,
+   22.7,
+   1.12
+  ],
+  [
+   34.83,
+   35.5,
+   1.1
+  ],
+  [
+   47.34,
+   47.95,
+   1.08
+  ]
+ ],
+ "transiciones": [
+  13.38,
+  38.32
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 0.1,
+   "t1": 3.4,
+   "y": 70,
+   "linea1": "Antes de tomarte nada…",
+   "linea2": "REVISA ESTO",
+   "col": "bueno"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 1.0,
+   "t1": 3.3,
+   "x": 880,
+   "y": 640,
+   "lado": 230,
+   "emoji": "💊",
+   "texto": "Todavía no",
+   "marca": "no",
+   "t_marca": 1.44
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 3.72,
+   "t1": 7.1,
+   "x": 540,
+   "y": 230,
+   "lado": 280,
+   "emoji": "👩",
+   "texto": "Clienta · 27 años",
+   "blanca": true
+  },
+  {
+   "tipo": "pildoras",
+   "t1": 13.3,
+   "y": 60,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 8.74,
+     "texto": "−4 kg en 21 días"
+    },
+    {
+     "t": 11.86,
+     "texto": "Adiós abdomen hinchado"
+    },
+    {
+     "t": 12.82,
+     "texto": "Sin pastillas raras"
+    }
+   ]
+  },
+  {
+   "tipo": "pildoras",
+   "t1": 27.05,
+   "y": 60,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 15.4,
+     "texto": "1 · Ultraprocesados",
+     "marca": "no"
+    },
+    {
+     "t": 19.77,
+     "texto": "2 · Poca agua",
+     "marca": "no"
+    },
+    {
+     "t": 24.59,
+     "texto": "3 · Saltarse comidas",
+     "marca": "no"
+    }
+   ]
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 30.41,
+   "t1": 32.8,
+   "x": 540,
+   "y": 230,
+   "lado": 280,
+   "emoji": "😊",
+   "texto": "Confianza",
+   "blanca": true
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 34.83,
+   "t1": 38.2,
+   "x": 540,
+   "y": 230,
+   "lado": 280,
+   "emoji": "🩺",
+   "texto": "Ve a tu médico",
+   "marca": "si",
+   "blanca": true
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 39.74,
+   "t1": 43.3,
+   "x": 330,
+   "y": 230,
+   "lado": 260,
+   "emoji": "💊",
+   "texto": "Bote",
+   "marca": "no",
+   "t_marca": 39.9
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 41.48,
+   "t1": 43.3,
+   "x": 750,
+   "y": 230,
+   "lado": 260,
+   "emoji": "🥗",
+   "texto": "Hábitos",
+   "marca": "si",
+   "blanca": true
+  },
+  {
+   "tipo": "cta",
+   "t0": 45.3,
+   "t_clic": 46.3,
+   "y": 120,
+   "boton": "Mensaje",
+   "boton_hecho": "Enviado ✓"
+  }
+ ],
+ "frases": [
+  "Si te sientes *!hinchada,*",
+  "no te tomes *nada todavía.*",
+  "Primero, revisa *tus hábitos.*",
+  "Una clienta mía de *27 años*",
+  "me escribió porque siempre",
+  "se sentía *!hinchada.*",
+  "En sus primeros *21 días*",
+  "bajó *4 kilos,*",
+  "entre grasa y *retención de líquidos,*",
+  "y dejó de tener el abdomen *hinchado,*",
+  "sin *pastillas raras.*",
+  "¿Y qué es lo que *miré con ella?*",
+  "Primero, los *!ultraprocesados*",
+  "y lo que picaba durante el día",
+  "sin *darse cuenta.*",
+  "Segundo, ¿cuánta *agua*",
+  "bebía *de verdad*",
+  "a lo largo del día?",
+  "Spoiler: *!muy poca.*",
+  "Y tercero, ¿qué es lo que *más cambió?*",
+  "Dejó de *!saltarse comidas*",
+  "para luego llegar a la cena",
+  "con un *!hambre tremenda.*",
+  "Y con estas *tres cosas*",
+  "y mejorar sus *hábitos de alimentación,*",
+  "empezó a verse *mucho mejor*",
+  "y recuperar su *confianza.*",
+  "Eso sí, si la *!hinchazón*",
+  "no se va o te molesta *mucho,*",
+  "ve a *tu médico,*",
+  "esto *siempre por delante,*",
+  "porque puedes tener otros *problemas digestivos.*",
+  "Muchas veces la hinchazón",
+  "no sale con un *!bote de suplementos,*",
+  "sale cambiando *pequeños hábitos*",
+  "que puedes mantener en tu *día a día.*",
+  "Si te sientes así",
+  "y no sabes por dónde *empezar,*",
+  "*escríbeme por mensaje*",
+  "y te mando *mi guía*",
+  "para cambiar hábitos *poco a poco*",
+  "de manera *sostenible.*"
+ ],
+ "eventos_extra": [
+  {
+   "t": 0.02,
+   "type": "sub_drop"
+  }
+ ],
+ "musica": "phoenix-1901-instrumental-hq.mp3",
+ "musica_desde": 0
+}

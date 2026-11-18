@@ -7,10 +7,10 @@
  "tramos": [
   [
    0.0,
-   0.66
+   0.7
   ],
   [
-   2.02,
+   2.05,
    4.25
   ],
   [
@@ -25,24 +25,24 @@
   "rol": "Pérdida de grasa para mujeres",
   "bueno": "#34C759",
   "malo": "#FF3B30",
-  "clave_font": "montserrat"
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/alessmartin.fitness.jpg"
  },
  "cara_y": 0.36,
- "sub_y": 990,
+ "sub_y": 1000,
  "degradado_desde": 0.55,
  "degradado_fuerza": 200,
  "elementos": [
   {
    "tipo": "columnas",
    "t0": 0.0,
-   "t1": 30.44,
-   "y": 1260,
-   "alto": 620,
-   "y_flota": 330,
+   "t1": 31.95,
+   "y": 1180,
+   "alto": 400,
+   "y_flota": 380,
    "lado_flota": 230,
-   "lado_item": 150,
-   "celda": 265,
-   "titulo": "Picoteos de Mercadona: ¿adelgaza o engorda?",
+   "lado_item": 120,
+   "celda": 180,
    "rodeo_x": 540,
    "rodeo_y": 700,
    "cabeceras": [
@@ -56,66 +56,67 @@
    "items": [
     {
      "t": 0.07,
-     "t_col": 0.99,
+     "t_col": 2.35,
      "col": 0,
      "texto": "Palomitas",
      "img": "../_fotos-mercadona/palomitas.jpg",
      "largo": "Palomitas caseras"
     },
     {
-     "t": 2.94,
-     "t_col": 8.28,
+     "t": 4.45,
+     "t_col": 9.79,
      "col": 1,
      "texto": "Frutos secos*",
      "img": "../_fotos-mercadona/frutos-secos.jpg",
      "largo": "Frutos secos"
     },
     {
-     "t": 9.06,
-     "t_col": 10.44,
+     "t": 10.57,
+     "t_col": 11.95,
      "col": 1,
      "texto": "Digestive",
      "img": "../_fotos-mercadona/digestive.jpg",
      "largo": "Galletas Digestive"
     },
     {
-     "t": 12.44,
-     "t_col": 13.96,
+     "t": 13.95,
+     "t_col": 15.47,
      "col": 1,
      "texto": "Tortitas choco",
      "img": "../_fotos-mercadona/tortitas-chocolate.jpg",
      "largo": "Tortitas con chocolate"
     },
     {
-     "t": 18.1,
-     "t_col": 19.03,
+     "t": 19.61,
+     "t_col": 20.54,
      "col": 0,
      "texto": "Sandía",
      "emoji": "🍉"
     },
     {
-     "t": 23.55,
-     "t_col": 24.45,
+     "t": 25.06,
+     "t_col": 25.96,
      "col": 0,
      "texto": "Pepinillos",
      "img": "../_fotos-mercadona/pepinillos.jpg"
     },
     {
-     "t": 25.83,
-     "t_col": 26.85,
+     "t": 27.34,
+     "t_col": 28.36,
      "col": 0,
      "texto": "Helado mango",
      "img": "../_fotos-mercadona/helado-mango.jpg",
      "largo": "Helado de mango"
     }
-   ]
+   ],
+   "ancho": 870
   },
   {
    "tipo": "tarjeta",
-   "t0": 16.46,
-   "t1": 17.94,
+   "t0": 17.97,
+   "t1": 19.45,
    "x": 540,
-   "y": 330,
+   "y": 410,
    "lado": 300,
    "img": "../_fotos-mercadona/tortitas-legumbres.jpg",
    "texto": "Mejor: de legumbre",
@@ -124,7 +125,7 @@
   },
   {
    "tipo": "pill",
-   "t0": 33.76,
+   "t0": 35.27,
    "t1": 99,
    "y": 600,
    "emoji": "💬",
@@ -133,7 +134,7 @@
   },
   {
    "tipo": "cta",
-   "t0": 33.76,
+   "t0": 35.27,
    "y": 300,
    "boton": "Seguir"
   }
@@ -183,6 +184,20 @@
    "type": "sub_drop"
   }
  ],
- "musica": "90mh-but-it-s-a-chill-lofi-type-beat.mp3",
- "musica_desde": 0
+ "zooms": [],
+ "transiciones": [],
+ "tiempos": "bruto",
+ "version": "v2",
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Wild Cherry - Play That Funky Music (instrumental).mp3",
+   "desde": 0,
+   "t0": 0
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
 }

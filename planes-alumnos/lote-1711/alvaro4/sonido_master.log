@@ -1,0 +1,11 @@
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v2 lote (sin música).mp4 -14.0 LUFS
+> ffmpeg -v error -nostdin -y -ss 63 -t 14.380 -i /Users/luiyi/EDICION/editing luiyi pack/Música/musica clasica suspensa.mp3 -af afade=t=in:d=0.3,afade=t=out:st=13.380:d=1.0 -ar 48000 -ac 2 /private/tmp
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav -af volume=0.50dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -ss 0 -t 36.387 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Golden Hour_ Piano Version.mp3 -af afade=t=in:d=1.0,afade=t=out:st=34.387:d=2 -ar 4
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav -af volume=-6.00dB,adelay=13380|13380 /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav.g.wav -i /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav.g.wav -filter_complex [0:a][1:a]amix=inputs=2:normalize=
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alvaro4/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v2 lote (música).mp4 -14.0 LUFS

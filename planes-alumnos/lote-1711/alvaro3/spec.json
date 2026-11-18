@@ -18,10 +18,11 @@
   "rol": "Hábitos sin dietas raras",
   "bueno": "#A259FF",
   "malo": "#FF5F57",
-  "clave_font": "sequel"
+  "clave_font": "sequel",
+  "foto": "../_perfiles/alvarocabrerafitness.jpg"
  },
  "cara_y": 0.3,
- "sub_y": 1600,
+ "sub_y": 1150,
  "degradado_desde": 0.66,
  "zooms": [
   [
@@ -55,73 +56,157 @@
    "tipo": "titulo",
    "t0": 0.1,
    "t1": 2.95,
-   "y": 90,
+   "y": 250,
    "linea1": "¿Qué prefieres comer un año?",
    "linea2": "¿ESTO… O ESTO?",
    "col": "bueno"
   },
   {
-   "tipo": "pill",
-   "t0": 3.67,
-   "t1": 11.9,
-   "x": 800,
-   "y": 1090,
-   "emoji": "🥱",
-   "texto": "La de siempre",
-   "col": "crema",
-   "tam": 34
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "t0": 3.35,
+   "t1": 5.92,
+   "x": 540,
+   "y": 820,
+   "lado": 620,
+   "img": "platos/der.cut.png",
+   "texto": "El plato de siempre",
+   "tam": 70,
+   "orbita": [
+    {
+     "emoji": "🍗",
+     "x": 180,
+     "y": 520,
+     "lado": 150,
+     "texto": "Pollo",
+     "t": 3.67
+    },
+    {
+     "emoji": "🍚",
+     "x": 880,
+     "y": 520,
+     "lado": 150,
+     "texto": "Arroz",
+     "t": 3.99
+    },
+    {
+     "emoji": "🥦",
+     "x": 180,
+     "y": 1340,
+     "lado": 150,
+     "texto": "Brócoli",
+     "t": 4.29
+    },
+    {
+     "emoji": "⚖️",
+     "x": 880,
+     "y": 1340,
+     "lado": 150,
+     "texto": "Todo pesado",
+     "t": 4.77
+    }
+   ],
+   "claro": true
   },
   {
-   "tipo": "titulo",
-   "t0": 6.03,
-   "t1": 7.05,
-   "y": 90,
-   "linea1": "Lo aguantas…",
-   "linea2": "1 SEMANA",
-   "col": "malo"
-  },
-  {
-   "tipo": "titulo",
-   "t0": 7.07,
-   "t1": 8.0,
-   "y": 90,
-   "linea1": "Lo aguantas…",
-   "linea2": "2 SEMANAS",
-   "col": "malo"
-  },
-  {
-   "tipo": "titulo",
-   "t0": 8.05,
+   "tipo": "calendario",
+   "desenfoca": true,
+   "grid": true,
+   "t0": 5.97,
    "t1": 9.75,
-   "y": 90,
-   "linea1": "con mucha suerte…",
-   "linea2": "3 SEMANAS",
-   "col": "malo"
+   "y": 760,
+   "dias": 21,
+   "img": "platos/der.cut.png",
+   "titulo": "Lo aguantas…",
+   "t_llenar": [
+    6.1,
+    9.1
+   ],
+   "ancho": 820,
+   "claro": true,
+   "orbita": [
+    {
+     "emoji": "📅",
+     "texto": "1 semana",
+     "x": 230,
+     "y": 1290,
+     "lado": 130,
+     "t": 6.55
+    },
+    {
+     "emoji": "📅",
+     "texto": "2 semanas",
+     "x": 540,
+     "y": 1290,
+     "lado": 130,
+     "t": 7.43
+    },
+    {
+     "emoji": "🍀",
+     "texto": "3, con suerte",
+     "x": 850,
+     "y": 1290,
+     "lado": 130,
+     "t": 9.07
+    }
+   ]
   },
   {
    "tipo": "titulo",
    "t0": 10.62,
    "t1": 12.2,
-   "y": 90,
+   "y": 250,
    "linea1": "Y luego…",
    "linea2": "VUELVES AL DE ANTES",
-   "col": "malo"
+   "col": "bueno"
   },
   {
-   "tipo": "pill",
-   "t0": 12.54,
-   "t1": 16.0,
-   "x": 280,
-   "y": 1090,
-   "emoji": "😋",
-   "texto": "Rico y rápido",
-   "col": "bueno",
-   "tam": 34
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "grid": true,
+   "t0": 12.34,
+   "t1": 16.05,
+   "x": 540,
+   "y": 820,
+   "lado": 640,
+   "img": "platos/izq.cut.png",
+   "texto": "Este sí lo repites",
+   "tam": 70,
+   "orbita": [
+    {
+     "emoji": "😋",
+     "x": 180,
+     "y": 520,
+     "lado": 150,
+     "texto": "Rico",
+     "t": 13.68
+    },
+    {
+     "emoji": "🤤",
+     "x": 880,
+     "y": 520,
+     "lado": 150,
+     "texto": "Te sacia",
+     "t": 14.38
+    },
+    {
+     "emoji": "⏱️",
+     "x": 540,
+     "y": 1340,
+     "lado": 150,
+     "texto": "En minutos",
+     "t": 15.34
+    }
+   ],
+   "claro": true
   },
   {
    "tipo": "pildoras",
    "t1": 23.5,
-   "y": 80,
+   "y": 250,
    "lado": "centro",
    "items": [
     {
@@ -139,27 +224,58 @@
   {
    "tipo": "titulo",
    "t0": 23.64,
-   "t1": 26.55,
-   "y": 90,
+   "t1": 25.4,
+   "y": 250,
    "linea1": "El plato perfecto",
    "linea2": "NO SIRVE DE NADA",
-   "col": "malo"
+   "col": "bueno"
   },
   {
-   "tipo": "tarjeta",
-   "t0": 25.64,
-   "t1": 26.55,
-   "x": 860,
-   "y": 720,
-   "lado": 220,
-   "emoji": "🔟",
-   "texto": "Día 10",
-   "marca": "no"
+   "tipo": "calendario",
+   "desenfoca": true,
+   "grid": true,
+   "t0": 25.42,
+   "t1": 27.05,
+   "y": 780,
+   "dias": 10,
+   "img": "platos/der.cut.png",
+   "titulo": "Si lo dejas al día 10…",
+   "t_llenar": [
+    25.5,
+    25.95
+   ],
+   "especial": {
+    "dia": 10,
+    "t": 26.07,
+    "img": "../_flow/nuevas/pizza.cut.png",
+    "emoji2": "😂",
+    "t2": 26.37
+   },
+   "ancho": 820,
+   "claro": true,
+   "orbita": [
+    {
+     "emoji": "🍕",
+     "texto": "Día 10",
+     "x": 330,
+     "y": 1180,
+     "lado": 150,
+     "t": 26.07
+    },
+    {
+     "emoji": "😂",
+     "texto": "Lo abandonas",
+     "x": 750,
+     "y": 1180,
+     "lado": 150,
+     "t": 26.37
+    }
+   ]
   },
   {
    "tipo": "pildoras",
    "t1": 31.0,
-   "y": 80,
+   "y": 250,
    "lado": "centro",
    "items": [
     {
@@ -178,7 +294,7 @@
    "tipo": "cta",
    "t0": 32.7,
    "t_clic": 32.95,
-   "y": 120,
+   "y": 250,
    "boton": "Seguir"
   }
  ],
@@ -191,23 +307,23 @@
   "puede que *dos,*",
   "o con mucha suerte, *tres.*",
   "Y luego, ¿qué pasa?",
-  "Que lo dejas y *!vuelves al de antes.*",
+  "Que lo dejas y *vuelves al de antes.*",
   "Ahora mira *este.*",
   "Está *rico,*",
   "te sacia y se hace *en minutos.*",
   "Y la mayoría de las veces,",
   "por no decir *absolutamente todas,*",
   "lo que te ayuda realmente",
-  "no es *!comer menos y peor.*",
+  "no es *comer menos y peor.*",
   "Lo que te ayuda es comer algo",
   "que te apetezca *repetir.*",
   "Porque el plato perfecto",
-  "no te sirve *!de nada*",
-  "si lo abandonas *!al décimo día.*",
-  "La mejor dieta no es *!la más estricta,*",
+  "no te sirve *de nada*",
+  "si lo abandonas *al décimo día.*",
+  "La mejor dieta no es *la más estricta,*",
   "es la que puedes *mantener,*",
   "porque si odias lo que comes,",
-  "el *!rebote está asegurado.*",
+  "el *rebote está asegurado.*",
   "*Sígueme* para más platos",
   "que no te hagan *odiar la dieta.*"
  ],
@@ -215,8 +331,43 @@
   {
    "t": 0.02,
    "type": "sub_drop"
+  },
+  {
+   "t": 5.3,
+   "type": "riser",
+   "len": 0.7
+  },
+  {
+   "t": 24.9,
+   "type": "riser",
+   "len": 0.6
   }
  ],
  "musica": "phoenix-1901-instrumental-hq.mp3",
- "musica_desde": 0
+ "musica_desde": 0,
+ "version": "v2",
+ "tiempos": "bruto",
+ "sin_subs": [
+  [
+   5.97,
+   9.75
+  ],
+  [
+   25.42,
+   27.05
+  ],
+  [
+   3.35,
+   5.92
+  ],
+  [
+   12.34,
+   16.05
+  ]
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
 }

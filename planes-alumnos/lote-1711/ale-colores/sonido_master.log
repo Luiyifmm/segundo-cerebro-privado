@@ -1,0 +1,9 @@
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -cr
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v2 lote (sin música).mp4 -13.6 LUFS
+> ffmpeg -v error -nostdin -y -ss 0 -t 14.300 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3 -af afade=t=in:d=0.3,afad
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav -af volume=-10.90dB,adelay=0|0 /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav.g.wav -t 14.300 /private/tmp/claude-501/lote-1711/ale-colores/mus_cruda.wav
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-colores/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -cr
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v2 lote (música).mp4 -14.0 LUFS

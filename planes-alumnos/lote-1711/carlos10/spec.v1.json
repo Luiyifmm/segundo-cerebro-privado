@@ -1,0 +1,251 @@
+{
+ "alumno": "Carlos López Segura",
+ "video_id": "mwl5jrup90lrue1o",
+ "titulo_salida": "Carlos - 3 errores por los que no bajas la barriga",
+ "bruto": "bruto.mov",
+ "palabras": "prep/palabras.json",
+ "tiempos": "bruto",
+ "tramos": [
+  [
+   1.15,
+   5.6
+  ],
+  [
+   7.7,
+   11.6
+  ],
+  [
+   12.0,
+   14.7
+  ],
+  [
+   16.7,
+   19.5
+  ],
+  [
+   19.75,
+   27.1
+  ],
+  [
+   30.05,
+   32.45
+  ],
+  [
+   35.35,
+   38.5
+  ],
+  [
+   39.55,
+   42.8
+  ],
+  [
+   43.45,
+   55.05
+  ],
+  [
+   55.1,
+   62.0
+  ],
+  [
+   62.95,
+   71.4
+  ]
+ ],
+ "marca": {
+  "nombre": "Carlos López",
+  "inicial": "C",
+  "usuario": "@carloslopseg",
+  "rol": "Entrenador · nutrición sin excusas",
+  "bueno": "#FFC233",
+  "malo": "#FF453A",
+  "clave_font": "montserrat"
+ },
+ "cara_y": 0.3,
+ "sub_y": 1500,
+ "zooms": [
+  [
+   1.15,
+   5.6,
+   1.08
+  ],
+  [
+   16.8,
+   19.4,
+   1.12
+  ],
+  [
+   30.17,
+   32.4,
+   1.12
+  ],
+  [
+   43.56,
+   45.42,
+   1.12
+  ],
+  [
+   55.21,
+   61.9,
+   1.06
+  ]
+ ],
+ "transiciones": [
+  7.7,
+  16.7,
+  30.05,
+  43.45,
+  62.95
+ ],
+ "frases": [
+  "@1.29|¿Comes bien",
+  "y *!no bajas la barriga?*",
+  "No es tu genética,",
+  "son *estos tres errores.*",
+  "@7.84|Un cliente mío de 34 años",
+  "me decía lo mismo:",
+  "«Carlos, *yo como bien»*.",
+  "@12.14|Los quitamos",
+  "y bajó *20 kilos en 3 meses.*",
+  "@16.80|*Error número 1:*",
+  "comer sano",
+  "*!no es comer poco.*",
+  "@19.85|El aceite a chorro,",
+  "@21.11|puñado de frutos secos,",
+  "@22.61|el plato de arroz integral hasta arriba,",
+  "sí, todo muy sano",
+  "y *!todo suma.*",
+  "@30.17|*Error número 2:*",
+  "te quedas *!corto de proteína.*",
+  "@35.45|Comes,",
+  "a la hora tienes hambre otra vez",
+  "y *!acabas picando.*",
+  "@39.68|Y encima, si quieres",
+  "*mantener músculo* mientras bajas,",
+  "la necesitas.",
+  "@43.56|*El tercero,*",
+  "el que más gente frena.",
+  "@45.44|El viernes, *!cena.*",
+  "@47.57|El sábado, *!cañas.*",
+  "@49.03|El domingo, «total,",
+  "@50.81|ya el lunes comienzo».",
+  "@52.35|Y lo que habías conseguido",
+  "en toda una semana",
+  "*!se va en dos días.*",
+  "@55.21|La barriga *!no baja* por comer limpio,",
+  "la barriga baja",
+  "cuando *comes menos* de lo que necesitas",
+  "*los siete días* de la semana,",
+  "no los cuatro.",
+  "@63.05|Y si quieres saber",
+  "cuáles son *tus tres errores,*",
+  "escríbeme *CAMBIO* por mensaje",
+  "y me cuentas tu peso,",
+  "cómo entrenas y qué comes.",
+  "Y te lo digo *gratis.*"
+ ],
+ "elementos": [
+  {
+   "tipo": "titulo",
+   "t0": 1.2,
+   "t1": 5.5,
+   "y": 120,
+   "linea1": "¿Comes bien y no bajas barriga?",
+   "linea2": "3 ERRORES",
+   "col": "bueno"
+  },
+  {
+   "tipo": "pill",
+   "t0": 12.98,
+   "t1": 14.6,
+   "y": 1140,
+   "emoji": "📉",
+   "texto": "−20 kg en 3 meses",
+   "col": "bueno"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 16.8,
+   "t1": 19.45,
+   "y": 120,
+   "linea1": "Error 1",
+   "linea2": "SANO ≠ POCO",
+   "col": "malo"
+  },
+  {
+   "tipo": "pildoras",
+   "t0": 20.41,
+   "t1": 27.0,
+   "y": 1060,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 20.41,
+     "emoji": "🫒",
+     "texto": "Aceite a chorro"
+    },
+    {
+     "t": 21.55,
+     "emoji": "🥜",
+     "texto": "Puñado de frutos secos"
+    },
+    {
+     "t": 23.09,
+     "emoji": "🍚",
+     "texto": "Arroz hasta arriba"
+    }
+   ]
+  },
+  {
+   "tipo": "titulo",
+   "t0": 30.17,
+   "t1": 32.4,
+   "y": 120,
+   "linea1": "Error 2",
+   "linea2": "POCA PROTEÍNA",
+   "col": "malo"
+  },
+  {
+   "tipo": "titulo",
+   "t0": 43.56,
+   "t1": 45.45,
+   "y": 120,
+   "linea1": "Error 3",
+   "linea2": "EL FINDE",
+   "col": "malo"
+  },
+  {
+   "tipo": "pildoras",
+   "t0": 46.12,
+   "t1": 51.7,
+   "y": 1060,
+   "lado": "centro",
+   "items": [
+    {
+     "t": 46.12,
+     "emoji": "🍕",
+     "texto": "Viernes: cena"
+    },
+    {
+     "t": 47.69,
+     "emoji": "🍺",
+     "texto": "Sábado: cañas"
+    },
+    {
+     "t": 49.17,
+     "emoji": "🛋️",
+     "texto": "Domingo: «ya el lunes…»"
+    }
+   ]
+  },
+  {
+   "tipo": "cta",
+   "t0": 63.1,
+   "t_clic": 66.1,
+   "y": 140,
+   "boton": "Mensaje",
+   "boton_hecho": "CAMBIO ✓"
+  }
+ ],
+ "musica": "divkid-parisian-funk.mp3",
+ "musica_desde": 0
+}

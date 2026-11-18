@@ -1,6 +1,6 @@
 {
- "fecha": "17-11",
- "intro": "Cada vídeo es una v1 hecha sin tu aprobación previa del plan (lo pediste así para corregir después). Nada está subido al panel ni entregado. Marca cada decisión «Vale» o «Cambiar», escribe qué harías tú, y pulsa «Copiar correcciones» arriba: pégamelo en el chat. Se guarda solo en este navegador. Los MP4 que suenan aquí son los «(música)»; al lado, en MEDIA, está la versión sin música. Nada se ha oído con oídos humanos: niveles medidos, no escuchados. OJO (17-11 noche): en el dashboard de Trainer10x, los vídeos de «Para revisar» son las versiones del EDITOR AUTOMÁTICO (rehechas tras «rehacer desde cero»), no las de esta auditoría; 4 de este lote ya están «Entregados» (versión automática) y María sigue «Con problemas». Nada de esta auditoría está subido. Cada tarjeta trae ahora el estado en el dashboard, la nota del alumno, sus correcciones y el guion.",
+ "fecha": "18-11 v2",
+ "intro": "v2 con tus correcciones del 17-11 (y Carlos #10 y Jorge con mi criterio). Común a todos: subtítulos al estilo de tus referencias (pequeños, a la altura del pecho), márgenes de Instagram comprobados con margenes.py, cortes a media palabra comprobados con cortes.py, foto de perfil de Instagram en el CTA, imágenes de Google Flow animadas tipo After Effects. Nada subido ni entregado. Marca «Vale/Cambiar» y pulsa «Copiar correcciones». La v1 sigue en auditoria.v1.html.",
  "fuera": [
   "Paula Font ×4 («Semana 1 vídeo 1 sin voz»): son los clips sueltos de un vídeo que ya se entregó el 16-11 (otra subida con el mismo título). Propuesta: archivarlos.",
   "Miguel Á. Romero #1 (sketch del marido en el baño): el bruto es el MISMO archivo que el #2 ya entregado (76 441 765 bytes). Falta que suba el sketch de verdad.",
@@ -13,67 +13,31 @@
    "clave": "alessandro-col",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Qué comer y cada cuánto",
-   "estado": "nuevo (antes: error)",
-   "meta": "32,5 s · sin cortes (ya venía limpio) · −14 LUFS · vídeo mwjr0dgk3rrbwxc3",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "32.5 s · −14 LUFS · v2 18-11 · vídeo mwjr0dgk3rrbwxc3",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v2 lote (música).mp4",
    "hoja": "alessandro-col/hoja.jpg",
    "pedido": "Tres columnas (una vez a la semana / al día / al mes); ir poniendo cada alimento en su columna según lo dice; al final, su perfil y el formulario.",
    "decisiones": [
     {
-     "zona": "Formato",
-     "que": "Columnas de cristal en la mitad de abajo (sobre el pecho); la cara siempre libre.",
-     "porque": "Arriba solo hay 500 px de pared; abajo caben las 3 columnas con 7 alimentos en «todos los días»."
+     "zona": "Imágenes",
+     "que": "Todos los alimentos con FOTO real (Flow sobre croma, recortados): vacuno, huevos, manzana, queso, aceite, vino, arroz, brócoli, aguacate, salchichas, agua, pizza, tarta, pollo.",
+     "porque": "Tu corrección."
     },
     {
-     "zona": "Mecánica",
-     "que": "Cada alimento aparece grande arriba al nombrarlo y vuela a su columna cuando dice la frecuencia; rodea la cara por la derecha.",
-     "porque": "Es lo que pidió («como tú lo vayas viendo»). En la 1.ª versión volaba sobre la cara: corregido."
+     "zona": "Título",
+     "que": "Quitado «¿Cada cuánto lo comes?» (tapaba su cara). Columnas más bajas y estrechas para respetar los márgenes de Instagram; no hizo falta subirle.",
+     "porque": ""
     },
     {
-     "zona": "Columnas",
-     "que": "«A LA SEMANA» (crema) · «TODOS LOS DÍAS» (verde) · «1 VEZ AL MES» (rojo). Vacuno y arroz van a «semana» con «2×».",
-     "porque": "Dice «dos veces a la semana»; no hay columna de 2×."
-    },
-    {
-     "zona": "Emojis",
-     "que": "Emojis de Apple como imágenes (🥩🍳🍓🧀🫒🍷🍚🥦🥑🍟💧🍕🍰🍗). Ultraprocesado = 🍟 «Procesado».",
-     "porque": "Imágenes de fuera del vídeo (tu L9); sin descargar nada."
-    },
-    {
-     "zona": "Subtítulos",
-     "que": "Sin subtítulos mientras salen las columnas (0–26 s); después, apilados: relleno SF blanco + clave Montserrat Black verde.",
-     "porque": "La columna ya es el texto; doble texto taparía el pecho entero."
-    },
-    {
-     "zona": "Texto",
-     "que": "He escrito «no dejes de seguirme» y «y eres una mujer ocupada» (la transcripción dice «no lo dejen seguirme», «ayer es una mujer»).",
-     "porque": "Corrijo lo que creo que dice; compruébalo oyéndolo."
-    },
-    {
-     "zona": "Marca",
-     "que": "Sin marca definida: verde #34C759 / rojo #FF3B30, Montserrat Black.",
-     "porque": "No está en «Marcas alumnos»; propuesta mía."
-    },
-    {
-     "zona": "Cierre",
-     "que": "Tarjeta @alessmartin.fitness con «Seguir → Siguiendo» al decir «seguirme» y píldora «📝 Formulario en mi bio».",
-     "porque": "Lo pidió."
-    },
-    {
-     "zona": "Sonido",
-     "que": "Pop al aparecer cada alimento, clic suave al aterrizar, whoosh + golpe grave en el gancho. Crítica: variedad 7, audibilidad 6,3, voz 8,5.",
-     "porque": "Pops rotados entre 9 grabaciones de tu biblioteca."
-    },
-    {
-     "zona": "Música",
-     "que": "Lo-fi «90mh chill lofi type beat», −25 LUFS bajo la voz.",
-     "porque": "Propuesta mía (no tiene música asignada): neutra para una lista."
+     "zona": "CTA",
+     "que": "Foto de perfil de Instagram en el CTA.",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Que «Alessandro» quiera su Instagram en el cierre en vez del nombre.",
-    "En 2 vuelos el alimento pasa cerca de la barbilla durante 0,3 s."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/alessandro-col.mp4",
    "panel": {
@@ -94,72 +58,57 @@
    "clave": "alvaro4",
    "alumno": "Álvaro Cabrera",
    "titulo": "Si te sientes hinchada",
-   "estado": "nuevo (antes: error)",
-   "meta": "49,3 s (bruto 53,5) · HDR → SDR · −14 LUFS · vídeo mwjouppp1f7pmdon",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "49.8 s · −14 LUFS · v2 18-11 · vídeo mwjouppp1f7pmdon",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v2 lote (música).mp4",
    "hoja": "alvaro4/hoja.jpg",
    "pedido": "Ya cortado (córtalo más si hace falta); subtítulos dinámicos no aburridos; música acorde; SFX puntuales; transiciones; título del gancho; motion graphics para más estímulos.",
    "decisiones": [
     {
-     "zona": "Corte",
-     "que": "Quitado «como una clienta mía con la que poco a poco lo estamos mejorando» (3,4 s) y dos pausas.",
-     "porque": "Frase enredada que no suma; él permitió cortar más."
-    },
-    {
-     "zona": "Color",
-     "que": "Clave en MORADO #A259FF (lo bueno) y rojo #FF5F57 (lo malo), Sequel Heavy.",
-     "porque": "En su vídeo #3 pidió morado y su sudadera es morada. Choca con la marca (azul #3A86FF) que decidiste para el vídeo «lunes»."
-    },
-    {
-     "zona": "Gancho",
-     "que": "Zoom out con enfoque + golpe grave y whoosh; tarjeta «Antes de tomarte nada… REVISA ESTO»; tarjeta 💊 tachada junto al bote.",
-     "porque": "Tu gusto (zoom out + sonido) y el título de gancho que pidió."
+     "zona": "Historia",
+     "que": "Mensaje de chat de la clienta («Oye… siempre me siento hinchada. ¿Me puedes ayudar?») con «escribiendo…» y notificación.",
+     "porque": "Tu corrección: «como si le mandara un mensaje»."
     },
     {
      "zona": "Historia",
-     "que": "Tarjeta «Clienta · 27 años»; píldoras ✓ «−4 kg en 21 días», «Adiós abdomen hinchado», «Sin pastillas raras».",
-     "porque": "Prueba visible de cada cifra."
+     "que": "B-roll Flow de mujer entrenando, animado (parallax 2.5D, empuje, grano, viñeta) con degradado morado de abajo arriba; «Clienta · 27 años» + «EN 21 DÍAS» grande; píldoras UI: «−4 kg de grasa y retención de líquidos», «Sin pastillas raras».",
+     "porque": "Tu corrección literal; subtítulos ocultos ahí para no repetir."
     },
     {
      "zona": "Lista",
-     "que": "Tres píldoras con ✕: «1 · Ultraprocesados», «2 · Poca agua», «3 · Saltarse comidas», que se quedan arriba.",
-     "porque": "Estructura de 3 que él marca con «primero, segundo, tercero»."
+     "que": "Ultraprocesados y agua: tarjetas con FOTOS (bollería, patatas+refresco, agua) DETRÁS de él (persona recortada fotograma a fotograma delante).",
+     "porque": "«que detrás de él aparezcan como ejemplos… en cuadros UI»."
+    },
+    {
+     "zona": "Lista",
+     "que": "En la tercera aparecen las 3 píldoras UI del mismo ancho, texto centrado; en «con estas 3 cosas» viajan al degradado del b-roll de mujer comiendo sano; luego espejo con «Verse mucho mejor» / «Más confianza».",
+     "porque": "Tu corrección literal."
     },
     {
      "zona": "Médico",
-     "que": "Tarjeta blanca 🩺 «Ve a tu médico» ✓ + zoom en «tu médico».",
-     "porque": "El aviso de salud tiene que verse."
-    },
-    {
-     "zona": "Remate",
-     "que": "💊 «Bote» ✕ frente a 🥗 «Hábitos» ✓.",
-     "porque": "La idea del vídeo en una imagen."
-    },
-    {
-     "zona": "Transiciones",
-     "que": "Zoom con desenfoque en «¿Y qué es lo que miré con ella?» y al pasar a «Muchas veces…».",
-     "porque": "Las pidió; solo en cambios de bloque."
-    },
-    {
-     "zona": "Subtítulos",
-     "que": "«y lo que picaba durante el día» es una suposición: la transcripción dice «y la saque se reclaman».",
-     "porque": "No se entiende bien; OÍR y corregir."
+     "que": "B-roll Flow de mujer hinchada en consulta, animado tipo AE, degradado morado, «VE A TU MÉDICO» + píldora «Siempre por delante».",
+     "porque": ""
     },
     {
      "zona": "Cierre",
-     "que": "@alvarocabrerafitness con botón «Mensaje → Enviado ✓».",
-     "porque": "Su CTA es «escríbeme por mensaje»."
+     "que": "Corte extendido hasta terminar «sostenible»; CTA con su foto de perfil de Instagram.",
+     "porque": ""
     },
     {
      "zona": "Música",
-     "que": "1901 (Phoenix) a −25 LUFS.",
-     "porque": "La que elegiste para Álvaro el 16-11."
+     "que": "Clásica de suspense (tu carpeta, desde 1:03) hasta «¿qué es lo que miré con ella?» y cruce a «Golden Hour» (piano).",
+     "porque": "earshot: ambas «strong» para tensión / calma optimista."
+    },
+    {
+     "zona": "SFX",
+     "que": "Riser antes del b-roll, notificación en el mensaje, golpe en cada entrada, clics en píldoras, riser en el giro, «magic» en el espejo.",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír (efectos: equilibrio 7, audibilidad 6,3).",
-    "El tono del paso HDR→SDR solo visto en fotogramas.",
-    "La frase de los ultraprocesados."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen.",
+    "El fondo del b-roll se mueve con el sujeto recortado (parallax): mira si en algún frame se nota el relleno."
    ],
    "video_local": "videos/alvaro4.mp4",
    "panel": {
@@ -180,62 +129,42 @@
    "clave": "maria4",
    "alumno": "María Morales García",
    "titulo": "Entrevista en la calle",
-   "estado": "nuevo (antes: error)",
-   "meta": "52,6 s (bruto 92 s) · 16 tramos · −14 LUFS · vídeo mwif2pvezkk5quo0",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/María Morales García/María - entrevista en la calle - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "53.5 s · −14 LUFS · v2 18-11 · vídeo mwif2pvezkk5quo0",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/María Morales García/María - entrevista en la calle - v2 lote (música).mp4",
    "hoja": "maria4/hoja.jpg",
    "pedido": "Guion #4: la amiga entrevista a María (de dependienta con 600 € a mamá con −15 kg); moraleja a cámara y CTA «CAMBIO».",
    "decisiones": [
     {
-     "zona": "Tomas",
-     "que": "«¿Y ahora?»: la 2.ª toma (la 1.ª se traba). «Mamás con niño…»: la 2.ª + «exactamente igual que estaba yo».",
-     "porque": "Las más limpias."
+     "zona": "Preguntas",
+     "que": "La pregunta de la amiga va arriba, sobre la cabeza de María.",
+     "porque": "Tu corrección."
+    },
+    {
+     "zona": "Respuestas",
+     "que": "Subtítulos al estilo de tus referencias (pequeños, a la altura del pecho). NO los bajé más que en v1: más abajo entran en la zona que tapa Instagram.",
+     "porque": "Conflicto entre «más abajo» y «cuidado con los márgenes»: decide tú."
     },
     {
      "zona": "Corte",
-     "que": "Fuera «Es que te voy a decir una cosa» antes de la moraleja.",
-     "porque": "La moraleja del guion empieza en «No necesitas…»."
-    },
-    {
-     "zona": "Preguntas",
-     "que": "Preguntas de la amiga en caja blanca con «Amiga»; respuestas de María con subtítulo de marca.",
-     "porque": "Se distingue quién habla sin ver a la amiga."
-    },
-    {
-     "zona": "Gancho",
-     "que": "Tarjeta «De dependienta con 600 € a… −15 kg siendo mamá» sobre el torso 2,7 s.",
-     "porque": "Promete la transformación desde el primer segundo."
+     "que": "Corregido el corte a media palabra («…a entrenar», «kilómetros», «hacías», «ya», «bailando»): había 10 cortes dentro de palabra.",
+     "porque": ""
     },
     {
      "zona": "Listas",
-     "que": "Píldoras con emoji a la derecha: su vida antes, el plan (caminar, proteína, cenar ligero, móvil), ahora (glúteo, cardio, cero alcohol/azúcar), «mamás con niños / sin tiempo / con trabajo».",
-     "porque": "Cada respuesta es una lista: se lee a la vez que la dice."
+     "que": "B-roll Flow con degradado coral: dependienta (su vida antes), caminando + cocinando (el plan), hip thrust (ahora), mamá sin tiempo con textura documental; píldoras UI del mismo ancho con lo que dice.",
+     "porque": "Tu corrección literal."
     },
     {
-     "zona": "Marca",
-     "que": "Playfair cursiva coral #F2A07B; degradado y sombra reforzados.",
-     "porque": "Sobre piernas y suelo claros el coral no se leía (corregido en la prueba)."
-    },
-    {
-     "zona": "Texto",
-     "que": "Escrito «seis kilos menos» (la transcripción oye «kilómetros»).",
-     "porque": "Es lo del guion."
-    },
-    {
-     "zona": "Cierre",
-     "que": "@mariadmoraless, botón «Mensaje → CAMBIO ✓» al decir «CAMBIO».",
-     "porque": "Su CTA."
-    },
-    {
-     "zona": "Música",
-     "que": "Infinite Circles (su marca) a −25 LUFS.",
-     "porque": "La propuesta de su marca."
+     "zona": "SFX",
+     "que": "Riser bajo antes de 3 preguntas (no tapa la voz), clics UI en cada píldora, impacto + zoom en «mujeres como yo».",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír. El salto entre tomas puede notarse (ella camina): no hay transición puesta.",
-    "Las píldoras de la derecha pasan por su brazo derecho.",
-    "Efectos: audibilidad 5,5 (clics bajo la voz)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen.",
+    "La amiga se oye bajo en el bruto: no lo toqué."
    ],
    "video_local": "videos/maria4.mp4",
    "panel": {
@@ -261,62 +190,31 @@
    "clave": "marc",
    "alumno": "Marc Martínez García (Marc)",
    "titulo": "Abdominales y dolor de espalda",
-   "estado": "nuevo (antes: error)",
-   "meta": "50,1 s (bruto 249 s, 14 tramos) · voz muy baja (+12 dB) · −14 LUFS · vídeo mwg33oqwmoj19wry",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "50.8 s · −14 LUFS · v2 18-11 · vídeo mwg33oqwmoj19wry",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v2 lote (música).mp4",
    "hoja": "marc/hoja.jpg",
    "pedido": "Guion 35–40 s, plano lateral a ras de suelo; «fíjate en qué tomas indico que me gustan y cuáles no».",
    "decisiones": [
     {
-     "zona": "Tomas",
-     "que": "Explicación del abdomen: la 3.ª toma (él dice en el vídeo «Nada, no me gusta. Esta toma no» y «Tampoco me gusta»). CTA: la 2.ª, más limpia.",
-     "porque": "Sus propias indicaciones."
-    },
-    {
-     "zona": "Duración",
-     "que": "50 s, no 35–40: recorté cada ejercicio a nombre + instrucción clave.",
-     "porque": "Con los 3 ejercicios explicados no baja más sin perder la técnica. Si quieres 40 s: quitar «Si al hacer encogimientos…» o la explicación final."
-    },
-    {
-     "zona": "Fuera",
-     "que": "Quitado «Fortalecer el abdomen ayuda, el problema es cómo lo hago».",
-     "porque": "Repite la idea del gancho."
-    },
-    {
-     "zona": "Encuadre",
-     "que": "Ejercicios ampliados ×1,35 (él sale pequeño en el plano).",
-     "porque": "Que se vea la técnica en el móvil."
-    },
-    {
      "zona": "Gancho",
-     "que": "«¿Te duele la espalda? NO HAGAS ESTOS» en rojo + tarjeta 🙅‍♂️ «Crunch» tachada.",
-     "porque": "El error que corrige, en el primer segundo."
+     "que": "Abre con b-roll (Flow) de un hombre con dolor lumbar y la espalda iluminada en rojo, como en los ejemplos fitness.",
+     "porque": "No puedo hacer que Marc actúe; si quieres que sea él, hay que grabarlo."
     },
     {
-     "zona": "Ejercicios",
-     "que": "Título fijo «Ejercicio 1/2/3 · NOMBRE» en verde mientras lo hace; píldoras «⏱️ 5 s por lado» y «10 s y cambias».",
-     "porque": "Que se pueda guardar y repetir."
+     "zona": "Cuerpo",
+     "que": "En cada ejercicio, píldoras UI con lo que trabaja en el cuerpo (core profundo, lumbar protegida, glúteo, oblicuos…).",
+     "porque": "Mi lectura de «resultados de cuerpo»: dime si querías antes/después."
     },
     {
-     "zona": "Subtítulos",
-     "que": "Literales; «Bird Talk» corregido a «bird dog».",
-     "porque": "Nombre real del ejercicio."
-    },
-    {
-     "zona": "Cierre",
-     "que": "@mmartinez.fitness, botón «Mensaje → DOLOR ✓».",
-     "porque": "Su CTA «escríbeme DOLOR»."
-    },
-    {
-     "zona": "Música",
-     "que": "Hold You (su marca) a −25 LUFS.",
-     "porque": "La de su marca."
+     "zona": "Fallos",
+     "que": "Arreglados 6 cortes a media palabra y subtítulos que no salían («Número 1…» no estaba transcrito).",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír; la voz venía a −46 dB: puede notarse ruido de sala al subirla.",
-    "Efectos: voz 7 (2 momentos con efectos casi al nivel de la voz).",
-    "El guion completo (en el panel solo se ven los primeros 160 caracteres)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/marc.mp4",
    "panel": {
@@ -337,42 +235,26 @@
    "clave": "lorena1",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · thrusters",
-   "estado": "nuevo (antes: error)",
-   "meta": "15 s (de 56 s) · sin voz · −14 LUFS · vídeo mwcoumiq6zzm2a3y",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados thrusters - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "15.0 s · −14 LUFS · v2 18-11 · vídeo mwcoumiq6zzm2a3y",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados thrusters - v2 lote (música).mp4",
    "hoja": "lorena1/hoja.jpg",
    "pedido": "«Cómo potenciar un vídeo de entrenamiento con mi nicho, que son los abogados». Texto del post: «Tu talento como abogado merece llegar mucho más lejos…».",
    "decisiones": [
     {
-     "zona": "Concepto",
-     "que": "Metáfora: entrenar el cuerpo = entrenar la visibilidad del despacho. 4 frases: «Ser un excelente abogado / no es suficiente» → «Si quien te necesita / no sabe que existes…» → «tu talento / se queda en el despacho» → «Entrena tu visibilidad / como entrenas tu cuerpo».",
-     "porque": "Sale de su texto; los textos son míos: revisa el tono."
-    },
-    {
-     "zona": "Corte",
-     "que": "15 s de las mejores repeticiones (7–22 s del bruto).",
-     "porque": "Vídeo de texto + música: más de 15 s pierde."
-    },
-    {
-     "zona": "Marca",
-     "que": "Playfair cursiva dorada #D4AF37 + SF blanco, abajo sobre el suelo.",
-     "porque": "Su marca (confianza → serif y dorado)."
-    },
-    {
-     "zona": "Cierre",
-     "que": "@jlenlacedigital «Marketing digital para abogados» con «Seguir → Siguiendo».",
-     "porque": "Su Instagram en el panel; el rol lo deduzco del post."
+     "zona": "Historia",
+     "que": "Abogado de noche en su despacho (documental, grano, viñeta) que se aleja hasta quedar dentro de una publicación de Instagram → hombre con manos en la cabeza entre facturas → le llega un mensaje «Hola, vi tu publicación…» → ella entrenando + CTA.",
+     "porque": "Tu corrección literal."
     },
     {
      "zona": "Música",
-     "que": "Golden Hour (piano), su marca.",
-     "porque": "No pidió audio en tendencia."
+     "que": "«Hand Covers Bruise» (tensión) y cruce a «Golden Hour» cuando llega el mensaje.",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Que el rol «Marketing digital para abogados» sea correcto.",
-    "Sin oír.",
-    "La versión «sin música» solo tiene efectos (no tiene sentido sin voz)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/lorena1.mp4",
    "panel": {
@@ -393,31 +275,22 @@
    "clave": "lorena2",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · elevaciones",
-   "estado": "nuevo (antes: error)",
-   "meta": "15 s (de 53 s) · sin voz · vídeo mwcoxbttpsi7xljm",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados elevaciones - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "15.0 s · −14 LUFS · v2 18-11 · vídeo mwcoxbttpsi7xljm",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados elevaciones - v2 lote (música).mp4",
    "hoja": "lorena2/hoja.jpg",
    "pedido": "«Adaptar el vídeo con el nicho de abogado».",
    "decisiones": [
     {
-     "zona": "Concepto",
-     "que": "Constancia: «Cada día que no publicas / otro abogado se lleva al cliente» → «La constancia / también se entrena» → «Un post hoy. / Otro mañana.» → «Así se construye / un despacho que se ve».",
-     "porque": "Elevaciones = repetición."
-    },
-    {
-     "zona": "Corte",
-     "que": "5–20 s del bruto.",
-     "porque": "Las repeticiones más limpias."
-    },
-    {
-     "zona": "Resto",
-     "que": "Igual que el de thrusters (marca, cierre, música).",
-     "porque": "Serie coherente."
+     "zona": "Motion",
+     "que": "Mi elección: motion graphic blanco con «Cada día que no publicas…» (tú sin publicar / otro abogado se lo lleva) y calendario que se llena de posts («un post hoy / otro mañana»); al final ella entrenando + CTA.",
+     "porque": "Me diste libertad."
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "El tono de las frases."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen.",
+    "El motion blanco ocupa ~11 de 15 s; ella solo sale al final, como pediste."
    ],
    "video_local": "videos/lorena2.mp4",
    "panel": {
@@ -438,26 +311,22 @@
    "clave": "lorena3",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · saltos al cajón",
-   "estado": "nuevo (antes: error)",
-   "meta": "15 s (de 55 s) · sin voz · vídeo mwcozthjfsdqm1sn",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados saltos - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "15.0 s · −14 LUFS · v2 18-11 · vídeo mwcozthjfsdqm1sn",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados saltos - v2 lote (música).mp4",
    "hoja": "lorena3/hoja.jpg",
    "pedido": "«Adaptar el vídeo de ejercicios con el nicho que es de abogados».",
    "decisiones": [
     {
-     "zona": "Concepto",
-     "que": "El salto: «El salto de abogado local / a referente» → «no se da / de un día para otro» → «Se prepara con / estrategia y contenido» → «¿Damos el salto juntos? / Sígueme».",
-     "porque": "Salto al cajón = salto profesional."
-    },
-    {
-     "zona": "Encuadre",
-     "que": "La cámara corta la cabeza en el salto (viene así del bruto); el cierre va más abajo para no tapar el cuerpo en el aire.",
-     "porque": "No se puede recuperar lo que no está grabado."
+     "zona": "Motion",
+     "que": "Abogado de noche (local) → motion blanco «no se da de un día para otro» (abogado local → referente) → «estrategia y contenido» → ella saltando («¿damos el salto juntos?») + CTA.",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Cabeza cortada en los saltos: decide si vale o pedimos otra toma."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen.",
+    "El motion blanco ocupa ~11 de 15 s; ella solo sale al final, como pediste."
    ],
    "video_local": "videos/lorena3.mp4",
    "panel": {
@@ -478,61 +347,36 @@
    "clave": "alvaro3",
    "alumno": "Álvaro Cabrera",
    "titulo": "Comer esto o esto",
-   "estado": "rehecho (había v1 del motor)",
-   "meta": "34,9 s · sin cortes (ya venía cortado) · HDR → SDR · vídeo mwjpzvk8434piive",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "35.0 s · −14 LUFS · v2 18-11 · vídeo mwjpzvk8434piive",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v2 lote (música).mp4",
    "hoja": "alvaro3/hoja.jpg",
    "pedido": "Gancho potente; ya cortado y con las imágenes de los platos puestas por él; subtítulos dinámicos con alguna palabra destacada en MORADO en otro tamaño o letra; música; SFX; transición en los cambios de plano; motion graphics.",
    "decisiones": [
     {
-     "zona": "Motor v1",
-     "que": "La v1 del motor ponía la palabra en AZUL (él pidió morado), tarjetas grises planas a pantalla completa («3 SEMANAS», «DÍA 10») y subtítulos pequeños.",
-     "porque": "Por eso lo rehago. La v1 sigue en el panel «Para revisar»."
-    },
-    {
-     "zona": "Gancho",
-     "que": "Zoom out + golpe; título «¿Qué prefieres comer un año? ¿ESTO… O ESTO?» y subtítulo «¿Qué prefieres comer durante un año?».",
-     "porque": "El panel ya le dijo que esa primera frase no se entiende: el texto la salva."
-    },
-    {
-     "zona": "Palabras clave",
-     "que": "Sequel Heavy en morado #A259FF (bueno) / rojo (malo), más grande que el relleno.",
-     "porque": "Lo que pidió."
+     "zona": "Claves",
+     "que": "Todas las palabras clave en morado.",
+     "porque": "Tu corrección."
     },
     {
      "zona": "Platos",
-     "que": "Etiquetas sobre sus platos: «🥱 La de siempre» (dieta típica) y «😋 Rico y rápido».",
-     "porque": "Sus imágenes, con función: qué es cada plato."
+     "que": "Los dos platos salen recortados de SU vídeo (los que sostiene), no de internet.",
+     "porque": "«coge el crudo y ponlas tú». OJO: el «bruto» que tenemos ya trae platos volando montados (se ven en 2,2 s y 10,9 s): para quitarlos hace falta su vídeo sin editar."
     },
     {
-     "zona": "Contador",
-     "que": "«Lo aguantas… 1 SEMANA / 2 SEMANAS / 3 SEMANAS» y «VUELVES AL DE ANTES» con zoom.",
-     "porque": "Lo que cuenta con los dedos, visible."
+     "zona": "Motion",
+     "que": "«El plato de siempre»: fondo blanco limpio con cuadrícula, plato en el centro y pollo/arroz/brócoli a los lados; igual con «este sí lo repites».",
+     "porque": "Tus correcciones (fondo blanco + grid + elementos a los lados)."
     },
     {
-     "zona": "Comparaciones",
-     "que": "Píldoras ✕/✓: «Comer menos y peor» vs «Algo que te apetezca repetir»; «La más estricta» vs «La que puedes mantener».",
-     "porque": "La tesis del vídeo."
-    },
-    {
-     "zona": "Transiciones",
-     "que": "Zoom con desenfoque en sus 3 cambios de plano (23,6 · 26,6 · 32,3 s).",
-     "porque": "Las pidió en los cambios de plano."
-    },
-    {
-     "zona": "Texto",
-     "que": "Escrito «si odias lo que comes» (la transcripción dice «si dieras») y «no te sirve de nada» («no te existe»).",
-     "porque": "Lo que creo que dice: oír."
-    },
-    {
-     "zona": "Música",
-     "que": "1901 (Phoenix), la de Álvaro.",
-     "porque": "Elegida el 16-11 para Álvaro."
+     "zona": "Calendario",
+     "que": "Semanas: calendario blanco de 21 días que se llena con el mismo plato; abajo «1 semana / 2 semanas / 3, con suerte». Día 10: 10 días con el plato y en el 10 una pizza + 😂.",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "«te sacia y se hace en minutos»: la transcripción dice «te sacen y se hacen minutos»."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/alvaro3.mp4",
    "panel": {
@@ -553,51 +397,31 @@
    "clave": "ale-colores",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Colores de los alimentos",
-   "estado": "rehecho (había v1 del motor)",
-   "meta": "13,9 s (bruto 109 s, muchas tomas repetidas) · vídeo mwjrnsx6smtzgb5f",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "14.3 s · −14 LUFS · v2 18-11 · vídeo mwjrnsx6smtzgb5f",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v2 lote (música).mp4",
    "hoja": "ale-colores/hoja.jpg",
    "pedido": "Cada color y lo que aporta; en su nota da la lista de alimentos de cada color (no la dice en voz).",
    "decisiones": [
     {
-     "zona": "Motor v1",
-     "que": "Texto plano sobre el pecho, sin imágenes; los brazos arriba tapaban el texto.",
-     "porque": "Por eso lo rehago."
+     "zona": "Imágenes",
+     "que": "Cada color con foto real del grupo de alimentos (Flow, croma) en vez de emojis.",
+     "porque": "También era la corrección pendiente del dashboard («añade las imágenes de los alimentos»)."
     },
     {
-     "zona": "Tomas",
-     "que": "Mejor toma de cada color (repite «el rojo…» 4 veces y «el morado…» muchas); fuera «No, se me perdió».",
-     "porque": "Limpieza."
+     "zona": "Cortes",
+     "que": "4 cortes cortaban palabras («saludable», «colesterol», «intestinal», «sangre»): corregidos.",
+     "porque": ""
     },
     {
-     "zona": "Gancho",
-     "que": "«Come de todos los colores · 5 COLORES».",
-     "porque": "Lo que le sugirió la respuesta del panel: abrir prometiendo la lista."
-    },
-    {
-     "zona": "Bloques",
-     "que": "Panel por color arriba (cabecera en su color + beneficio + emojis de SU lista en cascada); la clave del subtítulo en el color del bloque.",
-     "porque": "Su nota trae los alimentos: se ven sin que los diga."
-    },
-    {
-     "zona": "Emojis",
-     "que": "Sin emoji para remolacha, granada, frambuesa, ciruela, caldo de hueso, cúrcuma: no salen.",
-     "porque": "No invento imágenes."
-    },
-    {
-     "zona": "Duración",
-     "que": "Queda en 13,9 s.",
-     "porque": "Es todo lo que dice; ¿quieres que cada bloque dure más (pausa con los alimentos)?"
-    },
-    {
-     "zona": "Cierre",
-     "que": "Subtítulo «sígueme» y @alessmartin.fitness; en el audio dice «síguele a Martín Afonso» (transcrito «sígales a Martín Finde»).",
-     "porque": "Oír y decidir si poner su nombre."
+     "zona": "Música",
+     "que": "«Walking on a Dream (instrumental)», alegre y colorida.",
+     "porque": "NO VERIFICADO: no he investigado qué música usan cuentas parecidas."
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Las afirmaciones de salud son suyas (no las he comprobado)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/ale-colores.mp4",
    "panel": {
@@ -618,52 +442,31 @@
    "clave": "ale-picoteos",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Picoteos de Mercadona",
-   "estado": "rehecho (había v1 del motor)",
-   "meta": "38,9 s · fotos oficiales de tienda.mercadona.es · vídeo mwjrr7jwxwqckdzy",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - picoteos de Mercadona - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "39.0 s · −14 LUFS · v2 18-11 · vídeo mwjrr7jwxwqckdzy",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - picoteos de Mercadona - v2 lote (música).mp4",
    "hoja": "ale-picoteos/hoja.jpg",
    "pedido": "Fotos de productos de Mercadona; que salga en el medio y se deslice al lado que dice (adelgazar / engordar); animado y con sonido; mujer definida / con sobrepeso.",
    "decisiones": [
     {
-     "zona": "Fotos",
-     "que": "Envases Hacendado bajados de la tienda online: palomitas (maíz), cocktail frutos secos, Digestive, tortitas maíz con chocolate, pepinillos pequeños, Mochi mango; y tortitas de legumbres como «mejor opción».",
-     "porque": "Se nota que es Mercadona (envase + el cartel del fondo)."
+     "zona": "Corte",
+     "que": "«caseras» completo.",
+     "porque": "Tu corrección."
     },
     {
-     "zona": "Mecánica",
-     "que": "El producto aparece grande arriba al nombrarlo y cae a «TE AYUDA A ADELGAZAR» (verde) o «A ENGORDAR» (rojo) al decir el veredicto.",
-     "porque": "Lo que pidió."
+     "zona": "Título",
+     "que": "Quitado el título «Picoteos de Mercadona» (arriba tapaba la tarjeta del alimento y, si lo bajaba, la tarjeta tapaba su frente).",
+     "porque": "Tu corrección daba las dos opciones; elegí quitarlo."
     },
     {
-     "zona": "Palomitas",
-     "que": "Él dice «te pueden ayudar a ENGORDAR porque son muy poco calóricas»: se contradice. He quitado «te pueden ayudar a engordar» y las he puesto en ADELGAZAR.",
-     "porque": "El motivo que da es de adelgazar. Si lo dijo a propósito, se cambia."
-    },
-    {
-     "zona": "Sandía",
-     "que": "Emoji 🍉: hoy la tienda online no vende sandía.",
-     "porque": "No hay foto oficial."
-    },
-    {
-     "zona": "Helado",
-     "que": "«Helado de mango» = Helado Mochi mango Hacendado (el único de mango en la tienda).",
-     "porque": "Puede que se refiriera a otro (polo)."
-    },
-    {
-     "zona": "Mujeres",
-     "que": "NO he puesto la mujer definida / con sobrepeso.",
-     "porque": "Serían fotos de personas reales de internet: derechos de imagen. Alternativa: ilustración o emoji 🏃‍♀️."
-    },
-    {
-     "zona": "Cierre",
-     "que": "Píldora «💬 Comenta PICOTEO» + @alessmartin.fitness.",
-     "porque": "Su CTA."
+     "zona": "Música",
+     "que": "«Play That Funky Music (instrumental)».",
+     "porque": "NO VERIFICADO: referencia de cuentas parecidas no investigada."
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Licencia: fotos de producto de la web de Mercadona usadas en un reel (uso habitual en redes, no comprobado).",
-    "La tarjeta «Mejor: de legumbre» enseña la foto pequeña."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/ale-picoteos.mp4",
    "panel": {
@@ -684,31 +487,26 @@
    "clave": "ale-mercadona",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Quesos de Mercadona ¿engorda o adelgaza?",
-   "estado": "rehecho (había v1 del motor)",
-   "meta": "10,9 s (bruto 50 s con «tres, dos, uno», «repítelo»…) · vídeo mwjr3evgnmlkk47l",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "13.8 s · −14 LUFS · v2 18-11 · vídeo mwjr3evgnmlkk47l",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v2 lote (música).mp4",
    "hoja": "ale-mercadona/hoja.jpg",
    "pedido": "«Poner si engorda o adelgaza con imágenes de productos del propio Mercadona».",
    "decisiones": [
     {
-     "zona": "Productos",
-     "que": "Queso para fundir (engorda), queso emmental (engorda), mini Babybel (adelgaza). Fotos Hacendado/Babybel de la tienda.",
-     "porque": "La transcripción grande aclara los nombres («queso para vivir» = Babybel)."
+     "zona": "Final",
+     "que": "El bruto está incompleto: tras el Babybel dice «tiene muy… no, a ver» y no hay cierre. Añadí 2,5 s del plano con el resumen y el CTA.",
+     "porque": "Lo ideal: pedirle una frase de cierre."
     },
     {
-     "zona": "Fuera",
-     "que": "Chocura (no da veredicto), la primera toma de cada queso, el final sin terminar («y alto contenido… a ver»).",
-     "porque": "Tomas limpias."
-    },
-    {
-     "zona": "Duración",
-     "que": "Queda en 10,9 s y sin CTA hablado; añadí la tarjeta de seguir al final.",
-     "porque": "No grabó cierre (el panel ya se lo pidió)."
+     "zona": "Música",
+     "que": "Funky (la misma familia que picoteos).",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Que el «queso para fundir» sea el rallado especial fundir (hay varios)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/ale-mercadona.mp4",
    "panel": {
@@ -729,52 +527,36 @@
    "clave": "carlos7",
    "alumno": "Carlos López Segura",
    "titulo": "#7 Desayuno proteico en 5 minutos",
-   "estado": "nuevo (17-11, tarde)",
-   "meta": "38,6 s (bruto 101 s, 10 tramos) · receta sin voz en medio · −14 LUFS · vídeo mwl5hdz83ens5cxh",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - desayuno proteico en 5 minutos - v1 lote (música).mp4",
+   "estado": "v2 (18-11)",
+   "meta": "38.6 s · −14 LUFS · v2 18-11 · vídeo mwl5hdz83ens5cxh",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - desayuno proteico en 5 minutos - v2 lote (música).mp4",
    "hoja": "carlos7/hoja.jpg",
    "pedido": "Guion: gancho «X g de proteína en 5 minutos», receta paso a paso, plato terminado, moraleja y CTA. Su nota: lo grabó por clips porque se liaba; «si no queda natural lo repito sin problemas».",
    "decisiones": [
     {
-     "zona": "Formato",
-     "que": "Receta: gancho hablado → cocina en saltos cortos (claras, huevos, aplasta, especias, tostada) → plato y explicación.",
-     "porque": "75 s de cocina sin voz no se sostienen; cada paso en 2 s se entiende igual."
-    },
-    {
      "zona": "Gancho",
-     "que": "«32 g de proteína · EN 5 MINUTOS» arriba mientras enseña el temporizador 05:00.",
-     "porque": "Es su número y su promesa; el temporizador ya está en el plano."
+     "que": "Sin título arriba: el gancho es el subtítulo («32 GRAMOS… 5 MINUTOS») con riser y golpe en «5 minutos»; sin zoom-out genérico.",
+     "porque": "«no todos tienen que empezar con ese gancho genérico»."
     },
     {
-     "zona": "Pasos",
-     "que": "Píldora amarilla por paso (🥚 Claras · 🍳 Huevos encima · 🥄 Aplasta y remueve · 🧂 Sal y especias · 🍞 Tostada).",
-     "porque": "Sin voz, la píldora hace de narrador. Sin cantidades: no las dice en el vídeo."
+     "zona": "Motion",
+     "que": "«¿Sin tiempo para desayunar?»: motion graphic en el centro con emoji de desayuno y el fondo desenfocado.",
+     "porque": ""
     },
     {
-     "zona": "Datos",
-     "que": "Píldoras «💪 32 g proteína» y «🔥 350 kcal» al decirlo con el plato.",
-     "porque": "Lo que el espectador quiere guardar."
+     "zona": "B-roll",
+     "que": "«Sin hambre de lobo»: manada de lobos con luna, el del centro con ojos rojos y glow (Flow, editado como pediste), textura y viñeta; texto en rojo.",
+     "porque": ""
     },
     {
-     "zona": "Marca",
-     "que": "No está en la tabla de marcas: propongo amarillo yema #FFC233 / rojo #FF453A, Montserrat.",
-     "porque": "Sale del plato (yema) y destaca sobre su cocina verde azulada."
-    },
-    {
-     "zona": "Música",
-     "que": "Parisian Funk (divkid) bajo la voz; en la cocina se oye el ambiente de la sartén.",
-     "porque": "Receta = ritmo alegre. Propuesta: elígela tú."
-    },
-    {
-     "zona": "Cierre",
-     "que": "@carloslopseg, botón «Seguir → Siguiendo» al decir «sígueme».",
-     "porque": "Su CTA."
+     "zona": "SFX",
+     "que": "Bosque nocturno + viento que entran 0,45 s ANTES de los lobos (corte J) y siguen tras volver a Carlos (L) + caída grave.",
+     "porque": "No hay aullidos en tus librerías: ¿bajo uno?"
     }
    ],
    "no_verificado": [
-    "Sin oír (niveles medidos). Pico real −0,9 dB (límite −1): puede necesitar otra pasada de master.",
-    "La nota del alumno sobre grabar por clips: el resultado se ve natural en la hoja, pero decide tú si le pides repetirlo.",
-    "La marca de Carlos (no estaba definida)."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/carlos7.mp4",
    "panel": {
@@ -800,52 +582,37 @@
    "clave": "carlos10",
    "alumno": "Carlos López Segura",
    "titulo": "#10 3 errores por los que no bajas la barriga",
-   "estado": "nuevo (17-11, tarde)",
-   "meta": "56,9 s (bruto 72 s, 11 tramos) · 2 localizaciones · −14 LUFS · vídeo mwl5jrup90lrue1o",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v1 lote (música).mp4",
+   "estado": "v2 (18-11) · mi criterio",
+   "meta": "56.9 s · −14 LUFS · v2 18-11 · vídeo mwl5jrup90lrue1o",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v2 lote (música).mp4",
    "hoja": "carlos10/hoja.jpg",
    "pedido": "Guion: 3 errores (comer sano ≠ poco, poca proteína, el finde), cliente de 34 años −20 kg, CTA «escríbeme CAMBIO». Misma nota: grabado por clips.",
    "decisiones": [
     {
-     "zona": "Corte",
-     "que": "Quitadas las pausas entre clips; se mantienen las 2 localizaciones (cocina y habitación) con transición.",
-     "porque": "Sus clips ya están elegidos; solo sobraba el aire."
-    },
-    {
      "zona": "Gancho",
-     "que": "«¿Comes bien y no bajas barriga? · 3 ERRORES».",
-     "porque": "Pregunta + promesa numerada."
+     "que": "Sin título genérico: subtítulo + riser; en «estos tres errores», motion blanco con ⚠️ y las 3 imágenes (aceite, pollo, pizza).",
+     "porque": "Aplicado lo de Carlos #7."
     },
     {
-     "zona": "Estructura",
-     "que": "Título rojo «Error 1 · SANO ≠ POCO», «Error 2 · POCA PROTEÍNA», «Error 3 · EL FINDE».",
-     "porque": "Que se vea en qué error está; se puede guardar."
+     "zona": "Error 1",
+     "que": "Fotos detrás de él: aceite, frutos secos, arroz; «➕ Todo suma» con golpe.",
+     "porque": ""
     },
     {
-     "zona": "Listas",
-     "que": "Píldoras al nombrarlos: 🫒 aceite / 🥜 frutos secos / 🍚 arroz; y 🍕 viernes / 🍺 sábado / 🛋️ domingo.",
-     "porque": "Los ejemplos concretos son lo que se recuerda. En el pecho: no tapan la cara."
+     "zona": "Error 2",
+     "que": "Pollo «proteína» con ✕, galleta «acabas picando», 💪 «mantener músculo».",
+     "porque": ""
     },
     {
-     "zona": "Prueba",
-     "que": "Píldora «📉 −20 kg en 3 meses».",
-     "porque": "Su caso real da credibilidad."
-    },
-    {
-     "zona": "Subtítulos",
-     "que": "Literales; corregidos errores de la transcripción («aceite a chorro», «cena», «me decía», CAMBIO).",
-     "porque": "Se oye así."
-    },
-    {
-     "zona": "Cierre",
-     "que": "Botón «Mensaje → CAMBIO ✓» al decir «cambio».",
-     "porque": "Su palabra clave."
+     "zona": "Error 3",
+     "que": "Calendario semanal blanco: lunes a jueves 🥗, viernes 🍕, sábado 🍺, domingo 🛋️; «se va en 2 días».",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Dice «necesitan los siete días» (literal); subtitulado como «necesitas».",
-    "Música Parisian Funk, misma que en su #7: propuesta."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen.",
+    "El calendario del finde ocupa ~9,6 s sin verle la cara: quizá largo."
    ],
    "video_local": "videos/carlos10.mp4",
    "panel": {
@@ -871,52 +638,36 @@
    "clave": "jorge",
    "alumno": "Jorge Robledo",
    "titulo": "Mi trabajo va más lejos de una dieta y un entrenamiento",
-   "estado": "nuevo (17-11, tarde)",
-   "meta": "51,3 s (bruto 79 s, 11 tramos) · fondo claro · −14 LUFS · vídeo mwkk9hgwdyuo0mq0",
-   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v1 lote (música).mp4",
+   "estado": "v2 (18-11) · mi criterio",
+   "meta": "51.4 s · −14 LUFS · v2 18-11 · vídeo mwkk9hgwdyuo0mq0",
+   "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v2 lote (música).mp4",
    "hoja": "jorge/hoja.jpg",
    "pedido": "«Creo que me repito en algunas partes; si es así elimina las partes repetidas. Necesita cortes en las transiciones, todavía no ha empezado a hablar».",
    "decisiones": [
     {
-     "zona": "Repeticiones",
-     "que": "Quitado «Eso lo puede hacer ChatGPT o internet, como bien te he dicho. Y te lo va a hacer genial» (repite el arranque), «¿Quién te debe?» y el final «Y ala. No.» + pantalla de CapCut.",
-     "porque": "Lo pidió él; la idea ya está dicha al principio."
-    },
-    {
-     "zona": "Silencios",
-     "que": "Fuera las esperas de 3–5 s antes de hablar (13–17 s y 23–28 s del bruto) y la pausa dentro de «¿Y… quién revisa?».",
-     "porque": "Sus «transiciones sin hablar»."
-    },
-    {
-     "zona": "Se queda",
-     "que": "Las dos frases «Conmigo vas a encontrar…» (resultados / acompañamiento).",
-     "porque": "Parecen repetición pero son dos promesas distintas; marcadas con títulos «RESULTADOS QUE DURAN» y «APRENDES A HACERLO SOLO». Si las ves largas, quitar la 1.ª."
-    },
-    {
      "zona": "Gancho",
-     "que": "«Una dieta y un entreno · GRATIS EN INTERNET» + tarjeta 🤖 ChatGPT.",
-     "porque": "Plantea el contraste que luego rompe."
+     "que": "Sin título arriba: tarjetas «Dieta» / «Entreno» detrás de él + «🌐 Gratis en internet».",
+     "porque": ""
+    },
+    {
+     "zona": "ChatGPT",
+     "que": "Chat real: tu mensaje a ChatGPT y su respuesta con «escribiendo…».",
+     "porque": ""
     },
     {
      "zona": "Preguntas",
-     "que": "Píldoras 👀 ¿Quién revisa? / 👂 ¿Quién te escucha? / 🫶 ¿Quién nota cómo estás?",
-     "porque": "El corazón del vídeo: lo que una IA no hace."
+     "que": "«Estancado» detrás + 3 píldoras UI de preguntas; «❤️ factor humano ✓ / 🤖 ChatGPT ✕».",
+     "porque": ""
     },
     {
-     "zona": "Marca",
-     "que": "Su tabla: amarillo #FFD60A / rojo #FF4D4D, Poppins, música Trendsetter. Fondo blanco → degradado fuerte abajo para que se lean los subtítulos.",
-     "porque": "Lección del lote: fondo claro."
-    },
-    {
-     "zona": "Cierre",
-     "que": "@robledojorge8 «Seguir → Siguiendo» en «De eso trata una asesoría conmigo».",
-     "porque": "No dice CTA explícito; el cierre resume su servicio."
+     "zona": "Corte",
+     "que": "Corregido el final de «¿quién nota cómo estás?».",
+     "porque": ""
     }
    ],
    "no_verificado": [
-    "Sin oír.",
-    "Él dice «ChatGPT» como «CGPT»: subtitulado «ChatGPT».",
-    "Si Jorge ya edita sus vídeos (tabla de marcas), puede que prefiera su propio estilo."
+    "No oído con oídos humanos: niveles medidos (−14 LUFS), música y efectos elegidos por medida/earshot, no escuchados.",
+    "Las imágenes de Flow son generadas (personas anónimas); revisa que te encajen."
    ],
    "video_local": "videos/jorge.mp4",
    "panel": {

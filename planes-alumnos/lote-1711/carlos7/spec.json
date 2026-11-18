@@ -54,10 +54,11 @@
   "rol": "Entrenador · nutrición sin excusas",
   "bueno": "#FFC233",
   "malo": "#FF453A",
-  "clave_font": "montserrat"
+  "clave_font": "montserrat",
+  "foto": "../_perfiles/carloslopseg.jpg"
  },
  "cara_y": 0.3,
- "sub_y": 1500,
+ "sub_y": 1150,
  "zooms": [
   [
    0.7,
@@ -98,13 +99,34 @@
  ],
  "elementos": [
   {
-   "tipo": "titulo",
-   "t0": 0.75,
-   "t1": 5.5,
-   "y": 120,
-   "linea1": "32 g de proteína",
-   "linea2": "EN 5 MINUTOS",
-   "col": "bueno"
+   "tipo": "broll",
+   "img": "../_flow/lobos-v3.png",
+   "t0": 89.2,
+   "t1": 90.85,
+   "doc": true,
+   "vineta": 200,
+   "grano": 10,
+   "texto_grande": {
+    "t": 89.74,
+    "texto": "sin hambre de lobo",
+    "y": 1450,
+    "col": "malo",
+    "tam": 84
+   },
+   "golpe": false
+  },
+  {
+   "tipo": "tarjeta",
+   "suelta": true,
+   "desenfoca": true,
+   "t0": 3.4,
+   "t1": 5.55,
+   "x": 540,
+   "y": 800,
+   "lado": 640,
+   "emoji": "🍳",
+   "texto": "¿Sin tiempo para desayunar?",
+   "tam": 84
   },
   {
    "tipo": "pill",
@@ -173,15 +195,67 @@
    "tipo": "cta",
    "t0": 97.7,
    "t_clic": 100.9,
-   "y": 140
+   "y": 250
   }
  ],
  "sin_subs": [
   [
+   3.4,
+   5.6
+  ],
+  [
    5.6,
    79.0
+  ],
+  [
+   89.2,
+   90.85
   ]
  ],
  "musica": "divkid-parisian-funk.mp3",
- "musica_desde": 0
+ "musica_desde": 0,
+ "version": "v2",
+ "gancho": {
+  "zoom_out": false,
+  "sonido": false
+ },
+ "eventos_extra": [
+  {
+   "t": 0.7,
+   "type": "riser",
+   "len": 1.9
+  },
+  {
+   "t": 2.62,
+   "type": "hit",
+   "g": 0.8
+  },
+  {
+   "t": 88.9,
+   "type": "drop"
+  }
+ ],
+ "capas_sonido": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Efectos de sonido/12 Ambientes y drones/Night forest.mp3",
+   "t": 88.75,
+   "dur": 2.6,
+   "db": -6,
+   "fade_in": 0.4,
+   "fade_out": 0.7
+  },
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Efectos de sonido/12 Ambientes y drones/WIND AMBIENT (4).wav",
+   "t": 88.8,
+   "dur": 2.5,
+   "db": -12,
+   "fade_in": 0.3,
+   "fade_out": 0.8
+  }
+ ],
+ "subs_tam": [
+  44,
+  84
+ ],
+ "subs_ancho": 840
 }
