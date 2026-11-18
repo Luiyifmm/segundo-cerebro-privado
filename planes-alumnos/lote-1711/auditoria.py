@@ -17,9 +17,20 @@ for v in D['videos']:
     nv = ''.join(f'<li>{e(x)}</li>' for x in v.get('no_verificado', []))
     src_ = v.get('video_local') or rel(v["video"]); vid = f'<div><video controls playsinline preload="metadata" src="{e(src_)}"></video><a class="abrir" href="{e(src_)}" target="_blank">Abrir vídeo ↗</a></div>' if v.get('video') else '<div class="sin">Sin vídeo nuevo</div>'
     hoja = f'<a href="{e(rel(v["hoja"]))}" target="_blank"><img src="{e(rel(v["hoja"]))}" loading="lazy"></a>' if v.get('hoja') else ''
+    p = v.get('panel') or {}; ctx = ''
+    if p:
+        g = p.get('guion') or {}
+        import re as _re; g = {k: _re.sub(r'\n\s*\n', '\n', t) for k, t in g.items()}
+        gu = ''.join(f'<p><b>{e(k.capitalize())}:</b> {e(t)}</p>' for k, t in g.items())
+        fil = [('Título completo en el dashboard', p.get('titulo_panel')), ('Nota del alumno', p.get('nota_alumno')), ('Correcciones pedidas', p.get('correcciones'))]
+        ctx = f'''<div class="ctx"><div class="dash"><b>Dashboard Trainer10x:</b> pestaña <b>{e(p.get('pestaña', ''))}</b> · v{e(str(p.get('version', '')))} · último: {e(p.get('ultimo', ''))}
+          <div class="pq">{'La versión del dashboard es la del editor automático, NO esta de la auditoría (esta no se ha subido).' if not p.get('es_nuestra') else 'Esta versión es la que está en el dashboard.'}</div></div>
+          {''.join(f'<p><b>{e(t)}:</b> {e(x)}</p>' for t, x in fil if x)}
+          {f'<details open><summary><b>Guion</b></summary>{gu}</details>' if gu else '<p class="pq">Sin guion asociado en el dashboard (el pedido va en el título).</p>'}
+          {f'<details><summary>Respuesta que ve el alumno en el dashboard (editor automático)</summary><p>{e(p.get("respuesta_panel"))}</p></details>' if p.get('respuesta_panel') else ''}</div>'''
     tarjetas.append(f'''<section id="{e(v['clave'])}"><h2>{e(v['alumno'])} · {e(v['titulo'])} <span class="est {e(v.get('estado_clase', ''))}">{e(v.get('estado', ''))}</span></h2>
       <div class="meta">{e(v.get('meta', ''))}</div>
-      <div class="pedido"><b>Pidió el alumno:</b> {e(v.get('pedido', '—'))}</div>
+      <div class="pedido"><b>Pidió el alumno:</b> {e(v.get('pedido', '—'))}</div>{ctx}
       <div class="media">{vid}{hoja}</div>
       <table><tr><th>Zona</th><th>Qué hice y por qué</th><th>Tu veredicto</th></tr>{filas}</table>
       <div class="nv"><b>No comprobado</b><ul>{nv}</ul></div>
@@ -42,7 +53,7 @@ table{{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}} th,t
 td.z{{white-space:nowrap;color:var(--mu);font-size:13px}} .pq{{color:var(--mu);font-size:13px;margin-top:2px}} td.b{{width:34%}} td.b label{{margin-right:10px;white-space:nowrap}}
 textarea{{width:100%;box-sizing:border-box;min-height:34px;margin-top:4px;font:inherit;font-size:13px;background:var(--bg);color:var(--tx);border:1px solid var(--li);border-radius:6px;padding:5px}}
 .nv{{margin-top:10px;font-size:13px;color:var(--mu)}} .gen{{display:block;margin-top:10px;font-size:13px}} .est{{font-size:12px;font-weight:500;border-radius:12px;padding:2px 8px;background:var(--li)}}
-.abrir{{display:inline-block;margin-top:6px;font-size:13px;color:var(--ac)}} .sin{{padding:40px;text-align:center;color:var(--mu);border:1px dashed var(--li);border-radius:10px}} .fuera{{font-size:14px}}
+.abrir{{display:inline-block;margin-top:6px;font-size:13px;color:var(--ac)}} .sin{{padding:40px;text-align:center;color:var(--mu);border:1px dashed var(--li);border-radius:10px}} .fuera{{font-size:14px}} .ctx{{font-size:14px;margin:8px 0 12px;padding:8px 12px;border:1px solid var(--li);border-radius:8px}} .ctx p{{margin:6px 0;white-space:pre-wrap}} .dash{{padding:6px 0;border-bottom:1px solid var(--li)}} details{{margin:6px 0}} summary{{cursor:pointer}}
 </style></head><body><header><h1>Auditoría · lote {e(D['fecha'])} · {len(D['videos'])} vídeos</h1><span id="n" class="meta"></span><button id="copiar">Copiar correcciones</button></header>
 <nav>{indice}</nav><main><section class="fuera"><h2>Cómo usarla</h2><p>{e(D.get('intro', ''))}</p><b>Fuera del lote (no editados) y por qué</b><ul>{fuera}</ul></section>{''.join(tarjetas)}</main>
 <script>
