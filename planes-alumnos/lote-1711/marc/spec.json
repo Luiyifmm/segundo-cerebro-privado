@@ -321,6 +321,11 @@
    "t": 11.72,
    "type": "hit",
    "g": 0.7
+  },
+  {
+   "t": 14.55,
+   "type": "whoosh",
+   "len": 0.35
   }
  ],
  "musica": "low-mileage-hold-you-ncs-release.mp3",
@@ -341,5 +346,9 @@
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  12.86
+ ]
 }

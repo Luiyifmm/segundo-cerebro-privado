@@ -15,7 +15,7 @@ cues: 21 (21 library, 0 uisfx), 21 distinct files
 WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 2-3 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
 video: /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4
 sfx track: /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
-loudness: sfx -28.0 LUFS, final -16.8 LUFS, true peak -4.8 dBTP
+loudness: sfx -28.0 LUFS, final -16.8 LUFS, true peak -4.9 dBTP
 report: /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx_cue_report.md
 resolved cues: /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
 ough), or drop its sub layer
@@ -32,10 +32,10 @@ Still to judge by eye on review.png: character fit (each sound suits its picture
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -cr
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v3 lote (sin música).mp4 -13.7 LUFS
-> ffmpeg -v error -nostdin -y -ss 0 -t 14.060 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3 -af afade=t=in:d=0.3,afad
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav -af volume=-10.90dB,adelay=0|0 /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav.g.wav
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v3 lote (sin música).mp4 -13.6 LUFS
+> ffmpeg -v error -nostdin -y -stream_loop -1 -ss 63.0 -t 14.060 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3 -af an
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav -af volume=-13.80dB,adelay=0|0 /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mus_0.wav.g.wav -t 14.060 /private/tmp/claude-501/lote-1711/ale-colores/mus_cruda.wav
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-colores/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/ale-colores/mus_cruda.wav -i /private/tmp/claude-501/lote-1711/a
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/ale-colores/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/ale-colores/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -cr
 master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v3 lote (música).mp4 -14.0 LUFS

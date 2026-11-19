@@ -1,14 +1,15 @@
 > /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
-39 eventos
+48 eventos
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/alvaro4/eventos.json --video /private/tmp/claude-501/lote-1711/al
 checking the cue list against the picture (frame analysis of the render) ...
-sync: 83% of the declared wipes and hits sit on a picture change (median offset +20 ms): the list belongs to this render
-WARN sync drift: the offset changes along the film (a re-time or voice fit moves the end first): 0-0.1s +0.15 | 7.2-27.1s +0.02 | 29.9-33.1s +0.02. Look at the frames of the late events before you trust them.
+sync: 90% of the declared wipes and hits sit on a picture change (median offset +17 ms): the list belongs to this render
+WARN sync drift: the offset changes along the film (a re-time or voice fit moves the end first): 0-0.1s +0.15 | 7.2-7.2s +0.02 | 27.1-27.1s +0.00 | 29.9-29.9s +0.02 | 33.1-33.1s +0.00. Look at the frames of the late events before you trust them.
 NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
-39 cues from 39 events (0 dropped from runs faster than 14/s, 0 fused)
-declared 39 events: 39 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
-routed: pop=12, click=9, whoosh=8, hit=5, riser=3, drop=1, magic=1
-routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, magic -> library:chime, pop -> library:pop, riser -> library:riser, whoosh -> library:whoosh
+fused: 3 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+45 cues from 45 events (0 dropped from runs faster than 14/s, 3 fused)
+declared 48 events: 45 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: pop=12, click=10, whoosh=8, drop=5, hit=5, riser=3, tick=1, magic=1
+routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, magic -> library:chime, pop -> library:pop, riser -> library:riser, tick -> library:click, whoosh -> library:whoosh
 picture moments with no sound within 150 ms (5), look at their frames:
     13.47s  burst   strength 0.71  
     22.13s  burst   strength 0.65  
@@ -17,22 +18,23 @@ picture moments with no sound within 150 ms (5), look at their frames:
     43.43s  burst   strength 0.77  
 -> /private/tmp/claude-501/lote-1711/alvaro4/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/alvaro4/sfx/cues.json --out /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 --voice-safe --sfx
-mono: 1 sound(s) have channels in opposite phase (they would lose 6+ dB on a phone speaker or vanish): each plays its louder channel on both sides (46.30s KF - UI Click - 7.mp3 r=-0.91; --no-mono-fix keeps them as recorded, mono=false on a cue keeps that one)
+mono: 1 sound(s) have channels in opposite phase (they would lose 6+ dB on a phone speaker or vanish): each plays its louder channel on both sides (35.51s KF - UI Click - 7.mp3 r=-0.91; --no-mono-fix keeps them as recorded, mono=false on a cue keeps that one)
 level: 9 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 0.05s; --no-level-roles keeps the peaks equal)
-SFX under speech (normal): 3.5 dB off the SFX energy on average over the whole film (mean power, not gated)
-cues: 39 (39 library, 0 uisfx), 37 distinct files
+SFX under speech (normal): 4.4 dB off the SFX energy on average over the whole film (mean power, not gated)
+cues: 45 (45 library, 0 uisfx), 39 distinct files
 WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+WARN ES_Bass Drop - SFX Producer.mp3 is used 5 times: vary the sound
 video: /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4
 sfx track: /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
-loudness: sfx -28.7 LUFS, final -16.7 LUFS, true peak -3.5 dBTP
+loudness: sfx -27.1 LUFS, final -16.8 LUFS, true peak -3.2 dBTP
 report: /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx_cue_report.md
 resolved cues: /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
-) around 13.26s ('whoosh' -1.0 dB vs the voice); lower them, shorten them, move into a pause (--voice-depth deep ducks by about 24 dB in speech: check the LUFS of *_sfx_ducked.wav before you use it)
+ss >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
 
 Listen to these 5 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
   1.    0.05s  'hit': brought 6 dB up to the perceived level of its role; also 'whoosh' at 0.00s: the first sound of the film: the hook. Listen for: a thin recording lifted that far can turn harsh: is it clean? / does it land with the picture at once, and is it clearly there under the music or the voice?
-  2.    6.15s  'riser': its attack was moved 350 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
-  3.   13.26s  'whoosh': 1 sound(s) on top of the voice, -1.0 dB against it. Listen for: is every word still understood?
+  2.    6.15s  'riser': its attack was moved 350 ms so that it lands on the moment; also '' at 5.80s: the busiest two seconds (6 sounds). Listen for: does the lead-in still read as part of the sound? / is every sound still distinct, or does it turn to mud?
+  3.   13.26s  'whoosh': 1 sound(s) on top of the voice, -0.7 dB against it. Listen for: is every word still understood?
   4.   19.77s  'pop': its peak sits -14 ms from the moment. Listen for: does it feel early or late against the picture?
   5.   29.95s  'magic': the quietest by perceived loudness among the sounds that are not ticks. Listen for: can it be heard at all?
   (--listen-out FILE.wav cuts them into one file of the film's own sound)
@@ -42,11 +44,11 @@ Still to judge by eye on review.png: character fit (each sound suits its picture
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
 master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v3 lote (sin música).mp4 -14.0 LUFS
-> ffmpeg -v error -nostdin -y -ss 63 -t 14.380 -i /Users/luiyi/EDICION/editing luiyi pack/Música/musica clasica suspensa.mp3 -af afade=t=in:d=0.3,afade=t=out:st=13.380:d=1.0 -ar 48000 -ac 2 /private/tmp
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav -af volume=0.50dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav.g.wav
-> ffmpeg -v error -nostdin -y -ss 0 -t 36.387 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Golden Hour_ Piano Version.mp3 -af afade=t=in:d=1.0,afade=t=out:st=34.387:d=2 -ar 4
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav -af volume=-6.00dB,adelay=13380|13380 /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav.g.wav
+> ffmpeg -v error -nostdin -y -stream_loop -1 -ss 63 -t 14.380 -i /Users/luiyi/EDICION/editing luiyi pack/Música/musica clasica suspensa.mp3 -af anull,afade=t=in:d=0.15,afade=t=out:st=13.380:d=1.0 -ar 4
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav -af volume=4.50dB,adelay=0|0 /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -stream_loop -1 -ss 0 -t 36.387 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Golden Hour_ Piano Version.mp3 -af anull,afade=t=in:d=1.0,afade=t=o
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav -af volume=-2.30dB,adelay=13380|13380 /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mus_0.wav.g.wav -i /private/tmp/claude-501/lote-1711/alvaro4/mus_1.wav.g.wav -filter_complex [0:a][1:a]amix=inputs=2:normalize=
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alvaro4/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/alvaro4/mus_cruda.wav -i /private/tmp/claude-501/lote-1711/alvaro4/v
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/alvaro4/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/alvaro4/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
 master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v3 lote (música).mp4 -14.0 LUFS

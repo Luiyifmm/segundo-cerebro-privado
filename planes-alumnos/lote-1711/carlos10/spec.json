@@ -142,7 +142,7 @@
   "escríbeme *CAMBIO* por mensaje",
   "y me cuentas tu peso,",
   "cómo entrenas y qué comes.",
-  "Y te lo digo *gratis.*"
+  "Y te lo digo *$gratis.*"
  ],
  "elementos": [
   {
@@ -419,5 +419,9 @@
    "pos": "id"
   }
  ],
- "mg_deco": "objetos"
+ "mg_deco": "objetos",
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  45.42
+ ]
 }

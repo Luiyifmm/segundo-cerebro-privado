@@ -370,7 +370,7 @@
   "porque si odias lo que comes,",
   "el *rebote está asegurado.*",
   "*Sígueme* para más platos",
-  "que no te hagan *odiar la dieta.*"
+  "que no te hagan *&odiar la dieta.*"
  ],
  "eventos_extra": [
   {
@@ -433,5 +433,9 @@
    "pos": "ii"
   }
  ],
- "mg_deco": "formas"
+ "mg_deco": "formas",
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  5.97
+ ]
 }

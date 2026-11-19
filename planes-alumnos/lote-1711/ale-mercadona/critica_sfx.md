@@ -10,8 +10,8 @@
 | hierarchy | 10.0 | 14.2 dB between the loud and the quiet sounds |
 | headroom | 10.0 | true peak -4.9 dBTP |
 | loudness | 10.0 | final -16.5 LUFS (the author's own balance is kept) |
-| balance | 10.0 | median event peak +2 dB vs the original around it, big sounds +4 dB (whole-track gap +10 LU) (3 event(s) on speech left to the speech axis) |
-| audibility | 7.0 | 3 of 14 sounds sit more than 30 dB under the film's own sound in the mix (median +0 dB, after the ducking) |
+| balance | 7.0 | median event peak +2 dB vs the original around it, big sounds +5 dB (whole-track gap +10 LU) (3 event(s) on speech left to the speech axis) |
+| audibility | 7.0 | 3 of 14 sounds sit more than 30 dB under the film's own sound in the mix (median +1 dB, after the ducking) |
 | speech | 10.0 | 0 sound(s) in 0 moment(s) are within 3 dB of the voice or above it (0 above) even after ducking |
 | low_end | 7.0 | 2 heavy sound(s) on top of existing bass |
 | mono | 10.0 | the SFX track loses 0.0 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 14 sounds lose more than 6 dB; the film loses 0.0 LU in mono against 0.0 LU for the original (+0.0 added) |
@@ -19,9 +19,9 @@
 **FIX**: lowest axis 7.0 (every axis must reach 8; ok to show)
 
 Three worst problems, fix only these, re-render, run again:
-1. audibility: 3 sounds (click) are 30+ dB under the film's own sound in the mix: they cannot be heard. The ducking took them out: --voice-depth light (or normal), or a higher gain_db on those
-2. low end: 'sub_drop' at 0.02s piles onto the bass already there (-32 dB); lower it 25 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
-3. low end: 'hit' at 0.05s piles onto the bass already there (-32 dB); lower it 25 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
+1. balance: sounds sit +5 dB over the original around them: they bury the voice/music, lower with --sfx-trim-db or --voice-safe
+2. audibility: 3 sounds (click) are 30+ dB under the film's own sound in the mix: they cannot be heard. The ducking took them out: --voice-depth light (or normal), or a higher gain_db on those
+3. low end: 'sub_drop' at 0.02s piles onto the bass already there (-33 dB); lower it 25 dB, highpass >= 140 Hz (the check measures 30-140 Hz: 90 Hz is not enough), or drop its sub layer
 
 Listen to these 2 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
   1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (5 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?

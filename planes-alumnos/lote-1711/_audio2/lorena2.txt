@@ -1,0 +1,48 @@
+W1118 19:19:44.494000 9132 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+earshot critique: Lorena - abogados elevaciones - v3 lote (música).mp4 (15.0 s) vs 6 reference films (/Users/luiyi/Videos-Remotion/herramientas/earshot/perfiles/favoritas-luis.json)
+VERDICT: close - 19 of 23 scored metrics in range (weighted 85%), 0 critical and 2 major issues.
+FIX FIRST (most important first):
+  1. [major] sparse: 4.7 onsets/s (refs 6.06 /s .. 7.09 /s): use music with more rhythmic drive, or add UI foley (clicks, typing, ticks) on the on-screen actions
+  2. [major] 1 of 3 visual events have no onset (new attack) within +-100 ms (refs 88% .. 100%); every one has some sound under it; 1 have sound playing through them (a swell, music or a level peak) but no new attack: add an accent on the ones that matter
+  3. [minor] boomy: cut 100-200 Hz on the music and on heavy SFX by 2-3 dB (-2.1 dB share, refs -8.8 dB .. -5.8 dB)
+  4. [minor] dull: transients, clicks and typing lack bite; brighten SFX or use brighter recordings (-28.5 dB share, refs -26.0 dB .. -17.2 dB)
+SCORECARD                                      value   ok range                        ref median  status
+  loudness integrated loudness             -13.8 LUFS   -16.0 LUFS .. -9.0 LUFS (web)   -14.3 LUFS  ok
+  loudness true peak                        -1.8 dBTP   <= 0.0 dBTP (decoded lossy)      -0.4 dBTP  ok
+  realness realness (p_real)                     0.98   >= 0.77 (realness model)                    ok
+  music    music presence                        100%   >= 81%                                100%  ok
+  sync     onset on visual events +-100ms         67%   >= 83%                                 92%  low (major)
+  loudness loudness range                      4.5 LU   1.5 LU .. 7.2 LU                    3.0 LU  ok
+  loudness loudest 3 s above integrated        3.0 LU   1.0 LU .. 4.2 LU                    2.2 LU  ok
+  arc      time to first sound                 0.01 s   <= 0.20 s                           0.04 s  ok
+  ending   dead air at the end                 0.04 s   <= 0.28 s                           0.01 s  ok
+  arc      longest silent gap inside           0.04 s   <= 0.27 s                           0.00 s  ok
+  ending   final moment vs integrated          3.9 LU   -1.1 LU .. 5.0 LU                   1.5 LU  ok
+  density  onset density                      4.73 /s   5.76 /s .. 7.39 /s                 6.58 /s  low (major)
+  density  salient hit density                0.80 /s   0.61 /s .. 2.42 /s                 1.90 /s  ok
+  arc      opening level (first 10%)          -1.4 LU   -2.6 LU .. 3.9 LU                   0.0 LU  ok
+  arc      closing level (last 10%)            2.0 LU   -3.8 LU .. 2.0 LU                  -1.2 LU  ok
+  ending   final fade / ring-out length        0.06 s   <= 1.24 s                           0.04 s  ok
+  spectrum sub 20-60 Hz share                 -9.2 dB   -15.5 dB .. -0.7 dB                -8.2 dB  ok
+  spectrum low 60-250 Hz share                -2.1 dB   -10.3 dB .. -4.3 dB                -7.0 dB  high (minor)
+  spectrum low-mid 250-1k share               -6.6 dB   -10.1 dB .. -0.6 dB                -3.8 dB  ok
+  spectrum mid 1-4 kHz share                 -14.7 dB   -16.4 dB .. -4.6 dB                -8.9 dB  ok
+  spectrum presence 4-8 kHz share            -28.5 dB   -27.5 dB .. -15.7 dB              -19.2 dB  low (minor)
+  spectrum air 8-16 kHz share                -28.4 dB   -31.3 dB .. -16.0 dB              -23.8 dB  ok
+  stereo   stereo width (side vs mid)        -10.0 dB   -23.2 dB .. -6.4 dB               -10.8 dB  ok
+LOUDNESS ARC (LU vs integrated at 0%, 10% .. 100% of the film; not scored):
+  this film      -1.5   -1.7   -1.9   -1.5   -1.2   -0.9   -0.7   -0.2   +2.0   +2.7   +2.0
+  refs median    -0.2   -0.8   +0.6   +0.8   -0.3   -0.5   +0.2   -0.8   -0.8   -0.4   -3.9
+NOT SCORED (style choices, shown for context):
+  voice / speech presence                                            0%   refs p10-p90 89% .. 100%
+  tempo                                                         120 BPM   refs p10-p90 118 BPM .. 142 BPM
+  position of the loudest 3 s                                      0.87   refs p10-p90 0.10 .. 0.41
+  final hit ring-out                                             1.89 s   refs p10-p90 1.62 s .. 3.88 s
+  stop-downs                                                   4.0 /min   refs p10-p90 0.0 /min .. 5.3 /min
+  visual events (cuts, big changes)                             0.20 /s   refs p10-p90 0.36 /s .. 1.50 /s
+  visual events with a salient hit +-100 ms            33% (chance 12%)   refs p10-p90 16% .. 50%
+  visual events with an onset +-1 frame                33% (chance 29%)   refs p10-p90 43% .. 67%
+  visual events on the beat grid +-70 ms              100% (chance 25%)   refs p10-p90 20% .. 42%
+  brightness (median spectral centroid)                          887 Hz   refs p10-p90 1518 Hz .. 2147 Hz
+  L/R correlation                                                  0.82   refs p10-p90 0.70 .. 0.97
+realness: Lorena - abogados elevaciones - v3 lote (música).mp4: real or pro-produced (p_real 0.98, mean of 4 4 s windows; file thresholds lo 0.4 / hi 0.77, weak calibration): 0 of 4 windows lean synthesized (p_real < 0.5); mean CLAP head score +3.5. No window leans synthesized (lowest p_real 0.96); that does not rule out a code-made layer under a louder real mix (most are missed): judge the source files and stems.

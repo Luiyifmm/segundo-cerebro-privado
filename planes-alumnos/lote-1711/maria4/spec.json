@@ -184,7 +184,9 @@
    "tinte": "#F2A07B",
    "tinte_desde": 0.48,
    "golpe": false,
-   "sentido": -1
+   "sentido": -1,
+   "margen": 1.4,
+   "sube": 390
   },
   {
    "tipo": "broll",
@@ -279,7 +281,7 @@
    "tipo": "pildoras",
    "ui": true,
    "t1": 29.5,
-   "y": 1100,
+   "y": 1210,
    "items": [
     {
      "t": 23.67,
@@ -403,10 +405,10 @@
   "*con trabajo,*",
   "exactamente igual que *estaba yo.*",
   "@74.95|No necesitas tener",
-  "una *vida perfecta.*",
+  "una *&vida perfecta.*",
   "De hecho, yo *tampoco la tenía.*",
   "Lo que necesitas es tener *un plan*",
-  "que se adapte a *la vida que tienes.*",
+  "que se adapte a *$la vida que tienes.*",
   "@84.85|Si yo pude *con esa vida,*",
   "tú también puedes *con la tuya.*",
   "Escríbeme *CAMBIO*",
@@ -444,6 +446,15 @@
    "t": 76.6,
    "type": "riser",
    "len": 0.7
+  },
+  {
+   "t": 33.84,
+   "type": "drop"
+  },
+  {
+   "t": 34.0,
+   "type": "paper",
+   "len": 0.35
   }
  ],
  "transiciones": [],
@@ -492,5 +503,9 @@
    "desde": 0,
    "t0": 79.35
   }
+ ],
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  32.97
  ]
 }

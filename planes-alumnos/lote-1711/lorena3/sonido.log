@@ -1,40 +1,41 @@
 > /Users/luiyi/Videos-Remotion/herramientas/entornos/whisperx/bin/python /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/reel_alumno.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trai
-12 eventos
+20 eventos
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/from_cues.py /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/PLANES/lote-1711/lorena3/eventos.json --video /private/tmp/claude-501/lote-1711/lo
 checking the cue list against the picture (frame analysis of the render) ...
-sync: 100% of the declared wipes and hits sit on a picture change (median offset +13 ms): the list belongs to this render
+sync: 88% of the declared wipes and hits sit on a picture change (median offset +13 ms): the list belongs to this render
 NOTE: could not hear the synthesized layer in the render's audio (a music or voice bed can hide a quiet one). A project that keeps a typed event list usually synthesizes from it, so assume it is there unless you know the render was made without it: stems, the project's own voice and music files (--base-audio), or a render without the synthesized layer.
-fused: 1 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
-11 cues from 11 events (0 dropped from runs faster than 14/s, 1 fused)
-declared 12 events: 11 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
-routed: whoosh=4, pop=3, hit=2, drop=1, click=1
+fused: 2 event(s) within 25 ms of a neighbour of the same kind became one sound each (a cluster is one gesture; --fuse 0 keeps them all)
+18 cues from 18 events (0 dropped from runs faster than 14/s, 2 fused)
+declared 20 events: 18 voiced, 0 silent (kinds with no mapping or no sound), 0 thinned
+routed: whoosh=7, hit=6, pop=3, drop=1, click=1
 routes: click -> library:click, drop -> library:sub_drop, hit -> library:hit, pop -> library:pop, whoosh -> library:whoosh
 -> /private/tmp/claude-501/lote-1711/lorena3/sfx/cues.json
 > python3 /Users/luiyi/.claude/skills/real-sfx/scripts/mix.py /private/tmp/claude-501/lote-1711/lorena3/sfx/cues.json --out /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx.mp4 --sfx-trim-db 0
-level: 3 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 12.20s; --no-level-roles keeps the peaks equal)
-cues: 11 (11 library, 0 uisfx), 11 distinct files
-WARN 2 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 1-2 at 0.00s (20 ms); cues 2-3 at 0.02s (30 ms) (intended pairs are fine; otherwise move one)
+level: 4 cue(s) brought to the perceived level of their role (equal peak is not equal loudness; largest +6.0 dB at 0.00s; --no-level-roles keeps the peaks equal)
+cues: 18 (18 library, 0 uisfx), 18 distinct files
+WARN 1 pair(s) of similar cues are closer than 80 ms and will smear, e.g. cues 2-3 at 0.00s (50 ms) (intended pairs are fine; otherwise move one)
 video: /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx.mp4
 sfx track: /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx_sfx_track.wav (before the master gain; for analysis and for stacking under your own mix)
-loudness: sfx -21.8 LUFS, final -21.9 LUFS, true peak -1.7 dBTP
+loudness: sfx -22.0 LUFS, final -23.6 LUFS, true peak -1.7 dBTP  (true peak of the file pulled to -1.7 dBTP (AAC overshoot: 1 place(s) of the encoder's own overshoot dipped locally, up to 3.9 dB for 120 ms (0.01s); the whole ceiling lowered 2 step(s); gain +0.0 dB))
 report: /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx_cue_report.md
 resolved cues: /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx_resolved_cues.json   (use this one with verify.py, review.py and critique.py)
-10.0 | the SFX track loses 0.1 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 11 sounds lose more than 6 dB; the film loses 0.3 LU in mono against 0.0 LU for the original (+0.3 added) |
+ -23.6 LUFS (the author's own balance is kept) |
+| balance | 10.0 | the original is silent around 18 of 18 sounds: nothing there to bury or to be buried by |
+| mono | 10.0 | the SFX track loses 0.1 dB when folded to mono (0 = the channels agree, 3 = unrelated, 6+ = parts cancel); 0 of 18 sounds lose more than 6 dB; the film loses 0.3 LU in mono against 0.0 LU for the original (+0.3 added) |
 
 **FIX**: lowest axis 5.0 (every axis must reach 8; ok to show)
 
-Listen to these 3 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
-  1.    0.00s  'whoosh': the first sound of the film: the hook; also '' at 0.50s: the busiest two seconds (5 sounds). Listen for: does it land with the picture at once, and is it clearly there under the music or the voice? / is every sound still distinct, or does it turn to mud?
-  2.    6.60s  'pop': its attack was moved 98 ms so that it lands on the moment. Listen for: does the lead-in still read as part of the sound?
-  3.   12.20s  'swoosh': brought 6 dB up to the perceived level of its role; also 'click' at 13.40s: the highest peak of the film (-5 dBFS before the master). Listen for: a thin recording lifted that far can turn harsh: is it clean? / is it big without hurting on headphones, and does the music under it pump?
+Listen to these 2 moments, on headphones and then once on a phone speaker. This script cannot hear: they are the places where the numbers above are least certain, and none of them says that it sounds good:
+  1.    0.00s  'hit x0.60': brought 6 dB up to the perceived level of its role; also 'whoosh' at 0.00s: the first sound of the film: the hook. Listen for: a thin recording lifted that far can turn harsh: is it clean? / does it land with the picture at once, and is it clearly there under the music or the voice?
+  2.    6.60s  'pop': its attack was moved 98 ms so that it lands on the moment; also '' at 6.98s: the busiest two seconds (6 sounds). Listen for: does the lead-in still read as part of the sound? / is every sound still distinct, or does it turn to mud?
   (--listen-out FILE.wav cuts them into one file of the film's own sound)
 
 Still to judge by eye on review.png: character fit (each sound suits its picture), cleanliness (no mud in the low end under music/voice, nothing masks speech), taste (designed, not sprayed on).
 
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx.mp4 -vn -ar 48000 -ac 2 /private/tmp/claude-501/lote-1711/lorena3/mezcla_sin_musica.wav
-> ffmpeg -v error -nostdin -y -ss 0 -t 15.000 -i /Users/luiyi/Proyectos/amin/sala-edicion/public/lib/musica/golden-hour-piano-version.mp3 -af afade=t=in:d=0.3,afade=t=out:st=13.000:d=2 -ar 48000 -ac 2 /
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/mus_0.wav -af volume=0.00dB,adelay=0|0 /private/tmp/claude-501/lote-1711/lorena3/mus_0.wav.g.wav
+> ffmpeg -v error -nostdin -y -stream_loop -1 -ss 75.0 -t 15.000 -i /Users/luiyi/EDICION/editing luiyi pack/Música/Radar - The Grey Room _ Density & Time.mp3 -af afade=t=in:d=0.15,afade=t=out:st=14.300:
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/mus_0.wav -af volume=-3.20dB,adelay=0|0 /private/tmp/claude-501/lote-1711/lorena3/mus_0.wav.g.wav
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/mus_0.wav.g.wav -t 15.000 /private/tmp/claude-501/lote-1711/lorena3/mus_cruda.wav
-> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/lorena3/mus_cruda.wav -filter_complex [1:a]volume=0.00dB[m];[0:a][m]
+> ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/mezcla_sin_musica.wav -i /private/tmp/claude-501/lote-1711/lorena3/mus_cruda.wav -filter_complex [1:a]volume=0.00dB,volume=enab
 > ffmpeg -v error -nostdin -y -i /private/tmp/claude-501/lote-1711/lorena3/sfx/video_sfx.mp4 -i /private/tmp/claude-501/lote-1711/lorena3/mezcla_con_musica.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -ma
-master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados saltos - v3 lote (música).mp4 -14.0 LUFS
+master /Users/luiyi/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados saltos - v3 lote (música).mp4 -14.1 LUFS

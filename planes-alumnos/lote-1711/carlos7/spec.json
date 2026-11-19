@@ -104,7 +104,7 @@
   "que te sepa de memoria.",
   "@97.66|Si curras y piensas",
   "que *!no tienes tiempo* para comer bien,",
-  "*sígueme.*"
+  "*$sígueme.*"
  ],
  "elementos": [
   {
@@ -207,7 +207,7 @@
    "doc": true,
    "vineta": 200,
    "grano": 10,
-   "golpe": false,
+   "golpe": true,
    "texto_fondo": [
     {
      "t": 89.4,
@@ -332,7 +332,12 @@
    "g": 0.8
   },
   {
-   "t": 88.9,
+   "t": 88.4,
+   "type": "riser",
+   "len": 0.8
+  },
+  {
+   "t": 89.2,
    "type": "drop"
   }
  ],
@@ -365,5 +370,9 @@
    "desde": 0,
    "t0": 0
   }
+ ],
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  89.2
  ]
 }

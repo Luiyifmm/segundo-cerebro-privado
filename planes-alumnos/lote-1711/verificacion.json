@@ -14,7 +14,7 @@
  {
   "video": "ale-picoteos",
   "alumno": "Alessandro Martin Afonso",
-  "info": "39.1 s · -14.0 LUFS · TP -1.8 · 22 MB",
+  "info": "39.1 s · -14.0 LUFS · TP -2.3 · 22 MB",
   "fallos": []
  },
  {
@@ -32,7 +32,7 @@
  {
   "video": "alvaro4",
   "alumno": "Álvaro Cabrera",
-  "info": "49.8 s · -14.0 LUFS · TP -1.9 · 52 MB",
+  "info": "49.8 s · -14.0 LUFS · TP -1.8 · 52 MB",
   "fallos": []
  },
  {
@@ -44,7 +44,7 @@
  {
   "video": "carlos7",
   "alumno": "Carlos López Segura",
-  "info": "38.6 s · -14.2 LUFS · TP -1.7 · 32 MB",
+  "info": "38.6 s · -14.1 LUFS · TP -1.7 · 32 MB",
   "fallos": []
  },
  {
@@ -56,31 +56,31 @@
  {
   "video": "lorena1",
   "alumno": "Lorena Castaño (Lore)",
-  "info": "15.0 s · -14.0 LUFS · TP -1.7 · 25 MB",
+  "info": "15.0 s · -14.2 LUFS · TP -1.9 · 24 MB",
   "fallos": []
  },
  {
   "video": "lorena2",
   "alumno": "Lorena Castaño (Lore)",
-  "info": "15.0 s · -14.0 LUFS · TP -2.1 · 25 MB",
+  "info": "15.0 s · -13.8 LUFS · TP -1.8 · 25 MB",
   "fallos": []
  },
  {
   "video": "lorena3",
   "alumno": "Lorena Castaño (Lore)",
-  "info": "15.0 s · -14.0 LUFS · TP -1.8 · 25 MB",
+  "info": "15.0 s · -14.1 LUFS · TP -1.9 · 25 MB",
   "fallos": []
  },
  {
   "video": "marc",
   "alumno": "Marc Martínez García (Marc)",
-  "info": "49.8 s · -13.9 LUFS · TP -2.0 · 36 MB",
+  "info": "49.8 s · -13.9 LUFS · TP -2.3 · 36 MB",
   "fallos": []
  },
  {
   "video": "maria4",
   "alumno": "María Morales García",
-  "info": "53.5 s · -13.9 LUFS · TP -2.6 · 73 MB",
+  "info": "53.5 s · -14.0 LUFS · TP -2.0 · 73 MB",
   "fallos": []
  }
 ]

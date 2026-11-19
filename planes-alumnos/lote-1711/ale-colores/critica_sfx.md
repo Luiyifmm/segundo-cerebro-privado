@@ -8,9 +8,9 @@
 | pacing | 9.0 | 7.8 weighted events per 10 s, longest silence 2.2 s |
 | variety | 10.0 | 14 source recordings, 14 families in 14 sounds (runs and interface sounds not counted) |
 | hierarchy | 8.3 | 5.7 dB between the loud and the quiet sounds |
-| headroom | 10.0 | true peak -4.8 dBTP |
+| headroom | 10.0 | true peak -4.9 dBTP |
 | loudness | 10.0 | final -16.8 LUFS (the author's own balance is kept) |
-| balance | 3.0 | median event peak +5 dB vs the original around it, big sounds +5 dB (whole-track gap +11 LU) (10 event(s) on speech left to the speech axis) |
+| balance | 3.0 | median event peak +5 dB vs the original around it, big sounds +5 dB (whole-track gap +11 LU) (9 event(s) on speech left to the speech axis) |
 | audibility | 10.0 | 0 of 21 sounds sit more than 30 dB under the film's own sound in the mix (median -14 dB, after the ducking) |
 | speech | 10.0 | 0 sound(s) in 0 moment(s) are within 3 dB of the voice or above it (0 above) even after ducking |
 | low_end | 7.0 | 2 heavy sound(s) on top of existing bass |

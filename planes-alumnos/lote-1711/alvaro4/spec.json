@@ -49,49 +49,6 @@
  ],
  "elementos": [
   {
-   "tipo": "titulo",
-   "t0": 0.1,
-   "t1": 3.4,
-   "y": 250,
-   "linea1": "Antes de tomarte nada…",
-   "linea2": "REVISA ESTO",
-   "col": "bueno"
-  },
-  {
-   "tipo": "tarjeta",
-   "t0": 1.0,
-   "t1": 3.3,
-   "x": 820,
-   "y": 640,
-   "lado": 230,
-   "emoji": "💊",
-   "texto": "Todavía no",
-   "marca": "no",
-   "t_marca": 1.44
-  },
-  {
-   "tipo": "dm",
-   "t0": 3.6,
-   "t1": 7.15,
-   "y": 1480,
-   "emoji": "👩",
-   "items": [
-    {
-     "t": 4.2,
-     "texto": "Oye…"
-    },
-    {
-     "t": 5.3,
-     "texto": "siempre me siento hinchada"
-    },
-    {
-     "t": 6.5,
-     "texto": "¿me puedes ayudar?"
-    }
-   ],
-   "escribiendo": 0.45
-  },
-  {
    "tipo": "broll",
    "img": "../_flow/mujer-gym.png",
    "t0": 7.18,
@@ -185,8 +142,102 @@
   {
    "tipo": "pildoras",
    "ui": true,
-   "t1": 29.93,
+   "t1": 27.13,
+   "y": 640,
+   "items": [
+    {
+     "t": 24.59,
+     "texto": "Ultraprocesados",
+     "marca": "no"
+    },
+    {
+     "t": 24.75,
+     "texto": "Poca agua",
+     "marca": "no"
+    },
+    {
+     "t": 24.91,
+     "texto": "Saltarse comidas",
+     "marca": "no"
+    }
+   ],
+   "tam": 46,
+   "detras": true
+  },
+  {
+   "tipo": "broll",
+   "img": "../_flow/medico-hinchada.png",
+   "t0": 33.4,
+   "t1": 38.6,
+   "tinte": "#A259FF",
+   "texto_grande": {
+    "t": 35.13,
+    "texto": "Ve a tu médico",
+    "y": 1250,
+    "tam": 96
+   },
+   "etiquetas": [
+    {
+     "t": 35.81,
+     "texto": "Siempre por delante",
+     "marca": "si"
+    },
+    {
+     "t": 36.9,
+     "texto": "Puedes tener otros problemas digestivos",
+     "emoji": "⚠️"
+    }
+   ],
+   "y_etiquetas": 1380
+  },
+  {
+   "tipo": "titulo",
+   "t0": 0.1,
+   "t1": 3.4,
    "y": 250,
+   "linea1": "Antes de tomarte nada…",
+   "linea2": "REVISA ESTO",
+   "col": "bueno"
+  },
+  {
+   "tipo": "tarjeta",
+   "t0": 1.0,
+   "t1": 3.3,
+   "x": 820,
+   "y": 640,
+   "lado": 230,
+   "emoji": "💊",
+   "texto": "Todavía no",
+   "marca": "no",
+   "t_marca": 1.44
+  },
+  {
+   "tipo": "dm",
+   "t0": 3.6,
+   "t1": 7.15,
+   "y": 1480,
+   "emoji": "👩",
+   "items": [
+    {
+     "t": 4.2,
+     "texto": "Oye…"
+    },
+    {
+     "t": 5.3,
+     "texto": "siempre me siento hinchada"
+    },
+    {
+     "t": 6.5,
+     "texto": "¿me puedes ayudar?"
+    }
+   ],
+   "escribiendo": 0.45
+  },
+  {
+   "tipo": "pildoras",
+   "ui": true,
+   "t1": 29.93,
+   "y": 640,
    "mover": [
     27.13,
     1200
@@ -208,28 +259,8 @@
      "marca": "no"
     }
    ],
-   "tam": 46
-  },
-  {
-   "tipo": "broll",
-   "img": "../_flow/medico-hinchada.png",
-   "t0": 33.4,
-   "t1": 38.6,
-   "tinte": "#A259FF",
-   "texto_grande": {
-    "t": 35.13,
-    "texto": "Ve a tu médico",
-    "y": 1250,
-    "tam": 96
-   },
-   "etiquetas": [
-    {
-     "t": 35.81,
-     "texto": "Siempre por delante",
-     "marca": "si"
-    }
-   ],
-   "y_etiquetas": 1380
+   "tam": 46,
+   "t0": 27.13
   },
   {
    "tipo": "tarjeta",
@@ -305,8 +336,8 @@
   "y no sabes por dónde *empezar,*",
   "*escríbeme por mensaje*",
   "y te mando *mi guía*",
-  "para cambiar hábitos *poco a poco*",
-  "de manera *sostenible.*"
+  "para cambiar hábitos *&poco a poco*",
+  "de manera *$sostenible.*"
  ],
  "eventos_extra": [
   {
@@ -370,5 +401,11 @@
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  7.18
+ ],
+ "subs_broll": true,
+ "subs_arriba_y": 330
 }

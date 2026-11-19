@@ -53,9 +53,11 @@ if S.get('tiempos') == 'bruto':          # el spec se escribe con los tiempos de
             if isinstance(e.get('especial', {}).get(k), (int, float)): e['especial'][k] = m_(e['especial'][k])
     S['capas_sonido'] = [dict(x, t=m_(x['t'])) for x in S.get('capas_sonido', [])]
     S['musicas'] = [dict(x, t0=m_(x['t0'])) for x in S.get('musicas', [])]
+    S['stopdowns'] = [m_(x) for x in S.get('stopdowns', [])]
     S['zooms'] = [[m_(zm[0]), m_(zm[1])] + list(zm[2:]) for zm in S.get('zooms', [])]
     S['transiciones'] = [m_(x) for x in S.get('transiciones', [])]
     S['sin_subs'] = [[m_(a), m_(b)] for a, b in S.get('sin_subs', [])]
+    S['subs_arriba'] = [[m_(a), m_(b)] for a, b in S.get('subs_arriba', [])]
     S['eventos_extra'] = [dict(x, t=m_(x['t'])) for x in S.get('eventos_extra', [])]
     if 'frases_desde' in S: S['frases_desde'] = m_(S['frases_desde'])
     S['frases'] = [re.sub(r'@([\d.]+)\|', lambda g: '@%.3f|' % m_(float(g.group(1))), f) for f in S.get('frases', [])]
@@ -83,6 +85,7 @@ FU = {
     'playfair': os.path.expanduser('~/Videos-Remotion/video-editor/assets/fonts/PlayfairDisplay-Italic-VF.ttf'),
     'mano': os.path.expanduser('~/Library/Fonts/PermanentMarker-Regular.ttf'),
     'mano2': os.path.expanduser('~/Library/Fonts/ShadowsIntoLight-Regular.ttf'),
+    'script': os.path.expanduser('~/Library/Fonts/Aston Script.ttf'),
 }
 _f = {}
 def F(nombre, s):
@@ -201,7 +204,9 @@ def construir_subs():
         toks = re.findall(r'\*[^*]+\*|\S+', fr); filas = []
         for tk in toks:
             clave = tk.startswith('*'); tx = tk.strip('*'); col = 'bueno'
-            if tx.startswith('!'): col, tx = 'malo', tx[1:]
+            if tx.startswith('&'): col, tx = 'bueno|playfair', tx[1:]          # v3 (Miro texto especial): clave en serif elegante
+            elif tx.startswith('$'): col, tx = 'bueno|script', tx[1:]          # clave en letra script
+            elif tx.startswith('!'): col, tx = 'malo', tx[1:]
             elif tx.startswith('~'): col, tx = 'crema', tx[1:]
             elif tx.startswith('%'): col, tx = tx[1:].split('%', 1)
             for sub in tx.split():
@@ -227,6 +232,13 @@ def subtitulo(im, t, SUBS):
     y = S.get('sub_y', 1430)
     for k, (t0, t1, filas) in enumerate(SUBS):
         if not (t0 - 0.02 <= t < t1): continue
+        arriba = S.get('subs_arriba', []) + ([[e['t0'], e['t1']] for e in S.get('elementos', []) if e['tipo'] in ('broll', 'post_ig')] if S.get('subs_broll') else [])
+        if any(a <= t < b for a, b in arriba) and filas[0][3] != 'pregunta':      # v3 (Luis): en b-roll, subtítulo pequeño y minimalista arriba
+            vis = [(w.lstrip('^'), c_) for w, s_, c_, col in filas if t >= s_ - 0.02]
+            if vis:
+                tx = ' '.join(w for w, c_ in vis); d = ImageDraw.Draw(im); f, _ = ajusta(d, tx, 'sf_med', S.get('subs_arriba_tam', 40), 860); ya = S.get('subs_arriba_y', 330)
+                sombra_texto(im, (540, ya), tx, f, fuerza=220, blur=10); ImageDraw.Draw(im).text((540, ya), tx, font=f, fill=(255, 255, 255), anchor='mm')
+            return
         if any(a <= t < b for a, b in S.get('sin_subs', [])): return
         if any(t0 < b <= t and a < t1 for a, b in S.get('sin_subs', [])): return   # v3 (pacing): un subtítulo que empezó antes de un b-roll no reaparece al volver
         if filas[0][3] == 'pregunta':
@@ -247,7 +259,7 @@ def subtitulo(im, t, SUBS):
         d = ImageDraw.Draw(im)
         todo = [(w, s_) for w, s_, c, col in filas[:k0]]
         if rel and S.get('subs_palabra', True):            # v3 (referencias): cada palabra entra en su sitio con un pequeño deslizamiento y fundido
-            linea = ' '.join(w for w, s_ in todo); f, _ = ajusta(d, linea, 'sf_bold', S.get('subs_tam', [52, 118])[0], S.get('subs_ancho', 940))
+            linea = ' '.join(w for w, s_ in todo); f, _ = ajusta(d, linea, S.get('subs_fuente', 'sf_bold'), S.get('subs_tam', [52, 118])[0], S.get('subs_ancho', 940))
             x = 540 - d.textlength(linea, font=f) / 2; sp = d.textlength(' ', font=f)
             sh = Image.new('L', im.size, 0); ds = ImageDraw.Draw(sh); l = Image.new('RGBA', im.size, (0, 0, 0, 0)); dl = ImageDraw.Draw(l)
             for w, s_ in todo:
@@ -262,17 +274,18 @@ def subtitulo(im, t, SUBS):
         if cl and t >= cl[0][1] - 0.02:
             caja = cl[0][0].startswith('^'); cl = [(w.lstrip('^'), s_, c_) for w, s_, c_ in cl]
             txt = ' '.join(w for w, s_, col in cl); txt = txt.upper() if MAYUS else txt
-            col = COL[cl[0][2]]; te = cl[0][1]
-            base_t = S.get('subs_tam', [52, 118])[1] if CLAVE_F != 'playfair' else int(S.get('subs_tam', [52, 118])[1] * 1.08)
+            cn, fk = (cl[0][2].split('|') + [CLAVE_F])[:2]; col = COL[cn]; te = cl[0][1]
+            if fk in ('playfair', 'script'): txt = ' '.join(w for w, s_, c_ in cl)          # serif/script: sin mayúsculas
+            base_t = S.get('subs_tam', [52, 118])[1] if fk not in ('playfair', 'script') else int(S.get('subs_tam', [52, 118])[1] * (1.12 if fk == 'playfair' else 1.35))
             p = eo((t - te) / 0.16); tam = int(lerp(base_t * 1.12, base_t, p))
-            f, tam = ajusta(d, txt, CLAVE_F, tam, S.get('subs_ancho', 960))
+            f, tam = ajusta(d, txt, fk, tam, S.get('subs_ancho', 960))
             yy = y + (base_t * .78 if rel else 0) + 10 * (1 - p)
             if caja:                                            # v3: clave dentro de una caja del color de marca (referencia «So the TRUTH»)
                 tw = d.textlength(txt, font=f); bx = (540 - tw / 2 - 18, yy - tam * .62, 540 + tw / 2 + 18, yy + tam * .62)
                 ImageDraw.Draw(im).rounded_rectangle(bx, 10, fill=col); ImageDraw.Draw(im).text((540, yy), txt, font=f, fill=(255, 255, 255) if sum(col) < 560 else NEGRO, anchor='mm')
             else:                                               # v3 (Luis): más sombra y un brillo suave del color de la clave para que se lea mejor
                 sombra_texto(im, (540, yy + 4), txt, f, fuerza=255, blur=S.get('sombra_blur', 12) + 6); sombra_texto(im, (540, yy), txt, f, fuerza=200, blur=5)
-                gl = Image.new('L', im.size, 0); ImageDraw.Draw(gl).text((540, yy), txt, font=f, fill=S.get('glow', 120), anchor='mm')
+                gl = Image.new('L', im.size, 0); ImageDraw.Draw(gl).text((540, yy), txt, font=f, fill=S.get('glow', 120) + (90 if fk in ('playfair', 'script') else 0), anchor='mm')
                 im.paste(Image.new('RGB', im.size, col), (0, 0), gl.filter(ImageFilter.GaussianBlur(16)))
                 ImageDraw.Draw(im).text((540, yy), txt, font=f, fill=col, anchor='mm')
         return
@@ -406,6 +419,7 @@ def el_pildoras(im, e, t):
     """Lista de píldoras de cristal con ✓ (o ✕) que entran una a una."""
     if t < e['items'][0]['t'] - 0.01 or sal(t, e['t1']) <= 0: return im
     s = sal(t, e['t1']); y = e.get('y', 250); lado = e.get('lado', 'der')
+    if e.get('t0') is not None and t < e['t0']: return im
     if e.get('ui'):                       # v2: píldoras UI del mismo ancho, texto centrado; «mover» [t, y_nueva] las lleva a otra zona (p. ej. al degradado de un b-roll)
         if e.get('mover'): y = lerp(y, e['mover'][1], eo((t - e['mover'][0]) / 0.45))
         c = im.copy(); pildoras_ui(c, e['items'], t, int(y), e.get('tam', 42), cx=e.get('x', 540)); return mezcla(im, c, s)
@@ -592,14 +606,14 @@ def contiguo(e):
 _BR = {}
 def broll_capas(ruta, margen=1.14):
     """Capas del b-roll: fondo con hueco rellenado + sujeto recortado (preparar_broll.py), escaladas a cubrir 9:16 con margen."""
-    if ruta not in _BR:
+    if (ruta, margen) not in _BR:
         f = os.path.join(AQUI, ruta); b = os.path.splitext(f)[0]
         base_ = Image.open(f).convert('RGB')
         bg = Image.open(b + '.bg.png').convert('RGB') if os.path.exists(b + '.bg.png') else base_
         fg = Image.open(b + '.fg.png').convert('RGBA') if os.path.exists(b + '.fg.png') else None
         s = max(W / base_.size[0], H / base_.size[1]) * margen; tam = (int(base_.size[0] * s), int(base_.size[1] * s))
-        _BR[ruta] = (bg.resize(tam, Image.LANCZOS), fg.resize(tam, Image.LANCZOS) if fg else None)
-    return _BR[ruta]
+        _BR[(ruta, margen)] = (bg.resize(tam, Image.LANCZOS), fg.resize(tam, Image.LANCZOS) if fg else None)
+    return _BR[(ruta, margen)]
 def ventana(capa_, z, ox, oy, out=(W, H)):
     cw, ch = capa_.size; w, h = out[0] / z, out[1] / z; x0 = (cw - w) / 2 + ox; y0 = (ch - h) / 2 + oy
     x0 = min(max(0, x0), cw - w); y0 = min(max(0, y0), ch - h)
@@ -622,11 +636,11 @@ def degradado_color(img, col, desde=0.52, fuerza=235):
 def pinta_broll(e, t, size=(W, H)):
     """Imagen animada como en After Effects: el fondo se acerca despacio y el sujeto (capa recortada) más rápido y en sentido contrario
     = parallax 2.5D; textura documental (grano, viñeta, algo de desaturado) y degradado del color de marca de abajo arriba."""
-    bg, fg = broll_capas(e['img']); d_ = max(0.5, e['t1'] - e['t0']); p = min(1, max(0, (t - e['t0']) / d_))
+    bg, fg = broll_capas(e['img'], e.get('margen', 1.14)); d_ = max(0.5, e['t1'] - e['t0']); p = min(1, max(0, (t - e['t0']) / d_))
     sent = e.get('sentido', 1); mov = e.get('mov', 1.0)
     zb = lerp(1.0, 1.0 + 0.06 * mov, p); zf = lerp(1.0, 1.0 + 0.13 * mov, p)
     q = ent(t, e['t0'], 0.28); zb *= lerp(1.16, 1.0, q); zf *= lerp(1.16, 1.0, q)       # entrada: golpe de zoom
-    im = ventana(bg, zb, sent * lerp(-22, 22, p) * mov, lerp(10, -10, p) * mov, size)
+    im = ventana(bg, zb, sent * lerp(-22, 22, p) * mov, lerp(10, -10, p) * mov + e.get('sube', 0), size)
     for k, ln in enumerate(e.get('texto_fondo', [])):      # v3: letras detrás del sujeto, como parte del ambiente («sin hambre de / LOBO»)
         q_ = eo((t - ln.get('t', e['t0'])) / 0.4)
         if q_ > 0:
@@ -636,7 +650,7 @@ def pinta_broll(e, t, size=(W, H)):
                 im.paste(Image.new('RGB', im.size, colr(ln.get('col', 'blanco'))), (0, 0), gl.filter(ImageFilter.GaussianBlur(28)))
             texto_capa(im, xy_, tx_, fu_, ln.get('tam', 150), colr(ln.get('col', 'blanco')), q_ * ln.get('opacidad', 0.85), ancho=1040)
     if fg is not None and e.get('parallax', True):
-        l = ventana(fg, zf, -sent * lerp(-30, 30, p) * mov, 0, size); im.paste(l, (0, 0), l)
+        l = ventana(fg, zf, -sent * lerp(-30, 30, p) * mov, e.get('sube', 0), size); im.paste(l, (0, 0), l)
     if e.get('doc', True):
         im = Image.blend(im, im.convert('L').convert('RGB'), e.get('desat', 0.22))
         im.paste(Image.new('RGB', im.size, (0, 0, 0)), (0, 0), vineta(im.size, e.get('vineta', 150)))
@@ -985,7 +999,7 @@ def base():
     if con_audio:
         g = S.get('ganancia_db', 0)
         subprocess.run(['ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', WORK + '/base.mov', '-vn', '-af',
-                        'volume=%sdB,highpass=f=80,afftdn=nf=-45,acompressor=threshold=0.06:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-2' % g, '-ar', '48000', '-ac', '2', WORK + '/voz.wav'], check=True)
+                        'volume=%sdB,highpass=f=80,afftdn=nf=-45,equalizer=f=250:t=q:w=1.2:g=-2,treble=g=3:f=5500,acompressor=threshold=0.06:ratio=3:attack=5:release=120,loudnorm=I=-16:TP=-2' % g, '-ar', '48000', '-ac', '2', WORK + '/voz.wav'], check=True)
     print('base ok', N, 'fotogramas', round(DUR, 2), 's')
 
 def video():
@@ -1030,8 +1044,8 @@ def eventos():
         elif e['tipo'] == 'post_ig': ev.append({'t': max(0, e['t0'] - 0.15), 'type': 'whoosh', 'len': 0.5}); ev.append({'t': e.get('t_zoom', e['t0'] + 1), 'type': 'whoosh', 'len': 0.8}); ev.append({'t': e.get('t_zoom', e['t0'] + 1) + 0.9, 'type': 'pop'})
         elif e['tipo'] == 'mensaje': ev.append({'t': e['t0'], 'type': 'pop'}); ev.append({'t': e['t0'] + e.get('escribiendo', 0.7), 'type': 'chime'})
         elif e['tipo'] == 'calendario':
-            ev.append({'t': e['t0'], 'type': 'swoosh'}); a, b = e.get('t_llenar', [e['t0'] + .3, e['t0'] + 2.5])
-            ev += [{'t': a + (b - a) * k / 6, 'type': 'tick'} for k in range(7)]
+            ev.append({'t': e['t0'], 'type': 'swoosh'}); a, b = e.get('t_llenar', [e['t0'] + .3, e['t0'] + 2.5]); nd = min(21, e.get('dias', 21))
+            ev += [{'t': a + (b - a) * k / max(1, nd - 1), 'type': 'tick'} for k in range(nd)]          # v3: un tic por día
             if e.get('especial'): ev.append({'t': e['especial']['t'], 'type': 'hit'}); ev.append({'t': e['especial'].get('t2', e['especial']['t'] + .5), 'type': 'pop'})
         elif e['tipo'] == 'cta':
             ev.append({'t': e['t0'], 'type': 'swoosh'})
@@ -1039,8 +1053,21 @@ def eventos():
     ev += [{'t': max(0, tt - 0.12), 'type': 'whoosh'} for tt in S.get('transiciones', [])]
     ev += [{'t': zm[0], 'type': 'hit'} for zm in S.get('zooms', []) if zm[2] >= 1.15 and zm[1] - zm[0] < 1.5 and len(zm) < 5]
     ev += [{'t': max(0, zm[0] - 0.05), 'type': 'whoosh', 'len': 0.3} for zm in S.get('zooms', []) if len(zm) >= 5]   # solo golpes de zoom cortos, no reencuadres
+    for e in S.get('elementos', []):
+        if e['tipo'] in ('broll', 'cartel', 'post_ig') and e.get('golpe', True): ev.append({'t': e['t0'], 'type': 'drop', 'g': 0.45})
+        if e['tipo'] == 'tarjeta' and e.get('suelta'): ev.append({'t': max(0, e['t0'] - 0.12), 'type': 'whoosh', 'len': 0.4}); ev.append({'t': e['t0'], 'type': 'hit', 'g': 0.6})
+        if e['tipo'] == 'calendario' and e.get('desenfoca'): ev.append({'t': e['t0'], 'type': 'hit', 'g': 0.5})
+    off = 0.0                                                   # v3 (earshot): ningún corte sin sonido
+    for k_, (a_, b_) in enumerate(TRAMOS[:-1]):
+        off += b_ - a_
+        if not any(abs(x['t'] - off) < 0.15 for x in ev): ev.append({'t': max(0, off - 0.08), 'type': 'whoosh', 'len': 0.25, 'g': 0.45})
+    for e in (S.get('elementos', []) if S.get('ticks_auto', True) else []):
+        for k in ('t0',):
+            tt = e.get(k)
+            if isinstance(tt, (int, float)) and tt < DUR - 0.2 and not any(abs(x['t'] - tt) < 0.15 for x in ev): ev.append({'t': tt, 'type': 'tick', 'g': 0.5})
+    if S.get('audio', 'voz') != 'voz': ev.append({'t': max(0, DUR - 0.75), 'type': 'hit'})
     ev += S.get('eventos_extra', [])
-    json.dump({'capas_sonido': S.get('capas_sonido', []), 'musicas': S.get('musicas', [])}, open(os.path.join(WORK, 'tiempos_v2.json'), 'w'), indent=1)
+    json.dump({'capas_sonido': S.get('capas_sonido', []), 'musicas': S.get('musicas', []), 'stopdowns': S.get('stopdowns', [])}, open(os.path.join(WORK, 'tiempos_v2.json'), 'w'), indent=1)
     ev = sorted(ev, key=lambda x: x['t']); json.dump(ev, open(os.path.join(AQUI, 'eventos.json'), 'w'), indent=1); print(len(ev), 'eventos')
 
 if __name__ == '__main__':
@@ -1089,7 +1116,8 @@ if __name__ == '__main__':
         # v2: recorta a la persona (Vision, «levantar sujeto») en los fotogramas donde hay elementos «detras» -> sujeto/s_NNNN.png
         os.makedirs(WORK + '/sujeto', exist_ok=True); fs = set()
         for e in S.get('elementos', []):
-            if e.get('detras'): fs |= set(range(max(0, int(e['t0'] * FPS) - 2), min(N, int(e.get('t1', e['t0'] + 3) * FPS) + 8)))
+            if e.get('detras'):
+                t0_ = e.get('t0', min((it['t'] for it in e.get('items', [])), default=0)); fs |= set(range(max(0, int(t0_ * FPS) - 2), min(N, int(e.get('t1', t0_ + 3) * FPS) + 8)))
         fs = sorted(f for f in fs if not os.path.exists('%s/sujeto/s_%04d.png' % (WORK, f)))
         REC = os.path.expanduser('~/Videos-Remotion/herramientas/recorte-objetos/recortar')
         for k in range(0, len(fs), 40):

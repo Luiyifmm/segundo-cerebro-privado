@@ -187,8 +187,6 @@
    "type": "sub_drop"
   }
  ],
- "musica": "golden-hour-piano-version.mp3",
- "musica_desde": 0,
  "version": "v3",
  "mg_esquinas": [
   {
@@ -206,5 +204,16 @@
    "blur": 6
   }
  ],
- "mg_deco": "formas"
+ "mg_deco": "formas",
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  4.45
+ ],
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Radar - The Grey Room _ Density & Time.mp3",
+   "desde": 75.0,
+   "t0": 0
+  }
+ ]
 }

@@ -62,7 +62,7 @@
   "foto": "../_perfiles/robledojorge8.jpg"
  },
  "cara_y": 0.25,
- "sub_y": 1220,
+ "sub_y": 1500,
  "degradado": true,
  "degradado_desde": 0.52,
  "degradado_fuerza": 235,
@@ -453,14 +453,6 @@
  "version": "v3",
  "sin_subs": [
   [
-   0.4,
-   3.6
-  ],
-  [
-   4.6,
-   13.75
-  ],
-  [
    17.02,
    23.2
   ],
@@ -477,20 +469,12 @@
    48.5
   ],
   [
-   48.6,
-   50.95
-  ],
-  [
    57.4,
    61.65
   ],
   [
    63.3,
    69.42
-  ],
-  [
-   69.43,
-   72.7
   ]
  ],
  "eventos_extra": [
@@ -537,5 +521,17 @@
    "pos": "id"
   }
  ],
- "mg_deco": "objetos"
+ "mg_deco": "objetos",
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  37.3
+ ],
+ "subs_broll": true,
+ "subs_arriba_y": 330,
+ "subs_arriba": [
+  [
+   4.6,
+   13.75
+  ]
+ ]
 }

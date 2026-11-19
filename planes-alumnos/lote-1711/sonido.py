@@ -64,12 +64,12 @@ def capas(base, dur):
 def pista_musicas(dur):
     """v2: una o varias músicas («musicas»: archivo, desde, t0) con fundido cruzado de 'cruce' s entre una y la siguiente."""
     ms = S.get('musicas') or [{'archivo': S['musica'], 'desde': S.get('musica_desde', 0), 't0': 0}]
-    obj = S.get('musica_lufs', -25 if VOZ else -16); partes = []
+    obj = S.get('musica_lufs', -21 if VOZ else -15); partes = []
     for k, m_ in enumerate(ms):
         t0 = m_['t0']; t1 = ms[k + 1]['t0'] if k + 1 < len(ms) else dur; cr = m_.get('cruce', 1.2) if k + 1 < len(ms) else 0
         d = t1 - t0 + cr; p = WORK + '/mus_%d.wav' % k
-        run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-ss', str(m_.get('desde', 0)), '-t', '%.3f' % d, '-i', ruta_mus(m_['archivo']), '-af',
-            'afade=t=in:d=%s,afade=t=out:st=%.3f:d=%s' % (0.3 if k == 0 else ms[k - 1].get('cruce', 1.2), max(0, d - (cr or 2)), cr or 2), '-ar', '48000', '-ac', '2', p)
+        run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-stream_loop', '-1', '-ss', str(m_.get('desde', 0)), '-t', '%.3f' % d, '-i', ruta_mus(m_['archivo']), '-af',
+            m_.get('filtro', 'anull') + ',' + 'afade=t=in:d=%s,afade=t=out:st=%.3f:d=%s' % (0.15 if k == 0 else ms[k - 1].get('cruce', 1.2), max(0, d - (cr or 0.7)), cr or 0.7), '-ar', '48000', '-ac', '2', p)
         g = obj + m_.get('db', 0) - lufs(p); q = p + '.g.wav'
         run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', p, '-af', 'volume=%.2fdB,adelay=%d|%d' % (g, int(t0 * 1000), int(t0 * 1000)), q); partes.append(q)
     m = WORK + '/mus_cruda.wav'
@@ -88,8 +88,13 @@ def musica():
     if VOZ: master(base, v, os.path.join(MEDIA, titulo + ' - %s lote (sin música).mp4' % VER))   # sin voz, «sin música» serían solo efectos
     if not (S.get('musica') or S.get('musicas')): return
     m = pista_musicas(dur); g = 0
-    mix = WORK + '/mezcla_con_musica.wav'
-    run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', base, '-i', m, '-filter_complex', '[1:a]volume=%.2fdB[m];[0:a][m]amix=inputs=2:normalize=0:duration=first[a]' % g, '-map', '[a]', '-ar', '48000', mix)
+    mix = WORK + '/mezcla_con_musica.wav'; voz = WORK + '/voz.wav'
+    sd = ''.join(",volume=enable='between(t,%.3f,%.3f)':volume=0.05" % (t_ - 0.35, t_ - 0.02) for t_ in S.get('stopdowns', []))   # v3: silencio breve antes del golpe
+    if VOZ and os.path.exists(voz):      # v3 (earshot vs favoritas): música más presente y que se aparta sola cuando habla la voz (3-6 dB)
+        fc = '[1:a]volume=%.2fdB%s[m];[2:a]aresample=48000,aformat=channel_layouts=stereo,asplit=1[k];[m][k]sidechaincompress=threshold=0.04:ratio=3:attack=25:release=350:makeup=1[md];[0:a][md]amix=inputs=2:normalize=0:duration=first[a]' % (g, sd)
+        run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', base, '-i', m, '-i', voz, '-filter_complex', fc, '-map', '[a]', '-ar', '48000', mix)
+    else:
+        run('ffmpeg', '-v', 'error', '-nostdin', '-y', '-i', base, '-i', m, '-filter_complex', '[1:a]volume=%.2fdB%s[m];[0:a][m]amix=inputs=2:normalize=0:duration=first[a]' % (g, sd), '-map', '[a]', '-ar', '48000', mix)
     master(mix, v, os.path.join(MEDIA, titulo + ' - %s lote (música).mp4' % VER))
 
 if PASO in ('efectos', 'todo'): efectos()

@@ -167,7 +167,7 @@
  "musicas": [
   {
    "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Hand Covers Bruise (HD) - From the Soundtrack to The Social Network.mp3",
-   "desde": 0,
+   "desde": 39.4,
    "t0": 0,
    "cruce": 1.2
   },
@@ -176,5 +176,9 @@
    "desde": 0,
    "t0": 8.3
   }
+ ],
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  4.4
  ]
 }

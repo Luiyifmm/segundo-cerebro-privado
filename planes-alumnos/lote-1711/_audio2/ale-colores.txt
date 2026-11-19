@@ -1,0 +1,49 @@
+W1118 19:16:54.029000 8732 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+earshot critique: Alessandro - colores de los alimentos - v3 lote (música).mp4 (14.0 s) vs 6 reference films (/Users/luiyi/Videos-Remotion/herramientas/earshot/perfiles/favoritas-luis.json)
+VERDICT: launch-grade - 20 of 23 scored metrics in range (weighted 92%), 0 critical and 0 major issues.
+FIX FIRST (most important first):
+  1. [minor] thin bottom: add a sub layer (sub drop or kick) under reveals, or pick music with real low end (-26.4 dB share, refs -14.0 dB .. -2.2 dB)
+  2. [minor] dull: transients, clicks and typing lack bite; brighten SFX or use brighter recordings (-29.7 dB share, refs -26.0 dB .. -17.2 dB)
+  3. [minor] no air: it sounds muffled or low-bitrate; use full-band recordings (44.1 / 48 kHz, no low-pass) (-33.0 dB share, refs -29.8 dB .. -17.5 dB)
+  tip: no stop-downs: 4 of 7 references drop the sound out for 0.2-1 s right before a big hit; try one before the biggest visual change at 0:08.73
+  tip: voice detected in 100% of windows: duck music 3-6 dB under the voice and keep SFX out of 1-4 kHz while it speaks
+SCORECARD                                      value   ok range                        ref median  status
+  loudness integrated loudness             -14.0 LUFS   -16.0 LUFS .. -9.0 LUFS (web)   -14.3 LUFS  ok
+  loudness true peak                        -1.9 dBTP   <= 0.0 dBTP (decoded lossy)      -0.4 dBTP  ok
+  realness realness (p_real)                     0.94   >= 0.77 (realness model)                    ok
+  music    music presence                        100%   >= 81%                                100%  ok
+  sync     onset on visual events +-100ms        100%   >= 83%                                 92%  ok
+  loudness loudness range                      2.3 LU   1.5 LU .. 7.2 LU                    3.0 LU  ok
+  loudness loudest 3 s above integrated        1.3 LU   1.0 LU .. 4.2 LU                    2.2 LU  ok
+  arc      time to first sound                 0.01 s   <= 0.20 s                           0.04 s  ok
+  ending   dead air at the end                 0.03 s   <= 0.28 s                           0.01 s  ok
+  arc      longest silent gap inside           0.00 s   <= 0.27 s                           0.00 s  ok
+  ending   final moment vs integrated          0.2 LU   -1.1 LU .. 5.0 LU                   1.5 LU  ok
+  density  onset density                      7.35 /s   5.76 /s .. 7.39 /s                 6.58 /s  ok
+  density  salient hit density                1.93 /s   0.61 /s .. 2.42 /s                 1.90 /s  ok
+  arc      opening level (first 10%)           0.8 LU   -2.6 LU .. 3.9 LU                   0.0 LU  ok
+  arc      closing level (last 10%)           -2.6 LU   -3.8 LU .. 2.0 LU                  -1.2 LU  ok
+  ending   final fade / ring-out length        0.19 s   <= 1.24 s                           0.04 s  ok
+  spectrum sub 20-60 Hz share                -26.4 dB   -15.5 dB .. -0.7 dB                -8.2 dB  low (minor)
+  spectrum low 60-250 Hz share                -5.4 dB   -10.3 dB .. -4.3 dB                -7.0 dB  ok
+  spectrum low-mid 250-1k share               -1.9 dB   -10.1 dB .. -0.6 dB                -3.8 dB  ok
+  spectrum mid 1-4 kHz share                 -12.7 dB   -16.4 dB .. -4.6 dB                -8.9 dB  ok
+  spectrum presence 4-8 kHz share            -29.7 dB   -27.5 dB .. -15.7 dB              -19.2 dB  low (minor)
+  spectrum air 8-16 kHz share                -33.0 dB   -31.3 dB .. -16.0 dB              -23.8 dB  low (minor)
+  stereo   stereo width (side vs mid)        -20.0 dB   -23.2 dB .. -6.4 dB               -10.8 dB  ok
+LOUDNESS ARC (LU vs integrated at 0%, 10% .. 100% of the film; not scored):
+  this film      +0.6   +0.4   +0.1   +0.1   +0.1   +0.7   +1.1   +0.1   -1.2   -1.9   -2.7
+  refs median    -0.2   -0.8   +0.6   +0.8   -0.3   -0.5   +0.2   -0.8   -0.8   -0.4   -3.9
+NOT SCORED (style choices, shown for context):
+  voice / speech presence                                          100%   refs p10-p90 89% .. 100%
+  tempo                                                         126 BPM   refs p10-p90 118 BPM .. 142 BPM
+  position of the loudest 3 s                                      0.58   refs p10-p90 0.10 .. 0.41
+  final hit ring-out                                             0.41 s   refs p10-p90 1.62 s .. 3.88 s
+  stop-downs                                                   0.0 /min   refs p10-p90 0.0 /min .. 5.3 /min
+  visual events (cuts, big changes)                             0.64 /s   refs p10-p90 0.36 /s .. 1.50 /s
+  visual events with a salient hit +-100 ms            33% (chance 37%)   refs p10-p90 16% .. 50%
+  visual events with an onset +-1 frame                89% (chance 48%)   refs p10-p90 43% .. 67%
+  visual events on the beat grid +-70 ms               22% (chance 28%)   refs p10-p90 20% .. 42%
+  brightness (median spectral centroid)                         1051 Hz   refs p10-p90 1518 Hz .. 2147 Hz
+  L/R correlation                                                  0.98   refs p10-p90 0.70 .. 0.97
+realness: Alessandro - colores de los alimentos - v3 lote (música).mp4: real or pro-produced (p_real 0.94, mean of 4 4 s windows; file thresholds lo 0.4 / hi 0.77, weak calibration): 0 of 4 windows lean synthesized (p_real < 0.5); mean CLAP head score +2.5. No window leans synthesized (lowest p_real 0.92); that does not rule out a code-made layer under a louder real mix (most are missed): judge the source files and stems.

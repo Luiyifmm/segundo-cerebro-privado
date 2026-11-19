@@ -191,7 +191,7 @@
  "musicas": [
   {
    "archivo": "~/EDICION/editing luiyi pack/Música/Música de fondo (pack)/Empire of the Sun - Walking on a Dream (Instrumental).mp3",
-   "desde": 0,
+   "desde": 63.0,
    "t0": 0
   }
  ],
@@ -199,5 +199,7 @@
   44,
   84
  ],
- "subs_ancho": 840
+ "subs_ancho": 840,
+ "subs_fuente": "sf_med",
+ "ticks_auto": false
 }

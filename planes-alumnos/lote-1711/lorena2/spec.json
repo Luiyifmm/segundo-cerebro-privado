@@ -118,10 +118,22 @@
   {
    "t": 0.02,
    "type": "sub_drop"
+  },
+  {
+   "t": 11.45,
+   "type": "whoosh",
+   "len": 0.4
+  },
+  {
+   "t": 11.6,
+   "type": "hit"
+  },
+  {
+   "t": 11.62,
+   "type": "drop",
+   "g": 0.6
   }
  ],
- "musica": "golden-hour-piano-version.mp3",
- "musica_desde": 0,
  "version": "v3",
  "mg_esquinas": [
   {
@@ -139,5 +151,27 @@
    "blur": 6
   }
  ],
- "mg_deco": "formas"
+ "mg_deco": "formas",
+ "subs_fuente": "sf_med",
+ "stopdowns": [
+  4.45,
+  11.6
+ ],
+ "musicas": [
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Level - The Grey Room _ Density & Time.mp3",
+   "desde": 97.5,
+   "t0": 0,
+   "filtro": "equalizer=f=150:t=q:w=1:g=-3",
+   "db": -4,
+   "cruce": 0.25
+  },
+  {
+   "archivo": "~/EDICION/editing luiyi pack/Música/Level - The Grey Room _ Density & Time.mp3",
+   "desde": 109.1,
+   "t0": 11.6,
+   "filtro": "equalizer=f=150:t=q:w=1:g=-3",
+   "db": 2
+  }
+ ]
 }

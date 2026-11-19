@@ -64,17 +64,22 @@ def b36(n):
     a = '0123456789abcdefghijklmnopqrstuvwxyz'; s = ''
     while n: n, r = divmod(n, 36); s = a[r] + s
     return s
-def subir(vid, mp4, si=False, nota='Versión subida por Claude de Luis (lote).'):
+def subir(vid, mp4, si=False, nota='Versión subida por Claude de Luis (lote).', mantener=False):
     with db() as c: r = c.execute("select v.id, v.cliente_id, v.estado, v.version, v.final, cl.nombre from t10x.videos v join t10x.clientes cl on cl.id=v.cliente_id where v.id=%s", (vid,)).fetchone()
     if not r: print('no existe', vid); return
     clave = f"alumnos/{r['cliente_id']}/{vid}/final-editor-{b36(int(datetime.datetime.now().timestamp() * 1000))}.mp4"; tam = os.path.getsize(mp4)
-    print(f"{r['nombre']} · {vid} · {r['estado']} v{r['version']} -> {'SUBO' if si else 'subiría'} {os.path.basename(mp4)} ({tam / 1e6:.1f} MB) a «revisar» v{r['version'] + 1}")
+    print(f"{r['nombre']} · {vid} · {r['estado']} v{r['version']} -> {'SUBO' if si else 'subiría'} {os.path.basename(mp4)} ({tam / 1e6:.1f} MB) a «{r['estado'] if mantener else 'revisar'}» v{r['version'] + 1}")
     if not si: return
     subprocess.run(['curl', '-sSf', '-X', 'PUT', '-H', 'Content-Type: video/mp4', '-T', mp4, firmar('PUT', clave)], check=True)
     h = subprocess.run(['curl', '-sI', firmar('HEAD', clave, 300)], capture_output=True, text=True).stdout
     lon = int(next((l.split(':')[1] for l in h.splitlines() if l.lower().startswith('content-length')), '0'))
     assert lon == tam, f'tamaño en R2 {lon} != local {tam}: NO actualizo la base de datos'
     ap = json.dumps([{'quien': 'claude-luis', 'que': nota, 'fecha': datetime.datetime.now(datetime.timezone.utc).isoformat()}])
+    if mantener:          # --mantener (Luis 18-11): solo cambia el archivo final y la versión; estado, portada y respuesta quedan igual
+        with db() as c:
+            x = c.execute("""UPDATE t10x.videos SET final=%s, version=version+1, updated_at=now(),
+                historial = coalesce(historial, '[]'::jsonb) || %s::jsonb WHERE id=%s RETURNING estado, version""", (clave, ap, vid)).fetchall()
+        print('  ok', x[0], clave); return
     with db() as c:
         x = c.execute("""UPDATE t10x.videos SET final=%s, portada='', estado='revisar', version=version+1, respuesta=%s, updated_at=now(),
             historial = coalesce(historial, '[]'::jsonb) || %s::jsonb WHERE id=%s RETURNING estado, version""", (clave, nota, ap, vid)).fetchall()
@@ -90,4 +95,4 @@ def subir_lote(ruta, si=False):
 if __name__ == '__main__':
     a = sys.argv[1:]
     {'pendientes': lambda: pendientes(), 'bajar': lambda: bajar(a[1], a[2]), 'final': lambda: final(a[1], a[2]),
-     'subir': lambda: subir(a[1], a[2], '--si' in a), 'subir_lote': lambda: subir_lote(a[1], '--si' in a)}[a[0]]()
+     'subir': lambda: subir(a[1], a[2], '--si' in a, mantener='--mantener' in a), 'subir_lote': lambda: subir_lote(a[1], '--si' in a)}[a[0]]()

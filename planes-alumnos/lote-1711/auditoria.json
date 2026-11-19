@@ -1,6 +1,6 @@
 {
  "fecha": "18-11 v3",
- "intro": "v3 con tu segunda auditoría. Común a todos: motion graphics con decoración de referencia (objetos o formas, viñeta, textura, círculo con glow, órbitas suaves), subtítulos que entran palabra a palabra con sombra y glow en las claves, pacing tras b-roll arreglado, y comprobación automática de caras. Nada subido ni entregado. La v2 sigue en auditoria.v2.html.",
+ "intro": "Los 14 están subidos al dashboard (18-11): los 14 están «entregado» con la versión nueva (María, que estaba en error, entregada el 18-11 por orden de Luis). Aquí quedan para auditar los 4 corregidos (Álvaro «hinchada», María, Carlos #7, Jorge). v3 con tu segunda auditoría. Común a todos: motion graphics con decoración de referencia (objetos o formas, viñeta, textura, círculo con glow, órbitas suaves), subtítulos que entran palabra a palabra con sombra y glow en las claves, pacing tras b-roll arreglado, y comprobación automática de caras. Nada subido ni entregado. La v2 sigue en auditoria.v2.html.",
  "fuera": [
   "Paula Font ×4 («Semana 1 vídeo 1 sin voz»): son los clips sueltos de un vídeo que ya se entregó el 16-11 (otra subida con el mismo título). Propuesta: archivarlos.",
   "Miguel Á. Romero #1 (sketch del marido en el baño): el bruto es el MISMO archivo que el #2 ya entregado (76 441 765 bytes). Falta que suba el sketch de verdad.",
@@ -13,7 +13,7 @@
    "clave": "alessandro-col",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Qué comer y cada cuánto",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "32.5 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjr0dgk3rrbwxc3",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - qué comer y cada cuánto - v3 lote (música).mp4",
    "hoja": "alessandro-col/hoja.jpg",
@@ -23,11 +23,16 @@
      "zona": "Cara",
      "que": "El menú baja al pecho; la cara queda libre.",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/alessandro-col.mp4",
    "panel": {
@@ -48,12 +53,27 @@
    "clave": "alvaro4",
    "alumno": "Álvaro Cabrera",
    "titulo": "Si te sientes hinchada",
-   "estado": "v3",
+   "estado": "v3.1 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "49.8 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjouppp1f7pmdon",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - si te sientes hinchada - v3 lote (música).mp4",
    "hoja": "alvaro4/hoja.jpg",
    "pedido": "Ya cortado (córtalo más si hace falta); subtítulos dinámicos no aburridos; música acorde; SFX puntuales; transiciones; título del gancho; motion graphics para más estímulos.",
    "decisiones": [
+    {
+     "zona": "Píldoras",
+     "que": "«Ultraprocesados / Poca agua / Saltarse comidas» salen detrás de su cabeza y, al entrar el b-roll, pasan delante y bajan al degradado.",
+     "porque": ""
+    },
+    {
+     "zona": "B-roll",
+     "que": "Subtítulos pequeños y minimalistas arriba mientras dura cada b-roll.",
+     "porque": ""
+    },
+    {
+     "zona": "Médico",
+     "que": "Píldora nueva: «Puedes tener otros problemas digestivos».",
+     "porque": ""
+    },
     {
      "zona": "Mensaje",
      "que": "Ahora son burbujas de Instagram (sin tarjeta de cristal), con «escribiendo…».",
@@ -68,11 +88,16 @@
      "zona": "Lista",
      "que": "Ultraprocesados y agua con emojis, detrás de él.",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (95 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/alvaro4.mp4",
    "panel": {
@@ -93,12 +118,22 @@
    "clave": "maria4",
    "alumno": "María Morales García",
    "titulo": "Entrevista en la calle",
-   "estado": "v3",
+   "estado": "v3.1 · SUBIDO y ENTREGADO 18-11",
    "meta": "53.5 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwif2pvezkk5quo0",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/María Morales García/María - entrevista en la calle - v3 lote (música).mp4",
    "hoja": "maria4/hoja.jpg",
    "pedido": "Guion #4: la amiga entrevista a María (de dependienta con 600 € a mamá con −15 kg); moraleja a cámara y CTA «CAMBIO».",
    "decisiones": [
+    {
+     "zona": "Móvil a las 9",
+     "que": "La imagen de la cama sube para que se vea el reloj 21:00 sobre las píldoras.",
+     "porque": ""
+    },
+    {
+     "zona": "−6 kg",
+     "que": "Sonido de subrayado y bass drop.",
+     "porque": ""
+    },
     {
      "zona": "B-roll",
      "que": "Discoteca en «por la noche bailando»; cena de noche y cama con reloj a las 21:00 en el plan; cardio, sin alcohol y sin azúcar con su b-roll.",
@@ -113,11 +148,16 @@
      "zona": "Sonido",
      "que": "Riser en «de hecho, yo tampoco la tenía»; música optimista («Way Back Home») desde «lo que necesitas es tener un plan».",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (97 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/maria4.mp4",
    "panel": {
@@ -143,7 +183,7 @@
    "clave": "marc",
    "alumno": "Marc Martínez García (Marc)",
    "titulo": "Abdominales y dolor de espalda",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "49.7 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwg33oqwmoj19wry",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Marc Martínez García (Marc)/Marc - abdominales y dolor de espalda - v3 lote (música).mp4",
    "hoja": "marc/hoja.jpg",
@@ -173,11 +213,16 @@
      "zona": "Solapes",
      "que": "Los temporizadores van en el título de cada ejercicio («Ejercicio 2 · 5 s por lado»); las píldoras pasan a la derecha para no tocar su cabeza (el control de caras lo detectó).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/marc.mp4",
    "panel": {
@@ -198,7 +243,7 @@
    "clave": "lorena1",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · thrusters",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "15.0 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwcoumiq6zzm2a3y",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados thrusters - v3 lote (música).mp4",
    "hoja": "lorena1/hoja.jpg",
@@ -213,11 +258,16 @@
      "zona": "Cara",
      "que": "El CTA y el texto final bajan: el CTA tapaba su cara (el control de caras lo detectó).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: cerca (82 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/lorena1.mp4",
    "panel": {
@@ -238,7 +288,7 @@
    "clave": "lorena2",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · elevaciones",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "15.0 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwcoxbttpsi7xljm",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados elevaciones - v3 lote (música).mp4",
    "hoja": "lorena2/hoja.jpg",
@@ -253,11 +303,16 @@
      "zona": "Corte",
      "que": "Entre motion graphics seguidos, corte directo (antes asomaba ella un instante).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: cerca (85 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/lorena2.mp4",
    "panel": {
@@ -278,7 +333,7 @@
    "clave": "lorena3",
    "alumno": "Lorena Castaño (Lore)",
    "titulo": "Abogados · saltos al cajón",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "15.0 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwcozthjfsdqm1sn",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Lorena Castaño (Lore)/Lorena - abogados saltos - v3 lote (música).mp4",
    "hoja": "lorena3/hoja.jpg",
@@ -298,11 +353,16 @@
      "zona": "Corte",
      "que": "Entre motion graphics seguidos, corte directo (antes asomaba ella un instante).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: cerca (82 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/lorena3.mp4",
    "panel": {
@@ -323,7 +383,7 @@
    "clave": "alvaro3",
    "alumno": "Álvaro Cabrera",
    "titulo": "Comer esto o esto",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "35.0 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjpzvk8434piive",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Álvaro Cabrera/Álvaro - comer esto o esto - v3 lote (música).mp4",
    "hoja": "alvaro3/hoja.jpg",
@@ -343,12 +403,17 @@
      "zona": "Rótulo",
      "que": "«que lo dejas» a la derecha, VUELVES resaltado en el centro, «al de» en cursiva + ANTES resaltado.",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
     "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
-    "Los platos que vuelan en 2,2 s y 10,9 s vienen montados en el bruto: sin el vídeo original no se pueden quitar."
+    "Los platos que vuelan en 2,2 s y 10,9 s vienen montados en el bruto: sin el vídeo original no se pueden quitar.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/alvaro3.mp4",
    "panel": {
@@ -369,7 +434,7 @@
    "clave": "ale-colores",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Colores de los alimentos",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "14.0 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjrnsx6smtzgb5f",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - colores de los alimentos - v3 lote (música).mp4",
    "hoja": "ale-colores/hoja.jpg",
@@ -379,11 +444,16 @@
      "zona": "Color",
      "que": "Él dice «el morado» también para el grupo amarillo: quité el «sangre.» repetido, titulé ese panel «DIGESTIÓN» y quité el subtítulo de esa frase.",
      "porque": "Lo ideal: que regrabe esa frase."
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/ale-colores.mp4",
    "panel": {
@@ -404,7 +474,7 @@
    "clave": "ale-picoteos",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Picoteos de Mercadona",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "39.2 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjrr7jwxwqckdzy",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - picoteos de Mercadona - v3 lote (música).mp4",
    "hoja": "ale-picoteos/hoja.jpg",
@@ -424,11 +494,16 @@
      "zona": "Cara",
      "que": "Los alimentos rodean la cara al volar a su columna (antes la cruzaban).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (97 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/ale-picoteos.mp4",
    "panel": {
@@ -449,7 +524,7 @@
    "clave": "ale-mercadona",
    "alumno": "Alessandro Martin Afonso",
    "titulo": "Quesos de Mercadona ¿engorda o adelgaza?",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "13.8 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwjr3evgnmlkk47l",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Alessandro Martin Afonso/Alessandro - Mercadona engorda o adelgaza - v3 lote (música).mp4",
    "hoja": "ale-mercadona/hoja.jpg",
@@ -464,11 +539,16 @@
      "zona": "Cara",
      "que": "Los quesos rodean la cara al volar a su columna (antes la cruzaban).",
      "porque": ""
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/ale-mercadona.mp4",
    "panel": {
@@ -489,12 +569,17 @@
    "clave": "carlos7",
    "alumno": "Carlos López Segura",
    "titulo": "#7 Desayuno proteico en 5 minutos",
-   "estado": "v3",
+   "estado": "v3.1 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "38.6 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwl5hdz83ens5cxh",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - desayuno proteico en 5 minutos - v3 lote (música).mp4",
    "hoja": "carlos7/hoja.jpg",
    "pedido": "Guion: gancho «X g de proteína en 5 minutos», receta paso a paso, plato terminado, moraleja y CTA. Su nota: lo grabó por clips porque se liaba; «si no queda natural lo repito sin problemas».",
    "decisiones": [
+    {
+     "zona": "Lobos",
+     "que": "Riser antes de que entre la escena y bass al aparecer; luego vuelve normal.",
+     "porque": ""
+    },
     {
      "zona": "Gancho",
      "que": "Falso zoom a la cara (zoom con desenfoque y corte a un plano más cerrado, cara a la derecha) y «32 / gramos» a la izquierda; en «5 minutos», otro falso zoom más suave al móvil con recuadro y el resto en blanco y negro, sin subtítulos. Mientras sale el móvil, «32» a un lado de la cara y «gr» al otro.",
@@ -519,11 +604,17 @@
      "zona": "Música",
      "que": "«Montagem Bandido» (instrumental), más viral.",
      "porque": "Elegido por tendencia, no medido contra referencias."
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: cerca (90 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos.",
+    "Audio «cerca» (90 %): el riser que pediste antes de los lobos rellena el stop-down; es elección de estilo."
    ],
    "video_local": "videos/carlos7.mp4",
    "panel": {
@@ -549,7 +640,7 @@
    "clave": "carlos10",
    "alumno": "Carlos López Segura",
    "titulo": "#10 3 errores por los que no bajas la barriga",
-   "estado": "v3",
+   "estado": "v3 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "56.9 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwl5jrup90lrue1o",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Carlos López Segura/Carlos - 3 errores por los que no bajas la barriga - v3 lote (música).mp4",
    "hoja": "carlos10/hoja.jpg",
@@ -559,12 +650,17 @@
      "zona": "Motion",
      "que": "Estilo «objetos» (mancuerna y plato en esquinas, B/N, tela).",
      "porque": "Sin correcciones tuyas en esta ronda."
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (92 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
     "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
-    "El calendario semanal del finde sigue con mucho blanco y celdas pequeñas: mejorable."
+    "El calendario semanal del finde sigue con mucho blanco y celdas pequeñas: mejorable.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/carlos10.mp4",
    "panel": {
@@ -590,12 +686,17 @@
    "clave": "jorge",
    "alumno": "Jorge Robledo",
    "titulo": "Mi trabajo va más lejos de una dieta y un entrenamiento",
-   "estado": "v3 · rehecho con análisis",
+   "estado": "v3.1 · SUBIDO al dashboard (entregado) 18-11",
    "meta": "51.4 s · −14 LUFS · v3 18-11 · 0 caras tapadas · vídeo mwkk9hgwdyuo0mq0",
    "video": "~/EDICION/3 PROYECTOS/Alumnos Trainer10x/MEDIA/Jorge Robledo/Jorge - mi trabajo va más lejos de una dieta - v3 lote (música).mp4",
    "hoja": "jorge/hoja.jpg",
    "pedido": "«Creo que me repito en algunas partes; si es así elimina las partes repetidas. Necesita cortes en las transiciones, todavía no ha empezado a hablar».",
    "decisiones": [
+    {
+     "zona": "Subtítulos",
+     "que": "Subtítulos siempre que habla: debajo de los rótulos y, en el chat y los b-roll, pequeños arriba.",
+     "porque": ""
+    },
     {
      "zona": "Qué transmite",
      "que": "Un plan gratis o de ChatGPT te da instrucciones; nadie te ajusta, te acompaña ni te enseña. Con Jorge: resultados que duran y aprender a hacerlo solo. Emoción buscada: identificación (probé planes gratis y me estanqué) → deseo (resultados que duran, autonomía).",
@@ -635,11 +736,16 @@
      "zona": "Promesa",
      "que": "«yo no me limito a / ENTREGAR TU PLAN» con golpe; b-roll entrenador y cliente revisando el progreso («Resultados que duran») y mujer cocinando sola («Aprendes a hacerlo solo»); cierre «De eso trata UNA ASESORÍA, no un plan y una dieta».",
      "porque": "Función: deseo + autoridad."
+    },
+    {
+     "zona": "Audio",
+     "que": "Escuchado con earshot contra tus 6 favoritas: al nivel de tus favoritas (97 %). Música que se aparta sola bajo la voz, sonido en cada corte, grave en las revelaciones, stop-down antes del momento fuerte, voz más brillante, final con remate.",
+     "porque": "Pedido: «arreglemos el audio»."
     }
    ],
    "no_verificado": [
-    "No oído con oídos humanos: niveles medidos, música y efectos elegidos por medida.",
-    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos."
+    "Caras: comprobadas con el paso «caras» (Vision); el resultado va en «No comprobado» si hubo avisos.",
+    "Audio medido con earshot (perfil de tus favoritas), no escuchado con oídos humanos."
    ],
    "video_local": "videos/jorge.mp4",
    "panel": {
